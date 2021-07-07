@@ -126,8 +126,8 @@
   },
   "manual/index.html": {
     "href": "manual/index.html",
-    "title": "Overview | Animation Library",
-    "keywords": "Overview The Animation Library package contains assets and scripts for animating Unity objects. Animation behaviors include Blink, FollowPath, Move, Orbit, Rotate, Scale, SmoothFollow, SmoothLookAt, and more. The package also contains several animation-related data structures and predefined avatar masks. Behaviors AnimatedSprite Blink FollowPath Move Orbit Rotate RotateAround Scale SmoothFollow SmoothLookAt Data Structures AnimatorParameter Timing Timing01 TimingRange TimingRange01 Vector2AnimationCurve Vector3AnimationCurve Vector4AnimationCurve"
+    "title": "Animation Library | Animation Library",
+    "keywords": "Animation Library The Animation Library package contains assets and scripts for animating Unity objects. Animation behaviors include Blink, FollowPath, Move, Orbit, Rotate, Scale, SmoothFollow, SmoothLookAt, and more. The package also contains several animation-related data structures and predefined avatar masks. Behaviors AnimatedSprite Blink FollowPath Move Orbit Rotate RotateAround Scale SmoothFollow SmoothLookAt Data Structures AnimatorParameter Timing Timing01 TimingRange TimingRange01 Vector2AnimationCurve Vector3AnimationCurve Vector4AnimationCurve"
   },
   "manual/installation.html": {
     "href": "manual/installation.html",
