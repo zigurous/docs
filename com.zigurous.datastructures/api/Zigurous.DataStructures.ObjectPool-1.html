@@ -1,0 +1,466 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ObjectPool&lt;T&gt;
+   | Data Structures </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ObjectPool&lt;T&gt;
+   | Data Structures ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search">
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <div id="breadcrumb_placeholder">
+              <ul class="level1 breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <article class="content wrap" id="_content" data-uid="Zigurous.DataStructures.ObjectPool`1">
+  
+  <h1 id="Zigurous_DataStructures_ObjectPool_1" data-uid="Zigurous.DataStructures.ObjectPool`1" class="text-break">Class ObjectPool&lt;T&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Reuses objects from a shared pool to prevent instantiating new objects.
+The object pool can have a set capacity or it can grow in size.
+Optionally, objects that are currently active can be reused when the
+pool has reached capacity.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ObjectPool&lt;T&gt;</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Zigurous.DataStructures.IObjectPool-1.html">IObjectPool</a>&lt;T&gt;</div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.DataStructures.html">Zigurous.DataStructures</a></h6>
+  <h5 id="Zigurous_DataStructures_ObjectPool_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class ObjectPool&lt;T&gt; : IObjectPool&lt;T&gt;, IDisposable where T : class</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="Zigurous_DataStructures_ObjectPool_1__ctor_" data-uid="Zigurous.DataStructures.ObjectPool`1.#ctor*"></a>
+  <h4 id="Zigurous_DataStructures_ObjectPool_1__ctor_System_Int32_" data-uid="Zigurous.DataStructures.ObjectPool`1.#ctor(System.Int32)">ObjectPool(Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates a new ObjectPool with an initial capacity. New objects are
+created as needed using the object type default value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObjectPool(int initialCapacity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">initialCapacity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_DataStructures_ObjectPool_1__ctor_" data-uid="Zigurous.DataStructures.ObjectPool`1.#ctor*"></a>
+  <h4 id="Zigurous_DataStructures_ObjectPool_1__ctor_System_Int32_System_Int32_System_Boolean_" data-uid="Zigurous.DataStructures.ObjectPool`1.#ctor(System.Int32,System.Int32,System.Boolean)">ObjectPool(Int32, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates a new ObjectPool with an initial capacity and max capacity.
+Optionally active objects can be reused when the pool has reached
+max capacity. New objects are created as needed using the object
+type default value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObjectPool(int initialCapacity, int maxCapacity, bool reuseActive = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">initialCapacity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxCapacity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reuseActive</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_DataStructures_ObjectPool_1__ctor_" data-uid="Zigurous.DataStructures.ObjectPool`1.#ctor*"></a>
+  <h4 id="Zigurous_DataStructures_ObjectPool_1__ctor_Zigurous_DataStructures_ObjectPool__0__Generator_System_Int32_" data-uid="Zigurous.DataStructures.ObjectPool`1.#ctor(Zigurous.DataStructures.ObjectPool{`0}.Generator,System.Int32)">ObjectPool(ObjectPool&lt;T&gt;.Generator, Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates a new ObjectPool with a given generator function and initial
+capacity. New objects are created as needed with no max capacity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObjectPool(ObjectPool&lt;T&gt;.Generator generator, int initialCapacity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Zigurous.DataStructures.ObjectPool-1.Generator.html">ObjectPool.Generator</a>&lt;&gt;</td>
+        <td><span class="parametername">generator</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">initialCapacity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_DataStructures_ObjectPool_1__ctor_" data-uid="Zigurous.DataStructures.ObjectPool`1.#ctor*"></a>
+  <h4 id="Zigurous_DataStructures_ObjectPool_1__ctor_Zigurous_DataStructures_ObjectPool__0__Generator_System_Int32_System_Int32_System_Boolean_" data-uid="Zigurous.DataStructures.ObjectPool`1.#ctor(Zigurous.DataStructures.ObjectPool{`0}.Generator,System.Int32,System.Int32,System.Boolean)">ObjectPool(ObjectPool&lt;T&gt;.Generator, Int32, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates a new ObjectPool with a given generator function and set
+capacity limits. Optionally active objects can be reused when the
+pool has reached max capacity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObjectPool(ObjectPool&lt;T&gt;.Generator generator, int initialCapacity, int maxCapacity, bool reuseActive = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Zigurous.DataStructures.ObjectPool-1.Generator.html">ObjectPool.Generator</a>&lt;&gt;</td>
+        <td><span class="parametername">generator</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">initialCapacity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxCapacity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reuseActive</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="Zigurous_DataStructures_ObjectPool_1_ActiveCount_" data-uid="Zigurous.DataStructures.ObjectPool`1.ActiveCount*"></a>
+  <h4 id="Zigurous_DataStructures_ObjectPool_1_ActiveCount" data-uid="Zigurous.DataStructures.ObjectPool`1.ActiveCount">ActiveCount</h4>
+  <div class="markdown level1 summary"><p>The number of objects currently being used.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ActiveCount { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_ObjectPool_1_AvailableCount_" data-uid="Zigurous.DataStructures.ObjectPool`1.AvailableCount*"></a>
+  <h4 id="Zigurous_DataStructures_ObjectPool_1_AvailableCount" data-uid="Zigurous.DataStructures.ObjectPool`1.AvailableCount">AvailableCount</h4>
+  <div class="markdown level1 summary"><p>The number of objects available to be reused.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AvailableCount { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_ObjectPool_1_maxCapacity_" data-uid="Zigurous.DataStructures.ObjectPool`1.maxCapacity*"></a>
+  <h4 id="Zigurous_DataStructures_ObjectPool_1_maxCapacity" data-uid="Zigurous.DataStructures.ObjectPool`1.maxCapacity">maxCapacity</h4>
+  <div class="markdown level1 summary"><p>The maximum number of objects that can be generated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int maxCapacity { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_ObjectPool_1_reuseActive_" data-uid="Zigurous.DataStructures.ObjectPool`1.reuseActive*"></a>
+  <h4 id="Zigurous_DataStructures_ObjectPool_1_reuseActive" data-uid="Zigurous.DataStructures.ObjectPool`1.reuseActive">reuseActive</h4>
+  <div class="markdown level1 summary"><p>Whether active objects should be reused when the object pool has
+reached capacity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool reuseActive { get; }</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="Zigurous_DataStructures_ObjectPool_1_Dispose_" data-uid="Zigurous.DataStructures.ObjectPool`1.Dispose*"></a>
+  <h4 id="Zigurous_DataStructures_ObjectPool_1_Dispose" data-uid="Zigurous.DataStructures.ObjectPool`1.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"><p>Disposes of all class resources.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_ObjectPool_1_Dispose_" data-uid="Zigurous.DataStructures.ObjectPool`1.Dispose*"></a>
+  <h4 id="Zigurous_DataStructures_ObjectPool_1_Dispose_System_Action__0__" data-uid="Zigurous.DataStructures.ObjectPool`1.Dispose(System.Action{`0})">Dispose(Action&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Disposes of all class resources and invokes a cleanup function on
+each object in the pool. This is useful, for example, if you want to
+destroy the objects when the pool is disposed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose(Action&lt;T&gt; cleanup)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
+        <td><span class="parametername">cleanup</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_DataStructures_ObjectPool_1_Empty_" data-uid="Zigurous.DataStructures.ObjectPool`1.Empty*"></a>
+  <h4 id="Zigurous_DataStructures_ObjectPool_1_Empty" data-uid="Zigurous.DataStructures.ObjectPool`1.Empty">Empty()</h4>
+  <div class="markdown level1 summary"><p>Empties the object pool of all objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Empty()</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_ObjectPool_1_Empty_" data-uid="Zigurous.DataStructures.ObjectPool`1.Empty*"></a>
+  <h4 id="Zigurous_DataStructures_ObjectPool_1_Empty_System_Action__0__" data-uid="Zigurous.DataStructures.ObjectPool`1.Empty(System.Action{`0})">Empty(Action&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Empties the object pool of all objects and invokes a cleanup
+function on each object. This is useful, for example, if you want to
+destroy the objects when the pool is emptied.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Empty(Action&lt;T&gt; cleanup)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
+        <td><span class="parametername">cleanup</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_DataStructures_ObjectPool_1_Recycle_" data-uid="Zigurous.DataStructures.ObjectPool`1.Recycle*"></a>
+  <h4 id="Zigurous_DataStructures_ObjectPool_1_Recycle__0_" data-uid="Zigurous.DataStructures.ObjectPool`1.Recycle(`0)">Recycle(T)</h4>
+  <div class="markdown level1 summary"><p>Adds an item back to the object pool so it can be reused.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Recycle(T item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_DataStructures_ObjectPool_1_Retrieve_" data-uid="Zigurous.DataStructures.ObjectPool`1.Retrieve*"></a>
+  <h4 id="Zigurous_DataStructures_ObjectPool_1_Retrieve" data-uid="Zigurous.DataStructures.ObjectPool`1.Retrieve">Retrieve()</h4>
+  <div class="markdown level1 summary"><p>Retrieves an item from the object pool. If there are no available
+objects in the pool, either a new object will be generated or the
+oldest object will be reused depending upon how the ObjectPool was
+created.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T Retrieve()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Zigurous.DataStructures.IObjectPool-1.html">IObjectPool&lt;T&gt;</a>
+  </div>
+</article>
+          </div>
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <ul class="level1 nav bs-docs-sidenav"></ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Generated by <b>DocFX</b><br>Copyright © 2021 Zigurous
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

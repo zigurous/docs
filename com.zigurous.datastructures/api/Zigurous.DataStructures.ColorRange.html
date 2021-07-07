@@ -1,0 +1,380 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct ColorRange
+   | Data Structures </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct ColorRange
+   | Data Structures ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search">
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <div id="breadcrumb_placeholder">
+              <ul class="level1 breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <article class="content wrap" id="_content" data-uid="Zigurous.DataStructures.ColorRange">
+  
+  <h1 id="Zigurous_DataStructures_ColorRange" data-uid="Zigurous.DataStructures.ColorRange" class="text-break">Struct ColorRange
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Zigurous.DataStructures.INumberRange-1.html">INumberRange</a>&lt;<span class="xref">Color</span>&gt;</div>
+    <div><a class="xref" href="Zigurous.DataStructures.IRange-1.html">IRange</a>&lt;<span class="xref">Color</span>&gt;</div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.DataStructures.html">Zigurous.DataStructures</a></h6>
+  <h5 id="Zigurous_DataStructures_ColorRange_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public struct ColorRange : INumberRange&lt;Color&gt;, IRange&lt;Color&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="Zigurous_DataStructures_ColorRange__ctor_" data-uid="Zigurous.DataStructures.ColorRange.#ctor*"></a>
+  <h4 id="Zigurous_DataStructures_ColorRange__ctor_Color_Color_" data-uid="Zigurous.DataStructures.ColorRange.#ctor(Color,Color)">ColorRange(Color, Color)</h4>
+  <div class="markdown level1 summary"><p>Creates a new ColorRange with given min and max colors.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ColorRange(Color min, Color max)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td><span class="parametername">min</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td><span class="parametername">max</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="Zigurous_DataStructures_ColorRange_black_" data-uid="Zigurous.DataStructures.ColorRange.black*"></a>
+  <h4 id="Zigurous_DataStructures_ColorRange_black" data-uid="Zigurous.DataStructures.ColorRange.black">black</h4>
+  <div class="markdown level1 summary"><p>Shorthand for writing ColorRange(Color.black, Color.black).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ColorRange black { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_ColorRange_blackToWhite_" data-uid="Zigurous.DataStructures.ColorRange.blackToWhite*"></a>
+  <h4 id="Zigurous_DataStructures_ColorRange_blackToWhite" data-uid="Zigurous.DataStructures.ColorRange.blackToWhite">blackToWhite</h4>
+  <div class="markdown level1 summary"><p>Shorthand for writing ColorRange(Color.black, Color.white).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ColorRange blackToWhite { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_ColorRange_Delta_" data-uid="Zigurous.DataStructures.ColorRange.Delta*"></a>
+  <h4 id="Zigurous_DataStructures_ColorRange_Delta" data-uid="Zigurous.DataStructures.ColorRange.Delta">Delta</h4>
+  <div class="markdown level1 summary"><p>The difference between the range min and max.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Color Delta { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_ColorRange_fadeIn_" data-uid="Zigurous.DataStructures.ColorRange.fadeIn*"></a>
+  <h4 id="Zigurous_DataStructures_ColorRange_fadeIn" data-uid="Zigurous.DataStructures.ColorRange.fadeIn">fadeIn</h4>
+  <div class="markdown level1 summary"><p>Shorthand for writing ColorRange(Color(0,0,0,0), Color(0,0,0,1)).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ColorRange fadeIn { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_ColorRange_fadeOut_" data-uid="Zigurous.DataStructures.ColorRange.fadeOut*"></a>
+  <h4 id="Zigurous_DataStructures_ColorRange_fadeOut" data-uid="Zigurous.DataStructures.ColorRange.fadeOut">fadeOut</h4>
+  <div class="markdown level1 summary"><p>Shorthand for writing ColorRange(Color(0,0,0,1), Color(0,0,0,0)).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ColorRange fadeOut { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_ColorRange_max_" data-uid="Zigurous.DataStructures.ColorRange.max*"></a>
+  <h4 id="Zigurous_DataStructures_ColorRange_max" data-uid="Zigurous.DataStructures.ColorRange.max">max</h4>
+  <div class="markdown level1 summary"><p>The upper bound of the range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color max { get; set; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_ColorRange_Median_" data-uid="Zigurous.DataStructures.ColorRange.Median*"></a>
+  <h4 id="Zigurous_DataStructures_ColorRange_Median" data-uid="Zigurous.DataStructures.ColorRange.Median">Median</h4>
+  <div class="markdown level1 summary"><p>The color in the middle of the range min and max.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Color Median { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_ColorRange_min_" data-uid="Zigurous.DataStructures.ColorRange.min*"></a>
+  <h4 id="Zigurous_DataStructures_ColorRange_min" data-uid="Zigurous.DataStructures.ColorRange.min">min</h4>
+  <div class="markdown level1 summary"><p>The lower bound of the range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color min { get; set; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_ColorRange_transparent_" data-uid="Zigurous.DataStructures.ColorRange.transparent*"></a>
+  <h4 id="Zigurous_DataStructures_ColorRange_transparent" data-uid="Zigurous.DataStructures.ColorRange.transparent">transparent</h4>
+  <div class="markdown level1 summary"><p>Shorthand for writing ColorRange(Color(0,0,0,0), Color(0,0,0,0)).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ColorRange transparent { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_ColorRange_white_" data-uid="Zigurous.DataStructures.ColorRange.white*"></a>
+  <h4 id="Zigurous_DataStructures_ColorRange_white" data-uid="Zigurous.DataStructures.ColorRange.white">white</h4>
+  <div class="markdown level1 summary"><p>Shorthand for writing ColorRange(Color.white, Color.white).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ColorRange white { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_ColorRange_whiteToBlack_" data-uid="Zigurous.DataStructures.ColorRange.whiteToBlack*"></a>
+  <h4 id="Zigurous_DataStructures_ColorRange_whiteToBlack" data-uid="Zigurous.DataStructures.ColorRange.whiteToBlack">whiteToBlack</h4>
+  <div class="markdown level1 summary"><p>Shorthand for writing ColorRange(Color.black, Color.white).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ColorRange whiteToBlack { get; }</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="Zigurous_DataStructures_ColorRange_Clamp_" data-uid="Zigurous.DataStructures.ColorRange.Clamp*"></a>
+  <h4 id="Zigurous_DataStructures_ColorRange_Clamp_Color_" data-uid="Zigurous.DataStructures.ColorRange.Clamp(Color)">Clamp(Color)</h4>
+  <div class="markdown level1 summary"><p>Clamps the given color between the range min and max.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color Clamp(Color value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_DataStructures_ColorRange_Includes_" data-uid="Zigurous.DataStructures.ColorRange.Includes*"></a>
+  <h4 id="Zigurous_DataStructures_ColorRange_Includes_Color_" data-uid="Zigurous.DataStructures.ColorRange.Includes(Color)">Includes(Color)</h4>
+  <div class="markdown level1 summary"><p>Determines if the given color is between the range min [inclusive]
+and max [inclusive].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Includes(Color value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_DataStructures_ColorRange_Random_" data-uid="Zigurous.DataStructures.ColorRange.Random*"></a>
+  <h4 id="Zigurous_DataStructures_ColorRange_Random" data-uid="Zigurous.DataStructures.ColorRange.Random">Random()</h4>
+  <div class="markdown level1 summary"><p>Returns a random color between the range min [inclusive] and max
+[inclusive].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color Random()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Zigurous.DataStructures.INumberRange-1.html">INumberRange&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="Zigurous.DataStructures.IRange-1.html">IRange&lt;T&gt;</a>
+  </div>
+</article>
+          </div>
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <ul class="level1 nav bs-docs-sidenav"></ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Generated by <b>DocFX</b><br>Copyright © 2021 Zigurous
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

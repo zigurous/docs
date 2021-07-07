@@ -1,0 +1,622 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct Size
+   | Data Structures </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct Size
+   | Data Structures ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search">
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <div id="breadcrumb_placeholder">
+              <ul class="level1 breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <article class="content wrap" id="_content" data-uid="Zigurous.DataStructures.Size">
+  
+  <h1 id="Zigurous_DataStructures_Size" data-uid="Zigurous.DataStructures.Size" class="text-break">Struct Size
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.DataStructures.html">Zigurous.DataStructures</a></h6>
+  <h5 id="Zigurous_DataStructures_Size_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public struct Size : IEquatable&lt;Size&gt;, IComparable&lt;Size&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="Zigurous_DataStructures_Size__ctor_" data-uid="Zigurous.DataStructures.Size.#ctor*"></a>
+  <h4 id="Zigurous_DataStructures_Size__ctor_System_Int32_" data-uid="Zigurous.DataStructures.Size.#ctor(System.Int32)">Size(Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates a new Size with uniform width and height.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Size(int size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">size</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_DataStructures_Size__ctor_" data-uid="Zigurous.DataStructures.Size.#ctor*"></a>
+  <h4 id="Zigurous_DataStructures_Size__ctor_System_Int32_System_Int32_" data-uid="Zigurous.DataStructures.Size.#ctor(System.Int32,System.Int32)">Size(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates a new Size of given width and height.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Size(int width = 0, int height = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <h4 id="Zigurous_DataStructures_Size_height" data-uid="Zigurous.DataStructures.Size.height">height</h4>
+  <div class="markdown level1 summary"><p>The height of the entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int height</code></pre>
+  </div>
+  <h4 id="Zigurous_DataStructures_Size_width" data-uid="Zigurous.DataStructures.Size.width">width</h4>
+  <div class="markdown level1 summary"><p>The width of the entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int width</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="Zigurous_DataStructures_Size_Area_" data-uid="Zigurous.DataStructures.Size.Area*"></a>
+  <h4 id="Zigurous_DataStructures_Size_Area" data-uid="Zigurous.DataStructures.Size.Area">Area</h4>
+  <div class="markdown level1 summary"><p>Calculates the area (width * height).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly int Area { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_Size_max_" data-uid="Zigurous.DataStructures.Size.max*"></a>
+  <h4 id="Zigurous_DataStructures_Size_max" data-uid="Zigurous.DataStructures.Size.max">max</h4>
+  <div class="markdown level1 summary"><p>Shorthand for writing Size(int.MaxValue, int.MaxValue).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Size max { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_Size_one_" data-uid="Zigurous.DataStructures.Size.one*"></a>
+  <h4 id="Zigurous_DataStructures_Size_one" data-uid="Zigurous.DataStructures.Size.one">one</h4>
+  <div class="markdown level1 summary"><p>Shorthand for writing Size(1, 1).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Size one { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_Size_sq1024_" data-uid="Zigurous.DataStructures.Size.sq1024*"></a>
+  <h4 id="Zigurous_DataStructures_Size_sq1024" data-uid="Zigurous.DataStructures.Size.sq1024">sq1024</h4>
+  <div class="markdown level1 summary"><p>Shorthand for writing Size(1024).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Size sq1024 { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_Size_sq128_" data-uid="Zigurous.DataStructures.Size.sq128*"></a>
+  <h4 id="Zigurous_DataStructures_Size_sq128" data-uid="Zigurous.DataStructures.Size.sq128">sq128</h4>
+  <div class="markdown level1 summary"><p>Shorthand for writing Size(128).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Size sq128 { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_Size_sq16_" data-uid="Zigurous.DataStructures.Size.sq16*"></a>
+  <h4 id="Zigurous_DataStructures_Size_sq16" data-uid="Zigurous.DataStructures.Size.sq16">sq16</h4>
+  <div class="markdown level1 summary"><p>Shorthand for writing Size(16).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Size sq16 { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_Size_sq2_" data-uid="Zigurous.DataStructures.Size.sq2*"></a>
+  <h4 id="Zigurous_DataStructures_Size_sq2" data-uid="Zigurous.DataStructures.Size.sq2">sq2</h4>
+  <div class="markdown level1 summary"><p>Shorthand for writing Size(2).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Size sq2 { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_Size_sq2048_" data-uid="Zigurous.DataStructures.Size.sq2048*"></a>
+  <h4 id="Zigurous_DataStructures_Size_sq2048" data-uid="Zigurous.DataStructures.Size.sq2048">sq2048</h4>
+  <div class="markdown level1 summary"><p>Shorthand for writing Size(2048).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Size sq2048 { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_Size_sq256_" data-uid="Zigurous.DataStructures.Size.sq256*"></a>
+  <h4 id="Zigurous_DataStructures_Size_sq256" data-uid="Zigurous.DataStructures.Size.sq256">sq256</h4>
+  <div class="markdown level1 summary"><p>Shorthand for writing Size(256).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Size sq256 { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_Size_sq32_" data-uid="Zigurous.DataStructures.Size.sq32*"></a>
+  <h4 id="Zigurous_DataStructures_Size_sq32" data-uid="Zigurous.DataStructures.Size.sq32">sq32</h4>
+  <div class="markdown level1 summary"><p>Shorthand for writing Size(32).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Size sq32 { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_Size_sq4_" data-uid="Zigurous.DataStructures.Size.sq4*"></a>
+  <h4 id="Zigurous_DataStructures_Size_sq4" data-uid="Zigurous.DataStructures.Size.sq4">sq4</h4>
+  <div class="markdown level1 summary"><p>Shorthand for writing Size(4).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Size sq4 { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_Size_sq4096_" data-uid="Zigurous.DataStructures.Size.sq4096*"></a>
+  <h4 id="Zigurous_DataStructures_Size_sq4096" data-uid="Zigurous.DataStructures.Size.sq4096">sq4096</h4>
+  <div class="markdown level1 summary"><p>Shorthand for writing Size(4096).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Size sq4096 { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_Size_sq512_" data-uid="Zigurous.DataStructures.Size.sq512*"></a>
+  <h4 id="Zigurous_DataStructures_Size_sq512" data-uid="Zigurous.DataStructures.Size.sq512">sq512</h4>
+  <div class="markdown level1 summary"><p>Shorthand for writing Size(512).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Size sq512 { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_Size_sq64_" data-uid="Zigurous.DataStructures.Size.sq64*"></a>
+  <h4 id="Zigurous_DataStructures_Size_sq64" data-uid="Zigurous.DataStructures.Size.sq64">sq64</h4>
+  <div class="markdown level1 summary"><p>Shorthand for writing Size(64).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Size sq64 { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_Size_sq8_" data-uid="Zigurous.DataStructures.Size.sq8*"></a>
+  <h4 id="Zigurous_DataStructures_Size_sq8" data-uid="Zigurous.DataStructures.Size.sq8">sq8</h4>
+  <div class="markdown level1 summary"><p>Shorthand for writing Size(8).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Size sq8 { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_Size_sq8192_" data-uid="Zigurous.DataStructures.Size.sq8192*"></a>
+  <h4 id="Zigurous_DataStructures_Size_sq8192" data-uid="Zigurous.DataStructures.Size.sq8192">sq8192</h4>
+  <div class="markdown level1 summary"><p>Shorthand for writing Size(8192).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Size sq8192 { get; }</code></pre>
+  </div>
+  <a id="Zigurous_DataStructures_Size_zero_" data-uid="Zigurous.DataStructures.Size.zero*"></a>
+  <h4 id="Zigurous_DataStructures_Size_zero" data-uid="Zigurous.DataStructures.Size.zero">zero</h4>
+  <div class="markdown level1 summary"><p>Shorthand for writing Size(0, 0).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Size zero { get; }</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="Zigurous_DataStructures_Size_CompareTo_" data-uid="Zigurous.DataStructures.Size.CompareTo*"></a>
+  <h4 id="Zigurous_DataStructures_Size_CompareTo_Zigurous_DataStructures_Size_" data-uid="Zigurous.DataStructures.Size.CompareTo(Zigurous.DataStructures.Size)">CompareTo(Size)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CompareTo(Size other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Zigurous.DataStructures.Size.html">Size</a></td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_DataStructures_Size_Equals_" data-uid="Zigurous.DataStructures.Size.Equals*"></a>
+  <h4 id="Zigurous_DataStructures_Size_Equals_System_Object_" data-uid="Zigurous.DataStructures.Size.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
+  <a id="Zigurous_DataStructures_Size_Equals_" data-uid="Zigurous.DataStructures.Size.Equals*"></a>
+  <h4 id="Zigurous_DataStructures_Size_Equals_Zigurous_DataStructures_Size_" data-uid="Zigurous.DataStructures.Size.Equals(Zigurous.DataStructures.Size)">Equals(Size)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(Size other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Zigurous.DataStructures.Size.html">Size</a></td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_DataStructures_Size_GetHashCode_" data-uid="Zigurous.DataStructures.Size.GetHashCode*"></a>
+  <h4 id="Zigurous_DataStructures_Size_GetHashCode" data-uid="Zigurous.DataStructures.Size.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.GetHashCode()</span></div>
+  <a id="Zigurous_DataStructures_Size_ToString_" data-uid="Zigurous.DataStructures.Size.ToString*"></a>
+  <h4 id="Zigurous_DataStructures_Size_ToString" data-uid="Zigurous.DataStructures.Size.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.ToString()</span></div>
+  <h3 id="operators">Operators
+  </h3>
+  <a id="Zigurous_DataStructures_Size_op_Equality_" data-uid="Zigurous.DataStructures.Size.op_Equality*"></a>
+  <h4 id="Zigurous_DataStructures_Size_op_Equality_Zigurous_DataStructures_Size_Zigurous_DataStructures_Size_" data-uid="Zigurous.DataStructures.Size.op_Equality(Zigurous.DataStructures.Size,Zigurous.DataStructures.Size)">Equality(Size, Size)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(Size lhs, Size rhs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Zigurous.DataStructures.Size.html">Size</a></td>
+        <td><span class="parametername">lhs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Zigurous.DataStructures.Size.html">Size</a></td>
+        <td><span class="parametername">rhs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_DataStructures_Size_op_Inequality_" data-uid="Zigurous.DataStructures.Size.op_Inequality*"></a>
+  <h4 id="Zigurous_DataStructures_Size_op_Inequality_Zigurous_DataStructures_Size_Zigurous_DataStructures_Size_" data-uid="Zigurous.DataStructures.Size.op_Inequality(Zigurous.DataStructures.Size,Zigurous.DataStructures.Size)">Inequality(Size, Size)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(Size lhs, Size rhs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Zigurous.DataStructures.Size.html">Size</a></td>
+        <td><span class="parametername">lhs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Zigurous.DataStructures.Size.html">Size</a></td>
+        <td><span class="parametername">rhs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <ul class="level1 nav bs-docs-sidenav"></ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Generated by <b>DocFX</b><br>Copyright © 2021 Zigurous
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
