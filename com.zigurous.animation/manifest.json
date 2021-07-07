@@ -1,0 +1,489 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/unity-animation-library/unity-animation-library/.docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/CHANGELOG.html",
+          "hash": "+4syyYUuB5mTToFRi+wfxg/e0VZmevkTdslxb7D6srU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.AnimatedSprite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.AnimatedSprite.html",
+          "hash": "zY6pe4XL7BIYJQkzaRg+omKW3BXjNUPChHyJdohVMRk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.AnimatorParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.AnimatorParameter.html",
+          "hash": "R20sDT7Z3yQW3h3LXj6vhd8sS90VcU6A35NyQM7CuqQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.Blink.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.Blink.html",
+          "hash": "JXDRLvWDt3djxV/hXMLBwiVUuAxHZsGMRidO77vKOro="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.FollowPath.LoopType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.FollowPath.LoopType.html",
+          "hash": "+Ea125D4wZdVwqYVQ7dR0sfFVkJsjOqlAonzogePYFg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.FollowPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.FollowPath.html",
+          "hash": "VHSluFycLq/04eV58sDUmK3v/Zx7Xp3PTkzsP2QOqYw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.IAnimationCurve-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.IAnimationCurve-1.html",
+          "hash": "hhrYw36ARSmOk0rI95jbjBktytYTIlMzmh3zB1YjLfE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.Move.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.Move.html",
+          "hash": "icjrFmwDUn9bVp5S6ZCprZyGHlGDkEvAnq3laBU7o/M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.Orbit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.Orbit.html",
+          "hash": "8nM7aJOuPlvoz9K6s2/mv5X26bQJk01HxqRKU4Rkc2M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.Rotate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.Rotate.html",
+          "hash": "+hsNEdaZstyJflfQu+L/GGng/gtWY0Ngl2Rd4BNwQSo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.RotateAround.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.RotateAround.html",
+          "hash": "unUB87M04DbVMKnBVy7dCcE8w+kU/Y80neP2btmTFtg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.Scale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.Scale.html",
+          "hash": "acUWAVgCk5oFwkLHZpIt88Hysv5JXWH1h++GrVDs6uY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.SmoothFollow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.SmoothFollow.html",
+          "hash": "gkd81ARKXrMYylzT3fnqIrlfyB0r0SopEwozD0jNfG0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.SmoothLookAt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.SmoothLookAt.html",
+          "hash": "crLLnoouGDnu9pF2zMfg03x8pxKbzJenqfFYqv67JfY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.Timing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.Timing.html",
+          "hash": "Y1sjEcml3S8bfEFNFqiAU65x+5FPDk5IxDM8R7uPiCs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.Timing01.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.Timing01.html",
+          "hash": "ScE+03pzgTl52mcD7OQx57xS5cG/jBS2vNU96N2HU8Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.TimingRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.TimingRange.html",
+          "hash": "Be2VUbAGijswc2f5Df8Y6mK20Eesm7mcWfgoOSkS21w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.TimingRange01.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.TimingRange01.html",
+          "hash": "dZi4VbnYoxKsaq+MzdEH5aEFPlc1UUOTUPzPdITrQ6o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.UpdateMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.UpdateMode.html",
+          "hash": "8yUIf37owde8JoaH1uaamMETf0rf2jOUNH+Zu8IKz+o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.Vector2AnimationCurve.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.Vector2AnimationCurve.html",
+          "hash": "R9QOKufieUhnl5Xr1TfK7YOr9Se9VcGxn3lga0EBdIk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.Vector3AnimationCurve.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.Vector3AnimationCurve.html",
+          "hash": "xZTlAgb6D/xJoPx14a40Zh4N2WO3KdmLpLXNstiSODY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.Vector4AnimationCurve.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.Vector4AnimationCurve.html",
+          "hash": "i25z0XTvuyxaCi4F9eLV9v8JNpRyW3lX0dCwBuU0jlY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.html",
+          "hash": "4nxoMzuRBwPO6sEpPsutNJcoRBJr8yyRpv9p2wCzZQk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "k4EndgDk9hdpERe/NmFqJZckmXRBUcU8SKxYuSH8aRk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "changelog/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/toc.html",
+          "hash": "j/R7VsgfMrRj2PSFCxNuNW5i4MM9bx8I75x/hK6u+GE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "index.html",
+      "output": {
+        "resource": {
+          "relative_path": "index.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/LICENSE.html",
+          "hash": "WI4+Eca/IRoTSj5K4dAFfBgxdRKZISUNr3cLo6N//nc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "license/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "license/toc.html",
+          "hash": "3sfv6RkkqWekrwnt0enkRH5g52dpC0R/dIdaGtX1p4M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/avatar-masks.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/avatar-masks.html",
+          "hash": "c+/nIyyPgy7ikVdQdnVCut1oxo2lLpLAS4seG7eBYxA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html",
+          "hash": "K1by8icjf/dbBN7fnqefKd8qHBJ14Y5ociuMhI2fiUw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/installation.html",
+          "hash": "/XhfvhdR28I/kZx3NdADdmCzyh74TFDEadR5IPn6oRU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "dYp4ivn7z3UemMwAYN+TMHl4WutPZxBJEhUk85i52Eg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "hV30bsMCDmsIGBkZ5SbWG4qQI1Cjuf/a1M7LfvtbwEE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 5,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 22,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
