@@ -1,0 +1,873 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/unity-color-utils/unity-color-utils/.docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/CHANGELOG.html",
+          "hash": "5sGpuXhn+X8uJnCdov+7iIcN0Uwi6TEUj2/OlOSHMLs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.ARGB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.ARGB.html",
+          "hash": "j3hP6gNXoQxXXTgVAVgw5+iB04DwyQiuWkxuigwNDpI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.ARGB255.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.ARGB255.html",
+          "hash": "SDIfjUPZW1AmtpV5HzIYIWiHD+nscSqZEIwoZf/kW6c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.Accessibility.Requirement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.Accessibility.Requirement.html",
+          "hash": "iIFIGIoxoECvNj+Zg6F1kdQoU4g4QEwmYosdxXOnzmI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.Accessibility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.Accessibility.html",
+          "hash": "csNn5jNlmZM96xk2McR5SFHM+JIzdGi/UogX0ArC16A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.Adjustment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.Adjustment.html",
+          "hash": "xpcQMYQYLehCxSQFyvZX8bxHEfcpA3xVR+ioVMEnt4Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.Arithmetic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.Arithmetic.html",
+          "hash": "EoJSmRHjwhm84vu+gE5bHoQzUcLa8/AlU9hOs2sPGEs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.Averaging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.Averaging.html",
+          "hash": "w8jyt1Ms9oZuLrdRWIQ2rS8kiz9EiqVDOMKalYjJGKE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.CMYK.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.CMYK.html",
+          "hash": "IxtcEWFa5kIReuH341ZbJyFztG0lvIyhgofQzsgPy5I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.ColorModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.ColorModel.html",
+          "hash": "XXPwyNehwNbiN8KVzUnWrGbjsIzjFULU14LjNGIOaEk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.ColorPalette.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.ColorPalette.html",
+          "hash": "9jWRq9yHJO35Xj33ua6BFnK6hDswOv5KzBF0Cs8cZOA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.ColorPalettes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.ColorPalettes.html",
+          "hash": "SWTnxMb4I8/bJSVDRwSlTOdXjNSKURN4zy3Sw5oBtOQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.ColorSpace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.ColorSpace.html",
+          "hash": "1/uEdu1z0e82q6qSlLUvetNIb7n7iDbdEaPUF/K6ON0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.ColorWheelDivision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.ColorWheelDivision.html",
+          "hash": "eFkIblnJjwIHw3jrNLbcL4KdkV6vMm/OlVTXZdcyzko="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.Components.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.Components.html",
+          "hash": "koeoPX2LO+XUD/nK7mT5vyGW3A60huEpZwJ/4LhI4OI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.Contrast.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.Contrast.html",
+          "hash": "VoDKUYtsCLWyFCJDGUopLJwRjhUFmARHoyUpJrzDwjU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.Conversion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.Conversion.html",
+          "hash": "bV8fy0Xs+1YoehqauBsAeyjbAsEJ3Yij5ABYayfKVGM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.Equality.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.Equality.html",
+          "hash": "jPPX/TVnSsAweX2hXQX/Fg+bTHCSOSXbuVzapSL/LMo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.Gradients.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.Gradients.html",
+          "hash": "f7j6mV8XY8m3Erei9OJyTrU3EMwd51NGLZnWRUf323c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.HSB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.HSB.html",
+          "hash": "UIFxlWIzYhsjdcQu0PtWGKxsSa52rymdrMjLgxdUlKk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.HSI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.HSI.html",
+          "hash": "10gpD5CrQA2GfWtXk9kK2U96i9M1paU5gLAW/6GqtHk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.HSL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.HSL.html",
+          "hash": "YLnYDgb3HpNooyr1eC3BKEH0z9b/WxrjeVpYa2yLKhM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.HSV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.HSV.html",
+          "hash": "jCs/neHzLsuA4ZPD7qY3+u1z9XvEyaLFVyOPxOiO7yU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.Harmonies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.Harmonies.html",
+          "hash": "iCK4l9hdAJgkNgzkQq3pco6zB1qcMnkitRJw7g4ouvk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.Hex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.Hex.html",
+          "hash": "EGDr1W/wO2gqRaKKblkkWqX4K513jRPXbzv318sfJec="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.HunterLab.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.HunterLab.html",
+          "hash": "IZ9wOBxD/X4XK+ycbtk7kI/tpdGWaJyssfj6/c3tnok="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.Illuminant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.Illuminant.html",
+          "hash": "LY/k8KCG0012w/wCFBzzll2aBGC8cdYGIlRZpDPLBQM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.IlluminantExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.IlluminantExtensions.html",
+          "hash": "8SSSHm6aMxUpbdxkJ8qO6y9CINC4mT++qLRdC2Ra9TA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.LAB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.LAB.html",
+          "hash": "lEebmQN6vITl2faojwStjEbEq5clQEj4OM/ZpxEpCKU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.LCH_ab.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.LCH_ab.html",
+          "hash": "pHgR3/4WtoMIXfYB1OYMfGK4Rmi2syTjHcn17UOvHJc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.LCH_uv.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.LCH_uv.html",
+          "hash": "96JBPh3fbAzUfjWoi6I4/FxUEJaBKgN35UMgEToVtuQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.LUV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.LUV.html",
+          "hash": "C+AGisbDqaI5s0hfGaXKznJCnYIiyWNLVYq0SZ3OnO0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.Luminance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.Luminance.html",
+          "hash": "TmojuodNT6Tkg/Uo+TAU8wN+D1h0JKnnixp/HcaK5Js="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.MaterialPalette.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.MaterialPalette.html",
+          "hash": "pRqWO42a2kH4mYQxqgUBDKSyoG7bd1Bm7OYpsu9nJiA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.Mixing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.Mixing.html",
+          "hash": "LJiQ14GfRHDUzpo730DhqZ4FZ2JuoiB1L2sziRYTQJQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.MixingModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.MixingModel.html",
+          "hash": "Zfkont4g/aXD163k75BpKNZLT6GD+APzp28ipPO2Tyc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.MixingModelExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.MixingModelExtensions.html",
+          "hash": "Ns6N+1zFfB/4bitoyT16qa0aW6yGrV5Au9XHrsZ3N4g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.RGB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.RGB.html",
+          "hash": "Moj4NmrzyJgH3xuzZxcoClrEkQFzvVsk2YnV0EgMxZM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.RGB255.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.RGB255.html",
+          "hash": "S6KPkxYBoLi2UrgFTcq5iTeFoD34688fh9o65CP5u3o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.RGBA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.RGBA.html",
+          "hash": "hTqeqmmYrNNgKKnr/lI0nxVPrrAKauyq8dptRBBtowU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.RGBA255.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.RGBA255.html",
+          "hash": "TFsPBrk1/WMVWNtDaai+C1vpx9Cfd4Col0stphHJKZw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.Random.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.Random.html",
+          "hash": "06YF+ZPM8FUVyoB5GywHSh857IlOTBGHXVlnNFC3hwk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.SignalEncoding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.SignalEncoding.html",
+          "hash": "93STt2jpZfxODoUCmD8uYdwx1XNy/orn4xT88R1ppag="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.SignalEncodingExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.SignalEncodingExtensions.html",
+          "hash": "txCZudIfDh0YdT0HEuFjjh65knPkZHugfuV2RnS5qFg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.StandardObserver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.StandardObserver.html",
+          "hash": "t9vs4T2s5OjZSsu0osbcczkRXFFEwinwpWE3CHBfSq0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.Temperature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.Temperature.html",
+          "hash": "Zk37PipkMTETG8h8wpHi8Ro3kGdxtVGh3/CfCyNzdhE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.Tristimulus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.Tristimulus.html",
+          "hash": "soLKixnSejrXdXAu5aCrtVDXtDgDqKupBcupxUa3tgw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.UCS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.UCS.html",
+          "hash": "LSbNdBkAjG0bKtAtslOFIuhCEM+v9nAjrQPXtANBdeY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.UVW.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.UVW.html",
+          "hash": "2n+l7b25IItJv2p/nU04ks5uFlVwD0E1B3noGYxXUHM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.XYZ.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.XYZ.html",
+          "hash": "Hbn56IwOqLk4tlikOrwLfS1SXqagcbTlKTBmhZD7i4w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.YCbCr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.YCbCr.html",
+          "hash": "XrfYV96bOl5h7Al+z1NBuVFb9LpvVPBxf745izVFtGo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.YIQ.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.YIQ.html",
+          "hash": "Yln22BBQhDGsgw9G336mmdl5tBlxtS/qB6VF8mBuAKo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.YPbPr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.YPbPr.html",
+          "hash": "Dac4jXE90oDYKHnW3uCTEsRvs4saoFT9f0gXKIydc30="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.YUV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.YUV.html",
+          "hash": "rtNnhIdJtCBTB53tBQxYDuZ5dPjFpvmTT0BM14vnMKg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.xyY.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.xyY.html",
+          "hash": "nHwIaeOhMxTENqT5iQtVxdLURoJJYESNhZjGaCR21u0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.html",
+          "hash": "xhT9LYMlK9uecScmumvDKGVfn2hIQ29vKyRQTQiqkuI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "uEY5Cy/my9+4Mo8/g6CWhjZgPau7tRDxq0tVY88iDcA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "changelog/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/toc.html",
+          "hash": "j/R7VsgfMrRj2PSFCxNuNW5i4MM9bx8I75x/hK6u+GE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "index.html",
+      "output": {
+        "resource": {
+          "relative_path": "index.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/LICENSE.html",
+          "hash": "ULjpHf/ZAK5oXeVZ+R1sDV5K807MEjcT3x92ANjX0Ek="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "license/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "license/toc.html",
+          "hash": "3sfv6RkkqWekrwnt0enkRH5g52dpC0R/dIdaGtX1p4M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html",
+          "hash": "wiTKqQp7PAdfXcUm4fmbtCcjt3QPenIVtjRXNc7w5Ac="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/installation.html",
+          "hash": "drGIAHoJQeDGNFhCRA0HU4CzbpuJwKXTtKhE3aiIzdE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "AUBmkjcV6Rgc5XQX3SpA8j/bnbBPgpTg+VqyBcLddP4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "1epL5U6k6xGv5w5RRlpJTdCTi0nLw2AJi8uvdMR5tUA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 55,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
