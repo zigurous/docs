@@ -1,0 +1,1533 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/unity-tweening-system/unity-tweening-system/.docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/CHANGELOG.html",
+          "hash": "Y3UkHLd/u6vyQGQTU8VxYtWXg49Jxds8imDkbm0tLpc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.AimConstraintTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.AimConstraintTweens.html",
+          "hash": "zX6d1ZQ+97VVfmk0FnciVlBM8wttIu+MQvaeYay1lB4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.AnchoredJoint2DTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.AnchoredJoint2DTweens.html",
+          "hash": "8U6o7Ib4XkUvp7bZ6pjGb0GChSty9ELnf6dWlFp6Uf8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.AnimatorTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.AnimatorTweens.html",
+          "hash": "gz//hSS0zwuN87EfBMX57yi+JXF8sR4GWjl6pKaVVbc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.AreaEffector2DTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.AreaEffector2DTweens.html",
+          "hash": "kcG6fbCT5yAYCFlHm1/fP/ANCOxJ5vbD2UuxsJmNHGw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.AspectRatioFitterTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.AspectRatioFitterTweens.html",
+          "hash": "ltAyMy8MjuiaHZhVJB9LzpaqBf/WopZrF0d+urJHxaE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.AudioChorusFilterTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.AudioChorusFilterTweens.html",
+          "hash": "cNqZpDv2zTSZcfUpvxvfPSu6reSg2+TDHrvpV7bN2zU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.AudioDistortionFilterTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.AudioDistortionFilterTweens.html",
+          "hash": "UEy7inXdZK31gIrDQgKtJdIpFuMc2TJNYR/xdvKRyKE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.AudioEchoFilterTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.AudioEchoFilterTweens.html",
+          "hash": "mcL2L4BYsvabI0tSrQVyupftHPAOySrJpZCElBVkTOo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.AudioHighPassFilterTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.AudioHighPassFilterTweens.html",
+          "hash": "5nGT1nVq9+DYOmiHpsVtnc0ULSk3BSbhvN4ImxTw2q8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.AudioListenerTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.AudioListenerTweens.html",
+          "hash": "zvslggvjOEEnsaYSbLwUiaLHejDoAVIwMN4srDNEV4g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.AudioLowPassFilterTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.AudioLowPassFilterTweens.html",
+          "hash": "lCCywSBapZrWeKtwe6/DBfXcbGo18pkprgUqVDDQjLY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.AudioReverbFilterTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.AudioReverbFilterTweens.html",
+          "hash": "zJRbg47NWQEYZtFQ3sTCeRiPZdKlNxEtTYl7YkESk5c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.AudioReverbZoneTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.AudioReverbZoneTweens.html",
+          "hash": "43bWPMzMrkuzASevyoy68n1G8jZE3TzL12Z5r3HK2sc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.AudioSourceTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.AudioSourceTweens.html",
+          "hash": "6Fjq2jd6pSpNYyCT7yg6P9qzx8I+FizLkagX3tYh2+w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.BoxCollider2DTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.BoxCollider2DTweens.html",
+          "hash": "mgwmx/mXtR4+liSzwaBpCEtFc4BJjo+1UycBKBbCqbY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.BoxColliderTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.BoxColliderTweens.html",
+          "hash": "9r6eQ2nSaOG2p7JMA7+O/Py4C6nmC3VEaAzNIPL1Q7E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.BuoyancyEffector2DTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.BuoyancyEffector2DTweens.html",
+          "hash": "iO7bUTfqYTnC8Q2dcUjTuQU6ND4jYlnHAsXTmChFw2Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.CameraTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.CameraTweens.html",
+          "hash": "hYJkMLrO9wLqJ7+YLfgzb65smEcOvPu1dNaNYw0fTqE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.CanvasGroupTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.CanvasGroupTweens.html",
+          "hash": "7q8kVPr2gpqlDG5eRc8ecuIoS8YJEdWpR45FOJlFfVI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.CanvasScalerTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.CanvasScalerTweens.html",
+          "hash": "rNb+BjpUHKLNgD/8FkDw+3EGKhtmRBlVZKVT4stlTEo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.CanvasTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.CanvasTweens.html",
+          "hash": "UHacLm+8RXhkaoQsM9fqS4b2eexS5ObuQjXN8WT6dpQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.CapsuleCollider2DTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.CapsuleCollider2DTweens.html",
+          "hash": "wOivCgHgvoBskVVCvKvloVsDkusDM19ip+v5LRkyK04="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.CapsuleColliderTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.CapsuleColliderTweens.html",
+          "hash": "rUluJ7ExEorcBlmnPQZT37IB2d2O2tUmXGXLDXsb9dE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.CharacterControllerTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.CharacterControllerTweens.html",
+          "hash": "+bC2SMjcKktvasDqS7owbnWi1k09H2z1akAQ+bu6L+0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.CharacterJointTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.CharacterJointTweens.html",
+          "hash": "0K27ljd0JhmFDqoxAP/eHd1GJ+kldTlytIbzRVqVBf8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.CircleCollider2DTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.CircleCollider2DTweens.html",
+          "hash": "nL0haS6LX2S8lQennEnReAGxODHUuO9PHl3Oy+em15k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.ClothTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.ClothTweens.html",
+          "hash": "lGe+6hcGTH0P4+hNf2A1wXlfqcriExCMhQnU0eajGVE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.Collider2DTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.Collider2DTweens.html",
+          "hash": "thqGArRcxIsQfSzZMaop+dboaC19a3XqJ3IPfV2UhBM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.ColliderTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.ColliderTweens.html",
+          "hash": "b3IlPgVjiFARnqPk4vxwkFG/sr0jY7czeWgoUg61lZc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.CompositeCollider2DTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.CompositeCollider2DTweens.html",
+          "hash": "Hc6BN9bOGtDn75kQiaWow0sNyB9IdAzRlz0iPGUPbH4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.ConfigurableJointTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.ConfigurableJointTweens.html",
+          "hash": "naojrSn5uTnVEJlmPptDsqRcpoSQp9mRN8Fuef+SejY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.ConstantForce2DTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.ConstantForce2DTweens.html",
+          "hash": "wm2tshTkhtMLGDfiafZvgdePm6d/y79bn44xvYZqyXo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.ConstantForceTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.ConstantForceTweens.html",
+          "hash": "pAt2L8OgToG7W77jyp803HR/kjZn5eB2Sv8QMbJjEQg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.DistanceJoint2DTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.DistanceJoint2DTweens.html",
+          "hash": "yNx84e5NXg0jkvw0Dm3Yh3yjYALT9w3kjgVoqJB6ONE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.Ease.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.Ease.html",
+          "hash": "k9mZJnLOePN6uk274FX91p/ZWwn1MNWKu0aTKuKu5oY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.EaseEqualityComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.EaseEqualityComparer.html",
+          "hash": "AlCSI8+5SgJWZHkIWMn4X9NarGTmMfdcC+o3hs2q/Rk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.EaseExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.EaseExtensions.html",
+          "hash": "PG5dUsTXGLiyaw63wAuKm1C0jw2S046WjqfbuFVplaE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.EaseFunction.TimingCurve.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.EaseFunction.TimingCurve.html",
+          "hash": "vZuxraN5+2iI5LRMHMyj0Gws4Wr3cXD3wq/mGiipQTs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.EaseFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.EaseFunction.html",
+          "hash": "3Q8fSNReOr0rdOJIxxwr+/OSb4P0xTWddzpVmPwOf9k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.EdgeCollider2DTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.EdgeCollider2DTweens.html",
+          "hash": "da7qV0KDvJKWfoAu1ONnpkWfUkHRju/XmXE4mT26fLc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.FixedJoint2DTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.FixedJoint2DTweens.html",
+          "hash": "0eEpDbMbZyfkOBvuioovMUCjsYtLPC+eN78N+a0PbzE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.FrictionJoint2DTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.FrictionJoint2DTweens.html",
+          "hash": "+Q7GYz+2ZFjw96Eg00BLr2jQnBvh8/rOfARCXVG8b5M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.GraphicTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.GraphicTweens.html",
+          "hash": "6/G7y9ZCae+Kms/UfShKBc7vNbqDomsC152zr2LzQ/E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.GridLayoutGroupTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.GridLayoutGroupTweens.html",
+          "hash": "lsZfNSsnryWjuldVCWH1Zny9jGUiFReFqokVHm0t+94="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.GridTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.GridTweens.html",
+          "hash": "9uijQ08ZOfPWQehXCK70feA7f8gFJSf9DvIDLCZjyhM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.HorizontalOrVerticalLayoutGroupTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.HorizontalOrVerticalLayoutGroupTweens.html",
+          "hash": "aIDKNevnIe5/JVOwSHyR3ufObusabY8ArsllN89LfjU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.Interpolater-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.Interpolater-1.html",
+          "hash": "/XPSsHNsbgPbCdPa/DUjQpVG8bbpjEpNK9PxDUgtNSI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.Interpolation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.Interpolation.html",
+          "hash": "WdKD5kK5A4Sq+gN5XrIt1rXZBUWaN/kTpjySrL/FY+E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.Joint2DTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.Joint2DTweens.html",
+          "hash": "tE2rk1pTyn41j6YY49IFSchk8fb+wnrqZ4o30kyaSz4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.JointTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.JointTweens.html",
+          "hash": "xovMbKMzYZAPzC8/CtHo3j7t2MNY3Qtucl1e9lXtg58="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.LensFlareTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.LensFlareTweens.html",
+          "hash": "o4pyxInHroROnHd4u7RDFU2EyJxy2Eq4SFbB11bTTA4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.LightTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.LightTweens.html",
+          "hash": "KJJPwludEvz38OUfHR6wLFSYiTGLCwl/CYYXoaYIYPI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.LineRendererTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.LineRendererTweens.html",
+          "hash": "sLvXHS90OJWi92fJYJW0j06/rAOwyPna9lI9blJe+Kc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.LookAtConstraintTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.LookAtConstraintTweens.html",
+          "hash": "waY0qqvwVU1BRKhnPnD6fVEZFhcoicwBr/kDR0XjfNg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.LoopType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.LoopType.html",
+          "hash": "FR/T7wIjYDGa8W0Fnimgoy6+1Newvxv9PUEf4oGWZNo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.MaterialTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.MaterialTweens.html",
+          "hash": "q9gqL5/cZ0pGRjbhrlW63KdLqMM4/wkxc6/5cGE31Qs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.NavMeshAgentTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.NavMeshAgentTweens.html",
+          "hash": "/rrUF4tk1yZoJCPclEechlPMmaa2BsImIMJyhO4dm24="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.NavMeshObstacleTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.NavMeshObstacleTweens.html",
+          "hash": "el8q9d3dqgJGKci4ZbZdYJtcznXcdSMUtp3KE8d3lCQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.OcclusionAreaTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.OcclusionAreaTweens.html",
+          "hash": "hcH0gc5Z47xWiAw7OvIm6nxI28R2w2mhCw8OQLyHLy4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.ParentConstraintTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.ParentConstraintTweens.html",
+          "hash": "E/lqh/FLZlp9CFjtQ2l9M8aISlZAyLiU19oG5dUg3k0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.ParticleSystemForceFieldTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.ParticleSystemForceFieldTweens.html",
+          "hash": "T2bkuwKy1TZ0t3SDuoimUpi9T6OMgaddDEJrftRupU4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.ParticleSystemTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.ParticleSystemTweens.html",
+          "hash": "OFOE1Nm5UGebAgaICc8tsE3Rx7HrHnxF2FqxiE2195g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.PhysicMaterialTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.PhysicMaterialTweens.html",
+          "hash": "W5hENi2m54CVgvrkmqTHYivF8Oenp2rApPBBye4up04="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.PhysicsMaterial2DTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.PhysicsMaterial2DTweens.html",
+          "hash": "92jhtu2P6CYrok6jfsIw6h/edUtyaH5nE7tcQlkN2Us="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.PlatformEffector2DTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.PlatformEffector2DTweens.html",
+          "hash": "LnyDEKRxoTKITP5YlQ/ZIQvln49wsrvj8cNguLqRqR0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.PointEffector2DTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.PointEffector2DTweens.html",
+          "hash": "HXCzmYXKPryq1bkguiJ6FezHVJ73XCIF1SBeRBPoVyA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.PositionConstraintTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.PositionConstraintTweens.html",
+          "hash": "mhxYoXTsALgrdtThgSzmoKRPdlztFu53+cHhpUqZiCw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.ProjectorTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.ProjectorTweens.html",
+          "hash": "4MZml4Z5l9y9jyTOTgfBNTlKnHBSz7mxLbtURMvzGig="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.PropertyChaining.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.PropertyChaining.html",
+          "hash": "5Bh+1Mob0wXXc4RCZZHlWzWUhT2RdYragZLPzStEo4Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.RectMask2DTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.RectMask2DTweens.html",
+          "hash": "au7fBGgx1rH6JymAvIzrBJ+nyBsI7ojbmu/LrYXUOsY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.RectOffsetTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.RectOffsetTweens.html",
+          "hash": "q32DCmeVfBZoB59tCV0O/qlMacf71fKNldGS69tIoeo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.RectTransformTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.RectTransformTweens.html",
+          "hash": "0s7NZFb5DMuI5Y3vauRKAA75TQlf9XAgdfzVT+s85To="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.ReflectionProbeTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.ReflectionProbeTweens.html",
+          "hash": "NMMJOdLDZbwgZFlIDV8cBoQrlV3jb4HkN+OCYUCnJRQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.RelativeJoint2DTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.RelativeJoint2DTweens.html",
+          "hash": "j5Y3Ub9L9tAE70O+5D6G0D1RXqfaQqWjE8h2ZFgFSLw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.Rigidbody2DTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.Rigidbody2DTweens.html",
+          "hash": "aEJaOd7skgu/PWK22B0xgBx9SrMDa1P0NafhnMQ4yBM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.RigidbodyTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.RigidbodyTweens.html",
+          "hash": "TWeH8QHrr30IQn7q6etcq42bn4G/OXODbhSjZxcBcsQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.RotationConstraintTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.RotationConstraintTweens.html",
+          "hash": "sWgjezgspRug/mWw8+JELc5i9Cm37rRjm/apK9uaqXM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.ScaleConstraintTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.ScaleConstraintTweens.html",
+          "hash": "roY+Et9Nye7u5XjKA/CP8B+4NWFszn0KsoHufj0aQ+E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.ScrollRectTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.ScrollRectTweens.html",
+          "hash": "YlT7f4gH+E2bOLwIZCiWUPwojG84g0YPg3Voa27klx4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.ScrollbarTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.ScrollbarTweens.html",
+          "hash": "OenD7F3pBA/Kmi2Q7DTUGgtzkbtgWvlN3KMh+efJgm4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.Sequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.Sequence.html",
+          "hash": "j/NqnfFHCULUVLKpvwkY3A7L2Y21ZqEd09EMr+seFO4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.ShadowTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.ShadowTweens.html",
+          "hash": "/dtmCIcM2wV77e7ypfwa7Vt4AGws1wj6tqxRTC8pWxY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.SliderJoint2DTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.SliderJoint2DTweens.html",
+          "hash": "P/kLFJOSibWlQKNZymzV1DdQgsW2NPdIUJ9TZVyQE0E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.SliderTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.SliderTweens.html",
+          "hash": "MUrF/l3nCF6o6D75xtPgqNUVCmneXFIbBccZKOA5XHc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.SphereColliderTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.SphereColliderTweens.html",
+          "hash": "ZtjUv6N/usNwT8BkM3y6a+zyPk2QpVh5e/m9HBlyRT0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.SpringJoint2DTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.SpringJoint2DTweens.html",
+          "hash": "AXo6eM3xIhNrgd9uf3ObL1SoUyWgjZV/Ak3XRdM3eyE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.SpringJointTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.SpringJointTweens.html",
+          "hash": "zgiT7sGKP8NWDq5vl9Qpn46KYaaT/dhDwBks3P+G6e8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.SpriteMaskTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.SpriteMaskTweens.html",
+          "hash": "ihQTsXRxj1rkjpUEjFkRRFcb6L47twjAkwMt6z0gzHw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.SpriteRendererTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.SpriteRendererTweens.html",
+          "hash": "bIWTsbJzPdD5aLYGGLHDn4yiHQJ5DZFwDX8c3sEXqHg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.SpriteShapeRendererTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.SpriteShapeRendererTweens.html",
+          "hash": "cdw9hkJMTmkMHJ4dyOQq+dSbCcS503SRUiXDWDlvIik="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.SurfaceEffector2DTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.SurfaceEffector2DTweens.html",
+          "hash": "namaMqcpGM6BVvAjXoiX+yMFQEEmPtNJ0a2z/04lQbw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.TargetJoint2DTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.TargetJoint2DTweens.html",
+          "hash": "jd88v1/OC+dyHs9beowyo7V7Pl9mZv9KZZbuiGr43Vc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.TextMeshTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.TextMeshTweens.html",
+          "hash": "s1ax1Ne8l5mRwk/S0kqcvKmf6pTCMHSp71jAJzxGVvI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.TextTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.TextTweens.html",
+          "hash": "bnQ3h41/xpqrcjE8xFj3fJokjdo2eQHAJbY01XY7pbE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.TilemapTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.TilemapTweens.html",
+          "hash": "Rdx15sxoQvk1q13wbEUS9RV0gjA54tma4eUUZju/kKg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.TrailRendererTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.TrailRendererTweens.html",
+          "hash": "eSp8Yj6YMuWywvXjLHDuy8Pjave9881xXCmCZq/a+BU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.TransformTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.TransformTweens.html",
+          "hash": "lKyKmjzV4Nf2t7EZRCejUx2k3jkBXZstMcD0eIkKJRQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.Tween.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.Tween.html",
+          "hash": "HrqzE9i+8ei90eSjQ5wHfvXzlnhtZe78vYHnLetcHws="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.TweenCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.TweenCallback.html",
+          "hash": "mEN4O4GH4NliQoiAgbI+31OiJ+a8nGV5XobJuuGmuGg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.TweenGetter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.TweenGetter-1.html",
+          "hash": "JT6AqXH1FnZigGaQTnS7lrTzvXhj8RtmV+6uwHCIBTE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.TweenSetter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.TweenSetter-1.html",
+          "hash": "mGfkO4NwAwnLp7UwTuPcC2vMDhW7dHNBuZL6ATr/lyI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.TweenState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.TweenState.html",
+          "hash": "yIkd+utBWs0k2fazOHPcwtEX1dlWFITKEI102rQIfVc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.TweenStateExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.TweenStateExtensions.html",
+          "hash": "V/8wAlhnr1CmIeSnOTojKMLBCuqYagXE7q/4tNzuoSE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.Tweener-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.Tweener-1.html",
+          "hash": "KhLVH0RejrZeTBOz6tglHgeFKYNFb9d6alwy+7X61uQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.Tweening.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.Tweening.html",
+          "hash": "SwVkiBnZI6W9ZNI14dj0OZLBp+skKXUsgHInowpkh3Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.TweeningSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.TweeningSettings.html",
+          "hash": "JXNcf0XXs1eL45N63TiZChPbViktTL6v8BvbuQsLjPA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.VideoPlayerTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.VideoPlayerTweens.html",
+          "hash": "Nc6VjukTtsN69uSVbEAMSI474QB2n5zMlkCLM9uE7Qo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.WheelColliderTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.WheelColliderTweens.html",
+          "hash": "dQiKCPpfwSK8e0Y13eFGQozz1ZXHt4IU8eSA0yC6Iz8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.WindZoneTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.WindZoneTweens.html",
+          "hash": "O1LrTamd2hKH7pJc0UNVNwQssaGiqci3TlSop3ngtAk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.html",
+          "hash": "95a3mHJi6ywradh6jkftOKPWcCL9O7anUvcxH/10/1c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "XPvJwrTHlhp9Kqgrd4y/WGjr5ykgSPnTD6qPnsPFVl0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "changelog/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/toc.html",
+          "hash": "j/R7VsgfMrRj2PSFCxNuNW5i4MM9bx8I75x/hK6u+GE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "index.html",
+      "output": {
+        "resource": {
+          "relative_path": "index.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/LICENSE.html",
+          "hash": "WI4+Eca/IRoTSj5K4dAFfBgxdRKZISUNr3cLo6N//nc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "license/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "license/toc.html",
+          "hash": "3sfv6RkkqWekrwnt0enkRH5g52dpC0R/dIdaGtX1p4M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html",
+          "hash": "wef7hu4M/h/14vByaKVrN7uIqrSD/HBgwkGJj4R93jo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/installation.html",
+          "hash": "yHuRtlJFBfAcy4yV/64VPfXHappEVB3ghGGKQun6Q14="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "AUBmkjcV6Rgc5XQX3SpA8j/bnbBPgpTg+VqyBcLddP4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "fLxvg5VOHw8ga1B8VV0cECUHxXq/rBeeWjFBN4ACrdc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 110,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
