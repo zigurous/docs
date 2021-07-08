@@ -1,0 +1,381 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/unity-graphics-utils/unity-graphics-utils/.docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/CHANGELOG.html",
+          "hash": "RdQWj6sPhw/cHEFSYEo7O6CF9lzrnNudzvdCmRFznLU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Graphics.AutoTile.Axis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Graphics.AutoTile.Axis.html",
+          "hash": "EEgFarA+ITLdyWjaZ5um3fpC54tLhMJCnbWe+QJozAo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Graphics.AutoTile.Submesh.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Graphics.AutoTile.Submesh.html",
+          "hash": "D5MQ1wiumMxj66ugY/dSNK0H8txQmamZJXznWl6P4YQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Graphics.AutoTile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Graphics.AutoTile.html",
+          "hash": "M5BRN118rLN7r9FerxeBz0sDgz/nl6FIlM584xSGnZg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Graphics.CubeMesh.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Graphics.CubeMesh.html",
+          "hash": "fkvpRGe1lA0QjubbnHvUSPzFHQHhWI4g1igWf2c3I7g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Graphics.CubeMesh3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Graphics.CubeMesh3.html",
+          "hash": "JE84h0ECiUS0rXyJpb4NYf1TIXzaw1sP4AIpIftWf+s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Graphics.CubeMesh6.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Graphics.CubeMesh6.html",
+          "hash": "AUQCf6m7TwiufiUCspdxTqysg/Sze1bZyzVGggDxkb4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Graphics.Identifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Graphics.Identifier.html",
+          "hash": "6dDh51kAgIxw/kuwDhVYqGTxA0GwsBbaj8hGJYwoxls="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Graphics.InvertMesh.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Graphics.InvertMesh.html",
+          "hash": "qs0fWV4LatqghrUGs2zHNe38so2KuL3H1iiX/qkKyUk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Graphics.MaterialExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Graphics.MaterialExtensions.html",
+          "hash": "jxwm4DWy4FzUDDExso+ka+NdwuEODfJYuT/neYneJyM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Graphics.MeshExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Graphics.MeshExtensions.html",
+          "hash": "rvNre/P4Pk0dj6QcGbIqxYbPK8GUBn64z+6iDUdDOXY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Graphics.RenderingMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Graphics.RenderingMode.html",
+          "hash": "GxI1dn5AxUrggpNoz9eBG1uwQ/uI2Iifqw0XIZagtNM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Graphics.ShaderProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Graphics.ShaderProperty.html",
+          "hash": "+KNtFiA+4w3lzog68jwJlcWLSvHn9Hf7NJ3UilmzpfE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Graphics.Triangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Graphics.Triangle.html",
+          "hash": "1T7iV6DLXPwl0VWL1kE5Dc9mMMa3F9+aAVTPnuKcfGE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Graphics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Graphics.html",
+          "hash": "eLz2TNInHfokac4jJnXBBHrQ3KLDYm2FufHT9sKa4Pw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "tfgzqid6+pc2uiqn1nVCSY8WSDk2JUsa7RhyU6L9qX0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "changelog/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/toc.html",
+          "hash": "j/R7VsgfMrRj2PSFCxNuNW5i4MM9bx8I75x/hK6u+GE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "index.html",
+      "output": {
+        "resource": {
+          "relative_path": "index.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/LICENSE.html",
+          "hash": "/NEk+DDNEW8zeqNf0TGbcHNd6YmpXnuAbxrISNicz5s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "license/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "license/toc.html",
+          "hash": "3sfv6RkkqWekrwnt0enkRH5g52dpC0R/dIdaGtX1p4M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html",
+          "hash": "QC0rw4eYSMQ+qPKyNkRvZXn2UezXbFT01UuNbry1qp4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/installation.html",
+          "hash": "+aEwMnFiC3xagbeBPMuZFyi0x5G0H0WITpsC0g0AJRs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "AUBmkjcV6Rgc5XQX3SpA8j/bnbBPgpTg+VqyBcLddP4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "avzI57JsEi5WMZyaYWVf1jkPNzmG5YBtJNUJO4y6PeE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 14,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
