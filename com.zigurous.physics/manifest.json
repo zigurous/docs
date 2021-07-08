@@ -1,0 +1,573 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/unity-physics-utils/unity-physics-utils/.docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/CHANGELOG.html",
+          "hash": "Pp+Ye9pk54OdmPk62bvt8O26lqeqmVBkMdk5tFR1UEA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.CollisionEnter.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.CollisionEnter.Event.html",
+          "hash": "Uv22Un+BxFHTE+625VuU4RZTEjkanEyc+1NTroNg+Hw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.CollisionEnter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.CollisionEnter.html",
+          "hash": "157sqtBp+7HSNEInINgp3YIjhb/qHD/QsvbaoTcsyDM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.CollisionEnter2D.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.CollisionEnter2D.Event.html",
+          "hash": "QWTqmTIFRZo92bCpy+prWVYg+PSH+HdGIQnXMMik1K4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.CollisionEnter2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.CollisionEnter2D.html",
+          "hash": "ghs7FLxQCQ7mk0GetghTbZ8518YbwZXgbhKymmRX2i0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.CollisionExit.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.CollisionExit.Event.html",
+          "hash": "yerydKJBQAHtwnoNJFbYufy/DQgvvdVl3f3208JG4t4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.CollisionExit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.CollisionExit.html",
+          "hash": "RYOj1kq9NZoCHA3oH9ohtvdA8oTnzM4vvn35585WIyY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.CollisionExit2D.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.CollisionExit2D.Event.html",
+          "hash": "MtUTUdVTUKJ1CUNO6Vvf1HxYdF+SCLSHcK5ZfNQrySg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.CollisionExit2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.CollisionExit2D.html",
+          "hash": "WCe4a5BzfS7XLMILMC6U0CHVwRRPRYt1/qXqfMnzgAs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.CollisionStay.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.CollisionStay.Event.html",
+          "hash": "eqx2X8OBwQKxXPyxmoQuX79SXSt0oR15uLJpSEHVX8Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.CollisionStay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.CollisionStay.html",
+          "hash": "c6pWAhbEpHGfRaG1Pet3LB4jkw/lo8MfAIG+1nUnuUo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.CollisionStay2D.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.CollisionStay2D.Event.html",
+          "hash": "z/ZTY9khv3FbolbX+AwQoKh6xa5qxPkVNrSE+xlEBzU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.CollisionStay2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.CollisionStay2D.html",
+          "hash": "6SNJJYqcmRaxNs5Qqa/bpgqLNZ02ibRes44534vYw5o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.Explosion.Trigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.Explosion.Trigger.html",
+          "hash": "lt20mlI9H505HiLrVPdqGCICKFitAzgnzLjXQbZDEGk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.Explosion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.Explosion.html",
+          "hash": "Cfkpk8Rs3ESMi8Wlf/9pTXY5iWUai2Na1txlK7ka44A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.LayerMaskExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.LayerMaskExtensions.html",
+          "hash": "zvT0/5Ss4I3BHHazSkpFccMq2TRYWSrTI0OIi9Nrgrw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.Magnet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.Magnet.html",
+          "hash": "E2EpWgvgDLzDugb9H3ZIQJ+MrxlozLJKOI7R1Yuri/A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.Magnetic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.Magnetic.html",
+          "hash": "q+V0OaDF8IKMOGDLi2a1UdFr6BPBdOPTxYZOLdLA9Vs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.TriggerEnter.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.TriggerEnter.Event.html",
+          "hash": "D/hldYTitfNlqN8ZtmNG8B9OAQ2WorVlYIxP/nx2gb0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.TriggerEnter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.TriggerEnter.html",
+          "hash": "HHc8d5nGoocs0bgktNTz9KayXmi6xm8WC7brBtmNd4k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.TriggerEnter2D.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.TriggerEnter2D.Event.html",
+          "hash": "MIuS20hBt5J82pHkXn1NAFXm5xIBnX5QQc5MQCT+/AU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.TriggerEnter2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.TriggerEnter2D.html",
+          "hash": "1uRmyutw+4i34LHTmW2PJGZ2i9vatTCpAhmeFwgmP74="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.TriggerExit.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.TriggerExit.Event.html",
+          "hash": "FTY3vvDsOC5j97JeI9nLJaJr4e8foR2v3YjshaskYMo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.TriggerExit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.TriggerExit.html",
+          "hash": "lKwjLYjQSAodAOjty9R/bvhuw6gTg8SoZg0h/ajKLOg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.TriggerExit2D.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.TriggerExit2D.Event.html",
+          "hash": "0j7NYgNAyU+H+34TeINjCIl/3UHIfdmVKFDJpCopO+4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.TriggerExit2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.TriggerExit2D.html",
+          "hash": "agX1uui0ywL1oxOb5Qp/2mHBpGDo/j6EQN+++BoHZRo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.TriggerStay.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.TriggerStay.Event.html",
+          "hash": "kRAdkEaTGlJrYuirvQJpfkndBlg64UcJ7ON9cP+KSd4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.TriggerStay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.TriggerStay.html",
+          "hash": "dndEJf66/gjoIYIaVn8NEHtGhN31jBGxtk2ZxTlw4KM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.TriggerStay2D.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.TriggerStay2D.Event.html",
+          "hash": "rI+hqeNffJEmc5sx3eRrRVHchSexQ4DNaFRTW42njXI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.TriggerStay2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.TriggerStay2D.html",
+          "hash": "SKU+GZIWN99bknvMUJ213+TMcMZ9ybsfV1PjjKK2fGU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.html",
+          "hash": "9JSNBz3quEzq1Gj9OOVG9kV1XBvrEBFNc7x8uSonoC0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "L2koe2Qmk4qUcDtCWfE6wpn/MpPJTgk1L4qVaXvPuOU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "changelog/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/toc.html",
+          "hash": "j/R7VsgfMrRj2PSFCxNuNW5i4MM9bx8I75x/hK6u+GE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "index.html",
+      "output": {
+        "resource": {
+          "relative_path": "index.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/LICENSE.html",
+          "hash": "xiBshIPdkMjMNrxXdPIFBYmdbML8hxwI+wEL7usG7AI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "license/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "license/toc.html",
+          "hash": "3sfv6RkkqWekrwnt0enkRH5g52dpC0R/dIdaGtX1p4M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html",
+          "hash": "sRfpT4pswAex37jJzR0CZlrrHIp/r3w7jIeiu+xwvQs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/installation.html",
+          "hash": "DBfV4TVSeJ/5uWCtE7sS0kprn8x0cl/DqFngi9ejKlI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "AUBmkjcV6Rgc5XQX3SpA8j/bnbBPgpTg+VqyBcLddP4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "PnqjKNOIqLr3CfnaLsMYx5wFc6CDqfmSfDVy1sFzfnU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 30,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

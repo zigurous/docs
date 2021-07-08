@@ -1,0 +1,172 @@
+{
+  "api/Zigurous.Physics.CollisionEnter.Event.html": {
+    "href": "api/Zigurous.Physics.CollisionEnter.Event.html",
+    "title": "Class CollisionEnter.Event | Physics Utils",
+    "keywords": "Class CollisionEnter.Event Inheritance System.Object CollisionEnter.Event Namespace : Zigurous.Physics Syntax [Serializable] public class Event : UnityEvent<Collision>"
+  },
+  "api/Zigurous.Physics.CollisionEnter.html": {
+    "href": "api/Zigurous.Physics.CollisionEnter.html",
+    "title": "Class CollisionEnter | Physics Utils",
+    "keywords": "Class CollisionEnter Invokes a custom unity event OnCollisionEnter. Inheritance System.Object CollisionEnter Namespace : Zigurous.Physics Syntax public class CollisionEnter : MonoBehaviour Fields onEnter The event invoked during OnCollisionEnter. Declaration public CollisionEnter.Event onEnter Methods OnCollisionEnter(Collision) Declaration protected virtual void OnCollisionEnter(Collision collision) Parameters Type Name Description Collision collision"
+  },
+  "api/Zigurous.Physics.CollisionEnter2D.Event.html": {
+    "href": "api/Zigurous.Physics.CollisionEnter2D.Event.html",
+    "title": "Class CollisionEnter2D.Event | Physics Utils",
+    "keywords": "Class CollisionEnter2D.Event Inheritance System.Object CollisionEnter2D.Event Namespace : Zigurous.Physics Syntax [Serializable] public class Event : UnityEvent<Collision2D>"
+  },
+  "api/Zigurous.Physics.CollisionEnter2D.html": {
+    "href": "api/Zigurous.Physics.CollisionEnter2D.html",
+    "title": "Class CollisionEnter2D | Physics Utils",
+    "keywords": "Class CollisionEnter2D Invokes a custom unity event OnCollisionEnter2D. Inheritance System.Object CollisionEnter2D Namespace : Zigurous.Physics Syntax public class CollisionEnter2D : MonoBehaviour Fields onEnter The event invoked during OnCollisionEnter2D. Declaration public CollisionEnter2D.Event onEnter Methods OnCollisionEnter2D(Collision2D) Declaration protected virtual void OnCollisionEnter2D(Collision2D collision) Parameters Type Name Description Collision2D collision"
+  },
+  "api/Zigurous.Physics.CollisionExit.Event.html": {
+    "href": "api/Zigurous.Physics.CollisionExit.Event.html",
+    "title": "Class CollisionExit.Event | Physics Utils",
+    "keywords": "Class CollisionExit.Event Inheritance System.Object CollisionExit.Event Namespace : Zigurous.Physics Syntax [Serializable] public class Event : UnityEvent<Collision>"
+  },
+  "api/Zigurous.Physics.CollisionExit.html": {
+    "href": "api/Zigurous.Physics.CollisionExit.html",
+    "title": "Class CollisionExit | Physics Utils",
+    "keywords": "Class CollisionExit Invokes a custom unity event OnCollisionExit. Inheritance System.Object CollisionExit Namespace : Zigurous.Physics Syntax public class CollisionExit : MonoBehaviour Fields onExit The event invoked during OnCollisionExit. Declaration public CollisionExit.Event onExit Methods OnCollisionExit(Collision) Declaration protected virtual void OnCollisionExit(Collision collision) Parameters Type Name Description Collision collision"
+  },
+  "api/Zigurous.Physics.CollisionExit2D.Event.html": {
+    "href": "api/Zigurous.Physics.CollisionExit2D.Event.html",
+    "title": "Class CollisionExit2D.Event | Physics Utils",
+    "keywords": "Class CollisionExit2D.Event Inheritance System.Object CollisionExit2D.Event Namespace : Zigurous.Physics Syntax [Serializable] public class Event : UnityEvent<Collision2D>"
+  },
+  "api/Zigurous.Physics.CollisionExit2D.html": {
+    "href": "api/Zigurous.Physics.CollisionExit2D.html",
+    "title": "Class CollisionExit2D | Physics Utils",
+    "keywords": "Class CollisionExit2D Invokes a custom unity event OnCollisionExit2D. Inheritance System.Object CollisionExit2D Namespace : Zigurous.Physics Syntax public class CollisionExit2D : MonoBehaviour Fields onExit The event invoked during OnCollisionExit2D. Declaration public CollisionExit2D.Event onExit Methods OnCollisionExit2D(Collision2D) Declaration protected virtual void OnCollisionExit2D(Collision2D collision) Parameters Type Name Description Collision2D collision"
+  },
+  "api/Zigurous.Physics.CollisionStay.Event.html": {
+    "href": "api/Zigurous.Physics.CollisionStay.Event.html",
+    "title": "Class CollisionStay.Event | Physics Utils",
+    "keywords": "Class CollisionStay.Event Inheritance System.Object CollisionStay.Event Namespace : Zigurous.Physics Syntax [Serializable] public class Event : UnityEvent<Collision>"
+  },
+  "api/Zigurous.Physics.CollisionStay.html": {
+    "href": "api/Zigurous.Physics.CollisionStay.html",
+    "title": "Class CollisionStay | Physics Utils",
+    "keywords": "Class CollisionStay Invokes a custom unity event OnCollisionStay. Inheritance System.Object CollisionStay Namespace : Zigurous.Physics Syntax public class CollisionStay : MonoBehaviour Fields onStay The event invoked during OnCollisionStay. Declaration public CollisionStay.Event onStay Methods OnCollisionStay(Collision) Declaration protected virtual void OnCollisionStay(Collision collision) Parameters Type Name Description Collision collision"
+  },
+  "api/Zigurous.Physics.CollisionStay2D.Event.html": {
+    "href": "api/Zigurous.Physics.CollisionStay2D.Event.html",
+    "title": "Class CollisionStay2D.Event | Physics Utils",
+    "keywords": "Class CollisionStay2D.Event Inheritance System.Object CollisionStay2D.Event Namespace : Zigurous.Physics Syntax [Serializable] public class Event : UnityEvent<Collision2D>"
+  },
+  "api/Zigurous.Physics.CollisionStay2D.html": {
+    "href": "api/Zigurous.Physics.CollisionStay2D.html",
+    "title": "Class CollisionStay2D | Physics Utils",
+    "keywords": "Class CollisionStay2D Invokes a custom unity event OnCollisionStay2D. Inheritance System.Object CollisionStay2D Namespace : Zigurous.Physics Syntax public class CollisionStay2D : MonoBehaviour Fields onStay The event invoked during OnCollisionStay2D. Declaration public CollisionStay2D.Event onStay Methods OnCollisionStay2D(Collision2D) Declaration protected virtual void OnCollisionStay2D(Collision2D collision) Parameters Type Name Description Collision2D collision"
+  },
+  "api/Zigurous.Physics.Explosion.html": {
+    "href": "api/Zigurous.Physics.Explosion.html",
+    "title": "Class Explosion | Physics Utils",
+    "keywords": "Class Explosion Adds an explosion force to all rigidbodies within a set radius upon being triggered. Inheritance System.Object Explosion Namespace : Zigurous.Physics Syntax public class Explosion : MonoBehaviour Fields destroyOnExplode Destroys the game object of the script after exploding. Declaration public bool destroyOnExplode forceMode The type of force applied to affected rigidbodies. Declaration public ForceMode forceMode fuseTime The amount of seconds before the explosion takes effect after being triggered. Declaration public float fuseTime layerMask The layers that can be affected by the explosion. Declaration public LayerMask layerMask radius The radius of the sphere within which the explosion has its effect. Declaration public float radius strength The force strength of the explosion. Declaration public float strength trigger The type of trigger that causes the explosion. Declaration public Explosion.Trigger trigger upwardsModifier An adjustment to the apparent position of the explosion to make it seem to lift objects. Declaration public float upwardsModifier Methods Explode() Declaration public virtual void Explode() Explode(Single) Declaration public void Explode(float fuseTime) Parameters Type Name Description System.Single fuseTime OnCollisionEnter(Collision) Declaration protected virtual void OnCollisionEnter(Collision collision) Parameters Type Name Description Collision collision OnCollisionExit(Collision) Declaration protected virtual void OnCollisionExit(Collision collision) Parameters Type Name Description Collision collision OnTriggerEnter(Collider) Declaration protected virtual void OnTriggerEnter(Collider collider) Parameters Type Name Description Collider collider OnTriggerExit(Collider) Declaration protected virtual void OnTriggerExit(Collider collider) Parameters Type Name Description Collider collider Start() Declaration protected virtual void Start()"
+  },
+  "api/Zigurous.Physics.Explosion.Trigger.html": {
+    "href": "api/Zigurous.Physics.Explosion.Trigger.html",
+    "title": "Enum Explosion.Trigger | Physics Utils",
+    "keywords": "Enum Explosion.Trigger A type of trigger that causes an explosion. Namespace : Zigurous.Physics Syntax public enum Trigger Fields Name Description Manual The explosion is triggered manually. OnCollisionEnter Triggers the explosion when a collision occurs on the object. OnCollisionExit Triggers the explosion after a collision exits on the object. OnStart Triggers the explosion on the start of the script. OnTriggerEnter Triggers the explosion when entering a trigger collider. OnTriggerExit Triggers the explosion after exiting a trigger collider."
+  },
+  "api/Zigurous.Physics.html": {
+    "href": "api/Zigurous.Physics.html",
+    "title": "Namespace Zigurous.Physics | Physics Utils",
+    "keywords": "Namespace Zigurous.Physics Classes CollisionEnter Invokes a custom unity event OnCollisionEnter. CollisionEnter.Event CollisionEnter2D Invokes a custom unity event OnCollisionEnter2D. CollisionEnter2D.Event CollisionExit Invokes a custom unity event OnCollisionExit. CollisionExit.Event CollisionExit2D Invokes a custom unity event OnCollisionExit2D. CollisionExit2D.Event CollisionStay Invokes a custom unity event OnCollisionStay. CollisionStay.Event CollisionStay2D Invokes a custom unity event OnCollisionStay2D. CollisionStay2D.Event Explosion Adds an explosion force to all rigidbodies within a set radius upon being triggered. LayerMaskExtensions Magnet An object that produces a magnetic field that attracts objects. Magnetic An object with magnetic properties that can be attracted to a magnet. TriggerEnter Invokes a custom unity event OnTriggerEnter. TriggerEnter.Event TriggerEnter2D Invokes a custom unity event OnTriggerEnter2D. TriggerEnter2D.Event TriggerExit Invokes a custom unity event OnTriggerExit. TriggerExit.Event TriggerExit2D Invokes a custom unity event OnTriggerExit2D. TriggerExit2D.Event TriggerStay Invokes a custom unity event OnTriggerStay. TriggerStay.Event TriggerStay2D Invokes a custom unity event OnTriggerStay2D. TriggerStay2D.Event Enums Explosion.Trigger A type of trigger that causes an explosion."
+  },
+  "api/Zigurous.Physics.LayerMaskExtensions.html": {
+    "href": "api/Zigurous.Physics.LayerMaskExtensions.html",
+    "title": "Class LayerMaskExtensions | Physics Utils",
+    "keywords": "Class LayerMaskExtensions Inheritance System.Object LayerMaskExtensions Namespace : Zigurous.Physics Syntax public static class LayerMaskExtensions Methods Contains(LayerMask, Int32) Declaration public static bool Contains(this LayerMask mask, int layer) Parameters Type Name Description LayerMask mask System.Int32 layer Returns Type Description System.Boolean"
+  },
+  "api/Zigurous.Physics.Magnet.html": {
+    "href": "api/Zigurous.Physics.Magnet.html",
+    "title": "Class Magnet | Physics Utils",
+    "keywords": "Class Magnet An object that produces a magnetic field that attracts objects. Inheritance System.Object Magnet Namespace : Zigurous.Physics Syntax public sealed class Magnet : MonoBehaviour Fields strength The strength of the magnet. If an object is within multiple magnetic fields, then it will be attracted to the magnet with the higher strength. Declaration public float strength Properties magneticField The sphere collider that represents the magnetic field of the magnet. Declaration public SphereCollider magneticField { get; } radius The radius of the magnetic field produced by the magnet. Magnetic objects within the radius are attracted to the magnet. Declaration public float radius { get; set; }"
+  },
+  "api/Zigurous.Physics.Magnetic.html": {
+    "href": "api/Zigurous.Physics.Magnetic.html",
+    "title": "Class Magnetic | Physics Utils",
+    "keywords": "Class Magnetic An object with magnetic properties that can be attracted to a magnet. Inheritance System.Object Magnetic Namespace : Zigurous.Physics Syntax public sealed class Magnetic : MonoBehaviour Properties attractedMagnets The magnets the object is currently attracted to. Declaration public List<Magnet> attractedMagnets { get; } rigidbody The rigidbody of the magnetic object that handles moving the object toward attracted magnets. When not present, forces will be added directly to the transform's position instead. Declaration public Rigidbody rigidbody { get; }"
+  },
+  "api/Zigurous.Physics.TriggerEnter.Event.html": {
+    "href": "api/Zigurous.Physics.TriggerEnter.Event.html",
+    "title": "Class TriggerEnter.Event | Physics Utils",
+    "keywords": "Class TriggerEnter.Event Inheritance System.Object TriggerEnter.Event Namespace : Zigurous.Physics Syntax [Serializable] public class Event : UnityEvent<Collider>"
+  },
+  "api/Zigurous.Physics.TriggerEnter.html": {
+    "href": "api/Zigurous.Physics.TriggerEnter.html",
+    "title": "Class TriggerEnter | Physics Utils",
+    "keywords": "Class TriggerEnter Invokes a custom unity event OnTriggerEnter. Inheritance System.Object TriggerEnter Namespace : Zigurous.Physics Syntax public class TriggerEnter : MonoBehaviour Fields onEnter The event invoked during OnTriggerEnter. Declaration public TriggerEnter.Event onEnter Methods OnTriggerEnter(Collider) Declaration protected virtual void OnTriggerEnter(Collider other) Parameters Type Name Description Collider other"
+  },
+  "api/Zigurous.Physics.TriggerEnter2D.Event.html": {
+    "href": "api/Zigurous.Physics.TriggerEnter2D.Event.html",
+    "title": "Class TriggerEnter2D.Event | Physics Utils",
+    "keywords": "Class TriggerEnter2D.Event Inheritance System.Object TriggerEnter2D.Event Namespace : Zigurous.Physics Syntax [Serializable] public class Event : UnityEvent<Collider2D>"
+  },
+  "api/Zigurous.Physics.TriggerEnter2D.html": {
+    "href": "api/Zigurous.Physics.TriggerEnter2D.html",
+    "title": "Class TriggerEnter2D | Physics Utils",
+    "keywords": "Class TriggerEnter2D Invokes a custom unity event OnTriggerEnter2D. Inheritance System.Object TriggerEnter2D Namespace : Zigurous.Physics Syntax public class TriggerEnter2D : MonoBehaviour Fields onEnter The event invoked during OnTriggerEnter2D. Declaration public TriggerEnter2D.Event onEnter Methods OnTriggerEnter2D(Collider2D) Declaration protected virtual void OnTriggerEnter2D(Collider2D other) Parameters Type Name Description Collider2D other"
+  },
+  "api/Zigurous.Physics.TriggerExit.Event.html": {
+    "href": "api/Zigurous.Physics.TriggerExit.Event.html",
+    "title": "Class TriggerExit.Event | Physics Utils",
+    "keywords": "Class TriggerExit.Event Inheritance System.Object TriggerExit.Event Namespace : Zigurous.Physics Syntax [Serializable] public class Event : UnityEvent<Collider>"
+  },
+  "api/Zigurous.Physics.TriggerExit.html": {
+    "href": "api/Zigurous.Physics.TriggerExit.html",
+    "title": "Class TriggerExit | Physics Utils",
+    "keywords": "Class TriggerExit Invokes a custom unity event OnTriggerExit. Inheritance System.Object TriggerExit Namespace : Zigurous.Physics Syntax public class TriggerExit : MonoBehaviour Fields onExit The event invoked during OnTriggerExit. Declaration public TriggerExit.Event onExit Methods OnTriggerExit(Collider) Declaration protected virtual void OnTriggerExit(Collider other) Parameters Type Name Description Collider other"
+  },
+  "api/Zigurous.Physics.TriggerExit2D.Event.html": {
+    "href": "api/Zigurous.Physics.TriggerExit2D.Event.html",
+    "title": "Class TriggerExit2D.Event | Physics Utils",
+    "keywords": "Class TriggerExit2D.Event Inheritance System.Object TriggerExit2D.Event Namespace : Zigurous.Physics Syntax [Serializable] public class Event : UnityEvent<Collider2D>"
+  },
+  "api/Zigurous.Physics.TriggerExit2D.html": {
+    "href": "api/Zigurous.Physics.TriggerExit2D.html",
+    "title": "Class TriggerExit2D | Physics Utils",
+    "keywords": "Class TriggerExit2D Invokes a custom unity event OnTriggerExit2D. Inheritance System.Object TriggerExit2D Namespace : Zigurous.Physics Syntax public class TriggerExit2D : MonoBehaviour Fields onExit The event invoked during OnTriggerExit2D. Declaration public TriggerExit2D.Event onExit Methods OnTriggerExit2D(Collider2D) Declaration protected virtual void OnTriggerExit2D(Collider2D other) Parameters Type Name Description Collider2D other"
+  },
+  "api/Zigurous.Physics.TriggerStay.Event.html": {
+    "href": "api/Zigurous.Physics.TriggerStay.Event.html",
+    "title": "Class TriggerStay.Event | Physics Utils",
+    "keywords": "Class TriggerStay.Event Inheritance System.Object TriggerStay.Event Namespace : Zigurous.Physics Syntax [Serializable] public class Event : UnityEvent<Collider>"
+  },
+  "api/Zigurous.Physics.TriggerStay.html": {
+    "href": "api/Zigurous.Physics.TriggerStay.html",
+    "title": "Class TriggerStay | Physics Utils",
+    "keywords": "Class TriggerStay Invokes a custom unity event OnTriggerStay. Inheritance System.Object TriggerStay Namespace : Zigurous.Physics Syntax public class TriggerStay : MonoBehaviour Fields onStay The event invoked during OnTriggerStay. Declaration public TriggerStay.Event onStay Methods OnTriggerStay(Collider) Declaration protected virtual void OnTriggerStay(Collider other) Parameters Type Name Description Collider other"
+  },
+  "api/Zigurous.Physics.TriggerStay2D.Event.html": {
+    "href": "api/Zigurous.Physics.TriggerStay2D.Event.html",
+    "title": "Class TriggerStay2D.Event | Physics Utils",
+    "keywords": "Class TriggerStay2D.Event Inheritance System.Object TriggerStay2D.Event Namespace : Zigurous.Physics Syntax [Serializable] public class Event : UnityEvent<Collider2D>"
+  },
+  "api/Zigurous.Physics.TriggerStay2D.html": {
+    "href": "api/Zigurous.Physics.TriggerStay2D.html",
+    "title": "Class TriggerStay2D | Physics Utils",
+    "keywords": "Class TriggerStay2D Invokes a custom unity event OnTriggerStay2D. Inheritance System.Object TriggerStay2D Namespace : Zigurous.Physics Syntax public class TriggerStay2D : MonoBehaviour Fields onStay The event invoked during OnTriggerStay2D. Declaration public TriggerStay2D.Event onStay Methods OnTriggerStay2D(Collider2D) Declaration protected virtual void OnTriggerStay2D(Collider2D other) Parameters Type Name Description Collider2D other"
+  },
+  "changelog/CHANGELOG.html": {
+    "href": "changelog/CHANGELOG.html",
+    "title": "Changelog | Physics Utils",
+    "keywords": "Changelog All notable changes to this project will be documented in this file. The format is based on Keep a Changelog , and this project adheres to Semantic Versioning . [0.3.1] - 2021/06/28 Changed [AddComponentMenu] attribute added to all behaviors [0.3.0] - 2021/06/09 Added Collider event behaviors [0.2.0] - 2021/05/29 Added Explosion script Changed Renamed physics materials [0.1.0] - 2021/05/19 Added Scripts Magnet Magnetic LayerMask Extensions Materials Bouncy Bouncy Box (2D) Ice MaxFriction Metal Rubber Wood ZeroFriction Slippery (2D) Sticky (2D)"
+  },
+  "license/LICENSE.html": {
+    "href": "license/LICENSE.html",
+    "title": "License | Physics Utils",
+    "keywords": "License MIT License Copyright (c) 2021 Zigurous Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  "manual/index.html": {
+    "href": "manual/index.html",
+    "title": "Physics Utils | Physics Utils",
+    "keywords": "Physics Utils The Physics Utils package contains physics-related scripts and utilities for Unity projects."
+  },
+  "manual/installation.html": {
+    "href": "manual/installation.html",
+    "title": "Installation | Physics Utils",
+    "keywords": "Installation Use the Unity Package Manager to install the Physics Utils package. Open the Package Manager in Window > Package Manager Click the add ( + ) button in the status bar Select Add package from git URL from the add menu Enter the following Git URL in the text box and click Add: https://github.com/zigurous/unity-physics-utils.git For more information on the Package Manager and installing packages, see the following pages: Unity's Package Manager Installing from a Git URL Importing Import the package namespace in each script or file you want to use it. Note : You may need to regenerate project files/assemblies first. using Zigurous.Physics; Source Code The source code for the Physics Utils package is in the following repository: https://github.com/zigurous/unity-physics-utils"
+  }
+}
