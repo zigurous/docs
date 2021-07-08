@@ -1,0 +1,47 @@
+{
+  "api/Zigurous.UI.html": {
+    "href": "api/Zigurous.UI.html",
+    "title": "Namespace Zigurous.UI | UI Toolkit",
+    "keywords": "Namespace Zigurous.UI Classes NavigationStack Keeps track of a stack of selected game objects as to allow for easy back navigation. ScrollToSelection Handles scrolling a ScrollRect component to the selected child element. This is especially useful for controller support. ScrollWithInput Handles scrolling a ScrollRect component with user input. This is especially useful for controller support. Enums ScrollToSelection.ScrollDirection A scroll direction type."
+  },
+  "api/Zigurous.UI.NavigationStack.html": {
+    "href": "api/Zigurous.UI.NavigationStack.html",
+    "title": "Class NavigationStack | UI Toolkit",
+    "keywords": "Class NavigationStack Keeps track of a stack of selected game objects as to allow for easy back navigation. Inheritance System.Object NavigationStack Namespace : Zigurous.UI Syntax public class NavigationStack : MonoBehaviour Fields allowEmptyStack Allows for all items to be popped off the stack. Often times you want to maintain at least the root game object. Declaration public bool allowEmptyStack allowNullSelections Allows for null game objects to be pushed onto the stack. Declaration public bool allowNullSelections backNavigationInput The input action to handle navigating backwards in the stack by popping items off. Declaration public InputAction backNavigationInput rootGameObject The root game object added to the bottom of the stack. Declaration public GameObject rootGameObject setActiveState Automatically sets the active state of game objects as they are pushed on and off the stack. Declaration public bool setActiveState Properties eventSystem The event system being tracked by the navigation stack. Declaration public EventSystem eventSystem { get; } items The game objects added to the stack. Declaration public Stack<GameObject> items { get; } Top The current selected game object at the top of the stack. Declaration public GameObject Top { get; } Methods Back() Declaration public void Back() Push(GameObject) Declaration public void Push(GameObject selected) Parameters Type Name Description GameObject selected"
+  },
+  "api/Zigurous.UI.ScrollToSelection.html": {
+    "href": "api/Zigurous.UI.ScrollToSelection.html",
+    "title": "Class ScrollToSelection | UI Toolkit",
+    "keywords": "Class ScrollToSelection Handles scrolling a ScrollRect component to the selected child element. This is especially useful for controller support. Inheritance System.Object ScrollToSelection Namespace : Zigurous.UI Syntax public class ScrollToSelection : MonoBehaviour Fields scrollDirection The direction to scroll the ScrollRect. Declaration public ScrollToSelection.ScrollDirection scrollDirection scrollSpeed How quickly the ScrollRect scrolls. Declaration public float scrollSpeed Properties manualScrolling Whether the ScrollRect is currently being manually scrolled. This allows the user to scroll freely with the mouse even when a child element is selected. Declaration public bool manualScrolling { get; } scrollRect The ScrollRect component being scrolled. Declaration public ScrollRect scrollRect { get; } scrollTransform The RectTransform component of the scroll rect. Declaration public RectTransform scrollTransform { get; } selectedGameObject The current selected game object. Declaration public GameObject selectedGameObject { get; } selectedTransform The RectTransform of the current selected game object. Declaration public RectTransform selectedTransform { get; }"
+  },
+  "api/Zigurous.UI.ScrollToSelection.ScrollDirection.html": {
+    "href": "api/Zigurous.UI.ScrollToSelection.ScrollDirection.html",
+    "title": "Enum ScrollToSelection.ScrollDirection | UI Toolkit",
+    "keywords": "Enum ScrollToSelection.ScrollDirection A scroll direction type. Namespace : Zigurous.UI Syntax public enum ScrollDirection Fields Name Description Both Horizontal Vertical"
+  },
+  "api/Zigurous.UI.ScrollWithInput.html": {
+    "href": "api/Zigurous.UI.ScrollWithInput.html",
+    "title": "Class ScrollWithInput | UI Toolkit",
+    "keywords": "Class ScrollWithInput Handles scrolling a ScrollRect component with user input. This is especially useful for controller support. Inheritance System.Object ScrollWithInput Namespace : Zigurous.UI Syntax public class ScrollWithInput : MonoBehaviour Fields scrollInput The input action that handles scrolling. Declaration public InputAction scrollInput sensitivity The sensitivity multiplier applied to the input. Declaration public float sensitivity Properties scrollRect The ScrollRect component being scrolled. Declaration public ScrollRect scrollRect { get; }"
+  },
+  "changelog/CHANGELOG.html": {
+    "href": "changelog/CHANGELOG.html",
+    "title": "Changelog | UI Toolkit",
+    "keywords": "Changelog All notable changes to this project will be documented in this file. The format is based on Keep a Changelog , and this project adheres to Semantic Versioning . [0.1.0] - 2021/07/05 Added NavigationStack ScrollToSelection ScrollWithInput"
+  },
+  "license/LICENSE.html": {
+    "href": "license/LICENSE.html",
+    "title": "License | UI Toolkit",
+    "keywords": "License MIT License Copyright (c) 2021 Zigurous Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  "manual/index.html": {
+    "href": "manual/index.html",
+    "title": "UI Toolkit | UI Toolkit",
+    "keywords": "UI Toolkit The UI Toolkit package contains scripts and utilities for creating UI in Unity projects."
+  },
+  "manual/installation.html": {
+    "href": "manual/installation.html",
+    "title": "Installation | UI Toolkit",
+    "keywords": "Installation Use the Unity Package Manager to install the UI Toolkit package. Open the Package Manager in Window > Package Manager Click the add ( + ) button in the status bar Select Add package from git URL from the add menu Enter the following Git URL in the text box and click Add: https://github.com/zigurous/unity-ui-toolkit.git For more information on the Package Manager and installing packages, see the following pages: Unity's Package Manager Installing from a Git URL Importing Import the package namespace in each script or file you want to use it. Note : You may need to regenerate project files/assemblies first. using Zigurous.UI; Source Code The source code for the UI Toolkit package is in the following repository: https://github.com/zigurous/unity-ui-toolkit"
+  }
+}
