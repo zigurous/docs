@@ -1,7 +1,5 @@
 # Docs & Scripting APIs
 
-Documentation and scripting APIs for all Zigurous packages.
-
 ### Unity
 
 | Name              | Identifier                    | Link                                                          |
