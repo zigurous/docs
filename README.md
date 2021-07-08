@@ -13,4 +13,5 @@
 | Physics Utils     | `com.zigurous.physics`        | [Docs](https://docs.zigurous.com/com.zigurous.physics)        |
 | Prototyping Kit   | `com.zigurous.prototyping`    | [Docs](https://docs.zigurous.com/com.zigurous.prototyping)    |
 | Tweening          | `com.zigurous.tweening`       | [Docs](https://docs.zigurous.com/com.zigurous.tweening)       |
+| UI Reticles       | `com.zigurous.ui.reticles`    | [Docs](https://docs.zigurous.com/com.zigurous.ui.reticles)    |
 | UI Toolkit        | `com.zigurous.ui`             | [Docs](https://docs.zigurous.com/com.zigurous.ui)             |
