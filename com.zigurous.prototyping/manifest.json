@@ -1,0 +1,345 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/unity-prototyping-kit/unity-prototyping-kit/.docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/CHANGELOG.html",
+          "hash": "YAR9ipsLoaKxHGEzbhE5xxxr/u15M7h5OB6bt0+1vP0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Prototyping.PrototypingMaterialPatternPalette.Pattern.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Prototyping.PrototypingMaterialPatternPalette.Pattern.html",
+          "hash": "ortwuBAdAyfeyjMWQ/xDzchp3iVPYax12lKdNEWCysg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Prototyping.PrototypingMaterialPatternPalette.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Prototyping.PrototypingMaterialPatternPalette.html",
+          "hash": "qvANHY7CPGEtxi73LLxjNm1AxlkCtNx7wkrvTADQ64w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Prototyping.PrototypingMaterialPatternPreset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Prototyping.PrototypingMaterialPatternPreset.html",
+          "hash": "wtBchfiZDQ0VWoTQqlVpTzLQr3HOiJ2vLoh2dl1lmZg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Prototyping.PrototypingMaterialSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Prototyping.PrototypingMaterialSelector.html",
+          "hash": "z/TyD+RgER/0QJ0SYGFIiRgTMRj7GEXGeKt0uGxS5Og="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Prototyping.PrototypingMaterialStylePalette.Style.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Prototyping.PrototypingMaterialStylePalette.Style.html",
+          "hash": "XXqYsDmbdkpHzSJV5/PuKbz3yM/uSHN4c/T4utyEw/k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Prototyping.PrototypingMaterialStylePalette.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Prototyping.PrototypingMaterialStylePalette.html",
+          "hash": "C4onpPLkGn3ZM/GYI8EMbOHdnISkYNkuva0JVSb7oAU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Prototyping.PrototypingMaterialStylePreset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Prototyping.PrototypingMaterialStylePreset.html",
+          "hash": "W/KQ3oSer8v/0Gnv4DOUtuuFjHcILVsIyQHC8cEo+9Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Prototyping.PrototypingMaterialTiling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Prototyping.PrototypingMaterialTiling.html",
+          "hash": "ynxKhEFXmpZCgyn7I4wsYaO6w96QmqOzRtRRK6pPdac="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Prototyping.PrototypingMaterialTilingCube.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Prototyping.PrototypingMaterialTilingCube.html",
+          "hash": "JlJgjfoTCJzqlenkqZFSjcrMIhhCCtYC8ijNPVDlgVo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Prototyping.PrototypingMaterialTilingPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Prototyping.PrototypingMaterialTilingPlane.html",
+          "hash": "WVjHRtVs9KNU2kj/GpxXLpyB6Zz3mFoJzRwUKcN6Fxk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Prototyping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Prototyping.html",
+          "hash": "ef2Q1vbVlp7JF2GVQAni/MFotATqvLM1S+CDlm0Ea38="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "r0RGIboqfFWS+0nE/Nt8rLqTeqpRLiPoHCbNcKX8Q4s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "changelog/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/toc.html",
+          "hash": "j/R7VsgfMrRj2PSFCxNuNW5i4MM9bx8I75x/hK6u+GE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "index.html",
+      "output": {
+        "resource": {
+          "relative_path": "index.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/LICENSE.html",
+          "hash": "J0SgW/CPpp1veY5TisvoFi9NwTuMoO54sIb1KpKrHcM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "license/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "license/toc.html",
+          "hash": "3sfv6RkkqWekrwnt0enkRH5g52dpC0R/dIdaGtX1p4M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html",
+          "hash": "cmyZG+a1sUdXEhsq/5VCdJmi6njNcxIdM50ZBqKQx2A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/installation.html",
+          "hash": "tZAvXmnG6IjgdJLkfilw6qQPivBe5ZObbBkCUcLIU18="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "AUBmkjcV6Rgc5XQX3SpA8j/bnbBPgpTg+VqyBcLddP4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "b6df0vKt0i7pg3Bcpd8h0U+pRDC2G4r1OyPZbHps31o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 11,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
