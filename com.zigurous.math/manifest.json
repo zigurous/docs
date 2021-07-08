@@ -1,0 +1,477 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/unity-math-utils/unity-math-utils/.docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/CHANGELOG.html",
+          "hash": "A6HxQ1OhuRWhvit1L3Tj9+ETf/r3WgJYbpQ/eL9NtsI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.ArrayExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.ArrayExtensions.html",
+          "hash": "Nj425QLN3/GYXgDDORG94AhmrAdvJurxA4PBcXgniC8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.BoundsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.BoundsExtensions.html",
+          "hash": "SZtV7O0vASzRmKMtGp6mr1LtIoQE5LvUCSIz9vwQlRU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.Chance.Coin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.Chance.Coin.html",
+          "hash": "xf9vjF+zPgvjE8xo27H9tDzjX0uOi3NBlpsREK/EJlU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.Chance.GamblingColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.Chance.GamblingColor.html",
+          "hash": "pcWKb9x00JBIExAs5CVSwtzJ4RvbiFzwqJW81RQMy/s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.Chance.PlayingCard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.Chance.PlayingCard.html",
+          "hash": "gcDz3s7ROkKjzSL2AmQGFlrp1N5teUsa4BdeXGn2dmA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.Chance.PlayingCardSuit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.Chance.PlayingCardSuit.html",
+          "hash": "ra8JmNOcv36VlsXwRYdgtRDngnwx1gMY7vu/kUc0uno="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.Chance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.Chance.html",
+          "hash": "2t+nMh97FZ4dhrlaUlcXwkX8aFHrwaZdeqlkW4fmkHE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.ColliderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.ColliderExtensions.html",
+          "hash": "anoRIgryp6H5EPWGJx+qhCYebeC6OWq14XyuGV2Vj/4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.ComparableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.ComparableExtensions.html",
+          "hash": "aCt2Cs3vEgxEZjeEaJBmj5SqEI0Ra7FbFm2IvW9nkbk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.DoubleExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.DoubleExtensions.html",
+          "hash": "Edla7n9q8Sr/1OaB0rtqpqiutoxReqXqOSfUqDKZ8oo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.FloatEqualityComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.FloatEqualityComparer.html",
+          "hash": "qT8aoHPsic/5HBKR9Un5CZ1fITanNzQhQ70DbS0rbTA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.FloatExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.FloatExtensions.html",
+          "hash": "SLSsKiPUte2n/rm/pUCzjM2dwKbz2VRQMH3Fb7m+obc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.IntExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.IntExtensions.html",
+          "hash": "V/KVOHxqmElwt/+/mZ4QUwVuTqCURluXZVJI8FZp8pQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.LongExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.LongExtensions.html",
+          "hash": "tAeaRE9xP78bpZoWErFk6BQWXo9UKoKRifg0sP31K+s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.Processors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.Processors.html",
+          "hash": "McyrtEJHMIEAC3EEPt9RAxRnKomO0kuibcYLeRo4asU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.QuaternionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.QuaternionExtensions.html",
+          "hash": "QNhAbpjYo2aosbVJ4etBBQJ3CI2pYb99WijDhVrMud8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.ShortExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.ShortExtensions.html",
+          "hash": "HXsXoobYyGmpKtYnPZwBQU2UZPRgr9404TGGq4GtiV0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.UIntExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.UIntExtensions.html",
+          "hash": "MdP8HK0x+UVc8Ryaub5JvwhGMdn2kXEQhZ+q8Jg+81M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.Vector2Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.Vector2Extensions.html",
+          "hash": "h1MbMzm0zZ3QIRZS1Zr46gd0I8oBcr3cVa+9JGsJA1Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.Vector3Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.Vector3Extensions.html",
+          "hash": "L6TtldwUKV2IcICj+UGqzYmqXhabX1I8QQiJ8to4W48="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.Vector4Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.Vector4Extensions.html",
+          "hash": "y9sTok0+mv0MnucoIn2FHpQI0R/m45EqERNPUuNBTcM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.html",
+          "hash": "nULz8SlwemEHecLEOiz2shMWAqgCWkAIfYNogunnMaI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "iW7DGuIPS1HqBl91NmgA9RN3Q3xKxCZqxDCJPnXD8B0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "changelog/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/toc.html",
+          "hash": "j/R7VsgfMrRj2PSFCxNuNW5i4MM9bx8I75x/hK6u+GE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "index.html",
+      "output": {
+        "resource": {
+          "relative_path": "index.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/LICENSE.html",
+          "hash": "oK2mPTYRTS9A8800EayXPvgMF7Ri7dn+Sc3CrtmPf2o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "license/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "license/toc.html",
+          "hash": "3sfv6RkkqWekrwnt0enkRH5g52dpC0R/dIdaGtX1p4M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html",
+          "hash": "mjj/tR2ANBTa///KB+2OCGB06TXvD95untTA9J7ItqI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/installation.html",
+          "hash": "zXp3r2PEL3osIODYxSoCbcJ1oVLJsyJ7NF6P0daGkfQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "AUBmkjcV6Rgc5XQX3SpA8j/bnbBPgpTg+VqyBcLddP4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "CDVBtwkpY6R33caPxYOiaYt0C/RbsybgDNU/rgr6TFQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 22,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
