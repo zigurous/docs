@@ -9,4 +9,5 @@
 | Data Structures   | `com.zigurous.datastructures` | [Docs](https://docs.zigurous.com/com.zigurous.datastructures) |
 | Debug Tools       | `com.zigurous.debug`          | [Docs](https://docs.zigurous.com/com.zigurous.debug)          |
 | Graphics Utils    | `com.zigurous.graphics`       | [Docs](https://docs.zigurous.com/com.zigurous.graphics)       |
+| Math Utils        | `com.zigurous.math`           | [Docs](https://docs.zigurous.com/com.zigurous.math)           |
 | Tweening          | `com.zigurous.tweening`       | [Docs](https://docs.zigurous.com/com.zigurous.tweening)       |
