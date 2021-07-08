@@ -11,4 +11,5 @@
 | Graphics Utils    | `com.zigurous.graphics`       | [Docs](https://docs.zigurous.com/com.zigurous.graphics)       |
 | Math Utils        | `com.zigurous.math`           | [Docs](https://docs.zigurous.com/com.zigurous.math)           |
 | Physics Utils     | `com.zigurous.physics`        | [Docs](https://docs.zigurous.com/com.zigurous.physics)        |
+| Prototyping Kit   | `com.zigurous.prototyping`    | [Docs](https://docs.zigurous.com/com.zigurous.prototyping)    |
 | Tweening          | `com.zigurous.tweening`       | [Docs](https://docs.zigurous.com/com.zigurous.tweening)       |
