@@ -2,16 +2,21 @@
 
 ### Unity Packages
 
-| Name              | Identifier                    | Link                                                          |
-|:------------------|:------------------------------|:--------------------------------------------------------------|
-| Animation Library | `com.zigurous.animation`      | [Docs](https://docs.zigurous.com/com.zigurous.animation)      |
-| Color Utils       | `com.zigurous.color`          | [Docs](https://docs.zigurous.com/com.zigurous.color)          |
-| Data Structures   | `com.zigurous.datastructures` | [Docs](https://docs.zigurous.com/com.zigurous.datastructures) |
-| Debug Tools       | `com.zigurous.debug`          | [Docs](https://docs.zigurous.com/com.zigurous.debug)          |
-| Graphics Utils    | `com.zigurous.graphics`       | [Docs](https://docs.zigurous.com/com.zigurous.graphics)       |
-| Math Utils        | `com.zigurous.math`           | [Docs](https://docs.zigurous.com/com.zigurous.math)           |
-| Physics Utils     | `com.zigurous.physics`        | [Docs](https://docs.zigurous.com/com.zigurous.physics)        |
-| Prototyping Kit   | `com.zigurous.prototyping`    | [Docs](https://docs.zigurous.com/com.zigurous.prototyping)    |
-| Tweening          | `com.zigurous.tweening`       | [Docs](https://docs.zigurous.com/com.zigurous.tweening)       |
-| UI Reticles       | `com.zigurous.ui.reticles`    | [Docs](https://docs.zigurous.com/com.zigurous.ui.reticles)    |
-| UI Toolkit        | `com.zigurous.ui`             | [Docs](https://docs.zigurous.com/com.zigurous.ui)             |
+| Name | Identifier | Version | Docs | Repo |
+|:-----|:----------|:--------|:-----|:-----|
+| Animation Library | ![](https://img.shields.io/badge/-com.zigurous.animation-lightgrey?color=4c4c4c)      | ![](https://img.shields.io/github/package-json/v/zigurous/unity-animation-library) | [![](https://img.shields.io/badge/docs-link-blue)](https://docs.zigurous.com/com.zigurous.animation)      | [![](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/zigurous/unity-animation-library) |
+| Data Structures   | ![](https://img.shields.io/badge/-com.zigurous.datastructures-lightgrey?color=4c4c4c) | ![](https://img.shields.io/github/package-json/v/zigurous/unity-data-structures)   | [![](https://img.shields.io/badge/docs-link-blue)](https://docs.zigurous.com/com.zigurous.datastructures) | [![](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/zigurous/unity-data-structures)   |
+| Debug Tools       | ![](https://img.shields.io/badge/-com.zigurous.debug-lightgrey?color=4c4c4c)          | ![](https://img.shields.io/github/package-json/v/zigurous/unity-debug-tools)       | [![](https://img.shields.io/badge/docs-link-blue)](https://docs.zigurous.com/com.zigurous.debug)          | [![](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/zigurous/unity-debug-tools)       |
+| Graphics Utils    | ![](https://img.shields.io/badge/-com.zigurous.graphics-lightgrey?color=4c4c4c)       | ![](https://img.shields.io/github/package-json/v/zigurous/unity-graphics-utils)    | [![](https://img.shields.io/badge/docs-link-blue)](https://docs.zigurous.com/com.zigurous.graphics)       | [![](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/zigurous/unity-graphics-utils)    |
+| Math Utils        | ![](https://img.shields.io/badge/-com.zigurous.math-lightgrey?color=4c4c4c)           | ![](https://img.shields.io/github/package-json/v/zigurous/unity-math-utils)        | [![](https://img.shields.io/badge/docs-link-blue)](https://docs.zigurous.com/com.zigurous.math)           | [![](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/zigurous/unity-math-utils)        |
+| Physics Utils     | ![](https://img.shields.io/badge/-com.zigurous.physics-lightgrey?color=4c4c4c)        | ![](https://img.shields.io/github/package-json/v/zigurous/unity-physics-utils)     | [![](https://img.shields.io/badge/docs-link-blue)](https://docs.zigurous.com/com.zigurous.physics)        | [![](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/zigurous/unity-physics-utils)     |
+| Prototyping Kit   | ![](https://img.shields.io/badge/-com.zigurous.prototyping-lightgrey?color=4c4c4c)    | ![](https://img.shields.io/github/package-json/v/zigurous/unity-animation-library) | [![](https://img.shields.io/badge/docs-link-blue)](https://docs.zigurous.com/com.zigurous.prototyping)    | [![](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/zigurous/unity-prototyping-kit)   |
+| Tweening          | ![](https://img.shields.io/badge/-com.zigurous.tweening-lightgrey?color=4c4c4c)       | ![](https://img.shields.io/github/package-json/v/zigurous/unity-tweening-system)   | [![](https://img.shields.io/badge/docs-link-blue)](https://docs.zigurous.com/com.zigurous.tweening)       | [![](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/zigurous/unity-tweening-system)   |
+| UI Toolkit        | ![](https://img.shields.io/badge/-com.zigurous.ui-lightgrey?color=4c4c4c)             | ![](https://img.shields.io/github/package-json/v/zigurous/unity-ui-toolkit)        | [![](https://img.shields.io/badge/docs-link-blue)](https://docs.zigurous.com/com.zigurous.ui)             | [![](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/zigurous/unity-ui-toolkit)        |
+
+### Unity Packages Early Access
+
+| Name | Identifier | Version | Docs | Repo |
+|:-----|:-----------|:--------|:-----|:-----|
+| Color Utils       | ![](https://img.shields.io/badge/-com.zigurous.color-lightgrey?color=4c4c4c)          | ![](https://img.shields.io/badge/version-early%20access-yellow)                    | [![](https://img.shields.io/badge/docs-link-blue)](https://docs.zigurous.com/com.zigurous.color)          | [![](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/zigurous/unity-color-utils)       |
+| UI Reticles       | ![](https://img.shields.io/badge/-com.zigurous.ui.reticles-lightgrey?color=4c4c4c)    | ![](https://img.shields.io/badge/version-early%20access-yellow)                    | [![](https://img.shields.io/badge/docs-link-blue)](https://docs.zigurous.com/com.zigurous.ui.reticles)    | [![](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/zigurous/unity-ui-reticles)       |
