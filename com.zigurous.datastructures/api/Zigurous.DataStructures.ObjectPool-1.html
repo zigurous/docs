@@ -101,7 +101,7 @@ pool has reached capacity.</p>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.DataStructures.html">Zigurous.DataStructures</a></h6>
   <h5 id="Zigurous_DataStructures_ObjectPool_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class ObjectPool&lt;T&gt; : IObjectPool&lt;T&gt;, IDisposable where T : class</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class ObjectPool&lt;T&gt; : IObjectPool&lt;T&gt;, IDisposable where T : class, IDisposable</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -114,7 +114,8 @@ pool has reached capacity.</p>
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>The type of object to pool.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -122,7 +123,7 @@ pool has reached capacity.</p>
   </h3>
   <a id="Zigurous_DataStructures_ObjectPool_1__ctor_" data-uid="Zigurous.DataStructures.ObjectPool`1.#ctor*"></a>
   <h4 id="Zigurous_DataStructures_ObjectPool_1__ctor_System_Int32_" data-uid="Zigurous.DataStructures.ObjectPool`1.#ctor(System.Int32)">ObjectPool(Int32)</h4>
-  <div class="markdown level1 summary"><p>Creates a new ObjectPool with an initial capacity. New objects are
+  <div class="markdown level1 summary"><p>Creates a new object pool with an initial capacity. New objects are
 created as needed using the object type default value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -143,13 +144,14 @@ created as needed using the object type default value.</p>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">initialCapacity</span></td>
-        <td></td>
+        <td><p>The initial capacity of the pool.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_ObjectPool_1__ctor_" data-uid="Zigurous.DataStructures.ObjectPool`1.#ctor*"></a>
   <h4 id="Zigurous_DataStructures_ObjectPool_1__ctor_System_Int32_System_Int32_System_Boolean_" data-uid="Zigurous.DataStructures.ObjectPool`1.#ctor(System.Int32,System.Int32,System.Boolean)">ObjectPool(Int32, Int32, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Creates a new ObjectPool with an initial capacity and max capacity.
+  <div class="markdown level1 summary"><p>Creates a new object pool with an initial capacity and max capacity.
 Optionally active objects can be reused when the pool has reached
 max capacity. New objects are created as needed using the object
 type default value.</p>
@@ -172,24 +174,28 @@ type default value.</p>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">initialCapacity</span></td>
-        <td></td>
+        <td><p>The initial capacity of the pool.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">maxCapacity</span></td>
-        <td></td>
+        <td><p>The maximum number of objects that can be generated.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">reuseActive</span></td>
-        <td></td>
+        <td><p>Whether active objects should be reused when the object pool has reached max capacity.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_ObjectPool_1__ctor_" data-uid="Zigurous.DataStructures.ObjectPool`1.#ctor*"></a>
   <h4 id="Zigurous_DataStructures_ObjectPool_1__ctor_Zigurous_DataStructures_ObjectPool__0__Generator_System_Int32_" data-uid="Zigurous.DataStructures.ObjectPool`1.#ctor(Zigurous.DataStructures.ObjectPool{`0}.Generator,System.Int32)">ObjectPool(ObjectPool&lt;T&gt;.Generator, Int32)</h4>
-  <div class="markdown level1 summary"><p>Creates a new ObjectPool with a given generator function and initial
-capacity. New objects are created as needed with no max capacity.</p>
+  <div class="markdown level1 summary"><p>Creates a new object pool with a given generator function and
+initial capacity. New objects are created as needed with no max
+capacity.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -209,18 +215,20 @@ capacity. New objects are created as needed with no max capacity.</p>
       <tr>
         <td><a class="xref" href="Zigurous.DataStructures.ObjectPool-1.Generator.html">ObjectPool.Generator</a>&lt;&gt;</td>
         <td><span class="parametername">generator</span></td>
-        <td></td>
+        <td><p>The function delegate that generates a new object.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">initialCapacity</span></td>
-        <td></td>
+        <td><p>The initial capacity of the pool.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_ObjectPool_1__ctor_" data-uid="Zigurous.DataStructures.ObjectPool`1.#ctor*"></a>
   <h4 id="Zigurous_DataStructures_ObjectPool_1__ctor_Zigurous_DataStructures_ObjectPool__0__Generator_System_Int32_System_Int32_System_Boolean_" data-uid="Zigurous.DataStructures.ObjectPool`1.#ctor(Zigurous.DataStructures.ObjectPool{`0}.Generator,System.Int32,System.Int32,System.Boolean)">ObjectPool(ObjectPool&lt;T&gt;.Generator, Int32, Int32, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Creates a new ObjectPool with a given generator function and set
+  <div class="markdown level1 summary"><p>Creates a new object pool with a given generator function and set
 capacity limits. Optionally active objects can be reused when the
 pool has reached max capacity.</p>
 </div>
@@ -242,22 +250,26 @@ pool has reached max capacity.</p>
       <tr>
         <td><a class="xref" href="Zigurous.DataStructures.ObjectPool-1.Generator.html">ObjectPool.Generator</a>&lt;&gt;</td>
         <td><span class="parametername">generator</span></td>
-        <td></td>
+        <td><p>The function delegate that generates a new object.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">initialCapacity</span></td>
-        <td></td>
+        <td><p>The initial capacity of the pool.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">maxCapacity</span></td>
-        <td></td>
+        <td><p>The maximum number of objects that can be generated.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">reuseActive</span></td>
-        <td></td>
+        <td><p>Whether active objects should be reused when the object pool has reached max capacity.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -265,22 +277,52 @@ pool has reached max capacity.</p>
   </h3>
   <a id="Zigurous_DataStructures_ObjectPool_1_ActiveCount_" data-uid="Zigurous.DataStructures.ObjectPool`1.ActiveCount*"></a>
   <h4 id="Zigurous_DataStructures_ObjectPool_1_ActiveCount" data-uid="Zigurous.DataStructures.ObjectPool`1.ActiveCount">ActiveCount</h4>
-  <div class="markdown level1 summary"><p>The number of objects currently being used.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int ActiveCount { get; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of objects currently being used.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Zigurous_DataStructures_ObjectPool_1_AvailableCount_" data-uid="Zigurous.DataStructures.ObjectPool`1.AvailableCount*"></a>
   <h4 id="Zigurous_DataStructures_ObjectPool_1_AvailableCount" data-uid="Zigurous.DataStructures.ObjectPool`1.AvailableCount">AvailableCount</h4>
-  <div class="markdown level1 summary"><p>The number of objects available to be reused.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int AvailableCount { get; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of objects available to be reused.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Zigurous_DataStructures_ObjectPool_1_maxCapacity_" data-uid="Zigurous.DataStructures.ObjectPool`1.maxCapacity*"></a>
   <h4 id="Zigurous_DataStructures_ObjectPool_1_maxCapacity" data-uid="Zigurous.DataStructures.ObjectPool`1.maxCapacity">maxCapacity</h4>
   <div class="markdown level1 summary"><p>The maximum number of objects that can be generated.</p>
@@ -335,7 +377,8 @@ destroy the objects when the pool is disposed.</p>
       <tr>
         <td><span class="xref">System.Action</span>&lt;T&gt;</td>
         <td><span class="parametername">cleanup</span></td>
-        <td></td>
+        <td><p>The cleanup function to invoke on each object.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -372,7 +415,8 @@ destroy the objects when the pool is emptied.</p>
       <tr>
         <td><span class="xref">System.Action</span>&lt;T&gt;</td>
         <td><span class="parametername">cleanup</span></td>
-        <td></td>
+        <td><p>The cleanup function to invoke on each object.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -398,17 +442,14 @@ destroy the objects when the pool is emptied.</p>
       <tr>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">item</span></td>
-        <td></td>
+        <td><p>The item to add to the pool.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_ObjectPool_1_Retrieve_" data-uid="Zigurous.DataStructures.ObjectPool`1.Retrieve*"></a>
   <h4 id="Zigurous_DataStructures_ObjectPool_1_Retrieve" data-uid="Zigurous.DataStructures.ObjectPool`1.Retrieve">Retrieve()</h4>
-  <div class="markdown level1 summary"><p>Retrieves an item from the object pool. If there are no available
-objects in the pool, either a new object will be generated or the
-oldest object will be reused depending upon how the ObjectPool was
-created.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -425,7 +466,10 @@ created.</p>
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td></td>
+        <td><p>An item from the object pool. If there are no available objects in
+the pool, either a new object will be generated or the oldest object
+will be reused depending upon how the object pool was created.</p>
+</td>
       </tr>
     </tbody>
   </table>

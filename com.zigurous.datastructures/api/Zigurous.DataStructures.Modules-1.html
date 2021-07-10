@@ -111,7 +111,8 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>The type of entity to manage.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -119,8 +120,7 @@
   </h3>
   <a id="Zigurous_DataStructures_Modules_1__ctor_" data-uid="Zigurous.DataStructures.Modules`1.#ctor*"></a>
   <h4 id="Zigurous_DataStructures_Modules_1__ctor__0___System_Action__0__System_Action__0__" data-uid="Zigurous.DataStructures.Modules`1.#ctor(`0[],System.Action{`0},System.Action{`0})">Modules(T[], Action&lt;T&gt;, Action&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Creates a new Modules instance and pre-registers a list of given
-items.</p>
+  <div class="markdown level1 summary"><p>Creates a new module collection and pre-registers a list of given items.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -140,23 +140,26 @@ items.</p>
       <tr>
         <td>T[]</td>
         <td><span class="parametername">items</span></td>
-        <td></td>
+        <td><p>The items to pre-register.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Action</span>&lt;T&gt;</td>
         <td><span class="parametername">registered</span></td>
-        <td></td>
+        <td><p>A callback invoked when a module is registered.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Action</span>&lt;T&gt;</td>
         <td><span class="parametername">unregistered</span></td>
-        <td></td>
+        <td><p>A callback invoked when a module is unregistered.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_Modules_1__ctor_" data-uid="Zigurous.DataStructures.Modules`1.#ctor*"></a>
   <h4 id="Zigurous_DataStructures_Modules_1__ctor_System_Int32_System_Action__0__System_Action__0__" data-uid="Zigurous.DataStructures.Modules`1.#ctor(System.Int32,System.Action{`0},System.Action{`0})">Modules(Int32, Action&lt;T&gt;, Action&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Creates a new Modules instance with a set capacity.</p>
+  <div class="markdown level1 summary"><p>Creates a new module collection with a set capacity.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -176,24 +179,27 @@ items.</p>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">capacity</span></td>
-        <td></td>
+        <td><p>The initial capacity of the collection.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Action</span>&lt;T&gt;</td>
         <td><span class="parametername">registered</span></td>
-        <td></td>
+        <td><p>A callback invoked when a module is registered.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Action</span>&lt;T&gt;</td>
         <td><span class="parametername">unregistered</span></td>
-        <td></td>
+        <td><p>A callback invoked when a module is unregistered.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <h3 id="fields">Fields
   </h3>
   <h4 id="Zigurous_DataStructures_Modules_1_registered" data-uid="Zigurous.DataStructures.Modules`1.registered">registered</h4>
-  <div class="markdown level1 summary"><p>A callback invoked when a new module is registered.</p>
+  <div class="markdown level1 summary"><p>A callback invoked when a module is registered.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -212,17 +218,31 @@ items.</p>
   </h3>
   <a id="Zigurous_DataStructures_Modules_1_Count_" data-uid="Zigurous.DataStructures.Modules`1.Count*"></a>
   <h4 id="Zigurous_DataStructures_Modules_1_Count" data-uid="Zigurous.DataStructures.Modules`1.Count">Count</h4>
-  <div class="markdown level1 summary"><p>The amount of modules registered to the entity.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int Count { get; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The amount of modules registered to the entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Zigurous_DataStructures_Modules_1_Item_" data-uid="Zigurous.DataStructures.Modules`1.Item*"></a>
   <h4 id="Zigurous_DataStructures_Modules_1_Item_System_Int32_" data-uid="Zigurous.DataStructures.Modules`1.Item(System.Int32)">Item[Int32]</h4>
-  <div class="markdown level1 summary"><p>Returns the module at the given index.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -241,7 +261,24 @@ items.</p>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
-        <td></td>
+        <td><p>The index of the module to return.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The module at the given index.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -258,12 +295,11 @@ items.</p>
   </h3>
   <a id="Zigurous_DataStructures_Modules_1_IsRegistered_" data-uid="Zigurous.DataStructures.Modules`1.IsRegistered*"></a>
   <h4 id="Zigurous_DataStructures_Modules_1_IsRegistered__0_" data-uid="Zigurous.DataStructures.Modules`1.IsRegistered(`0)">IsRegistered(T)</h4>
-  <div class="markdown level1 summary"><p>Deternines if the provided item is registered.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsRegistered(T item)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsRegistered(T module)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -277,8 +313,9 @@ items.</p>
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td><span class="parametername">item</span></td>
-        <td></td>
+        <td><span class="parametername">module</span></td>
+        <td><p>The module to check for registration.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -293,19 +330,19 @@ items.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>True if the module is registered, false if the module is not registered.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_Modules_1_Register_" data-uid="Zigurous.DataStructures.Modules`1.Register*"></a>
   <h4 id="Zigurous_DataStructures_Modules_1_Register__0_" data-uid="Zigurous.DataStructures.Modules`1.Register(`0)">Register(T)</h4>
-  <div class="markdown level1 summary"><p>Registers an item to the entity. Returns false if the item cannot be
-registered.</p>
+  <div class="markdown level1 summary"><p>Registers a module to the entity.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Register(T item)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Register(T module)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -319,8 +356,9 @@ registered.</p>
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td><span class="parametername">item</span></td>
-        <td></td>
+        <td><span class="parametername">module</span></td>
+        <td><p>The module to register.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -335,19 +373,19 @@ registered.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>True if the module was registered, false if the module cannot be registered.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_Modules_1_Unregister_" data-uid="Zigurous.DataStructures.Modules`1.Unregister*"></a>
   <h4 id="Zigurous_DataStructures_Modules_1_Unregister__0_" data-uid="Zigurous.DataStructures.Modules`1.Unregister(`0)">Unregister(T)</h4>
-  <div class="markdown level1 summary"><p>Unregisters an item from the entity. Returns true if the item is
-unregistered.</p>
+  <div class="markdown level1 summary"><p>Unregisters a module from the entity.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Unregister(T item)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Unregister(T module)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -361,8 +399,9 @@ unregistered.</p>
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td><span class="parametername">item</span></td>
-        <td></td>
+        <td><span class="parametername">module</span></td>
+        <td><p>The module to unregister.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -377,7 +416,8 @@ unregistered.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>True if the module was unregistered, false if the module cannot be unregistered.</p>
+</td>
       </tr>
     </tbody>
   </table>

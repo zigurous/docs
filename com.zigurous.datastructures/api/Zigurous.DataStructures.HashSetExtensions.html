@@ -83,7 +83,8 @@
   
   <h1 id="Zigurous_DataStructures_HashSetExtensions" data-uid="Zigurous.DataStructures.HashSetExtensions" class="text-break">Class HashSetExtensions
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Exposes extension methods for hash sets.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -103,7 +104,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T First&lt;T&gt;(this HashSet&lt;T&gt; set, Predicate&lt;T&gt; where)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T First&lt;T&gt;(this HashSet&lt;T&gt; set, Predicate&lt;T&gt; predicate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -118,12 +119,14 @@
       <tr>
         <td><span class="xref">HashSet</span>&lt;T&gt;</td>
         <td><span class="parametername">set</span></td>
-        <td></td>
+        <td><p>The hash set to get the element from.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Predicate</span>&lt;T&gt;</td>
-        <td><span class="parametername">where</span></td>
-        <td></td>
+        <td><span class="parametername">predicate</span></td>
+        <td><p>The predicate to use.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -138,7 +141,8 @@
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td></td>
+        <td><p>The first element in the hash set that satisfies the <code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -153,13 +157,15 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>The type of the elements in the hash set.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_HashSetExtensions_ForEach_" data-uid="Zigurous.DataStructures.HashSetExtensions.ForEach*"></a>
   <h4 id="Zigurous_DataStructures_HashSetExtensions_ForEach__1_HashSet___0__System_Action___0__" data-uid="Zigurous.DataStructures.HashSetExtensions.ForEach``1(HashSet{``0},System.Action{``0})">ForEach&lt;T&gt;(HashSet&lt;T&gt;, Action&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Invokes an <code data-dev-comment-type="paramref" class="paramref">action</code> on each element in the hash set.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -178,12 +184,14 @@
       <tr>
         <td><span class="xref">HashSet</span>&lt;T&gt;</td>
         <td><span class="parametername">set</span></td>
-        <td></td>
+        <td><p>The hash set to iterate over.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Action</span>&lt;T&gt;</td>
         <td><span class="parametername">action</span></td>
-        <td></td>
+        <td><p>The action to invoke on each element.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -198,17 +206,18 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>The type of the elements in the hash set.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_DataStructures_HashSetExtensions_IsFalseForEach_" data-uid="Zigurous.DataStructures.HashSetExtensions.IsFalseForEach*"></a>
-  <h4 id="Zigurous_DataStructures_HashSetExtensions_IsFalseForEach__1_HashSet___0__System_Predicate___0__" data-uid="Zigurous.DataStructures.HashSetExtensions.IsFalseForEach``1(HashSet{``0},System.Predicate{``0})">IsFalseForEach&lt;T&gt;(HashSet&lt;T&gt;, Predicate&lt;T&gt;)</h4>
+  <a id="Zigurous_DataStructures_HashSetExtensions_IsAny_" data-uid="Zigurous.DataStructures.HashSetExtensions.IsAny*"></a>
+  <h4 id="Zigurous_DataStructures_HashSetExtensions_IsAny__1_HashSet___0__System_Predicate___0__" data-uid="Zigurous.DataStructures.HashSetExtensions.IsAny``1(HashSet{``0},System.Predicate{``0})">IsAny&lt;T&gt;(HashSet&lt;T&gt;, Predicate&lt;T&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsFalseForEach&lt;T&gt;(this HashSet&lt;T&gt; set, Predicate&lt;T&gt; predicate)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsAny&lt;T&gt;(this HashSet&lt;T&gt; set, Predicate&lt;T&gt; predicate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -223,12 +232,14 @@
       <tr>
         <td><span class="xref">HashSet</span>&lt;T&gt;</td>
         <td><span class="parametername">set</span></td>
-        <td></td>
+        <td><p>The hash set to check.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Predicate</span>&lt;T&gt;</td>
         <td><span class="parametername">predicate</span></td>
-        <td></td>
+        <td><p>The predicate to use.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -243,7 +254,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>True if any element in the hash set satisfies the <code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -258,17 +270,18 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>The type of the elements in the hash set.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_DataStructures_HashSetExtensions_IsTrueForEach_" data-uid="Zigurous.DataStructures.HashSetExtensions.IsTrueForEach*"></a>
-  <h4 id="Zigurous_DataStructures_HashSetExtensions_IsTrueForEach__1_HashSet___0__System_Predicate___0__" data-uid="Zigurous.DataStructures.HashSetExtensions.IsTrueForEach``1(HashSet{``0},System.Predicate{``0})">IsTrueForEach&lt;T&gt;(HashSet&lt;T&gt;, Predicate&lt;T&gt;)</h4>
+  <a id="Zigurous_DataStructures_HashSetExtensions_IsEach_" data-uid="Zigurous.DataStructures.HashSetExtensions.IsEach*"></a>
+  <h4 id="Zigurous_DataStructures_HashSetExtensions_IsEach__1_HashSet___0__System_Predicate___0__" data-uid="Zigurous.DataStructures.HashSetExtensions.IsEach``1(HashSet{``0},System.Predicate{``0})">IsEach&lt;T&gt;(HashSet&lt;T&gt;, Predicate&lt;T&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsTrueForEach&lt;T&gt;(this HashSet&lt;T&gt; set, Predicate&lt;T&gt; predicate)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsEach&lt;T&gt;(this HashSet&lt;T&gt; set, Predicate&lt;T&gt; predicate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -283,12 +296,14 @@
       <tr>
         <td><span class="xref">HashSet</span>&lt;T&gt;</td>
         <td><span class="parametername">set</span></td>
-        <td></td>
+        <td><p>The hash set to check.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Predicate</span>&lt;T&gt;</td>
         <td><span class="parametername">predicate</span></td>
-        <td></td>
+        <td><p>The predicate to use.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -303,7 +318,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>True if each element in the hash set satisfies the <code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -318,7 +334,8 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>The type of the elements in the hash set.</p>
+</td>
       </tr>
     </tbody>
   </table>

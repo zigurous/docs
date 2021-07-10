@@ -54,22 +54,6 @@ references:
   fullName.vb: Zigurous.DataStructures.ArrayExtensions.Contains(Of T)(T(), T)
   nameWithType: ArrayExtensions.Contains<T>(T[], T)
   nameWithType.vb: ArrayExtensions.Contains(Of T)(T(), T)
-- uid: Zigurous.DataStructures.ArrayExtensions.ContainsType*
-  name: ContainsType
-  href: api/Zigurous.DataStructures.ArrayExtensions.html#Zigurous_DataStructures_ArrayExtensions_ContainsType_
-  commentId: Overload:Zigurous.DataStructures.ArrayExtensions.ContainsType
-  isSpec: "True"
-  fullName: Zigurous.DataStructures.ArrayExtensions.ContainsType
-  nameWithType: ArrayExtensions.ContainsType
-- uid: Zigurous.DataStructures.ArrayExtensions.ContainsType``1(``0[],System.Type)
-  name: ContainsType<T>(T[], Type)
-  href: api/Zigurous.DataStructures.ArrayExtensions.html#Zigurous_DataStructures_ArrayExtensions_ContainsType__1___0___System_Type_
-  commentId: M:Zigurous.DataStructures.ArrayExtensions.ContainsType``1(``0[],System.Type)
-  name.vb: ContainsType(Of T)(T(), Type)
-  fullName: Zigurous.DataStructures.ArrayExtensions.ContainsType<T>(T[], System.Type)
-  fullName.vb: Zigurous.DataStructures.ArrayExtensions.ContainsType(Of T)(T(), System.Type)
-  nameWithType: ArrayExtensions.ContainsType<T>(T[], Type)
-  nameWithType.vb: ArrayExtensions.ContainsType(Of T)(T(), Type)
 - uid: Zigurous.DataStructures.ArrayExtensions.ElementAt*
   name: ElementAt
   href: api/Zigurous.DataStructures.ArrayExtensions.html#Zigurous_DataStructures_ArrayExtensions_ElementAt_
@@ -584,19 +568,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.DataStructures.Bitmask.Clear
   nameWithType: Bitmask.Clear
-- uid: Zigurous.DataStructures.Bitmask.ContainsMaskExclusive(System.Int32)
-  name: ContainsMaskExclusive(Int32)
-  href: api/Zigurous.DataStructures.Bitmask.html#Zigurous_DataStructures_Bitmask_ContainsMaskExclusive_System_Int32_
-  commentId: M:Zigurous.DataStructures.Bitmask.ContainsMaskExclusive(System.Int32)
-  fullName: Zigurous.DataStructures.Bitmask.ContainsMaskExclusive(System.Int32)
-  nameWithType: Bitmask.ContainsMaskExclusive(Int32)
-- uid: Zigurous.DataStructures.Bitmask.ContainsMaskExclusive*
-  name: ContainsMaskExclusive
-  href: api/Zigurous.DataStructures.Bitmask.html#Zigurous_DataStructures_Bitmask_ContainsMaskExclusive_
-  commentId: Overload:Zigurous.DataStructures.Bitmask.ContainsMaskExclusive
-  isSpec: "True"
-  fullName: Zigurous.DataStructures.Bitmask.ContainsMaskExclusive
-  nameWithType: Bitmask.ContainsMaskExclusive
 - uid: Zigurous.DataStructures.Bitmask.Equals(System.Int32)
   name: Equals(Int32)
   href: api/Zigurous.DataStructures.Bitmask.html#Zigurous_DataStructures_Bitmask_Equals_System_Int32_
@@ -687,6 +658,19 @@ references:
   isSpec: "True"
   fullName: Zigurous.DataStructures.Bitmask.HasFlag
   nameWithType: Bitmask.HasFlag
+- uid: Zigurous.DataStructures.Bitmask.HasOnlyFlags(System.Int32)
+  name: HasOnlyFlags(Int32)
+  href: api/Zigurous.DataStructures.Bitmask.html#Zigurous_DataStructures_Bitmask_HasOnlyFlags_System_Int32_
+  commentId: M:Zigurous.DataStructures.Bitmask.HasOnlyFlags(System.Int32)
+  fullName: Zigurous.DataStructures.Bitmask.HasOnlyFlags(System.Int32)
+  nameWithType: Bitmask.HasOnlyFlags(Int32)
+- uid: Zigurous.DataStructures.Bitmask.HasOnlyFlags*
+  name: HasOnlyFlags
+  href: api/Zigurous.DataStructures.Bitmask.html#Zigurous_DataStructures_Bitmask_HasOnlyFlags_
+  commentId: Overload:Zigurous.DataStructures.Bitmask.HasOnlyFlags
+  isSpec: "True"
+  fullName: Zigurous.DataStructures.Bitmask.HasOnlyFlags
+  nameWithType: Bitmask.HasOnlyFlags
 - uid: Zigurous.DataStructures.Bitmask.op_BitwiseAnd(Zigurous.DataStructures.Bitmask,Zigurous.DataStructures.Bitmask)
   name: BitwiseAnd(Bitmask, Bitmask)
   href: api/Zigurous.DataStructures.Bitmask.html#Zigurous_DataStructures_Bitmask_op_BitwiseAnd_Zigurous_DataStructures_Bitmask_Zigurous_DataStructures_Bitmask_
@@ -1040,6 +1024,19 @@ references:
   isSpec: "True"
   fullName: Zigurous.DataStructures.Bool3.LogicalNot
   nameWithType: Bool3.LogicalNot
+- uid: Zigurous.DataStructures.Bool3.ToString
+  name: ToString()
+  href: api/Zigurous.DataStructures.Bool3.html#Zigurous_DataStructures_Bool3_ToString
+  commentId: M:Zigurous.DataStructures.Bool3.ToString
+  fullName: Zigurous.DataStructures.Bool3.ToString()
+  nameWithType: Bool3.ToString()
+- uid: Zigurous.DataStructures.Bool3.ToString*
+  name: ToString
+  href: api/Zigurous.DataStructures.Bool3.html#Zigurous_DataStructures_Bool3_ToString_
+  commentId: Overload:Zigurous.DataStructures.Bool3.ToString
+  isSpec: "True"
+  fullName: Zigurous.DataStructures.Bool3.ToString
+  nameWithType: Bool3.ToString
 - uid: Zigurous.DataStructures.Bool3.True
   name: "True"
   href: api/Zigurous.DataStructures.Bool3.html#Zigurous_DataStructures_Bool3_True
@@ -1167,6 +1164,12 @@ references:
   commentId: M:Zigurous.DataStructures.ClampedRange.Includes(System.Single)
   fullName: Zigurous.DataStructures.ClampedRange.Includes(System.Single)
   nameWithType: ClampedRange.Includes(Single)
+- uid: Zigurous.DataStructures.ClampedRange.Includes(System.Single,System.Boolean,System.Boolean)
+  name: Includes(Single, Boolean, Boolean)
+  href: api/Zigurous.DataStructures.ClampedRange.html#Zigurous_DataStructures_ClampedRange_Includes_System_Single_System_Boolean_System_Boolean_
+  commentId: M:Zigurous.DataStructures.ClampedRange.Includes(System.Single,System.Boolean,System.Boolean)
+  fullName: Zigurous.DataStructures.ClampedRange.Includes(System.Single, System.Boolean, System.Boolean)
+  nameWithType: ClampedRange.Includes(Single, Boolean, Boolean)
 - uid: Zigurous.DataStructures.ClampedRange.Includes*
   name: Includes
   href: api/Zigurous.DataStructures.ClampedRange.html#Zigurous_DataStructures_ClampedRange_Includes_
@@ -1329,6 +1332,12 @@ references:
   commentId: M:Zigurous.DataStructures.ColorRange.Includes(Color)
   fullName: Zigurous.DataStructures.ColorRange.Includes(Color)
   nameWithType: ColorRange.Includes(Color)
+- uid: Zigurous.DataStructures.ColorRange.Includes(Color,System.Boolean,System.Boolean)
+  name: Includes(Color, Boolean, Boolean)
+  href: api/Zigurous.DataStructures.ColorRange.html#Zigurous_DataStructures_ColorRange_Includes_Color_System_Boolean_System_Boolean_
+  commentId: M:Zigurous.DataStructures.ColorRange.Includes(Color,System.Boolean,System.Boolean)
+  fullName: Zigurous.DataStructures.ColorRange.Includes(Color, System.Boolean, System.Boolean)
+  nameWithType: ColorRange.Includes(Color, Boolean, Boolean)
 - uid: Zigurous.DataStructures.ColorRange.Includes*
   name: Includes
   href: api/Zigurous.DataStructures.ColorRange.html#Zigurous_DataStructures_ColorRange_Includes_
@@ -1598,6 +1607,12 @@ references:
   commentId: M:Zigurous.DataStructures.EulerRange.Includes(System.Single)
   fullName: Zigurous.DataStructures.EulerRange.Includes(System.Single)
   nameWithType: EulerRange.Includes(Single)
+- uid: Zigurous.DataStructures.EulerRange.Includes(System.Single,System.Boolean,System.Boolean)
+  name: Includes(Single, Boolean, Boolean)
+  href: api/Zigurous.DataStructures.EulerRange.html#Zigurous_DataStructures_EulerRange_Includes_System_Single_System_Boolean_System_Boolean_
+  commentId: M:Zigurous.DataStructures.EulerRange.Includes(System.Single,System.Boolean,System.Boolean)
+  fullName: Zigurous.DataStructures.EulerRange.Includes(System.Single, System.Boolean, System.Boolean)
+  nameWithType: EulerRange.Includes(Single, Boolean, Boolean)
 - uid: Zigurous.DataStructures.EulerRange.Includes*
   name: Includes
   href: api/Zigurous.DataStructures.EulerRange.html#Zigurous_DataStructures_EulerRange_Includes_
@@ -1792,6 +1807,12 @@ references:
   commentId: M:Zigurous.DataStructures.FloatRange.Includes(System.Single)
   fullName: Zigurous.DataStructures.FloatRange.Includes(System.Single)
   nameWithType: FloatRange.Includes(Single)
+- uid: Zigurous.DataStructures.FloatRange.Includes(System.Single,System.Boolean,System.Boolean)
+  name: Includes(Single, Boolean, Boolean)
+  href: api/Zigurous.DataStructures.FloatRange.html#Zigurous_DataStructures_FloatRange_Includes_System_Single_System_Boolean_System_Boolean_
+  commentId: M:Zigurous.DataStructures.FloatRange.Includes(System.Single,System.Boolean,System.Boolean)
+  fullName: Zigurous.DataStructures.FloatRange.Includes(System.Single, System.Boolean, System.Boolean)
+  nameWithType: FloatRange.Includes(Single, Boolean, Boolean)
 - uid: Zigurous.DataStructures.FloatRange.Includes*
   name: Includes
   href: api/Zigurous.DataStructures.FloatRange.html#Zigurous_DataStructures_FloatRange_Includes_
@@ -2340,57 +2361,57 @@ references:
   fullName.vb: Zigurous.DataStructures.HashSetExtensions.ForEach(Of T)(HashSet(Of T), System.Action(Of T))
   nameWithType: HashSetExtensions.ForEach<T>(HashSet<T>, Action<T>)
   nameWithType.vb: HashSetExtensions.ForEach(Of T)(HashSet(Of T), Action(Of T))
-- uid: Zigurous.DataStructures.HashSetExtensions.IsFalseForEach*
-  name: IsFalseForEach
-  href: api/Zigurous.DataStructures.HashSetExtensions.html#Zigurous_DataStructures_HashSetExtensions_IsFalseForEach_
-  commentId: Overload:Zigurous.DataStructures.HashSetExtensions.IsFalseForEach
+- uid: Zigurous.DataStructures.HashSetExtensions.IsAny*
+  name: IsAny
+  href: api/Zigurous.DataStructures.HashSetExtensions.html#Zigurous_DataStructures_HashSetExtensions_IsAny_
+  commentId: Overload:Zigurous.DataStructures.HashSetExtensions.IsAny
   isSpec: "True"
-  fullName: Zigurous.DataStructures.HashSetExtensions.IsFalseForEach
-  nameWithType: HashSetExtensions.IsFalseForEach
-- uid: Zigurous.DataStructures.HashSetExtensions.IsFalseForEach``1(HashSet{``0},System.Predicate{``0})
-  name: IsFalseForEach<T>(HashSet<T>, Predicate<T>)
-  href: api/Zigurous.DataStructures.HashSetExtensions.html#Zigurous_DataStructures_HashSetExtensions_IsFalseForEach__1_HashSet___0__System_Predicate___0__
-  commentId: M:Zigurous.DataStructures.HashSetExtensions.IsFalseForEach``1(HashSet{``0},System.Predicate{``0})
-  name.vb: IsFalseForEach(Of T)(HashSet(Of T), Predicate(Of T))
-  fullName: Zigurous.DataStructures.HashSetExtensions.IsFalseForEach<T>(HashSet<T>, System.Predicate<T>)
-  fullName.vb: Zigurous.DataStructures.HashSetExtensions.IsFalseForEach(Of T)(HashSet(Of T), System.Predicate(Of T))
-  nameWithType: HashSetExtensions.IsFalseForEach<T>(HashSet<T>, Predicate<T>)
-  nameWithType.vb: HashSetExtensions.IsFalseForEach(Of T)(HashSet(Of T), Predicate(Of T))
-- uid: Zigurous.DataStructures.HashSetExtensions.IsTrueForEach*
-  name: IsTrueForEach
-  href: api/Zigurous.DataStructures.HashSetExtensions.html#Zigurous_DataStructures_HashSetExtensions_IsTrueForEach_
-  commentId: Overload:Zigurous.DataStructures.HashSetExtensions.IsTrueForEach
+  fullName: Zigurous.DataStructures.HashSetExtensions.IsAny
+  nameWithType: HashSetExtensions.IsAny
+- uid: Zigurous.DataStructures.HashSetExtensions.IsAny``1(HashSet{``0},System.Predicate{``0})
+  name: IsAny<T>(HashSet<T>, Predicate<T>)
+  href: api/Zigurous.DataStructures.HashSetExtensions.html#Zigurous_DataStructures_HashSetExtensions_IsAny__1_HashSet___0__System_Predicate___0__
+  commentId: M:Zigurous.DataStructures.HashSetExtensions.IsAny``1(HashSet{``0},System.Predicate{``0})
+  name.vb: IsAny(Of T)(HashSet(Of T), Predicate(Of T))
+  fullName: Zigurous.DataStructures.HashSetExtensions.IsAny<T>(HashSet<T>, System.Predicate<T>)
+  fullName.vb: Zigurous.DataStructures.HashSetExtensions.IsAny(Of T)(HashSet(Of T), System.Predicate(Of T))
+  nameWithType: HashSetExtensions.IsAny<T>(HashSet<T>, Predicate<T>)
+  nameWithType.vb: HashSetExtensions.IsAny(Of T)(HashSet(Of T), Predicate(Of T))
+- uid: Zigurous.DataStructures.HashSetExtensions.IsEach*
+  name: IsEach
+  href: api/Zigurous.DataStructures.HashSetExtensions.html#Zigurous_DataStructures_HashSetExtensions_IsEach_
+  commentId: Overload:Zigurous.DataStructures.HashSetExtensions.IsEach
   isSpec: "True"
-  fullName: Zigurous.DataStructures.HashSetExtensions.IsTrueForEach
-  nameWithType: HashSetExtensions.IsTrueForEach
-- uid: Zigurous.DataStructures.HashSetExtensions.IsTrueForEach``1(HashSet{``0},System.Predicate{``0})
-  name: IsTrueForEach<T>(HashSet<T>, Predicate<T>)
-  href: api/Zigurous.DataStructures.HashSetExtensions.html#Zigurous_DataStructures_HashSetExtensions_IsTrueForEach__1_HashSet___0__System_Predicate___0__
-  commentId: M:Zigurous.DataStructures.HashSetExtensions.IsTrueForEach``1(HashSet{``0},System.Predicate{``0})
-  name.vb: IsTrueForEach(Of T)(HashSet(Of T), Predicate(Of T))
-  fullName: Zigurous.DataStructures.HashSetExtensions.IsTrueForEach<T>(HashSet<T>, System.Predicate<T>)
-  fullName.vb: Zigurous.DataStructures.HashSetExtensions.IsTrueForEach(Of T)(HashSet(Of T), System.Predicate(Of T))
-  nameWithType: HashSetExtensions.IsTrueForEach<T>(HashSet<T>, Predicate<T>)
-  nameWithType.vb: HashSetExtensions.IsTrueForEach(Of T)(HashSet(Of T), Predicate(Of T))
+  fullName: Zigurous.DataStructures.HashSetExtensions.IsEach
+  nameWithType: HashSetExtensions.IsEach
+- uid: Zigurous.DataStructures.HashSetExtensions.IsEach``1(HashSet{``0},System.Predicate{``0})
+  name: IsEach<T>(HashSet<T>, Predicate<T>)
+  href: api/Zigurous.DataStructures.HashSetExtensions.html#Zigurous_DataStructures_HashSetExtensions_IsEach__1_HashSet___0__System_Predicate___0__
+  commentId: M:Zigurous.DataStructures.HashSetExtensions.IsEach``1(HashSet{``0},System.Predicate{``0})
+  name.vb: IsEach(Of T)(HashSet(Of T), Predicate(Of T))
+  fullName: Zigurous.DataStructures.HashSetExtensions.IsEach<T>(HashSet<T>, System.Predicate<T>)
+  fullName.vb: Zigurous.DataStructures.HashSetExtensions.IsEach(Of T)(HashSet(Of T), System.Predicate(Of T))
+  nameWithType: HashSetExtensions.IsEach<T>(HashSet<T>, Predicate<T>)
+  nameWithType.vb: HashSetExtensions.IsEach(Of T)(HashSet(Of T), Predicate(Of T))
 - uid: Zigurous.DataStructures.Identifier
   name: Identifier
   href: api/Zigurous.DataStructures.Identifier.html
   commentId: T:Zigurous.DataStructures.Identifier
   fullName: Zigurous.DataStructures.Identifier
   nameWithType: Identifier
-- uid: Zigurous.DataStructures.Identifier.GenerateFromTime
-  name: GenerateFromTime()
-  href: api/Zigurous.DataStructures.Identifier.html#Zigurous_DataStructures_Identifier_GenerateFromTime
-  commentId: M:Zigurous.DataStructures.Identifier.GenerateFromTime
-  fullName: Zigurous.DataStructures.Identifier.GenerateFromTime()
-  nameWithType: Identifier.GenerateFromTime()
-- uid: Zigurous.DataStructures.Identifier.GenerateFromTime*
-  name: GenerateFromTime
-  href: api/Zigurous.DataStructures.Identifier.html#Zigurous_DataStructures_Identifier_GenerateFromTime_
-  commentId: Overload:Zigurous.DataStructures.Identifier.GenerateFromTime
+- uid: Zigurous.DataStructures.Identifier.Temporal
+  name: Temporal()
+  href: api/Zigurous.DataStructures.Identifier.html#Zigurous_DataStructures_Identifier_Temporal
+  commentId: M:Zigurous.DataStructures.Identifier.Temporal
+  fullName: Zigurous.DataStructures.Identifier.Temporal()
+  nameWithType: Identifier.Temporal()
+- uid: Zigurous.DataStructures.Identifier.Temporal*
+  name: Temporal
+  href: api/Zigurous.DataStructures.Identifier.html#Zigurous_DataStructures_Identifier_Temporal_
+  commentId: Overload:Zigurous.DataStructures.Identifier.Temporal
   isSpec: "True"
-  fullName: Zigurous.DataStructures.Identifier.GenerateFromTime
-  nameWithType: Identifier.GenerateFromTime
+  fullName: Zigurous.DataStructures.Identifier.Temporal
+  nameWithType: Identifier.Temporal
 - uid: Zigurous.DataStructures.IModular`1
   name: IModular<T>
   href: api/Zigurous.DataStructures.IModular-1.html
@@ -2831,6 +2852,14 @@ references:
   fullName.vb: Zigurous.DataStructures.IRange(Of T).Includes(T)
   nameWithType: IRange<T>.Includes(T)
   nameWithType.vb: IRange(Of T).Includes(T)
+- uid: Zigurous.DataStructures.IRange`1.Includes(`0,System.Boolean,System.Boolean)
+  name: Includes(T, Boolean, Boolean)
+  href: api/Zigurous.DataStructures.IRange-1.html#Zigurous_DataStructures_IRange_1_Includes__0_System_Boolean_System_Boolean_
+  commentId: M:Zigurous.DataStructures.IRange`1.Includes(`0,System.Boolean,System.Boolean)
+  fullName: Zigurous.DataStructures.IRange<T>.Includes(T, System.Boolean, System.Boolean)
+  fullName.vb: Zigurous.DataStructures.IRange(Of T).Includes(T, System.Boolean, System.Boolean)
+  nameWithType: IRange<T>.Includes(T, Boolean, Boolean)
+  nameWithType.vb: IRange(Of T).Includes(T, Boolean, Boolean)
 - uid: Zigurous.DataStructures.IRange`1.Includes*
   name: Includes
   href: api/Zigurous.DataStructures.IRange-1.html#Zigurous_DataStructures_IRange_1_Includes_
@@ -2912,22 +2941,22 @@ references:
   fullName.vb: Zigurous.DataStructures.ListExtensions.CombinedWith(Of T)(List(Of T), List(Of T))
   nameWithType: ListExtensions.CombinedWith<T>(List<T>, List<T>)
   nameWithType.vb: ListExtensions.CombinedWith(Of T)(List(Of T), List(Of T))
-- uid: Zigurous.DataStructures.ListExtensions.ElementAt*
-  name: ElementAt
-  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_ElementAt_
-  commentId: Overload:Zigurous.DataStructures.ListExtensions.ElementAt
+- uid: Zigurous.DataStructures.ListExtensions.Filter*
+  name: Filter
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_Filter_
+  commentId: Overload:Zigurous.DataStructures.ListExtensions.Filter
   isSpec: "True"
-  fullName: Zigurous.DataStructures.ListExtensions.ElementAt
-  nameWithType: ListExtensions.ElementAt
-- uid: Zigurous.DataStructures.ListExtensions.ElementAt``1(List{``0},System.Int32)
-  name: ElementAt<T>(List<T>, Int32)
-  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_ElementAt__1_List___0__System_Int32_
-  commentId: M:Zigurous.DataStructures.ListExtensions.ElementAt``1(List{``0},System.Int32)
-  name.vb: ElementAt(Of T)(List(Of T), Int32)
-  fullName: Zigurous.DataStructures.ListExtensions.ElementAt<T>(List<T>, System.Int32)
-  fullName.vb: Zigurous.DataStructures.ListExtensions.ElementAt(Of T)(List(Of T), System.Int32)
-  nameWithType: ListExtensions.ElementAt<T>(List<T>, Int32)
-  nameWithType.vb: ListExtensions.ElementAt(Of T)(List(Of T), Int32)
+  fullName: Zigurous.DataStructures.ListExtensions.Filter
+  nameWithType: ListExtensions.Filter
+- uid: Zigurous.DataStructures.ListExtensions.Filter``1(List{``0},System.Predicate{``0})
+  name: Filter<T>(List<T>, Predicate<T>)
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_Filter__1_List___0__System_Predicate___0__
+  commentId: M:Zigurous.DataStructures.ListExtensions.Filter``1(List{``0},System.Predicate{``0})
+  name.vb: Filter(Of T)(List(Of T), Predicate(Of T))
+  fullName: Zigurous.DataStructures.ListExtensions.Filter<T>(List<T>, System.Predicate<T>)
+  fullName.vb: Zigurous.DataStructures.ListExtensions.Filter(Of T)(List(Of T), System.Predicate(Of T))
+  nameWithType: ListExtensions.Filter<T>(List<T>, Predicate<T>)
+  nameWithType.vb: ListExtensions.Filter(Of T)(List(Of T), Predicate(Of T))
 - uid: Zigurous.DataStructures.ListExtensions.First*
   name: First
   href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_First_
@@ -2953,6 +2982,22 @@ references:
   fullName.vb: Zigurous.DataStructures.ListExtensions.First(Of T)(List(Of T), System.Predicate(Of T))
   nameWithType: ListExtensions.First<T>(List<T>, Predicate<T>)
   nameWithType.vb: ListExtensions.First(Of T)(List(Of T), Predicate(Of T))
+- uid: Zigurous.DataStructures.ListExtensions.FirstNonNull*
+  name: FirstNonNull
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_FirstNonNull_
+  commentId: Overload:Zigurous.DataStructures.ListExtensions.FirstNonNull
+  isSpec: "True"
+  fullName: Zigurous.DataStructures.ListExtensions.FirstNonNull
+  nameWithType: ListExtensions.FirstNonNull
+- uid: Zigurous.DataStructures.ListExtensions.FirstNonNull``1(List{``0})
+  name: FirstNonNull<T>(List<T>)
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_FirstNonNull__1_List___0__
+  commentId: M:Zigurous.DataStructures.ListExtensions.FirstNonNull``1(List{``0})
+  name.vb: FirstNonNull(Of T)(List(Of T))
+  fullName: Zigurous.DataStructures.ListExtensions.FirstNonNull<T>(List<T>)
+  fullName.vb: Zigurous.DataStructures.ListExtensions.FirstNonNull(Of T)(List(Of T))
+  nameWithType: ListExtensions.FirstNonNull<T>(List<T>)
+  nameWithType.vb: ListExtensions.FirstNonNull(Of T)(List(Of T))
 - uid: Zigurous.DataStructures.ListExtensions.For*
   name: For
   href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_For_
@@ -2969,6 +3014,38 @@ references:
   fullName.vb: Zigurous.DataStructures.ListExtensions.For(Of T)(List(Of T), System.Action(Of System.ValueTuple(Of T, System.Int32)))
   nameWithType: ListExtensions.For<T>(List<T>, Action<(T item, Int32 index)>)
   nameWithType.vb: ListExtensions.For(Of T)(List(Of T), Action(Of (item As T, index As Int32)(Of T, Int32)))
+- uid: Zigurous.DataStructures.ListExtensions.IsAny*
+  name: IsAny
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_IsAny_
+  commentId: Overload:Zigurous.DataStructures.ListExtensions.IsAny
+  isSpec: "True"
+  fullName: Zigurous.DataStructures.ListExtensions.IsAny
+  nameWithType: ListExtensions.IsAny
+- uid: Zigurous.DataStructures.ListExtensions.IsAny``1(List{``0},System.Predicate{``0})
+  name: IsAny<T>(List<T>, Predicate<T>)
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_IsAny__1_List___0__System_Predicate___0__
+  commentId: M:Zigurous.DataStructures.ListExtensions.IsAny``1(List{``0},System.Predicate{``0})
+  name.vb: IsAny(Of T)(List(Of T), Predicate(Of T))
+  fullName: Zigurous.DataStructures.ListExtensions.IsAny<T>(List<T>, System.Predicate<T>)
+  fullName.vb: Zigurous.DataStructures.ListExtensions.IsAny(Of T)(List(Of T), System.Predicate(Of T))
+  nameWithType: ListExtensions.IsAny<T>(List<T>, Predicate<T>)
+  nameWithType.vb: ListExtensions.IsAny(Of T)(List(Of T), Predicate(Of T))
+- uid: Zigurous.DataStructures.ListExtensions.IsEach*
+  name: IsEach
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_IsEach_
+  commentId: Overload:Zigurous.DataStructures.ListExtensions.IsEach
+  isSpec: "True"
+  fullName: Zigurous.DataStructures.ListExtensions.IsEach
+  nameWithType: ListExtensions.IsEach
+- uid: Zigurous.DataStructures.ListExtensions.IsEach``1(List{``0},System.Predicate{``0})
+  name: IsEach<T>(List<T>, Predicate<T>)
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_IsEach__1_List___0__System_Predicate___0__
+  commentId: M:Zigurous.DataStructures.ListExtensions.IsEach``1(List{``0},System.Predicate{``0})
+  name.vb: IsEach(Of T)(List(Of T), Predicate(Of T))
+  fullName: Zigurous.DataStructures.ListExtensions.IsEach<T>(List<T>, System.Predicate<T>)
+  fullName.vb: Zigurous.DataStructures.ListExtensions.IsEach(Of T)(List(Of T), System.Predicate(Of T))
+  nameWithType: ListExtensions.IsEach<T>(List<T>, Predicate<T>)
+  nameWithType.vb: ListExtensions.IsEach(Of T)(List(Of T), Predicate(Of T))
 - uid: Zigurous.DataStructures.ListExtensions.IsEmpty*
   name: IsEmpty
   href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_IsEmpty_
@@ -2985,22 +3062,22 @@ references:
   fullName.vb: Zigurous.DataStructures.ListExtensions.IsEmpty(Of T)(List(Of T))
   nameWithType: ListExtensions.IsEmpty<T>(List<T>)
   nameWithType.vb: ListExtensions.IsEmpty(Of T)(List(Of T))
-- uid: Zigurous.DataStructures.ListExtensions.IsFalseForEach*
-  name: IsFalseForEach
-  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_IsFalseForEach_
-  commentId: Overload:Zigurous.DataStructures.ListExtensions.IsFalseForEach
+- uid: Zigurous.DataStructures.ListExtensions.IsInBounds*
+  name: IsInBounds
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_IsInBounds_
+  commentId: Overload:Zigurous.DataStructures.ListExtensions.IsInBounds
   isSpec: "True"
-  fullName: Zigurous.DataStructures.ListExtensions.IsFalseForEach
-  nameWithType: ListExtensions.IsFalseForEach
-- uid: Zigurous.DataStructures.ListExtensions.IsFalseForEach``1(List{``0},System.Predicate{``0})
-  name: IsFalseForEach<T>(List<T>, Predicate<T>)
-  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_IsFalseForEach__1_List___0__System_Predicate___0__
-  commentId: M:Zigurous.DataStructures.ListExtensions.IsFalseForEach``1(List{``0},System.Predicate{``0})
-  name.vb: IsFalseForEach(Of T)(List(Of T), Predicate(Of T))
-  fullName: Zigurous.DataStructures.ListExtensions.IsFalseForEach<T>(List<T>, System.Predicate<T>)
-  fullName.vb: Zigurous.DataStructures.ListExtensions.IsFalseForEach(Of T)(List(Of T), System.Predicate(Of T))
-  nameWithType: ListExtensions.IsFalseForEach<T>(List<T>, Predicate<T>)
-  nameWithType.vb: ListExtensions.IsFalseForEach(Of T)(List(Of T), Predicate(Of T))
+  fullName: Zigurous.DataStructures.ListExtensions.IsInBounds
+  nameWithType: ListExtensions.IsInBounds
+- uid: Zigurous.DataStructures.ListExtensions.IsInBounds``1(List{``0},System.Int32)
+  name: IsInBounds<T>(List<T>, Int32)
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_IsInBounds__1_List___0__System_Int32_
+  commentId: M:Zigurous.DataStructures.ListExtensions.IsInBounds``1(List{``0},System.Int32)
+  name.vb: IsInBounds(Of T)(List(Of T), Int32)
+  fullName: Zigurous.DataStructures.ListExtensions.IsInBounds<T>(List<T>, System.Int32)
+  fullName.vb: Zigurous.DataStructures.ListExtensions.IsInBounds(Of T)(List(Of T), System.Int32)
+  nameWithType: ListExtensions.IsInBounds<T>(List<T>, Int32)
+  nameWithType.vb: ListExtensions.IsInBounds(Of T)(List(Of T), Int32)
 - uid: Zigurous.DataStructures.ListExtensions.IsNotEmpty*
   name: IsNotEmpty
   href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_IsNotEmpty_
@@ -3017,22 +3094,38 @@ references:
   fullName.vb: Zigurous.DataStructures.ListExtensions.IsNotEmpty(Of T)(List(Of T))
   nameWithType: ListExtensions.IsNotEmpty<T>(List<T>)
   nameWithType.vb: ListExtensions.IsNotEmpty(Of T)(List(Of T))
-- uid: Zigurous.DataStructures.ListExtensions.IsTrueForEach*
-  name: IsTrueForEach
-  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_IsTrueForEach_
-  commentId: Overload:Zigurous.DataStructures.ListExtensions.IsTrueForEach
+- uid: Zigurous.DataStructures.ListExtensions.IsNotInBounds*
+  name: IsNotInBounds
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_IsNotInBounds_
+  commentId: Overload:Zigurous.DataStructures.ListExtensions.IsNotInBounds
   isSpec: "True"
-  fullName: Zigurous.DataStructures.ListExtensions.IsTrueForEach
-  nameWithType: ListExtensions.IsTrueForEach
-- uid: Zigurous.DataStructures.ListExtensions.IsTrueForEach``1(List{``0},System.Predicate{``0})
-  name: IsTrueForEach<T>(List<T>, Predicate<T>)
-  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_IsTrueForEach__1_List___0__System_Predicate___0__
-  commentId: M:Zigurous.DataStructures.ListExtensions.IsTrueForEach``1(List{``0},System.Predicate{``0})
-  name.vb: IsTrueForEach(Of T)(List(Of T), Predicate(Of T))
-  fullName: Zigurous.DataStructures.ListExtensions.IsTrueForEach<T>(List<T>, System.Predicate<T>)
-  fullName.vb: Zigurous.DataStructures.ListExtensions.IsTrueForEach(Of T)(List(Of T), System.Predicate(Of T))
-  nameWithType: ListExtensions.IsTrueForEach<T>(List<T>, Predicate<T>)
-  nameWithType.vb: ListExtensions.IsTrueForEach(Of T)(List(Of T), Predicate(Of T))
+  fullName: Zigurous.DataStructures.ListExtensions.IsNotInBounds
+  nameWithType: ListExtensions.IsNotInBounds
+- uid: Zigurous.DataStructures.ListExtensions.IsNotInBounds``1(List{``0},System.Int32)
+  name: IsNotInBounds<T>(List<T>, Int32)
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_IsNotInBounds__1_List___0__System_Int32_
+  commentId: M:Zigurous.DataStructures.ListExtensions.IsNotInBounds``1(List{``0},System.Int32)
+  name.vb: IsNotInBounds(Of T)(List(Of T), Int32)
+  fullName: Zigurous.DataStructures.ListExtensions.IsNotInBounds<T>(List<T>, System.Int32)
+  fullName.vb: Zigurous.DataStructures.ListExtensions.IsNotInBounds(Of T)(List(Of T), System.Int32)
+  nameWithType: ListExtensions.IsNotInBounds<T>(List<T>, Int32)
+  nameWithType.vb: ListExtensions.IsNotInBounds(Of T)(List(Of T), Int32)
+- uid: Zigurous.DataStructures.ListExtensions.ItemAt*
+  name: ItemAt
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_ItemAt_
+  commentId: Overload:Zigurous.DataStructures.ListExtensions.ItemAt
+  isSpec: "True"
+  fullName: Zigurous.DataStructures.ListExtensions.ItemAt
+  nameWithType: ListExtensions.ItemAt
+- uid: Zigurous.DataStructures.ListExtensions.ItemAt``1(List{``0},System.Int32)
+  name: ItemAt<T>(List<T>, Int32)
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_ItemAt__1_List___0__System_Int32_
+  commentId: M:Zigurous.DataStructures.ListExtensions.ItemAt``1(List{``0},System.Int32)
+  name.vb: ItemAt(Of T)(List(Of T), Int32)
+  fullName: Zigurous.DataStructures.ListExtensions.ItemAt<T>(List<T>, System.Int32)
+  fullName.vb: Zigurous.DataStructures.ListExtensions.ItemAt(Of T)(List(Of T), System.Int32)
+  nameWithType: ListExtensions.ItemAt<T>(List<T>, Int32)
+  nameWithType.vb: ListExtensions.ItemAt(Of T)(List(Of T), Int32)
 - uid: Zigurous.DataStructures.ListExtensions.Join*
   name: Join
   href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_Join_
@@ -3040,15 +3133,15 @@ references:
   isSpec: "True"
   fullName: Zigurous.DataStructures.ListExtensions.Join
   nameWithType: ListExtensions.Join
-- uid: Zigurous.DataStructures.ListExtensions.Join``1(List{``0},System.String)
-  name: Join<T>(List<T>, String)
-  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_Join__1_List___0__System_String_
-  commentId: M:Zigurous.DataStructures.ListExtensions.Join``1(List{``0},System.String)
-  name.vb: Join(Of T)(List(Of T), String)
-  fullName: Zigurous.DataStructures.ListExtensions.Join<T>(List<T>, System.String)
-  fullName.vb: Zigurous.DataStructures.ListExtensions.Join(Of T)(List(Of T), System.String)
-  nameWithType: ListExtensions.Join<T>(List<T>, String)
-  nameWithType.vb: ListExtensions.Join(Of T)(List(Of T), String)
+- uid: Zigurous.DataStructures.ListExtensions.Join``1(List{``0},System.String,System.Int32,System.Int32)
+  name: Join<T>(List<T>, String, Int32, Int32)
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_Join__1_List___0__System_String_System_Int32_System_Int32_
+  commentId: M:Zigurous.DataStructures.ListExtensions.Join``1(List{``0},System.String,System.Int32,System.Int32)
+  name.vb: Join(Of T)(List(Of T), String, Int32, Int32)
+  fullName: Zigurous.DataStructures.ListExtensions.Join<T>(List<T>, System.String, System.Int32, System.Int32)
+  fullName.vb: Zigurous.DataStructures.ListExtensions.Join(Of T)(List(Of T), System.String, System.Int32, System.Int32)
+  nameWithType: ListExtensions.Join<T>(List<T>, String, Int32, Int32)
+  nameWithType.vb: ListExtensions.Join(Of T)(List(Of T), String, Int32, Int32)
 - uid: Zigurous.DataStructures.ListExtensions.Last*
   name: Last
   href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_Last_
@@ -3065,6 +3158,31 @@ references:
   fullName.vb: Zigurous.DataStructures.ListExtensions.Last(Of T)(List(Of T))
   nameWithType: ListExtensions.Last<T>(List<T>)
   nameWithType.vb: ListExtensions.Last(Of T)(List(Of T))
+- uid: Zigurous.DataStructures.ListExtensions.Last``1(List{``0},System.Predicate{``0})
+  name: Last<T>(List<T>, Predicate<T>)
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_Last__1_List___0__System_Predicate___0__
+  commentId: M:Zigurous.DataStructures.ListExtensions.Last``1(List{``0},System.Predicate{``0})
+  name.vb: Last(Of T)(List(Of T), Predicate(Of T))
+  fullName: Zigurous.DataStructures.ListExtensions.Last<T>(List<T>, System.Predicate<T>)
+  fullName.vb: Zigurous.DataStructures.ListExtensions.Last(Of T)(List(Of T), System.Predicate(Of T))
+  nameWithType: ListExtensions.Last<T>(List<T>, Predicate<T>)
+  nameWithType.vb: ListExtensions.Last(Of T)(List(Of T), Predicate(Of T))
+- uid: Zigurous.DataStructures.ListExtensions.LastNonNull*
+  name: LastNonNull
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_LastNonNull_
+  commentId: Overload:Zigurous.DataStructures.ListExtensions.LastNonNull
+  isSpec: "True"
+  fullName: Zigurous.DataStructures.ListExtensions.LastNonNull
+  nameWithType: ListExtensions.LastNonNull
+- uid: Zigurous.DataStructures.ListExtensions.LastNonNull``1(List{``0})
+  name: LastNonNull<T>(List<T>)
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_LastNonNull__1_List___0__
+  commentId: M:Zigurous.DataStructures.ListExtensions.LastNonNull``1(List{``0})
+  name.vb: LastNonNull(Of T)(List(Of T))
+  fullName: Zigurous.DataStructures.ListExtensions.LastNonNull<T>(List<T>)
+  fullName.vb: Zigurous.DataStructures.ListExtensions.LastNonNull(Of T)(List(Of T))
+  nameWithType: ListExtensions.LastNonNull<T>(List<T>)
+  nameWithType.vb: ListExtensions.LastNonNull(Of T)(List(Of T))
 - uid: Zigurous.DataStructures.ListExtensions.Map*
   name: Map
   href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_Map_
@@ -3081,6 +3199,22 @@ references:
   fullName.vb: Zigurous.DataStructures.ListExtensions.Map(Of TInput, TOutput)(List(Of TInput), System.Converter(Of TInput, TOutput))
   nameWithType: ListExtensions.Map<TInput, TOutput>(List<TInput>, Converter<TInput, TOutput>)
   nameWithType.vb: ListExtensions.Map(Of TInput, TOutput)(List(Of TInput), Converter(Of TInput, TOutput))
+- uid: Zigurous.DataStructures.ListExtensions.NonNull*
+  name: NonNull
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_NonNull_
+  commentId: Overload:Zigurous.DataStructures.ListExtensions.NonNull
+  isSpec: "True"
+  fullName: Zigurous.DataStructures.ListExtensions.NonNull
+  nameWithType: ListExtensions.NonNull
+- uid: Zigurous.DataStructures.ListExtensions.NonNull``1(List{``0})
+  name: NonNull<T>(List<T>)
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_NonNull__1_List___0__
+  commentId: M:Zigurous.DataStructures.ListExtensions.NonNull``1(List{``0})
+  name.vb: NonNull(Of T)(List(Of T))
+  fullName: Zigurous.DataStructures.ListExtensions.NonNull<T>(List<T>)
+  fullName.vb: Zigurous.DataStructures.ListExtensions.NonNull(Of T)(List(Of T))
+  nameWithType: ListExtensions.NonNull<T>(List<T>)
+  nameWithType.vb: ListExtensions.NonNull(Of T)(List(Of T))
 - uid: Zigurous.DataStructures.ListExtensions.Random*
   name: Random
   href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_Random_
@@ -3154,6 +3288,22 @@ references:
   fullName.vb: Zigurous.DataStructures.ListExtensions.RemoveLast(Of T)(List(Of T))
   nameWithType: ListExtensions.RemoveLast<T>(List<T>)
   nameWithType.vb: ListExtensions.RemoveLast(Of T)(List(Of T))
+- uid: Zigurous.DataStructures.ListExtensions.Reversed*
+  name: Reversed
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_Reversed_
+  commentId: Overload:Zigurous.DataStructures.ListExtensions.Reversed
+  isSpec: "True"
+  fullName: Zigurous.DataStructures.ListExtensions.Reversed
+  nameWithType: ListExtensions.Reversed
+- uid: Zigurous.DataStructures.ListExtensions.Reversed``1(List{``0})
+  name: Reversed<T>(List<T>)
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_Reversed__1_List___0__
+  commentId: M:Zigurous.DataStructures.ListExtensions.Reversed``1(List{``0})
+  name.vb: Reversed(Of T)(List(Of T))
+  fullName: Zigurous.DataStructures.ListExtensions.Reversed<T>(List<T>)
+  fullName.vb: Zigurous.DataStructures.ListExtensions.Reversed(Of T)(List(Of T))
+  nameWithType: ListExtensions.Reversed<T>(List<T>)
+  nameWithType.vb: ListExtensions.Reversed(Of T)(List(Of T))
 - uid: Zigurous.DataStructures.ListExtensions.Where*
   name: Where
   href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_Where_
@@ -3170,6 +3320,22 @@ references:
   fullName.vb: Zigurous.DataStructures.ListExtensions.Where(Of T)(List(Of T), System.Predicate(Of T))
   nameWithType: ListExtensions.Where<T>(List<T>, Predicate<T>)
   nameWithType.vb: ListExtensions.Where(Of T)(List(Of T), Predicate(Of T))
+- uid: Zigurous.DataStructures.ListExtensions.WrapIndex*
+  name: WrapIndex
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_WrapIndex_
+  commentId: Overload:Zigurous.DataStructures.ListExtensions.WrapIndex
+  isSpec: "True"
+  fullName: Zigurous.DataStructures.ListExtensions.WrapIndex
+  nameWithType: ListExtensions.WrapIndex
+- uid: Zigurous.DataStructures.ListExtensions.WrapIndex``1(List{``0},System.Int32)
+  name: WrapIndex<T>(List<T>, Int32)
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_WrapIndex__1_List___0__System_Int32_
+  commentId: M:Zigurous.DataStructures.ListExtensions.WrapIndex``1(List{``0},System.Int32)
+  name.vb: WrapIndex(Of T)(List(Of T), Int32)
+  fullName: Zigurous.DataStructures.ListExtensions.WrapIndex<T>(List<T>, System.Int32)
+  fullName.vb: Zigurous.DataStructures.ListExtensions.WrapIndex(Of T)(List(Of T), System.Int32)
+  nameWithType: ListExtensions.WrapIndex<T>(List<T>, Int32)
+  nameWithType.vb: ListExtensions.WrapIndex(Of T)(List(Of T), Int32)
 - uid: Zigurous.DataStructures.Modules`1
   name: Modules<T>
   href: api/Zigurous.DataStructures.Modules-1.html
@@ -3661,6 +3827,23 @@ references:
   fullName.vb: Zigurous.DataStructures.Quantity(Of T).Inequality
   nameWithType: Quantity<T>.Inequality
   nameWithType.vb: Quantity(Of T).Inequality
+- uid: Zigurous.DataStructures.Quantity`1.ToString
+  name: ToString()
+  href: api/Zigurous.DataStructures.Quantity-1.html#Zigurous_DataStructures_Quantity_1_ToString
+  commentId: M:Zigurous.DataStructures.Quantity`1.ToString
+  fullName: Zigurous.DataStructures.Quantity<T>.ToString()
+  fullName.vb: Zigurous.DataStructures.Quantity(Of T).ToString()
+  nameWithType: Quantity<T>.ToString()
+  nameWithType.vb: Quantity(Of T).ToString()
+- uid: Zigurous.DataStructures.Quantity`1.ToString*
+  name: ToString
+  href: api/Zigurous.DataStructures.Quantity-1.html#Zigurous_DataStructures_Quantity_1_ToString_
+  commentId: Overload:Zigurous.DataStructures.Quantity`1.ToString
+  isSpec: "True"
+  fullName: Zigurous.DataStructures.Quantity<T>.ToString
+  fullName.vb: Zigurous.DataStructures.Quantity(Of T).ToString
+  nameWithType: Quantity<T>.ToString
+  nameWithType.vb: Quantity(Of T).ToString
 - uid: Zigurous.DataStructures.QuaternionAccumulator
   name: QuaternionAccumulator
   href: api/Zigurous.DataStructures.QuaternionAccumulator.html
@@ -4282,38 +4465,38 @@ references:
   fullName.vb: Zigurous.DataStructures.SortedSetExtensions.ForEach(Of T)(SortedSet(Of T), System.Action(Of T))
   nameWithType: SortedSetExtensions.ForEach<T>(SortedSet<T>, Action<T>)
   nameWithType.vb: SortedSetExtensions.ForEach(Of T)(SortedSet(Of T), Action(Of T))
-- uid: Zigurous.DataStructures.SortedSetExtensions.IsFalseForEach*
-  name: IsFalseForEach
-  href: api/Zigurous.DataStructures.SortedSetExtensions.html#Zigurous_DataStructures_SortedSetExtensions_IsFalseForEach_
-  commentId: Overload:Zigurous.DataStructures.SortedSetExtensions.IsFalseForEach
+- uid: Zigurous.DataStructures.SortedSetExtensions.IsAny*
+  name: IsAny
+  href: api/Zigurous.DataStructures.SortedSetExtensions.html#Zigurous_DataStructures_SortedSetExtensions_IsAny_
+  commentId: Overload:Zigurous.DataStructures.SortedSetExtensions.IsAny
   isSpec: "True"
-  fullName: Zigurous.DataStructures.SortedSetExtensions.IsFalseForEach
-  nameWithType: SortedSetExtensions.IsFalseForEach
-- uid: Zigurous.DataStructures.SortedSetExtensions.IsFalseForEach``1(SortedSet{``0},System.Predicate{``0})
-  name: IsFalseForEach<T>(SortedSet<T>, Predicate<T>)
-  href: api/Zigurous.DataStructures.SortedSetExtensions.html#Zigurous_DataStructures_SortedSetExtensions_IsFalseForEach__1_SortedSet___0__System_Predicate___0__
-  commentId: M:Zigurous.DataStructures.SortedSetExtensions.IsFalseForEach``1(SortedSet{``0},System.Predicate{``0})
-  name.vb: IsFalseForEach(Of T)(SortedSet(Of T), Predicate(Of T))
-  fullName: Zigurous.DataStructures.SortedSetExtensions.IsFalseForEach<T>(SortedSet<T>, System.Predicate<T>)
-  fullName.vb: Zigurous.DataStructures.SortedSetExtensions.IsFalseForEach(Of T)(SortedSet(Of T), System.Predicate(Of T))
-  nameWithType: SortedSetExtensions.IsFalseForEach<T>(SortedSet<T>, Predicate<T>)
-  nameWithType.vb: SortedSetExtensions.IsFalseForEach(Of T)(SortedSet(Of T), Predicate(Of T))
-- uid: Zigurous.DataStructures.SortedSetExtensions.IsTrueForEach*
-  name: IsTrueForEach
-  href: api/Zigurous.DataStructures.SortedSetExtensions.html#Zigurous_DataStructures_SortedSetExtensions_IsTrueForEach_
-  commentId: Overload:Zigurous.DataStructures.SortedSetExtensions.IsTrueForEach
+  fullName: Zigurous.DataStructures.SortedSetExtensions.IsAny
+  nameWithType: SortedSetExtensions.IsAny
+- uid: Zigurous.DataStructures.SortedSetExtensions.IsAny``1(SortedSet{``0},System.Predicate{``0})
+  name: IsAny<T>(SortedSet<T>, Predicate<T>)
+  href: api/Zigurous.DataStructures.SortedSetExtensions.html#Zigurous_DataStructures_SortedSetExtensions_IsAny__1_SortedSet___0__System_Predicate___0__
+  commentId: M:Zigurous.DataStructures.SortedSetExtensions.IsAny``1(SortedSet{``0},System.Predicate{``0})
+  name.vb: IsAny(Of T)(SortedSet(Of T), Predicate(Of T))
+  fullName: Zigurous.DataStructures.SortedSetExtensions.IsAny<T>(SortedSet<T>, System.Predicate<T>)
+  fullName.vb: Zigurous.DataStructures.SortedSetExtensions.IsAny(Of T)(SortedSet(Of T), System.Predicate(Of T))
+  nameWithType: SortedSetExtensions.IsAny<T>(SortedSet<T>, Predicate<T>)
+  nameWithType.vb: SortedSetExtensions.IsAny(Of T)(SortedSet(Of T), Predicate(Of T))
+- uid: Zigurous.DataStructures.SortedSetExtensions.IsEach*
+  name: IsEach
+  href: api/Zigurous.DataStructures.SortedSetExtensions.html#Zigurous_DataStructures_SortedSetExtensions_IsEach_
+  commentId: Overload:Zigurous.DataStructures.SortedSetExtensions.IsEach
   isSpec: "True"
-  fullName: Zigurous.DataStructures.SortedSetExtensions.IsTrueForEach
-  nameWithType: SortedSetExtensions.IsTrueForEach
-- uid: Zigurous.DataStructures.SortedSetExtensions.IsTrueForEach``1(SortedSet{``0},System.Predicate{``0})
-  name: IsTrueForEach<T>(SortedSet<T>, Predicate<T>)
-  href: api/Zigurous.DataStructures.SortedSetExtensions.html#Zigurous_DataStructures_SortedSetExtensions_IsTrueForEach__1_SortedSet___0__System_Predicate___0__
-  commentId: M:Zigurous.DataStructures.SortedSetExtensions.IsTrueForEach``1(SortedSet{``0},System.Predicate{``0})
-  name.vb: IsTrueForEach(Of T)(SortedSet(Of T), Predicate(Of T))
-  fullName: Zigurous.DataStructures.SortedSetExtensions.IsTrueForEach<T>(SortedSet<T>, System.Predicate<T>)
-  fullName.vb: Zigurous.DataStructures.SortedSetExtensions.IsTrueForEach(Of T)(SortedSet(Of T), System.Predicate(Of T))
-  nameWithType: SortedSetExtensions.IsTrueForEach<T>(SortedSet<T>, Predicate<T>)
-  nameWithType.vb: SortedSetExtensions.IsTrueForEach(Of T)(SortedSet(Of T), Predicate(Of T))
+  fullName: Zigurous.DataStructures.SortedSetExtensions.IsEach
+  nameWithType: SortedSetExtensions.IsEach
+- uid: Zigurous.DataStructures.SortedSetExtensions.IsEach``1(SortedSet{``0},System.Predicate{``0})
+  name: IsEach<T>(SortedSet<T>, Predicate<T>)
+  href: api/Zigurous.DataStructures.SortedSetExtensions.html#Zigurous_DataStructures_SortedSetExtensions_IsEach__1_SortedSet___0__System_Predicate___0__
+  commentId: M:Zigurous.DataStructures.SortedSetExtensions.IsEach``1(SortedSet{``0},System.Predicate{``0})
+  name.vb: IsEach(Of T)(SortedSet(Of T), Predicate(Of T))
+  fullName: Zigurous.DataStructures.SortedSetExtensions.IsEach<T>(SortedSet<T>, System.Predicate<T>)
+  fullName.vb: Zigurous.DataStructures.SortedSetExtensions.IsEach(Of T)(SortedSet(Of T), System.Predicate(Of T))
+  nameWithType: SortedSetExtensions.IsEach<T>(SortedSet<T>, Predicate<T>)
+  nameWithType.vb: SortedSetExtensions.IsEach(Of T)(SortedSet(Of T), Predicate(Of T))
 - uid: Zigurous.DataStructures.StringExtensions
   name: StringExtensions
   href: api/Zigurous.DataStructures.StringExtensions.html
@@ -4631,6 +4814,12 @@ references:
   commentId: M:Zigurous.DataStructures.UnitIntervalRange.Includes(System.Single)
   fullName: Zigurous.DataStructures.UnitIntervalRange.Includes(System.Single)
   nameWithType: UnitIntervalRange.Includes(Single)
+- uid: Zigurous.DataStructures.UnitIntervalRange.Includes(System.Single,System.Boolean,System.Boolean)
+  name: Includes(Single, Boolean, Boolean)
+  href: api/Zigurous.DataStructures.UnitIntervalRange.html#Zigurous_DataStructures_UnitIntervalRange_Includes_System_Single_System_Boolean_System_Boolean_
+  commentId: M:Zigurous.DataStructures.UnitIntervalRange.Includes(System.Single,System.Boolean,System.Boolean)
+  fullName: Zigurous.DataStructures.UnitIntervalRange.Includes(System.Single, System.Boolean, System.Boolean)
+  nameWithType: UnitIntervalRange.Includes(Single, Boolean, Boolean)
 - uid: Zigurous.DataStructures.UnitIntervalRange.Includes*
   name: Includes
   href: api/Zigurous.DataStructures.UnitIntervalRange.html#Zigurous_DataStructures_UnitIntervalRange_Includes_
@@ -5006,6 +5195,12 @@ references:
   commentId: M:Zigurous.DataStructures.Vector2Range.Includes(Vector2)
   fullName: Zigurous.DataStructures.Vector2Range.Includes(Vector2)
   nameWithType: Vector2Range.Includes(Vector2)
+- uid: Zigurous.DataStructures.Vector2Range.Includes(Vector2,System.Boolean,System.Boolean)
+  name: Includes(Vector2, Boolean, Boolean)
+  href: api/Zigurous.DataStructures.Vector2Range.html#Zigurous_DataStructures_Vector2Range_Includes_Vector2_System_Boolean_System_Boolean_
+  commentId: M:Zigurous.DataStructures.Vector2Range.Includes(Vector2,System.Boolean,System.Boolean)
+  fullName: Zigurous.DataStructures.Vector2Range.Includes(Vector2, System.Boolean, System.Boolean)
+  nameWithType: Vector2Range.Includes(Vector2, Boolean, Boolean)
 - uid: Zigurous.DataStructures.Vector2Range.Includes*
   name: Includes
   href: api/Zigurous.DataStructures.Vector2Range.html#Zigurous_DataStructures_Vector2Range_Includes_
@@ -5180,6 +5375,12 @@ references:
   commentId: M:Zigurous.DataStructures.Vector3Range.Includes(Vector3)
   fullName: Zigurous.DataStructures.Vector3Range.Includes(Vector3)
   nameWithType: Vector3Range.Includes(Vector3)
+- uid: Zigurous.DataStructures.Vector3Range.Includes(Vector3,System.Boolean,System.Boolean)
+  name: Includes(Vector3, Boolean, Boolean)
+  href: api/Zigurous.DataStructures.Vector3Range.html#Zigurous_DataStructures_Vector3Range_Includes_Vector3_System_Boolean_System_Boolean_
+  commentId: M:Zigurous.DataStructures.Vector3Range.Includes(Vector3,System.Boolean,System.Boolean)
+  fullName: Zigurous.DataStructures.Vector3Range.Includes(Vector3, System.Boolean, System.Boolean)
+  nameWithType: Vector3Range.Includes(Vector3, Boolean, Boolean)
 - uid: Zigurous.DataStructures.Vector3Range.Includes*
   name: Includes
   href: api/Zigurous.DataStructures.Vector3Range.html#Zigurous_DataStructures_Vector3Range_Includes_
@@ -5271,3 +5472,119 @@ references:
   isSpec: "True"
   fullName: Zigurous.DataStructures.Vector4Accumulator.Subtract
   nameWithType: Vector4Accumulator.Subtract
+- uid: Zigurous.DataStructures.Vector4Range
+  name: Vector4Range
+  href: api/Zigurous.DataStructures.Vector4Range.html
+  commentId: T:Zigurous.DataStructures.Vector4Range
+  fullName: Zigurous.DataStructures.Vector4Range
+  nameWithType: Vector4Range
+- uid: Zigurous.DataStructures.Vector4Range.#ctor(Vector4,Vector4)
+  name: Vector4Range(Vector4, Vector4)
+  href: api/Zigurous.DataStructures.Vector4Range.html#Zigurous_DataStructures_Vector4Range__ctor_Vector4_Vector4_
+  commentId: M:Zigurous.DataStructures.Vector4Range.#ctor(Vector4,Vector4)
+  fullName: Zigurous.DataStructures.Vector4Range.Vector4Range(Vector4, Vector4)
+  nameWithType: Vector4Range.Vector4Range(Vector4, Vector4)
+- uid: Zigurous.DataStructures.Vector4Range.#ctor*
+  name: Vector4Range
+  href: api/Zigurous.DataStructures.Vector4Range.html#Zigurous_DataStructures_Vector4Range__ctor_
+  commentId: Overload:Zigurous.DataStructures.Vector4Range.#ctor
+  isSpec: "True"
+  fullName: Zigurous.DataStructures.Vector4Range.Vector4Range
+  nameWithType: Vector4Range.Vector4Range
+- uid: Zigurous.DataStructures.Vector4Range.Clamp(Vector4)
+  name: Clamp(Vector4)
+  href: api/Zigurous.DataStructures.Vector4Range.html#Zigurous_DataStructures_Vector4Range_Clamp_Vector4_
+  commentId: M:Zigurous.DataStructures.Vector4Range.Clamp(Vector4)
+  fullName: Zigurous.DataStructures.Vector4Range.Clamp(Vector4)
+  nameWithType: Vector4Range.Clamp(Vector4)
+- uid: Zigurous.DataStructures.Vector4Range.Clamp*
+  name: Clamp
+  href: api/Zigurous.DataStructures.Vector4Range.html#Zigurous_DataStructures_Vector4Range_Clamp_
+  commentId: Overload:Zigurous.DataStructures.Vector4Range.Clamp
+  isSpec: "True"
+  fullName: Zigurous.DataStructures.Vector4Range.Clamp
+  nameWithType: Vector4Range.Clamp
+- uid: Zigurous.DataStructures.Vector4Range.Delta
+  name: Delta
+  href: api/Zigurous.DataStructures.Vector4Range.html#Zigurous_DataStructures_Vector4Range_Delta
+  commentId: P:Zigurous.DataStructures.Vector4Range.Delta
+  fullName: Zigurous.DataStructures.Vector4Range.Delta
+  nameWithType: Vector4Range.Delta
+- uid: Zigurous.DataStructures.Vector4Range.Delta*
+  name: Delta
+  href: api/Zigurous.DataStructures.Vector4Range.html#Zigurous_DataStructures_Vector4Range_Delta_
+  commentId: Overload:Zigurous.DataStructures.Vector4Range.Delta
+  isSpec: "True"
+  fullName: Zigurous.DataStructures.Vector4Range.Delta
+  nameWithType: Vector4Range.Delta
+- uid: Zigurous.DataStructures.Vector4Range.Includes(Vector4)
+  name: Includes(Vector4)
+  href: api/Zigurous.DataStructures.Vector4Range.html#Zigurous_DataStructures_Vector4Range_Includes_Vector4_
+  commentId: M:Zigurous.DataStructures.Vector4Range.Includes(Vector4)
+  fullName: Zigurous.DataStructures.Vector4Range.Includes(Vector4)
+  nameWithType: Vector4Range.Includes(Vector4)
+- uid: Zigurous.DataStructures.Vector4Range.Includes(Vector4,System.Boolean,System.Boolean)
+  name: Includes(Vector4, Boolean, Boolean)
+  href: api/Zigurous.DataStructures.Vector4Range.html#Zigurous_DataStructures_Vector4Range_Includes_Vector4_System_Boolean_System_Boolean_
+  commentId: M:Zigurous.DataStructures.Vector4Range.Includes(Vector4,System.Boolean,System.Boolean)
+  fullName: Zigurous.DataStructures.Vector4Range.Includes(Vector4, System.Boolean, System.Boolean)
+  nameWithType: Vector4Range.Includes(Vector4, Boolean, Boolean)
+- uid: Zigurous.DataStructures.Vector4Range.Includes*
+  name: Includes
+  href: api/Zigurous.DataStructures.Vector4Range.html#Zigurous_DataStructures_Vector4Range_Includes_
+  commentId: Overload:Zigurous.DataStructures.Vector4Range.Includes
+  isSpec: "True"
+  fullName: Zigurous.DataStructures.Vector4Range.Includes
+  nameWithType: Vector4Range.Includes
+- uid: Zigurous.DataStructures.Vector4Range.max
+  name: max
+  href: api/Zigurous.DataStructures.Vector4Range.html#Zigurous_DataStructures_Vector4Range_max
+  commentId: P:Zigurous.DataStructures.Vector4Range.max
+  fullName: Zigurous.DataStructures.Vector4Range.max
+  nameWithType: Vector4Range.max
+- uid: Zigurous.DataStructures.Vector4Range.max*
+  name: max
+  href: api/Zigurous.DataStructures.Vector4Range.html#Zigurous_DataStructures_Vector4Range_max_
+  commentId: Overload:Zigurous.DataStructures.Vector4Range.max
+  isSpec: "True"
+  fullName: Zigurous.DataStructures.Vector4Range.max
+  nameWithType: Vector4Range.max
+- uid: Zigurous.DataStructures.Vector4Range.Median
+  name: Median
+  href: api/Zigurous.DataStructures.Vector4Range.html#Zigurous_DataStructures_Vector4Range_Median
+  commentId: P:Zigurous.DataStructures.Vector4Range.Median
+  fullName: Zigurous.DataStructures.Vector4Range.Median
+  nameWithType: Vector4Range.Median
+- uid: Zigurous.DataStructures.Vector4Range.Median*
+  name: Median
+  href: api/Zigurous.DataStructures.Vector4Range.html#Zigurous_DataStructures_Vector4Range_Median_
+  commentId: Overload:Zigurous.DataStructures.Vector4Range.Median
+  isSpec: "True"
+  fullName: Zigurous.DataStructures.Vector4Range.Median
+  nameWithType: Vector4Range.Median
+- uid: Zigurous.DataStructures.Vector4Range.min
+  name: min
+  href: api/Zigurous.DataStructures.Vector4Range.html#Zigurous_DataStructures_Vector4Range_min
+  commentId: P:Zigurous.DataStructures.Vector4Range.min
+  fullName: Zigurous.DataStructures.Vector4Range.min
+  nameWithType: Vector4Range.min
+- uid: Zigurous.DataStructures.Vector4Range.min*
+  name: min
+  href: api/Zigurous.DataStructures.Vector4Range.html#Zigurous_DataStructures_Vector4Range_min_
+  commentId: Overload:Zigurous.DataStructures.Vector4Range.min
+  isSpec: "True"
+  fullName: Zigurous.DataStructures.Vector4Range.min
+  nameWithType: Vector4Range.min
+- uid: Zigurous.DataStructures.Vector4Range.Random
+  name: Random()
+  href: api/Zigurous.DataStructures.Vector4Range.html#Zigurous_DataStructures_Vector4Range_Random
+  commentId: M:Zigurous.DataStructures.Vector4Range.Random
+  fullName: Zigurous.DataStructures.Vector4Range.Random()
+  nameWithType: Vector4Range.Random()
+- uid: Zigurous.DataStructures.Vector4Range.Random*
+  name: Random
+  href: api/Zigurous.DataStructures.Vector4Range.html#Zigurous_DataStructures_Vector4Range_Random_
+  commentId: Overload:Zigurous.DataStructures.Vector4Range.Random
+  isSpec: "True"
+  fullName: Zigurous.DataStructures.Vector4Range.Random
+  nameWithType: Vector4Range.Random

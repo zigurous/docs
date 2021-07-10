@@ -83,7 +83,8 @@
   
   <h1 id="Zigurous_DataStructures_Quantity_1" data-uid="Zigurous.DataStructures.Quantity`1" class="text-break">Struct Quantity&lt;T&gt;
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Stores a quantity of a given entity type.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.DataStructures.html">Zigurous.DataStructures</a></h6>
   <h5 id="Zigurous_DataStructures_Quantity_1_syntax">Syntax</h5>
@@ -102,7 +103,8 @@ public struct Quantity&lt;T&gt; : IEquatable&lt;Quantity&lt;T&gt;&gt; where T : 
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>The type of entity being counted.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -110,7 +112,7 @@ public struct Quantity&lt;T&gt; : IEquatable&lt;Quantity&lt;T&gt;&gt; where T : 
   </h3>
   <a id="Zigurous_DataStructures_Quantity_1__ctor_" data-uid="Zigurous.DataStructures.Quantity`1.#ctor*"></a>
   <h4 id="Zigurous_DataStructures_Quantity_1__ctor__0_System_Int32_" data-uid="Zigurous.DataStructures.Quantity`1.#ctor(`0,System.Int32)">Quantity(T, Int32)</h4>
-  <div class="markdown level1 summary"><p>Creates a new Quantity with given amount of entity.</p>
+  <div class="markdown level1 summary"><p>Creates a new Quantity with the given <code data-dev-comment-type="paramref" class="paramref">amount</code> of <code data-dev-comment-type="paramref" class="paramref">entity</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -130,12 +132,14 @@ public struct Quantity&lt;T&gt; : IEquatable&lt;Quantity&lt;T&gt;&gt; where T : 
       <tr>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">entity</span></td>
-        <td></td>
+        <td><p>The entity being counted.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">amount</span></td>
-        <td></td>
+        <td><p>The amount of entities.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -195,7 +199,8 @@ public struct Quantity&lt;T&gt; : IEquatable&lt;Quantity&lt;T&gt;&gt; where T : 
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>True if the quantity is equal to the <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -222,7 +227,8 @@ public struct Quantity&lt;T&gt; : IEquatable&lt;Quantity&lt;T&gt;&gt; where T : 
       <tr>
         <td><a class="xref" href="Zigurous.DataStructures.Quantity-1.html">Quantity</a>&lt;T&gt;</td>
         <td><span class="parametername">other</span></td>
-        <td></td>
+        <td><p>The quantity to compare to.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -237,7 +243,8 @@ public struct Quantity&lt;T&gt; : IEquatable&lt;Quantity&lt;T&gt;&gt; where T : 
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>True if the quantity is equal to the <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -260,12 +267,39 @@ public struct Quantity&lt;T&gt; : IEquatable&lt;Quantity&lt;T&gt;&gt; where T : 
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td></td>
+        <td><p>The hash code of the quantity.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">System.ValueType.GetHashCode()</span></div>
+  <a id="Zigurous_DataStructures_Quantity_1_ToString_" data-uid="Zigurous.DataStructures.Quantity`1.ToString*"></a>
+  <h4 id="Zigurous_DataStructures_Quantity_1_ToString" data-uid="Zigurous.DataStructures.Quantity`1.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The string representation of the quantity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.ToString()</span></div>
   <h3 id="operators">Operators
   </h3>
   <a id="Zigurous_DataStructures_Quantity_1_op_Equality_" data-uid="Zigurous.DataStructures.Quantity`1.op_Equality*"></a>

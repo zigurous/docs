@@ -83,7 +83,9 @@
   
   <h1 id="Zigurous_DataStructures_SingletonBehavior_1" data-uid="Zigurous.DataStructures.SingletonBehavior`1" class="text-break">Class SingletonBehavior&lt;T&gt;
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>A singleton behavior that can be used to ensure that only one instance
+of a class is created.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -106,7 +108,8 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>The type of the singleton class.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -124,18 +127,33 @@
   </h3>
   <a id="Zigurous_DataStructures_SingletonBehavior_1_HasInstance_" data-uid="Zigurous.DataStructures.SingletonBehavior`1.HasInstance*"></a>
   <h4 id="Zigurous_DataStructures_SingletonBehavior_1_HasInstance" data-uid="Zigurous.DataStructures.SingletonBehavior`1.HasInstance">HasInstance</h4>
-  <div class="markdown level1 summary"><p>Returns true if the Singleton has been initialized and an instance
-is available to use.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool HasInstance { get; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the singleton has been initialized and an instance is
+available to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Zigurous_DataStructures_SingletonBehavior_1_Instance_" data-uid="Zigurous.DataStructures.SingletonBehavior`1.Instance*"></a>
   <h4 id="Zigurous_DataStructures_SingletonBehavior_1_Instance" data-uid="Zigurous.DataStructures.SingletonBehavior`1.Instance">Instance</h4>
-  <div class="markdown level1 summary"><p>The current instance of the class. The instance will be created if
-it does not already exist.</p>
+  <div class="markdown level1 summary"><p>The current instance of the class.
+The instance will be created if it does not already exist.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -162,7 +180,7 @@ it does not already exist.</p>
   </div>
   <a id="Zigurous_DataStructures_SingletonBehavior_1_OnSingletonInitialized_" data-uid="Zigurous.DataStructures.SingletonBehavior`1.OnSingletonInitialized*"></a>
   <h4 id="Zigurous_DataStructures_SingletonBehavior_1_OnSingletonInitialized" data-uid="Zigurous.DataStructures.SingletonBehavior`1.OnSingletonInitialized">OnSingletonInitialized()</h4>
-  <div class="markdown level1 summary"><p>A callback invoked when the Singleton is first initialized.</p>
+  <div class="markdown level1 summary"><p>A callback invoked when the singleton is first initialized.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

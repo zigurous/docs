@@ -83,7 +83,8 @@
   
   <h1 id="Zigurous_DataStructures_UIntRange" data-uid="Zigurous.DataStructures.UIntRange" class="text-break">Struct UIntRange
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>A range of uint values.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -100,7 +101,7 @@ public struct UIntRange : INumberRange&lt;uint&gt;, IRange&lt;uint&gt;</code></p
   </h3>
   <a id="Zigurous_DataStructures_UIntRange__ctor_" data-uid="Zigurous.DataStructures.UIntRange.#ctor*"></a>
   <h4 id="Zigurous_DataStructures_UIntRange__ctor_System_UInt32_System_UInt32_" data-uid="Zigurous.DataStructures.UIntRange.#ctor(System.UInt32,System.UInt32)">UIntRange(UInt32, UInt32)</h4>
-  <div class="markdown level1 summary"><p>Creates a new UIntRange with given min and max values.</p>
+  <div class="markdown level1 summary"><p>Creates a new uint range with the specified values.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -120,12 +121,14 @@ public struct UIntRange : INumberRange&lt;uint&gt;, IRange&lt;uint&gt;</code></p
       <tr>
         <td><span class="xref">System.UInt32</span></td>
         <td><span class="parametername">min</span></td>
-        <td></td>
+        <td><p>The lower bound of the range.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.UInt32</span></td>
         <td><span class="parametername">max</span></td>
-        <td></td>
+        <td><p>The upper bound of the range.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -133,13 +136,28 @@ public struct UIntRange : INumberRange&lt;uint&gt;, IRange&lt;uint&gt;</code></p
   </h3>
   <a id="Zigurous_DataStructures_UIntRange_Delta_" data-uid="Zigurous.DataStructures.UIntRange.Delta*"></a>
   <h4 id="Zigurous_DataStructures_UIntRange_Delta" data-uid="Zigurous.DataStructures.UIntRange.Delta">Delta</h4>
-  <div class="markdown level1 summary"><p>The difference between the range min and max.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public readonly uint Delta { get; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><p>The difference between the maximum and minimum values.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Zigurous_DataStructures_UIntRange_max_" data-uid="Zigurous.DataStructures.UIntRange.max*"></a>
   <h4 id="Zigurous_DataStructures_UIntRange_max" data-uid="Zigurous.DataStructures.UIntRange.max">max</h4>
   <div class="markdown level1 summary"><p>The upper bound of the range.</p>
@@ -151,13 +169,28 @@ public struct UIntRange : INumberRange&lt;uint&gt;, IRange&lt;uint&gt;</code></p
   </div>
   <a id="Zigurous_DataStructures_UIntRange_Median_" data-uid="Zigurous.DataStructures.UIntRange.Median*"></a>
   <h4 id="Zigurous_DataStructures_UIntRange_Median" data-uid="Zigurous.DataStructures.UIntRange.Median">Median</h4>
-  <div class="markdown level1 summary"><p>The number in the middle of the range min and max.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public readonly uint Median { get; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><p>The median value of the range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Zigurous_DataStructures_UIntRange_min_" data-uid="Zigurous.DataStructures.UIntRange.min*"></a>
   <h4 id="Zigurous_DataStructures_UIntRange_min" data-uid="Zigurous.DataStructures.UIntRange.min">min</h4>
   <div class="markdown level1 summary"><p>The lower bound of the range.</p>
@@ -198,8 +231,7 @@ public struct UIntRange : INumberRange&lt;uint&gt;, IRange&lt;uint&gt;</code></p
   </h3>
   <a id="Zigurous_DataStructures_UIntRange_Clamp_" data-uid="Zigurous.DataStructures.UIntRange.Clamp*"></a>
   <h4 id="Zigurous_DataStructures_UIntRange_Clamp_System_UInt32_" data-uid="Zigurous.DataStructures.UIntRange.Clamp(System.UInt32)">Clamp(UInt32)</h4>
-  <div class="markdown level1 summary"><p>Clamps the given value between the range.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -218,7 +250,8 @@ public struct UIntRange : INumberRange&lt;uint&gt;, IRange&lt;uint&gt;</code></p
       <tr>
         <td><span class="xref">System.UInt32</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>The value to clamp.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -233,15 +266,14 @@ public struct UIntRange : INumberRange&lt;uint&gt;, IRange&lt;uint&gt;</code></p
     <tbody>
       <tr>
         <td><span class="xref">System.UInt32</span></td>
-        <td></td>
+        <td><p>The <code data-dev-comment-type="paramref" class="paramref">value</code> clamped to the range.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_UIntRange_Includes_" data-uid="Zigurous.DataStructures.UIntRange.Includes*"></a>
   <h4 id="Zigurous_DataStructures_UIntRange_Includes_System_UInt32_" data-uid="Zigurous.DataStructures.UIntRange.Includes(System.UInt32)">Includes(UInt32)</h4>
-  <div class="markdown level1 summary"><p>Determines if the given value is between the range [inclusive,
-exclusive).</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -260,7 +292,8 @@ exclusive).</p>
       <tr>
         <td><span class="xref">System.UInt32</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>The value to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -275,15 +308,14 @@ exclusive).</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>True if the <code data-dev-comment-type="paramref" class="paramref">value</code> is in the range.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_UIntRange_Includes_" data-uid="Zigurous.DataStructures.UIntRange.Includes*"></a>
   <h4 id="Zigurous_DataStructures_UIntRange_Includes_System_UInt32_System_Boolean_System_Boolean_" data-uid="Zigurous.DataStructures.UIntRange.Includes(System.UInt32,System.Boolean,System.Boolean)">Includes(UInt32, Boolean, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Determines if the given value is between the range using a custom
-inclusive/exclusive combination.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -302,17 +334,20 @@ inclusive/exclusive combination.</p>
       <tr>
         <td><span class="xref">System.UInt32</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>The value to check.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">includeMin</span></td>
-        <td></td>
+        <td><p>The minimum value is inclusive if true, exclusive if false.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">includeMax</span></td>
-        <td></td>
+        <td><p>The maximum value is inclusive if true, exclusive if false.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -327,14 +362,14 @@ inclusive/exclusive combination.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>True if the <code data-dev-comment-type="paramref" class="paramref">value</code> is in the range.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_UIntRange_Random_" data-uid="Zigurous.DataStructures.UIntRange.Random*"></a>
   <h4 id="Zigurous_DataStructures_UIntRange_Random" data-uid="Zigurous.DataStructures.UIntRange.Random">Random()</h4>
-  <div class="markdown level1 summary"><p>Returns a random value between the range [inclusive, exclusive).</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -351,14 +386,14 @@ inclusive/exclusive combination.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.UInt32</span></td>
-        <td></td>
+        <td><p>A random value in the range [inclusive, exclusive).</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_UIntRange_RandomInclusive_" data-uid="Zigurous.DataStructures.UIntRange.RandomInclusive*"></a>
   <h4 id="Zigurous_DataStructures_UIntRange_RandomInclusive" data-uid="Zigurous.DataStructures.UIntRange.RandomInclusive">RandomInclusive()</h4>
-  <div class="markdown level1 summary"><p>Returns a random value between the range [inclusive, inclusive].</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -375,7 +410,8 @@ inclusive/exclusive combination.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.UInt32</span></td>
-        <td></td>
+        <td><p>A random value in the range [inclusive, inclusive].</p>
+</td>
       </tr>
     </tbody>
   </table>

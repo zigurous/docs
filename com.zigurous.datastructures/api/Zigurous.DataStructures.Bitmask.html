@@ -83,18 +83,21 @@
   
   <h1 id="Zigurous_DataStructures_Bitmask" data-uid="Zigurous.DataStructures.Bitmask" class="text-break">Struct Bitmask
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>A bitmask representation that can be used for bitwise operations.
+A bitmask is a set of bits that can be set or cleared.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.DataStructures.html">Zigurous.DataStructures</a></h6>
   <h5 id="Zigurous_DataStructures_Bitmask_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct Bitmask : IEquatable&lt;Bitmask&gt;, IEquatable&lt;int&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public struct Bitmask : IEquatable&lt;Bitmask&gt;, IEquatable&lt;int&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <a id="Zigurous_DataStructures_Bitmask__ctor_" data-uid="Zigurous.DataStructures.Bitmask.#ctor*"></a>
   <h4 id="Zigurous_DataStructures_Bitmask__ctor_System_Int32_" data-uid="Zigurous.DataStructures.Bitmask.#ctor(System.Int32)">Bitmask(Int32)</h4>
-  <div class="markdown level1 summary"><p>Creates a new Bitmask from a 32-bit integer.</p>
+  <div class="markdown level1 summary"><p>Creates a new Bitmask from the given 32-bit integer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -114,7 +117,8 @@
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">mask</span></td>
-        <td></td>
+        <td><p>The 32-bit integer to represent as a bitmask.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -142,12 +146,14 @@
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">n</span></td>
-        <td></td>
+        <td><p>The nth bit to set.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">x</span></td>
-        <td></td>
+        <td><p>The value to set the bit to.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -173,49 +179,8 @@
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">n</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_DataStructures_Bitmask_ContainsMaskExclusive_" data-uid="Zigurous.DataStructures.Bitmask.ContainsMaskExclusive*"></a>
-  <h4 id="Zigurous_DataStructures_Bitmask_ContainsMaskExclusive_System_Int32_" data-uid="Zigurous.DataStructures.Bitmask.ContainsMaskExclusive(System.Int32)">ContainsMaskExclusive(Int32)</h4>
-  <div class="markdown level1 summary"><p>Returns true if the bitmask contains another mask and there no flags
-set on the other mask that are not set on the bitmask.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool ContainsMaskExclusive(int other)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">other</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>The nth bit to clear.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -240,7 +205,8 @@ set on the other mask that are not set on the bitmask.</p>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">other</span></td>
-        <td></td>
+        <td><p>The bitmask to compare to.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -255,7 +221,8 @@ set on the other mask that are not set on the bitmask.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>True if the bitmask is equal to the <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -280,7 +247,8 @@ set on the other mask that are not set on the bitmask.</p>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">other</span></td>
-        <td></td>
+        <td><p>The object to compare to.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -295,7 +263,8 @@ set on the other mask that are not set on the bitmask.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>True if the bitmask is equal to the <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -322,7 +291,8 @@ set on the other mask that are not set on the bitmask.</p>
       <tr>
         <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td><span class="parametername">other</span></td>
-        <td></td>
+        <td><p>The bitmask to compare to.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -337,14 +307,14 @@ set on the other mask that are not set on the bitmask.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>True if the bitmask is equal to the <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_Bitmask_Get_" data-uid="Zigurous.DataStructures.Bitmask.Get*"></a>
   <h4 id="Zigurous_DataStructures_Bitmask_Get_System_Int32_" data-uid="Zigurous.DataStructures.Bitmask.Get(System.Int32)">Get(Int32)</h4>
-  <div class="markdown level1 summary"><p>Returns the nth bit of the bitmask.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -363,7 +333,8 @@ set on the other mask that are not set on the bitmask.</p>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">n</span></td>
-        <td></td>
+        <td><p>The nth bit to get.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -378,7 +349,8 @@ set on the other mask that are not set on the bitmask.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td></td>
+        <td><p>The nth bit of the bitmask.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -401,7 +373,8 @@ set on the other mask that are not set on the bitmask.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td></td>
+        <td><p>The hash code of the bitmask.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -409,8 +382,7 @@ set on the other mask that are not set on the bitmask.</p>
   <div><span class="xref">System.ValueType.GetHashCode()</span></div>
   <a id="Zigurous_DataStructures_Bitmask_Has_" data-uid="Zigurous.DataStructures.Bitmask.Has*"></a>
   <h4 id="Zigurous_DataStructures_Bitmask_Has_System_Int32_" data-uid="Zigurous.DataStructures.Bitmask.Has(System.Int32)">Has(Int32)</h4>
-  <div class="markdown level1 summary"><p>Returns true if the nth bit of the bitmask is set.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -429,7 +401,8 @@ set on the other mask that are not set on the bitmask.</p>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">n</span></td>
-        <td></td>
+        <td><p>The nth bit to check for.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -444,15 +417,14 @@ set on the other mask that are not set on the bitmask.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>True if the nth bit of the bitmask is set.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_Bitmask_HasAnyFlag_" data-uid="Zigurous.DataStructures.Bitmask.HasAnyFlag*"></a>
   <h4 id="Zigurous_DataStructures_Bitmask_HasAnyFlag_System_Int32_" data-uid="Zigurous.DataStructures.Bitmask.HasAnyFlag(System.Int32)">HasAnyFlag(Int32)</h4>
-  <div class="markdown level1 summary"><p>Returns true if the bitmask contains any of the flags. <code>(mask
-&amp; flags) != 0</code></p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -471,7 +443,8 @@ set on the other mask that are not set on the bitmask.</p>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">flags</span></td>
-        <td></td>
+        <td><p>The flags to check for.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -486,15 +459,15 @@ set on the other mask that are not set on the bitmask.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>True if the bitmask contains any of the <code data-dev-comment-type="paramref" class="paramref">flags</code>.</p>
+<pre><code>(mask &amp; flags) != 0</code></pre>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_Bitmask_HasFlag_" data-uid="Zigurous.DataStructures.Bitmask.HasFlag*"></a>
   <h4 id="Zigurous_DataStructures_Bitmask_HasFlag_System_Int32_" data-uid="Zigurous.DataStructures.Bitmask.HasFlag(System.Int32)">HasFlag(Int32)</h4>
-  <div class="markdown level1 summary"><p>Returns true if the bitmask contains the flag. <code>(mask &amp; flag)
-== flag</code></p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -513,7 +486,8 @@ set on the other mask that are not set on the bitmask.</p>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">flag</span></td>
-        <td></td>
+        <td><p>The flag to check for.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -528,7 +502,53 @@ set on the other mask that are not set on the bitmask.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>True if the bitmask contains the <code data-dev-comment-type="paramref" class="paramref">flag</code>.</p>
+<pre><code>(mask &amp; flag) == flag</code></pre>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_DataStructures_Bitmask_HasOnlyFlags_" data-uid="Zigurous.DataStructures.Bitmask.HasOnlyFlags*"></a>
+  <h4 id="Zigurous_DataStructures_Bitmask_HasOnlyFlags_System_Int32_" data-uid="Zigurous.DataStructures.Bitmask.HasOnlyFlags(System.Int32)">HasOnlyFlags(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasOnlyFlags(int flags)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">flags</span></td>
+        <td><p>The flags to check for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the bitmask contains only the given <code data-dev-comment-type="paramref" class="paramref">flags</code>
+and no other flags.</p>
+<pre><code>((mask ^ flags) &amp; flags) == 0</code></pre>
+</td>
       </tr>
     </tbody>
   </table>
@@ -554,7 +574,8 @@ set on the other mask that are not set on the bitmask.</p>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">n</span></td>
-        <td></td>
+        <td><p>The nth bit to set.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -580,7 +601,8 @@ set on the other mask that are not set on the bitmask.</p>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">n</span></td>
-        <td></td>
+        <td><p>The nth bit to toggle.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -603,7 +625,8 @@ set on the other mask that are not set on the bitmask.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>The string representation of the bitmask.</p>
+</td>
       </tr>
     </tbody>
   </table>

@@ -116,7 +116,8 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>The type of value to accumulate.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -124,13 +125,28 @@
   </h3>
   <a id="Zigurous_DataStructures_ValueAccumulator_1_Count_" data-uid="Zigurous.DataStructures.ValueAccumulator`1.Count*"></a>
   <h4 id="Zigurous_DataStructures_ValueAccumulator_1_Count" data-uid="Zigurous.DataStructures.ValueAccumulator`1.Count">Count</h4>
-  <div class="markdown level1 summary"><p>The number of unique values being accumulated.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int Count { get; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of unique values being accumulated.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Zigurous_DataStructures_ValueAccumulator_1_total_" data-uid="Zigurous.DataStructures.ValueAccumulator`1.total*"></a>
   <h4 id="Zigurous_DataStructures_ValueAccumulator_1_total" data-uid="Zigurous.DataStructures.ValueAccumulator`1.total">total</h4>
   <div class="markdown level1 summary"><p>The total accumulated value.</p>
@@ -142,8 +158,8 @@
   </div>
   <a id="Zigurous_DataStructures_ValueAccumulator_1_values_" data-uid="Zigurous.DataStructures.ValueAccumulator`1.values*"></a>
   <h4 id="Zigurous_DataStructures_ValueAccumulator_1_values" data-uid="Zigurous.DataStructures.ValueAccumulator`1.values">values</h4>
-  <div class="markdown level1 summary"><p>Keeps track of all accumulated values. Values are stored by unique
-hash codes.</p>
+  <div class="markdown level1 summary"><p>Keeps track of all accumulated values.
+Values are stored with unique identifiers.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -174,7 +190,8 @@ hash codes.</p>
       <tr>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>The value to add to the total.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -189,7 +206,8 @@ hash codes.</p>
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td></td>
+        <td><p>The new total value.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -204,12 +222,11 @@ hash codes.</p>
   </div>
   <a id="Zigurous_DataStructures_ValueAccumulator_1_GetValue_" data-uid="Zigurous.DataStructures.ValueAccumulator`1.GetValue*"></a>
   <h4 id="Zigurous_DataStructures_ValueAccumulator_1_GetValue_System_Int32_" data-uid="Zigurous.DataStructures.ValueAccumulator`1.GetValue(System.Int32)">GetValue(Int32)</h4>
-  <div class="markdown level1 summary"><p>Returns the stored value with the given hash code identifier.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T GetValue(int id)</code></pre>
+    <pre><code class="lang-csharp hljs">public T GetValue(int identifier)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -223,7 +240,7 @@ hash codes.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">id</span></td>
+        <td><span class="parametername">identifier</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -239,19 +256,20 @@ hash codes.</p>
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td></td>
+        <td><p>The stored value with the given <code data-dev-comment-type="paramref" class="paramref">identifier</code>.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_ValueAccumulator_1_RemoveValue_" data-uid="Zigurous.DataStructures.ValueAccumulator`1.RemoveValue*"></a>
   <h4 id="Zigurous_DataStructures_ValueAccumulator_1_RemoveValue_System_Int32_" data-uid="Zigurous.DataStructures.ValueAccumulator`1.RemoveValue(System.Int32)">RemoveValue(Int32)</h4>
-  <div class="markdown level1 summary"><p>Removes the stored value with the given hash code identifier, and
-updates the total accumulated value.</p>
+  <div class="markdown level1 summary"><p>Removes the value stored with the given <code data-dev-comment-type="paramref" class="paramref">identifier</code>
+and updates the total accumulated value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RemoveValue(int id)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RemoveValue(int identifier)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -265,20 +283,22 @@ updates the total accumulated value.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">id</span></td>
-        <td></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The identifier of the stored value to remove.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_ValueAccumulator_1_SetValue_" data-uid="Zigurous.DataStructures.ValueAccumulator`1.SetValue*"></a>
   <h4 id="Zigurous_DataStructures_ValueAccumulator_1_SetValue__0_System_Int32_" data-uid="Zigurous.DataStructures.ValueAccumulator`1.SetValue(`0,System.Int32)">SetValue(T, Int32)</h4>
-  <div class="markdown level1 summary"><p>Stores a given value with a hash code identifier, and updates the
-total accumulated value.</p>
+  <div class="markdown level1 summary"><p>Stores a given <code data-dev-comment-type="paramref" class="paramref">value</code> with the <code data-dev-comment-type="paramref" class="paramref">identifier</code>.
+The total accumulated value is updated based on the difference
+between the new and old value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetValue(T value, int id)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetValue(T value, int identifier)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -293,12 +313,14 @@ total accumulated value.</p>
       <tr>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>The value to set.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">id</span></td>
-        <td></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The identifier of the value.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -324,7 +346,8 @@ total accumulated value.</p>
       <tr>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>The value to subtract from the total.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -339,7 +362,8 @@ total accumulated value.</p>
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td></td>
+        <td><p>The new total value.</p>
+</td>
       </tr>
     </tbody>
   </table>

@@ -83,7 +83,8 @@
   
   <h1 id="Zigurous_DataStructures_EulerRange" data-uid="Zigurous.DataStructures.EulerRange" class="text-break">Struct EulerRange
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>A range of euler values.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -100,7 +101,7 @@ public struct EulerRange : INumberRange&lt;float&gt;, IRange&lt;float&gt;</code>
   </h3>
   <a id="Zigurous_DataStructures_EulerRange__ctor_" data-uid="Zigurous.DataStructures.EulerRange.#ctor*"></a>
   <h4 id="Zigurous_DataStructures_EulerRange__ctor_System_Single_System_Single_" data-uid="Zigurous.DataStructures.EulerRange.#ctor(System.Single,System.Single)">EulerRange(Single, Single)</h4>
-  <div class="markdown level1 summary"><p>Creates a new EulerRange with given min and max values.</p>
+  <div class="markdown level1 summary"><p>Creates a new euler range with the specified values.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -120,12 +121,14 @@ public struct EulerRange : INumberRange&lt;float&gt;, IRange&lt;float&gt;</code>
       <tr>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">min</span></td>
-        <td></td>
+        <td><p>The lower bound of the range.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">max</span></td>
-        <td></td>
+        <td><p>The upper bound of the range.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -133,13 +136,28 @@ public struct EulerRange : INumberRange&lt;float&gt;, IRange&lt;float&gt;</code>
   </h3>
   <a id="Zigurous_DataStructures_EulerRange_Delta_" data-uid="Zigurous.DataStructures.EulerRange.Delta*"></a>
   <h4 id="Zigurous_DataStructures_EulerRange_Delta" data-uid="Zigurous.DataStructures.EulerRange.Delta">Delta</h4>
-  <div class="markdown level1 summary"><p>The difference between the range min and max.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public readonly float Delta { get; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>The difference between the maximum and minimum values.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Zigurous_DataStructures_EulerRange_fullRange_" data-uid="Zigurous.DataStructures.EulerRange.fullRange*"></a>
   <h4 id="Zigurous_DataStructures_EulerRange_fullRange" data-uid="Zigurous.DataStructures.EulerRange.fullRange">fullRange</h4>
   <div class="markdown level1 summary"><p>Shorthand for writing EulerRange(-360.0f, 360.0f).</p>
@@ -169,13 +187,28 @@ public struct EulerRange : INumberRange&lt;float&gt;, IRange&lt;float&gt;</code>
   </div>
   <a id="Zigurous_DataStructures_EulerRange_Median_" data-uid="Zigurous.DataStructures.EulerRange.Median*"></a>
   <h4 id="Zigurous_DataStructures_EulerRange_Median" data-uid="Zigurous.DataStructures.EulerRange.Median">Median</h4>
-  <div class="markdown level1 summary"><p>The number in the middle of the range min and max.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public readonly float Median { get; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>The median value of the range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Zigurous_DataStructures_EulerRange_min_" data-uid="Zigurous.DataStructures.EulerRange.min*"></a>
   <h4 id="Zigurous_DataStructures_EulerRange_min" data-uid="Zigurous.DataStructures.EulerRange.min">min</h4>
   <div class="markdown level1 summary"><p>The lower bound of the range.</p>
@@ -216,8 +249,7 @@ public struct EulerRange : INumberRange&lt;float&gt;, IRange&lt;float&gt;</code>
   </h3>
   <a id="Zigurous_DataStructures_EulerRange_Clamp_" data-uid="Zigurous.DataStructures.EulerRange.Clamp*"></a>
   <h4 id="Zigurous_DataStructures_EulerRange_Clamp_System_Single_" data-uid="Zigurous.DataStructures.EulerRange.Clamp(System.Single)">Clamp(Single)</h4>
-  <div class="markdown level1 summary"><p>Clamps the given value between the range.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -236,7 +268,8 @@ public struct EulerRange : INumberRange&lt;float&gt;, IRange&lt;float&gt;</code>
       <tr>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>The value to clamp.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -251,15 +284,14 @@ public struct EulerRange : INumberRange&lt;float&gt;, IRange&lt;float&gt;</code>
     <tbody>
       <tr>
         <td><span class="xref">System.Single</span></td>
-        <td></td>
+        <td><p>The <code data-dev-comment-type="paramref" class="paramref">value</code> clamped to the range.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_EulerRange_Includes_" data-uid="Zigurous.DataStructures.EulerRange.Includes*"></a>
   <h4 id="Zigurous_DataStructures_EulerRange_Includes_System_Single_" data-uid="Zigurous.DataStructures.EulerRange.Includes(System.Single)">Includes(Single)</h4>
-  <div class="markdown level1 summary"><p>Determines if the given value is between the range [inclusive,
-inclusive].</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -278,7 +310,8 @@ inclusive].</p>
       <tr>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>The value to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -293,14 +326,68 @@ inclusive].</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>True if the <code data-dev-comment-type="paramref" class="paramref">value</code> is in the range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_DataStructures_EulerRange_Includes_" data-uid="Zigurous.DataStructures.EulerRange.Includes*"></a>
+  <h4 id="Zigurous_DataStructures_EulerRange_Includes_System_Single_System_Boolean_System_Boolean_" data-uid="Zigurous.DataStructures.EulerRange.Includes(System.Single,System.Boolean,System.Boolean)">Includes(Single, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Includes(float value, bool includeMin, bool includeMax)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to check.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">includeMin</span></td>
+        <td><p>The minimum value is inclusive if true, exclusive if false.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">includeMax</span></td>
+        <td><p>The maximum value is inclusive if true, exclusive if false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the <code data-dev-comment-type="paramref" class="paramref">value</code> is in the range.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_EulerRange_Random_" data-uid="Zigurous.DataStructures.EulerRange.Random*"></a>
   <h4 id="Zigurous_DataStructures_EulerRange_Random" data-uid="Zigurous.DataStructures.EulerRange.Random">Random()</h4>
-  <div class="markdown level1 summary"><p>Returns a random value between the range [inclusive, inclusive].</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -317,14 +404,14 @@ inclusive].</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Single</span></td>
-        <td></td>
+        <td><p>A random value in the range.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_EulerRange_Wrap_" data-uid="Zigurous.DataStructures.EulerRange.Wrap*"></a>
   <h4 id="Zigurous_DataStructures_EulerRange_Wrap_System_Single_" data-uid="Zigurous.DataStructures.EulerRange.Wrap(System.Single)">Wrap(Single)</h4>
-  <div class="markdown level1 summary"><p>Wraps the given value between the range.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -343,7 +430,8 @@ inclusive].</p>
       <tr>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>The value to wrap.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -358,7 +446,8 @@ inclusive].</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Single</span></td>
-        <td></td>
+        <td><p>The <code data-dev-comment-type="paramref" class="paramref">value</code> wrapped in the range.</p>
+</td>
       </tr>
     </tbody>
   </table>
