@@ -98,14 +98,6 @@
   </div>
   <h3 id="fields">Fields
   </h3>
-  <h4 id="Zigurous_Debug_FPSDisplay__nextUpdate" data-uid="Zigurous.Debug.FPSDisplay._nextUpdate">_nextUpdate</h4>
-  <div class="markdown level1 summary"><p>The time of the next framerate update.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected float _nextUpdate</code></pre>
-  </div>
   <h4 id="Zigurous_Debug_FPSDisplay_displayText" data-uid="Zigurous.Debug.FPSDisplay.displayText">displayText</h4>
   <div class="markdown level1 summary"><p>The UI text that display the framerate.</p>
 </div>
@@ -142,11 +134,48 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string displayFormat { get; protected set; }</code></pre>
   </div>
+  <a id="Zigurous_Debug_FPSDisplay_nextUpdate_" data-uid="Zigurous.Debug.FPSDisplay.nextUpdate*"></a>
+  <h4 id="Zigurous_Debug_FPSDisplay_nextUpdate" data-uid="Zigurous.Debug.FPSDisplay.nextUpdate">nextUpdate</h4>
+  <div class="markdown level1 summary"><p>The time of the next framerate update.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float nextUpdate { get; }</code></pre>
+  </div>
   <h3 id="methods">Methods
   </h3>
+  <a id="Zigurous_Debug_FPSDisplay_SetDisplayFormat_" data-uid="Zigurous.Debug.FPSDisplay.SetDisplayFormat*"></a>
+  <h4 id="Zigurous_Debug_FPSDisplay_SetDisplayFormat_System_Int32_" data-uid="Zigurous.Debug.FPSDisplay.SetDisplayFormat(System.Int32)">SetDisplayFormat(Int32)</h4>
+  <div class="markdown level1 summary"><p>Sets the text format of the framerate display.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void SetDisplayFormat(int decimals)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">decimals</span></td>
+        <td><p>The number of decimal digits to display.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Zigurous_Debug_FPSDisplay_UpdateDisplay_" data-uid="Zigurous.Debug.FPSDisplay.UpdateDisplay*"></a>
   <h4 id="Zigurous_Debug_FPSDisplay_UpdateDisplay_System_Single_" data-uid="Zigurous.Debug.FPSDisplay.UpdateDisplay(System.Single)">UpdateDisplay(Single)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Updates the display with the given framerate.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -165,7 +194,8 @@
       <tr>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">fps</span></td>
-        <td></td>
+        <td><p>The framerate to display.</p>
+</td>
       </tr>
     </tbody>
   </table>

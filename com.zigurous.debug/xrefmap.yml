@@ -7,188 +7,87 @@ references:
   commentId: N:Zigurous.Debug
   fullName: Zigurous.Debug
   nameWithType: Zigurous.Debug
-- uid: Zigurous.Debug.ComparePerformance
-  name: ComparePerformance
-  href: api/Zigurous.Debug.ComparePerformance.html
-  commentId: T:Zigurous.Debug.ComparePerformance
-  fullName: Zigurous.Debug.ComparePerformance
-  nameWithType: ComparePerformance
-- uid: Zigurous.Debug.ComparePerformance.execute
-  name: execute
-  href: api/Zigurous.Debug.ComparePerformance.html#Zigurous_Debug_ComparePerformance_execute
-  commentId: F:Zigurous.Debug.ComparePerformance.execute
-  fullName: Zigurous.Debug.ComparePerformance.execute
-  nameWithType: ComparePerformance.execute
-- uid: Zigurous.Debug.ComparePerformance.Iterate
-  name: Iterate()
-  href: api/Zigurous.Debug.ComparePerformance.html#Zigurous_Debug_ComparePerformance_Iterate
-  commentId: M:Zigurous.Debug.ComparePerformance.Iterate
-  fullName: Zigurous.Debug.ComparePerformance.Iterate()
-  nameWithType: ComparePerformance.Iterate()
-- uid: Zigurous.Debug.ComparePerformance.Iterate(System.Int32)
-  name: Iterate(Int32)
-  href: api/Zigurous.Debug.ComparePerformance.html#Zigurous_Debug_ComparePerformance_Iterate_System_Int32_
-  commentId: M:Zigurous.Debug.ComparePerformance.Iterate(System.Int32)
-  fullName: Zigurous.Debug.ComparePerformance.Iterate(System.Int32)
-  nameWithType: ComparePerformance.Iterate(Int32)
-- uid: Zigurous.Debug.ComparePerformance.Iterate(System.Int32,System.Action)
-  name: Iterate(Int32, Action)
-  href: api/Zigurous.Debug.ComparePerformance.html#Zigurous_Debug_ComparePerformance_Iterate_System_Int32_System_Action_
-  commentId: M:Zigurous.Debug.ComparePerformance.Iterate(System.Int32,System.Action)
-  fullName: Zigurous.Debug.ComparePerformance.Iterate(System.Int32, System.Action)
-  nameWithType: ComparePerformance.Iterate(Int32, Action)
-- uid: Zigurous.Debug.ComparePerformance.Iterate*
-  name: Iterate
-  href: api/Zigurous.Debug.ComparePerformance.html#Zigurous_Debug_ComparePerformance_Iterate_
-  commentId: Overload:Zigurous.Debug.ComparePerformance.Iterate
+- uid: Zigurous.Debug.Benchmark
+  name: Benchmark
+  href: api/Zigurous.Debug.Benchmark.html
+  commentId: T:Zigurous.Debug.Benchmark
+  fullName: Zigurous.Debug.Benchmark
+  nameWithType: Benchmark
+- uid: Zigurous.Debug.Benchmark.Compare(System.Action,System.Action,System.Int32,System.Boolean)
+  name: Compare(Action, Action, Int32, Boolean)
+  href: api/Zigurous.Debug.Benchmark.html#Zigurous_Debug_Benchmark_Compare_System_Action_System_Action_System_Int32_System_Boolean_
+  commentId: M:Zigurous.Debug.Benchmark.Compare(System.Action,System.Action,System.Int32,System.Boolean)
+  fullName: Zigurous.Debug.Benchmark.Compare(System.Action, System.Action, System.Int32, System.Boolean)
+  nameWithType: Benchmark.Compare(Action, Action, Int32, Boolean)
+- uid: Zigurous.Debug.Benchmark.Compare*
+  name: Compare
+  href: api/Zigurous.Debug.Benchmark.html#Zigurous_Debug_Benchmark_Compare_
+  commentId: Overload:Zigurous.Debug.Benchmark.Compare
   isSpec: "True"
-  fullName: Zigurous.Debug.ComparePerformance.Iterate
-  nameWithType: ComparePerformance.Iterate
-- uid: Zigurous.Debug.ComparePerformance.iterations
-  name: iterations
-  href: api/Zigurous.Debug.ComparePerformance.html#Zigurous_Debug_ComparePerformance_iterations
-  commentId: F:Zigurous.Debug.ComparePerformance.iterations
-  fullName: Zigurous.Debug.ComparePerformance.iterations
-  nameWithType: ComparePerformance.iterations
-- uid: Zigurous.Debug.ComparePerformance.TestA
-  name: TestA()
-  href: api/Zigurous.Debug.ComparePerformance.html#Zigurous_Debug_ComparePerformance_TestA
-  commentId: M:Zigurous.Debug.ComparePerformance.TestA
-  fullName: Zigurous.Debug.ComparePerformance.TestA()
-  nameWithType: ComparePerformance.TestA()
-- uid: Zigurous.Debug.ComparePerformance.TestA*
-  name: TestA
-  href: api/Zigurous.Debug.ComparePerformance.html#Zigurous_Debug_ComparePerformance_TestA_
-  commentId: Overload:Zigurous.Debug.ComparePerformance.TestA
+  fullName: Zigurous.Debug.Benchmark.Compare
+  nameWithType: Benchmark.Compare
+- uid: Zigurous.Debug.Benchmark.Measure(System.Action,System.Int32,System.Boolean)
+  name: Measure(Action, Int32, Boolean)
+  href: api/Zigurous.Debug.Benchmark.html#Zigurous_Debug_Benchmark_Measure_System_Action_System_Int32_System_Boolean_
+  commentId: M:Zigurous.Debug.Benchmark.Measure(System.Action,System.Int32,System.Boolean)
+  fullName: Zigurous.Debug.Benchmark.Measure(System.Action, System.Int32, System.Boolean)
+  nameWithType: Benchmark.Measure(Action, Int32, Boolean)
+- uid: Zigurous.Debug.Benchmark.Measure*
+  name: Measure
+  href: api/Zigurous.Debug.Benchmark.html#Zigurous_Debug_Benchmark_Measure_
+  commentId: Overload:Zigurous.Debug.Benchmark.Measure
   isSpec: "True"
-  fullName: Zigurous.Debug.ComparePerformance.TestA
-  nameWithType: ComparePerformance.TestA
-- uid: Zigurous.Debug.ComparePerformance.TestB
-  name: TestB()
-  href: api/Zigurous.Debug.ComparePerformance.html#Zigurous_Debug_ComparePerformance_TestB
-  commentId: M:Zigurous.Debug.ComparePerformance.TestB
-  fullName: Zigurous.Debug.ComparePerformance.TestB()
-  nameWithType: ComparePerformance.TestB()
-- uid: Zigurous.Debug.ComparePerformance.TestB*
-  name: TestB
-  href: api/Zigurous.Debug.ComparePerformance.html#Zigurous_Debug_ComparePerformance_TestB_
-  commentId: Overload:Zigurous.Debug.ComparePerformance.TestB
+  fullName: Zigurous.Debug.Benchmark.Measure
+  nameWithType: Benchmark.Measure
+- uid: Zigurous.Debug.Benchmark.Run(System.Int32,System.Action[])
+  name: Run(Int32, Action[])
+  href: api/Zigurous.Debug.Benchmark.html#Zigurous_Debug_Benchmark_Run_System_Int32_System_Action___
+  commentId: M:Zigurous.Debug.Benchmark.Run(System.Int32,System.Action[])
+  name.vb: Run(Int32, Action())
+  fullName: Zigurous.Debug.Benchmark.Run(System.Int32, System.Action[])
+  fullName.vb: Zigurous.Debug.Benchmark.Run(System.Int32, System.Action())
+  nameWithType: Benchmark.Run(Int32, Action[])
+  nameWithType.vb: Benchmark.Run(Int32, Action())
+- uid: Zigurous.Debug.Benchmark.Run*
+  name: Run
+  href: api/Zigurous.Debug.Benchmark.html#Zigurous_Debug_Benchmark_Run_
+  commentId: Overload:Zigurous.Debug.Benchmark.Run
   isSpec: "True"
-  fullName: Zigurous.Debug.ComparePerformance.TestB
-  nameWithType: ComparePerformance.TestB
-- uid: Zigurous.Debug.CompareResults`1
-  name: CompareResults<T>
-  href: api/Zigurous.Debug.CompareResults-1.html
-  commentId: T:Zigurous.Debug.CompareResults`1
-  name.vb: CompareResults(Of T)
-  fullName: Zigurous.Debug.CompareResults<T>
-  fullName.vb: Zigurous.Debug.CompareResults(Of T)
-  nameWithType: CompareResults<T>
-  nameWithType.vb: CompareResults(Of T)
-- uid: Zigurous.Debug.CompareResults`1.execute
-  name: execute
-  href: api/Zigurous.Debug.CompareResults-1.html#Zigurous_Debug_CompareResults_1_execute
-  commentId: F:Zigurous.Debug.CompareResults`1.execute
-  fullName: Zigurous.Debug.CompareResults<T>.execute
-  fullName.vb: Zigurous.Debug.CompareResults(Of T).execute
-  nameWithType: CompareResults<T>.execute
-  nameWithType.vb: CompareResults(Of T).execute
-- uid: Zigurous.Debug.CompareResults`1.Iterate
-  name: Iterate()
-  href: api/Zigurous.Debug.CompareResults-1.html#Zigurous_Debug_CompareResults_1_Iterate
-  commentId: M:Zigurous.Debug.CompareResults`1.Iterate
-  fullName: Zigurous.Debug.CompareResults<T>.Iterate()
-  fullName.vb: Zigurous.Debug.CompareResults(Of T).Iterate()
-  nameWithType: CompareResults<T>.Iterate()
-  nameWithType.vb: CompareResults(Of T).Iterate()
-- uid: Zigurous.Debug.CompareResults`1.Iterate(System.Int32)
-  name: Iterate(Int32)
-  href: api/Zigurous.Debug.CompareResults-1.html#Zigurous_Debug_CompareResults_1_Iterate_System_Int32_
-  commentId: M:Zigurous.Debug.CompareResults`1.Iterate(System.Int32)
-  fullName: Zigurous.Debug.CompareResults<T>.Iterate(System.Int32)
-  fullName.vb: Zigurous.Debug.CompareResults(Of T).Iterate(System.Int32)
-  nameWithType: CompareResults<T>.Iterate(Int32)
-  nameWithType.vb: CompareResults(Of T).Iterate(Int32)
-- uid: Zigurous.Debug.CompareResults`1.Iterate(System.Int32,System.Func{`0},System.Func{`0})
-  name: Iterate(Int32, Func<T>, Func<T>)
-  href: api/Zigurous.Debug.CompareResults-1.html#Zigurous_Debug_CompareResults_1_Iterate_System_Int32_System_Func__0__System_Func__0__
-  commentId: M:Zigurous.Debug.CompareResults`1.Iterate(System.Int32,System.Func{`0},System.Func{`0})
-  name.vb: Iterate(Int32, Func(Of T), Func(Of T))
-  fullName: Zigurous.Debug.CompareResults<T>.Iterate(System.Int32, System.Func<T>, System.Func<T>)
-  fullName.vb: Zigurous.Debug.CompareResults(Of T).Iterate(System.Int32, System.Func(Of T), System.Func(Of T))
-  nameWithType: CompareResults<T>.Iterate(Int32, Func<T>, Func<T>)
-  nameWithType.vb: CompareResults(Of T).Iterate(Int32, Func(Of T), Func(Of T))
-- uid: Zigurous.Debug.CompareResults`1.Iterate*
-  name: Iterate
-  href: api/Zigurous.Debug.CompareResults-1.html#Zigurous_Debug_CompareResults_1_Iterate_
-  commentId: Overload:Zigurous.Debug.CompareResults`1.Iterate
+  fullName: Zigurous.Debug.Benchmark.Run
+  nameWithType: Benchmark.Run
+- uid: Zigurous.Debug.Compare`1
+  name: Compare<T>
+  href: api/Zigurous.Debug.Compare-1.html
+  commentId: T:Zigurous.Debug.Compare`1
+  name.vb: Compare(Of T)
+  fullName: Zigurous.Debug.Compare<T>
+  fullName.vb: Zigurous.Debug.Compare(Of T)
+  nameWithType: Compare<T>
+  nameWithType.vb: Compare(Of T)
+- uid: Zigurous.Debug.Compare`1.Test(System.Func{`0},System.Func{`0},System.Int32,System.Boolean,System.Boolean)
+  name: Test(Func<T>, Func<T>, Int32, Boolean, Boolean)
+  href: api/Zigurous.Debug.Compare-1.html#Zigurous_Debug_Compare_1_Test_System_Func__0__System_Func__0__System_Int32_System_Boolean_System_Boolean_
+  commentId: M:Zigurous.Debug.Compare`1.Test(System.Func{`0},System.Func{`0},System.Int32,System.Boolean,System.Boolean)
+  name.vb: Test(Func(Of T), Func(Of T), Int32, Boolean, Boolean)
+  fullName: Zigurous.Debug.Compare<T>.Test(System.Func<T>, System.Func<T>, System.Int32, System.Boolean, System.Boolean)
+  fullName.vb: Zigurous.Debug.Compare(Of T).Test(System.Func(Of T), System.Func(Of T), System.Int32, System.Boolean, System.Boolean)
+  nameWithType: Compare<T>.Test(Func<T>, Func<T>, Int32, Boolean, Boolean)
+  nameWithType.vb: Compare(Of T).Test(Func(Of T), Func(Of T), Int32, Boolean, Boolean)
+- uid: Zigurous.Debug.Compare`1.Test*
+  name: Test
+  href: api/Zigurous.Debug.Compare-1.html#Zigurous_Debug_Compare_1_Test_
+  commentId: Overload:Zigurous.Debug.Compare`1.Test
   isSpec: "True"
-  fullName: Zigurous.Debug.CompareResults<T>.Iterate
-  fullName.vb: Zigurous.Debug.CompareResults(Of T).Iterate
-  nameWithType: CompareResults<T>.Iterate
-  nameWithType.vb: CompareResults(Of T).Iterate
-- uid: Zigurous.Debug.CompareResults`1.iterations
-  name: iterations
-  href: api/Zigurous.Debug.CompareResults-1.html#Zigurous_Debug_CompareResults_1_iterations
-  commentId: F:Zigurous.Debug.CompareResults`1.iterations
-  fullName: Zigurous.Debug.CompareResults<T>.iterations
-  fullName.vb: Zigurous.Debug.CompareResults(Of T).iterations
-  nameWithType: CompareResults<T>.iterations
-  nameWithType.vb: CompareResults(Of T).iterations
-- uid: Zigurous.Debug.CompareResults`1.printIndividualResults
-  name: printIndividualResults
-  href: api/Zigurous.Debug.CompareResults-1.html#Zigurous_Debug_CompareResults_1_printIndividualResults
-  commentId: F:Zigurous.Debug.CompareResults`1.printIndividualResults
-  fullName: Zigurous.Debug.CompareResults<T>.printIndividualResults
-  fullName.vb: Zigurous.Debug.CompareResults(Of T).printIndividualResults
-  nameWithType: CompareResults<T>.printIndividualResults
-  nameWithType.vb: CompareResults(Of T).printIndividualResults
-- uid: Zigurous.Debug.CompareResults`1.TestA
-  name: TestA()
-  href: api/Zigurous.Debug.CompareResults-1.html#Zigurous_Debug_CompareResults_1_TestA
-  commentId: M:Zigurous.Debug.CompareResults`1.TestA
-  fullName: Zigurous.Debug.CompareResults<T>.TestA()
-  fullName.vb: Zigurous.Debug.CompareResults(Of T).TestA()
-  nameWithType: CompareResults<T>.TestA()
-  nameWithType.vb: CompareResults(Of T).TestA()
-- uid: Zigurous.Debug.CompareResults`1.TestA*
-  name: TestA
-  href: api/Zigurous.Debug.CompareResults-1.html#Zigurous_Debug_CompareResults_1_TestA_
-  commentId: Overload:Zigurous.Debug.CompareResults`1.TestA
-  isSpec: "True"
-  fullName: Zigurous.Debug.CompareResults<T>.TestA
-  fullName.vb: Zigurous.Debug.CompareResults(Of T).TestA
-  nameWithType: CompareResults<T>.TestA
-  nameWithType.vb: CompareResults(Of T).TestA
-- uid: Zigurous.Debug.CompareResults`1.TestB
-  name: TestB()
-  href: api/Zigurous.Debug.CompareResults-1.html#Zigurous_Debug_CompareResults_1_TestB
-  commentId: M:Zigurous.Debug.CompareResults`1.TestB
-  fullName: Zigurous.Debug.CompareResults<T>.TestB()
-  fullName.vb: Zigurous.Debug.CompareResults(Of T).TestB()
-  nameWithType: CompareResults<T>.TestB()
-  nameWithType.vb: CompareResults(Of T).TestB()
-- uid: Zigurous.Debug.CompareResults`1.TestB*
-  name: TestB
-  href: api/Zigurous.Debug.CompareResults-1.html#Zigurous_Debug_CompareResults_1_TestB_
-  commentId: Overload:Zigurous.Debug.CompareResults`1.TestB
-  isSpec: "True"
-  fullName: Zigurous.Debug.CompareResults<T>.TestB
-  fullName.vb: Zigurous.Debug.CompareResults(Of T).TestB
-  nameWithType: CompareResults<T>.TestB
-  nameWithType.vb: CompareResults(Of T).TestB
+  fullName: Zigurous.Debug.Compare<T>.Test
+  fullName.vb: Zigurous.Debug.Compare(Of T).Test
+  nameWithType: Compare<T>.Test
+  nameWithType.vb: Compare(Of T).Test
 - uid: Zigurous.Debug.FPSDisplay
   name: FPSDisplay
   href: api/Zigurous.Debug.FPSDisplay.html
   commentId: T:Zigurous.Debug.FPSDisplay
   fullName: Zigurous.Debug.FPSDisplay
   nameWithType: FPSDisplay
-- uid: Zigurous.Debug.FPSDisplay._nextUpdate
-  name: _nextUpdate
-  href: api/Zigurous.Debug.FPSDisplay.html#Zigurous_Debug_FPSDisplay__nextUpdate
-  commentId: F:Zigurous.Debug.FPSDisplay._nextUpdate
-  fullName: Zigurous.Debug.FPSDisplay._nextUpdate
-  nameWithType: FPSDisplay._nextUpdate
 - uid: Zigurous.Debug.FPSDisplay.decimals
   name: decimals
   href: api/Zigurous.Debug.FPSDisplay.html#Zigurous_Debug_FPSDisplay_decimals
@@ -221,12 +120,38 @@ references:
   commentId: F:Zigurous.Debug.FPSDisplay.displayText
   fullName: Zigurous.Debug.FPSDisplay.displayText
   nameWithType: FPSDisplay.displayText
+- uid: Zigurous.Debug.FPSDisplay.nextUpdate
+  name: nextUpdate
+  href: api/Zigurous.Debug.FPSDisplay.html#Zigurous_Debug_FPSDisplay_nextUpdate
+  commentId: P:Zigurous.Debug.FPSDisplay.nextUpdate
+  fullName: Zigurous.Debug.FPSDisplay.nextUpdate
+  nameWithType: FPSDisplay.nextUpdate
+- uid: Zigurous.Debug.FPSDisplay.nextUpdate*
+  name: nextUpdate
+  href: api/Zigurous.Debug.FPSDisplay.html#Zigurous_Debug_FPSDisplay_nextUpdate_
+  commentId: Overload:Zigurous.Debug.FPSDisplay.nextUpdate
+  isSpec: "True"
+  fullName: Zigurous.Debug.FPSDisplay.nextUpdate
+  nameWithType: FPSDisplay.nextUpdate
 - uid: Zigurous.Debug.FPSDisplay.refreshRate
   name: refreshRate
   href: api/Zigurous.Debug.FPSDisplay.html#Zigurous_Debug_FPSDisplay_refreshRate
   commentId: F:Zigurous.Debug.FPSDisplay.refreshRate
   fullName: Zigurous.Debug.FPSDisplay.refreshRate
   nameWithType: FPSDisplay.refreshRate
+- uid: Zigurous.Debug.FPSDisplay.SetDisplayFormat(System.Int32)
+  name: SetDisplayFormat(Int32)
+  href: api/Zigurous.Debug.FPSDisplay.html#Zigurous_Debug_FPSDisplay_SetDisplayFormat_System_Int32_
+  commentId: M:Zigurous.Debug.FPSDisplay.SetDisplayFormat(System.Int32)
+  fullName: Zigurous.Debug.FPSDisplay.SetDisplayFormat(System.Int32)
+  nameWithType: FPSDisplay.SetDisplayFormat(Int32)
+- uid: Zigurous.Debug.FPSDisplay.SetDisplayFormat*
+  name: SetDisplayFormat
+  href: api/Zigurous.Debug.FPSDisplay.html#Zigurous_Debug_FPSDisplay_SetDisplayFormat_
+  commentId: Overload:Zigurous.Debug.FPSDisplay.SetDisplayFormat
+  isSpec: "True"
+  fullName: Zigurous.Debug.FPSDisplay.SetDisplayFormat
+  nameWithType: FPSDisplay.SetDisplayFormat
 - uid: Zigurous.Debug.FPSDisplay.UpdateDisplay(System.Single)
   name: UpdateDisplay(Single)
   href: api/Zigurous.Debug.FPSDisplay.html#Zigurous_Debug_FPSDisplay_UpdateDisplay_System_Single_
@@ -246,6 +171,46 @@ references:
   commentId: T:Zigurous.Debug.Log
   fullName: Zigurous.Debug.Log
   nameWithType: Log
+- uid: Zigurous.Debug.Log.Assertion(System.Object)
+  name: Assertion(Object)
+  href: api/Zigurous.Debug.Log.html#Zigurous_Debug_Log_Assertion_System_Object_
+  commentId: M:Zigurous.Debug.Log.Assertion(System.Object)
+  fullName: Zigurous.Debug.Log.Assertion(System.Object)
+  nameWithType: Log.Assertion(Object)
+- uid: Zigurous.Debug.Log.Assertion(System.Object,System.String)
+  name: Assertion(Object, String)
+  href: api/Zigurous.Debug.Log.html#Zigurous_Debug_Log_Assertion_System_Object_System_String_
+  commentId: M:Zigurous.Debug.Log.Assertion(System.Object,System.String)
+  fullName: Zigurous.Debug.Log.Assertion(System.Object, System.String)
+  nameWithType: Log.Assertion(Object, String)
+- uid: Zigurous.Debug.Log.Assertion(System.Object,System.String,UnityEngine.Object)
+  name: Assertion(Object, String, UnityEngine.Object)
+  href: api/Zigurous.Debug.Log.html#Zigurous_Debug_Log_Assertion_System_Object_System_String_UnityEngine_Object_
+  commentId: M:Zigurous.Debug.Log.Assertion(System.Object,System.String,UnityEngine.Object)
+  fullName: Zigurous.Debug.Log.Assertion(System.Object, System.String, UnityEngine.Object)
+  nameWithType: Log.Assertion(Object, String, UnityEngine.Object)
+- uid: Zigurous.Debug.Log.Assertion(System.Object,UnityEngine.Object)
+  name: Assertion(Object, UnityEngine.Object)
+  href: api/Zigurous.Debug.Log.html#Zigurous_Debug_Log_Assertion_System_Object_UnityEngine_Object_
+  commentId: M:Zigurous.Debug.Log.Assertion(System.Object,UnityEngine.Object)
+  fullName: Zigurous.Debug.Log.Assertion(System.Object, UnityEngine.Object)
+  nameWithType: Log.Assertion(Object, UnityEngine.Object)
+- uid: Zigurous.Debug.Log.Assertion(System.Object[])
+  name: Assertion(Object[])
+  href: api/Zigurous.Debug.Log.html#Zigurous_Debug_Log_Assertion_System_Object___
+  commentId: M:Zigurous.Debug.Log.Assertion(System.Object[])
+  name.vb: Assertion(Object())
+  fullName: Zigurous.Debug.Log.Assertion(System.Object[])
+  fullName.vb: Zigurous.Debug.Log.Assertion(System.Object())
+  nameWithType: Log.Assertion(Object[])
+  nameWithType.vb: Log.Assertion(Object())
+- uid: Zigurous.Debug.Log.Assertion*
+  name: Assertion
+  href: api/Zigurous.Debug.Log.html#Zigurous_Debug_Log_Assertion_
+  commentId: Overload:Zigurous.Debug.Log.Assertion
+  isSpec: "True"
+  fullName: Zigurous.Debug.Log.Assertion
+  nameWithType: Log.Assertion
 - uid: Zigurous.Debug.Log.delimiter
   name: delimiter
   href: api/Zigurous.Debug.Log.html#Zigurous_Debug_Log_delimiter
@@ -258,6 +223,18 @@ references:
   commentId: M:Zigurous.Debug.Log.Error(System.Object)
   fullName: Zigurous.Debug.Log.Error(System.Object)
   nameWithType: Log.Error(Object)
+- uid: Zigurous.Debug.Log.Error(System.Object,System.String)
+  name: Error(Object, String)
+  href: api/Zigurous.Debug.Log.html#Zigurous_Debug_Log_Error_System_Object_System_String_
+  commentId: M:Zigurous.Debug.Log.Error(System.Object,System.String)
+  fullName: Zigurous.Debug.Log.Error(System.Object, System.String)
+  nameWithType: Log.Error(Object, String)
+- uid: Zigurous.Debug.Log.Error(System.Object,System.String,UnityEngine.Object)
+  name: Error(Object, String, UnityEngine.Object)
+  href: api/Zigurous.Debug.Log.html#Zigurous_Debug_Log_Error_System_Object_System_String_UnityEngine_Object_
+  commentId: M:Zigurous.Debug.Log.Error(System.Object,System.String,UnityEngine.Object)
+  fullName: Zigurous.Debug.Log.Error(System.Object, System.String, UnityEngine.Object)
+  nameWithType: Log.Error(Object, String, UnityEngine.Object)
 - uid: Zigurous.Debug.Log.Error(System.Object,UnityEngine.Object)
   name: Error(Object, UnityEngine.Object)
   href: api/Zigurous.Debug.Log.html#Zigurous_Debug_Log_Error_System_Object_UnityEngine_Object_
@@ -286,6 +263,18 @@ references:
   commentId: M:Zigurous.Debug.Log.Message(System.Object)
   fullName: Zigurous.Debug.Log.Message(System.Object)
   nameWithType: Log.Message(Object)
+- uid: Zigurous.Debug.Log.Message(System.Object,System.String)
+  name: Message(Object, String)
+  href: api/Zigurous.Debug.Log.html#Zigurous_Debug_Log_Message_System_Object_System_String_
+  commentId: M:Zigurous.Debug.Log.Message(System.Object,System.String)
+  fullName: Zigurous.Debug.Log.Message(System.Object, System.String)
+  nameWithType: Log.Message(Object, String)
+- uid: Zigurous.Debug.Log.Message(System.Object,System.String,UnityEngine.Object)
+  name: Message(Object, String, UnityEngine.Object)
+  href: api/Zigurous.Debug.Log.html#Zigurous_Debug_Log_Message_System_Object_System_String_UnityEngine_Object_
+  commentId: M:Zigurous.Debug.Log.Message(System.Object,System.String,UnityEngine.Object)
+  fullName: Zigurous.Debug.Log.Message(System.Object, System.String, UnityEngine.Object)
+  nameWithType: Log.Message(Object, String, UnityEngine.Object)
 - uid: Zigurous.Debug.Log.Message(System.Object,UnityEngine.Object)
   name: Message(Object, UnityEngine.Object)
   href: api/Zigurous.Debug.Log.html#Zigurous_Debug_Log_Message_System_Object_UnityEngine_Object_
@@ -326,6 +315,18 @@ references:
   commentId: M:Zigurous.Debug.Log.Warning(System.Object)
   fullName: Zigurous.Debug.Log.Warning(System.Object)
   nameWithType: Log.Warning(Object)
+- uid: Zigurous.Debug.Log.Warning(System.Object,System.String)
+  name: Warning(Object, String)
+  href: api/Zigurous.Debug.Log.html#Zigurous_Debug_Log_Warning_System_Object_System_String_
+  commentId: M:Zigurous.Debug.Log.Warning(System.Object,System.String)
+  fullName: Zigurous.Debug.Log.Warning(System.Object, System.String)
+  nameWithType: Log.Warning(Object, String)
+- uid: Zigurous.Debug.Log.Warning(System.Object,System.String,UnityEngine.Object)
+  name: Warning(Object, String, UnityEngine.Object)
+  href: api/Zigurous.Debug.Log.html#Zigurous_Debug_Log_Warning_System_Object_System_String_UnityEngine_Object_
+  commentId: M:Zigurous.Debug.Log.Warning(System.Object,System.String,UnityEngine.Object)
+  fullName: Zigurous.Debug.Log.Warning(System.Object, System.String, UnityEngine.Object)
+  nameWithType: Log.Warning(Object, String, UnityEngine.Object)
 - uid: Zigurous.Debug.Log.Warning(System.Object,UnityEngine.Object)
   name: Warning(Object, UnityEngine.Object)
   href: api/Zigurous.Debug.Log.html#Zigurous_Debug_Log_Warning_System_Object_UnityEngine_Object_

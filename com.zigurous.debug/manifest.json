@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "changelog/CHANGELOG.html",
-          "hash": "xLqzsyurhwFf7OB4SPHSJUCsZKs6RfT7uhuLwmvSGAY="
+          "hash": "+dNe4sb67AXbg2iHkwUaEVFFi5pIE0y+KG8TwfnvYRI="
         }
       },
       "is_incremental": false,
@@ -26,11 +26,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Debug.ComparePerformance.yml",
+      "source_relative_path": "api/Zigurous.Debug.Benchmark.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.Debug.ComparePerformance.html",
-          "hash": "a6LTRY7CwcTh16Btm1a2j44AoOb5bgM4vT34kCfoY+c="
+          "relative_path": "api/Zigurous.Debug.Benchmark.html",
+          "hash": "TO1Fs7b874SggD0gHDWfXcJSMwnFStfbSEB5jwaGJ7o="
         }
       },
       "is_incremental": false,
@@ -38,11 +38,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Debug.CompareResults-1.yml",
+      "source_relative_path": "api/Zigurous.Debug.Compare-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.Debug.CompareResults-1.html",
-          "hash": "q1X2BvlIVUISsYFY1tch6RRvFEUXm9zjWIONOkqjoZQ="
+          "relative_path": "api/Zigurous.Debug.Compare-1.html",
+          "hash": "uA7S0WVAFQhCkXwXIKimaKAqFJiku7FPETJ99MaTdis="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Debug.FPSDisplay.html",
-          "hash": "jEkVIy+Od/QuAT7sYuGh3x8zFQCg38FWIPHvVszo4uE="
+          "hash": "oXXAGUT0Gty5Gxpt1cvwnY/3He2Ir5XDQGBiT63OrtM="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Debug.Log.html",
-          "hash": "yhSirYlORFK3/lR45l2I6omQhJ3Ru44/V5mdovxIrsM="
+          "hash": "kZqwDSKhXSRQs0JQBDvTT22yaYzBEEb2NaZk0ZqHKgE="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Debug.html",
-          "hash": "AhHJterqxaGNEQ09Pi0vOzacmdb6J/kahyvMaX3++ZE="
+          "hash": "3+dyrHYDXIjAd8kH8kiHRJT3IdgKjdZ2hryAyvi4rww="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "m0+VT8TqZGP8ky70oATl9cajkBZ5wEd3TDiYJ+uIBKw="
+          "hash": "yAzZD90Y5g8Z2e2ATfd56IT9BbThZDOFQGRW0/FZHV4="
         }
       },
       "is_incremental": false,
@@ -167,11 +167,35 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/benchmarking.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/benchmarking.html",
+          "hash": "h9965E2HR9gTKyPn0DIc776hsYWUisRIf2qCkikafEc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/framerate.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/framerate.html",
+          "hash": "sbaOIwUVSo9KESs9dCSQNeqR+BXCrPgnpms+NyC+PfQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/index.md",
       "output": {
         ".html": {
           "relative_path": "manual/index.html",
-          "hash": "48j6qAcq34HQPaYMQi8Y5rqn/JGOkcWo4lJ1n63xyYM="
+          "hash": "tkLkd48+leu+HPqQYMZcw03QsQE4188UAbALpoY+lBQ="
         }
       },
       "is_incremental": false,
@@ -190,12 +214,36 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "manual/logging.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/logging.html",
+          "hash": "5vK546PTnDSWISxVeMZBTCBmNhDLfp149hf6gq08XyY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/shaders.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/shaders.html",
+          "hash": "cTTFwK6K9Xi7hr2v96o0StcA0tIdM8aZgozxMXKiV50="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "manual/toc.yml",
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "AUBmkjcV6Rgc5XQX3SpA8j/bnbBPgpTg+VqyBcLddP4="
+          "hash": "altuajCAs3BzfJaR4rwfOorBsqbreuMC2Bc40C8030c="
         }
       },
       "is_incremental": false,
@@ -228,7 +276,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 4,
+          "total_file_count": 8,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {

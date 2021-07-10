@@ -4,10 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class CompareResults&lt;T&gt;
+    <title>Class Compare&lt;T&gt;
    | Debug Tools </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class CompareResults&lt;T&gt;
+    <meta name="title" content="Class Compare&lt;T&gt;
    | Debug Tools ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -79,23 +79,23 @@
                 <li></li>
               </ul>
             </div>
-            <article class="content wrap" id="_content" data-uid="Zigurous.Debug.CompareResults`1">
+            <article class="content wrap" id="_content" data-uid="Zigurous.Debug.Compare`1">
   
-  <h1 id="Zigurous_Debug_CompareResults_1" data-uid="Zigurous.Debug.CompareResults`1" class="text-break">Class CompareResults&lt;T&gt;
+  <h1 id="Zigurous_Debug_Compare_1" data-uid="Zigurous.Debug.Compare`1" class="text-break">Class Compare&lt;T&gt;
   </h1>
-  <div class="markdown level0 summary"><p>Executes two functions a given amount of times and compares how many
-results are equal.</p>
+  <div class="markdown level0 summary"><p>Compares how many results are equal between two functions.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">CompareResults&lt;T&gt;</span></div>
+    <div class="level1"><span class="xref">Compare&lt;T&gt;</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Debug.html">Zigurous.Debug</a></h6>
-  <h5 id="Zigurous_Debug_CompareResults_1_syntax">Syntax</h5>
+  <h5 id="Zigurous_Debug_Compare_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class CompareResults&lt;T&gt; : MonoBehaviour where T : IEquatable&lt;T&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public static class Compare&lt;T&gt;
+    where T : IEquatable&lt;T&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -108,53 +108,21 @@ results are equal.</p>
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>The type of value to compare.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h3 id="fields">Fields
-  </h3>
-  <h4 id="Zigurous_Debug_CompareResults_1_execute" data-uid="Zigurous.Debug.CompareResults`1.execute">execute</h4>
-  <div class="markdown level1 summary"><p>Triggers the script to be executed again.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool execute</code></pre>
-  </div>
-  <h4 id="Zigurous_Debug_CompareResults_1_iterations" data-uid="Zigurous.Debug.CompareResults`1.iterations">iterations</h4>
-  <div class="markdown level1 summary"><p>The amount of times each function is executed.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int iterations</code></pre>
-  </div>
-  <h4 id="Zigurous_Debug_CompareResults_1_printIndividualResults" data-uid="Zigurous.Debug.CompareResults`1.printIndividualResults">printIndividualResults</h4>
-  <div class="markdown level1 summary"><p>Prints the result of each iteration of the functions.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool printIndividualResults</code></pre>
-  </div>
   <h3 id="methods">Methods
   </h3>
-  <a id="Zigurous_Debug_CompareResults_1_Iterate_" data-uid="Zigurous.Debug.CompareResults`1.Iterate*"></a>
-  <h4 id="Zigurous_Debug_CompareResults_1_Iterate" data-uid="Zigurous.Debug.CompareResults`1.Iterate">Iterate()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Zigurous_Debug_Compare_1_Test_" data-uid="Zigurous.Debug.Compare`1.Test*"></a>
+  <h4 id="Zigurous_Debug_Compare_1_Test_System_Func__0__System_Func__0__System_Int32_System_Boolean_System_Boolean_" data-uid="Zigurous.Debug.Compare`1.Test(System.Func{`0},System.Func{`0},System.Int32,System.Boolean,System.Boolean)">Test(Func&lt;T&gt;, Func&lt;T&gt;, Int32, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Tests the equality of the results of <code data-dev-comment-type="paramref" class="paramref">foo</code> and <code data-dev-comment-type="paramref" class="paramref">bar</code> with a given amount of <code data-dev-comment-type="paramref" class="paramref">iterations</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Iterate()</code></pre>
-  </div>
-  <a id="Zigurous_Debug_CompareResults_1_Iterate_" data-uid="Zigurous.Debug.CompareResults`1.Iterate*"></a>
-  <h4 id="Zigurous_Debug_CompareResults_1_Iterate_System_Int32_" data-uid="Zigurous.Debug.CompareResults`1.Iterate(System.Int32)">Iterate(Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Iterate(int iterations)</code></pre>
+    <pre><code class="lang-csharp hljs">public static float Test(Func&lt;T&gt; foo, Func&lt;T&gt; bar, int iterations, bool log = true, bool logIndividual = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -167,55 +135,37 @@ results are equal.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">iterations</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_Debug_CompareResults_1_Iterate_" data-uid="Zigurous.Debug.CompareResults`1.Iterate*"></a>
-  <h4 id="Zigurous_Debug_CompareResults_1_Iterate_System_Int32_System_Func__0__System_Func__0__" data-uid="Zigurous.Debug.CompareResults`1.Iterate(System.Int32,System.Func{`0},System.Func{`0})">Iterate(Int32, Func&lt;T&gt;, Func&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Iterate(int iterations, Func&lt;T&gt; a, Func&lt;T&gt; b)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">iterations</span></td>
-        <td></td>
+        <td><span class="xref">System.Func</span>&lt;T&gt;</td>
+        <td><span class="parametername">foo</span></td>
+        <td><p>The first function to execute.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Func</span>&lt;T&gt;</td>
-        <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><span class="parametername">bar</span></td>
+        <td><p>The second function to execute.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;T&gt;</td>
-        <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iterations</span></td>
+        <td><p>The amount of times each function is executed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">log</span></td>
+        <td><p>Logs the final comparison result.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">logIndividual</span></td>
+        <td><p>Logs the result of each iteration of the functions.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_Debug_CompareResults_1_TestA_" data-uid="Zigurous.Debug.CompareResults`1.TestA*"></a>
-  <h4 id="Zigurous_Debug_CompareResults_1_TestA" data-uid="Zigurous.Debug.CompareResults`1.TestA">TestA()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected abstract T TestA()</code></pre>
-  </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -226,31 +176,9 @@ results are equal.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_Debug_CompareResults_1_TestB_" data-uid="Zigurous.Debug.CompareResults`1.TestB*"></a>
-  <h4 id="Zigurous_Debug_CompareResults_1_TestB" data-uid="Zigurous.Debug.CompareResults`1.TestB">TestB()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected abstract T TestB()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td></td>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>The percentage of equal results.</p>
+</td>
       </tr>
     </tbody>
   </table>

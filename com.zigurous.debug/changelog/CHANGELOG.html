@@ -83,15 +83,34 @@
 <p>All notable changes to this project will be documented in this file.</p>
 <p>The format is based on <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>,
 and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semantic Versioning</a>.</p>
-<h2 id="110---20210628">[1.1.0] - 2021/06/28</h2>
+<h2 id="120---20210710">[1.2.0] - 2021/07/10</h2>
+<h3 id="added">Added</h3>
+<ul>
+<li>Static class <code>Benchmark</code> to replace <code>ComparePerformance</code></li>
+<li>Static class <code>Compare&lt;T&gt;</code> to replace <code>CompareResults&lt;T&gt;</code></li>
+<li>Overloads for logging messages with custom prefixes</li>
+<li>New <code>Log.Assertion</code> methods</li>
+</ul>
+<h3 id="removed">Removed</h3>
+<ul>
+<li>MonoBehaviour <code>ComparePerformance</code></li>
+<li>MonoBehaviour <code>CompareResults&lt;T&gt;</code></li>
+</ul>
 <h3 id="changed">Changed</h3>
+<ul>
+<li>Package description</li>
+<li>Documentation comments</li>
+<li>[FPSDisplay]: The <code>SetDisplayFormat</code> method can now be overriden</li>
+</ul>
+<h2 id="110---20210628">[1.1.0] - 2021/06/28</h2>
+<h3 id="changed-1">Changed</h3>
 <ul>
 <li>Improved FPS display formatting</li>
 <li>Namespace changed from DebugTools to Debug</li>
 <li>[AddComponentMenu] added to FPSDisplay</li>
 </ul>
 <h2 id="104---20210413">[1.0.4] - 2021/04/13</h2>
-<h3 id="changed-1">Changed</h3>
+<h3 id="changed-2">Changed</h3>
 <ul>
 <li>Package description</li>
 </ul>
@@ -100,22 +119,22 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <li>Moved non-compiled assets outside of the Runtime directory</li>
 </ul>
 <h2 id="103---20210326">[1.0.3] - 2021/03/26</h2>
-<h3 id="changed-2">Changed</h3>
+<h3 id="changed-3">Changed</h3>
 <ul>
 <li>Renamed &quot;Debug&quot; class to &quot;Log&quot; to prevent naming conflict with Unity</li>
 </ul>
 <h2 id="102---20210321">[1.0.2] - 2021/03/21</h2>
-<h3 id="changed-3">Changed</h3>
-<ul>
-<li>Updated package metadata</li>
-</ul>
-<h2 id="101---20210307">[1.0.1] - 2021/03/07</h2>
 <h3 id="changed-4">Changed</h3>
 <ul>
 <li>Updated package metadata</li>
 </ul>
+<h2 id="101---20210307">[1.0.1] - 2021/03/07</h2>
+<h3 id="changed-5">Changed</h3>
+<ul>
+<li>Updated package metadata</li>
+</ul>
 <h2 id="100---20210227">[1.0.0] - 2021/02/27</h2>
-<h3 id="added">Added</h3>
+<h3 id="added-1">Added</h3>
 <ul>
 <li>Enhanced console logging</li>
 <li>Performance and equality testing</li>
