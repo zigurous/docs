@@ -80,7 +80,6 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.Animation.Vector2AnimationCurve">
-  
   <h1 id="Zigurous_Animation_Vector2AnimationCurve" data-uid="Zigurous.Animation.Vector2AnimationCurve" class="text-break">Class Vector2AnimationCurve
   </h1>
   <div class="markdown level0 summary"><p>Stores a collection of keyframes that can be evaluated over time as a
@@ -97,7 +96,6 @@ Vector2.</p>
     <div><a class="xref" href="Zigurous.Animation.IAnimationCurve-1.html">IAnimationCurve</a>&lt;<span class="xref">Vector2</span>&gt;</div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Animation.html">Zigurous.Animation</a></h6>
-  <h5 id="Zigurous_Animation_Vector2AnimationCurve_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
 public sealed class Vector2AnimationCurve : IAnimationCurve&lt;Vector2&gt;</code></pre>
@@ -108,7 +106,6 @@ public sealed class Vector2AnimationCurve : IAnimationCurve&lt;Vector2&gt;</code
   <div class="markdown level1 summary"><p>The collection of keyframes for the x-axis of a Vector2.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public AnimationCurve x</code></pre>
   </div>
@@ -116,7 +113,6 @@ public sealed class Vector2AnimationCurve : IAnimationCurve&lt;Vector2&gt;</code
   <div class="markdown level1 summary"><p>The collection of keyframes for the y-axis of a Vector2.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public AnimationCurve y</code></pre>
   </div>
@@ -124,31 +120,26 @@ public sealed class Vector2AnimationCurve : IAnimationCurve&lt;Vector2&gt;</code
   </h3>
   <a id="Zigurous_Animation_Vector2AnimationCurve_AddKey_" data-uid="Zigurous.Animation.Vector2AnimationCurve.AddKey*"></a>
   <h4 id="Zigurous_Animation_Vector2AnimationCurve_AddKey_System_Single_Vector2_" data-uid="Zigurous.Animation.Vector2AnimationCurve.AddKey(System.Single,Vector2)">AddKey(Single, Vector2)</h4>
-  <div class="markdown level1 summary"><p>Add a new key to the curve.</p>
+  <div class="markdown level1 summary"><p>Adds a new key to the curve.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void AddKey(float time, Vector2 value)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">time</span></td>
         <td><p>The time at which to add the key (horizontal axis in the curve graph).</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Vector2</span></td>
         <td><span class="parametername">value</span></td>
         <td><p>The value for the key (vertical axis in the curve graph).</p>
 </td>
@@ -160,33 +151,28 @@ public sealed class Vector2AnimationCurve : IAnimationCurve&lt;Vector2&gt;</code
   <div class="markdown level1 summary"><p>Evaluate the curve at <code data-dev-comment-type="paramref" class="paramref">time</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Vector2 Evaluate(float time)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">time</span></td>
         <td><p>The time within the curve you want to evaluate (the horizontal axis in the curve graph).</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -203,22 +189,18 @@ public sealed class Vector2AnimationCurve : IAnimationCurve&lt;Vector2&gt;</code
   <div class="markdown level1 summary"><p>Removes a key.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void RemoveKey(int index)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
         <td><p>The index of the key to remove.</p>
 </td>

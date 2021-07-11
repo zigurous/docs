@@ -80,7 +80,6 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.Animation.Blink">
-  
   <h1 id="Zigurous_Animation_Blink" data-uid="Zigurous.Animation.Blink" class="text-break">Class Blink
   </h1>
   <div class="markdown level0 summary"><p>Switches a material on and off on an object at a variable rate.</p>
@@ -92,7 +91,6 @@
     <div class="level1"><span class="xref">Blink</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Animation.html">Zigurous.Animation</a></h6>
-  <h5 id="Zigurous_Animation_Blink_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public sealed class Blink : MonoBehaviour</code></pre>
   </div>
@@ -102,7 +100,6 @@
   <div class="markdown level1 summary"><p>The random chance that the object will blink.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float blinkChance</code></pre>
   </div>
@@ -111,7 +108,6 @@
 time.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public TimingRange blinkCooldown</code></pre>
   </div>
@@ -119,7 +115,6 @@ time.</p>
   <div class="markdown level1 summary"><p>The amount of seconds the material stays blinking.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public TimingRange blinkDuration</code></pre>
   </div>
@@ -127,7 +122,6 @@ time.</p>
   <div class="markdown level1 summary"><p>The material applied to the object when blinking.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Material blinkingMaterial</code></pre>
   </div>
@@ -135,7 +129,6 @@ time.</p>
   <div class="markdown level1 summary"><p>The material applied to the object when not blinking.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Material notBlinkingMaterial</code></pre>
   </div>
@@ -144,7 +137,6 @@ time.</p>
 the blinking object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Renderer[] sharedRenderers</code></pre>
   </div>
@@ -153,7 +145,6 @@ the blinking object.</p>
 optimize the code performance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float updateInterval</code></pre>
   </div>
@@ -164,7 +155,6 @@ optimize the code performance.</p>
   <div class="markdown level1 summary"><p>Whether the object is currently blinking.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool blinking { get; }</code></pre>
   </div>
@@ -173,7 +163,6 @@ optimize the code performance.</p>
   <div class="markdown level1 summary"><p>Whether the blinking is currently on cooldown.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool cooldown { get; }</code></pre>
   </div>
@@ -182,7 +171,6 @@ optimize the code performance.</p>
   <div class="markdown level1 summary"><p>The time the next update will be performed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float nextUpdateTime { get; }</code></pre>
   </div>
@@ -191,7 +179,6 @@ optimize the code performance.</p>
   <div class="markdown level1 summary"><p>A reference to the main blinking object's renderer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Renderer renderer { get; }</code></pre>
   </div>
@@ -202,7 +189,6 @@ optimize the code performance.</p>
   <div class="markdown level1 summary"><p>Blinks the material for one cycle.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void BlinkOnce()</code></pre>
   </div>

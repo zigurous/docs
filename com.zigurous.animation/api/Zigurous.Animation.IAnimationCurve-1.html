@@ -80,22 +80,19 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.Animation.IAnimationCurve`1">
-  
   <h1 id="Zigurous_Animation_IAnimationCurve_1" data-uid="Zigurous.Animation.IAnimationCurve`1" class="text-break">Interface IAnimationCurve&lt;T&gt;
   </h1>
   <div class="markdown level0 summary"><p>A type that can be represented with animation curves.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Animation.html">Zigurous.Animation</a></h6>
-  <h5 id="Zigurous_Animation_IAnimationCurve_1_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public interface IAnimationCurve&lt;T&gt;</code></pre>
   </div>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -111,31 +108,26 @@
   </h3>
   <a id="Zigurous_Animation_IAnimationCurve_1_AddKey_" data-uid="Zigurous.Animation.IAnimationCurve`1.AddKey*"></a>
   <h4 id="Zigurous_Animation_IAnimationCurve_1_AddKey_System_Single__0_" data-uid="Zigurous.Animation.IAnimationCurve`1.AddKey(System.Single,`0)">AddKey(Single, T)</h4>
-  <div class="markdown level1 summary"><p>Add a new key to the curve.</p>
+  <div class="markdown level1 summary"><p>Adds a new key to the curve.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">void AddKey(float time, T value)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">time</span></td>
         <td><p>The time at which to add the key (horizontal axis in the curve graph).</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">value</span></td>
         <td><p>The value for the key (vertical axis in the curve graph).</p>
 </td>
@@ -147,33 +139,28 @@
   <div class="markdown level1 summary"><p>Evaluate the curve at <code data-dev-comment-type="paramref" class="paramref">time</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">T Evaluate(float time)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">time</span></td>
         <td><p>The time within the curve you want to evaluate (the horizontal axis in the curve graph).</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -190,22 +177,18 @@
   <div class="markdown level1 summary"><p>Removes a key.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">void RemoveKey(int index)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
         <td><p>The index of the key to remove.</p>
 </td>

@@ -80,15 +80,12 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.Animation.Timing01">
-  
   <h1 id="Zigurous_Animation_Timing01" data-uid="Zigurous.Animation.Timing01" class="text-break">Struct Timing01
   </h1>
-  <div class="markdown level0 summary"><p>Represents the start and end time of an animation normalized between 0
-and 1.</p>
+  <div class="markdown level0 summary"><p>The start and end time of an animation normalized between 0 and 1.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Animation.html">Zigurous.Animation</a></h6>
-  <h5 id="Zigurous_Animation_Timing01_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
 public struct Timing01</code></pre>
@@ -100,28 +97,23 @@ public struct Timing01</code></pre>
   <div class="markdown level1 summary"><p>Creates a new timing with the specified values.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Timing01(float start, float end)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">start</span></td>
         <td><p>The start time of the animation, between 0 and 1.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">end</span></td>
         <td><p>The end time of the animation, between 0 and 1.</p>
 </td>
@@ -135,7 +127,6 @@ public struct Timing01</code></pre>
   <div class="markdown level1 summary"><p>The end time of the animation, between 0 and 1.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float end { get; set; }</code></pre>
   </div>
@@ -144,7 +135,6 @@ public struct Timing01</code></pre>
   <div class="markdown level1 summary"><p>The start time of the animation, between 0 and 1.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float start { get; set; }</code></pre>
   </div>
@@ -152,66 +142,61 @@ public struct Timing01</code></pre>
   </h3>
   <a id="Zigurous_Animation_Timing01_Includes_" data-uid="Zigurous.Animation.Timing01.Includes*"></a>
   <h4 id="Zigurous_Animation_Timing01_Includes_System_Single_" data-uid="Zigurous.Animation.Timing01.Includes(System.Single)">Includes(Single)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if <code data-dev-comment-type="paramref" class="paramref">time</code> is within the start and end time.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool Includes(float time)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">time</span></td>
         <td><p>The time to check.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>Whether the <code data-dev-comment-type="paramref" class="paramref">time</code> is within the start and end time.</p>
+        <td><p>True if <code data-dev-comment-type="paramref" class="paramref">time</code> is within the start and end time.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Animation_Timing01_Random_" data-uid="Zigurous.Animation.Timing01.Random*"></a>
   <h4 id="Zigurous_Animation_Timing01_Random" data-uid="Zigurous.Animation.Timing01.Random">Random()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Picks a random time within the start and end time.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float Random()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.Single</span></td>
-        <td><p>A random time within the start and end time.</p>
+        <td><p>The random time.</p>
 </td>
       </tr>
     </tbody>

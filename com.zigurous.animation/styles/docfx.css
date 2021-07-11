@@ -266,7 +266,7 @@ header .navbar {
 
 .inheritance h5,
 .inheritedMembers h5 {
-  padding-bottom: 5px;
+  padding-bottom: 4px;
   border-bottom: 1px solid #ccc;
 }
 
@@ -278,6 +278,7 @@ article h4 {
 }
 
 article h4 {
+  padding-bottom: 4px;
   border-bottom: 1px solid #ccc;
 }
 
