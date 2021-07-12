@@ -80,23 +80,20 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.DataStructures.IModular`1">
-  
   <h1 id="Zigurous_DataStructures_IModular_1" data-uid="Zigurous.DataStructures.IModular`1" class="text-break">Interface IModular&lt;T&gt;
   </h1>
   <div class="markdown level0 summary"><p>A type that can register and unregister modules.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.DataStructures.html">Zigurous.DataStructures</a></h6>
-  <h5 id="Zigurous_DataStructures_IModular_1_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public interface IModular&lt;T&gt;
     where T : class</code></pre>
   </div>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -112,78 +109,54 @@
   </h3>
   <a id="Zigurous_DataStructures_IModular_1_IsRegistered_" data-uid="Zigurous.DataStructures.IModular`1.IsRegistered*"></a>
   <h4 id="Zigurous_DataStructures_IModular_1_IsRegistered__0_" data-uid="Zigurous.DataStructures.IModular`1.IsRegistered(`0)">IsRegistered(T)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the <code data-dev-comment-type="paramref" class="paramref">module</code> is registered.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">bool IsRegistered(T module)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">module</span></td>
         <td><p>The module to check for registration.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the module is registered, false if the module is not registered.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <a id="Zigurous_DataStructures_IModular_1_Register_" data-uid="Zigurous.DataStructures.IModular`1.Register*"></a>
   <h4 id="Zigurous_DataStructures_IModular_1_Register__0_" data-uid="Zigurous.DataStructures.IModular`1.Register(`0)">Register(T)</h4>
-  <div class="markdown level1 summary"><p>Registers a module to the entity.</p>
+  <div class="markdown level1 summary"><p>Registers a <code data-dev-comment-type="paramref" class="paramref">module</code> to the entity.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">bool Register(T module)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">module</span></td>
         <td><p>The module to register.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -197,36 +170,31 @@
   </table>
   <a id="Zigurous_DataStructures_IModular_1_Unregister_" data-uid="Zigurous.DataStructures.IModular`1.Unregister*"></a>
   <h4 id="Zigurous_DataStructures_IModular_1_Unregister__0_" data-uid="Zigurous.DataStructures.IModular`1.Unregister(`0)">Unregister(T)</h4>
-  <div class="markdown level1 summary"><p>Unregisters a module from the entity.</p>
+  <div class="markdown level1 summary"><p>Unregisters a <code data-dev-comment-type="paramref" class="paramref">module</code> from the entity.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">bool Unregister(T module)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">module</span></td>
         <td><p>The module to unregister.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>

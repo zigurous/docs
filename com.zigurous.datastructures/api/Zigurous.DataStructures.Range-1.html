@@ -80,7 +80,6 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.DataStructures.Range`1">
-  
   <h1 id="Zigurous_DataStructures_Range_1" data-uid="Zigurous.DataStructures.Range`1" class="text-break">Struct Range&lt;T&gt;
   </h1>
   <div class="markdown level0 summary"><p>A range of values.</p>
@@ -91,15 +90,13 @@
     <div><a class="xref" href="Zigurous.DataStructures.IRange-1.html">IRange</a>&lt;T&gt;</div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.DataStructures.html">Zigurous.DataStructures</a></h6>
-  <h5 id="Zigurous_DataStructures_Range_1_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public struct Range&lt;T&gt; : IRange&lt;T&gt; where T : IComparable&lt;T&gt;</code></pre>
   </div>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -115,31 +112,26 @@
   </h3>
   <a id="Zigurous_DataStructures_Range_1__ctor_" data-uid="Zigurous.DataStructures.Range`1.#ctor*"></a>
   <h4 id="Zigurous_DataStructures_Range_1__ctor__0__0_" data-uid="Zigurous.DataStructures.Range`1.#ctor(`0,`0)">Range(T, T)</h4>
-  <div class="markdown level1 summary"><p>Creates a new range with the given <code data-dev-comment-type="paramref" class="paramref">min</code> and <code data-dev-comment-type="paramref" class="paramref">max</code> values.</p>
+  <div class="markdown level1 summary"><p>Creates a new range with the specified values.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Range(T min = null, T max = null)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">min</span></td>
         <td><p>The lower bound of the range.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">max</span></td>
         <td><p>The upper bound of the range.</p>
 </td>
@@ -153,7 +145,6 @@
   <div class="markdown level1 summary"><p>The upper bound of the range.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public T max { get; set; }</code></pre>
   </div>
@@ -162,7 +153,6 @@
   <div class="markdown level1 summary"><p>The lower bound of the range.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public T min { get; set; }</code></pre>
   </div>
@@ -170,96 +160,56 @@
   </h3>
   <a id="Zigurous_DataStructures_Range_1_Includes_" data-uid="Zigurous.DataStructures.Range`1.Includes*"></a>
   <h4 id="Zigurous_DataStructures_Range_1_Includes__0_" data-uid="Zigurous.DataStructures.Range`1.Includes(`0)">Includes(T)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the <code data-dev-comment-type="paramref" class="paramref">value</code> is in the range.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool Includes(T value)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">value</span></td>
         <td><p>The value to check.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the <code data-dev-comment-type="paramref" class="paramref">value</code> is in the range.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_Range_1_Includes_" data-uid="Zigurous.DataStructures.Range`1.Includes*"></a>
   <h4 id="Zigurous_DataStructures_Range_1_Includes__0_System_Boolean_System_Boolean_" data-uid="Zigurous.DataStructures.Range`1.Includes(`0,System.Boolean,System.Boolean)">Includes(T, Boolean, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the <code data-dev-comment-type="paramref" class="paramref">value</code> is in the range.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool Includes(T value, bool includeMin, bool includeMax)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">value</span></td>
         <td><p>The value to check.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">includeMin</span></td>
         <td><p>Whether to include the minimum value.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">includeMax</span></td>
         <td><p>Whether to include the maximum value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the <code data-dev-comment-type="paramref" class="paramref">value</code> is in the range.</p>
 </td>
       </tr>
     </tbody>

@@ -80,10 +80,9 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.DataStructures.ListExtensions">
-  
   <h1 id="Zigurous_DataStructures_ListExtensions" data-uid="Zigurous.DataStructures.ListExtensions" class="text-break">Class ListExtensions
   </h1>
-  <div class="markdown level0 summary"><p>Exposes extension methods for lists.</p>
+  <div class="markdown level0 summary"><p>Extension methods for lists.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -92,7 +91,6 @@
     <div class="level1"><span class="xref">ListExtensions</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.DataStructures.html">Zigurous.DataStructures</a></h6>
-  <h5 id="Zigurous_DataStructures_ListExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class ListExtensions</code></pre>
   </div>
@@ -100,48 +98,42 @@
   </h3>
   <a id="Zigurous_DataStructures_ListExtensions_Add_" data-uid="Zigurous.DataStructures.ListExtensions.Add*"></a>
   <h4 id="Zigurous_DataStructures_ListExtensions_Add__1_List___0____0_System_Int32_" data-uid="Zigurous.DataStructures.ListExtensions.Add``1(List{``0},``0,System.Int32)">Add&lt;T&gt;(List&lt;T&gt;, T, Int32)</h4>
-  <div class="markdown level1 summary"><p>Adds a value to the end of a list n number of times specified by <code data-dev-comment-type="paramref" class="paramref">count</code>.</p>
+  <div class="markdown level1 summary"><p>Adds a specified <code data-dev-comment-type="paramref" class="paramref">amount</code> of
+<code data-dev-comment-type="paramref" class="paramref">value</code> to the list.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Add&lt;T&gt;(this List&lt;T&gt; list, T value, int count)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Add&lt;T&gt;(this List&lt;T&gt; list, T value, int amount)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>The list to add to.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">value</span></td>
         <td><p>The value to add.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">count</span></td>
+        <td><span class="parametername">amount</span></td>
         <td><p>The number of times to add the value.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -158,39 +150,33 @@
   <div class="markdown level1 summary"><p>Combines the list with another.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static List&lt;T&gt; CombinedWith&lt;T&gt;(this List&lt;T&gt; list, List&lt;T&gt; other)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>The first list.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
         <td><span class="parametername">other</span></td>
         <td><p>The second list.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -202,11 +188,10 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -220,42 +205,37 @@
   </table>
   <a id="Zigurous_DataStructures_ListExtensions_Filter_" data-uid="Zigurous.DataStructures.ListExtensions.Filter*"></a>
   <h4 id="Zigurous_DataStructures_ListExtensions_Filter__1_List___0__System_Predicate___0__" data-uid="Zigurous.DataStructures.ListExtensions.Filter``1(List{``0},System.Predicate{``0})">Filter&lt;T&gt;(List&lt;T&gt;, Predicate&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Filters the list to only contain items that satisfy the <code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
+  <div class="markdown level1 summary"><p>Filters the list to only contain items that satisfy the
+<code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static List&lt;T&gt; Filter&lt;T&gt;(this List&lt;T&gt; list, Predicate&lt;T&gt; predicate)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>The list to filter.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Predicate</span>&lt;T&gt;</td>
         <td><span class="parametername">predicate</span></td>
         <td><p>The predicate to use.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -267,11 +247,10 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -285,51 +264,32 @@
   </table>
   <a id="Zigurous_DataStructures_ListExtensions_First_" data-uid="Zigurous.DataStructures.ListExtensions.First*"></a>
   <h4 id="Zigurous_DataStructures_ListExtensions_First__1_List___0__" data-uid="Zigurous.DataStructures.ListExtensions.First``1(List{``0})">First&lt;T&gt;(List&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the first item in the list, or the default value of
+<code data-dev-comment-type="typeparamref" class="typeparamref">T</code> if the list is empty.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T First&lt;T&gt;(this List&lt;T&gt; list)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>The list to get the item from.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>The first item in the list.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -343,57 +303,39 @@
   </table>
   <a id="Zigurous_DataStructures_ListExtensions_First_" data-uid="Zigurous.DataStructures.ListExtensions.First*"></a>
   <h4 id="Zigurous_DataStructures_ListExtensions_First__1_List___0__System_Predicate___0__" data-uid="Zigurous.DataStructures.ListExtensions.First``1(List{``0},System.Predicate{``0})">First&lt;T&gt;(List&lt;T&gt;, Predicate&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the first item in the list that satisfies the
+<code data-dev-comment-type="paramref" class="paramref">predicate</code>, or the default value of
+<code data-dev-comment-type="typeparamref" class="typeparamref">T</code> if no item satisfies the
+<code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T First&lt;T&gt;(this List&lt;T&gt; list, Predicate&lt;T&gt; predicate)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>The list to get the item from.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Predicate</span>&lt;T&gt;</td>
         <td><span class="parametername">predicate</span></td>
         <td><p>The predicate to use.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>The first item in the list that satisfies the <code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -407,52 +349,33 @@
   </table>
   <a id="Zigurous_DataStructures_ListExtensions_FirstNonNull_" data-uid="Zigurous.DataStructures.ListExtensions.FirstNonNull*"></a>
   <h4 id="Zigurous_DataStructures_ListExtensions_FirstNonNull__1_List___0__" data-uid="Zigurous.DataStructures.ListExtensions.FirstNonNull``1(List{``0})">FirstNonNull&lt;T&gt;(List&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the first non-null item in the list, or the default value of
+<code data-dev-comment-type="typeparamref" class="typeparamref">T</code> if all items are null.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T FirstNonNull&lt;T&gt;(this List&lt;T&gt; list)
     where T : class</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>The list to get the item from.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>The first non-null item in the list.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -469,39 +392,33 @@
   <div class="markdown level1 summary"><p>Invokes an <span class="xref">System.Action&lt;T&gt;</span> for each item in the list.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void For&lt;T&gt;(this List&lt;T&gt; list, Action&lt;(T item, int index)&gt; action)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>The list to iterate over.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.ValueTuple</span>&lt;T, <span class="xref">System.Int32</span>&gt;&gt;</td>
         <td><span class="parametername">action</span></td>
         <td><p>The action to invoke.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -515,57 +432,37 @@
   </table>
   <a id="Zigurous_DataStructures_ListExtensions_IsAny_" data-uid="Zigurous.DataStructures.ListExtensions.IsAny*"></a>
   <h4 id="Zigurous_DataStructures_ListExtensions_IsAny__1_List___0__System_Predicate___0__" data-uid="Zigurous.DataStructures.ListExtensions.IsAny``1(List{``0},System.Predicate{``0})">IsAny&lt;T&gt;(List&lt;T&gt;, Predicate&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if any item in the list satisfies the
+<code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsAny&lt;T&gt;(this List&lt;T&gt; list, Predicate&lt;T&gt; predicate)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>The list to search in.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Predicate</span>&lt;T&gt;</td>
         <td><span class="parametername">predicate</span></td>
         <td><p>The predicate to use.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if any item in the list satisfies the <code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -579,57 +476,37 @@
   </table>
   <a id="Zigurous_DataStructures_ListExtensions_IsEach_" data-uid="Zigurous.DataStructures.ListExtensions.IsEach*"></a>
   <h4 id="Zigurous_DataStructures_ListExtensions_IsEach__1_List___0__System_Predicate___0__" data-uid="Zigurous.DataStructures.ListExtensions.IsEach``1(List{``0},System.Predicate{``0})">IsEach&lt;T&gt;(List&lt;T&gt;, Predicate&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if each item in the list satisfies the
+<code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsEach&lt;T&gt;(this List&lt;T&gt; list, Predicate&lt;T&gt; predicate)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>The list to search in.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Predicate</span>&lt;T&gt;</td>
         <td><span class="parametername">predicate</span></td>
         <td><p>The predicate to use.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if each item in the list satisfies the <code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -643,51 +520,31 @@
   </table>
   <a id="Zigurous_DataStructures_ListExtensions_IsEmpty_" data-uid="Zigurous.DataStructures.ListExtensions.IsEmpty*"></a>
   <h4 id="Zigurous_DataStructures_ListExtensions_IsEmpty__1_List___0__" data-uid="Zigurous.DataStructures.ListExtensions.IsEmpty``1(List{``0})">IsEmpty&lt;T&gt;(List&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the list is empty.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsEmpty&lt;T&gt;(this List&lt;T&gt; list)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>The list to check.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the list is empty.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -701,57 +558,36 @@
   </table>
   <a id="Zigurous_DataStructures_ListExtensions_IsInBounds_" data-uid="Zigurous.DataStructures.ListExtensions.IsInBounds*"></a>
   <h4 id="Zigurous_DataStructures_ListExtensions_IsInBounds__1_List___0__System_Int32_" data-uid="Zigurous.DataStructures.ListExtensions.IsInBounds``1(List{``0},System.Int32)">IsInBounds&lt;T&gt;(List&lt;T&gt;, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if <code data-dev-comment-type="paramref" class="paramref">index</code> is within the bounds of the list.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsInBounds&lt;T&gt;(this List&lt;T&gt; list, int index)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>The list to check.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
         <td><p>The index to check.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the <code data-dev-comment-type="paramref" class="paramref">index</code> is within the bounds of the list.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -765,51 +601,31 @@
   </table>
   <a id="Zigurous_DataStructures_ListExtensions_IsNotEmpty_" data-uid="Zigurous.DataStructures.ListExtensions.IsNotEmpty*"></a>
   <h4 id="Zigurous_DataStructures_ListExtensions_IsNotEmpty__1_List___0__" data-uid="Zigurous.DataStructures.ListExtensions.IsNotEmpty``1(List{``0})">IsNotEmpty&lt;T&gt;(List&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the list is not empty.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsNotEmpty&lt;T&gt;(this List&lt;T&gt; list)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>The list to check.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the list is not empty.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -823,57 +639,36 @@
   </table>
   <a id="Zigurous_DataStructures_ListExtensions_IsNotInBounds_" data-uid="Zigurous.DataStructures.ListExtensions.IsNotInBounds*"></a>
   <h4 id="Zigurous_DataStructures_ListExtensions_IsNotInBounds__1_List___0__System_Int32_" data-uid="Zigurous.DataStructures.ListExtensions.IsNotInBounds``1(List{``0},System.Int32)">IsNotInBounds&lt;T&gt;(List&lt;T&gt;, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if <code data-dev-comment-type="paramref" class="paramref">index</code> is out of bounds of the list.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsNotInBounds&lt;T&gt;(this List&lt;T&gt; list, int index)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>The list to check.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
         <td><p>The index to check.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the <code data-dev-comment-type="paramref" class="paramref">index</code> is out of bounds of the list.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -887,57 +682,37 @@
   </table>
   <a id="Zigurous_DataStructures_ListExtensions_ItemAt_" data-uid="Zigurous.DataStructures.ListExtensions.ItemAt*"></a>
   <h4 id="Zigurous_DataStructures_ListExtensions_ItemAt__1_List___0__System_Int32_" data-uid="Zigurous.DataStructures.ListExtensions.ItemAt``1(List{``0},System.Int32)">ItemAt&lt;T&gt;(List&lt;T&gt;, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the item at <code data-dev-comment-type="paramref" class="paramref">index</code>, or the default value
+of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> if the list is empty.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T ItemAt&lt;T&gt;(this List&lt;T&gt; list, int index)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>The list to get the item from.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
         <td><p>The index of the item to get.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>The item at the specified <code data-dev-comment-type="paramref" class="paramref">index</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -951,128 +726,85 @@
   </table>
   <a id="Zigurous_DataStructures_ListExtensions_Join_" data-uid="Zigurous.DataStructures.ListExtensions.Join*"></a>
   <h4 id="Zigurous_DataStructures_ListExtensions_Join__1_List___0__System_String_System_Int32_System_Int32_" data-uid="Zigurous.DataStructures.ListExtensions.Join``1(List{``0},System.String,System.Int32,System.Int32)">Join&lt;T&gt;(List&lt;T&gt;, String, Int32, Int32)</h4>
-  <div class="markdown level1 summary"><p>Joins the items of the list into a string.</p>
+  <div class="markdown level1 summary"><p>Joins the items of the list into a string separated by the
+<code data-dev-comment-type="paramref" class="paramref">delimiter</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string Join&lt;T&gt;(this List&lt;T&gt; list, string delimiter, int startIndex = 0, int endIndex = 2147483647)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
-        <td><p>The list to join.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">delimiter</span></td>
         <td><p>The delimiter to use.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">startIndex</span></td>
         <td><p>The index to start at.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">endIndex</span></td>
         <td><p>The index to end at.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>A string that contains the items of the list separated by the <code data-dev-comment-type="paramref" class="paramref">delimiter</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td><p>The type of the list.</p>
+        <td><p>The type of the array.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_ListExtensions_Last_" data-uid="Zigurous.DataStructures.ListExtensions.Last*"></a>
   <h4 id="Zigurous_DataStructures_ListExtensions_Last__1_List___0__" data-uid="Zigurous.DataStructures.ListExtensions.Last``1(List{``0})">Last&lt;T&gt;(List&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the last item in the list, or the default of
+<code data-dev-comment-type="typeparamref" class="typeparamref">T</code> if the list is empty.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Last&lt;T&gt;(this List&lt;T&gt; list)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>The list to get the item from.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>The last item in the list.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1086,57 +818,39 @@
   </table>
   <a id="Zigurous_DataStructures_ListExtensions_Last_" data-uid="Zigurous.DataStructures.ListExtensions.Last*"></a>
   <h4 id="Zigurous_DataStructures_ListExtensions_Last__1_List___0__System_Predicate___0__" data-uid="Zigurous.DataStructures.ListExtensions.Last``1(List{``0},System.Predicate{``0})">Last&lt;T&gt;(List&lt;T&gt;, Predicate&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the last item in the list that satisfies the
+<code data-dev-comment-type="paramref" class="paramref">predicate</code>, or the default of
+<code data-dev-comment-type="typeparamref" class="typeparamref">T</code> if no item satisfies the
+<code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Last&lt;T&gt;(this List&lt;T&gt; list, Predicate&lt;T&gt; predicate)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>The list to get the item from.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Predicate</span>&lt;T&gt;</td>
         <td><span class="parametername">predicate</span></td>
         <td><p>The predicate to use.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>The last item in the list that satisfies the <code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1150,52 +864,33 @@
   </table>
   <a id="Zigurous_DataStructures_ListExtensions_LastNonNull_" data-uid="Zigurous.DataStructures.ListExtensions.LastNonNull*"></a>
   <h4 id="Zigurous_DataStructures_ListExtensions_LastNonNull__1_List___0__" data-uid="Zigurous.DataStructures.ListExtensions.LastNonNull``1(List{``0})">LastNonNull&lt;T&gt;(List&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the last non-null item in the list, or the default of
+<code data-dev-comment-type="typeparamref" class="typeparamref">T</code> if all items are null.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T LastNonNull&lt;T&gt;(this List&lt;T&gt; list)
     where T : class</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>The list to get the item from.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>The last non-null item from the end of the list.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1209,42 +904,37 @@
   </table>
   <a id="Zigurous_DataStructures_ListExtensions_Map_" data-uid="Zigurous.DataStructures.ListExtensions.Map*"></a>
   <h4 id="Zigurous_DataStructures_ListExtensions_Map__2_List___0__System_Converter___0___1__" data-uid="Zigurous.DataStructures.ListExtensions.Map``2(List{``0},System.Converter{``0,``1})">Map&lt;TInput, TOutput&gt;(List&lt;TInput&gt;, Converter&lt;TInput, TOutput&gt;)</h4>
-  <div class="markdown level1 summary"><p>Maps the items of the list to a new list using a given <code data-dev-comment-type="paramref" class="paramref">converter</code>.</p>
+  <div class="markdown level1 summary"><p>Maps the items of the list to a new list using a given
+<code data-dev-comment-type="paramref" class="paramref">converter</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static List&lt;TOutput&gt; Map&lt;TInput, TOutput&gt;(this List&lt;TInput&gt; list, Converter&lt;TInput, TOutput&gt; converter)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;TInput&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>The list to map.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Converter</span>&lt;TInput, TOutput&gt;</td>
         <td><span class="parametername">converter</span></td>
         <td><p>The converter to use.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1256,11 +946,10 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1282,34 +971,29 @@
   <div class="markdown level1 summary"><p>Filters out all null items from the list.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static List&lt;T&gt; NonNull&lt;T&gt;(this List&lt;T&gt; list)
     where T : class</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>The list to filter.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1321,11 +1005,10 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1339,51 +1022,32 @@
   </table>
   <a id="Zigurous_DataStructures_ListExtensions_Random_" data-uid="Zigurous.DataStructures.ListExtensions.Random*"></a>
   <h4 id="Zigurous_DataStructures_ListExtensions_Random__1_List___0__" data-uid="Zigurous.DataStructures.ListExtensions.Random``1(List{``0})">Random&lt;T&gt;(List&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns a random item from the list, or the default of
+<code data-dev-comment-type="typeparamref" class="typeparamref">T</code> if the list is empty.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Random&lt;T&gt;(this List&lt;T&gt; list)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>The list to get the random item from.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>A random item from the list.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1400,45 +1064,38 @@
   <div class="markdown level1 summary"><p>Reduces the items of the list to a single value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static TSum Reduce&lt;TItem, TSum&gt;(this List&lt;TItem&gt; list, TSum initialValue, ListExtensions.Reducer&lt;TSum, TItem&gt; reducer)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;TItem&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>The list to reduce.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">TSum</span></td>
         <td><span class="parametername">initialValue</span></td>
         <td><p>The initial value to use.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.ListExtensions.Reducer-2.html">ListExtensions.Reducer</a>&lt;TSum, TItem&gt;</td>
         <td><span class="parametername">reducer</span></td>
         <td><p>The reducer to use.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1450,11 +1107,10 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1476,33 +1132,28 @@
   <div class="markdown level1 summary"><p>Removes the first item in the list.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void RemoveFirst&lt;T&gt;(this List&lt;T&gt; list)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>The list to remove from.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1519,33 +1170,28 @@
   <div class="markdown level1 summary"><p>Removes the last item in the list.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void RemoveLast&lt;T&gt;(this List&lt;T&gt; list)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>The list to remove from.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1562,33 +1208,28 @@
   <div class="markdown level1 summary"><p>Reverses the order of the items in the list.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static List&lt;T&gt; Reversed&lt;T&gt;(this List&lt;T&gt; list)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>The list to reverse.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1600,11 +1241,10 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1618,42 +1258,37 @@
   </table>
   <a id="Zigurous_DataStructures_ListExtensions_Where_" data-uid="Zigurous.DataStructures.ListExtensions.Where*"></a>
   <h4 id="Zigurous_DataStructures_ListExtensions_Where__1_List___0__System_Predicate___0__" data-uid="Zigurous.DataStructures.ListExtensions.Where``1(List{``0},System.Predicate{``0})">Where&lt;T&gt;(List&lt;T&gt;, Predicate&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Filters the list to only contain items that satisfy the <code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
+  <div class="markdown level1 summary"><p>Filters the list to only contain items that satisfy the
+<code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static List&lt;T&gt; Where&lt;T&gt;(this List&lt;T&gt; list, Predicate&lt;T&gt; predicate)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>The list to filter.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Predicate</span>&lt;T&gt;</td>
         <td><span class="parametername">predicate</span></td>
         <td><p>The predicate to use.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1665,11 +1300,10 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1683,42 +1317,37 @@
   </table>
   <a id="Zigurous_DataStructures_ListExtensions_WrapIndex_" data-uid="Zigurous.DataStructures.ListExtensions.WrapIndex*"></a>
   <h4 id="Zigurous_DataStructures_ListExtensions_WrapIndex__1_List___0__System_Int32_" data-uid="Zigurous.DataStructures.ListExtensions.WrapIndex``1(List{``0},System.Int32)">WrapIndex&lt;T&gt;(List&lt;T&gt;, Int32)</h4>
-  <div class="markdown level1 summary"><p>Wraps the <code data-dev-comment-type="paramref" class="paramref">index</code> in the list to the other end.</p>
+  <div class="markdown level1 summary"><p>Wraps the <code data-dev-comment-type="paramref" class="paramref">index</code> in the list to the other end when
+outside the bounds.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int WrapIndex&lt;T&gt;(this List&lt;T&gt; list, int index)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
         <td><span class="parametername">list</span></td>
         <td><p>The list to wrap.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
         <td><p>The index to wrap.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1730,11 +1359,10 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>

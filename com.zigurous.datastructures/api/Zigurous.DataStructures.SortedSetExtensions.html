@@ -80,10 +80,9 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.DataStructures.SortedSetExtensions">
-  
   <h1 id="Zigurous_DataStructures_SortedSetExtensions" data-uid="Zigurous.DataStructures.SortedSetExtensions" class="text-break">Class SortedSetExtensions
   </h1>
-  <div class="markdown level0 summary"><p>Exposes extension methods for sorted sets.</p>
+  <div class="markdown level0 summary"><p>Extension methods for sorted sets.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -92,7 +91,6 @@
     <div class="level1"><span class="xref">SortedSetExtensions</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.DataStructures.html">Zigurous.DataStructures</a></h6>
-  <h5 id="Zigurous_DataStructures_SortedSetExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class SortedSetExtensions</code></pre>
   </div>
@@ -100,241 +98,175 @@
   </h3>
   <a id="Zigurous_DataStructures_SortedSetExtensions_First_" data-uid="Zigurous.DataStructures.SortedSetExtensions.First*"></a>
   <h4 id="Zigurous_DataStructures_SortedSetExtensions_First__1_SortedSet___0__System_Predicate___0__" data-uid="Zigurous.DataStructures.SortedSetExtensions.First``1(SortedSet{``0},System.Predicate{``0})">First&lt;T&gt;(SortedSet&lt;T&gt;, Predicate&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the first element in the set that satisfies the
+<code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T First&lt;T&gt;(this SortedSet&lt;T&gt; set, Predicate&lt;T&gt; predicate)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">SortedSet</span>&lt;T&gt;</td>
         <td><span class="parametername">set</span></td>
-        <td><p>The sorted set to get the element from.</p>
+        <td><p>The set to get the element from.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Predicate</span>&lt;T&gt;</td>
         <td><span class="parametername">predicate</span></td>
         <td><p>The predicate to use.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>The first element in the sorted set that satisfies the <code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td><p>The type of the elements in the sorted set.</p>
+        <td><p>The type of the elements in the set.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_SortedSetExtensions_ForEach_" data-uid="Zigurous.DataStructures.SortedSetExtensions.ForEach*"></a>
   <h4 id="Zigurous_DataStructures_SortedSetExtensions_ForEach__1_SortedSet___0__System_Action___0__" data-uid="Zigurous.DataStructures.SortedSetExtensions.ForEach``1(SortedSet{``0},System.Action{``0})">ForEach&lt;T&gt;(SortedSet&lt;T&gt;, Action&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Invokes an <code data-dev-comment-type="paramref" class="paramref">action</code> on each element in the sorted set.</p>
+  <div class="markdown level1 summary"><p>Invokes an <code data-dev-comment-type="paramref" class="paramref">action</code> on each element in the set.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ForEach&lt;T&gt;(this SortedSet&lt;T&gt; set, Action&lt;T&gt; action)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">SortedSet</span>&lt;T&gt;</td>
         <td><span class="parametername">set</span></td>
-        <td><p>The sorted set to iterate over.</p>
+        <td><p>The set to iterate over.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
         <td><span class="parametername">action</span></td>
         <td><p>The action to invoke on each element.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td><p>The type of the elements in the sorted set.</p>
+        <td><p>The type of the elements in the set.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_SortedSetExtensions_IsAny_" data-uid="Zigurous.DataStructures.SortedSetExtensions.IsAny*"></a>
   <h4 id="Zigurous_DataStructures_SortedSetExtensions_IsAny__1_SortedSet___0__System_Predicate___0__" data-uid="Zigurous.DataStructures.SortedSetExtensions.IsAny``1(SortedSet{``0},System.Predicate{``0})">IsAny&lt;T&gt;(SortedSet&lt;T&gt;, Predicate&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if any element in the set satisfies the
+<code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsAny&lt;T&gt;(this SortedSet&lt;T&gt; set, Predicate&lt;T&gt; predicate)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">SortedSet</span>&lt;T&gt;</td>
         <td><span class="parametername">set</span></td>
-        <td><p>The sorted set to check.</p>
+        <td><p>The set to check.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Predicate</span>&lt;T&gt;</td>
         <td><span class="parametername">predicate</span></td>
         <td><p>The predicate to use.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if any element in the sorted set satisfies the <code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td><p>The type of the elements in the sorted set.</p>
+        <td><p>The type of the elements in the set.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_SortedSetExtensions_IsEach_" data-uid="Zigurous.DataStructures.SortedSetExtensions.IsEach*"></a>
   <h4 id="Zigurous_DataStructures_SortedSetExtensions_IsEach__1_SortedSet___0__System_Predicate___0__" data-uid="Zigurous.DataStructures.SortedSetExtensions.IsEach``1(SortedSet{``0},System.Predicate{``0})">IsEach&lt;T&gt;(SortedSet&lt;T&gt;, Predicate&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if each element in the set satisfies the
+<code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsEach&lt;T&gt;(this SortedSet&lt;T&gt; set, Predicate&lt;T&gt; predicate)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">SortedSet</span>&lt;T&gt;</td>
         <td><span class="parametername">set</span></td>
-        <td><p>The sorted set to check.</p>
+        <td><p>The set to check.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Predicate</span>&lt;T&gt;</td>
         <td><span class="parametername">predicate</span></td>
         <td><p>The predicate to use.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if each element in the sorted set satisfies the <code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td><p>The type of the elements in the sorted set.</p>
+        <td><p>The type of the elements in the set.</p>
 </td>
       </tr>
     </tbody>

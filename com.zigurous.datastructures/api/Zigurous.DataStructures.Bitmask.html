@@ -80,7 +80,6 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.DataStructures.Bitmask">
-  
   <h1 id="Zigurous_DataStructures_Bitmask" data-uid="Zigurous.DataStructures.Bitmask" class="text-break">Struct Bitmask
   </h1>
   <div class="markdown level0 summary"><p>A bitmask representation that can be used for bitwise operations.
@@ -88,7 +87,6 @@ A bitmask is a set of bits that can be set or cleared.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.DataStructures.html">Zigurous.DataStructures</a></h6>
-  <h5 id="Zigurous_DataStructures_Bitmask_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
 public struct Bitmask : IEquatable&lt;Bitmask&gt;, IEquatable&lt;int&gt;</code></pre>
@@ -100,22 +98,18 @@ public struct Bitmask : IEquatable&lt;Bitmask&gt;, IEquatable&lt;int&gt;</code><
   <div class="markdown level1 summary"><p>Creates a new Bitmask from the given 32-bit integer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Bitmask(int mask)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">mask</span></td>
         <td><p>The 32-bit integer to represent as a bitmask.</p>
 </td>
@@ -129,28 +123,23 @@ public struct Bitmask : IEquatable&lt;Bitmask&gt;, IEquatable&lt;int&gt;</code><
   <div class="markdown level1 summary"><p>Sets the nth bit of the bitmask to x.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Change(int n, int x)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">n</span></td>
         <td><p>The nth bit to set.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">x</span></td>
         <td><p>The value to set the bit to.</p>
 </td>
@@ -162,22 +151,18 @@ public struct Bitmask : IEquatable&lt;Bitmask&gt;, IEquatable&lt;int&gt;</code><
   <div class="markdown level1 summary"><p>Sets the nth bit of the bitmask to 0.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Clear(int n)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">n</span></td>
         <td><p>The nth bit to clear.</p>
 </td>
@@ -186,84 +171,46 @@ public struct Bitmask : IEquatable&lt;Bitmask&gt;, IEquatable&lt;int&gt;</code><
   </table>
   <a id="Zigurous_DataStructures_Bitmask_Equals_" data-uid="Zigurous.DataStructures.Bitmask.Equals*"></a>
   <h4 id="Zigurous_DataStructures_Bitmask_Equals_System_Int32_" data-uid="Zigurous.DataStructures.Bitmask.Equals(System.Int32)">Equals(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Determines if the bitmask is equal to <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool Equals(int other)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">other</span></td>
         <td><p>The bitmask to compare to.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the bitmask is equal to the <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <a id="Zigurous_DataStructures_Bitmask_Equals_" data-uid="Zigurous.DataStructures.Bitmask.Equals*"></a>
   <h4 id="Zigurous_DataStructures_Bitmask_Equals_System_Object_" data-uid="Zigurous.DataStructures.Bitmask.Equals(System.Object)">Equals(Object)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Determines if the bitmask is equal to <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">other</span></td>
         <td><p>The object to compare to.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the bitmask is equal to the <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
 </td>
       </tr>
     </tbody>
@@ -272,282 +219,152 @@ public struct Bitmask : IEquatable&lt;Bitmask&gt;, IEquatable&lt;int&gt;</code><
   <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
   <a id="Zigurous_DataStructures_Bitmask_Equals_" data-uid="Zigurous.DataStructures.Bitmask.Equals*"></a>
   <h4 id="Zigurous_DataStructures_Bitmask_Equals_Zigurous_DataStructures_Bitmask_" data-uid="Zigurous.DataStructures.Bitmask.Equals(Zigurous.DataStructures.Bitmask)">Equals(Bitmask)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Determines if the bitmask is equal to <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool Equals(Bitmask other)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td><span class="parametername">other</span></td>
         <td><p>The bitmask to compare to.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the bitmask is equal to the <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <a id="Zigurous_DataStructures_Bitmask_Get_" data-uid="Zigurous.DataStructures.Bitmask.Get*"></a>
   <h4 id="Zigurous_DataStructures_Bitmask_Get_System_Int32_" data-uid="Zigurous.DataStructures.Bitmask.Get(System.Int32)">Get(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the nth bit of the bitmask.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int Get(int n)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">n</span></td>
         <td><p>The nth bit to get.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><p>The nth bit of the bitmask.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <a id="Zigurous_DataStructures_Bitmask_GetHashCode_" data-uid="Zigurous.DataStructures.Bitmask.GetHashCode*"></a>
   <h4 id="Zigurous_DataStructures_Bitmask_GetHashCode" data-uid="Zigurous.DataStructures.Bitmask.GetHashCode">GetHashCode()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the hash code of the bitmask.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><p>The hash code of the bitmask.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">System.ValueType.GetHashCode()</span></div>
   <a id="Zigurous_DataStructures_Bitmask_Has_" data-uid="Zigurous.DataStructures.Bitmask.Has*"></a>
   <h4 id="Zigurous_DataStructures_Bitmask_Has_System_Int32_" data-uid="Zigurous.DataStructures.Bitmask.Has(System.Int32)">Has(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the nth bit of the bitmask is set.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool Has(int n)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">n</span></td>
         <td><p>The nth bit to check for.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the nth bit of the bitmask is set.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <a id="Zigurous_DataStructures_Bitmask_HasAnyFlag_" data-uid="Zigurous.DataStructures.Bitmask.HasAnyFlag*"></a>
   <h4 id="Zigurous_DataStructures_Bitmask_HasAnyFlag_System_Int32_" data-uid="Zigurous.DataStructures.Bitmask.HasAnyFlag(System.Int32)">HasAnyFlag(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the bitmask contains any of the <code data-dev-comment-type="paramref" class="paramref">flags</code>.</p>
+<pre><code>(mask &amp; flags) != 0</code></pre>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool HasAnyFlag(int flags)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">flags</span></td>
         <td><p>The flags to check for.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the bitmask contains any of the <code data-dev-comment-type="paramref" class="paramref">flags</code>.</p>
-<pre><code>(mask &amp; flags) != 0</code></pre>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_Bitmask_HasFlag_" data-uid="Zigurous.DataStructures.Bitmask.HasFlag*"></a>
   <h4 id="Zigurous_DataStructures_Bitmask_HasFlag_System_Int32_" data-uid="Zigurous.DataStructures.Bitmask.HasFlag(System.Int32)">HasFlag(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the bitmask contains the <code data-dev-comment-type="paramref" class="paramref">flag</code>.</p>
+<pre><code>(mask &amp; flag) == flag</code></pre>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool HasFlag(int flag)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">flag</span></td>
         <td><p>The flag to check for.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the bitmask contains the <code data-dev-comment-type="paramref" class="paramref">flag</code>.</p>
-<pre><code>(mask &amp; flag) == flag</code></pre>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <a id="Zigurous_DataStructures_Bitmask_HasOnlyFlags_" data-uid="Zigurous.DataStructures.Bitmask.HasOnlyFlags*"></a>
   <h4 id="Zigurous_DataStructures_Bitmask_HasOnlyFlags_System_Int32_" data-uid="Zigurous.DataStructures.Bitmask.HasOnlyFlags(System.Int32)">HasOnlyFlags(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the bitmask contains only the given <code data-dev-comment-type="paramref" class="paramref">flags</code>
+and no other flags.</p>
+<pre><code>((mask ^ flags) &amp; flags) == 0</code></pre>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool HasOnlyFlags(int flags)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">flags</span></td>
         <td><p>The flags to check for.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the bitmask contains only the given <code data-dev-comment-type="paramref" class="paramref">flags</code>
-and no other flags.</p>
-<pre><code>((mask ^ flags) &amp; flags) == 0</code></pre>
 </td>
       </tr>
     </tbody>
@@ -557,22 +374,18 @@ and no other flags.</p>
   <div class="markdown level1 summary"><p>Sets the nth bit of the bitmask to 1.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Set(int n)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">n</span></td>
         <td><p>The nth bit to set.</p>
 </td>
@@ -584,22 +397,18 @@ and no other flags.</p>
   <div class="markdown level1 summary"><p>Toggles the nth bit of the bitmask.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Toggle(int n)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">n</span></td>
         <td><p>The nth bit to toggle.</p>
 </td>
@@ -608,24 +417,23 @@ and no other flags.</p>
   </table>
   <a id="Zigurous_DataStructures_Bitmask_ToString_" data-uid="Zigurous.DataStructures.Bitmask.ToString*"></a>
   <h4 id="Zigurous_DataStructures_Bitmask_ToString" data-uid="Zigurous.DataStructures.Bitmask.ToString">ToString()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Converts the bitmask to a string.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>The string representation of the bitmask.</p>
+        <td><p>A string representation of the bitmask.</p>
 </td>
       </tr>
     </tbody>
@@ -638,43 +446,23 @@ and no other flags.</p>
   <h4 id="Zigurous_DataStructures_Bitmask_op_BitwiseAnd_Zigurous_DataStructures_Bitmask_Zigurous_DataStructures_Bitmask_" data-uid="Zigurous.DataStructures.Bitmask.op_BitwiseAnd(Zigurous.DataStructures.Bitmask,Zigurous.DataStructures.Bitmask)">BitwiseAnd(Bitmask, Bitmask)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Bitmask operator &amp;(Bitmask a, Bitmask b)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td><span class="parametername">a</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -683,43 +471,23 @@ and no other flags.</p>
   <h4 id="Zigurous_DataStructures_Bitmask_op_BitwiseOr_Zigurous_DataStructures_Bitmask_Zigurous_DataStructures_Bitmask_" data-uid="Zigurous.DataStructures.Bitmask.op_BitwiseOr(Zigurous.DataStructures.Bitmask,Zigurous.DataStructures.Bitmask)">BitwiseOr(Bitmask, Bitmask)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Bitmask operator |(Bitmask a, Bitmask b)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td><span class="parametername">a</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -728,43 +496,23 @@ and no other flags.</p>
   <h4 id="Zigurous_DataStructures_Bitmask_op_Equality_System_Int32_Zigurous_DataStructures_Bitmask_" data-uid="Zigurous.DataStructures.Bitmask.op_Equality(System.Int32,Zigurous.DataStructures.Bitmask)">Equality(Int32, Bitmask)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool operator ==(int lhs, Bitmask rhs)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">lhs</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td><span class="parametername">rhs</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -773,43 +521,23 @@ and no other flags.</p>
   <h4 id="Zigurous_DataStructures_Bitmask_op_Equality_Zigurous_DataStructures_Bitmask_System_Int32_" data-uid="Zigurous.DataStructures.Bitmask.op_Equality(Zigurous.DataStructures.Bitmask,System.Int32)">Equality(Bitmask, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool operator ==(Bitmask lhs, int rhs)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td><span class="parametername">lhs</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">rhs</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -818,43 +546,23 @@ and no other flags.</p>
   <h4 id="Zigurous_DataStructures_Bitmask_op_Equality_Zigurous_DataStructures_Bitmask_Zigurous_DataStructures_Bitmask_" data-uid="Zigurous.DataStructures.Bitmask.op_Equality(Zigurous.DataStructures.Bitmask,Zigurous.DataStructures.Bitmask)">Equality(Bitmask, Bitmask)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool operator ==(Bitmask lhs, Bitmask rhs)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td><span class="parametername">lhs</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td><span class="parametername">rhs</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -863,43 +571,23 @@ and no other flags.</p>
   <h4 id="Zigurous_DataStructures_Bitmask_op_ExclusiveOr_Zigurous_DataStructures_Bitmask_Zigurous_DataStructures_Bitmask_" data-uid="Zigurous.DataStructures.Bitmask.op_ExclusiveOr(Zigurous.DataStructures.Bitmask,Zigurous.DataStructures.Bitmask)">ExclusiveOr(Bitmask, Bitmask)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Bitmask operator ^(Bitmask a, Bitmask b)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td><span class="parametername">a</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -908,38 +596,19 @@ and no other flags.</p>
   <h4 id="Zigurous_DataStructures_Bitmask_op_Implicit_System_Int32__Zigurous_DataStructures_Bitmask" data-uid="Zigurous.DataStructures.Bitmask.op_Implicit(System.Int32)~Zigurous.DataStructures.Bitmask">Implicit(Int32 to Bitmask)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static implicit operator Bitmask(int value)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -948,38 +617,19 @@ and no other flags.</p>
   <h4 id="Zigurous_DataStructures_Bitmask_op_Implicit_Zigurous_DataStructures_Bitmask__System_Int32" data-uid="Zigurous.DataStructures.Bitmask.op_Implicit(Zigurous.DataStructures.Bitmask)~System.Int32">Implicit(Bitmask to Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static implicit operator int (Bitmask value)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -988,43 +638,23 @@ and no other flags.</p>
   <h4 id="Zigurous_DataStructures_Bitmask_op_Inequality_System_Int32_Zigurous_DataStructures_Bitmask_" data-uid="Zigurous.DataStructures.Bitmask.op_Inequality(System.Int32,Zigurous.DataStructures.Bitmask)">Inequality(Int32, Bitmask)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool operator !=(int lhs, Bitmask rhs)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">lhs</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td><span class="parametername">rhs</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1033,43 +663,23 @@ and no other flags.</p>
   <h4 id="Zigurous_DataStructures_Bitmask_op_Inequality_Zigurous_DataStructures_Bitmask_System_Int32_" data-uid="Zigurous.DataStructures.Bitmask.op_Inequality(Zigurous.DataStructures.Bitmask,System.Int32)">Inequality(Bitmask, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool operator !=(Bitmask lhs, int rhs)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td><span class="parametername">lhs</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">rhs</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1078,43 +688,23 @@ and no other flags.</p>
   <h4 id="Zigurous_DataStructures_Bitmask_op_Inequality_Zigurous_DataStructures_Bitmask_Zigurous_DataStructures_Bitmask_" data-uid="Zigurous.DataStructures.Bitmask.op_Inequality(Zigurous.DataStructures.Bitmask,Zigurous.DataStructures.Bitmask)">Inequality(Bitmask, Bitmask)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool operator !=(Bitmask lhs, Bitmask rhs)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td><span class="parametername">lhs</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td><span class="parametername">rhs</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1123,43 +713,23 @@ and no other flags.</p>
   <h4 id="Zigurous_DataStructures_Bitmask_op_LeftShift_Zigurous_DataStructures_Bitmask_System_Int32_" data-uid="Zigurous.DataStructures.Bitmask.op_LeftShift(Zigurous.DataStructures.Bitmask,System.Int32)">LeftShift(Bitmask, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Bitmask operator &lt;&lt;(Bitmask a, int b)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td><span class="parametername">a</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -1168,38 +738,19 @@ and no other flags.</p>
   <h4 id="Zigurous_DataStructures_Bitmask_op_OnesComplement_Zigurous_DataStructures_Bitmask_" data-uid="Zigurous.DataStructures.Bitmask.op_OnesComplement(Zigurous.DataStructures.Bitmask)">OnesComplement(Bitmask)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Bitmask operator ~(Bitmask a)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td><span class="parametername">a</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -1208,43 +759,23 @@ and no other flags.</p>
   <h4 id="Zigurous_DataStructures_Bitmask_op_RightShift_Zigurous_DataStructures_Bitmask_System_Int32_" data-uid="Zigurous.DataStructures.Bitmask.op_RightShift(Zigurous.DataStructures.Bitmask,System.Int32)">RightShift(Bitmask, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Bitmask operator &gt;&gt;(Bitmask a, int b)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td><span class="parametername">a</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Bitmask.html">Bitmask</a></td>
         <td></td>
       </tr>
     </tbody>

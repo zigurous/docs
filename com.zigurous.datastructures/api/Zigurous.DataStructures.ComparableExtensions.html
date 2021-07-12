@@ -80,10 +80,9 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.DataStructures.ComparableExtensions">
-  
   <h1 id="Zigurous_DataStructures_ComparableExtensions" data-uid="Zigurous.DataStructures.ComparableExtensions" class="text-break">Class ComparableExtensions
   </h1>
-  <div class="markdown level0 summary"><p>Exposes extension methods for <span class="xref">System.IComparable`1</span>.</p>
+  <div class="markdown level0 summary"><p>Extension methods for IComparable.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -92,7 +91,6 @@
     <div class="level1"><span class="xref">ComparableExtensions</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.DataStructures.html">Zigurous.DataStructures</a></h6>
-  <h5 id="Zigurous_DataStructures_ComparableExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class ComparableExtensions</code></pre>
   </div>
@@ -100,76 +98,53 @@
   </h3>
   <a id="Zigurous_DataStructures_ComparableExtensions_IsBetween_" data-uid="Zigurous.DataStructures.ComparableExtensions.IsBetween*"></a>
   <h4 id="Zigurous_DataStructures_ComparableExtensions_IsBetween__1___0___0___0_System_Boolean_System_Boolean_" data-uid="Zigurous.DataStructures.ComparableExtensions.IsBetween``1(``0,``0,``0,System.Boolean,System.Boolean)">IsBetween&lt;T&gt;(T, T, T, Boolean, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the value is between <code data-dev-comment-type="paramref" class="paramref">min</code> and
+<code data-dev-comment-type="paramref" class="paramref">max</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsBetween&lt;T&gt;(this T value, T min, T max, bool includeMin, bool includeMax)
     where T : IComparable&lt;T&gt;</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">value</span></td>
         <td><p>The value to check.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">min</span></td>
         <td><p>The minimum value.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">max</span></td>
         <td><p>The maximum value.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">includeMin</span></td>
         <td><p>The minimum value is inclusive if true, exclusive if false.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">includeMax</span></td>
         <td><p>The maximum value is inclusive if true, exclusive if false.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the <code data-dev-comment-type="paramref" class="paramref">value</code> is between the <code data-dev-comment-type="paramref" class="paramref">min</code> and <code data-dev-comment-type="paramref" class="paramref">max</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>

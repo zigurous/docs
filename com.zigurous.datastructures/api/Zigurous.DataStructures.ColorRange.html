@@ -80,7 +80,6 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.DataStructures.ColorRange">
-  
   <h1 id="Zigurous_DataStructures_ColorRange" data-uid="Zigurous.DataStructures.ColorRange" class="text-break">Struct ColorRange
   </h1>
   <div class="markdown level0 summary"><p>A range of Color values.</p>
@@ -92,7 +91,6 @@
     <div><a class="xref" href="Zigurous.DataStructures.IRange-1.html">IRange</a>&lt;<span class="xref">Color</span>&gt;</div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.DataStructures.html">Zigurous.DataStructures</a></h6>
-  <h5 id="Zigurous_DataStructures_ColorRange_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
 public struct ColorRange : INumberRange&lt;Color&gt;, IRange&lt;Color&gt;</code></pre>
@@ -101,31 +99,26 @@ public struct ColorRange : INumberRange&lt;Color&gt;, IRange&lt;Color&gt;</code>
   </h3>
   <a id="Zigurous_DataStructures_ColorRange__ctor_" data-uid="Zigurous.DataStructures.ColorRange.#ctor*"></a>
   <h4 id="Zigurous_DataStructures_ColorRange__ctor_Color_Color_" data-uid="Zigurous.DataStructures.ColorRange.#ctor(Color,Color)">ColorRange(Color, Color)</h4>
-  <div class="markdown level1 summary"><p>Creates a new color range with the specified values.</p>
+  <div class="markdown level1 summary"><p>Creates a new range with the specified values.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ColorRange(Color min, Color max)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">min</span></td>
         <td><p>The lower bound of the range.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">max</span></td>
         <td><p>The upper bound of the range.</p>
 </td>
@@ -139,7 +132,6 @@ public struct ColorRange : INumberRange&lt;Color&gt;, IRange&lt;Color&gt;</code>
   <div class="markdown level1 summary"><p>Shorthand for writing ColorRange(Color.black, Color.black).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static readonly ColorRange black { get; }</code></pre>
   </div>
@@ -148,40 +140,22 @@ public struct ColorRange : INumberRange&lt;Color&gt;, IRange&lt;Color&gt;</code>
   <div class="markdown level1 summary"><p>Shorthand for writing ColorRange(Color.black, Color.white).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static readonly ColorRange blackToWhite { get; }</code></pre>
   </div>
   <a id="Zigurous_DataStructures_ColorRange_Delta_" data-uid="Zigurous.DataStructures.ColorRange.Delta*"></a>
   <h4 id="Zigurous_DataStructures_ColorRange_Delta" data-uid="Zigurous.DataStructures.ColorRange.Delta">Delta</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The difference between the maximum and minimum values.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public readonly Color Delta { get; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Color</span></td>
-        <td><p>The difference between the maximum and minimum values.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <a id="Zigurous_DataStructures_ColorRange_fadeIn_" data-uid="Zigurous.DataStructures.ColorRange.fadeIn*"></a>
   <h4 id="Zigurous_DataStructures_ColorRange_fadeIn" data-uid="Zigurous.DataStructures.ColorRange.fadeIn">fadeIn</h4>
   <div class="markdown level1 summary"><p>Shorthand for writing ColorRange(Color(0,0,0,0), Color(0,0,0,1)).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static readonly ColorRange fadeIn { get; }</code></pre>
   </div>
@@ -190,7 +164,6 @@ public struct ColorRange : INumberRange&lt;Color&gt;, IRange&lt;Color&gt;</code>
   <div class="markdown level1 summary"><p>Shorthand for writing ColorRange(Color(0,0,0,1), Color(0,0,0,0)).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static readonly ColorRange fadeOut { get; }</code></pre>
   </div>
@@ -199,40 +172,22 @@ public struct ColorRange : INumberRange&lt;Color&gt;, IRange&lt;Color&gt;</code>
   <div class="markdown level1 summary"><p>The upper bound of the range.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Color max { get; set; }</code></pre>
   </div>
   <a id="Zigurous_DataStructures_ColorRange_Median_" data-uid="Zigurous.DataStructures.ColorRange.Median*"></a>
   <h4 id="Zigurous_DataStructures_ColorRange_Median" data-uid="Zigurous.DataStructures.ColorRange.Median">Median</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The median value of the range.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public readonly Color Median { get; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Color</span></td>
-        <td><p>The median value of the range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <a id="Zigurous_DataStructures_ColorRange_min_" data-uid="Zigurous.DataStructures.ColorRange.min*"></a>
   <h4 id="Zigurous_DataStructures_ColorRange_min" data-uid="Zigurous.DataStructures.ColorRange.min">min</h4>
   <div class="markdown level1 summary"><p>The lower bound of the range.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Color min { get; set; }</code></pre>
   </div>
@@ -241,7 +196,6 @@ public struct ColorRange : INumberRange&lt;Color&gt;, IRange&lt;Color&gt;</code>
   <div class="markdown level1 summary"><p>Shorthand for writing ColorRange(Color(0,0,0,0), Color(0,0,0,0)).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static readonly ColorRange transparent { get; }</code></pre>
   </div>
@@ -250,7 +204,6 @@ public struct ColorRange : INumberRange&lt;Color&gt;, IRange&lt;Color&gt;</code>
   <div class="markdown level1 summary"><p>Shorthand for writing ColorRange(Color.white, Color.white).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static readonly ColorRange white { get; }</code></pre>
   </div>
@@ -259,7 +212,6 @@ public struct ColorRange : INumberRange&lt;Color&gt;, IRange&lt;Color&gt;</code>
   <div class="markdown level1 summary"><p>Shorthand for writing ColorRange(Color.white, Color.black).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static readonly ColorRange whiteToBlack { get; }</code></pre>
   </div>
@@ -267,166 +219,106 @@ public struct ColorRange : INumberRange&lt;Color&gt;, IRange&lt;Color&gt;</code>
   </h3>
   <a id="Zigurous_DataStructures_ColorRange_Clamp_" data-uid="Zigurous.DataStructures.ColorRange.Clamp*"></a>
   <h4 id="Zigurous_DataStructures_ColorRange_Clamp_Color_" data-uid="Zigurous.DataStructures.ColorRange.Clamp(Color)">Clamp(Color)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Clamps the <code data-dev-comment-type="paramref" class="paramref">value</code> to the range.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Color Clamp(Color value)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">value</span></td>
         <td><p>The value to clamp.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">Color</span></td>
-        <td><p>The <code data-dev-comment-type="paramref" class="paramref">value</code> clamped to the range.</p>
+        <td><p>The clamped value.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_ColorRange_Includes_" data-uid="Zigurous.DataStructures.ColorRange.Includes*"></a>
   <h4 id="Zigurous_DataStructures_ColorRange_Includes_Color_" data-uid="Zigurous.DataStructures.ColorRange.Includes(Color)">Includes(Color)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the <code data-dev-comment-type="paramref" class="paramref">value</code> is in the range.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool Includes(Color value)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">value</span></td>
         <td><p>The value to check.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the <code data-dev-comment-type="paramref" class="paramref">value</code> is in the range.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_ColorRange_Includes_" data-uid="Zigurous.DataStructures.ColorRange.Includes*"></a>
   <h4 id="Zigurous_DataStructures_ColorRange_Includes_Color_System_Boolean_System_Boolean_" data-uid="Zigurous.DataStructures.ColorRange.Includes(Color,System.Boolean,System.Boolean)">Includes(Color, Boolean, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the <code data-dev-comment-type="paramref" class="paramref">value</code> is in the range.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool Includes(Color value, bool includeMin, bool includeMax)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">value</span></td>
         <td><p>The value to check.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">includeMin</span></td>
         <td><p>The minimum value is inclusive if true, exclusive if false.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">includeMax</span></td>
         <td><p>The maximum value is inclusive if true, exclusive if false.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the <code data-dev-comment-type="paramref" class="paramref">value</code> is in the range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <a id="Zigurous_DataStructures_ColorRange_Random_" data-uid="Zigurous.DataStructures.ColorRange.Random*"></a>
   <h4 id="Zigurous_DataStructures_ColorRange_Random" data-uid="Zigurous.DataStructures.ColorRange.Random">Random()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns a random value in the range.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Color Random()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Color</span></td>
-        <td><p>A random value in the range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Zigurous.DataStructures.INumberRange-1.html">INumberRange&lt;T&gt;</a>

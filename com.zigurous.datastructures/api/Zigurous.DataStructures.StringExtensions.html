@@ -80,10 +80,9 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.DataStructures.StringExtensions">
-  
   <h1 id="Zigurous_DataStructures_StringExtensions" data-uid="Zigurous.DataStructures.StringExtensions" class="text-break">Class StringExtensions
   </h1>
-  <div class="markdown level0 summary"><p>Exposes extension methods for strings.</p>
+  <div class="markdown level0 summary"><p>Extension methods for strings.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -92,7 +91,6 @@
     <div class="level1"><span class="xref">StringExtensions</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.DataStructures.html">Zigurous.DataStructures</a></h6>
-  <h5 id="Zigurous_DataStructures_StringExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class StringExtensions</code></pre>
   </div>
@@ -100,84 +98,46 @@
   </h3>
   <a id="Zigurous_DataStructures_StringExtensions_IsEmpty_" data-uid="Zigurous.DataStructures.StringExtensions.IsEmpty*"></a>
   <h4 id="Zigurous_DataStructures_StringExtensions_IsEmpty_System_String_" data-uid="Zigurous.DataStructures.StringExtensions.IsEmpty(System.String)">IsEmpty(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the string is null or empty.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsEmpty(this string str)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">str</span></td>
         <td><p>The string to test.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the string is null or empty.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_StringExtensions_IsNotEmpty_" data-uid="Zigurous.DataStructures.StringExtensions.IsNotEmpty*"></a>
   <h4 id="Zigurous_DataStructures_StringExtensions_IsNotEmpty_System_String_" data-uid="Zigurous.DataStructures.StringExtensions.IsNotEmpty(System.String)">IsNotEmpty(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the string is not null and not empty.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsNotEmpty(this string str)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">str</span></td>
         <td><p>The string to test.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the string is not null and not empty.</p>
 </td>
       </tr>
     </tbody>
@@ -187,46 +147,40 @@
   <div class="markdown level1 summary"><p>Repeats the string <code data-dev-comment-type="paramref" class="paramref">n</code> times.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string Repeat(this string str, int n)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">str</span></td>
         <td><p>The string to repeat.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">n</span></td>
         <td><p>The number of times to repeat the string.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>The repeated string.</p>
+        <td><p>A new repeated string.</p>
 </td>
       </tr>
     </tbody>
@@ -236,89 +190,79 @@
   <div class="markdown level1 summary"><p>Converts the number to an abbreviated string.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string ToAbbreviatedString(this float number)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">number</span></td>
         <td><p>The number to abbreviate.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>The abbreviated string.</p>
+        <td><p>A new string of the abbreviated number.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_StringExtensions_ToAbbreviatedString_" data-uid="Zigurous.DataStructures.StringExtensions.ToAbbreviatedString*"></a>
   <h4 id="Zigurous_DataStructures_StringExtensions_ToAbbreviatedString_System_Single_Zigurous_DataStructures_StringExtensions_NumberAbbreviation___" data-uid="Zigurous.DataStructures.StringExtensions.ToAbbreviatedString(System.Single,Zigurous.DataStructures.StringExtensions.NumberAbbreviation[])">ToAbbreviatedString(Single, StringExtensions.NumberAbbreviation[])</h4>
-  <div class="markdown level1 summary"><p>Converts the number to an abbreviated string using a set of <code data-dev-comment-type="paramref" class="paramref">abbreviations</code>.</p>
+  <div class="markdown level1 summary"><p>Converts the number to an abbreviated string using the provided
+<code data-dev-comment-type="paramref" class="paramref">abbreviations</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string ToAbbreviatedString(this float number, StringExtensions.NumberAbbreviation[] abbreviations)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">number</span></td>
         <td><p>The number to abbreviate.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.StringExtensions.NumberAbbreviation.html">StringExtensions.NumberAbbreviation</a>[]</td>
         <td><span class="parametername">abbreviations</span></td>
         <td><p>The abbreviations that can be applied to the number.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>The abbreviated string.</p>
+        <td><p>A new string of the abbreviated number.</p>
 </td>
       </tr>
     </tbody>

@@ -80,14 +80,12 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.DataStructures.Size">
-  
   <h1 id="Zigurous_DataStructures_Size" data-uid="Zigurous.DataStructures.Size" class="text-break">Struct Size
   </h1>
   <div class="markdown level0 summary"><p>Stores the size of an entity.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.DataStructures.html">Zigurous.DataStructures</a></h6>
-  <h5 id="Zigurous_DataStructures_Size_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
 public struct Size : IEquatable&lt;Size&gt;, IComparable&lt;Size&gt;</code></pre>
@@ -96,25 +94,22 @@ public struct Size : IEquatable&lt;Size&gt;, IComparable&lt;Size&gt;</code></pre
   </h3>
   <a id="Zigurous_DataStructures_Size__ctor_" data-uid="Zigurous.DataStructures.Size.#ctor*"></a>
   <h4 id="Zigurous_DataStructures_Size__ctor_System_Int32_" data-uid="Zigurous.DataStructures.Size.#ctor(System.Int32)">Size(Int32)</h4>
-  <div class="markdown level1 summary"><p>Creates a new size with uniform width and height.</p>
+  <div class="markdown level1 summary"><p>Creates a new size with uniform width and height specified by
+<code data-dev-comment-type="paramref" class="paramref">size</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Size(int size)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">size</span></td>
         <td><p>The uniform size of the entity.</p>
 </td>
@@ -123,31 +118,27 @@ public struct Size : IEquatable&lt;Size&gt;, IComparable&lt;Size&gt;</code></pre
   </table>
   <a id="Zigurous_DataStructures_Size__ctor_" data-uid="Zigurous.DataStructures.Size.#ctor*"></a>
   <h4 id="Zigurous_DataStructures_Size__ctor_System_Int32_System_Int32_" data-uid="Zigurous.DataStructures.Size.#ctor(System.Int32,System.Int32)">Size(Int32, Int32)</h4>
-  <div class="markdown level1 summary"><p>Creates a new size of the given <code data-dev-comment-type="paramref" class="paramref">width</code> and <code data-dev-comment-type="paramref" class="paramref">height</code>.</p>
+  <div class="markdown level1 summary"><p>Creates a new size of the given <code data-dev-comment-type="paramref" class="paramref">width</code> and
+<code data-dev-comment-type="paramref" class="paramref">height</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Size(int width = 0, int height = 0)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">width</span></td>
         <td><p>The width of the entity.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">height</span></td>
         <td><p>The height of the entity.</p>
 </td>
@@ -160,7 +151,6 @@ public struct Size : IEquatable&lt;Size&gt;, IComparable&lt;Size&gt;</code></pre
   <div class="markdown level1 summary"><p>The height of the entity.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int height</code></pre>
   </div>
@@ -168,7 +158,6 @@ public struct Size : IEquatable&lt;Size&gt;, IComparable&lt;Size&gt;</code></pre
   <div class="markdown level1 summary"><p>The width of the entity.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int width</code></pre>
   </div>
@@ -176,34 +165,17 @@ public struct Size : IEquatable&lt;Size&gt;, IComparable&lt;Size&gt;</code></pre
   </h3>
   <a id="Zigurous_DataStructures_Size_Area_" data-uid="Zigurous.DataStructures.Size.Area*"></a>
   <h4 id="Zigurous_DataStructures_Size_Area" data-uid="Zigurous.DataStructures.Size.Area">Area</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The area of the entity (width * height).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public readonly int Area { get; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><p>The area of the entity (width * height).</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <a id="Zigurous_DataStructures_Size_max_" data-uid="Zigurous.DataStructures.Size.max*"></a>
   <h4 id="Zigurous_DataStructures_Size_max" data-uid="Zigurous.DataStructures.Size.max">max</h4>
   <div class="markdown level1 summary"><p>Shorthand for writing Size(int.MaxValue, int.MaxValue).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static readonly Size max { get; }</code></pre>
   </div>
@@ -212,7 +184,6 @@ public struct Size : IEquatable&lt;Size&gt;, IComparable&lt;Size&gt;</code></pre
   <div class="markdown level1 summary"><p>Shorthand for writing Size(1, 1).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static readonly Size one { get; }</code></pre>
   </div>
@@ -221,7 +192,6 @@ public struct Size : IEquatable&lt;Size&gt;, IComparable&lt;Size&gt;</code></pre
   <div class="markdown level1 summary"><p>Shorthand for writing Size(1024).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static readonly Size sq1024 { get; }</code></pre>
   </div>
@@ -230,7 +200,6 @@ public struct Size : IEquatable&lt;Size&gt;, IComparable&lt;Size&gt;</code></pre
   <div class="markdown level1 summary"><p>Shorthand for writing Size(128).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static readonly Size sq128 { get; }</code></pre>
   </div>
@@ -239,7 +208,6 @@ public struct Size : IEquatable&lt;Size&gt;, IComparable&lt;Size&gt;</code></pre
   <div class="markdown level1 summary"><p>Shorthand for writing Size(16).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static readonly Size sq16 { get; }</code></pre>
   </div>
@@ -248,7 +216,6 @@ public struct Size : IEquatable&lt;Size&gt;, IComparable&lt;Size&gt;</code></pre
   <div class="markdown level1 summary"><p>Shorthand for writing Size(2).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static readonly Size sq2 { get; }</code></pre>
   </div>
@@ -257,7 +224,6 @@ public struct Size : IEquatable&lt;Size&gt;, IComparable&lt;Size&gt;</code></pre
   <div class="markdown level1 summary"><p>Shorthand for writing Size(2048).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static readonly Size sq2048 { get; }</code></pre>
   </div>
@@ -266,7 +232,6 @@ public struct Size : IEquatable&lt;Size&gt;, IComparable&lt;Size&gt;</code></pre
   <div class="markdown level1 summary"><p>Shorthand for writing Size(256).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static readonly Size sq256 { get; }</code></pre>
   </div>
@@ -275,7 +240,6 @@ public struct Size : IEquatable&lt;Size&gt;, IComparable&lt;Size&gt;</code></pre
   <div class="markdown level1 summary"><p>Shorthand for writing Size(32).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static readonly Size sq32 { get; }</code></pre>
   </div>
@@ -284,7 +248,6 @@ public struct Size : IEquatable&lt;Size&gt;, IComparable&lt;Size&gt;</code></pre
   <div class="markdown level1 summary"><p>Shorthand for writing Size(4).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static readonly Size sq4 { get; }</code></pre>
   </div>
@@ -293,7 +256,6 @@ public struct Size : IEquatable&lt;Size&gt;, IComparable&lt;Size&gt;</code></pre
   <div class="markdown level1 summary"><p>Shorthand for writing Size(4096).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static readonly Size sq4096 { get; }</code></pre>
   </div>
@@ -302,7 +264,6 @@ public struct Size : IEquatable&lt;Size&gt;, IComparable&lt;Size&gt;</code></pre
   <div class="markdown level1 summary"><p>Shorthand for writing Size(512).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static readonly Size sq512 { get; }</code></pre>
   </div>
@@ -311,7 +272,6 @@ public struct Size : IEquatable&lt;Size&gt;, IComparable&lt;Size&gt;</code></pre
   <div class="markdown level1 summary"><p>Shorthand for writing Size(64).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static readonly Size sq64 { get; }</code></pre>
   </div>
@@ -320,7 +280,6 @@ public struct Size : IEquatable&lt;Size&gt;, IComparable&lt;Size&gt;</code></pre
   <div class="markdown level1 summary"><p>Shorthand for writing Size(8).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static readonly Size sq8 { get; }</code></pre>
   </div>
@@ -329,7 +288,6 @@ public struct Size : IEquatable&lt;Size&gt;, IComparable&lt;Size&gt;</code></pre
   <div class="markdown level1 summary"><p>Shorthand for writing Size(8192).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static readonly Size sq8192 { get; }</code></pre>
   </div>
@@ -338,7 +296,6 @@ public struct Size : IEquatable&lt;Size&gt;, IComparable&lt;Size&gt;</code></pre
   <div class="markdown level1 summary"><p>Shorthand for writing Size(0, 0).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static readonly Size zero { get; }</code></pre>
   </div>
@@ -349,81 +306,43 @@ public struct Size : IEquatable&lt;Size&gt;, IComparable&lt;Size&gt;</code></pre
   <div class="markdown level1 summary"><p><span class="xref">System.IComparable`1.CompareTo(`0)</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int CompareTo(Size other)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Size.html">Size</a></td>
         <td><span class="parametername">other</span></td>
         <td><p>The size to compare to.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <a id="Zigurous_DataStructures_Size_Equals_" data-uid="Zigurous.DataStructures.Size.Equals*"></a>
   <h4 id="Zigurous_DataStructures_Size_Equals_System_Object_" data-uid="Zigurous.DataStructures.Size.Equals(System.Object)">Equals(Object)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Determines if the size is equal to <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">other</span></td>
         <td><p>The object to compare to.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the size is equal to the <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
 </td>
       </tr>
     </tbody>
@@ -432,92 +351,56 @@ public struct Size : IEquatable&lt;Size&gt;, IComparable&lt;Size&gt;</code></pre
   <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
   <a id="Zigurous_DataStructures_Size_Equals_" data-uid="Zigurous.DataStructures.Size.Equals*"></a>
   <h4 id="Zigurous_DataStructures_Size_Equals_Zigurous_DataStructures_Size_" data-uid="Zigurous.DataStructures.Size.Equals(Zigurous.DataStructures.Size)">Equals(Size)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Determines if the size is equal to <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool Equals(Size other)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Size.html">Size</a></td>
         <td><span class="parametername">other</span></td>
         <td><p>The size to compare to.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the size is equal to the <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <a id="Zigurous_DataStructures_Size_GetHashCode_" data-uid="Zigurous.DataStructures.Size.GetHashCode*"></a>
   <h4 id="Zigurous_DataStructures_Size_GetHashCode" data-uid="Zigurous.DataStructures.Size.GetHashCode">GetHashCode()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the hash code of the size.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><p>The hash code of the size.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">System.ValueType.GetHashCode()</span></div>
   <a id="Zigurous_DataStructures_Size_ToString_" data-uid="Zigurous.DataStructures.Size.ToString*"></a>
   <h4 id="Zigurous_DataStructures_Size_ToString" data-uid="Zigurous.DataStructures.Size.ToString">ToString()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Converts the size to a string.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>The string representation of the size.</p>
+        <td><p>A string representation of the size.</p>
 </td>
       </tr>
     </tbody>
@@ -530,43 +413,23 @@ public struct Size : IEquatable&lt;Size&gt;, IComparable&lt;Size&gt;</code></pre
   <h4 id="Zigurous_DataStructures_Size_op_Equality_Zigurous_DataStructures_Size_Zigurous_DataStructures_Size_" data-uid="Zigurous.DataStructures.Size.op_Equality(Zigurous.DataStructures.Size,Zigurous.DataStructures.Size)">Equality(Size, Size)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool operator ==(Size lhs, Size rhs)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Size.html">Size</a></td>
         <td><span class="parametername">lhs</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Size.html">Size</a></td>
         <td><span class="parametername">rhs</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -575,43 +438,23 @@ public struct Size : IEquatable&lt;Size&gt;, IComparable&lt;Size&gt;</code></pre
   <h4 id="Zigurous_DataStructures_Size_op_Inequality_Zigurous_DataStructures_Size_Zigurous_DataStructures_Size_" data-uid="Zigurous.DataStructures.Size.op_Inequality(Zigurous.DataStructures.Size,Zigurous.DataStructures.Size)">Inequality(Size, Size)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool operator !=(Size lhs, Size rhs)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Size.html">Size</a></td>
         <td><span class="parametername">lhs</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.Size.html">Size</a></td>
         <td><span class="parametername">rhs</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>

@@ -80,7 +80,6 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.DataStructures.Vector3Range">
-  
   <h1 id="Zigurous_DataStructures_Vector3Range" data-uid="Zigurous.DataStructures.Vector3Range" class="text-break">Struct Vector3Range
   </h1>
   <div class="markdown level0 summary"><p>A range of Vector3 values.</p>
@@ -92,7 +91,6 @@
     <div><a class="xref" href="Zigurous.DataStructures.IRange-1.html">IRange</a>&lt;<span class="xref">Vector3</span>&gt;</div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.DataStructures.html">Zigurous.DataStructures</a></h6>
-  <h5 id="Zigurous_DataStructures_Vector3Range_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
 public struct Vector3Range : INumberRange&lt;Vector3&gt;, IRange&lt;Vector3&gt;</code></pre>
@@ -101,31 +99,26 @@ public struct Vector3Range : INumberRange&lt;Vector3&gt;, IRange&lt;Vector3&gt;<
   </h3>
   <a id="Zigurous_DataStructures_Vector3Range__ctor_" data-uid="Zigurous.DataStructures.Vector3Range.#ctor*"></a>
   <h4 id="Zigurous_DataStructures_Vector3Range__ctor_Vector3_Vector3_" data-uid="Zigurous.DataStructures.Vector3Range.#ctor(Vector3,Vector3)">Vector3Range(Vector3, Vector3)</h4>
-  <div class="markdown level1 summary"><p>Creates a new Vector3 range with the specified values.</p>
+  <div class="markdown level1 summary"><p>Creates a new range with the specified values.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Vector3Range(Vector3 min, Vector3 max)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
         <td><span class="parametername">min</span></td>
         <td><p>The lower bound of the range.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Vector3</span></td>
         <td><span class="parametername">max</span></td>
         <td><p>The upper bound of the range.</p>
 </td>
@@ -136,67 +129,33 @@ public struct Vector3Range : INumberRange&lt;Vector3&gt;, IRange&lt;Vector3&gt;<
   </h3>
   <a id="Zigurous_DataStructures_Vector3Range_Delta_" data-uid="Zigurous.DataStructures.Vector3Range.Delta*"></a>
   <h4 id="Zigurous_DataStructures_Vector3Range_Delta" data-uid="Zigurous.DataStructures.Vector3Range.Delta">Delta</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The difference between the maximum and minimum values.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public readonly Vector3 Delta { get; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><p>The difference between the maximum and minimum values.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <a id="Zigurous_DataStructures_Vector3Range_max_" data-uid="Zigurous.DataStructures.Vector3Range.max*"></a>
   <h4 id="Zigurous_DataStructures_Vector3Range_max" data-uid="Zigurous.DataStructures.Vector3Range.max">max</h4>
   <div class="markdown level1 summary"><p>The upper bound of the range.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Vector3 max { get; set; }</code></pre>
   </div>
   <a id="Zigurous_DataStructures_Vector3Range_Median_" data-uid="Zigurous.DataStructures.Vector3Range.Median*"></a>
   <h4 id="Zigurous_DataStructures_Vector3Range_Median" data-uid="Zigurous.DataStructures.Vector3Range.Median">Median</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The median value of the range.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public readonly Vector3 Median { get; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><p>The median value of the range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <a id="Zigurous_DataStructures_Vector3Range_min_" data-uid="Zigurous.DataStructures.Vector3Range.min*"></a>
   <h4 id="Zigurous_DataStructures_Vector3Range_min" data-uid="Zigurous.DataStructures.Vector3Range.min">min</h4>
   <div class="markdown level1 summary"><p>The lower bound of the range.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Vector3 min { get; set; }</code></pre>
   </div>
@@ -204,166 +163,106 @@ public struct Vector3Range : INumberRange&lt;Vector3&gt;, IRange&lt;Vector3&gt;<
   </h3>
   <a id="Zigurous_DataStructures_Vector3Range_Clamp_" data-uid="Zigurous.DataStructures.Vector3Range.Clamp*"></a>
   <h4 id="Zigurous_DataStructures_Vector3Range_Clamp_Vector3_" data-uid="Zigurous.DataStructures.Vector3Range.Clamp(Vector3)">Clamp(Vector3)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Clamps the <code data-dev-comment-type="paramref" class="paramref">value</code> to the range.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Vector3 Clamp(Vector3 value)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
         <td><span class="parametername">value</span></td>
         <td><p>The value to clamp.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">Vector3</span></td>
-        <td><p>The <code data-dev-comment-type="paramref" class="paramref">value</code> clamped to the range.</p>
+        <td><p>The clamped value.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_Vector3Range_Includes_" data-uid="Zigurous.DataStructures.Vector3Range.Includes*"></a>
   <h4 id="Zigurous_DataStructures_Vector3Range_Includes_Vector3_" data-uid="Zigurous.DataStructures.Vector3Range.Includes(Vector3)">Includes(Vector3)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the <code data-dev-comment-type="paramref" class="paramref">value</code> is in the range.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool Includes(Vector3 value)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
         <td><span class="parametername">value</span></td>
         <td><p>The value to check.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the <code data-dev-comment-type="paramref" class="paramref">value</code> is in the range.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_Vector3Range_Includes_" data-uid="Zigurous.DataStructures.Vector3Range.Includes*"></a>
   <h4 id="Zigurous_DataStructures_Vector3Range_Includes_Vector3_System_Boolean_System_Boolean_" data-uid="Zigurous.DataStructures.Vector3Range.Includes(Vector3,System.Boolean,System.Boolean)">Includes(Vector3, Boolean, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the <code data-dev-comment-type="paramref" class="paramref">value</code> is in the range.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool Includes(Vector3 value, bool includeMin, bool includeMax)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
         <td><span class="parametername">value</span></td>
         <td><p>The value to check.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">includeMin</span></td>
         <td><p>The minimum value is inclusive if true, exclusive if false.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">includeMax</span></td>
         <td><p>The maximum value is inclusive if true, exclusive if false.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the <code data-dev-comment-type="paramref" class="paramref">value</code> is in the range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <a id="Zigurous_DataStructures_Vector3Range_Random_" data-uid="Zigurous.DataStructures.Vector3Range.Random*"></a>
   <h4 id="Zigurous_DataStructures_Vector3Range_Random" data-uid="Zigurous.DataStructures.Vector3Range.Random">Random()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns a random value in the range.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Vector3 Random()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><p>A random value in the range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Zigurous.DataStructures.INumberRange-1.html">INumberRange&lt;T&gt;</a>

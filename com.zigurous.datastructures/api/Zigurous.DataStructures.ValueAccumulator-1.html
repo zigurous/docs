@@ -80,7 +80,6 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.DataStructures.ValueAccumulator`1">
-  
   <h1 id="Zigurous_DataStructures_ValueAccumulator_1" data-uid="Zigurous.DataStructures.ValueAccumulator`1" class="text-break">Class ValueAccumulator&lt;T&gt;
   </h1>
   <div class="markdown level0 summary"><p>Accumulates a set of stored values into a single total value.</p>
@@ -101,15 +100,13 @@
       <div class="level2"><a class="xref" href="Zigurous.DataStructures.Vector4Accumulator.html">Vector4Accumulator</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.DataStructures.html">Zigurous.DataStructures</a></h6>
-  <h5 id="Zigurous_DataStructures_ValueAccumulator_1_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract class ValueAccumulator&lt;T&gt;</code></pre>
   </div>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -125,34 +122,17 @@
   </h3>
   <a id="Zigurous_DataStructures_ValueAccumulator_1_Count_" data-uid="Zigurous.DataStructures.ValueAccumulator`1.Count*"></a>
   <h4 id="Zigurous_DataStructures_ValueAccumulator_1_Count" data-uid="Zigurous.DataStructures.ValueAccumulator`1.Count">Count</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of unique values being accumulated.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int Count { get; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><p>The number of unique values being accumulated.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <a id="Zigurous_DataStructures_ValueAccumulator_1_total_" data-uid="Zigurous.DataStructures.ValueAccumulator`1.total*"></a>
   <h4 id="Zigurous_DataStructures_ValueAccumulator_1_total" data-uid="Zigurous.DataStructures.ValueAccumulator`1.total">total</h4>
   <div class="markdown level1 summary"><p>The total accumulated value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public T total { get; protected set; }</code></pre>
   </div>
@@ -162,7 +142,6 @@
 Values are stored with unique identifiers.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Dictionary&lt;int, T&gt; values { get; protected set; }</code></pre>
   </div>
@@ -173,33 +152,28 @@ Values are stored with unique identifiers.</p>
   <div class="markdown level1 summary"><p>Increases the accumulated total by a given value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected abstract T Add(T value)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">value</span></td>
         <td><p>The value to add to the total.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -216,48 +190,29 @@ Values are stored with unique identifiers.</p>
   <div class="markdown level1 summary"><p>Removes all stored values and resets the total accumulated value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
   </div>
   <a id="Zigurous_DataStructures_ValueAccumulator_1_GetValue_" data-uid="Zigurous.DataStructures.ValueAccumulator`1.GetValue*"></a>
   <h4 id="Zigurous_DataStructures_ValueAccumulator_1_GetValue_System_Int32_" data-uid="Zigurous.DataStructures.ValueAccumulator`1.GetValue(System.Int32)">GetValue(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the stored value with the given <code data-dev-comment-type="paramref" class="paramref">identifier</code>,
+or the default of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> if the value does not exist.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public T GetValue(int identifier)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">identifier</span></td>
         <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>The stored value with the given <code data-dev-comment-type="paramref" class="paramref">identifier</code>.</p>
-</td>
       </tr>
     </tbody>
   </table>
@@ -267,22 +222,18 @@ Values are stored with unique identifiers.</p>
 and updates the total accumulated value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void RemoveValue(int identifier)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">identifier</span></td>
         <td><p>The identifier of the stored value to remove.</p>
 </td>
@@ -296,28 +247,23 @@ The total accumulated value is updated based on the difference
 between the new and old value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void SetValue(T value, int identifier)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">value</span></td>
         <td><p>The value to set.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">identifier</span></td>
         <td><p>The identifier of the value.</p>
 </td>
@@ -329,33 +275,28 @@ between the new and old value.</p>
   <div class="markdown level1 summary"><p>Decreases the accumulated total by a given value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected abstract T Subtract(T value)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">value</span></td>
         <td><p>The value to subtract from the total.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>

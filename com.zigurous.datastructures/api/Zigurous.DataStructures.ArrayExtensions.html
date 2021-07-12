@@ -80,10 +80,9 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.DataStructures.ArrayExtensions">
-  
   <h1 id="Zigurous_DataStructures_ArrayExtensions" data-uid="Zigurous.DataStructures.ArrayExtensions" class="text-break">Class ArrayExtensions
   </h1>
-  <div class="markdown level0 summary"><p>Exposes extension methods for arrays.</p>
+  <div class="markdown level0 summary"><p>Extension methods for arrays.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -92,66 +91,58 @@
     <div class="level1"><span class="xref">ArrayExtensions</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.DataStructures.html">Zigurous.DataStructures</a></h6>
-  <h5 id="Zigurous_DataStructures_ArrayExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class ArrayExtensions</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  <a id="Zigurous_DataStructures_ArrayExtensions_Concat_" data-uid="Zigurous.DataStructures.ArrayExtensions.Concat*"></a>
-  <h4 id="Zigurous_DataStructures_ArrayExtensions_Concat__1___0_____0_" data-uid="Zigurous.DataStructures.ArrayExtensions.Concat``1(``0[],``0)">Concat&lt;T&gt;(T[], T)</h4>
-  <div class="markdown level1 summary"><p>Appends an element to the end of an array.</p>
+  <a id="Zigurous_DataStructures_ArrayExtensions_Append_" data-uid="Zigurous.DataStructures.ArrayExtensions.Append*"></a>
+  <h4 id="Zigurous_DataStructures_ArrayExtensions_Append__1___0_____0_" data-uid="Zigurous.DataStructures.ArrayExtensions.Append``1(``0[],``0)">Append&lt;T&gt;(T[], T)</h4>
+  <div class="markdown level1 summary"><p>Appends <code data-dev-comment-type="paramref" class="paramref">element</code> to the end of the array.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T[] Concat&lt;T&gt;(this T[] array, T element)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T[] Append&lt;T&gt;(this T[] array, T element)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to add the element to.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">element</span></td>
         <td><p>The element to add.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>T[]</td>
-        <td><p>A new array with the added <code data-dev-comment-type="paramref" class="paramref">element</code>.</p>
+        <td><p>A new array with the added element.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -165,58 +156,51 @@
   </table>
   <a id="Zigurous_DataStructures_ArrayExtensions_Concat_" data-uid="Zigurous.DataStructures.ArrayExtensions.Concat*"></a>
   <h4 id="Zigurous_DataStructures_ArrayExtensions_Concat__1___0_____0___" data-uid="Zigurous.DataStructures.ArrayExtensions.Concat``1(``0[],``0[])">Concat&lt;T&gt;(T[], T[])</h4>
-  <div class="markdown level1 summary"><p>Appends an array of elements to the end of an array.</p>
+  <div class="markdown level1 summary"><p>Concats <code data-dev-comment-type="paramref" class="paramref">elements</code> to the end of the array.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T[] Concat&lt;T&gt;(this T[] array, T[] elements)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to add the elements to.</p>
 </td>
       </tr>
       <tr>
-        <td>T[]</td>
         <td><span class="parametername">elements</span></td>
         <td><p>The elements to add.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>T[]</td>
-        <td><p>A new array with the added <code data-dev-comment-type="paramref" class="paramref">elements</code>.</p>
+        <td><p>A new array with the added elements.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -230,58 +214,37 @@
   </table>
   <a id="Zigurous_DataStructures_ArrayExtensions_Contains_" data-uid="Zigurous.DataStructures.ArrayExtensions.Contains*"></a>
   <h4 id="Zigurous_DataStructures_ArrayExtensions_Contains__1___0_____0_" data-uid="Zigurous.DataStructures.ArrayExtensions.Contains``1(``0[],``0)">Contains&lt;T&gt;(T[], T)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the array contains <code data-dev-comment-type="paramref" class="paramref">element</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool Contains&lt;T&gt;(this T[] array, T element)
     where T : IEquatable&lt;T&gt;</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to search in.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">element</span></td>
         <td><p>The element to search for.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the array contains the <code data-dev-comment-type="paramref" class="paramref">element</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -295,57 +258,37 @@
   </table>
   <a id="Zigurous_DataStructures_ArrayExtensions_ElementAt_" data-uid="Zigurous.DataStructures.ArrayExtensions.ElementAt*"></a>
   <h4 id="Zigurous_DataStructures_ArrayExtensions_ElementAt__1___0___System_Int32_" data-uid="Zigurous.DataStructures.ArrayExtensions.ElementAt``1(``0[],System.Int32)">ElementAt&lt;T&gt;(T[], Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the element at <code data-dev-comment-type="paramref" class="paramref">index</code>, or the default of
+<code data-dev-comment-type="typeparamref" class="typeparamref">T</code> if the array is empty.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T ElementAt&lt;T&gt;(this T[] array, int index)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to search in.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
         <td><p>The index of the element to return.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>The element at the specified <code data-dev-comment-type="paramref" class="paramref">index</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -359,42 +302,37 @@
   </table>
   <a id="Zigurous_DataStructures_ArrayExtensions_Filter_" data-uid="Zigurous.DataStructures.ArrayExtensions.Filter*"></a>
   <h4 id="Zigurous_DataStructures_ArrayExtensions_Filter__1___0___System_Predicate___0__" data-uid="Zigurous.DataStructures.ArrayExtensions.Filter``1(``0[],System.Predicate{``0})">Filter&lt;T&gt;(T[], Predicate&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Filters the array to only contain elements that satisfy the <code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
+  <div class="markdown level1 summary"><p>Filters the array to only contain elements that satisfy the
+<code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T[] Filter&lt;T&gt;(this T[] array, Predicate&lt;T&gt; predicate)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to filter.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Predicate</span>&lt;T&gt;</td>
         <td><span class="parametername">predicate</span></td>
         <td><p>The predicate to use.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -406,11 +344,10 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -424,51 +361,32 @@
   </table>
   <a id="Zigurous_DataStructures_ArrayExtensions_First_" data-uid="Zigurous.DataStructures.ArrayExtensions.First*"></a>
   <h4 id="Zigurous_DataStructures_ArrayExtensions_First__1___0___" data-uid="Zigurous.DataStructures.ArrayExtensions.First``1(``0[])">First&lt;T&gt;(T[])</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the first element in the array, or the default of
+<code data-dev-comment-type="typeparamref" class="typeparamref">T</code> if the array is empty.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T First&lt;T&gt;(this T[] array)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to get the element from.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>The first element in the array.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -482,57 +400,38 @@
   </table>
   <a id="Zigurous_DataStructures_ArrayExtensions_First_" data-uid="Zigurous.DataStructures.ArrayExtensions.First*"></a>
   <h4 id="Zigurous_DataStructures_ArrayExtensions_First__1___0___System_Predicate___0__" data-uid="Zigurous.DataStructures.ArrayExtensions.First``1(``0[],System.Predicate{``0})">First&lt;T&gt;(T[], Predicate&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the first element in the array that satisfies the
+<code data-dev-comment-type="paramref" class="paramref">predicate</code>, or the default of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>
+if no element satisfies the <code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T First&lt;T&gt;(this T[] array, Predicate&lt;T&gt; predicate)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to get the element from.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Predicate</span>&lt;T&gt;</td>
         <td><span class="parametername">predicate</span></td>
         <td><p>The predicate to use.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>The first element in the array that satisfies the <code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -546,52 +445,33 @@
   </table>
   <a id="Zigurous_DataStructures_ArrayExtensions_FirstNonNull_" data-uid="Zigurous.DataStructures.ArrayExtensions.FirstNonNull*"></a>
   <h4 id="Zigurous_DataStructures_ArrayExtensions_FirstNonNull__1___0___" data-uid="Zigurous.DataStructures.ArrayExtensions.FirstNonNull``1(``0[])">FirstNonNull&lt;T&gt;(T[])</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the first non-null element in the array, or the default of
+<code data-dev-comment-type="typeparamref" class="typeparamref">T</code> if all elements are null.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T FirstNonNull&lt;T&gt;(this T[] array)
     where T : class</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to get the element from.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>The first non-null element in the array.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -608,49 +488,43 @@
   <div class="markdown level1 summary"><p>Flattens a three-dimensional array into a new one-dimensional array.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T[] Flatten&lt;T&gt;(this T[,, ] array)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[,,]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The three-dimensional array to flatten.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>T[]</td>
-        <td><p>A one-dimensional array that contains all the elements of the three-dimensional array.</p>
+        <td><p>A new array with the flattened elements.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -667,49 +541,43 @@
   <div class="markdown level1 summary"><p>Flattens a two-dimensional array into a new one-dimensional array.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T[] Flatten&lt;T&gt;(this T[, ] array)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[,]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The two-dimensional array to flatten.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>T[]</td>
-        <td><p>A one-dimensional array that contains all the elements of the two-dimensional array.</p>
+        <td><p>A new array with the flattened elements.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -726,39 +594,33 @@
   <div class="markdown level1 summary"><p>Invokes an <span class="xref">System.Action&lt;T&gt;</span> for each element in the array.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void For&lt;T&gt;(this T[] array, Action&lt;(T element, int index)&gt; action)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to iterate over.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.ValueTuple</span>&lt;T, <span class="xref">System.Int32</span>&gt;&gt;</td>
         <td><span class="parametername">action</span></td>
         <td><p>The action to invoke.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -775,39 +637,33 @@
   <div class="markdown level1 summary"><p>Invokes an <span class="xref">System.Action&lt;T&gt;</span> for each element in the array.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ForEach&lt;T&gt;(this T[] array, Action&lt;T&gt; action)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to iterate over.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
         <td><span class="parametername">action</span></td>
         <td><p>The action to invoke.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -821,58 +677,37 @@
   </table>
   <a id="Zigurous_DataStructures_ArrayExtensions_IndexOf_" data-uid="Zigurous.DataStructures.ArrayExtensions.IndexOf*"></a>
   <h4 id="Zigurous_DataStructures_ArrayExtensions_IndexOf__1___0_____0_" data-uid="Zigurous.DataStructures.ArrayExtensions.IndexOf``1(``0[],``0)">IndexOf&lt;T&gt;(T[], T)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the index of <code data-dev-comment-type="paramref" class="paramref">element</code> in the array.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int IndexOf&lt;T&gt;(this T[] array, T element)
     where T : IEquatable&lt;T&gt;</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to search in.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">element</span></td>
         <td><p>The element to search for.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><p>The index of the <code data-dev-comment-type="paramref" class="paramref">element</code> in the array.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -886,57 +721,37 @@
   </table>
   <a id="Zigurous_DataStructures_ArrayExtensions_IsAny_" data-uid="Zigurous.DataStructures.ArrayExtensions.IsAny*"></a>
   <h4 id="Zigurous_DataStructures_ArrayExtensions_IsAny__1___0___System_Predicate___0__" data-uid="Zigurous.DataStructures.ArrayExtensions.IsAny``1(``0[],System.Predicate{``0})">IsAny&lt;T&gt;(T[], Predicate&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if any element in the array satisfies the
+<code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsAny&lt;T&gt;(this T[] array, Predicate&lt;T&gt; predicate)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to search in.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Predicate</span>&lt;T&gt;</td>
         <td><span class="parametername">predicate</span></td>
         <td><p>The predicate to use.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if any element in the array satisfies the <code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -950,57 +765,37 @@
   </table>
   <a id="Zigurous_DataStructures_ArrayExtensions_IsEach_" data-uid="Zigurous.DataStructures.ArrayExtensions.IsEach*"></a>
   <h4 id="Zigurous_DataStructures_ArrayExtensions_IsEach__1___0___System_Predicate___0__" data-uid="Zigurous.DataStructures.ArrayExtensions.IsEach``1(``0[],System.Predicate{``0})">IsEach&lt;T&gt;(T[], Predicate&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if each element in the array satisfies the
+<code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsEach&lt;T&gt;(this T[] array, Predicate&lt;T&gt; predicate)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to search in.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Predicate</span>&lt;T&gt;</td>
         <td><span class="parametername">predicate</span></td>
         <td><p>The predicate to use.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if each element in the array satisfies the <code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1014,250 +809,149 @@
   </table>
   <a id="Zigurous_DataStructures_ArrayExtensions_IsEmpty_" data-uid="Zigurous.DataStructures.ArrayExtensions.IsEmpty*"></a>
   <h4 id="Zigurous_DataStructures_ArrayExtensions_IsEmpty_System_Array_" data-uid="Zigurous.DataStructures.ArrayExtensions.IsEmpty(System.Array)">IsEmpty(Array)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the array is empty.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsEmpty(this Array array)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Array</span></td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to check.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the array is empty.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_ArrayExtensions_IsInBounds_" data-uid="Zigurous.DataStructures.ArrayExtensions.IsInBounds*"></a>
   <h4 id="Zigurous_DataStructures_ArrayExtensions_IsInBounds_System_Array_System_Int32_" data-uid="Zigurous.DataStructures.ArrayExtensions.IsInBounds(System.Array,System.Int32)">IsInBounds(Array, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if <code data-dev-comment-type="paramref" class="paramref">index</code> is within the bounds of the array.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsInBounds(this Array array, int index)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Array</span></td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to check.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
         <td><p>The index to check.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the <code data-dev-comment-type="paramref" class="paramref">index</code> is within the bounds of the array.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_ArrayExtensions_IsNotEmpty_" data-uid="Zigurous.DataStructures.ArrayExtensions.IsNotEmpty*"></a>
   <h4 id="Zigurous_DataStructures_ArrayExtensions_IsNotEmpty_System_Array_" data-uid="Zigurous.DataStructures.ArrayExtensions.IsNotEmpty(System.Array)">IsNotEmpty(Array)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the array is not empty.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsNotEmpty(this Array array)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Array</span></td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to check.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the array is not empty.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_DataStructures_ArrayExtensions_IsNotInBounds_" data-uid="Zigurous.DataStructures.ArrayExtensions.IsNotInBounds*"></a>
   <h4 id="Zigurous_DataStructures_ArrayExtensions_IsNotInBounds_System_Array_System_Int32_" data-uid="Zigurous.DataStructures.ArrayExtensions.IsNotInBounds(System.Array,System.Int32)">IsNotInBounds(Array, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if <code data-dev-comment-type="paramref" class="paramref">index</code> is out of bounds of the array.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsNotInBounds(this Array array, int index)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Array</span></td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to check.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
         <td><p>The index to check.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the <code data-dev-comment-type="paramref" class="paramref">index</code> is out of bounds of the array.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <a id="Zigurous_DataStructures_ArrayExtensions_Join_" data-uid="Zigurous.DataStructures.ArrayExtensions.Join*"></a>
   <h4 id="Zigurous_DataStructures_ArrayExtensions_Join__1___0___System_String_System_Int32_System_Int32_" data-uid="Zigurous.DataStructures.ArrayExtensions.Join``1(``0[],System.String,System.Int32,System.Int32)">Join&lt;T&gt;(T[], String, Int32, Int32)</h4>
-  <div class="markdown level1 summary"><p>Joins the elements of the array into a string.</p>
+  <div class="markdown level1 summary"><p>Joins the elements of the array into a string separated by the
+<code data-dev-comment-type="paramref" class="paramref">delimiter</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string Join&lt;T&gt;(this T[] array, string delimiter, int startIndex = 0, int endIndex = 2147483647)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to join.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">delimiter</span></td>
         <td><p>The delimiter to use.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">startIndex</span></td>
         <td><p>The index to start at.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">endIndex</span></td>
         <td><p>The index to end at.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>A string that contains the elements of the array separated by the <code data-dev-comment-type="paramref" class="paramref">delimiter</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1271,51 +965,32 @@
   </table>
   <a id="Zigurous_DataStructures_ArrayExtensions_Last_" data-uid="Zigurous.DataStructures.ArrayExtensions.Last*"></a>
   <h4 id="Zigurous_DataStructures_ArrayExtensions_Last__1___0___" data-uid="Zigurous.DataStructures.ArrayExtensions.Last``1(``0[])">Last&lt;T&gt;(T[])</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the last element in the array, or the default of
+<code data-dev-comment-type="typeparamref" class="typeparamref">T</code> if the array is empty.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Last&lt;T&gt;(this T[] array)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to get the element from.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>The last element in the array.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1329,57 +1004,39 @@
   </table>
   <a id="Zigurous_DataStructures_ArrayExtensions_Last_" data-uid="Zigurous.DataStructures.ArrayExtensions.Last*"></a>
   <h4 id="Zigurous_DataStructures_ArrayExtensions_Last__1___0___System_Predicate___0__" data-uid="Zigurous.DataStructures.ArrayExtensions.Last``1(``0[],System.Predicate{``0})">Last&lt;T&gt;(T[], Predicate&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the last element in the array that satisfies the
+<code data-dev-comment-type="paramref" class="paramref">predicate</code>, or the default of
+<code data-dev-comment-type="typeparamref" class="typeparamref">T</code> if no element satisfies the
+<code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Last&lt;T&gt;(this T[] array, Predicate&lt;T&gt; predicate)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to get the element from.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Predicate</span>&lt;T&gt;</td>
         <td><span class="parametername">predicate</span></td>
         <td><p>The predicate to use.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>The last element in the array that satisfies the <code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1393,52 +1050,33 @@
   </table>
   <a id="Zigurous_DataStructures_ArrayExtensions_LastNonNull_" data-uid="Zigurous.DataStructures.ArrayExtensions.LastNonNull*"></a>
   <h4 id="Zigurous_DataStructures_ArrayExtensions_LastNonNull__1___0___" data-uid="Zigurous.DataStructures.ArrayExtensions.LastNonNull``1(``0[])">LastNonNull&lt;T&gt;(T[])</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the last non-null element in the array, or the default of
+<code data-dev-comment-type="typeparamref" class="typeparamref">T</code> if all elements are null.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T LastNonNull&lt;T&gt;(this T[] array)
     where T : class</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to get the element from.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>The last non-null element from the end of the array.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1452,42 +1090,37 @@
   </table>
   <a id="Zigurous_DataStructures_ArrayExtensions_Map_" data-uid="Zigurous.DataStructures.ArrayExtensions.Map*"></a>
   <h4 id="Zigurous_DataStructures_ArrayExtensions_Map__2___0___System_Converter___0___1__" data-uid="Zigurous.DataStructures.ArrayExtensions.Map``2(``0[],System.Converter{``0,``1})">Map&lt;TInput, TOutput&gt;(TInput[], Converter&lt;TInput, TOutput&gt;)</h4>
-  <div class="markdown level1 summary"><p>Maps the elements of the array to a new array using a given <code data-dev-comment-type="paramref" class="paramref">converter</code>.</p>
+  <div class="markdown level1 summary"><p>Maps the elements of the array to a new array using a given
+<code data-dev-comment-type="paramref" class="paramref">converter</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static TOutput[] Map&lt;TInput, TOutput&gt;(this TInput[] array, Converter&lt;TInput, TOutput&gt; converter)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>TInput[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to map.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Converter</span>&lt;TInput, TOutput&gt;</td>
         <td><span class="parametername">converter</span></td>
         <td><p>The converter to use.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1499,11 +1132,10 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1525,34 +1157,29 @@
   <div class="markdown level1 summary"><p>Filters out all null elements from the array.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T[] NonNull&lt;T&gt;(this T[] array)
     where T : class</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to filter.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1564,11 +1191,10 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1582,51 +1208,32 @@
   </table>
   <a id="Zigurous_DataStructures_ArrayExtensions_Random_" data-uid="Zigurous.DataStructures.ArrayExtensions.Random*"></a>
   <h4 id="Zigurous_DataStructures_ArrayExtensions_Random__1___0___" data-uid="Zigurous.DataStructures.ArrayExtensions.Random``1(``0[])">Random&lt;T&gt;(T[])</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns a random element from the array, or the default of
+<code data-dev-comment-type="typeparamref" class="typeparamref">T</code> if the array is empty.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Random&lt;T&gt;(this T[] array)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to get the random element from.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>A random element from the array.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1643,45 +1250,38 @@
   <div class="markdown level1 summary"><p>Reduces the elements of the array to a single value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static TSum Reduce&lt;TElement, TSum&gt;(this TElement[] array, TSum initialValue, ArrayExtensions.Reducer&lt;TSum, TElement&gt; reducer)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>TElement[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to reduce.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">TSum</span></td>
         <td><span class="parametername">initialValue</span></td>
         <td><p>The initial value to use.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.DataStructures.ArrayExtensions.Reducer-2.html">ArrayExtensions.Reducer</a>&lt;TSum, TElement&gt;</td>
         <td><span class="parametername">reducer</span></td>
         <td><p>The reducer to use.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1693,11 +1293,10 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1716,42 +1315,37 @@
   </table>
   <a id="Zigurous_DataStructures_ArrayExtensions_RemoveAt_" data-uid="Zigurous.DataStructures.ArrayExtensions.RemoveAt*"></a>
   <h4 id="Zigurous_DataStructures_ArrayExtensions_RemoveAt__1___0___System_Int32_" data-uid="Zigurous.DataStructures.ArrayExtensions.RemoveAt``1(``0[],System.Int32)">RemoveAt&lt;T&gt;(T[], Int32)</h4>
-  <div class="markdown level1 summary"><p>Removes the element at the specified <code data-dev-comment-type="paramref" class="paramref">index</code> from the array.</p>
+  <div class="markdown level1 summary"><p>Removes the element at the specified <code data-dev-comment-type="paramref" class="paramref">index</code> from
+the array.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T[] RemoveAt&lt;T&gt;(this T[] array, int index)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to remove the element from.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
         <td><p>The index of the element to remove.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1763,11 +1357,10 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1784,33 +1377,28 @@
   <div class="markdown level1 summary"><p>Reverses the order of the elements in the array.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Reverse&lt;T&gt;(this T[] array)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to reverse.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1827,33 +1415,28 @@
   <div class="markdown level1 summary"><p>Reverses the order of the elements in the array.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T[] Reversed&lt;T&gt;(this T[] array)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to reverse.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1865,11 +1448,10 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1883,57 +1465,52 @@
   </table>
   <a id="Zigurous_DataStructures_ArrayExtensions_Slice_" data-uid="Zigurous.DataStructures.ArrayExtensions.Slice*"></a>
   <h4 id="Zigurous_DataStructures_ArrayExtensions_Slice__1___0___System_Int32_" data-uid="Zigurous.DataStructures.ArrayExtensions.Slice``1(``0[],System.Int32)">Slice&lt;T&gt;(T[], Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns a portion of the array containing the specified
+<code data-dev-comment-type="paramref" class="paramref">amount</code> of elements.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T[] Slice&lt;T&gt;(this T[] array, int amount)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to slice.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">amount</span></td>
         <td><p>The amount of elements to slice.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>T[]</td>
-        <td><p>A slice of the array with the specified <code data-dev-comment-type="paramref" class="paramref">amount</code> of elements.</p>
+        <td><p>A new array containing only the sliced elements.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1950,39 +1527,33 @@
   <div class="markdown level1 summary"><p>Sorts the elements of the array.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Sort&lt;T&gt;(this T[] array, Comparison&lt;T&gt; comparison)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to sort.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Comparison</span>&lt;T&gt;</td>
         <td><span class="parametername">comparison</span></td>
         <td><p>The comparison to use.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -1996,42 +1567,37 @@
   </table>
   <a id="Zigurous_DataStructures_ArrayExtensions_Where_" data-uid="Zigurous.DataStructures.ArrayExtensions.Where*"></a>
   <h4 id="Zigurous_DataStructures_ArrayExtensions_Where__1___0___System_Predicate___0__" data-uid="Zigurous.DataStructures.ArrayExtensions.Where``1(``0[],System.Predicate{``0})">Where&lt;T&gt;(T[], Predicate&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Filters the array to only contain elements that satisfy the <code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
+  <div class="markdown level1 summary"><p>Filters the array to only contain elements that satisfy the
+<code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T[] Where&lt;T&gt;(this T[] array, Predicate&lt;T&gt; predicate)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to filter.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Predicate</span>&lt;T&gt;</td>
         <td><span class="parametername">predicate</span></td>
         <td><p>The predicate to use.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -2043,11 +1609,10 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -2061,42 +1626,37 @@
   </table>
   <a id="Zigurous_DataStructures_ArrayExtensions_WrapIndex_" data-uid="Zigurous.DataStructures.ArrayExtensions.WrapIndex*"></a>
   <h4 id="Zigurous_DataStructures_ArrayExtensions_WrapIndex_System_Array_System_Int32_" data-uid="Zigurous.DataStructures.ArrayExtensions.WrapIndex(System.Array,System.Int32)">WrapIndex(Array, Int32)</h4>
-  <div class="markdown level1 summary"><p>Wraps the <code data-dev-comment-type="paramref" class="paramref">index</code> in the array to the other end.</p>
+  <div class="markdown level1 summary"><p>Wraps the <code data-dev-comment-type="paramref" class="paramref">index</code> in the array to the other end
+when outside the bounds.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int WrapIndex(this Array array, int index)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Array</span></td>
         <td><span class="parametername">array</span></td>
         <td><p>The array to wrap.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
         <td><p>The index to wrap.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>

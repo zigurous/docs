@@ -13,6 +13,22 @@ references:
   commentId: T:Zigurous.DataStructures.ArrayExtensions
   fullName: Zigurous.DataStructures.ArrayExtensions
   nameWithType: ArrayExtensions
+- uid: Zigurous.DataStructures.ArrayExtensions.Append*
+  name: Append
+  href: api/Zigurous.DataStructures.ArrayExtensions.html#Zigurous_DataStructures_ArrayExtensions_Append_
+  commentId: Overload:Zigurous.DataStructures.ArrayExtensions.Append
+  isSpec: "True"
+  fullName: Zigurous.DataStructures.ArrayExtensions.Append
+  nameWithType: ArrayExtensions.Append
+- uid: Zigurous.DataStructures.ArrayExtensions.Append``1(``0[],``0)
+  name: Append<T>(T[], T)
+  href: api/Zigurous.DataStructures.ArrayExtensions.html#Zigurous_DataStructures_ArrayExtensions_Append__1___0_____0_
+  commentId: M:Zigurous.DataStructures.ArrayExtensions.Append``1(``0[],``0)
+  name.vb: Append(Of T)(T(), T)
+  fullName: Zigurous.DataStructures.ArrayExtensions.Append<T>(T[], T)
+  fullName.vb: Zigurous.DataStructures.ArrayExtensions.Append(Of T)(T(), T)
+  nameWithType: ArrayExtensions.Append<T>(T[], T)
+  nameWithType.vb: ArrayExtensions.Append(Of T)(T(), T)
 - uid: Zigurous.DataStructures.ArrayExtensions.Concat*
   name: Concat
   href: api/Zigurous.DataStructures.ArrayExtensions.html#Zigurous_DataStructures_ArrayExtensions_Concat_
@@ -20,15 +36,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.DataStructures.ArrayExtensions.Concat
   nameWithType: ArrayExtensions.Concat
-- uid: Zigurous.DataStructures.ArrayExtensions.Concat``1(``0[],``0)
-  name: Concat<T>(T[], T)
-  href: api/Zigurous.DataStructures.ArrayExtensions.html#Zigurous_DataStructures_ArrayExtensions_Concat__1___0_____0_
-  commentId: M:Zigurous.DataStructures.ArrayExtensions.Concat``1(``0[],``0)
-  name.vb: Concat(Of T)(T(), T)
-  fullName: Zigurous.DataStructures.ArrayExtensions.Concat<T>(T[], T)
-  fullName.vb: Zigurous.DataStructures.ArrayExtensions.Concat(Of T)(T(), T)
-  nameWithType: ArrayExtensions.Concat<T>(T[], T)
-  nameWithType.vb: ArrayExtensions.Concat(Of T)(T(), T)
 - uid: Zigurous.DataStructures.ArrayExtensions.Concat``1(``0[],``0[])
   name: Concat<T>(T[], T[])
   href: api/Zigurous.DataStructures.ArrayExtensions.html#Zigurous_DataStructures_ArrayExtensions_Concat__1___0_____0___
@@ -3560,6 +3567,23 @@ references:
   fullName.vb: Zigurous.DataStructures.ObjectPool(Of T).ActiveCount
   nameWithType: ObjectPool<T>.ActiveCount
   nameWithType.vb: ObjectPool(Of T).ActiveCount
+- uid: Zigurous.DataStructures.ObjectPool`1.activeItems
+  name: activeItems
+  href: api/Zigurous.DataStructures.ObjectPool-1.html#Zigurous_DataStructures_ObjectPool_1_activeItems
+  commentId: P:Zigurous.DataStructures.ObjectPool`1.activeItems
+  fullName: Zigurous.DataStructures.ObjectPool<T>.activeItems
+  fullName.vb: Zigurous.DataStructures.ObjectPool(Of T).activeItems
+  nameWithType: ObjectPool<T>.activeItems
+  nameWithType.vb: ObjectPool(Of T).activeItems
+- uid: Zigurous.DataStructures.ObjectPool`1.activeItems*
+  name: activeItems
+  href: api/Zigurous.DataStructures.ObjectPool-1.html#Zigurous_DataStructures_ObjectPool_1_activeItems_
+  commentId: Overload:Zigurous.DataStructures.ObjectPool`1.activeItems
+  isSpec: "True"
+  fullName: Zigurous.DataStructures.ObjectPool<T>.activeItems
+  fullName.vb: Zigurous.DataStructures.ObjectPool(Of T).activeItems
+  nameWithType: ObjectPool<T>.activeItems
+  nameWithType.vb: ObjectPool(Of T).activeItems
 - uid: Zigurous.DataStructures.ObjectPool`1.AvailableCount
   name: AvailableCount
   href: api/Zigurous.DataStructures.ObjectPool-1.html#Zigurous_DataStructures_ObjectPool_1_AvailableCount
@@ -3629,6 +3653,14 @@ references:
   fullName.vb: Zigurous.DataStructures.ObjectPool(Of T).Empty
   nameWithType: ObjectPool<T>.Empty
   nameWithType.vb: ObjectPool(Of T).Empty
+- uid: Zigurous.DataStructures.ObjectPool`1.generator
+  name: generator
+  href: api/Zigurous.DataStructures.ObjectPool-1.html#Zigurous_DataStructures_ObjectPool_1_generator
+  commentId: P:Zigurous.DataStructures.ObjectPool`1.generator
+  fullName: Zigurous.DataStructures.ObjectPool<T>.generator
+  fullName.vb: Zigurous.DataStructures.ObjectPool(Of T).generator
+  nameWithType: ObjectPool<T>.generator
+  nameWithType.vb: ObjectPool(Of T).generator
 - uid: Zigurous.DataStructures.ObjectPool`1.Generator
   name: ObjectPool<T>.Generator
   href: api/Zigurous.DataStructures.ObjectPool-1.Generator.html
@@ -3638,6 +3670,15 @@ references:
   fullName.vb: Zigurous.DataStructures.ObjectPool(Of T).Generator
   nameWithType: ObjectPool<T>.Generator
   nameWithType.vb: ObjectPool(Of T).Generator
+- uid: Zigurous.DataStructures.ObjectPool`1.generator*
+  name: generator
+  href: api/Zigurous.DataStructures.ObjectPool-1.html#Zigurous_DataStructures_ObjectPool_1_generator_
+  commentId: Overload:Zigurous.DataStructures.ObjectPool`1.generator
+  isSpec: "True"
+  fullName: Zigurous.DataStructures.ObjectPool<T>.generator
+  fullName.vb: Zigurous.DataStructures.ObjectPool(Of T).generator
+  nameWithType: ObjectPool<T>.generator
+  nameWithType.vb: ObjectPool(Of T).generator
 - uid: Zigurous.DataStructures.ObjectPool`1.maxCapacity
   name: maxCapacity
   href: api/Zigurous.DataStructures.ObjectPool-1.html#Zigurous_DataStructures_ObjectPool_1_maxCapacity
@@ -3655,6 +3696,23 @@ references:
   fullName.vb: Zigurous.DataStructures.ObjectPool(Of T).maxCapacity
   nameWithType: ObjectPool<T>.maxCapacity
   nameWithType.vb: ObjectPool(Of T).maxCapacity
+- uid: Zigurous.DataStructures.ObjectPool`1.pool
+  name: pool
+  href: api/Zigurous.DataStructures.ObjectPool-1.html#Zigurous_DataStructures_ObjectPool_1_pool
+  commentId: P:Zigurous.DataStructures.ObjectPool`1.pool
+  fullName: Zigurous.DataStructures.ObjectPool<T>.pool
+  fullName.vb: Zigurous.DataStructures.ObjectPool(Of T).pool
+  nameWithType: ObjectPool<T>.pool
+  nameWithType.vb: ObjectPool(Of T).pool
+- uid: Zigurous.DataStructures.ObjectPool`1.pool*
+  name: pool
+  href: api/Zigurous.DataStructures.ObjectPool-1.html#Zigurous_DataStructures_ObjectPool_1_pool_
+  commentId: Overload:Zigurous.DataStructures.ObjectPool`1.pool
+  isSpec: "True"
+  fullName: Zigurous.DataStructures.ObjectPool<T>.pool
+  fullName.vb: Zigurous.DataStructures.ObjectPool(Of T).pool
+  nameWithType: ObjectPool<T>.pool
+  nameWithType.vb: ObjectPool(Of T).pool
 - uid: Zigurous.DataStructures.ObjectPool`1.Recycle(`0)
   name: Recycle(T)
   href: api/Zigurous.DataStructures.ObjectPool-1.html#Zigurous_DataStructures_ObjectPool_1_Recycle__0_

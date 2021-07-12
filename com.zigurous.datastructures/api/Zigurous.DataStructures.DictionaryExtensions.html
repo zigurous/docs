@@ -80,10 +80,9 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.DataStructures.DictionaryExtensions">
-  
   <h1 id="Zigurous_DataStructures_DictionaryExtensions" data-uid="Zigurous.DataStructures.DictionaryExtensions" class="text-break">Class DictionaryExtensions
   </h1>
-  <div class="markdown level0 summary"><p>Exposes extension methods for dictionaries.</p>
+  <div class="markdown level0 summary"><p>Extension methods for dictionaries.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -92,7 +91,6 @@
     <div class="level1"><span class="xref">DictionaryExtensions</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.DataStructures.html">Zigurous.DataStructures</a></h6>
-  <h5 id="Zigurous_DataStructures_DictionaryExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class DictionaryExtensions</code></pre>
   </div>
@@ -100,57 +98,51 @@
   </h3>
   <a id="Zigurous_DataStructures_DictionaryExtensions_Where_" data-uid="Zigurous.DataStructures.DictionaryExtensions.Where*"></a>
   <h4 id="Zigurous_DataStructures_DictionaryExtensions_Where__2_Dictionary___0___1__System_Predicate_KeyValuePair___0___1___" data-uid="Zigurous.DataStructures.DictionaryExtensions.Where``2(Dictionary{``0,``1},System.Predicate{KeyValuePair{``0,``1}})">Where&lt;TKey, TValue&gt;(Dictionary&lt;TKey, TValue&gt;, Predicate&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Filters the dictionary by a <code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Dictionary&lt;TKey, TValue&gt; Where&lt;TKey, TValue&gt;(this Dictionary&lt;TKey, TValue&gt; dictionary, Predicate&lt;KeyValuePair&lt;TKey, TValue&gt;&gt; predicate)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Dictionary</span>&lt;TKey, TValue&gt;</td>
         <td><span class="parametername">dictionary</span></td>
         <td><p>The dictionary to filter.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Predicate</span>&lt;<span class="xref">KeyValuePair</span>&lt;TKey, TValue&gt;&gt;</td>
         <td><span class="parametername">predicate</span></td>
         <td><p>The predicate to use.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">Dictionary</span>&lt;TKey, TValue&gt;</td>
-        <td><p>A new dictionary containing only the key-value pairs that match the <code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
+        <td><p>A new dictionary with the filtered key-value pairs removed.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -169,57 +161,51 @@
   </table>
   <a id="Zigurous_DataStructures_DictionaryExtensions_Where_" data-uid="Zigurous.DataStructures.DictionaryExtensions.Where*"></a>
   <h4 id="Zigurous_DataStructures_DictionaryExtensions_Where__2_Dictionary___0___1__KeyCollection_System_Predicate___0__" data-uid="Zigurous.DataStructures.DictionaryExtensions.Where``2(Dictionary{``0,``1}.KeyCollection,System.Predicate{``0})">Where&lt;TKey, TValue&gt;(Dictionary&lt;TKey, TValue&gt;.KeyCollection, Predicate&lt;TKey&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Filters the dictionary keys by a <code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static List&lt;TKey&gt; Where&lt;TKey, TValue&gt;(this Dictionary&lt;TKey, TValue&gt;.KeyCollection keys, Predicate&lt;TKey&gt; predicate)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Dictionary.KeyCollection</span>&lt;&gt;</td>
         <td><span class="parametername">keys</span></td>
         <td><p>The keys to filter.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Predicate</span>&lt;TKey&gt;</td>
         <td><span class="parametername">predicate</span></td>
         <td><p>The predicate to use.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">List</span>&lt;TKey&gt;</td>
-        <td><p>A new list containing only the keys that match the <code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
+        <td><p>A new list with the filtered keys removed.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -238,57 +224,51 @@
   </table>
   <a id="Zigurous_DataStructures_DictionaryExtensions_Where_" data-uid="Zigurous.DataStructures.DictionaryExtensions.Where*"></a>
   <h4 id="Zigurous_DataStructures_DictionaryExtensions_Where__2_Dictionary___0___1__ValueCollection_System_Predicate___1__" data-uid="Zigurous.DataStructures.DictionaryExtensions.Where``2(Dictionary{``0,``1}.ValueCollection,System.Predicate{``1})">Where&lt;TKey, TValue&gt;(Dictionary&lt;TKey, TValue&gt;.ValueCollection, Predicate&lt;TValue&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Filters the dictionary values by a <code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static List&lt;TValue&gt; Where&lt;TKey, TValue&gt;(this Dictionary&lt;TKey, TValue&gt;.ValueCollection values, Predicate&lt;TValue&gt; predicate)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Dictionary.ValueCollection</span>&lt;&gt;</td>
         <td><span class="parametername">values</span></td>
         <td><p>The values to filter.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Predicate</span>&lt;TValue&gt;</td>
         <td><span class="parametername">predicate</span></td>
         <td><p>The predicate to use.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">List</span>&lt;TValue&gt;</td>
-        <td><p>A new list containing only the values that match the <code data-dev-comment-type="paramref" class="paramref">predicate</code>.</p>
+        <td><p>A new list with the filtered values removed.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
