@@ -80,7 +80,6 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.Debug.Benchmark">
-  
   <h1 id="Zigurous_Debug_Benchmark" data-uid="Zigurous.Debug.Benchmark" class="text-break">Class Benchmark
   </h1>
   <div class="markdown level0 summary"><p>Measures the execution time of functions.</p>
@@ -92,7 +91,6 @@
     <div class="level1"><span class="xref">Benchmark</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Debug.html">Zigurous.Debug</a></h6>
-  <h5 id="Zigurous_Debug_Benchmark_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class Benchmark</code></pre>
   </div>
@@ -103,51 +101,43 @@
   <div class="markdown level1 summary"><p>Compares the execution time between <code data-dev-comment-type="paramref" class="paramref">foo</code> and <code data-dev-comment-type="paramref" class="paramref">bar</code> with a given amount of <code data-dev-comment-type="paramref" class="paramref">iterations</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static double Compare(Action foo, Action bar, int iterations, bool log = true)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Action</span></td>
         <td><span class="parametername">foo</span></td>
         <td><p>The first function to be executed.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span></td>
         <td><span class="parametername">bar</span></td>
         <td><p>The second function to be executed.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">iterations</span></td>
         <td><p>The amount of times each function is executed.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">log</span></td>
         <td><p>Logs the result to the console.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -164,45 +154,38 @@
   <div class="markdown level1 summary"><p>Measures the execution time of <code data-dev-comment-type="paramref" class="paramref">function</code> with a given amount of <code data-dev-comment-type="paramref" class="paramref">iterations</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static double Measure(Action foo, int iterations, bool log = true)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Action</span></td>
         <td><span class="parametername">foo</span></td>
         <td><p>The function to be executed.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">iterations</span></td>
         <td><p>The amount of times the function is executed.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">log</span></td>
         <td><p>Logs the result to the console.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -219,28 +202,23 @@
   <div class="markdown level1 summary"><p>Performs a benchmark that runs each function a given amount of <code data-dev-comment-type="paramref" class="paramref">iterations</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Run(int iterations, params Action[] foobar)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">iterations</span></td>
         <td><p>The amount of times each function is executed.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>[]</td>
         <td><span class="parametername">foobar</span></td>
         <td><p>The functions to be executed.</p>
 </td>

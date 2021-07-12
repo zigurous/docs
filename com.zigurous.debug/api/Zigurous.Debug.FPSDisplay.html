@@ -80,7 +80,6 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.Debug.FPSDisplay">
-  
   <h1 id="Zigurous_Debug_FPSDisplay" data-uid="Zigurous.Debug.FPSDisplay" class="text-break">Class FPSDisplay
   </h1>
   <div class="markdown level0 summary"><p>Displays the framerate of the application in realtime.</p>
@@ -92,7 +91,6 @@
     <div class="level1"><span class="xref">FPSDisplay</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Debug.html">Zigurous.Debug</a></h6>
-  <h5 id="Zigurous_Debug_FPSDisplay_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class FPSDisplay : MonoBehaviour</code></pre>
   </div>
@@ -102,7 +100,6 @@
   <div class="markdown level1 summary"><p>The UI text that display the framerate.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Text displayText</code></pre>
   </div>
@@ -110,7 +107,6 @@
   <div class="markdown level1 summary"><p>The amount of seconds between display updates.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float refreshRate</code></pre>
   </div>
@@ -121,7 +117,6 @@
   <div class="markdown level1 summary"><p>The number of decimal digits to display.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int decimals { get; set; }</code></pre>
   </div>
@@ -130,7 +125,6 @@
   <div class="markdown level1 summary"><p>The text format of the framerate display.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string displayFormat { get; protected set; }</code></pre>
   </div>
@@ -139,7 +133,6 @@
   <div class="markdown level1 summary"><p>The time of the next framerate update.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float nextUpdate { get; }</code></pre>
   </div>
@@ -150,22 +143,18 @@
   <div class="markdown level1 summary"><p>Sets the text format of the framerate display.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected virtual void SetDisplayFormat(int decimals)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">decimals</span></td>
         <td><p>The number of decimal digits to display.</p>
 </td>
@@ -177,22 +166,18 @@
   <div class="markdown level1 summary"><p>Updates the display with the given framerate.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected virtual void UpdateDisplay(float fps)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">fps</span></td>
         <td><p>The framerate to display.</p>
 </td>
