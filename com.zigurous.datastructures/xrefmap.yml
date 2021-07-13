@@ -4587,37 +4587,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.DataStructures.StringExtensions.IsNotEmpty
   nameWithType: StringExtensions.IsNotEmpty
-- uid: Zigurous.DataStructures.StringExtensions.NumberAbbreviation
-  name: StringExtensions.NumberAbbreviation
-  href: api/Zigurous.DataStructures.StringExtensions.NumberAbbreviation.html
-  commentId: T:Zigurous.DataStructures.StringExtensions.NumberAbbreviation
-  fullName: Zigurous.DataStructures.StringExtensions.NumberAbbreviation
-  nameWithType: StringExtensions.NumberAbbreviation
-- uid: Zigurous.DataStructures.StringExtensions.NumberAbbreviation.#ctor(System.Single,System.String)
-  name: NumberAbbreviation(Single, String)
-  href: api/Zigurous.DataStructures.StringExtensions.NumberAbbreviation.html#Zigurous_DataStructures_StringExtensions_NumberAbbreviation__ctor_System_Single_System_String_
-  commentId: M:Zigurous.DataStructures.StringExtensions.NumberAbbreviation.#ctor(System.Single,System.String)
-  fullName: Zigurous.DataStructures.StringExtensions.NumberAbbreviation.NumberAbbreviation(System.Single, System.String)
-  nameWithType: StringExtensions.NumberAbbreviation.NumberAbbreviation(Single, String)
-- uid: Zigurous.DataStructures.StringExtensions.NumberAbbreviation.#ctor*
-  name: NumberAbbreviation
-  href: api/Zigurous.DataStructures.StringExtensions.NumberAbbreviation.html#Zigurous_DataStructures_StringExtensions_NumberAbbreviation__ctor_
-  commentId: Overload:Zigurous.DataStructures.StringExtensions.NumberAbbreviation.#ctor
-  isSpec: "True"
-  fullName: Zigurous.DataStructures.StringExtensions.NumberAbbreviation.NumberAbbreviation
-  nameWithType: StringExtensions.NumberAbbreviation.NumberAbbreviation
-- uid: Zigurous.DataStructures.StringExtensions.NumberAbbreviation.factor
-  name: factor
-  href: api/Zigurous.DataStructures.StringExtensions.NumberAbbreviation.html#Zigurous_DataStructures_StringExtensions_NumberAbbreviation_factor
-  commentId: F:Zigurous.DataStructures.StringExtensions.NumberAbbreviation.factor
-  fullName: Zigurous.DataStructures.StringExtensions.NumberAbbreviation.factor
-  nameWithType: StringExtensions.NumberAbbreviation.factor
-- uid: Zigurous.DataStructures.StringExtensions.NumberAbbreviation.format
-  name: format
-  href: api/Zigurous.DataStructures.StringExtensions.NumberAbbreviation.html#Zigurous_DataStructures_StringExtensions_NumberAbbreviation_format
-  commentId: F:Zigurous.DataStructures.StringExtensions.NumberAbbreviation.format
-  fullName: Zigurous.DataStructures.StringExtensions.NumberAbbreviation.format
-  nameWithType: StringExtensions.NumberAbbreviation.format
 - uid: Zigurous.DataStructures.StringExtensions.Repeat(System.String,System.Int32)
   name: Repeat(String, Int32)
   href: api/Zigurous.DataStructures.StringExtensions.html#Zigurous_DataStructures_StringExtensions_Repeat_System_String_System_Int32_
@@ -4631,28 +4600,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.DataStructures.StringExtensions.Repeat
   nameWithType: StringExtensions.Repeat
-- uid: Zigurous.DataStructures.StringExtensions.ToAbbreviatedString(System.Single)
-  name: ToAbbreviatedString(Single)
-  href: api/Zigurous.DataStructures.StringExtensions.html#Zigurous_DataStructures_StringExtensions_ToAbbreviatedString_System_Single_
-  commentId: M:Zigurous.DataStructures.StringExtensions.ToAbbreviatedString(System.Single)
-  fullName: Zigurous.DataStructures.StringExtensions.ToAbbreviatedString(System.Single)
-  nameWithType: StringExtensions.ToAbbreviatedString(Single)
-- uid: Zigurous.DataStructures.StringExtensions.ToAbbreviatedString(System.Single,Zigurous.DataStructures.StringExtensions.NumberAbbreviation[])
-  name: ToAbbreviatedString(Single, StringExtensions.NumberAbbreviation[])
-  href: api/Zigurous.DataStructures.StringExtensions.html#Zigurous_DataStructures_StringExtensions_ToAbbreviatedString_System_Single_Zigurous_DataStructures_StringExtensions_NumberAbbreviation___
-  commentId: M:Zigurous.DataStructures.StringExtensions.ToAbbreviatedString(System.Single,Zigurous.DataStructures.StringExtensions.NumberAbbreviation[])
-  name.vb: ToAbbreviatedString(Single, StringExtensions.NumberAbbreviation())
-  fullName: Zigurous.DataStructures.StringExtensions.ToAbbreviatedString(System.Single, Zigurous.DataStructures.StringExtensions.NumberAbbreviation[])
-  fullName.vb: Zigurous.DataStructures.StringExtensions.ToAbbreviatedString(System.Single, Zigurous.DataStructures.StringExtensions.NumberAbbreviation())
-  nameWithType: StringExtensions.ToAbbreviatedString(Single, StringExtensions.NumberAbbreviation[])
-  nameWithType.vb: StringExtensions.ToAbbreviatedString(Single, StringExtensions.NumberAbbreviation())
-- uid: Zigurous.DataStructures.StringExtensions.ToAbbreviatedString*
-  name: ToAbbreviatedString
-  href: api/Zigurous.DataStructures.StringExtensions.html#Zigurous_DataStructures_StringExtensions_ToAbbreviatedString_
-  commentId: Overload:Zigurous.DataStructures.StringExtensions.ToAbbreviatedString
-  isSpec: "True"
-  fullName: Zigurous.DataStructures.StringExtensions.ToAbbreviatedString
-  nameWithType: StringExtensions.ToAbbreviatedString
 - uid: Zigurous.DataStructures.UIntRange
   name: UIntRange
   href: api/Zigurous.DataStructures.UIntRange.html

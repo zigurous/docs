@@ -323,6 +323,10 @@ reached capacity.</p>
 <code data-dev-comment-type="paramref" class="paramref">cleanup</code> function on each object in the pool.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
+  <h5 id="Zigurous_DataStructures_ObjectPool_1_Dispose_System_Action__0___remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level1 remarks"><p>The <code data-dev-comment-type="paramref" class="paramref">cleanup</code> function is useful, for example, if
+you want to destroy the objects when the pool is disposed.</p>
+</div>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Dispose(Action&lt;T&gt; cleanup)</code></pre>
   </div>
@@ -341,10 +345,6 @@ reached capacity.</p>
       </tr>
     </tbody>
   </table>
-  <h5 id="Zigurous_DataStructures_ObjectPool_1_Dispose_System_Action__0___remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>The <code data-dev-comment-type="paramref" class="paramref">cleanup</code> function is useful, for example, if
-you want to destroy the objects when the pool is disposed.</p>
-</div>
   <a id="Zigurous_DataStructures_ObjectPool_1_Empty_" data-uid="Zigurous.DataStructures.ObjectPool`1.Empty*"></a>
   <h4 id="Zigurous_DataStructures_ObjectPool_1_Empty" data-uid="Zigurous.DataStructures.ObjectPool`1.Empty">Empty()</h4>
   <div class="markdown level1 summary"><p>Empties the object pool of all objects.</p>
@@ -359,6 +359,10 @@ you want to destroy the objects when the pool is disposed.</p>
 <code data-dev-comment-type="paramref" class="paramref">cleanup</code> function on each object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
+  <h5 id="Zigurous_DataStructures_ObjectPool_1_Empty_System_Action__0___remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level1 remarks"><p>The <code data-dev-comment-type="paramref" class="paramref">cleanup</code> function is useful, for example, if
+you want to destroy the objects when the pool is emptied.</p>
+</div>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Empty(Action&lt;T&gt; cleanup)</code></pre>
   </div>
@@ -377,10 +381,6 @@ you want to destroy the objects when the pool is disposed.</p>
       </tr>
     </tbody>
   </table>
-  <h5 id="Zigurous_DataStructures_ObjectPool_1_Empty_System_Action__0___remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>The <code data-dev-comment-type="paramref" class="paramref">cleanup</code> function is useful, for example, if
-you want to destroy the objects when the pool is emptied.</p>
-</div>
   <a id="Zigurous_DataStructures_ObjectPool_1_Recycle_" data-uid="Zigurous.DataStructures.ObjectPool`1.Recycle*"></a>
   <h4 id="Zigurous_DataStructures_ObjectPool_1_Recycle__0_" data-uid="Zigurous.DataStructures.ObjectPool`1.Recycle(`0)">Recycle(T)</h4>
   <div class="markdown level1 summary"><p>Adds an item back to the object pool so it can be reused.</p>

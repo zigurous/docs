@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "changelog/CHANGELOG.html",
-          "hash": "/OtOdhZTYwIDxL2yvj4Rvsj8l09DNBa+B/LGxwweYa4="
+          "hash": "pXlO8TLQAqLkIk2UMkfQXHhm8v8N8zkLbkjFGvo+hwI="
         }
       },
       "is_incremental": false,
@@ -258,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.DataStructures.Identifier.html",
-          "hash": "k8soxG5Frma/k8URtJxDYHM9IUTNoiea64HmDndBQ54="
+          "hash": "J6AuiFktC2sBnh4iRWmaXI7J+Rfpmow2RFPwnKWp8wU="
         }
       },
       "is_incremental": false,
@@ -342,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.DataStructures.ObjectPool-1.html",
-          "hash": "LjTdA4qmGs/Komx6dzKvNGHmWwpKPyNiF/Fc8fi11iU="
+          "hash": "iCh90R+yYLCBIGOQEX7q3OoVTuTwmE/dIwfYvgSANq4="
         }
       },
       "is_incremental": false,
@@ -422,23 +422,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.DataStructures.StringExtensions.NumberAbbreviation.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.DataStructures.StringExtensions.NumberAbbreviation.html",
-          "hash": "zsHP68nkSVPyhz0wtW2rI6HDKzGHBn/9X5apk3lBe5U="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Zigurous.DataStructures.StringExtensions.yml",
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.DataStructures.StringExtensions.html",
-          "hash": "YYQ4o4UV3knmccwqfoaXLOPoTYMC39Uv2a0yLklQDms="
+          "hash": "HCE+W9h6aJBJ1cD94Phktf4sAyd5dljLAfoas2kHFLY="
         }
       },
       "is_incremental": false,
@@ -582,7 +570,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.DataStructures.html",
-          "hash": "eTw9MopvhDwjZfM+L8X8/fqNLub5Cy7wJ9zVPqtiKzI="
+          "hash": "hegvGA71u981BG32sk/myWZhi1/AZJkpJD3YQqAzB1Q="
         }
       },
       "is_incremental": false,
@@ -594,7 +582,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "YuX2KGRX0xbRkdkoxvmZ8ZG17mtrBEcqQ39kswq8NTc="
+          "hash": "tym/9PQR+6IwWj4bi7ba6ZrBVNr8XqRl+AakHG693WE="
         }
       },
       "is_incremental": false,
@@ -738,7 +726,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 47,
+          "total_file_count": 46,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
