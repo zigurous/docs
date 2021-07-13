@@ -469,6 +469,31 @@ references:
   fullName.vb: Zigurous.DataStructures.ArrayExtensions.Reversed(Of T)(T())
   nameWithType: ArrayExtensions.Reversed<T>(T[])
   nameWithType.vb: ArrayExtensions.Reversed(Of T)(T())
+- uid: Zigurous.DataStructures.ArrayExtensions.Shuffle*
+  name: Shuffle
+  href: api/Zigurous.DataStructures.ArrayExtensions.html#Zigurous_DataStructures_ArrayExtensions_Shuffle_
+  commentId: Overload:Zigurous.DataStructures.ArrayExtensions.Shuffle
+  isSpec: "True"
+  fullName: Zigurous.DataStructures.ArrayExtensions.Shuffle
+  nameWithType: ArrayExtensions.Shuffle
+- uid: Zigurous.DataStructures.ArrayExtensions.Shuffle``1(``0[])
+  name: Shuffle<T>(T[])
+  href: api/Zigurous.DataStructures.ArrayExtensions.html#Zigurous_DataStructures_ArrayExtensions_Shuffle__1___0___
+  commentId: M:Zigurous.DataStructures.ArrayExtensions.Shuffle``1(``0[])
+  name.vb: Shuffle(Of T)(T())
+  fullName: Zigurous.DataStructures.ArrayExtensions.Shuffle<T>(T[])
+  fullName.vb: Zigurous.DataStructures.ArrayExtensions.Shuffle(Of T)(T())
+  nameWithType: ArrayExtensions.Shuffle<T>(T[])
+  nameWithType.vb: ArrayExtensions.Shuffle(Of T)(T())
+- uid: Zigurous.DataStructures.ArrayExtensions.Shuffle``1(``0[],System.Random)
+  name: Shuffle<T>(T[], Random)
+  href: api/Zigurous.DataStructures.ArrayExtensions.html#Zigurous_DataStructures_ArrayExtensions_Shuffle__1___0___System_Random_
+  commentId: M:Zigurous.DataStructures.ArrayExtensions.Shuffle``1(``0[],System.Random)
+  name.vb: Shuffle(Of T)(T(), Random)
+  fullName: Zigurous.DataStructures.ArrayExtensions.Shuffle<T>(T[], System.Random)
+  fullName.vb: Zigurous.DataStructures.ArrayExtensions.Shuffle(Of T)(T(), System.Random)
+  nameWithType: ArrayExtensions.Shuffle<T>(T[], Random)
+  nameWithType.vb: ArrayExtensions.Shuffle(Of T)(T(), Random)
 - uid: Zigurous.DataStructures.ArrayExtensions.Slice*
   name: Slice
   href: api/Zigurous.DataStructures.ArrayExtensions.html#Zigurous_DataStructures_ArrayExtensions_Slice_
@@ -3311,6 +3336,31 @@ references:
   fullName.vb: Zigurous.DataStructures.ListExtensions.Reversed(Of T)(List(Of T))
   nameWithType: ListExtensions.Reversed<T>(List<T>)
   nameWithType.vb: ListExtensions.Reversed(Of T)(List(Of T))
+- uid: Zigurous.DataStructures.ListExtensions.Shuffle*
+  name: Shuffle
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_Shuffle_
+  commentId: Overload:Zigurous.DataStructures.ListExtensions.Shuffle
+  isSpec: "True"
+  fullName: Zigurous.DataStructures.ListExtensions.Shuffle
+  nameWithType: ListExtensions.Shuffle
+- uid: Zigurous.DataStructures.ListExtensions.Shuffle``1(List{``0})
+  name: Shuffle<T>(List<T>)
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_Shuffle__1_List___0__
+  commentId: M:Zigurous.DataStructures.ListExtensions.Shuffle``1(List{``0})
+  name.vb: Shuffle(Of T)(List(Of T))
+  fullName: Zigurous.DataStructures.ListExtensions.Shuffle<T>(List<T>)
+  fullName.vb: Zigurous.DataStructures.ListExtensions.Shuffle(Of T)(List(Of T))
+  nameWithType: ListExtensions.Shuffle<T>(List<T>)
+  nameWithType.vb: ListExtensions.Shuffle(Of T)(List(Of T))
+- uid: Zigurous.DataStructures.ListExtensions.Shuffle``1(List{``0},System.Random)
+  name: Shuffle<T>(List<T>, Random)
+  href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_Shuffle__1_List___0__System_Random_
+  commentId: M:Zigurous.DataStructures.ListExtensions.Shuffle``1(List{``0},System.Random)
+  name.vb: Shuffle(Of T)(List(Of T), Random)
+  fullName: Zigurous.DataStructures.ListExtensions.Shuffle<T>(List<T>, System.Random)
+  fullName.vb: Zigurous.DataStructures.ListExtensions.Shuffle(Of T)(List(Of T), System.Random)
+  nameWithType: ListExtensions.Shuffle<T>(List<T>, Random)
+  nameWithType.vb: ListExtensions.Shuffle(Of T)(List(Of T), Random)
 - uid: Zigurous.DataStructures.ListExtensions.Where*
   name: Where
   href: api/Zigurous.DataStructures.ListExtensions.html#Zigurous_DataStructures_ListExtensions_Where_

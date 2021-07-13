@@ -1463,6 +1463,93 @@ the array.</p>
       </tr>
     </tbody>
   </table>
+  <a id="Zigurous_DataStructures_ArrayExtensions_Shuffle_" data-uid="Zigurous.DataStructures.ArrayExtensions.Shuffle*"></a>
+  <h4 id="Zigurous_DataStructures_ArrayExtensions_Shuffle__1___0___" data-uid="Zigurous.DataStructures.ArrayExtensions.Shuffle``1(``0[])">Shuffle&lt;T&gt;(T[])</h4>
+  <div class="markdown level1 summary"><p>Shuffles the array in place.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 id="Zigurous_DataStructures_ArrayExtensions_Shuffle__1___0____remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level1 remarks"><p>The shuffle is done using the Fisher-Yates algorithm.</p>
+</div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Shuffle&lt;T&gt;(this T[] array)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">array</span></td>
+        <td><p>The array to shuffle.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the array.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_DataStructures_ArrayExtensions_Shuffle_" data-uid="Zigurous.DataStructures.ArrayExtensions.Shuffle*"></a>
+  <h4 id="Zigurous_DataStructures_ArrayExtensions_Shuffle__1___0___System_Random_" data-uid="Zigurous.DataStructures.ArrayExtensions.Shuffle``1(``0[],System.Random)">Shuffle&lt;T&gt;(T[], Random)</h4>
+  <div class="markdown level1 summary"><p>Shuffles the array in place using the given random number generator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 id="Zigurous_DataStructures_ArrayExtensions_Shuffle__1___0___System_Random__remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level1 remarks"><p>The shuffle is done using the Fisher-Yates algorithm.</p>
+</div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Shuffle&lt;T&gt;(this T[] array, Random rng)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">array</span></td>
+        <td><p>The array to shuffle.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">rng</span></td>
+        <td><p>The random number generator to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the array.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Zigurous_DataStructures_ArrayExtensions_Slice_" data-uid="Zigurous.DataStructures.ArrayExtensions.Slice*"></a>
   <h4 id="Zigurous_DataStructures_ArrayExtensions_Slice__1___0___System_Int32_" data-uid="Zigurous.DataStructures.ArrayExtensions.Slice``1(``0[],System.Int32)">Slice&lt;T&gt;(T[], Int32)</h4>
   <div class="markdown level1 summary"><p>Returns a portion of the array containing the specified
