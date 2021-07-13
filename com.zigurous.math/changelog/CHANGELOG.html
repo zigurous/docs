@@ -83,32 +83,52 @@
 <p>All notable changes to this project will be documented in this file.</p>
 <p>The format is based on <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>,
 and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semantic Versioning</a>.</p>
-<h2 id="104---20210630">[1.0.4] - 2021/06/30</h2>
+<h2 id="110---20210712">[1.1.0] - 2021/07/12</h2>
+<h3 id="added">Added</h3>
+<ul>
+<li>New <code>Dice</code> static class for rolling dice + additional dice roll functions</li>
+<li>New <code>NumberAbbreviation</code> data structure + extensions <code>ToAbbreviatedString</code></li>
+<li>New <code>DoubleEqualityComparer</code> to compare doubles based on # of decimals</li>
+<li>New <code>Vector2Int</code> extensions class</li>
+<li>New <code>Vector3Int</code> extensions class</li>
+<li>New <code>List</code> extensions class</li>
+<li>Extension methods for shuffling arrays and lists <code>Shuffle()</code></li>
+<li>Extension method <code>RandomPointInside</code> for <code>BoundsInt</code></li>
+<li>Additional <code>IsBetween</code> variants for inclusive/exclusive number ranges</li>
+<li>Dozens of new input processors and support for more types</li>
+</ul>
 <h3 id="changed">Changed</h3>
+<ul>
+<li>Dice roll functions moved from <code>Chance</code> class to new <code>Dice</code> class</li>
+<li>Overhauled documentation comments</li>
+<li>Updated package description and README</li>
+</ul>
+<h2 id="104---20210630">[1.0.4] - 2021/06/30</h2>
+<h3 id="changed-1">Changed</h3>
 <ul>
 <li>Renamed package to Math Utils</li>
 </ul>
 <h2 id="103---20210413">[1.0.3] - 2021/04/13</h2>
-<h3 id="added">Added</h3>
+<h3 id="added-1">Added</h3>
 <ul>
 <li>Wrap01 processors</li>
 </ul>
-<h3 id="changed-1">Changed</h3>
+<h3 id="changed-2">Changed</h3>
 <ul>
 <li>Decay function now does nothing if the input is zero</li>
 </ul>
 <h2 id="102---20210321">[1.0.2] - 2021/03/21</h2>
-<h3 id="changed-2">Changed</h3>
-<ul>
-<li>Updated package metadata</li>
-</ul>
-<h2 id="101---20210307">[1.0.1] - 2021/03/07</h2>
 <h3 id="changed-3">Changed</h3>
 <ul>
 <li>Updated package metadata</li>
 </ul>
+<h2 id="101---20210307">[1.0.1] - 2021/03/07</h2>
+<h3 id="changed-4">Changed</h3>
+<ul>
+<li>Updated package metadata</li>
+</ul>
 <h2 id="100---20210227">[1.0.0] - 2021/02/27</h2>
-<h3 id="added-1">Added</h3>
+<h3 id="added-2">Added</h3>
 <ul>
 <li>Processor Functions</li>
 <li>Chance Functions</li>

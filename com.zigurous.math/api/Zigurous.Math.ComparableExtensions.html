@@ -80,10 +80,10 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.Math.ComparableExtensions">
-  
   <h1 id="Zigurous_Math_ComparableExtensions" data-uid="Zigurous.Math.ComparableExtensions" class="text-break">Class ComparableExtensions
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Extension methods for IComparable.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -91,7 +91,6 @@
     <div class="level1"><span class="xref">ComparableExtensions</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Math.html">Zigurous.Math</a></h6>
-  <h5 id="Zigurous_Math_ComparableExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class ComparableExtensions</code></pre>
   </div>
@@ -99,301 +98,417 @@
   </h3>
   <a id="Zigurous_Math_ComparableExtensions_IsBetween_" data-uid="Zigurous.Math.ComparableExtensions.IsBetween*"></a>
   <h4 id="Zigurous_Math_ComparableExtensions_IsBetween__1___0___0___0_System_Boolean_System_Boolean_" data-uid="Zigurous.Math.ComparableExtensions.IsBetween``1(``0,``0,``0,System.Boolean,System.Boolean)">IsBetween&lt;T&gt;(T, T, T, Boolean, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the value is between <code data-dev-comment-type="paramref" class="paramref">min</code> and
+<code data-dev-comment-type="paramref" class="paramref">max</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsBetween&lt;T&gt;(this T value, T min, T max, bool includeMin, bool includeMax)
+    <pre><code class="lang-csharp hljs">public static bool IsBetween&lt;T&gt;(this T value, T min, T max, bool includeMin = true, bool includeMax = true)
     where T : IComparable&lt;T&gt;</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>The value to check.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">min</span></td>
-        <td></td>
+        <td><p>The minimum value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">max</span></td>
-        <td></td>
+        <td><p>The maximum value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">includeMin</span></td>
-        <td></td>
+        <td><p>The minimum value is inclusive if true, exclusive if false.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">includeMax</span></td>
-        <td></td>
+        <td><p>The maximum value is inclusive if true, exclusive if false.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>The type of value to check.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_Math_ComparableExtensions_IsBetweenExclusive_" data-uid="Zigurous.Math.ComparableExtensions.IsBetweenExclusive*"></a>
+  <h4 id="Zigurous_Math_ComparableExtensions_IsBetweenExclusive__1___0___0___0_" data-uid="Zigurous.Math.ComparableExtensions.IsBetweenExclusive``1(``0,``0,``0)">IsBetweenExclusive&lt;T&gt;(T, T, T)</h4>
+  <div class="markdown level1 summary"><p>Checks if the value is in the range
+(<code data-dev-comment-type="paramref" class="paramref">min</code>..<code data-dev-comment-type="paramref" class="paramref">max</code>).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsBetweenExclusive&lt;T&gt;(this T value, T min, T max)
+    where T : IComparable&lt;T&gt;</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to check.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">min</span></td>
+        <td><p>The minimum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">max</span></td>
+        <td><p>The maximum value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of value to check.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_Math_ComparableExtensions_IsBetweenExclusiveInclusive_" data-uid="Zigurous.Math.ComparableExtensions.IsBetweenExclusiveInclusive*"></a>
+  <h4 id="Zigurous_Math_ComparableExtensions_IsBetweenExclusiveInclusive__1___0___0___0_" data-uid="Zigurous.Math.ComparableExtensions.IsBetweenExclusiveInclusive``1(``0,``0,``0)">IsBetweenExclusiveInclusive&lt;T&gt;(T, T, T)</h4>
+  <div class="markdown level1 summary"><p>Checks if the value is in the range
+(<code data-dev-comment-type="paramref" class="paramref">min</code>..<code data-dev-comment-type="paramref" class="paramref">max</code>].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsBetweenExclusiveInclusive&lt;T&gt;(this T value, T min, T max)
+    where T : IComparable&lt;T&gt;</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to check.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">min</span></td>
+        <td><p>The minimum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">max</span></td>
+        <td><p>The maximum value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of value to check.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_Math_ComparableExtensions_IsBetweenInclusive_" data-uid="Zigurous.Math.ComparableExtensions.IsBetweenInclusive*"></a>
+  <h4 id="Zigurous_Math_ComparableExtensions_IsBetweenInclusive__1___0___0___0_" data-uid="Zigurous.Math.ComparableExtensions.IsBetweenInclusive``1(``0,``0,``0)">IsBetweenInclusive&lt;T&gt;(T, T, T)</h4>
+  <div class="markdown level1 summary"><p>Checks if the value is in the range
+[<code data-dev-comment-type="paramref" class="paramref">min</code>..<code data-dev-comment-type="paramref" class="paramref">max</code>].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsBetweenInclusive&lt;T&gt;(this T value, T min, T max)
+    where T : IComparable&lt;T&gt;</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to check.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">min</span></td>
+        <td><p>The minimum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">max</span></td>
+        <td><p>The maximum value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of value to check.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_Math_ComparableExtensions_IsBetweenInclusiveExclusive_" data-uid="Zigurous.Math.ComparableExtensions.IsBetweenInclusiveExclusive*"></a>
+  <h4 id="Zigurous_Math_ComparableExtensions_IsBetweenInclusiveExclusive__1___0___0___0_" data-uid="Zigurous.Math.ComparableExtensions.IsBetweenInclusiveExclusive``1(``0,``0,``0)">IsBetweenInclusiveExclusive&lt;T&gt;(T, T, T)</h4>
+  <div class="markdown level1 summary"><p>Checks if the value is in the range
+[<code data-dev-comment-type="paramref" class="paramref">min</code>..<code data-dev-comment-type="paramref" class="paramref">max</code>).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsBetweenInclusiveExclusive&lt;T&gt;(this T value, T min, T max)
+    where T : IComparable&lt;T&gt;</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to check.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">min</span></td>
+        <td><p>The minimum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">max</span></td>
+        <td><p>The maximum value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of value to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_ComparableExtensions_Max_" data-uid="Zigurous.Math.ComparableExtensions.Max*"></a>
   <h4 id="Zigurous_Math_ComparableExtensions_Max__1___0___" data-uid="Zigurous.Math.ComparableExtensions.Max``1(``0[])">Max&lt;T&gt;(T[])</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the maximum value in the array.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T Max&lt;T&gt;(this T[] array)
+    <pre><code class="lang-csharp hljs">public static T Max&lt;T&gt;(this T[] values)
     where T : IComparable&lt;T&gt;</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
-        <td><span class="parametername">array</span></td>
-        <td></td>
+        <td><span class="parametername">values</span></td>
+        <td><p>The values to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>The type of value to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_ComparableExtensions_Max_" data-uid="Zigurous.Math.ComparableExtensions.Max*"></a>
   <h4 id="Zigurous_Math_ComparableExtensions_Max__1_List___0__" data-uid="Zigurous.Math.ComparableExtensions.Max``1(List{``0})">Max&lt;T&gt;(List&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the maximum value in the list.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T Max&lt;T&gt;(this List&lt;T&gt; list)
+    <pre><code class="lang-csharp hljs">public static T Max&lt;T&gt;(this List&lt;T&gt; values)
     where T : IComparable&lt;T&gt;</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
-        <td><span class="parametername">list</span></td>
-        <td></td>
+        <td><span class="parametername">values</span></td>
+        <td><p>The values to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>The type of value to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_ComparableExtensions_Min_" data-uid="Zigurous.Math.ComparableExtensions.Min*"></a>
   <h4 id="Zigurous_Math_ComparableExtensions_Min__1___0___" data-uid="Zigurous.Math.ComparableExtensions.Min``1(``0[])">Min&lt;T&gt;(T[])</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the minimum value in the array.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T Min&lt;T&gt;(this T[] array)
+    <pre><code class="lang-csharp hljs">public static T Min&lt;T&gt;(this T[] values)
     where T : IComparable&lt;T&gt;</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
-        <td><span class="parametername">array</span></td>
-        <td></td>
+        <td><span class="parametername">values</span></td>
+        <td><p>The values to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>The type of value to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_ComparableExtensions_Min_" data-uid="Zigurous.Math.ComparableExtensions.Min*"></a>
   <h4 id="Zigurous_Math_ComparableExtensions_Min__1_List___0__" data-uid="Zigurous.Math.ComparableExtensions.Min``1(List{``0})">Min&lt;T&gt;(List&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the minimum value in the list.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T Min&lt;T&gt;(this List&lt;T&gt; list)
+    <pre><code class="lang-csharp hljs">public static T Min&lt;T&gt;(this List&lt;T&gt; values)
     where T : IComparable&lt;T&gt;</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
-        <td><span class="parametername">list</span></td>
-        <td></td>
+        <td><span class="parametername">values</span></td>
+        <td><p>The values to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>The type of value to check.</p>
+</td>
       </tr>
     </tbody>
   </table>

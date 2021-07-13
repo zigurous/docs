@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Input Processors | Math Utils </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Input Processors | Math Utils ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search">
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <div id="breadcrumb_placeholder">
+              <ul class="level1 breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="input-processors">Input Processors</h1>
+
+<p>The Math Utils package contains various functions for processing input values. An input processor takes a value and returns a processed result for it of the same type. See the <a class="xref" href="../api/Zigurous.Math.Processors.html">Processors</a> class for all available functions, or the reference below:</p>
+<h4 id="abs"><a class="xref" href="../api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Abs_System_Single_">Abs</a></h4>
+<p>Returns the absolute value of the input.</p>
+<h4 id="axis-deadzone"><a class="xref" href="../api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_AxisDeadzone_System_Single_System_Single_System_Single_">Axis Deadzone</a></h4>
+<p>An axis deadzone scales the input such that any value with an absolute value smaller than <code>min</code> is 0, and any value with an absolute value larger than <code>max</code> is 1 or -1.</p>
+<h4 id="ceil"><a class="xref" href="../api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Ceil_System_Single_">Ceil</a></h4>
+<p>Rounds the input up to the nearest whole number.</p>
+<h4 id="clamp"><a class="xref" href="../api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Clamp_System_Single_System_Single_System_Single_">Clamp</a></h4>
+<p>Clamps the input to the range [<code>min</code>..<code>max</code>].</p>
+<h4 id="clamp01"><a class="xref" href="../api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Clamp01_System_Single_">Clamp01</a></h4>
+<p>Clamps the input to the range [0..1].</p>
+<h4 id="decay"><a class="xref" href="../api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Decay_System_Single_System_Single_System_Single_">Decay</a></h4>
+<p>Decays the input back to zero over time at a given <code>rate</code>.<br>The <code>rate</code> is multiplied by <code>Time.deltaTime</code>.</p>
+<h4 id="floor"><a class="xref" href="../api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Floor_System_Single_">Floor</a></h4>
+<p>Rounds the input down to the nearest whole number.</p>
+<h4 id="invert"><a class="xref" href="../api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Invert_System_Single_">Invert</a></h4>
+<p>Inverts the input by multiplying by -1.</p>
+<p><strong>Note</strong>: Vectors can be inverted on a per-component basis.</p>
+<h4 id="normalize"><a class="xref" href="../api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Normalize_System_Single_System_Single_System_Single_System_Single_">Normalize</a></h4>
+<p>Normalizes the input in the range [<code>min</code>..<code>max</code>] to unsigned normalized form [0..1] if <code>min</code> is &gt;= <code>zero</code>, and to signed normalized form [-1..1] if <code>min</code> &lt; <code>zero</code>.</p>
+<p><strong>Note</strong>: Vectors are normalized by setting the unit length to 1 (the same as <code>vector.normalized</code>).</p>
+<h4 id="round"><a class="xref" href="../api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Round_System_Single_">Round</a></h4>
+<p>Rounds the input to the nearest whole number.</p>
+<h4 id="scale"><a class="xref" href="../api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Scale_System_Single_System_Single_">Scale</a></h4>
+<p>Multiplies the input by <code>factor</code>.</p>
+<p><strong>Note</strong>: Vectors can be scaled on a per-component basis.</p>
+<h4 id="stick-deadzone"><a class="xref" href="../api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_StickDeadzone_Vector2_System_Single_System_Single_">Stick Deadzone</a></h4>
+<p>A stick deadzone scales the input such that any value with a magnitude smaller than <code>min</code> results in (0,0), and any value with a magnitude greater than <code>max</code> is normalized to unit length (1).</p>
+<h4 id="wrap"><a class="xref" href="../api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Wrap_System_Single_System_Single_System_Single_">Wrap</a></h4>
+<p>Wraps the input to the range [<code>min</code>..<code>max</code>]. If the value exceeds <code>max</code> it wraps around to <code>min</code>, and if the value is less than <code>min</code> is wraps back to <code>max</code>.</p>
+<p><strong>Note</strong>: Integers are wrapped [inclusive..exclusive) to make it easier for arrays.</p>
+<h4 id="wrap01"><a class="xref" href="../api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Wrap01_System_Single_">Wrap01</a></h4>
+<p>Wraps the input to the range [0..1]. If the value exceeds 1 it wraps around to 0, and if the value is less than 0 it wraps back to 1.</p>
+</article>
+          </div>
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <ul class="level1 nav bs-docs-sidenav"></ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Generated by <b>DocFX</b><br>Copyright © 2021 Zigurous
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

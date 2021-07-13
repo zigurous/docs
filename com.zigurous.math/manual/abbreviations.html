@@ -4,11 +4,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class QuaternionExtensions
-   | Math Utils </title>
+    <title>Number Abbreviations | Math Utils </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class QuaternionExtensions
-   | Math Utils ">
+    <meta name="title" content="Number Abbreviations | Math Utils ">
     <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -79,83 +77,24 @@
                 <li></li>
               </ul>
             </div>
-            <article class="content wrap" id="_content" data-uid="Zigurous.Math.QuaternionExtensions">
-  <h1 id="Zigurous_Math_QuaternionExtensions" data-uid="Zigurous.Math.QuaternionExtensions" class="text-break">Class QuaternionExtensions
-  </h1>
-  <div class="markdown level0 summary"><p>Extension methods for quaternions.</p>
-</div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">QuaternionExtensions</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Math.html">Zigurous.Math</a></h6>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class QuaternionExtensions</code></pre>
-  </div>
-  <h3 id="methods">Methods
-  </h3>
-  <a id="Zigurous_Math_QuaternionExtensions_SmoothDamp_" data-uid="Zigurous.Math.QuaternionExtensions.SmoothDamp*"></a>
-  <h4 id="Zigurous_Math_QuaternionExtensions_SmoothDamp_Quaternion_Quaternion_Quaternion__System_Single_System_Single_" data-uid="Zigurous.Math.QuaternionExtensions.SmoothDamp(Quaternion,Quaternion,Quaternion@,System.Single,System.Single)">SmoothDamp(Quaternion, Quaternion, ref Quaternion, Single, Single)</h4>
-  <div class="markdown level1 summary"><p>Gradually changes a quaternion towards a desired goal over time.
-The quaternion is smoothed by some spring-damper like function,
-which will never overshoot.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Quaternion SmoothDamp(this Quaternion current, Quaternion target, ref Quaternion currentVelocity, float smoothTime, float maxSpeed = default(float))</code></pre>
-  </div>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Parameter</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">current</span></td>
-        <td><p>The current position.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">target</span></td>
-        <td><p>The position we are trying to reach.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">currentVelocity</span></td>
-        <td><p>The current velocity, this value is modified by the function every time you call it.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">smoothTime</span></td>
-        <td><p>Approximately the time it will take to reach the target. A smaller value will reach the target faster.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">maxSpeed</span></td>
-        <td><p>Optionally allows you to clamp the maximum speed.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Returns</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Quaternion</span></td>
-        <td><p>The smoothed quaternion.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="number-abbreviations">Number Abbreviations</h1>
+
+<p>The Math Utils package comes with methods to convert numbers to abbreviated strings. This is very useful in games that display floating combat text, for example. By default, numbers are abbreviated to the thousands (&quot;K&quot;), millions (&quot;M&quot;), billions (&quot;B&quot;), and trillions (&quot;T&quot;).</p>
+<pre><code class="lang-csharp">1_000.ToAbbreviatedString(); // &quot;1K&quot;
+1_000_000.ToAbbreviatedString(); // &quot;1M&quot;
+1_000_000_000.ToAbbreviatedString(); // &quot;1B&quot;
+1_000_000_000_000.ToAbbreviatedString(); // &quot;1T&quot;
+</code></pre>
+<h3 id="custom-abbreviations">Custom Abbreviations</h3>
+<p>You can also provide your own custom abbreviations by creating a new <a class="xref" href="../api/Zigurous.Math.NumberAbbreviation.html">NumberAbbreviation</a>.</p>
+<pre><code class="lang-csharp">NumberAbbreviation abbreviation = new NumberAbbreviation(factor, format);
+string display = abbreviation.Format(number);
+</code></pre>
+<p>You can provide an array of number abbreviations to the <code>ToAbbreviatedString</code> function and it will select the first abbreviation possible. With this in mind, you usually want to order the abbreviations from largest to smallest.</p>
+<pre><code class="lang-csharp">NumberAbbreviation[] abbreviations;
+number.ToAbbreviatedString(abbreviations);
+</code></pre>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">

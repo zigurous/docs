@@ -4,10 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Chance
+    <title>Class DoubleEqualityComparer
    | Math Utils </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Chance
+    <meta name="title" content="Class DoubleEqualityComparer
    | Math Utils ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -79,46 +79,83 @@
                 <li></li>
               </ul>
             </div>
-            <article class="content wrap" id="_content" data-uid="Zigurous.Math.Chance">
-  <h1 id="Zigurous_Math_Chance" data-uid="Zigurous.Math.Chance" class="text-break">Class Chance
+            <article class="content wrap" id="_content" data-uid="Zigurous.Math.DoubleEqualityComparer">
+  <h1 id="Zigurous_Math_DoubleEqualityComparer" data-uid="Zigurous.Math.DoubleEqualityComparer" class="text-break">Class DoubleEqualityComparer
   </h1>
-  <div class="markdown level0 summary"><p>Functions for generating random chance values.</p>
+  <div class="markdown level0 summary"><p>Compares the equality of double values using a specified amount of
+decimal digits to compare.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Chance</span></div>
+    <div class="level1"><span class="xref">DoubleEqualityComparer</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Math.html">Zigurous.Math</a></h6>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class Chance</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class DoubleEqualityComparer : IEqualityComparer&lt;double&gt;</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <h4 id="Zigurous_Math_DoubleEqualityComparer_digits" data-uid="Zigurous.Math.DoubleEqualityComparer.digits">digits</h4>
+  <div class="markdown level1 summary"><p>The number of decimal digits to compare when determining equality.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int digits</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  <a id="Zigurous_Math_Chance_CoinFlip_" data-uid="Zigurous.Math.Chance.CoinFlip*"></a>
-  <h4 id="Zigurous_Math_Chance_CoinFlip" data-uid="Zigurous.Math.Chance.CoinFlip">CoinFlip()</h4>
-  <div class="markdown level1 summary"><p>Returns <code>Heads</code> or <code>Tails</code>, with 50-50 odds.</p>
+  <a id="Zigurous_Math_DoubleEqualityComparer_Equals_" data-uid="Zigurous.Math.DoubleEqualityComparer.Equals*"></a>
+  <h4 id="Zigurous_Math_DoubleEqualityComparer_Equals_System_Double_System_Double_" data-uid="Zigurous.Math.DoubleEqualityComparer.Equals(System.Double,System.Double)">Equals(Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Checks the equality of two double values.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Chance.Coin CoinFlip()</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Equals(double x, double y)</code></pre>
   </div>
-  <a id="Zigurous_Math_Chance_PositiveOrNegative_" data-uid="Zigurous.Math.Chance.PositiveOrNegative*"></a>
-  <h4 id="Zigurous_Math_Chance_PositiveOrNegative" data-uid="Zigurous.Math.Chance.PositiveOrNegative">PositiveOrNegative()</h4>
-  <div class="markdown level1 summary"><p>Returns <code>1.0f</code> or <code>-1.0f</code>, with 50-50 odds.</p>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">x</span></td>
+        <td><p>The first value to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">y</span></td>
+        <td><p>The second value to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Returns</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the values are equal, false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_Math_DoubleEqualityComparer_GetHashCode_" data-uid="Zigurous.Math.DoubleEqualityComparer.GetHashCode*"></a>
+  <h4 id="Zigurous_Math_DoubleEqualityComparer_GetHashCode_System_Double_" data-uid="Zigurous.Math.DoubleEqualityComparer.GetHashCode(System.Double)">GetHashCode(Double)</h4>
+  <div class="markdown level1 summary"><p>Returns a hash code for the double value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float PositiveOrNegative()</code></pre>
-  </div>
-  <a id="Zigurous_Math_Chance_PositiveOrNegative_" data-uid="Zigurous.Math.Chance.PositiveOrNegative*"></a>
-  <h4 id="Zigurous_Math_Chance_PositiveOrNegative_System_Single_" data-uid="Zigurous.Math.Chance.PositiveOrNegative(System.Single)">PositiveOrNegative(Single)</h4>
-  <div class="markdown level1 summary"><p>Returns <code>-value</code> or <code>+value</code>, with 50-50 odds.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float PositiveOrNegative(float value)</code></pre>
+    <pre><code class="lang-csharp hljs">public int GetHashCode(double value)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -130,35 +167,11 @@
     <tbody>
       <tr>
         <td><span class="parametername">value</span></td>
-        <td><p>The value to be returned.</p>
+        <td><p>The value to get the hash code for.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_Math_Chance_RandomBool_" data-uid="Zigurous.Math.Chance.RandomBool*"></a>
-  <h4 id="Zigurous_Math_Chance_RandomBool" data-uid="Zigurous.Math.Chance.RandomBool">RandomBool()</h4>
-  <div class="markdown level1 summary"><p>Returns <code>true</code> or <code>false</code>, with 50-50 odds.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool RandomBool()</code></pre>
-  </div>
-  <a id="Zigurous_Math_Chance_RandomCard_" data-uid="Zigurous.Math.Chance.RandomCard*"></a>
-  <h4 id="Zigurous_Math_Chance_RandomCard" data-uid="Zigurous.Math.Chance.RandomCard">RandomCard()</h4>
-  <div class="markdown level1 summary"><p>Returns a random card from a standard 52-card deck.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Chance.Card RandomCard()</code></pre>
-  </div>
-  <a id="Zigurous_Math_Chance_RandomSuit_" data-uid="Zigurous.Math.Chance.RandomSuit*"></a>
-  <h4 id="Zigurous_Math_Chance_RandomSuit" data-uid="Zigurous.Math.Chance.RandomSuit">RandomSuit()</h4>
-  <div class="markdown level1 summary"><p>Returns a random playing card suit.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Chance.Suit RandomSuit()</code></pre>
-  </div>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">

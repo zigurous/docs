@@ -13,6 +13,31 @@ references:
   commentId: T:Zigurous.Math.ArrayExtensions
   fullName: Zigurous.Math.ArrayExtensions
   nameWithType: ArrayExtensions
+- uid: Zigurous.Math.ArrayExtensions.Shuffle*
+  name: Shuffle
+  href: api/Zigurous.Math.ArrayExtensions.html#Zigurous_Math_ArrayExtensions_Shuffle_
+  commentId: Overload:Zigurous.Math.ArrayExtensions.Shuffle
+  isSpec: "True"
+  fullName: Zigurous.Math.ArrayExtensions.Shuffle
+  nameWithType: ArrayExtensions.Shuffle
+- uid: Zigurous.Math.ArrayExtensions.Shuffle``1(``0[])
+  name: Shuffle<T>(T[])
+  href: api/Zigurous.Math.ArrayExtensions.html#Zigurous_Math_ArrayExtensions_Shuffle__1___0___
+  commentId: M:Zigurous.Math.ArrayExtensions.Shuffle``1(``0[])
+  name.vb: Shuffle(Of T)(T())
+  fullName: Zigurous.Math.ArrayExtensions.Shuffle<T>(T[])
+  fullName.vb: Zigurous.Math.ArrayExtensions.Shuffle(Of T)(T())
+  nameWithType: ArrayExtensions.Shuffle<T>(T[])
+  nameWithType.vb: ArrayExtensions.Shuffle(Of T)(T())
+- uid: Zigurous.Math.ArrayExtensions.Shuffle``1(``0[],Random)
+  name: Shuffle<T>(T[], Random)
+  href: api/Zigurous.Math.ArrayExtensions.html#Zigurous_Math_ArrayExtensions_Shuffle__1___0___Random_
+  commentId: M:Zigurous.Math.ArrayExtensions.Shuffle``1(``0[],Random)
+  name.vb: Shuffle(Of T)(T(), Random)
+  fullName: Zigurous.Math.ArrayExtensions.Shuffle<T>(T[], Random)
+  fullName.vb: Zigurous.Math.ArrayExtensions.Shuffle(Of T)(T(), Random)
+  nameWithType: ArrayExtensions.Shuffle<T>(T[], Random)
+  nameWithType.vb: ArrayExtensions.Shuffle(Of T)(T(), Random)
 - uid: Zigurous.Math.ArrayExtensions.Sum(System.Double[])
   name: Sum(Double[])
   href: api/Zigurous.Math.ArrayExtensions.html#Zigurous_Math_ArrayExtensions_Sum_System_Double___
@@ -59,6 +84,12 @@ references:
   commentId: M:Zigurous.Math.BoundsExtensions.RandomPointInside(Bounds)
   fullName: Zigurous.Math.BoundsExtensions.RandomPointInside(Bounds)
   nameWithType: BoundsExtensions.RandomPointInside(Bounds)
+- uid: Zigurous.Math.BoundsExtensions.RandomPointInside(BoundsInt)
+  name: RandomPointInside(BoundsInt)
+  href: api/Zigurous.Math.BoundsExtensions.html#Zigurous_Math_BoundsExtensions_RandomPointInside_BoundsInt_
+  commentId: M:Zigurous.Math.BoundsExtensions.RandomPointInside(BoundsInt)
+  fullName: Zigurous.Math.BoundsExtensions.RandomPointInside(BoundsInt)
+  nameWithType: BoundsExtensions.RandomPointInside(BoundsInt)
 - uid: Zigurous.Math.BoundsExtensions.RandomPointInside*
   name: RandomPointInside
   href: api/Zigurous.Math.BoundsExtensions.html#Zigurous_Math_BoundsExtensions_RandomPointInside_
@@ -72,6 +103,336 @@ references:
   commentId: T:Zigurous.Math.Chance
   fullName: Zigurous.Math.Chance
   nameWithType: Chance
+- uid: Zigurous.Math.Chance.Card
+  name: Chance.Card
+  href: api/Zigurous.Math.Chance.Card.html
+  commentId: T:Zigurous.Math.Chance.Card
+  fullName: Zigurous.Math.Chance.Card
+  nameWithType: Chance.Card
+- uid: Zigurous.Math.Chance.Card.Clubs10
+  name: Clubs10
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Clubs10
+  commentId: F:Zigurous.Math.Chance.Card.Clubs10
+  fullName: Zigurous.Math.Chance.Card.Clubs10
+  nameWithType: Chance.Card.Clubs10
+- uid: Zigurous.Math.Chance.Card.Clubs2
+  name: Clubs2
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Clubs2
+  commentId: F:Zigurous.Math.Chance.Card.Clubs2
+  fullName: Zigurous.Math.Chance.Card.Clubs2
+  nameWithType: Chance.Card.Clubs2
+- uid: Zigurous.Math.Chance.Card.Clubs3
+  name: Clubs3
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Clubs3
+  commentId: F:Zigurous.Math.Chance.Card.Clubs3
+  fullName: Zigurous.Math.Chance.Card.Clubs3
+  nameWithType: Chance.Card.Clubs3
+- uid: Zigurous.Math.Chance.Card.Clubs4
+  name: Clubs4
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Clubs4
+  commentId: F:Zigurous.Math.Chance.Card.Clubs4
+  fullName: Zigurous.Math.Chance.Card.Clubs4
+  nameWithType: Chance.Card.Clubs4
+- uid: Zigurous.Math.Chance.Card.Clubs5
+  name: Clubs5
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Clubs5
+  commentId: F:Zigurous.Math.Chance.Card.Clubs5
+  fullName: Zigurous.Math.Chance.Card.Clubs5
+  nameWithType: Chance.Card.Clubs5
+- uid: Zigurous.Math.Chance.Card.Clubs6
+  name: Clubs6
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Clubs6
+  commentId: F:Zigurous.Math.Chance.Card.Clubs6
+  fullName: Zigurous.Math.Chance.Card.Clubs6
+  nameWithType: Chance.Card.Clubs6
+- uid: Zigurous.Math.Chance.Card.Clubs7
+  name: Clubs7
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Clubs7
+  commentId: F:Zigurous.Math.Chance.Card.Clubs7
+  fullName: Zigurous.Math.Chance.Card.Clubs7
+  nameWithType: Chance.Card.Clubs7
+- uid: Zigurous.Math.Chance.Card.Clubs8
+  name: Clubs8
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Clubs8
+  commentId: F:Zigurous.Math.Chance.Card.Clubs8
+  fullName: Zigurous.Math.Chance.Card.Clubs8
+  nameWithType: Chance.Card.Clubs8
+- uid: Zigurous.Math.Chance.Card.Clubs9
+  name: Clubs9
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Clubs9
+  commentId: F:Zigurous.Math.Chance.Card.Clubs9
+  fullName: Zigurous.Math.Chance.Card.Clubs9
+  nameWithType: Chance.Card.Clubs9
+- uid: Zigurous.Math.Chance.Card.ClubsA
+  name: ClubsA
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_ClubsA
+  commentId: F:Zigurous.Math.Chance.Card.ClubsA
+  fullName: Zigurous.Math.Chance.Card.ClubsA
+  nameWithType: Chance.Card.ClubsA
+- uid: Zigurous.Math.Chance.Card.ClubsJ
+  name: ClubsJ
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_ClubsJ
+  commentId: F:Zigurous.Math.Chance.Card.ClubsJ
+  fullName: Zigurous.Math.Chance.Card.ClubsJ
+  nameWithType: Chance.Card.ClubsJ
+- uid: Zigurous.Math.Chance.Card.ClubsK
+  name: ClubsK
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_ClubsK
+  commentId: F:Zigurous.Math.Chance.Card.ClubsK
+  fullName: Zigurous.Math.Chance.Card.ClubsK
+  nameWithType: Chance.Card.ClubsK
+- uid: Zigurous.Math.Chance.Card.ClubsQ
+  name: ClubsQ
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_ClubsQ
+  commentId: F:Zigurous.Math.Chance.Card.ClubsQ
+  fullName: Zigurous.Math.Chance.Card.ClubsQ
+  nameWithType: Chance.Card.ClubsQ
+- uid: Zigurous.Math.Chance.Card.Diamonds10
+  name: Diamonds10
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Diamonds10
+  commentId: F:Zigurous.Math.Chance.Card.Diamonds10
+  fullName: Zigurous.Math.Chance.Card.Diamonds10
+  nameWithType: Chance.Card.Diamonds10
+- uid: Zigurous.Math.Chance.Card.Diamonds2
+  name: Diamonds2
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Diamonds2
+  commentId: F:Zigurous.Math.Chance.Card.Diamonds2
+  fullName: Zigurous.Math.Chance.Card.Diamonds2
+  nameWithType: Chance.Card.Diamonds2
+- uid: Zigurous.Math.Chance.Card.Diamonds3
+  name: Diamonds3
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Diamonds3
+  commentId: F:Zigurous.Math.Chance.Card.Diamonds3
+  fullName: Zigurous.Math.Chance.Card.Diamonds3
+  nameWithType: Chance.Card.Diamonds3
+- uid: Zigurous.Math.Chance.Card.Diamonds4
+  name: Diamonds4
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Diamonds4
+  commentId: F:Zigurous.Math.Chance.Card.Diamonds4
+  fullName: Zigurous.Math.Chance.Card.Diamonds4
+  nameWithType: Chance.Card.Diamonds4
+- uid: Zigurous.Math.Chance.Card.Diamonds5
+  name: Diamonds5
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Diamonds5
+  commentId: F:Zigurous.Math.Chance.Card.Diamonds5
+  fullName: Zigurous.Math.Chance.Card.Diamonds5
+  nameWithType: Chance.Card.Diamonds5
+- uid: Zigurous.Math.Chance.Card.Diamonds6
+  name: Diamonds6
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Diamonds6
+  commentId: F:Zigurous.Math.Chance.Card.Diamonds6
+  fullName: Zigurous.Math.Chance.Card.Diamonds6
+  nameWithType: Chance.Card.Diamonds6
+- uid: Zigurous.Math.Chance.Card.Diamonds7
+  name: Diamonds7
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Diamonds7
+  commentId: F:Zigurous.Math.Chance.Card.Diamonds7
+  fullName: Zigurous.Math.Chance.Card.Diamonds7
+  nameWithType: Chance.Card.Diamonds7
+- uid: Zigurous.Math.Chance.Card.Diamonds8
+  name: Diamonds8
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Diamonds8
+  commentId: F:Zigurous.Math.Chance.Card.Diamonds8
+  fullName: Zigurous.Math.Chance.Card.Diamonds8
+  nameWithType: Chance.Card.Diamonds8
+- uid: Zigurous.Math.Chance.Card.Diamonds9
+  name: Diamonds9
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Diamonds9
+  commentId: F:Zigurous.Math.Chance.Card.Diamonds9
+  fullName: Zigurous.Math.Chance.Card.Diamonds9
+  nameWithType: Chance.Card.Diamonds9
+- uid: Zigurous.Math.Chance.Card.DiamondsA
+  name: DiamondsA
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_DiamondsA
+  commentId: F:Zigurous.Math.Chance.Card.DiamondsA
+  fullName: Zigurous.Math.Chance.Card.DiamondsA
+  nameWithType: Chance.Card.DiamondsA
+- uid: Zigurous.Math.Chance.Card.DiamondsJ
+  name: DiamondsJ
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_DiamondsJ
+  commentId: F:Zigurous.Math.Chance.Card.DiamondsJ
+  fullName: Zigurous.Math.Chance.Card.DiamondsJ
+  nameWithType: Chance.Card.DiamondsJ
+- uid: Zigurous.Math.Chance.Card.DiamondsK
+  name: DiamondsK
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_DiamondsK
+  commentId: F:Zigurous.Math.Chance.Card.DiamondsK
+  fullName: Zigurous.Math.Chance.Card.DiamondsK
+  nameWithType: Chance.Card.DiamondsK
+- uid: Zigurous.Math.Chance.Card.DiamondsQ
+  name: DiamondsQ
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_DiamondsQ
+  commentId: F:Zigurous.Math.Chance.Card.DiamondsQ
+  fullName: Zigurous.Math.Chance.Card.DiamondsQ
+  nameWithType: Chance.Card.DiamondsQ
+- uid: Zigurous.Math.Chance.Card.Hearts10
+  name: Hearts10
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Hearts10
+  commentId: F:Zigurous.Math.Chance.Card.Hearts10
+  fullName: Zigurous.Math.Chance.Card.Hearts10
+  nameWithType: Chance.Card.Hearts10
+- uid: Zigurous.Math.Chance.Card.Hearts2
+  name: Hearts2
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Hearts2
+  commentId: F:Zigurous.Math.Chance.Card.Hearts2
+  fullName: Zigurous.Math.Chance.Card.Hearts2
+  nameWithType: Chance.Card.Hearts2
+- uid: Zigurous.Math.Chance.Card.Hearts3
+  name: Hearts3
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Hearts3
+  commentId: F:Zigurous.Math.Chance.Card.Hearts3
+  fullName: Zigurous.Math.Chance.Card.Hearts3
+  nameWithType: Chance.Card.Hearts3
+- uid: Zigurous.Math.Chance.Card.Hearts4
+  name: Hearts4
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Hearts4
+  commentId: F:Zigurous.Math.Chance.Card.Hearts4
+  fullName: Zigurous.Math.Chance.Card.Hearts4
+  nameWithType: Chance.Card.Hearts4
+- uid: Zigurous.Math.Chance.Card.Hearts5
+  name: Hearts5
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Hearts5
+  commentId: F:Zigurous.Math.Chance.Card.Hearts5
+  fullName: Zigurous.Math.Chance.Card.Hearts5
+  nameWithType: Chance.Card.Hearts5
+- uid: Zigurous.Math.Chance.Card.Hearts6
+  name: Hearts6
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Hearts6
+  commentId: F:Zigurous.Math.Chance.Card.Hearts6
+  fullName: Zigurous.Math.Chance.Card.Hearts6
+  nameWithType: Chance.Card.Hearts6
+- uid: Zigurous.Math.Chance.Card.Hearts7
+  name: Hearts7
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Hearts7
+  commentId: F:Zigurous.Math.Chance.Card.Hearts7
+  fullName: Zigurous.Math.Chance.Card.Hearts7
+  nameWithType: Chance.Card.Hearts7
+- uid: Zigurous.Math.Chance.Card.Hearts8
+  name: Hearts8
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Hearts8
+  commentId: F:Zigurous.Math.Chance.Card.Hearts8
+  fullName: Zigurous.Math.Chance.Card.Hearts8
+  nameWithType: Chance.Card.Hearts8
+- uid: Zigurous.Math.Chance.Card.Hearts9
+  name: Hearts9
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Hearts9
+  commentId: F:Zigurous.Math.Chance.Card.Hearts9
+  fullName: Zigurous.Math.Chance.Card.Hearts9
+  nameWithType: Chance.Card.Hearts9
+- uid: Zigurous.Math.Chance.Card.HeartsA
+  name: HeartsA
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_HeartsA
+  commentId: F:Zigurous.Math.Chance.Card.HeartsA
+  fullName: Zigurous.Math.Chance.Card.HeartsA
+  nameWithType: Chance.Card.HeartsA
+- uid: Zigurous.Math.Chance.Card.HeartsJ
+  name: HeartsJ
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_HeartsJ
+  commentId: F:Zigurous.Math.Chance.Card.HeartsJ
+  fullName: Zigurous.Math.Chance.Card.HeartsJ
+  nameWithType: Chance.Card.HeartsJ
+- uid: Zigurous.Math.Chance.Card.HeartsK
+  name: HeartsK
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_HeartsK
+  commentId: F:Zigurous.Math.Chance.Card.HeartsK
+  fullName: Zigurous.Math.Chance.Card.HeartsK
+  nameWithType: Chance.Card.HeartsK
+- uid: Zigurous.Math.Chance.Card.HeartsQ
+  name: HeartsQ
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_HeartsQ
+  commentId: F:Zigurous.Math.Chance.Card.HeartsQ
+  fullName: Zigurous.Math.Chance.Card.HeartsQ
+  nameWithType: Chance.Card.HeartsQ
+- uid: Zigurous.Math.Chance.Card.Joker
+  name: Joker
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Joker
+  commentId: F:Zigurous.Math.Chance.Card.Joker
+  fullName: Zigurous.Math.Chance.Card.Joker
+  nameWithType: Chance.Card.Joker
+- uid: Zigurous.Math.Chance.Card.None
+  name: None
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_None
+  commentId: F:Zigurous.Math.Chance.Card.None
+  fullName: Zigurous.Math.Chance.Card.None
+  nameWithType: Chance.Card.None
+- uid: Zigurous.Math.Chance.Card.Spades10
+  name: Spades10
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Spades10
+  commentId: F:Zigurous.Math.Chance.Card.Spades10
+  fullName: Zigurous.Math.Chance.Card.Spades10
+  nameWithType: Chance.Card.Spades10
+- uid: Zigurous.Math.Chance.Card.Spades2
+  name: Spades2
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Spades2
+  commentId: F:Zigurous.Math.Chance.Card.Spades2
+  fullName: Zigurous.Math.Chance.Card.Spades2
+  nameWithType: Chance.Card.Spades2
+- uid: Zigurous.Math.Chance.Card.Spades3
+  name: Spades3
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Spades3
+  commentId: F:Zigurous.Math.Chance.Card.Spades3
+  fullName: Zigurous.Math.Chance.Card.Spades3
+  nameWithType: Chance.Card.Spades3
+- uid: Zigurous.Math.Chance.Card.Spades4
+  name: Spades4
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Spades4
+  commentId: F:Zigurous.Math.Chance.Card.Spades4
+  fullName: Zigurous.Math.Chance.Card.Spades4
+  nameWithType: Chance.Card.Spades4
+- uid: Zigurous.Math.Chance.Card.Spades5
+  name: Spades5
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Spades5
+  commentId: F:Zigurous.Math.Chance.Card.Spades5
+  fullName: Zigurous.Math.Chance.Card.Spades5
+  nameWithType: Chance.Card.Spades5
+- uid: Zigurous.Math.Chance.Card.Spades6
+  name: Spades6
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Spades6
+  commentId: F:Zigurous.Math.Chance.Card.Spades6
+  fullName: Zigurous.Math.Chance.Card.Spades6
+  nameWithType: Chance.Card.Spades6
+- uid: Zigurous.Math.Chance.Card.Spades7
+  name: Spades7
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Spades7
+  commentId: F:Zigurous.Math.Chance.Card.Spades7
+  fullName: Zigurous.Math.Chance.Card.Spades7
+  nameWithType: Chance.Card.Spades7
+- uid: Zigurous.Math.Chance.Card.Spades8
+  name: Spades8
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Spades8
+  commentId: F:Zigurous.Math.Chance.Card.Spades8
+  fullName: Zigurous.Math.Chance.Card.Spades8
+  nameWithType: Chance.Card.Spades8
+- uid: Zigurous.Math.Chance.Card.Spades9
+  name: Spades9
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_Spades9
+  commentId: F:Zigurous.Math.Chance.Card.Spades9
+  fullName: Zigurous.Math.Chance.Card.Spades9
+  nameWithType: Chance.Card.Spades9
+- uid: Zigurous.Math.Chance.Card.SpadesA
+  name: SpadesA
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_SpadesA
+  commentId: F:Zigurous.Math.Chance.Card.SpadesA
+  fullName: Zigurous.Math.Chance.Card.SpadesA
+  nameWithType: Chance.Card.SpadesA
+- uid: Zigurous.Math.Chance.Card.SpadesJ
+  name: SpadesJ
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_SpadesJ
+  commentId: F:Zigurous.Math.Chance.Card.SpadesJ
+  fullName: Zigurous.Math.Chance.Card.SpadesJ
+  nameWithType: Chance.Card.SpadesJ
+- uid: Zigurous.Math.Chance.Card.SpadesK
+  name: SpadesK
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_SpadesK
+  commentId: F:Zigurous.Math.Chance.Card.SpadesK
+  fullName: Zigurous.Math.Chance.Card.SpadesK
+  nameWithType: Chance.Card.SpadesK
+- uid: Zigurous.Math.Chance.Card.SpadesQ
+  name: SpadesQ
+  href: api/Zigurous.Math.Chance.Card.html#Zigurous_Math_Chance_Card_SpadesQ
+  commentId: F:Zigurous.Math.Chance.Card.SpadesQ
+  fullName: Zigurous.Math.Chance.Card.SpadesQ
+  nameWithType: Chance.Card.SpadesQ
 - uid: Zigurous.Math.Chance.Coin
   name: Chance.Coin
   href: api/Zigurous.Math.Chance.Coin.html
@@ -103,554 +464,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.Chance.CoinFlip
   nameWithType: Chance.CoinFlip
-- uid: Zigurous.Math.Chance.CustomDiceRoll(System.Int32[])
-  name: CustomDiceRoll(Int32[])
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_CustomDiceRoll_System_Int32___
-  commentId: M:Zigurous.Math.Chance.CustomDiceRoll(System.Int32[])
-  name.vb: CustomDiceRoll(Int32())
-  fullName: Zigurous.Math.Chance.CustomDiceRoll(System.Int32[])
-  fullName.vb: Zigurous.Math.Chance.CustomDiceRoll(System.Int32())
-  nameWithType: Chance.CustomDiceRoll(Int32[])
-  nameWithType.vb: Chance.CustomDiceRoll(Int32())
-- uid: Zigurous.Math.Chance.CustomDiceRoll(System.Int32[],System.Int32)
-  name: CustomDiceRoll(Int32[], Int32)
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_CustomDiceRoll_System_Int32___System_Int32_
-  commentId: M:Zigurous.Math.Chance.CustomDiceRoll(System.Int32[],System.Int32)
-  name.vb: CustomDiceRoll(Int32(), Int32)
-  fullName: Zigurous.Math.Chance.CustomDiceRoll(System.Int32[], System.Int32)
-  fullName.vb: Zigurous.Math.Chance.CustomDiceRoll(System.Int32(), System.Int32)
-  nameWithType: Chance.CustomDiceRoll(Int32[], Int32)
-  nameWithType.vb: Chance.CustomDiceRoll(Int32(), Int32)
-- uid: Zigurous.Math.Chance.CustomDiceRoll*
-  name: CustomDiceRoll
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_CustomDiceRoll_
-  commentId: Overload:Zigurous.Math.Chance.CustomDiceRoll
-  isSpec: "True"
-  fullName: Zigurous.Math.Chance.CustomDiceRoll
-  nameWithType: Chance.CustomDiceRoll
-- uid: Zigurous.Math.Chance.D10
-  name: D10()
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_D10
-  commentId: M:Zigurous.Math.Chance.D10
-  fullName: Zigurous.Math.Chance.D10()
-  nameWithType: Chance.D10()
-- uid: Zigurous.Math.Chance.D10(System.Int32)
-  name: D10(Int32)
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_D10_System_Int32_
-  commentId: M:Zigurous.Math.Chance.D10(System.Int32)
-  fullName: Zigurous.Math.Chance.D10(System.Int32)
-  nameWithType: Chance.D10(Int32)
-- uid: Zigurous.Math.Chance.D10*
-  name: D10
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_D10_
-  commentId: Overload:Zigurous.Math.Chance.D10
-  isSpec: "True"
-  fullName: Zigurous.Math.Chance.D10
-  nameWithType: Chance.D10
-- uid: Zigurous.Math.Chance.D12
-  name: D12()
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_D12
-  commentId: M:Zigurous.Math.Chance.D12
-  fullName: Zigurous.Math.Chance.D12()
-  nameWithType: Chance.D12()
-- uid: Zigurous.Math.Chance.D12(System.Int32)
-  name: D12(Int32)
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_D12_System_Int32_
-  commentId: M:Zigurous.Math.Chance.D12(System.Int32)
-  fullName: Zigurous.Math.Chance.D12(System.Int32)
-  nameWithType: Chance.D12(Int32)
-- uid: Zigurous.Math.Chance.D12*
-  name: D12
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_D12_
-  commentId: Overload:Zigurous.Math.Chance.D12
-  isSpec: "True"
-  fullName: Zigurous.Math.Chance.D12
-  nameWithType: Chance.D12
-- uid: Zigurous.Math.Chance.D20
-  name: D20()
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_D20
-  commentId: M:Zigurous.Math.Chance.D20
-  fullName: Zigurous.Math.Chance.D20()
-  nameWithType: Chance.D20()
-- uid: Zigurous.Math.Chance.D20(System.Int32)
-  name: D20(Int32)
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_D20_System_Int32_
-  commentId: M:Zigurous.Math.Chance.D20(System.Int32)
-  fullName: Zigurous.Math.Chance.D20(System.Int32)
-  nameWithType: Chance.D20(Int32)
-- uid: Zigurous.Math.Chance.D20*
-  name: D20
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_D20_
-  commentId: Overload:Zigurous.Math.Chance.D20
-  isSpec: "True"
-  fullName: Zigurous.Math.Chance.D20
-  nameWithType: Chance.D20
-- uid: Zigurous.Math.Chance.D4
-  name: D4()
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_D4
-  commentId: M:Zigurous.Math.Chance.D4
-  fullName: Zigurous.Math.Chance.D4()
-  nameWithType: Chance.D4()
-- uid: Zigurous.Math.Chance.D4(System.Int32)
-  name: D4(Int32)
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_D4_System_Int32_
-  commentId: M:Zigurous.Math.Chance.D4(System.Int32)
-  fullName: Zigurous.Math.Chance.D4(System.Int32)
-  nameWithType: Chance.D4(Int32)
-- uid: Zigurous.Math.Chance.D4*
-  name: D4
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_D4_
-  commentId: Overload:Zigurous.Math.Chance.D4
-  isSpec: "True"
-  fullName: Zigurous.Math.Chance.D4
-  nameWithType: Chance.D4
-- uid: Zigurous.Math.Chance.D6
-  name: D6()
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_D6
-  commentId: M:Zigurous.Math.Chance.D6
-  fullName: Zigurous.Math.Chance.D6()
-  nameWithType: Chance.D6()
-- uid: Zigurous.Math.Chance.D6(System.Int32)
-  name: D6(Int32)
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_D6_System_Int32_
-  commentId: M:Zigurous.Math.Chance.D6(System.Int32)
-  fullName: Zigurous.Math.Chance.D6(System.Int32)
-  nameWithType: Chance.D6(Int32)
-- uid: Zigurous.Math.Chance.D6*
-  name: D6
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_D6_
-  commentId: Overload:Zigurous.Math.Chance.D6
-  isSpec: "True"
-  fullName: Zigurous.Math.Chance.D6
-  nameWithType: Chance.D6
-- uid: Zigurous.Math.Chance.D8
-  name: D8()
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_D8
-  commentId: M:Zigurous.Math.Chance.D8
-  fullName: Zigurous.Math.Chance.D8()
-  nameWithType: Chance.D8()
-- uid: Zigurous.Math.Chance.D8(System.Int32)
-  name: D8(Int32)
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_D8_System_Int32_
-  commentId: M:Zigurous.Math.Chance.D8(System.Int32)
-  fullName: Zigurous.Math.Chance.D8(System.Int32)
-  nameWithType: Chance.D8(Int32)
-- uid: Zigurous.Math.Chance.D8*
-  name: D8
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_D8_
-  commentId: Overload:Zigurous.Math.Chance.D8
-  isSpec: "True"
-  fullName: Zigurous.Math.Chance.D8
-  nameWithType: Chance.D8
-- uid: Zigurous.Math.Chance.GamblingColor
-  name: Chance.GamblingColor
-  href: api/Zigurous.Math.Chance.GamblingColor.html
-  commentId: T:Zigurous.Math.Chance.GamblingColor
-  fullName: Zigurous.Math.Chance.GamblingColor
-  nameWithType: Chance.GamblingColor
-- uid: Zigurous.Math.Chance.GamblingColor.Black
-  name: Black
-  href: api/Zigurous.Math.Chance.GamblingColor.html#Zigurous_Math_Chance_GamblingColor_Black
-  commentId: F:Zigurous.Math.Chance.GamblingColor.Black
-  fullName: Zigurous.Math.Chance.GamblingColor.Black
-  nameWithType: Chance.GamblingColor.Black
-- uid: Zigurous.Math.Chance.GamblingColor.Green
-  name: Green
-  href: api/Zigurous.Math.Chance.GamblingColor.html#Zigurous_Math_Chance_GamblingColor_Green
-  commentId: F:Zigurous.Math.Chance.GamblingColor.Green
-  fullName: Zigurous.Math.Chance.GamblingColor.Green
-  nameWithType: Chance.GamblingColor.Green
-- uid: Zigurous.Math.Chance.GamblingColor.Red
-  name: Red
-  href: api/Zigurous.Math.Chance.GamblingColor.html#Zigurous_Math_Chance_GamblingColor_Red
-  commentId: F:Zigurous.Math.Chance.GamblingColor.Red
-  fullName: Zigurous.Math.Chance.GamblingColor.Red
-  nameWithType: Chance.GamblingColor.Red
-- uid: Zigurous.Math.Chance.GamblingColor.White
-  name: White
-  href: api/Zigurous.Math.Chance.GamblingColor.html#Zigurous_Math_Chance_GamblingColor_White
-  commentId: F:Zigurous.Math.Chance.GamblingColor.White
-  fullName: Zigurous.Math.Chance.GamblingColor.White
-  nameWithType: Chance.GamblingColor.White
-- uid: Zigurous.Math.Chance.NSidedDiceRoll(System.Int32)
-  name: NSidedDiceRoll(Int32)
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_NSidedDiceRoll_System_Int32_
-  commentId: M:Zigurous.Math.Chance.NSidedDiceRoll(System.Int32)
-  fullName: Zigurous.Math.Chance.NSidedDiceRoll(System.Int32)
-  nameWithType: Chance.NSidedDiceRoll(Int32)
-- uid: Zigurous.Math.Chance.NSidedDiceRoll(System.Int32,System.Int32)
-  name: NSidedDiceRoll(Int32, Int32)
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_NSidedDiceRoll_System_Int32_System_Int32_
-  commentId: M:Zigurous.Math.Chance.NSidedDiceRoll(System.Int32,System.Int32)
-  fullName: Zigurous.Math.Chance.NSidedDiceRoll(System.Int32, System.Int32)
-  nameWithType: Chance.NSidedDiceRoll(Int32, Int32)
-- uid: Zigurous.Math.Chance.NSidedDiceRoll*
-  name: NSidedDiceRoll
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_NSidedDiceRoll_
-  commentId: Overload:Zigurous.Math.Chance.NSidedDiceRoll
-  isSpec: "True"
-  fullName: Zigurous.Math.Chance.NSidedDiceRoll
-  nameWithType: Chance.NSidedDiceRoll
-- uid: Zigurous.Math.Chance.PLAYING_CARD_SUITES
-  name: PLAYING_CARD_SUITES
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_PLAYING_CARD_SUITES
-  commentId: F:Zigurous.Math.Chance.PLAYING_CARD_SUITES
-  fullName: Zigurous.Math.Chance.PLAYING_CARD_SUITES
-  nameWithType: Chance.PLAYING_CARD_SUITES
-- uid: Zigurous.Math.Chance.PLAYING_CARDS
-  name: PLAYING_CARDS
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_PLAYING_CARDS
-  commentId: F:Zigurous.Math.Chance.PLAYING_CARDS
-  fullName: Zigurous.Math.Chance.PLAYING_CARDS
-  nameWithType: Chance.PLAYING_CARDS
-- uid: Zigurous.Math.Chance.PlayingCard
-  name: Chance.PlayingCard
-  href: api/Zigurous.Math.Chance.PlayingCard.html
-  commentId: T:Zigurous.Math.Chance.PlayingCard
-  fullName: Zigurous.Math.Chance.PlayingCard
-  nameWithType: Chance.PlayingCard
-- uid: Zigurous.Math.Chance.PlayingCard.Clubs10
-  name: Clubs10
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Clubs10
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Clubs10
-  fullName: Zigurous.Math.Chance.PlayingCard.Clubs10
-  nameWithType: Chance.PlayingCard.Clubs10
-- uid: Zigurous.Math.Chance.PlayingCard.Clubs2
-  name: Clubs2
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Clubs2
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Clubs2
-  fullName: Zigurous.Math.Chance.PlayingCard.Clubs2
-  nameWithType: Chance.PlayingCard.Clubs2
-- uid: Zigurous.Math.Chance.PlayingCard.Clubs3
-  name: Clubs3
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Clubs3
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Clubs3
-  fullName: Zigurous.Math.Chance.PlayingCard.Clubs3
-  nameWithType: Chance.PlayingCard.Clubs3
-- uid: Zigurous.Math.Chance.PlayingCard.Clubs4
-  name: Clubs4
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Clubs4
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Clubs4
-  fullName: Zigurous.Math.Chance.PlayingCard.Clubs4
-  nameWithType: Chance.PlayingCard.Clubs4
-- uid: Zigurous.Math.Chance.PlayingCard.Clubs5
-  name: Clubs5
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Clubs5
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Clubs5
-  fullName: Zigurous.Math.Chance.PlayingCard.Clubs5
-  nameWithType: Chance.PlayingCard.Clubs5
-- uid: Zigurous.Math.Chance.PlayingCard.Clubs6
-  name: Clubs6
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Clubs6
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Clubs6
-  fullName: Zigurous.Math.Chance.PlayingCard.Clubs6
-  nameWithType: Chance.PlayingCard.Clubs6
-- uid: Zigurous.Math.Chance.PlayingCard.Clubs7
-  name: Clubs7
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Clubs7
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Clubs7
-  fullName: Zigurous.Math.Chance.PlayingCard.Clubs7
-  nameWithType: Chance.PlayingCard.Clubs7
-- uid: Zigurous.Math.Chance.PlayingCard.Clubs8
-  name: Clubs8
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Clubs8
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Clubs8
-  fullName: Zigurous.Math.Chance.PlayingCard.Clubs8
-  nameWithType: Chance.PlayingCard.Clubs8
-- uid: Zigurous.Math.Chance.PlayingCard.Clubs9
-  name: Clubs9
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Clubs9
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Clubs9
-  fullName: Zigurous.Math.Chance.PlayingCard.Clubs9
-  nameWithType: Chance.PlayingCard.Clubs9
-- uid: Zigurous.Math.Chance.PlayingCard.ClubsA
-  name: ClubsA
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_ClubsA
-  commentId: F:Zigurous.Math.Chance.PlayingCard.ClubsA
-  fullName: Zigurous.Math.Chance.PlayingCard.ClubsA
-  nameWithType: Chance.PlayingCard.ClubsA
-- uid: Zigurous.Math.Chance.PlayingCard.ClubsJ
-  name: ClubsJ
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_ClubsJ
-  commentId: F:Zigurous.Math.Chance.PlayingCard.ClubsJ
-  fullName: Zigurous.Math.Chance.PlayingCard.ClubsJ
-  nameWithType: Chance.PlayingCard.ClubsJ
-- uid: Zigurous.Math.Chance.PlayingCard.ClubsK
-  name: ClubsK
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_ClubsK
-  commentId: F:Zigurous.Math.Chance.PlayingCard.ClubsK
-  fullName: Zigurous.Math.Chance.PlayingCard.ClubsK
-  nameWithType: Chance.PlayingCard.ClubsK
-- uid: Zigurous.Math.Chance.PlayingCard.ClubsQ
-  name: ClubsQ
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_ClubsQ
-  commentId: F:Zigurous.Math.Chance.PlayingCard.ClubsQ
-  fullName: Zigurous.Math.Chance.PlayingCard.ClubsQ
-  nameWithType: Chance.PlayingCard.ClubsQ
-- uid: Zigurous.Math.Chance.PlayingCard.Diamonds10
-  name: Diamonds10
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Diamonds10
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Diamonds10
-  fullName: Zigurous.Math.Chance.PlayingCard.Diamonds10
-  nameWithType: Chance.PlayingCard.Diamonds10
-- uid: Zigurous.Math.Chance.PlayingCard.Diamonds2
-  name: Diamonds2
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Diamonds2
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Diamonds2
-  fullName: Zigurous.Math.Chance.PlayingCard.Diamonds2
-  nameWithType: Chance.PlayingCard.Diamonds2
-- uid: Zigurous.Math.Chance.PlayingCard.Diamonds3
-  name: Diamonds3
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Diamonds3
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Diamonds3
-  fullName: Zigurous.Math.Chance.PlayingCard.Diamonds3
-  nameWithType: Chance.PlayingCard.Diamonds3
-- uid: Zigurous.Math.Chance.PlayingCard.Diamonds4
-  name: Diamonds4
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Diamonds4
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Diamonds4
-  fullName: Zigurous.Math.Chance.PlayingCard.Diamonds4
-  nameWithType: Chance.PlayingCard.Diamonds4
-- uid: Zigurous.Math.Chance.PlayingCard.Diamonds5
-  name: Diamonds5
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Diamonds5
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Diamonds5
-  fullName: Zigurous.Math.Chance.PlayingCard.Diamonds5
-  nameWithType: Chance.PlayingCard.Diamonds5
-- uid: Zigurous.Math.Chance.PlayingCard.Diamonds6
-  name: Diamonds6
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Diamonds6
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Diamonds6
-  fullName: Zigurous.Math.Chance.PlayingCard.Diamonds6
-  nameWithType: Chance.PlayingCard.Diamonds6
-- uid: Zigurous.Math.Chance.PlayingCard.Diamonds7
-  name: Diamonds7
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Diamonds7
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Diamonds7
-  fullName: Zigurous.Math.Chance.PlayingCard.Diamonds7
-  nameWithType: Chance.PlayingCard.Diamonds7
-- uid: Zigurous.Math.Chance.PlayingCard.Diamonds8
-  name: Diamonds8
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Diamonds8
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Diamonds8
-  fullName: Zigurous.Math.Chance.PlayingCard.Diamonds8
-  nameWithType: Chance.PlayingCard.Diamonds8
-- uid: Zigurous.Math.Chance.PlayingCard.Diamonds9
-  name: Diamonds9
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Diamonds9
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Diamonds9
-  fullName: Zigurous.Math.Chance.PlayingCard.Diamonds9
-  nameWithType: Chance.PlayingCard.Diamonds9
-- uid: Zigurous.Math.Chance.PlayingCard.DiamondsA
-  name: DiamondsA
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_DiamondsA
-  commentId: F:Zigurous.Math.Chance.PlayingCard.DiamondsA
-  fullName: Zigurous.Math.Chance.PlayingCard.DiamondsA
-  nameWithType: Chance.PlayingCard.DiamondsA
-- uid: Zigurous.Math.Chance.PlayingCard.DiamondsJ
-  name: DiamondsJ
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_DiamondsJ
-  commentId: F:Zigurous.Math.Chance.PlayingCard.DiamondsJ
-  fullName: Zigurous.Math.Chance.PlayingCard.DiamondsJ
-  nameWithType: Chance.PlayingCard.DiamondsJ
-- uid: Zigurous.Math.Chance.PlayingCard.DiamondsK
-  name: DiamondsK
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_DiamondsK
-  commentId: F:Zigurous.Math.Chance.PlayingCard.DiamondsK
-  fullName: Zigurous.Math.Chance.PlayingCard.DiamondsK
-  nameWithType: Chance.PlayingCard.DiamondsK
-- uid: Zigurous.Math.Chance.PlayingCard.DiamondsQ
-  name: DiamondsQ
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_DiamondsQ
-  commentId: F:Zigurous.Math.Chance.PlayingCard.DiamondsQ
-  fullName: Zigurous.Math.Chance.PlayingCard.DiamondsQ
-  nameWithType: Chance.PlayingCard.DiamondsQ
-- uid: Zigurous.Math.Chance.PlayingCard.Hearts10
-  name: Hearts10
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Hearts10
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Hearts10
-  fullName: Zigurous.Math.Chance.PlayingCard.Hearts10
-  nameWithType: Chance.PlayingCard.Hearts10
-- uid: Zigurous.Math.Chance.PlayingCard.Hearts2
-  name: Hearts2
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Hearts2
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Hearts2
-  fullName: Zigurous.Math.Chance.PlayingCard.Hearts2
-  nameWithType: Chance.PlayingCard.Hearts2
-- uid: Zigurous.Math.Chance.PlayingCard.Hearts3
-  name: Hearts3
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Hearts3
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Hearts3
-  fullName: Zigurous.Math.Chance.PlayingCard.Hearts3
-  nameWithType: Chance.PlayingCard.Hearts3
-- uid: Zigurous.Math.Chance.PlayingCard.Hearts4
-  name: Hearts4
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Hearts4
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Hearts4
-  fullName: Zigurous.Math.Chance.PlayingCard.Hearts4
-  nameWithType: Chance.PlayingCard.Hearts4
-- uid: Zigurous.Math.Chance.PlayingCard.Hearts5
-  name: Hearts5
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Hearts5
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Hearts5
-  fullName: Zigurous.Math.Chance.PlayingCard.Hearts5
-  nameWithType: Chance.PlayingCard.Hearts5
-- uid: Zigurous.Math.Chance.PlayingCard.Hearts6
-  name: Hearts6
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Hearts6
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Hearts6
-  fullName: Zigurous.Math.Chance.PlayingCard.Hearts6
-  nameWithType: Chance.PlayingCard.Hearts6
-- uid: Zigurous.Math.Chance.PlayingCard.Hearts7
-  name: Hearts7
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Hearts7
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Hearts7
-  fullName: Zigurous.Math.Chance.PlayingCard.Hearts7
-  nameWithType: Chance.PlayingCard.Hearts7
-- uid: Zigurous.Math.Chance.PlayingCard.Hearts8
-  name: Hearts8
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Hearts8
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Hearts8
-  fullName: Zigurous.Math.Chance.PlayingCard.Hearts8
-  nameWithType: Chance.PlayingCard.Hearts8
-- uid: Zigurous.Math.Chance.PlayingCard.Hearts9
-  name: Hearts9
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Hearts9
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Hearts9
-  fullName: Zigurous.Math.Chance.PlayingCard.Hearts9
-  nameWithType: Chance.PlayingCard.Hearts9
-- uid: Zigurous.Math.Chance.PlayingCard.HeartsA
-  name: HeartsA
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_HeartsA
-  commentId: F:Zigurous.Math.Chance.PlayingCard.HeartsA
-  fullName: Zigurous.Math.Chance.PlayingCard.HeartsA
-  nameWithType: Chance.PlayingCard.HeartsA
-- uid: Zigurous.Math.Chance.PlayingCard.HeartsJ
-  name: HeartsJ
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_HeartsJ
-  commentId: F:Zigurous.Math.Chance.PlayingCard.HeartsJ
-  fullName: Zigurous.Math.Chance.PlayingCard.HeartsJ
-  nameWithType: Chance.PlayingCard.HeartsJ
-- uid: Zigurous.Math.Chance.PlayingCard.HeartsK
-  name: HeartsK
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_HeartsK
-  commentId: F:Zigurous.Math.Chance.PlayingCard.HeartsK
-  fullName: Zigurous.Math.Chance.PlayingCard.HeartsK
-  nameWithType: Chance.PlayingCard.HeartsK
-- uid: Zigurous.Math.Chance.PlayingCard.HeartsQ
-  name: HeartsQ
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_HeartsQ
-  commentId: F:Zigurous.Math.Chance.PlayingCard.HeartsQ
-  fullName: Zigurous.Math.Chance.PlayingCard.HeartsQ
-  nameWithType: Chance.PlayingCard.HeartsQ
-- uid: Zigurous.Math.Chance.PlayingCard.Spades10
-  name: Spades10
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Spades10
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Spades10
-  fullName: Zigurous.Math.Chance.PlayingCard.Spades10
-  nameWithType: Chance.PlayingCard.Spades10
-- uid: Zigurous.Math.Chance.PlayingCard.Spades2
-  name: Spades2
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Spades2
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Spades2
-  fullName: Zigurous.Math.Chance.PlayingCard.Spades2
-  nameWithType: Chance.PlayingCard.Spades2
-- uid: Zigurous.Math.Chance.PlayingCard.Spades3
-  name: Spades3
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Spades3
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Spades3
-  fullName: Zigurous.Math.Chance.PlayingCard.Spades3
-  nameWithType: Chance.PlayingCard.Spades3
-- uid: Zigurous.Math.Chance.PlayingCard.Spades4
-  name: Spades4
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Spades4
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Spades4
-  fullName: Zigurous.Math.Chance.PlayingCard.Spades4
-  nameWithType: Chance.PlayingCard.Spades4
-- uid: Zigurous.Math.Chance.PlayingCard.Spades5
-  name: Spades5
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Spades5
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Spades5
-  fullName: Zigurous.Math.Chance.PlayingCard.Spades5
-  nameWithType: Chance.PlayingCard.Spades5
-- uid: Zigurous.Math.Chance.PlayingCard.Spades6
-  name: Spades6
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Spades6
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Spades6
-  fullName: Zigurous.Math.Chance.PlayingCard.Spades6
-  nameWithType: Chance.PlayingCard.Spades6
-- uid: Zigurous.Math.Chance.PlayingCard.Spades7
-  name: Spades7
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Spades7
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Spades7
-  fullName: Zigurous.Math.Chance.PlayingCard.Spades7
-  nameWithType: Chance.PlayingCard.Spades7
-- uid: Zigurous.Math.Chance.PlayingCard.Spades8
-  name: Spades8
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Spades8
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Spades8
-  fullName: Zigurous.Math.Chance.PlayingCard.Spades8
-  nameWithType: Chance.PlayingCard.Spades8
-- uid: Zigurous.Math.Chance.PlayingCard.Spades9
-  name: Spades9
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_Spades9
-  commentId: F:Zigurous.Math.Chance.PlayingCard.Spades9
-  fullName: Zigurous.Math.Chance.PlayingCard.Spades9
-  nameWithType: Chance.PlayingCard.Spades9
-- uid: Zigurous.Math.Chance.PlayingCard.SpadesA
-  name: SpadesA
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_SpadesA
-  commentId: F:Zigurous.Math.Chance.PlayingCard.SpadesA
-  fullName: Zigurous.Math.Chance.PlayingCard.SpadesA
-  nameWithType: Chance.PlayingCard.SpadesA
-- uid: Zigurous.Math.Chance.PlayingCard.SpadesJ
-  name: SpadesJ
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_SpadesJ
-  commentId: F:Zigurous.Math.Chance.PlayingCard.SpadesJ
-  fullName: Zigurous.Math.Chance.PlayingCard.SpadesJ
-  nameWithType: Chance.PlayingCard.SpadesJ
-- uid: Zigurous.Math.Chance.PlayingCard.SpadesK
-  name: SpadesK
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_SpadesK
-  commentId: F:Zigurous.Math.Chance.PlayingCard.SpadesK
-  fullName: Zigurous.Math.Chance.PlayingCard.SpadesK
-  nameWithType: Chance.PlayingCard.SpadesK
-- uid: Zigurous.Math.Chance.PlayingCard.SpadesQ
-  name: SpadesQ
-  href: api/Zigurous.Math.Chance.PlayingCard.html#Zigurous_Math_Chance_PlayingCard_SpadesQ
-  commentId: F:Zigurous.Math.Chance.PlayingCard.SpadesQ
-  fullName: Zigurous.Math.Chance.PlayingCard.SpadesQ
-  nameWithType: Chance.PlayingCard.SpadesQ
-- uid: Zigurous.Math.Chance.PlayingCardSuit
-  name: Chance.PlayingCardSuit
-  href: api/Zigurous.Math.Chance.PlayingCardSuit.html
-  commentId: T:Zigurous.Math.Chance.PlayingCardSuit
-  fullName: Zigurous.Math.Chance.PlayingCardSuit
-  nameWithType: Chance.PlayingCardSuit
-- uid: Zigurous.Math.Chance.PlayingCardSuit.Clubs
-  name: Clubs
-  href: api/Zigurous.Math.Chance.PlayingCardSuit.html#Zigurous_Math_Chance_PlayingCardSuit_Clubs
-  commentId: F:Zigurous.Math.Chance.PlayingCardSuit.Clubs
-  fullName: Zigurous.Math.Chance.PlayingCardSuit.Clubs
-  nameWithType: Chance.PlayingCardSuit.Clubs
-- uid: Zigurous.Math.Chance.PlayingCardSuit.Diamonds
-  name: Diamonds
-  href: api/Zigurous.Math.Chance.PlayingCardSuit.html#Zigurous_Math_Chance_PlayingCardSuit_Diamonds
-  commentId: F:Zigurous.Math.Chance.PlayingCardSuit.Diamonds
-  fullName: Zigurous.Math.Chance.PlayingCardSuit.Diamonds
-  nameWithType: Chance.PlayingCardSuit.Diamonds
-- uid: Zigurous.Math.Chance.PlayingCardSuit.Hearts
-  name: Hearts
-  href: api/Zigurous.Math.Chance.PlayingCardSuit.html#Zigurous_Math_Chance_PlayingCardSuit_Hearts
-  commentId: F:Zigurous.Math.Chance.PlayingCardSuit.Hearts
-  fullName: Zigurous.Math.Chance.PlayingCardSuit.Hearts
-  nameWithType: Chance.PlayingCardSuit.Hearts
-- uid: Zigurous.Math.Chance.PlayingCardSuit.Spades
-  name: Spades
-  href: api/Zigurous.Math.Chance.PlayingCardSuit.html#Zigurous_Math_Chance_PlayingCardSuit_Spades
-  commentId: F:Zigurous.Math.Chance.PlayingCardSuit.Spades
-  fullName: Zigurous.Math.Chance.PlayingCardSuit.Spades
-  nameWithType: Chance.PlayingCardSuit.Spades
 - uid: Zigurous.Math.Chance.PositiveOrNegative
   name: PositiveOrNegative()
   href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_PositiveOrNegative
@@ -683,61 +496,62 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.Chance.RandomBool
   nameWithType: Chance.RandomBool
-- uid: Zigurous.Math.Chance.RandomPlayingCard
-  name: RandomPlayingCard()
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_RandomPlayingCard
-  commentId: M:Zigurous.Math.Chance.RandomPlayingCard
-  fullName: Zigurous.Math.Chance.RandomPlayingCard()
-  nameWithType: Chance.RandomPlayingCard()
-- uid: Zigurous.Math.Chance.RandomPlayingCard*
-  name: RandomPlayingCard
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_RandomPlayingCard_
-  commentId: Overload:Zigurous.Math.Chance.RandomPlayingCard
+- uid: Zigurous.Math.Chance.RandomCard
+  name: RandomCard()
+  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_RandomCard
+  commentId: M:Zigurous.Math.Chance.RandomCard
+  fullName: Zigurous.Math.Chance.RandomCard()
+  nameWithType: Chance.RandomCard()
+- uid: Zigurous.Math.Chance.RandomCard*
+  name: RandomCard
+  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_RandomCard_
+  commentId: Overload:Zigurous.Math.Chance.RandomCard
   isSpec: "True"
-  fullName: Zigurous.Math.Chance.RandomPlayingCard
-  nameWithType: Chance.RandomPlayingCard
-- uid: Zigurous.Math.Chance.RandomPlayingCardSuite
-  name: RandomPlayingCardSuite()
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_RandomPlayingCardSuite
-  commentId: M:Zigurous.Math.Chance.RandomPlayingCardSuite
-  fullName: Zigurous.Math.Chance.RandomPlayingCardSuite()
-  nameWithType: Chance.RandomPlayingCardSuite()
-- uid: Zigurous.Math.Chance.RandomPlayingCardSuite*
-  name: RandomPlayingCardSuite
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_RandomPlayingCardSuite_
-  commentId: Overload:Zigurous.Math.Chance.RandomPlayingCardSuite
+  fullName: Zigurous.Math.Chance.RandomCard
+  nameWithType: Chance.RandomCard
+- uid: Zigurous.Math.Chance.RandomSuit
+  name: RandomSuit()
+  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_RandomSuit
+  commentId: M:Zigurous.Math.Chance.RandomSuit
+  fullName: Zigurous.Math.Chance.RandomSuit()
+  nameWithType: Chance.RandomSuit()
+- uid: Zigurous.Math.Chance.RandomSuit*
+  name: RandomSuit
+  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_RandomSuit_
+  commentId: Overload:Zigurous.Math.Chance.RandomSuit
   isSpec: "True"
-  fullName: Zigurous.Math.Chance.RandomPlayingCardSuite
-  nameWithType: Chance.RandomPlayingCardSuite
-- uid: Zigurous.Math.Chance.RedBlack
-  name: RedBlack()
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_RedBlack
-  commentId: M:Zigurous.Math.Chance.RedBlack
-  fullName: Zigurous.Math.Chance.RedBlack()
-  nameWithType: Chance.RedBlack()
-- uid: Zigurous.Math.Chance.RedBlack*
-  name: RedBlack
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_RedBlack_
-  commentId: Overload:Zigurous.Math.Chance.RedBlack
-  isSpec: "True"
-  fullName: Zigurous.Math.Chance.RedBlack
-  nameWithType: Chance.RedBlack
-- uid: Zigurous.Math.Chance.Roll*
-  name: Roll
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_Roll_
-  commentId: Overload:Zigurous.Math.Chance.Roll
-  isSpec: "True"
-  fullName: Zigurous.Math.Chance.Roll
-  nameWithType: Chance.Roll
-- uid: Zigurous.Math.Chance.Roll``1(``0[],System.Int32[])
-  name: Roll<T>(T[], Int32[])
-  href: api/Zigurous.Math.Chance.html#Zigurous_Math_Chance_Roll__1___0___System_Int32___
-  commentId: M:Zigurous.Math.Chance.Roll``1(``0[],System.Int32[])
-  name.vb: Roll(Of T)(T(), Int32())
-  fullName: Zigurous.Math.Chance.Roll<T>(T[], System.Int32[])
-  fullName.vb: Zigurous.Math.Chance.Roll(Of T)(T(), System.Int32())
-  nameWithType: Chance.Roll<T>(T[], Int32[])
-  nameWithType.vb: Chance.Roll(Of T)(T(), Int32())
+  fullName: Zigurous.Math.Chance.RandomSuit
+  nameWithType: Chance.RandomSuit
+- uid: Zigurous.Math.Chance.Suit
+  name: Chance.Suit
+  href: api/Zigurous.Math.Chance.Suit.html
+  commentId: T:Zigurous.Math.Chance.Suit
+  fullName: Zigurous.Math.Chance.Suit
+  nameWithType: Chance.Suit
+- uid: Zigurous.Math.Chance.Suit.Clubs
+  name: Clubs
+  href: api/Zigurous.Math.Chance.Suit.html#Zigurous_Math_Chance_Suit_Clubs
+  commentId: F:Zigurous.Math.Chance.Suit.Clubs
+  fullName: Zigurous.Math.Chance.Suit.Clubs
+  nameWithType: Chance.Suit.Clubs
+- uid: Zigurous.Math.Chance.Suit.Diamonds
+  name: Diamonds
+  href: api/Zigurous.Math.Chance.Suit.html#Zigurous_Math_Chance_Suit_Diamonds
+  commentId: F:Zigurous.Math.Chance.Suit.Diamonds
+  fullName: Zigurous.Math.Chance.Suit.Diamonds
+  nameWithType: Chance.Suit.Diamonds
+- uid: Zigurous.Math.Chance.Suit.Hearts
+  name: Hearts
+  href: api/Zigurous.Math.Chance.Suit.html#Zigurous_Math_Chance_Suit_Hearts
+  commentId: F:Zigurous.Math.Chance.Suit.Hearts
+  fullName: Zigurous.Math.Chance.Suit.Hearts
+  nameWithType: Chance.Suit.Hearts
+- uid: Zigurous.Math.Chance.Suit.Spades
+  name: Spades
+  href: api/Zigurous.Math.Chance.Suit.html#Zigurous_Math_Chance_Suit_Spades
+  commentId: F:Zigurous.Math.Chance.Suit.Spades
+  fullName: Zigurous.Math.Chance.Suit.Spades
+  nameWithType: Chance.Suit.Spades
 - uid: Zigurous.Math.ColliderExtensions
   name: ColliderExtensions
   href: api/Zigurous.Math.ColliderExtensions.html
@@ -785,6 +599,70 @@ references:
   fullName.vb: Zigurous.Math.ComparableExtensions.IsBetween(Of T)(T, T, T, System.Boolean, System.Boolean)
   nameWithType: ComparableExtensions.IsBetween<T>(T, T, T, Boolean, Boolean)
   nameWithType.vb: ComparableExtensions.IsBetween(Of T)(T, T, T, Boolean, Boolean)
+- uid: Zigurous.Math.ComparableExtensions.IsBetweenExclusive*
+  name: IsBetweenExclusive
+  href: api/Zigurous.Math.ComparableExtensions.html#Zigurous_Math_ComparableExtensions_IsBetweenExclusive_
+  commentId: Overload:Zigurous.Math.ComparableExtensions.IsBetweenExclusive
+  isSpec: "True"
+  fullName: Zigurous.Math.ComparableExtensions.IsBetweenExclusive
+  nameWithType: ComparableExtensions.IsBetweenExclusive
+- uid: Zigurous.Math.ComparableExtensions.IsBetweenExclusive``1(``0,``0,``0)
+  name: IsBetweenExclusive<T>(T, T, T)
+  href: api/Zigurous.Math.ComparableExtensions.html#Zigurous_Math_ComparableExtensions_IsBetweenExclusive__1___0___0___0_
+  commentId: M:Zigurous.Math.ComparableExtensions.IsBetweenExclusive``1(``0,``0,``0)
+  name.vb: IsBetweenExclusive(Of T)(T, T, T)
+  fullName: Zigurous.Math.ComparableExtensions.IsBetweenExclusive<T>(T, T, T)
+  fullName.vb: Zigurous.Math.ComparableExtensions.IsBetweenExclusive(Of T)(T, T, T)
+  nameWithType: ComparableExtensions.IsBetweenExclusive<T>(T, T, T)
+  nameWithType.vb: ComparableExtensions.IsBetweenExclusive(Of T)(T, T, T)
+- uid: Zigurous.Math.ComparableExtensions.IsBetweenExclusiveInclusive*
+  name: IsBetweenExclusiveInclusive
+  href: api/Zigurous.Math.ComparableExtensions.html#Zigurous_Math_ComparableExtensions_IsBetweenExclusiveInclusive_
+  commentId: Overload:Zigurous.Math.ComparableExtensions.IsBetweenExclusiveInclusive
+  isSpec: "True"
+  fullName: Zigurous.Math.ComparableExtensions.IsBetweenExclusiveInclusive
+  nameWithType: ComparableExtensions.IsBetweenExclusiveInclusive
+- uid: Zigurous.Math.ComparableExtensions.IsBetweenExclusiveInclusive``1(``0,``0,``0)
+  name: IsBetweenExclusiveInclusive<T>(T, T, T)
+  href: api/Zigurous.Math.ComparableExtensions.html#Zigurous_Math_ComparableExtensions_IsBetweenExclusiveInclusive__1___0___0___0_
+  commentId: M:Zigurous.Math.ComparableExtensions.IsBetweenExclusiveInclusive``1(``0,``0,``0)
+  name.vb: IsBetweenExclusiveInclusive(Of T)(T, T, T)
+  fullName: Zigurous.Math.ComparableExtensions.IsBetweenExclusiveInclusive<T>(T, T, T)
+  fullName.vb: Zigurous.Math.ComparableExtensions.IsBetweenExclusiveInclusive(Of T)(T, T, T)
+  nameWithType: ComparableExtensions.IsBetweenExclusiveInclusive<T>(T, T, T)
+  nameWithType.vb: ComparableExtensions.IsBetweenExclusiveInclusive(Of T)(T, T, T)
+- uid: Zigurous.Math.ComparableExtensions.IsBetweenInclusive*
+  name: IsBetweenInclusive
+  href: api/Zigurous.Math.ComparableExtensions.html#Zigurous_Math_ComparableExtensions_IsBetweenInclusive_
+  commentId: Overload:Zigurous.Math.ComparableExtensions.IsBetweenInclusive
+  isSpec: "True"
+  fullName: Zigurous.Math.ComparableExtensions.IsBetweenInclusive
+  nameWithType: ComparableExtensions.IsBetweenInclusive
+- uid: Zigurous.Math.ComparableExtensions.IsBetweenInclusive``1(``0,``0,``0)
+  name: IsBetweenInclusive<T>(T, T, T)
+  href: api/Zigurous.Math.ComparableExtensions.html#Zigurous_Math_ComparableExtensions_IsBetweenInclusive__1___0___0___0_
+  commentId: M:Zigurous.Math.ComparableExtensions.IsBetweenInclusive``1(``0,``0,``0)
+  name.vb: IsBetweenInclusive(Of T)(T, T, T)
+  fullName: Zigurous.Math.ComparableExtensions.IsBetweenInclusive<T>(T, T, T)
+  fullName.vb: Zigurous.Math.ComparableExtensions.IsBetweenInclusive(Of T)(T, T, T)
+  nameWithType: ComparableExtensions.IsBetweenInclusive<T>(T, T, T)
+  nameWithType.vb: ComparableExtensions.IsBetweenInclusive(Of T)(T, T, T)
+- uid: Zigurous.Math.ComparableExtensions.IsBetweenInclusiveExclusive*
+  name: IsBetweenInclusiveExclusive
+  href: api/Zigurous.Math.ComparableExtensions.html#Zigurous_Math_ComparableExtensions_IsBetweenInclusiveExclusive_
+  commentId: Overload:Zigurous.Math.ComparableExtensions.IsBetweenInclusiveExclusive
+  isSpec: "True"
+  fullName: Zigurous.Math.ComparableExtensions.IsBetweenInclusiveExclusive
+  nameWithType: ComparableExtensions.IsBetweenInclusiveExclusive
+- uid: Zigurous.Math.ComparableExtensions.IsBetweenInclusiveExclusive``1(``0,``0,``0)
+  name: IsBetweenInclusiveExclusive<T>(T, T, T)
+  href: api/Zigurous.Math.ComparableExtensions.html#Zigurous_Math_ComparableExtensions_IsBetweenInclusiveExclusive__1___0___0___0_
+  commentId: M:Zigurous.Math.ComparableExtensions.IsBetweenInclusiveExclusive``1(``0,``0,``0)
+  name.vb: IsBetweenInclusiveExclusive(Of T)(T, T, T)
+  fullName: Zigurous.Math.ComparableExtensions.IsBetweenInclusiveExclusive<T>(T, T, T)
+  fullName.vb: Zigurous.Math.ComparableExtensions.IsBetweenInclusiveExclusive(Of T)(T, T, T)
+  nameWithType: ComparableExtensions.IsBetweenInclusiveExclusive<T>(T, T, T)
+  nameWithType.vb: ComparableExtensions.IsBetweenInclusiveExclusive(Of T)(T, T, T)
 - uid: Zigurous.Math.ComparableExtensions.Max*
   name: Max
   href: api/Zigurous.Math.ComparableExtensions.html#Zigurous_Math_ComparableExtensions_Max_
@@ -835,6 +713,264 @@ references:
   fullName.vb: Zigurous.Math.ComparableExtensions.Min(Of T)(List(Of T))
   nameWithType: ComparableExtensions.Min<T>(List<T>)
   nameWithType.vb: ComparableExtensions.Min(Of T)(List(Of T))
+- uid: Zigurous.Math.Dice
+  name: Dice
+  href: api/Zigurous.Math.Dice.html
+  commentId: T:Zigurous.Math.Dice
+  fullName: Zigurous.Math.Dice
+  nameWithType: Dice
+- uid: Zigurous.Math.Dice.D10
+  name: D10()
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_D10
+  commentId: M:Zigurous.Math.Dice.D10
+  fullName: Zigurous.Math.Dice.D10()
+  nameWithType: Dice.D10()
+- uid: Zigurous.Math.Dice.D10(System.Int32)
+  name: D10(Int32)
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_D10_System_Int32_
+  commentId: M:Zigurous.Math.Dice.D10(System.Int32)
+  fullName: Zigurous.Math.Dice.D10(System.Int32)
+  nameWithType: Dice.D10(Int32)
+- uid: Zigurous.Math.Dice.D10*
+  name: D10
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_D10_
+  commentId: Overload:Zigurous.Math.Dice.D10
+  isSpec: "True"
+  fullName: Zigurous.Math.Dice.D10
+  nameWithType: Dice.D10
+- uid: Zigurous.Math.Dice.D100
+  name: D100()
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_D100
+  commentId: M:Zigurous.Math.Dice.D100
+  fullName: Zigurous.Math.Dice.D100()
+  nameWithType: Dice.D100()
+- uid: Zigurous.Math.Dice.D100(System.Int32)
+  name: D100(Int32)
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_D100_System_Int32_
+  commentId: M:Zigurous.Math.Dice.D100(System.Int32)
+  fullName: Zigurous.Math.Dice.D100(System.Int32)
+  nameWithType: Dice.D100(Int32)
+- uid: Zigurous.Math.Dice.D100*
+  name: D100
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_D100_
+  commentId: Overload:Zigurous.Math.Dice.D100
+  isSpec: "True"
+  fullName: Zigurous.Math.Dice.D100
+  nameWithType: Dice.D100
+- uid: Zigurous.Math.Dice.D12
+  name: D12()
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_D12
+  commentId: M:Zigurous.Math.Dice.D12
+  fullName: Zigurous.Math.Dice.D12()
+  nameWithType: Dice.D12()
+- uid: Zigurous.Math.Dice.D12(System.Int32)
+  name: D12(Int32)
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_D12_System_Int32_
+  commentId: M:Zigurous.Math.Dice.D12(System.Int32)
+  fullName: Zigurous.Math.Dice.D12(System.Int32)
+  nameWithType: Dice.D12(Int32)
+- uid: Zigurous.Math.Dice.D12*
+  name: D12
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_D12_
+  commentId: Overload:Zigurous.Math.Dice.D12
+  isSpec: "True"
+  fullName: Zigurous.Math.Dice.D12
+  nameWithType: Dice.D12
+- uid: Zigurous.Math.Dice.D20
+  name: D20()
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_D20
+  commentId: M:Zigurous.Math.Dice.D20
+  fullName: Zigurous.Math.Dice.D20()
+  nameWithType: Dice.D20()
+- uid: Zigurous.Math.Dice.D20(System.Int32)
+  name: D20(Int32)
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_D20_System_Int32_
+  commentId: M:Zigurous.Math.Dice.D20(System.Int32)
+  fullName: Zigurous.Math.Dice.D20(System.Int32)
+  nameWithType: Dice.D20(Int32)
+- uid: Zigurous.Math.Dice.D20*
+  name: D20
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_D20_
+  commentId: Overload:Zigurous.Math.Dice.D20
+  isSpec: "True"
+  fullName: Zigurous.Math.Dice.D20
+  nameWithType: Dice.D20
+- uid: Zigurous.Math.Dice.D4
+  name: D4()
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_D4
+  commentId: M:Zigurous.Math.Dice.D4
+  fullName: Zigurous.Math.Dice.D4()
+  nameWithType: Dice.D4()
+- uid: Zigurous.Math.Dice.D4(System.Int32)
+  name: D4(Int32)
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_D4_System_Int32_
+  commentId: M:Zigurous.Math.Dice.D4(System.Int32)
+  fullName: Zigurous.Math.Dice.D4(System.Int32)
+  nameWithType: Dice.D4(Int32)
+- uid: Zigurous.Math.Dice.D4*
+  name: D4
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_D4_
+  commentId: Overload:Zigurous.Math.Dice.D4
+  isSpec: "True"
+  fullName: Zigurous.Math.Dice.D4
+  nameWithType: Dice.D4
+- uid: Zigurous.Math.Dice.D48
+  name: D48()
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_D48
+  commentId: M:Zigurous.Math.Dice.D48
+  fullName: Zigurous.Math.Dice.D48()
+  nameWithType: Dice.D48()
+- uid: Zigurous.Math.Dice.D48(System.Int32)
+  name: D48(Int32)
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_D48_System_Int32_
+  commentId: M:Zigurous.Math.Dice.D48(System.Int32)
+  fullName: Zigurous.Math.Dice.D48(System.Int32)
+  nameWithType: Dice.D48(Int32)
+- uid: Zigurous.Math.Dice.D48*
+  name: D48
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_D48_
+  commentId: Overload:Zigurous.Math.Dice.D48
+  isSpec: "True"
+  fullName: Zigurous.Math.Dice.D48
+  nameWithType: Dice.D48
+- uid: Zigurous.Math.Dice.D6
+  name: D6()
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_D6
+  commentId: M:Zigurous.Math.Dice.D6
+  fullName: Zigurous.Math.Dice.D6()
+  nameWithType: Dice.D6()
+- uid: Zigurous.Math.Dice.D6(System.Int32)
+  name: D6(Int32)
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_D6_System_Int32_
+  commentId: M:Zigurous.Math.Dice.D6(System.Int32)
+  fullName: Zigurous.Math.Dice.D6(System.Int32)
+  nameWithType: Dice.D6(Int32)
+- uid: Zigurous.Math.Dice.D6*
+  name: D6
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_D6_
+  commentId: Overload:Zigurous.Math.Dice.D6
+  isSpec: "True"
+  fullName: Zigurous.Math.Dice.D6
+  nameWithType: Dice.D6
+- uid: Zigurous.Math.Dice.D8
+  name: D8()
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_D8
+  commentId: M:Zigurous.Math.Dice.D8
+  fullName: Zigurous.Math.Dice.D8()
+  nameWithType: Dice.D8()
+- uid: Zigurous.Math.Dice.D8(System.Int32)
+  name: D8(Int32)
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_D8_System_Int32_
+  commentId: M:Zigurous.Math.Dice.D8(System.Int32)
+  fullName: Zigurous.Math.Dice.D8(System.Int32)
+  nameWithType: Dice.D8(Int32)
+- uid: Zigurous.Math.Dice.D8*
+  name: D8
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_D8_
+  commentId: Overload:Zigurous.Math.Dice.D8
+  isSpec: "True"
+  fullName: Zigurous.Math.Dice.D8
+  nameWithType: Dice.D8
+- uid: Zigurous.Math.Dice.NSided(System.Int32)
+  name: NSided(Int32)
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_NSided_System_Int32_
+  commentId: M:Zigurous.Math.Dice.NSided(System.Int32)
+  fullName: Zigurous.Math.Dice.NSided(System.Int32)
+  nameWithType: Dice.NSided(Int32)
+- uid: Zigurous.Math.Dice.NSided(System.Int32,System.Int32)
+  name: NSided(Int32, Int32)
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_NSided_System_Int32_System_Int32_
+  commentId: M:Zigurous.Math.Dice.NSided(System.Int32,System.Int32)
+  fullName: Zigurous.Math.Dice.NSided(System.Int32, System.Int32)
+  nameWithType: Dice.NSided(Int32, Int32)
+- uid: Zigurous.Math.Dice.NSided*
+  name: NSided
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_NSided_
+  commentId: Overload:Zigurous.Math.Dice.NSided
+  isSpec: "True"
+  fullName: Zigurous.Math.Dice.NSided
+  nameWithType: Dice.NSided
+- uid: Zigurous.Math.Dice.Roll(System.Int32[])
+  name: Roll(Int32[])
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_Roll_System_Int32___
+  commentId: M:Zigurous.Math.Dice.Roll(System.Int32[])
+  name.vb: Roll(Int32())
+  fullName: Zigurous.Math.Dice.Roll(System.Int32[])
+  fullName.vb: Zigurous.Math.Dice.Roll(System.Int32())
+  nameWithType: Dice.Roll(Int32[])
+  nameWithType.vb: Dice.Roll(Int32())
+- uid: Zigurous.Math.Dice.Roll(System.Int32[],System.Int32)
+  name: Roll(Int32[], Int32)
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_Roll_System_Int32___System_Int32_
+  commentId: M:Zigurous.Math.Dice.Roll(System.Int32[],System.Int32)
+  name.vb: Roll(Int32(), Int32)
+  fullName: Zigurous.Math.Dice.Roll(System.Int32[], System.Int32)
+  fullName.vb: Zigurous.Math.Dice.Roll(System.Int32(), System.Int32)
+  nameWithType: Dice.Roll(Int32[], Int32)
+  nameWithType.vb: Dice.Roll(Int32(), Int32)
+- uid: Zigurous.Math.Dice.Roll*
+  name: Roll
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_Roll_
+  commentId: Overload:Zigurous.Math.Dice.Roll
+  isSpec: "True"
+  fullName: Zigurous.Math.Dice.Roll
+  nameWithType: Dice.Roll
+- uid: Zigurous.Math.Dice.Roll``1(``0[])
+  name: Roll<T>(T[])
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_Roll__1___0___
+  commentId: M:Zigurous.Math.Dice.Roll``1(``0[])
+  name.vb: Roll(Of T)(T())
+  fullName: Zigurous.Math.Dice.Roll<T>(T[])
+  fullName.vb: Zigurous.Math.Dice.Roll(Of T)(T())
+  nameWithType: Dice.Roll<T>(T[])
+  nameWithType.vb: Dice.Roll(Of T)(T())
+- uid: Zigurous.Math.Dice.Roll``1(``0[],System.Int32[])
+  name: Roll<T>(T[], Int32[])
+  href: api/Zigurous.Math.Dice.html#Zigurous_Math_Dice_Roll__1___0___System_Int32___
+  commentId: M:Zigurous.Math.Dice.Roll``1(``0[],System.Int32[])
+  name.vb: Roll(Of T)(T(), Int32())
+  fullName: Zigurous.Math.Dice.Roll<T>(T[], System.Int32[])
+  fullName.vb: Zigurous.Math.Dice.Roll(Of T)(T(), System.Int32())
+  nameWithType: Dice.Roll<T>(T[], Int32[])
+  nameWithType.vb: Dice.Roll(Of T)(T(), Int32())
+- uid: Zigurous.Math.DoubleEqualityComparer
+  name: DoubleEqualityComparer
+  href: api/Zigurous.Math.DoubleEqualityComparer.html
+  commentId: T:Zigurous.Math.DoubleEqualityComparer
+  fullName: Zigurous.Math.DoubleEqualityComparer
+  nameWithType: DoubleEqualityComparer
+- uid: Zigurous.Math.DoubleEqualityComparer.digits
+  name: digits
+  href: api/Zigurous.Math.DoubleEqualityComparer.html#Zigurous_Math_DoubleEqualityComparer_digits
+  commentId: F:Zigurous.Math.DoubleEqualityComparer.digits
+  fullName: Zigurous.Math.DoubleEqualityComparer.digits
+  nameWithType: DoubleEqualityComparer.digits
+- uid: Zigurous.Math.DoubleEqualityComparer.Equals(System.Double,System.Double)
+  name: Equals(Double, Double)
+  href: api/Zigurous.Math.DoubleEqualityComparer.html#Zigurous_Math_DoubleEqualityComparer_Equals_System_Double_System_Double_
+  commentId: M:Zigurous.Math.DoubleEqualityComparer.Equals(System.Double,System.Double)
+  fullName: Zigurous.Math.DoubleEqualityComparer.Equals(System.Double, System.Double)
+  nameWithType: DoubleEqualityComparer.Equals(Double, Double)
+- uid: Zigurous.Math.DoubleEqualityComparer.Equals*
+  name: Equals
+  href: api/Zigurous.Math.DoubleEqualityComparer.html#Zigurous_Math_DoubleEqualityComparer_Equals_
+  commentId: Overload:Zigurous.Math.DoubleEqualityComparer.Equals
+  isSpec: "True"
+  fullName: Zigurous.Math.DoubleEqualityComparer.Equals
+  nameWithType: DoubleEqualityComparer.Equals
+- uid: Zigurous.Math.DoubleEqualityComparer.GetHashCode(System.Double)
+  name: GetHashCode(Double)
+  href: api/Zigurous.Math.DoubleEqualityComparer.html#Zigurous_Math_DoubleEqualityComparer_GetHashCode_System_Double_
+  commentId: M:Zigurous.Math.DoubleEqualityComparer.GetHashCode(System.Double)
+  fullName: Zigurous.Math.DoubleEqualityComparer.GetHashCode(System.Double)
+  nameWithType: DoubleEqualityComparer.GetHashCode(Double)
+- uid: Zigurous.Math.DoubleEqualityComparer.GetHashCode*
+  name: GetHashCode
+  href: api/Zigurous.Math.DoubleEqualityComparer.html#Zigurous_Math_DoubleEqualityComparer_GetHashCode_
+  commentId: Overload:Zigurous.Math.DoubleEqualityComparer.GetHashCode
+  isSpec: "True"
+  fullName: Zigurous.Math.DoubleEqualityComparer.GetHashCode
+  nameWithType: DoubleEqualityComparer.GetHashCode
 - uid: Zigurous.Math.DoubleExtensions
   name: DoubleExtensions
   href: api/Zigurous.Math.DoubleExtensions.html
@@ -854,12 +990,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.DoubleExtensions.IsDividable
   nameWithType: DoubleExtensions.IsDividable
-- uid: Zigurous.Math.DoubleExtensions.IsEqualTo(System.Double,System.Double)
-  name: IsEqualTo(Double, Double)
-  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_IsEqualTo_System_Double_System_Double_
-  commentId: M:Zigurous.Math.DoubleExtensions.IsEqualTo(System.Double,System.Double)
-  fullName: Zigurous.Math.DoubleExtensions.IsEqualTo(System.Double, System.Double)
-  nameWithType: DoubleExtensions.IsEqualTo(Double, Double)
 - uid: Zigurous.Math.DoubleExtensions.IsEqualTo(System.Double,System.Double,System.Double)
   name: IsEqualTo(Double, Double, Double)
   href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_IsEqualTo_System_Double_System_Double_System_Double_
@@ -886,32 +1016,19 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.DoubleExtensions.IsImaginaryNumber
   nameWithType: DoubleExtensions.IsImaginaryNumber
-- uid: Zigurous.Math.DoubleExtensions.IsInfinity(System.Double)
-  name: IsInfinity(Double)
-  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_IsInfinity_System_Double_
-  commentId: M:Zigurous.Math.DoubleExtensions.IsInfinity(System.Double)
-  fullName: Zigurous.Math.DoubleExtensions.IsInfinity(System.Double)
-  nameWithType: DoubleExtensions.IsInfinity(Double)
-- uid: Zigurous.Math.DoubleExtensions.IsInfinity*
-  name: IsInfinity
-  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_IsInfinity_
-  commentId: Overload:Zigurous.Math.DoubleExtensions.IsInfinity
+- uid: Zigurous.Math.DoubleExtensions.IsInfinite(System.Double)
+  name: IsInfinite(Double)
+  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_IsInfinite_System_Double_
+  commentId: M:Zigurous.Math.DoubleExtensions.IsInfinite(System.Double)
+  fullName: Zigurous.Math.DoubleExtensions.IsInfinite(System.Double)
+  nameWithType: DoubleExtensions.IsInfinite(Double)
+- uid: Zigurous.Math.DoubleExtensions.IsInfinite*
+  name: IsInfinite
+  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_IsInfinite_
+  commentId: Overload:Zigurous.Math.DoubleExtensions.IsInfinite
   isSpec: "True"
-  fullName: Zigurous.Math.DoubleExtensions.IsInfinity
-  nameWithType: DoubleExtensions.IsInfinity
-- uid: Zigurous.Math.DoubleExtensions.IsInRange(System.Double,System.Double,System.Double)
-  name: IsInRange(Double, Double, Double)
-  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_IsInRange_System_Double_System_Double_System_Double_
-  commentId: M:Zigurous.Math.DoubleExtensions.IsInRange(System.Double,System.Double,System.Double)
-  fullName: Zigurous.Math.DoubleExtensions.IsInRange(System.Double, System.Double, System.Double)
-  nameWithType: DoubleExtensions.IsInRange(Double, Double, Double)
-- uid: Zigurous.Math.DoubleExtensions.IsInRange*
-  name: IsInRange
-  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_IsInRange_
-  commentId: Overload:Zigurous.Math.DoubleExtensions.IsInRange
-  isSpec: "True"
-  fullName: Zigurous.Math.DoubleExtensions.IsInRange
-  nameWithType: DoubleExtensions.IsInRange
+  fullName: Zigurous.Math.DoubleExtensions.IsInfinite
+  nameWithType: DoubleExtensions.IsInfinite
 - uid: Zigurous.Math.DoubleExtensions.IsNaN(System.Double)
   name: IsNaN(Double)
   href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_IsNaN_System_Double_
@@ -951,70 +1068,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.DoubleExtensions.IsNegativeInfinity
   nameWithType: DoubleExtensions.IsNegativeInfinity
-- uid: Zigurous.Math.DoubleExtensions.IsNotEqualTo(System.Double,System.Double)
-  name: IsNotEqualTo(Double, Double)
-  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_IsNotEqualTo_System_Double_System_Double_
-  commentId: M:Zigurous.Math.DoubleExtensions.IsNotEqualTo(System.Double,System.Double)
-  fullName: Zigurous.Math.DoubleExtensions.IsNotEqualTo(System.Double, System.Double)
-  nameWithType: DoubleExtensions.IsNotEqualTo(Double, Double)
-- uid: Zigurous.Math.DoubleExtensions.IsNotEqualTo(System.Double,System.Double,System.Double)
-  name: IsNotEqualTo(Double, Double, Double)
-  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_IsNotEqualTo_System_Double_System_Double_System_Double_
-  commentId: M:Zigurous.Math.DoubleExtensions.IsNotEqualTo(System.Double,System.Double,System.Double)
-  fullName: Zigurous.Math.DoubleExtensions.IsNotEqualTo(System.Double, System.Double, System.Double)
-  nameWithType: DoubleExtensions.IsNotEqualTo(Double, Double, Double)
-- uid: Zigurous.Math.DoubleExtensions.IsNotEqualTo*
-  name: IsNotEqualTo
-  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_IsNotEqualTo_
-  commentId: Overload:Zigurous.Math.DoubleExtensions.IsNotEqualTo
-  isSpec: "True"
-  fullName: Zigurous.Math.DoubleExtensions.IsNotEqualTo
-  nameWithType: DoubleExtensions.IsNotEqualTo
-- uid: Zigurous.Math.DoubleExtensions.IsNotInfinity(System.Double)
-  name: IsNotInfinity(Double)
-  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_IsNotInfinity_System_Double_
-  commentId: M:Zigurous.Math.DoubleExtensions.IsNotInfinity(System.Double)
-  fullName: Zigurous.Math.DoubleExtensions.IsNotInfinity(System.Double)
-  nameWithType: DoubleExtensions.IsNotInfinity(Double)
-- uid: Zigurous.Math.DoubleExtensions.IsNotInfinity*
-  name: IsNotInfinity
-  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_IsNotInfinity_
-  commentId: Overload:Zigurous.Math.DoubleExtensions.IsNotInfinity
-  isSpec: "True"
-  fullName: Zigurous.Math.DoubleExtensions.IsNotInfinity
-  nameWithType: DoubleExtensions.IsNotInfinity
-- uid: Zigurous.Math.DoubleExtensions.IsNotNaN(System.Double)
-  name: IsNotNaN(Double)
-  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_IsNotNaN_System_Double_
-  commentId: M:Zigurous.Math.DoubleExtensions.IsNotNaN(System.Double)
-  fullName: Zigurous.Math.DoubleExtensions.IsNotNaN(System.Double)
-  nameWithType: DoubleExtensions.IsNotNaN(Double)
-- uid: Zigurous.Math.DoubleExtensions.IsNotNaN*
-  name: IsNotNaN
-  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_IsNotNaN_
-  commentId: Overload:Zigurous.Math.DoubleExtensions.IsNotNaN
-  isSpec: "True"
-  fullName: Zigurous.Math.DoubleExtensions.IsNotNaN
-  nameWithType: DoubleExtensions.IsNotNaN
-- uid: Zigurous.Math.DoubleExtensions.IsNotZero(System.Double)
-  name: IsNotZero(Double)
-  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_IsNotZero_System_Double_
-  commentId: M:Zigurous.Math.DoubleExtensions.IsNotZero(System.Double)
-  fullName: Zigurous.Math.DoubleExtensions.IsNotZero(System.Double)
-  nameWithType: DoubleExtensions.IsNotZero(Double)
-- uid: Zigurous.Math.DoubleExtensions.IsNotZero(System.Double,System.Double)
-  name: IsNotZero(Double, Double)
-  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_IsNotZero_System_Double_System_Double_
-  commentId: M:Zigurous.Math.DoubleExtensions.IsNotZero(System.Double,System.Double)
-  fullName: Zigurous.Math.DoubleExtensions.IsNotZero(System.Double, System.Double)
-  nameWithType: DoubleExtensions.IsNotZero(Double, Double)
-- uid: Zigurous.Math.DoubleExtensions.IsNotZero*
-  name: IsNotZero
-  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_IsNotZero_
-  commentId: Overload:Zigurous.Math.DoubleExtensions.IsNotZero
-  isSpec: "True"
-  fullName: Zigurous.Math.DoubleExtensions.IsNotZero
-  nameWithType: DoubleExtensions.IsNotZero
 - uid: Zigurous.Math.DoubleExtensions.IsPositive(System.Double)
   name: IsPositive(Double)
   href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_IsPositive_System_Double_
@@ -1054,12 +1107,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.DoubleExtensions.IsRealNumber
   nameWithType: DoubleExtensions.IsRealNumber
-- uid: Zigurous.Math.DoubleExtensions.IsZero(System.Double)
-  name: IsZero(Double)
-  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_IsZero_System_Double_
-  commentId: M:Zigurous.Math.DoubleExtensions.IsZero(System.Double)
-  fullName: Zigurous.Math.DoubleExtensions.IsZero(System.Double)
-  nameWithType: DoubleExtensions.IsZero(Double)
 - uid: Zigurous.Math.DoubleExtensions.IsZero(System.Double,System.Double)
   name: IsZero(Double, Double)
   href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_IsZero_System_Double_System_Double_
@@ -1073,64 +1120,92 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.DoubleExtensions.IsZero
   nameWithType: DoubleExtensions.IsZero
-- uid: Zigurous.Math.DoubleExtensions.NotImaginary(System.Double,System.Double)
-  name: NotImaginary(Double, Double)
-  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_NotImaginary_System_Double_System_Double_
-  commentId: M:Zigurous.Math.DoubleExtensions.NotImaginary(System.Double,System.Double)
-  fullName: Zigurous.Math.DoubleExtensions.NotImaginary(System.Double, System.Double)
-  nameWithType: DoubleExtensions.NotImaginary(Double, Double)
-- uid: Zigurous.Math.DoubleExtensions.NotImaginary*
-  name: NotImaginary
-  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_NotImaginary_
-  commentId: Overload:Zigurous.Math.DoubleExtensions.NotImaginary
+- uid: Zigurous.Math.DoubleExtensions.ToAbbreviatedString(System.Double)
+  name: ToAbbreviatedString(Double)
+  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_ToAbbreviatedString_System_Double_
+  commentId: M:Zigurous.Math.DoubleExtensions.ToAbbreviatedString(System.Double)
+  fullName: Zigurous.Math.DoubleExtensions.ToAbbreviatedString(System.Double)
+  nameWithType: DoubleExtensions.ToAbbreviatedString(Double)
+- uid: Zigurous.Math.DoubleExtensions.ToAbbreviatedString(System.Double,Zigurous.Math.NumberAbbreviation[])
+  name: ToAbbreviatedString(Double, NumberAbbreviation[])
+  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_ToAbbreviatedString_System_Double_Zigurous_Math_NumberAbbreviation___
+  commentId: M:Zigurous.Math.DoubleExtensions.ToAbbreviatedString(System.Double,Zigurous.Math.NumberAbbreviation[])
+  name.vb: ToAbbreviatedString(Double, NumberAbbreviation())
+  fullName: Zigurous.Math.DoubleExtensions.ToAbbreviatedString(System.Double, Zigurous.Math.NumberAbbreviation[])
+  fullName.vb: Zigurous.Math.DoubleExtensions.ToAbbreviatedString(System.Double, Zigurous.Math.NumberAbbreviation())
+  nameWithType: DoubleExtensions.ToAbbreviatedString(Double, NumberAbbreviation[])
+  nameWithType.vb: DoubleExtensions.ToAbbreviatedString(Double, NumberAbbreviation())
+- uid: Zigurous.Math.DoubleExtensions.ToAbbreviatedString*
+  name: ToAbbreviatedString
+  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_ToAbbreviatedString_
+  commentId: Overload:Zigurous.Math.DoubleExtensions.ToAbbreviatedString
   isSpec: "True"
-  fullName: Zigurous.Math.DoubleExtensions.NotImaginary
-  nameWithType: DoubleExtensions.NotImaginary
-- uid: Zigurous.Math.DoubleExtensions.NotInfinity(System.Double,System.Double)
-  name: NotInfinity(Double, Double)
-  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_NotInfinity_System_Double_System_Double_
-  commentId: M:Zigurous.Math.DoubleExtensions.NotInfinity(System.Double,System.Double)
-  fullName: Zigurous.Math.DoubleExtensions.NotInfinity(System.Double, System.Double)
-  nameWithType: DoubleExtensions.NotInfinity(Double, Double)
-- uid: Zigurous.Math.DoubleExtensions.NotInfinity*
-  name: NotInfinity
-  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_NotInfinity_
-  commentId: Overload:Zigurous.Math.DoubleExtensions.NotInfinity
+  fullName: Zigurous.Math.DoubleExtensions.ToAbbreviatedString
+  nameWithType: DoubleExtensions.ToAbbreviatedString
+- uid: Zigurous.Math.DoubleExtensions.UnsetImaginary(System.Double@,System.Double)
+  name: UnsetImaginary(ref Double, Double)
+  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_UnsetImaginary_System_Double__System_Double_
+  commentId: M:Zigurous.Math.DoubleExtensions.UnsetImaginary(System.Double@,System.Double)
+  name.vb: UnsetImaginary(ByRef Double, Double)
+  fullName: Zigurous.Math.DoubleExtensions.UnsetImaginary(ref System.Double, System.Double)
+  fullName.vb: Zigurous.Math.DoubleExtensions.UnsetImaginary(ByRef System.Double, System.Double)
+  nameWithType: DoubleExtensions.UnsetImaginary(ref Double, Double)
+  nameWithType.vb: DoubleExtensions.UnsetImaginary(ByRef Double, Double)
+- uid: Zigurous.Math.DoubleExtensions.UnsetImaginary*
+  name: UnsetImaginary
+  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_UnsetImaginary_
+  commentId: Overload:Zigurous.Math.DoubleExtensions.UnsetImaginary
   isSpec: "True"
-  fullName: Zigurous.Math.DoubleExtensions.NotInfinity
-  nameWithType: DoubleExtensions.NotInfinity
-- uid: Zigurous.Math.DoubleExtensions.NotNaN(System.Double,System.Double)
-  name: NotNaN(Double, Double)
-  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_NotNaN_System_Double_System_Double_
-  commentId: M:Zigurous.Math.DoubleExtensions.NotNaN(System.Double,System.Double)
-  fullName: Zigurous.Math.DoubleExtensions.NotNaN(System.Double, System.Double)
-  nameWithType: DoubleExtensions.NotNaN(Double, Double)
-- uid: Zigurous.Math.DoubleExtensions.NotNaN*
-  name: NotNaN
-  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_NotNaN_
-  commentId: Overload:Zigurous.Math.DoubleExtensions.NotNaN
+  fullName: Zigurous.Math.DoubleExtensions.UnsetImaginary
+  nameWithType: DoubleExtensions.UnsetImaginary
+- uid: Zigurous.Math.DoubleExtensions.UnsetInfinite(System.Double@,System.Double)
+  name: UnsetInfinite(ref Double, Double)
+  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_UnsetInfinite_System_Double__System_Double_
+  commentId: M:Zigurous.Math.DoubleExtensions.UnsetInfinite(System.Double@,System.Double)
+  name.vb: UnsetInfinite(ByRef Double, Double)
+  fullName: Zigurous.Math.DoubleExtensions.UnsetInfinite(ref System.Double, System.Double)
+  fullName.vb: Zigurous.Math.DoubleExtensions.UnsetInfinite(ByRef System.Double, System.Double)
+  nameWithType: DoubleExtensions.UnsetInfinite(ref Double, Double)
+  nameWithType.vb: DoubleExtensions.UnsetInfinite(ByRef Double, Double)
+- uid: Zigurous.Math.DoubleExtensions.UnsetInfinite*
+  name: UnsetInfinite
+  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_UnsetInfinite_
+  commentId: Overload:Zigurous.Math.DoubleExtensions.UnsetInfinite
   isSpec: "True"
-  fullName: Zigurous.Math.DoubleExtensions.NotNaN
-  nameWithType: DoubleExtensions.NotNaN
-- uid: Zigurous.Math.DoubleExtensions.NotZero(System.Double,System.Double)
-  name: NotZero(Double, Double)
-  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_NotZero_System_Double_System_Double_
-  commentId: M:Zigurous.Math.DoubleExtensions.NotZero(System.Double,System.Double)
-  fullName: Zigurous.Math.DoubleExtensions.NotZero(System.Double, System.Double)
-  nameWithType: DoubleExtensions.NotZero(Double, Double)
-- uid: Zigurous.Math.DoubleExtensions.NotZero(System.Double,System.Double,System.Double)
-  name: NotZero(Double, Double, Double)
-  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_NotZero_System_Double_System_Double_System_Double_
-  commentId: M:Zigurous.Math.DoubleExtensions.NotZero(System.Double,System.Double,System.Double)
-  fullName: Zigurous.Math.DoubleExtensions.NotZero(System.Double, System.Double, System.Double)
-  nameWithType: DoubleExtensions.NotZero(Double, Double, Double)
-- uid: Zigurous.Math.DoubleExtensions.NotZero*
-  name: NotZero
-  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_NotZero_
-  commentId: Overload:Zigurous.Math.DoubleExtensions.NotZero
+  fullName: Zigurous.Math.DoubleExtensions.UnsetInfinite
+  nameWithType: DoubleExtensions.UnsetInfinite
+- uid: Zigurous.Math.DoubleExtensions.UnsetNaN(System.Double@,System.Double)
+  name: UnsetNaN(ref Double, Double)
+  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_UnsetNaN_System_Double__System_Double_
+  commentId: M:Zigurous.Math.DoubleExtensions.UnsetNaN(System.Double@,System.Double)
+  name.vb: UnsetNaN(ByRef Double, Double)
+  fullName: Zigurous.Math.DoubleExtensions.UnsetNaN(ref System.Double, System.Double)
+  fullName.vb: Zigurous.Math.DoubleExtensions.UnsetNaN(ByRef System.Double, System.Double)
+  nameWithType: DoubleExtensions.UnsetNaN(ref Double, Double)
+  nameWithType.vb: DoubleExtensions.UnsetNaN(ByRef Double, Double)
+- uid: Zigurous.Math.DoubleExtensions.UnsetNaN*
+  name: UnsetNaN
+  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_UnsetNaN_
+  commentId: Overload:Zigurous.Math.DoubleExtensions.UnsetNaN
   isSpec: "True"
-  fullName: Zigurous.Math.DoubleExtensions.NotZero
-  nameWithType: DoubleExtensions.NotZero
+  fullName: Zigurous.Math.DoubleExtensions.UnsetNaN
+  nameWithType: DoubleExtensions.UnsetNaN
+- uid: Zigurous.Math.DoubleExtensions.UnsetZero(System.Double@,System.Double,System.Double)
+  name: UnsetZero(ref Double, Double, Double)
+  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_UnsetZero_System_Double__System_Double_System_Double_
+  commentId: M:Zigurous.Math.DoubleExtensions.UnsetZero(System.Double@,System.Double,System.Double)
+  name.vb: UnsetZero(ByRef Double, Double, Double)
+  fullName: Zigurous.Math.DoubleExtensions.UnsetZero(ref System.Double, System.Double, System.Double)
+  fullName.vb: Zigurous.Math.DoubleExtensions.UnsetZero(ByRef System.Double, System.Double, System.Double)
+  nameWithType: DoubleExtensions.UnsetZero(ref Double, Double, Double)
+  nameWithType.vb: DoubleExtensions.UnsetZero(ByRef Double, Double, Double)
+- uid: Zigurous.Math.DoubleExtensions.UnsetZero*
+  name: UnsetZero
+  href: api/Zigurous.Math.DoubleExtensions.html#Zigurous_Math_DoubleExtensions_UnsetZero_
+  commentId: Overload:Zigurous.Math.DoubleExtensions.UnsetZero
+  isSpec: "True"
+  fullName: Zigurous.Math.DoubleExtensions.UnsetZero
+  nameWithType: DoubleExtensions.UnsetZero
 - uid: Zigurous.Math.FloatEqualityComparer
   name: FloatEqualityComparer
   href: api/Zigurous.Math.FloatEqualityComparer.html
@@ -1188,12 +1263,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.FloatExtensions.IsDividable
   nameWithType: FloatExtensions.IsDividable
-- uid: Zigurous.Math.FloatExtensions.IsEqualTo(System.Single,System.Single)
-  name: IsEqualTo(Single, Single)
-  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_IsEqualTo_System_Single_System_Single_
-  commentId: M:Zigurous.Math.FloatExtensions.IsEqualTo(System.Single,System.Single)
-  fullName: Zigurous.Math.FloatExtensions.IsEqualTo(System.Single, System.Single)
-  nameWithType: FloatExtensions.IsEqualTo(Single, Single)
 - uid: Zigurous.Math.FloatExtensions.IsEqualTo(System.Single,System.Single,System.Single)
   name: IsEqualTo(Single, Single, Single)
   href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_IsEqualTo_System_Single_System_Single_System_Single_
@@ -1220,32 +1289,19 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.FloatExtensions.IsImaginaryNumber
   nameWithType: FloatExtensions.IsImaginaryNumber
-- uid: Zigurous.Math.FloatExtensions.IsInfinity(System.Single)
-  name: IsInfinity(Single)
-  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_IsInfinity_System_Single_
-  commentId: M:Zigurous.Math.FloatExtensions.IsInfinity(System.Single)
-  fullName: Zigurous.Math.FloatExtensions.IsInfinity(System.Single)
-  nameWithType: FloatExtensions.IsInfinity(Single)
-- uid: Zigurous.Math.FloatExtensions.IsInfinity*
-  name: IsInfinity
-  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_IsInfinity_
-  commentId: Overload:Zigurous.Math.FloatExtensions.IsInfinity
+- uid: Zigurous.Math.FloatExtensions.IsInfinite(System.Single)
+  name: IsInfinite(Single)
+  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_IsInfinite_System_Single_
+  commentId: M:Zigurous.Math.FloatExtensions.IsInfinite(System.Single)
+  fullName: Zigurous.Math.FloatExtensions.IsInfinite(System.Single)
+  nameWithType: FloatExtensions.IsInfinite(Single)
+- uid: Zigurous.Math.FloatExtensions.IsInfinite*
+  name: IsInfinite
+  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_IsInfinite_
+  commentId: Overload:Zigurous.Math.FloatExtensions.IsInfinite
   isSpec: "True"
-  fullName: Zigurous.Math.FloatExtensions.IsInfinity
-  nameWithType: FloatExtensions.IsInfinity
-- uid: Zigurous.Math.FloatExtensions.IsInRange(System.Single,System.Single,System.Single)
-  name: IsInRange(Single, Single, Single)
-  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_IsInRange_System_Single_System_Single_System_Single_
-  commentId: M:Zigurous.Math.FloatExtensions.IsInRange(System.Single,System.Single,System.Single)
-  fullName: Zigurous.Math.FloatExtensions.IsInRange(System.Single, System.Single, System.Single)
-  nameWithType: FloatExtensions.IsInRange(Single, Single, Single)
-- uid: Zigurous.Math.FloatExtensions.IsInRange*
-  name: IsInRange
-  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_IsInRange_
-  commentId: Overload:Zigurous.Math.FloatExtensions.IsInRange
-  isSpec: "True"
-  fullName: Zigurous.Math.FloatExtensions.IsInRange
-  nameWithType: FloatExtensions.IsInRange
+  fullName: Zigurous.Math.FloatExtensions.IsInfinite
+  nameWithType: FloatExtensions.IsInfinite
 - uid: Zigurous.Math.FloatExtensions.IsNaN(System.Single)
   name: IsNaN(Single)
   href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_IsNaN_System_Single_
@@ -1285,70 +1341,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.FloatExtensions.IsNegativeInfinity
   nameWithType: FloatExtensions.IsNegativeInfinity
-- uid: Zigurous.Math.FloatExtensions.IsNotEqualTo(System.Single,System.Single)
-  name: IsNotEqualTo(Single, Single)
-  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_IsNotEqualTo_System_Single_System_Single_
-  commentId: M:Zigurous.Math.FloatExtensions.IsNotEqualTo(System.Single,System.Single)
-  fullName: Zigurous.Math.FloatExtensions.IsNotEqualTo(System.Single, System.Single)
-  nameWithType: FloatExtensions.IsNotEqualTo(Single, Single)
-- uid: Zigurous.Math.FloatExtensions.IsNotEqualTo(System.Single,System.Single,System.Single)
-  name: IsNotEqualTo(Single, Single, Single)
-  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_IsNotEqualTo_System_Single_System_Single_System_Single_
-  commentId: M:Zigurous.Math.FloatExtensions.IsNotEqualTo(System.Single,System.Single,System.Single)
-  fullName: Zigurous.Math.FloatExtensions.IsNotEqualTo(System.Single, System.Single, System.Single)
-  nameWithType: FloatExtensions.IsNotEqualTo(Single, Single, Single)
-- uid: Zigurous.Math.FloatExtensions.IsNotEqualTo*
-  name: IsNotEqualTo
-  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_IsNotEqualTo_
-  commentId: Overload:Zigurous.Math.FloatExtensions.IsNotEqualTo
-  isSpec: "True"
-  fullName: Zigurous.Math.FloatExtensions.IsNotEqualTo
-  nameWithType: FloatExtensions.IsNotEqualTo
-- uid: Zigurous.Math.FloatExtensions.IsNotInfinity(System.Single)
-  name: IsNotInfinity(Single)
-  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_IsNotInfinity_System_Single_
-  commentId: M:Zigurous.Math.FloatExtensions.IsNotInfinity(System.Single)
-  fullName: Zigurous.Math.FloatExtensions.IsNotInfinity(System.Single)
-  nameWithType: FloatExtensions.IsNotInfinity(Single)
-- uid: Zigurous.Math.FloatExtensions.IsNotInfinity*
-  name: IsNotInfinity
-  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_IsNotInfinity_
-  commentId: Overload:Zigurous.Math.FloatExtensions.IsNotInfinity
-  isSpec: "True"
-  fullName: Zigurous.Math.FloatExtensions.IsNotInfinity
-  nameWithType: FloatExtensions.IsNotInfinity
-- uid: Zigurous.Math.FloatExtensions.IsNotNaN(System.Single)
-  name: IsNotNaN(Single)
-  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_IsNotNaN_System_Single_
-  commentId: M:Zigurous.Math.FloatExtensions.IsNotNaN(System.Single)
-  fullName: Zigurous.Math.FloatExtensions.IsNotNaN(System.Single)
-  nameWithType: FloatExtensions.IsNotNaN(Single)
-- uid: Zigurous.Math.FloatExtensions.IsNotNaN*
-  name: IsNotNaN
-  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_IsNotNaN_
-  commentId: Overload:Zigurous.Math.FloatExtensions.IsNotNaN
-  isSpec: "True"
-  fullName: Zigurous.Math.FloatExtensions.IsNotNaN
-  nameWithType: FloatExtensions.IsNotNaN
-- uid: Zigurous.Math.FloatExtensions.IsNotZero(System.Single)
-  name: IsNotZero(Single)
-  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_IsNotZero_System_Single_
-  commentId: M:Zigurous.Math.FloatExtensions.IsNotZero(System.Single)
-  fullName: Zigurous.Math.FloatExtensions.IsNotZero(System.Single)
-  nameWithType: FloatExtensions.IsNotZero(Single)
-- uid: Zigurous.Math.FloatExtensions.IsNotZero(System.Single,System.Single)
-  name: IsNotZero(Single, Single)
-  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_IsNotZero_System_Single_System_Single_
-  commentId: M:Zigurous.Math.FloatExtensions.IsNotZero(System.Single,System.Single)
-  fullName: Zigurous.Math.FloatExtensions.IsNotZero(System.Single, System.Single)
-  nameWithType: FloatExtensions.IsNotZero(Single, Single)
-- uid: Zigurous.Math.FloatExtensions.IsNotZero*
-  name: IsNotZero
-  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_IsNotZero_
-  commentId: Overload:Zigurous.Math.FloatExtensions.IsNotZero
-  isSpec: "True"
-  fullName: Zigurous.Math.FloatExtensions.IsNotZero
-  nameWithType: FloatExtensions.IsNotZero
 - uid: Zigurous.Math.FloatExtensions.IsPositive(System.Single)
   name: IsPositive(Single)
   href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_IsPositive_System_Single_
@@ -1388,12 +1380,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.FloatExtensions.IsRealNumber
   nameWithType: FloatExtensions.IsRealNumber
-- uid: Zigurous.Math.FloatExtensions.IsZero(System.Single)
-  name: IsZero(Single)
-  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_IsZero_System_Single_
-  commentId: M:Zigurous.Math.FloatExtensions.IsZero(System.Single)
-  fullName: Zigurous.Math.FloatExtensions.IsZero(System.Single)
-  nameWithType: FloatExtensions.IsZero(Single)
 - uid: Zigurous.Math.FloatExtensions.IsZero(System.Single,System.Single)
   name: IsZero(Single, Single)
   href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_IsZero_System_Single_System_Single_
@@ -1407,70 +1393,98 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.FloatExtensions.IsZero
   nameWithType: FloatExtensions.IsZero
-- uid: Zigurous.Math.FloatExtensions.NotImaginary(System.Single,System.Single)
-  name: NotImaginary(Single, Single)
-  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_NotImaginary_System_Single_System_Single_
-  commentId: M:Zigurous.Math.FloatExtensions.NotImaginary(System.Single,System.Single)
-  fullName: Zigurous.Math.FloatExtensions.NotImaginary(System.Single, System.Single)
-  nameWithType: FloatExtensions.NotImaginary(Single, Single)
-- uid: Zigurous.Math.FloatExtensions.NotImaginary*
-  name: NotImaginary
-  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_NotImaginary_
-  commentId: Overload:Zigurous.Math.FloatExtensions.NotImaginary
-  isSpec: "True"
-  fullName: Zigurous.Math.FloatExtensions.NotImaginary
-  nameWithType: FloatExtensions.NotImaginary
-- uid: Zigurous.Math.FloatExtensions.NotInfinity(System.Single,System.Single)
-  name: NotInfinity(Single, Single)
-  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_NotInfinity_System_Single_System_Single_
-  commentId: M:Zigurous.Math.FloatExtensions.NotInfinity(System.Single,System.Single)
-  fullName: Zigurous.Math.FloatExtensions.NotInfinity(System.Single, System.Single)
-  nameWithType: FloatExtensions.NotInfinity(Single, Single)
-- uid: Zigurous.Math.FloatExtensions.NotInfinity*
-  name: NotInfinity
-  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_NotInfinity_
-  commentId: Overload:Zigurous.Math.FloatExtensions.NotInfinity
-  isSpec: "True"
-  fullName: Zigurous.Math.FloatExtensions.NotInfinity
-  nameWithType: FloatExtensions.NotInfinity
-- uid: Zigurous.Math.FloatExtensions.NotNaN(System.Single,System.Single)
-  name: NotNaN(Single, Single)
-  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_NotNaN_System_Single_System_Single_
-  commentId: M:Zigurous.Math.FloatExtensions.NotNaN(System.Single,System.Single)
-  fullName: Zigurous.Math.FloatExtensions.NotNaN(System.Single, System.Single)
-  nameWithType: FloatExtensions.NotNaN(Single, Single)
-- uid: Zigurous.Math.FloatExtensions.NotNaN*
-  name: NotNaN
-  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_NotNaN_
-  commentId: Overload:Zigurous.Math.FloatExtensions.NotNaN
-  isSpec: "True"
-  fullName: Zigurous.Math.FloatExtensions.NotNaN
-  nameWithType: FloatExtensions.NotNaN
-- uid: Zigurous.Math.FloatExtensions.NotZero(System.Single,System.Single)
-  name: NotZero(Single, Single)
-  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_NotZero_System_Single_System_Single_
-  commentId: M:Zigurous.Math.FloatExtensions.NotZero(System.Single,System.Single)
-  fullName: Zigurous.Math.FloatExtensions.NotZero(System.Single, System.Single)
-  nameWithType: FloatExtensions.NotZero(Single, Single)
-- uid: Zigurous.Math.FloatExtensions.NotZero(System.Single,System.Single,System.Single)
-  name: NotZero(Single, Single, Single)
-  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_NotZero_System_Single_System_Single_System_Single_
-  commentId: M:Zigurous.Math.FloatExtensions.NotZero(System.Single,System.Single,System.Single)
-  fullName: Zigurous.Math.FloatExtensions.NotZero(System.Single, System.Single, System.Single)
-  nameWithType: FloatExtensions.NotZero(Single, Single, Single)
-- uid: Zigurous.Math.FloatExtensions.NotZero*
-  name: NotZero
-  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_NotZero_
-  commentId: Overload:Zigurous.Math.FloatExtensions.NotZero
-  isSpec: "True"
-  fullName: Zigurous.Math.FloatExtensions.NotZero
-  nameWithType: FloatExtensions.NotZero
 - uid: Zigurous.Math.FloatExtensions.SAFE_FLOAT
   name: SAFE_FLOAT
   href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_SAFE_FLOAT
   commentId: F:Zigurous.Math.FloatExtensions.SAFE_FLOAT
   fullName: Zigurous.Math.FloatExtensions.SAFE_FLOAT
   nameWithType: FloatExtensions.SAFE_FLOAT
+- uid: Zigurous.Math.FloatExtensions.ToAbbreviatedString(System.Single)
+  name: ToAbbreviatedString(Single)
+  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_ToAbbreviatedString_System_Single_
+  commentId: M:Zigurous.Math.FloatExtensions.ToAbbreviatedString(System.Single)
+  fullName: Zigurous.Math.FloatExtensions.ToAbbreviatedString(System.Single)
+  nameWithType: FloatExtensions.ToAbbreviatedString(Single)
+- uid: Zigurous.Math.FloatExtensions.ToAbbreviatedString(System.Single,Zigurous.Math.NumberAbbreviation[])
+  name: ToAbbreviatedString(Single, NumberAbbreviation[])
+  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_ToAbbreviatedString_System_Single_Zigurous_Math_NumberAbbreviation___
+  commentId: M:Zigurous.Math.FloatExtensions.ToAbbreviatedString(System.Single,Zigurous.Math.NumberAbbreviation[])
+  name.vb: ToAbbreviatedString(Single, NumberAbbreviation())
+  fullName: Zigurous.Math.FloatExtensions.ToAbbreviatedString(System.Single, Zigurous.Math.NumberAbbreviation[])
+  fullName.vb: Zigurous.Math.FloatExtensions.ToAbbreviatedString(System.Single, Zigurous.Math.NumberAbbreviation())
+  nameWithType: FloatExtensions.ToAbbreviatedString(Single, NumberAbbreviation[])
+  nameWithType.vb: FloatExtensions.ToAbbreviatedString(Single, NumberAbbreviation())
+- uid: Zigurous.Math.FloatExtensions.ToAbbreviatedString*
+  name: ToAbbreviatedString
+  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_ToAbbreviatedString_
+  commentId: Overload:Zigurous.Math.FloatExtensions.ToAbbreviatedString
+  isSpec: "True"
+  fullName: Zigurous.Math.FloatExtensions.ToAbbreviatedString
+  nameWithType: FloatExtensions.ToAbbreviatedString
+- uid: Zigurous.Math.FloatExtensions.UnsetImaginary(System.Single@,System.Single)
+  name: UnsetImaginary(ref Single, Single)
+  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_UnsetImaginary_System_Single__System_Single_
+  commentId: M:Zigurous.Math.FloatExtensions.UnsetImaginary(System.Single@,System.Single)
+  name.vb: UnsetImaginary(ByRef Single, Single)
+  fullName: Zigurous.Math.FloatExtensions.UnsetImaginary(ref System.Single, System.Single)
+  fullName.vb: Zigurous.Math.FloatExtensions.UnsetImaginary(ByRef System.Single, System.Single)
+  nameWithType: FloatExtensions.UnsetImaginary(ref Single, Single)
+  nameWithType.vb: FloatExtensions.UnsetImaginary(ByRef Single, Single)
+- uid: Zigurous.Math.FloatExtensions.UnsetImaginary*
+  name: UnsetImaginary
+  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_UnsetImaginary_
+  commentId: Overload:Zigurous.Math.FloatExtensions.UnsetImaginary
+  isSpec: "True"
+  fullName: Zigurous.Math.FloatExtensions.UnsetImaginary
+  nameWithType: FloatExtensions.UnsetImaginary
+- uid: Zigurous.Math.FloatExtensions.UnsetInfinite(System.Single@,System.Single)
+  name: UnsetInfinite(ref Single, Single)
+  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_UnsetInfinite_System_Single__System_Single_
+  commentId: M:Zigurous.Math.FloatExtensions.UnsetInfinite(System.Single@,System.Single)
+  name.vb: UnsetInfinite(ByRef Single, Single)
+  fullName: Zigurous.Math.FloatExtensions.UnsetInfinite(ref System.Single, System.Single)
+  fullName.vb: Zigurous.Math.FloatExtensions.UnsetInfinite(ByRef System.Single, System.Single)
+  nameWithType: FloatExtensions.UnsetInfinite(ref Single, Single)
+  nameWithType.vb: FloatExtensions.UnsetInfinite(ByRef Single, Single)
+- uid: Zigurous.Math.FloatExtensions.UnsetInfinite*
+  name: UnsetInfinite
+  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_UnsetInfinite_
+  commentId: Overload:Zigurous.Math.FloatExtensions.UnsetInfinite
+  isSpec: "True"
+  fullName: Zigurous.Math.FloatExtensions.UnsetInfinite
+  nameWithType: FloatExtensions.UnsetInfinite
+- uid: Zigurous.Math.FloatExtensions.UnsetNaN(System.Single@,System.Single)
+  name: UnsetNaN(ref Single, Single)
+  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_UnsetNaN_System_Single__System_Single_
+  commentId: M:Zigurous.Math.FloatExtensions.UnsetNaN(System.Single@,System.Single)
+  name.vb: UnsetNaN(ByRef Single, Single)
+  fullName: Zigurous.Math.FloatExtensions.UnsetNaN(ref System.Single, System.Single)
+  fullName.vb: Zigurous.Math.FloatExtensions.UnsetNaN(ByRef System.Single, System.Single)
+  nameWithType: FloatExtensions.UnsetNaN(ref Single, Single)
+  nameWithType.vb: FloatExtensions.UnsetNaN(ByRef Single, Single)
+- uid: Zigurous.Math.FloatExtensions.UnsetNaN*
+  name: UnsetNaN
+  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_UnsetNaN_
+  commentId: Overload:Zigurous.Math.FloatExtensions.UnsetNaN
+  isSpec: "True"
+  fullName: Zigurous.Math.FloatExtensions.UnsetNaN
+  nameWithType: FloatExtensions.UnsetNaN
+- uid: Zigurous.Math.FloatExtensions.UnsetZero(System.Single@,System.Single,System.Single)
+  name: UnsetZero(ref Single, Single, Single)
+  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_UnsetZero_System_Single__System_Single_System_Single_
+  commentId: M:Zigurous.Math.FloatExtensions.UnsetZero(System.Single@,System.Single,System.Single)
+  name.vb: UnsetZero(ByRef Single, Single, Single)
+  fullName: Zigurous.Math.FloatExtensions.UnsetZero(ref System.Single, System.Single, System.Single)
+  fullName.vb: Zigurous.Math.FloatExtensions.UnsetZero(ByRef System.Single, System.Single, System.Single)
+  nameWithType: FloatExtensions.UnsetZero(ref Single, Single, Single)
+  nameWithType.vb: FloatExtensions.UnsetZero(ByRef Single, Single, Single)
+- uid: Zigurous.Math.FloatExtensions.UnsetZero*
+  name: UnsetZero
+  href: api/Zigurous.Math.FloatExtensions.html#Zigurous_Math_FloatExtensions_UnsetZero_
+  commentId: Overload:Zigurous.Math.FloatExtensions.UnsetZero
+  isSpec: "True"
+  fullName: Zigurous.Math.FloatExtensions.UnsetZero
+  nameWithType: FloatExtensions.UnsetZero
 - uid: Zigurous.Math.IntExtensions
   name: IntExtensions
   href: api/Zigurous.Math.IntExtensions.html
@@ -1594,19 +1608,106 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.IntExtensions.NumDigits
   nameWithType: IntExtensions.NumDigits
-- uid: Zigurous.Math.IntExtensions.ToBinary(System.Int32)
-  name: ToBinary(Int32)
-  href: api/Zigurous.Math.IntExtensions.html#Zigurous_Math_IntExtensions_ToBinary_System_Int32_
-  commentId: M:Zigurous.Math.IntExtensions.ToBinary(System.Int32)
-  fullName: Zigurous.Math.IntExtensions.ToBinary(System.Int32)
-  nameWithType: IntExtensions.ToBinary(Int32)
-- uid: Zigurous.Math.IntExtensions.ToBinary*
-  name: ToBinary
-  href: api/Zigurous.Math.IntExtensions.html#Zigurous_Math_IntExtensions_ToBinary_
-  commentId: Overload:Zigurous.Math.IntExtensions.ToBinary
+- uid: Zigurous.Math.IntExtensions.ToAbbreviatedString(System.Int32)
+  name: ToAbbreviatedString(Int32)
+  href: api/Zigurous.Math.IntExtensions.html#Zigurous_Math_IntExtensions_ToAbbreviatedString_System_Int32_
+  commentId: M:Zigurous.Math.IntExtensions.ToAbbreviatedString(System.Int32)
+  fullName: Zigurous.Math.IntExtensions.ToAbbreviatedString(System.Int32)
+  nameWithType: IntExtensions.ToAbbreviatedString(Int32)
+- uid: Zigurous.Math.IntExtensions.ToAbbreviatedString(System.Int32,Zigurous.Math.NumberAbbreviation[])
+  name: ToAbbreviatedString(Int32, NumberAbbreviation[])
+  href: api/Zigurous.Math.IntExtensions.html#Zigurous_Math_IntExtensions_ToAbbreviatedString_System_Int32_Zigurous_Math_NumberAbbreviation___
+  commentId: M:Zigurous.Math.IntExtensions.ToAbbreviatedString(System.Int32,Zigurous.Math.NumberAbbreviation[])
+  name.vb: ToAbbreviatedString(Int32, NumberAbbreviation())
+  fullName: Zigurous.Math.IntExtensions.ToAbbreviatedString(System.Int32, Zigurous.Math.NumberAbbreviation[])
+  fullName.vb: Zigurous.Math.IntExtensions.ToAbbreviatedString(System.Int32, Zigurous.Math.NumberAbbreviation())
+  nameWithType: IntExtensions.ToAbbreviatedString(Int32, NumberAbbreviation[])
+  nameWithType.vb: IntExtensions.ToAbbreviatedString(Int32, NumberAbbreviation())
+- uid: Zigurous.Math.IntExtensions.ToAbbreviatedString*
+  name: ToAbbreviatedString
+  href: api/Zigurous.Math.IntExtensions.html#Zigurous_Math_IntExtensions_ToAbbreviatedString_
+  commentId: Overload:Zigurous.Math.IntExtensions.ToAbbreviatedString
   isSpec: "True"
-  fullName: Zigurous.Math.IntExtensions.ToBinary
-  nameWithType: IntExtensions.ToBinary
+  fullName: Zigurous.Math.IntExtensions.ToAbbreviatedString
+  nameWithType: IntExtensions.ToAbbreviatedString
+- uid: Zigurous.Math.IntExtensions.ToBinaryString(System.Int32)
+  name: ToBinaryString(Int32)
+  href: api/Zigurous.Math.IntExtensions.html#Zigurous_Math_IntExtensions_ToBinaryString_System_Int32_
+  commentId: M:Zigurous.Math.IntExtensions.ToBinaryString(System.Int32)
+  fullName: Zigurous.Math.IntExtensions.ToBinaryString(System.Int32)
+  nameWithType: IntExtensions.ToBinaryString(Int32)
+- uid: Zigurous.Math.IntExtensions.ToBinaryString*
+  name: ToBinaryString
+  href: api/Zigurous.Math.IntExtensions.html#Zigurous_Math_IntExtensions_ToBinaryString_
+  commentId: Overload:Zigurous.Math.IntExtensions.ToBinaryString
+  isSpec: "True"
+  fullName: Zigurous.Math.IntExtensions.ToBinaryString
+  nameWithType: IntExtensions.ToBinaryString
+- uid: Zigurous.Math.ListExtensions
+  name: ListExtensions
+  href: api/Zigurous.Math.ListExtensions.html
+  commentId: T:Zigurous.Math.ListExtensions
+  fullName: Zigurous.Math.ListExtensions
+  nameWithType: ListExtensions
+- uid: Zigurous.Math.ListExtensions.Shuffle*
+  name: Shuffle
+  href: api/Zigurous.Math.ListExtensions.html#Zigurous_Math_ListExtensions_Shuffle_
+  commentId: Overload:Zigurous.Math.ListExtensions.Shuffle
+  isSpec: "True"
+  fullName: Zigurous.Math.ListExtensions.Shuffle
+  nameWithType: ListExtensions.Shuffle
+- uid: Zigurous.Math.ListExtensions.Shuffle``1(List{``0})
+  name: Shuffle<T>(List<T>)
+  href: api/Zigurous.Math.ListExtensions.html#Zigurous_Math_ListExtensions_Shuffle__1_List___0__
+  commentId: M:Zigurous.Math.ListExtensions.Shuffle``1(List{``0})
+  name.vb: Shuffle(Of T)(List(Of T))
+  fullName: Zigurous.Math.ListExtensions.Shuffle<T>(List<T>)
+  fullName.vb: Zigurous.Math.ListExtensions.Shuffle(Of T)(List(Of T))
+  nameWithType: ListExtensions.Shuffle<T>(List<T>)
+  nameWithType.vb: ListExtensions.Shuffle(Of T)(List(Of T))
+- uid: Zigurous.Math.ListExtensions.Shuffle``1(List{``0},Random)
+  name: Shuffle<T>(List<T>, Random)
+  href: api/Zigurous.Math.ListExtensions.html#Zigurous_Math_ListExtensions_Shuffle__1_List___0__Random_
+  commentId: M:Zigurous.Math.ListExtensions.Shuffle``1(List{``0},Random)
+  name.vb: Shuffle(Of T)(List(Of T), Random)
+  fullName: Zigurous.Math.ListExtensions.Shuffle<T>(List<T>, Random)
+  fullName.vb: Zigurous.Math.ListExtensions.Shuffle(Of T)(List(Of T), Random)
+  nameWithType: ListExtensions.Shuffle<T>(List<T>, Random)
+  nameWithType.vb: ListExtensions.Shuffle(Of T)(List(Of T), Random)
+- uid: Zigurous.Math.ListExtensions.Sum(List{System.Double})
+  name: Sum(List<Double>)
+  href: api/Zigurous.Math.ListExtensions.html#Zigurous_Math_ListExtensions_Sum_List_System_Double__
+  commentId: M:Zigurous.Math.ListExtensions.Sum(List{System.Double})
+  name.vb: Sum(List(Of Double))
+  fullName: Zigurous.Math.ListExtensions.Sum(List<System.Double>)
+  fullName.vb: Zigurous.Math.ListExtensions.Sum(List(Of System.Double))
+  nameWithType: ListExtensions.Sum(List<Double>)
+  nameWithType.vb: ListExtensions.Sum(List(Of Double))
+- uid: Zigurous.Math.ListExtensions.Sum(List{System.Int32})
+  name: Sum(List<Int32>)
+  href: api/Zigurous.Math.ListExtensions.html#Zigurous_Math_ListExtensions_Sum_List_System_Int32__
+  commentId: M:Zigurous.Math.ListExtensions.Sum(List{System.Int32})
+  name.vb: Sum(List(Of Int32))
+  fullName: Zigurous.Math.ListExtensions.Sum(List<System.Int32>)
+  fullName.vb: Zigurous.Math.ListExtensions.Sum(List(Of System.Int32))
+  nameWithType: ListExtensions.Sum(List<Int32>)
+  nameWithType.vb: ListExtensions.Sum(List(Of Int32))
+- uid: Zigurous.Math.ListExtensions.Sum(List{System.Single})
+  name: Sum(List<Single>)
+  href: api/Zigurous.Math.ListExtensions.html#Zigurous_Math_ListExtensions_Sum_List_System_Single__
+  commentId: M:Zigurous.Math.ListExtensions.Sum(List{System.Single})
+  name.vb: Sum(List(Of Single))
+  fullName: Zigurous.Math.ListExtensions.Sum(List<System.Single>)
+  fullName.vb: Zigurous.Math.ListExtensions.Sum(List(Of System.Single))
+  nameWithType: ListExtensions.Sum(List<Single>)
+  nameWithType.vb: ListExtensions.Sum(List(Of Single))
+- uid: Zigurous.Math.ListExtensions.Sum*
+  name: Sum
+  href: api/Zigurous.Math.ListExtensions.html#Zigurous_Math_ListExtensions_Sum_
+  commentId: Overload:Zigurous.Math.ListExtensions.Sum
+  isSpec: "True"
+  fullName: Zigurous.Math.ListExtensions.Sum
+  nameWithType: ListExtensions.Sum
 - uid: Zigurous.Math.LongExtensions
   name: LongExtensions
   href: api/Zigurous.Math.LongExtensions.html
@@ -1717,25 +1818,240 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.LongExtensions.IsZero
   nameWithType: LongExtensions.IsZero
-- uid: Zigurous.Math.LongExtensions.ToBinary(System.Int64)
-  name: ToBinary(Int64)
-  href: api/Zigurous.Math.LongExtensions.html#Zigurous_Math_LongExtensions_ToBinary_System_Int64_
-  commentId: M:Zigurous.Math.LongExtensions.ToBinary(System.Int64)
-  fullName: Zigurous.Math.LongExtensions.ToBinary(System.Int64)
-  nameWithType: LongExtensions.ToBinary(Int64)
-- uid: Zigurous.Math.LongExtensions.ToBinary*
-  name: ToBinary
-  href: api/Zigurous.Math.LongExtensions.html#Zigurous_Math_LongExtensions_ToBinary_
-  commentId: Overload:Zigurous.Math.LongExtensions.ToBinary
+- uid: Zigurous.Math.LongExtensions.ToBinaryString(System.Int64)
+  name: ToBinaryString(Int64)
+  href: api/Zigurous.Math.LongExtensions.html#Zigurous_Math_LongExtensions_ToBinaryString_System_Int64_
+  commentId: M:Zigurous.Math.LongExtensions.ToBinaryString(System.Int64)
+  fullName: Zigurous.Math.LongExtensions.ToBinaryString(System.Int64)
+  nameWithType: LongExtensions.ToBinaryString(Int64)
+- uid: Zigurous.Math.LongExtensions.ToBinaryString*
+  name: ToBinaryString
+  href: api/Zigurous.Math.LongExtensions.html#Zigurous_Math_LongExtensions_ToBinaryString_
+  commentId: Overload:Zigurous.Math.LongExtensions.ToBinaryString
   isSpec: "True"
-  fullName: Zigurous.Math.LongExtensions.ToBinary
-  nameWithType: LongExtensions.ToBinary
+  fullName: Zigurous.Math.LongExtensions.ToBinaryString
+  nameWithType: LongExtensions.ToBinaryString
+- uid: Zigurous.Math.NumberAbbreviation
+  name: NumberAbbreviation
+  href: api/Zigurous.Math.NumberAbbreviation.html
+  commentId: T:Zigurous.Math.NumberAbbreviation
+  fullName: Zigurous.Math.NumberAbbreviation
+  nameWithType: NumberAbbreviation
+- uid: Zigurous.Math.NumberAbbreviation.#ctor(System.Double,System.String)
+  name: NumberAbbreviation(Double, String)
+  href: api/Zigurous.Math.NumberAbbreviation.html#Zigurous_Math_NumberAbbreviation__ctor_System_Double_System_String_
+  commentId: M:Zigurous.Math.NumberAbbreviation.#ctor(System.Double,System.String)
+  fullName: Zigurous.Math.NumberAbbreviation.NumberAbbreviation(System.Double, System.String)
+  nameWithType: NumberAbbreviation.NumberAbbreviation(Double, String)
+- uid: Zigurous.Math.NumberAbbreviation.#ctor*
+  name: NumberAbbreviation
+  href: api/Zigurous.Math.NumberAbbreviation.html#Zigurous_Math_NumberAbbreviation__ctor_
+  commentId: Overload:Zigurous.Math.NumberAbbreviation.#ctor
+  isSpec: "True"
+  fullName: Zigurous.Math.NumberAbbreviation.NumberAbbreviation
+  nameWithType: NumberAbbreviation.NumberAbbreviation
+- uid: Zigurous.Math.NumberAbbreviation.Billions
+  name: Billions
+  href: api/Zigurous.Math.NumberAbbreviation.html#Zigurous_Math_NumberAbbreviation_Billions
+  commentId: P:Zigurous.Math.NumberAbbreviation.Billions
+  fullName: Zigurous.Math.NumberAbbreviation.Billions
+  nameWithType: NumberAbbreviation.Billions
+- uid: Zigurous.Math.NumberAbbreviation.Billions*
+  name: Billions
+  href: api/Zigurous.Math.NumberAbbreviation.html#Zigurous_Math_NumberAbbreviation_Billions_
+  commentId: Overload:Zigurous.Math.NumberAbbreviation.Billions
+  isSpec: "True"
+  fullName: Zigurous.Math.NumberAbbreviation.Billions
+  nameWithType: NumberAbbreviation.Billions
+- uid: Zigurous.Math.NumberAbbreviation.Common
+  name: Common
+  href: api/Zigurous.Math.NumberAbbreviation.html#Zigurous_Math_NumberAbbreviation_Common
+  commentId: F:Zigurous.Math.NumberAbbreviation.Common
+  fullName: Zigurous.Math.NumberAbbreviation.Common
+  nameWithType: NumberAbbreviation.Common
+- uid: Zigurous.Math.NumberAbbreviation.factor
+  name: factor
+  href: api/Zigurous.Math.NumberAbbreviation.html#Zigurous_Math_NumberAbbreviation_factor
+  commentId: F:Zigurous.Math.NumberAbbreviation.factor
+  fullName: Zigurous.Math.NumberAbbreviation.factor
+  nameWithType: NumberAbbreviation.factor
+- uid: Zigurous.Math.NumberAbbreviation.format
+  name: format
+  href: api/Zigurous.Math.NumberAbbreviation.html#Zigurous_Math_NumberAbbreviation_format
+  commentId: F:Zigurous.Math.NumberAbbreviation.format
+  fullName: Zigurous.Math.NumberAbbreviation.format
+  nameWithType: NumberAbbreviation.format
+- uid: Zigurous.Math.NumberAbbreviation.Format(System.Double)
+  name: Format(Double)
+  href: api/Zigurous.Math.NumberAbbreviation.html#Zigurous_Math_NumberAbbreviation_Format_System_Double_
+  commentId: M:Zigurous.Math.NumberAbbreviation.Format(System.Double)
+  fullName: Zigurous.Math.NumberAbbreviation.Format(System.Double)
+  nameWithType: NumberAbbreviation.Format(Double)
+- uid: Zigurous.Math.NumberAbbreviation.Format(System.Int32)
+  name: Format(Int32)
+  href: api/Zigurous.Math.NumberAbbreviation.html#Zigurous_Math_NumberAbbreviation_Format_System_Int32_
+  commentId: M:Zigurous.Math.NumberAbbreviation.Format(System.Int32)
+  fullName: Zigurous.Math.NumberAbbreviation.Format(System.Int32)
+  nameWithType: NumberAbbreviation.Format(Int32)
+- uid: Zigurous.Math.NumberAbbreviation.Format(System.Single)
+  name: Format(Single)
+  href: api/Zigurous.Math.NumberAbbreviation.html#Zigurous_Math_NumberAbbreviation_Format_System_Single_
+  commentId: M:Zigurous.Math.NumberAbbreviation.Format(System.Single)
+  fullName: Zigurous.Math.NumberAbbreviation.Format(System.Single)
+  nameWithType: NumberAbbreviation.Format(Single)
+- uid: Zigurous.Math.NumberAbbreviation.Format*
+  name: Format
+  href: api/Zigurous.Math.NumberAbbreviation.html#Zigurous_Math_NumberAbbreviation_Format_
+  commentId: Overload:Zigurous.Math.NumberAbbreviation.Format
+  isSpec: "True"
+  fullName: Zigurous.Math.NumberAbbreviation.Format
+  nameWithType: NumberAbbreviation.Format
+- uid: Zigurous.Math.NumberAbbreviation.Millions
+  name: Millions
+  href: api/Zigurous.Math.NumberAbbreviation.html#Zigurous_Math_NumberAbbreviation_Millions
+  commentId: P:Zigurous.Math.NumberAbbreviation.Millions
+  fullName: Zigurous.Math.NumberAbbreviation.Millions
+  nameWithType: NumberAbbreviation.Millions
+- uid: Zigurous.Math.NumberAbbreviation.Millions*
+  name: Millions
+  href: api/Zigurous.Math.NumberAbbreviation.html#Zigurous_Math_NumberAbbreviation_Millions_
+  commentId: Overload:Zigurous.Math.NumberAbbreviation.Millions
+  isSpec: "True"
+  fullName: Zigurous.Math.NumberAbbreviation.Millions
+  nameWithType: NumberAbbreviation.Millions
+- uid: Zigurous.Math.NumberAbbreviation.Thousands
+  name: Thousands
+  href: api/Zigurous.Math.NumberAbbreviation.html#Zigurous_Math_NumberAbbreviation_Thousands
+  commentId: P:Zigurous.Math.NumberAbbreviation.Thousands
+  fullName: Zigurous.Math.NumberAbbreviation.Thousands
+  nameWithType: NumberAbbreviation.Thousands
+- uid: Zigurous.Math.NumberAbbreviation.Thousands*
+  name: Thousands
+  href: api/Zigurous.Math.NumberAbbreviation.html#Zigurous_Math_NumberAbbreviation_Thousands_
+  commentId: Overload:Zigurous.Math.NumberAbbreviation.Thousands
+  isSpec: "True"
+  fullName: Zigurous.Math.NumberAbbreviation.Thousands
+  nameWithType: NumberAbbreviation.Thousands
+- uid: Zigurous.Math.NumberAbbreviation.Trillions
+  name: Trillions
+  href: api/Zigurous.Math.NumberAbbreviation.html#Zigurous_Math_NumberAbbreviation_Trillions
+  commentId: P:Zigurous.Math.NumberAbbreviation.Trillions
+  fullName: Zigurous.Math.NumberAbbreviation.Trillions
+  nameWithType: NumberAbbreviation.Trillions
+- uid: Zigurous.Math.NumberAbbreviation.Trillions*
+  name: Trillions
+  href: api/Zigurous.Math.NumberAbbreviation.html#Zigurous_Math_NumberAbbreviation_Trillions_
+  commentId: Overload:Zigurous.Math.NumberAbbreviation.Trillions
+  isSpec: "True"
+  fullName: Zigurous.Math.NumberAbbreviation.Trillions
+  nameWithType: NumberAbbreviation.Trillions
+- uid: Zigurous.Math.NumberAbbreviationExtensions
+  name: NumberAbbreviationExtensions
+  href: api/Zigurous.Math.NumberAbbreviationExtensions.html
+  commentId: T:Zigurous.Math.NumberAbbreviationExtensions
+  fullName: Zigurous.Math.NumberAbbreviationExtensions
+  nameWithType: NumberAbbreviationExtensions
+- uid: Zigurous.Math.NumberAbbreviationExtensions.Format(Zigurous.Math.NumberAbbreviation[],System.Double)
+  name: Format(NumberAbbreviation[], Double)
+  href: api/Zigurous.Math.NumberAbbreviationExtensions.html#Zigurous_Math_NumberAbbreviationExtensions_Format_Zigurous_Math_NumberAbbreviation___System_Double_
+  commentId: M:Zigurous.Math.NumberAbbreviationExtensions.Format(Zigurous.Math.NumberAbbreviation[],System.Double)
+  name.vb: Format(NumberAbbreviation(), Double)
+  fullName: Zigurous.Math.NumberAbbreviationExtensions.Format(Zigurous.Math.NumberAbbreviation[], System.Double)
+  fullName.vb: Zigurous.Math.NumberAbbreviationExtensions.Format(Zigurous.Math.NumberAbbreviation(), System.Double)
+  nameWithType: NumberAbbreviationExtensions.Format(NumberAbbreviation[], Double)
+  nameWithType.vb: NumberAbbreviationExtensions.Format(NumberAbbreviation(), Double)
+- uid: Zigurous.Math.NumberAbbreviationExtensions.Format(Zigurous.Math.NumberAbbreviation[],System.Int32)
+  name: Format(NumberAbbreviation[], Int32)
+  href: api/Zigurous.Math.NumberAbbreviationExtensions.html#Zigurous_Math_NumberAbbreviationExtensions_Format_Zigurous_Math_NumberAbbreviation___System_Int32_
+  commentId: M:Zigurous.Math.NumberAbbreviationExtensions.Format(Zigurous.Math.NumberAbbreviation[],System.Int32)
+  name.vb: Format(NumberAbbreviation(), Int32)
+  fullName: Zigurous.Math.NumberAbbreviationExtensions.Format(Zigurous.Math.NumberAbbreviation[], System.Int32)
+  fullName.vb: Zigurous.Math.NumberAbbreviationExtensions.Format(Zigurous.Math.NumberAbbreviation(), System.Int32)
+  nameWithType: NumberAbbreviationExtensions.Format(NumberAbbreviation[], Int32)
+  nameWithType.vb: NumberAbbreviationExtensions.Format(NumberAbbreviation(), Int32)
+- uid: Zigurous.Math.NumberAbbreviationExtensions.Format(Zigurous.Math.NumberAbbreviation[],System.Single)
+  name: Format(NumberAbbreviation[], Single)
+  href: api/Zigurous.Math.NumberAbbreviationExtensions.html#Zigurous_Math_NumberAbbreviationExtensions_Format_Zigurous_Math_NumberAbbreviation___System_Single_
+  commentId: M:Zigurous.Math.NumberAbbreviationExtensions.Format(Zigurous.Math.NumberAbbreviation[],System.Single)
+  name.vb: Format(NumberAbbreviation(), Single)
+  fullName: Zigurous.Math.NumberAbbreviationExtensions.Format(Zigurous.Math.NumberAbbreviation[], System.Single)
+  fullName.vb: Zigurous.Math.NumberAbbreviationExtensions.Format(Zigurous.Math.NumberAbbreviation(), System.Single)
+  nameWithType: NumberAbbreviationExtensions.Format(NumberAbbreviation[], Single)
+  nameWithType.vb: NumberAbbreviationExtensions.Format(NumberAbbreviation(), Single)
+- uid: Zigurous.Math.NumberAbbreviationExtensions.Format*
+  name: Format
+  href: api/Zigurous.Math.NumberAbbreviationExtensions.html#Zigurous_Math_NumberAbbreviationExtensions_Format_
+  commentId: Overload:Zigurous.Math.NumberAbbreviationExtensions.Format
+  isSpec: "True"
+  fullName: Zigurous.Math.NumberAbbreviationExtensions.Format
+  nameWithType: NumberAbbreviationExtensions.Format
 - uid: Zigurous.Math.Processors
   name: Processors
   href: api/Zigurous.Math.Processors.html
   commentId: T:Zigurous.Math.Processors
   fullName: Zigurous.Math.Processors
   nameWithType: Processors
+- uid: Zigurous.Math.Processors.Abs(System.Double)
+  name: Abs(Double)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Abs_System_Double_
+  commentId: M:Zigurous.Math.Processors.Abs(System.Double)
+  fullName: Zigurous.Math.Processors.Abs(System.Double)
+  nameWithType: Processors.Abs(Double)
+- uid: Zigurous.Math.Processors.Abs(System.Int32)
+  name: Abs(Int32)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Abs_System_Int32_
+  commentId: M:Zigurous.Math.Processors.Abs(System.Int32)
+  fullName: Zigurous.Math.Processors.Abs(System.Int32)
+  nameWithType: Processors.Abs(Int32)
+- uid: Zigurous.Math.Processors.Abs(System.Single)
+  name: Abs(Single)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Abs_System_Single_
+  commentId: M:Zigurous.Math.Processors.Abs(System.Single)
+  fullName: Zigurous.Math.Processors.Abs(System.Single)
+  nameWithType: Processors.Abs(Single)
+- uid: Zigurous.Math.Processors.Abs(Vector2)
+  name: Abs(Vector2)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Abs_Vector2_
+  commentId: M:Zigurous.Math.Processors.Abs(Vector2)
+  fullName: Zigurous.Math.Processors.Abs(Vector2)
+  nameWithType: Processors.Abs(Vector2)
+- uid: Zigurous.Math.Processors.Abs(Vector2Int)
+  name: Abs(Vector2Int)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Abs_Vector2Int_
+  commentId: M:Zigurous.Math.Processors.Abs(Vector2Int)
+  fullName: Zigurous.Math.Processors.Abs(Vector2Int)
+  nameWithType: Processors.Abs(Vector2Int)
+- uid: Zigurous.Math.Processors.Abs(Vector3)
+  name: Abs(Vector3)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Abs_Vector3_
+  commentId: M:Zigurous.Math.Processors.Abs(Vector3)
+  fullName: Zigurous.Math.Processors.Abs(Vector3)
+  nameWithType: Processors.Abs(Vector3)
+- uid: Zigurous.Math.Processors.Abs(Vector3Int)
+  name: Abs(Vector3Int)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Abs_Vector3Int_
+  commentId: M:Zigurous.Math.Processors.Abs(Vector3Int)
+  fullName: Zigurous.Math.Processors.Abs(Vector3Int)
+  nameWithType: Processors.Abs(Vector3Int)
+- uid: Zigurous.Math.Processors.Abs(Vector4)
+  name: Abs(Vector4)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Abs_Vector4_
+  commentId: M:Zigurous.Math.Processors.Abs(Vector4)
+  fullName: Zigurous.Math.Processors.Abs(Vector4)
+  nameWithType: Processors.Abs(Vector4)
+- uid: Zigurous.Math.Processors.Abs*
+  name: Abs
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Abs_
+  commentId: Overload:Zigurous.Math.Processors.Abs
+  isSpec: "True"
+  fullName: Zigurous.Math.Processors.Abs
+  nameWithType: Processors.Abs
+- uid: Zigurous.Math.Processors.AxisDeadzone(System.Double,System.Double,System.Double)
+  name: AxisDeadzone(Double, Double, Double)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_AxisDeadzone_System_Double_System_Double_System_Double_
+  commentId: M:Zigurous.Math.Processors.AxisDeadzone(System.Double,System.Double,System.Double)
+  fullName: Zigurous.Math.Processors.AxisDeadzone(System.Double, System.Double, System.Double)
+  nameWithType: Processors.AxisDeadzone(Double, Double, Double)
 - uid: Zigurous.Math.Processors.AxisDeadzone(System.Single,System.Single,System.Single)
   name: AxisDeadzone(Single, Single, Single)
   href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_AxisDeadzone_System_Single_System_Single_System_Single_
@@ -1749,6 +2065,61 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.Processors.AxisDeadzone
   nameWithType: Processors.AxisDeadzone
+- uid: Zigurous.Math.Processors.Ceil(System.Double)
+  name: Ceil(Double)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Ceil_System_Double_
+  commentId: M:Zigurous.Math.Processors.Ceil(System.Double)
+  fullName: Zigurous.Math.Processors.Ceil(System.Double)
+  nameWithType: Processors.Ceil(Double)
+- uid: Zigurous.Math.Processors.Ceil(System.Int32)
+  name: Ceil(Int32)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Ceil_System_Int32_
+  commentId: M:Zigurous.Math.Processors.Ceil(System.Int32)
+  fullName: Zigurous.Math.Processors.Ceil(System.Int32)
+  nameWithType: Processors.Ceil(Int32)
+- uid: Zigurous.Math.Processors.Ceil(System.Single)
+  name: Ceil(Single)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Ceil_System_Single_
+  commentId: M:Zigurous.Math.Processors.Ceil(System.Single)
+  fullName: Zigurous.Math.Processors.Ceil(System.Single)
+  nameWithType: Processors.Ceil(Single)
+- uid: Zigurous.Math.Processors.Ceil(Vector2)
+  name: Ceil(Vector2)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Ceil_Vector2_
+  commentId: M:Zigurous.Math.Processors.Ceil(Vector2)
+  fullName: Zigurous.Math.Processors.Ceil(Vector2)
+  nameWithType: Processors.Ceil(Vector2)
+- uid: Zigurous.Math.Processors.Ceil(Vector2Int)
+  name: Ceil(Vector2Int)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Ceil_Vector2Int_
+  commentId: M:Zigurous.Math.Processors.Ceil(Vector2Int)
+  fullName: Zigurous.Math.Processors.Ceil(Vector2Int)
+  nameWithType: Processors.Ceil(Vector2Int)
+- uid: Zigurous.Math.Processors.Ceil(Vector3)
+  name: Ceil(Vector3)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Ceil_Vector3_
+  commentId: M:Zigurous.Math.Processors.Ceil(Vector3)
+  fullName: Zigurous.Math.Processors.Ceil(Vector3)
+  nameWithType: Processors.Ceil(Vector3)
+- uid: Zigurous.Math.Processors.Ceil(Vector3Int)
+  name: Ceil(Vector3Int)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Ceil_Vector3Int_
+  commentId: M:Zigurous.Math.Processors.Ceil(Vector3Int)
+  fullName: Zigurous.Math.Processors.Ceil(Vector3Int)
+  nameWithType: Processors.Ceil(Vector3Int)
+- uid: Zigurous.Math.Processors.Ceil(Vector4)
+  name: Ceil(Vector4)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Ceil_Vector4_
+  commentId: M:Zigurous.Math.Processors.Ceil(Vector4)
+  fullName: Zigurous.Math.Processors.Ceil(Vector4)
+  nameWithType: Processors.Ceil(Vector4)
+- uid: Zigurous.Math.Processors.Ceil*
+  name: Ceil
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Ceil_
+  commentId: Overload:Zigurous.Math.Processors.Ceil
+  isSpec: "True"
+  fullName: Zigurous.Math.Processors.Ceil
+  nameWithType: Processors.Ceil
 - uid: Zigurous.Math.Processors.Clamp(System.Double,System.Double,System.Double)
   name: Clamp(Double, Double, Double)
   href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Clamp_System_Double_System_Double_System_Double_
@@ -1767,24 +2138,30 @@ references:
   commentId: M:Zigurous.Math.Processors.Clamp(System.Single,System.Single,System.Single)
   fullName: Zigurous.Math.Processors.Clamp(System.Single, System.Single, System.Single)
   nameWithType: Processors.Clamp(Single, Single, Single)
-- uid: Zigurous.Math.Processors.Clamp(System.UInt32,System.UInt32,System.UInt32)
-  name: Clamp(UInt32, UInt32, UInt32)
-  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Clamp_System_UInt32_System_UInt32_System_UInt32_
-  commentId: M:Zigurous.Math.Processors.Clamp(System.UInt32,System.UInt32,System.UInt32)
-  fullName: Zigurous.Math.Processors.Clamp(System.UInt32, System.UInt32, System.UInt32)
-  nameWithType: Processors.Clamp(UInt32, UInt32, UInt32)
 - uid: Zigurous.Math.Processors.Clamp(Vector2,Vector2,Vector2)
   name: Clamp(Vector2, Vector2, Vector2)
   href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Clamp_Vector2_Vector2_Vector2_
   commentId: M:Zigurous.Math.Processors.Clamp(Vector2,Vector2,Vector2)
   fullName: Zigurous.Math.Processors.Clamp(Vector2, Vector2, Vector2)
   nameWithType: Processors.Clamp(Vector2, Vector2, Vector2)
+- uid: Zigurous.Math.Processors.Clamp(Vector2Int,Vector2Int,Vector2Int)
+  name: Clamp(Vector2Int, Vector2Int, Vector2Int)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Clamp_Vector2Int_Vector2Int_Vector2Int_
+  commentId: M:Zigurous.Math.Processors.Clamp(Vector2Int,Vector2Int,Vector2Int)
+  fullName: Zigurous.Math.Processors.Clamp(Vector2Int, Vector2Int, Vector2Int)
+  nameWithType: Processors.Clamp(Vector2Int, Vector2Int, Vector2Int)
 - uid: Zigurous.Math.Processors.Clamp(Vector3,Vector3,Vector3)
   name: Clamp(Vector3, Vector3, Vector3)
   href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Clamp_Vector3_Vector3_Vector3_
   commentId: M:Zigurous.Math.Processors.Clamp(Vector3,Vector3,Vector3)
   fullName: Zigurous.Math.Processors.Clamp(Vector3, Vector3, Vector3)
   nameWithType: Processors.Clamp(Vector3, Vector3, Vector3)
+- uid: Zigurous.Math.Processors.Clamp(Vector3Int,Vector3Int,Vector3Int)
+  name: Clamp(Vector3Int, Vector3Int, Vector3Int)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Clamp_Vector3Int_Vector3Int_Vector3Int_
+  commentId: M:Zigurous.Math.Processors.Clamp(Vector3Int,Vector3Int,Vector3Int)
+  fullName: Zigurous.Math.Processors.Clamp(Vector3Int, Vector3Int, Vector3Int)
+  nameWithType: Processors.Clamp(Vector3Int, Vector3Int, Vector3Int)
 - uid: Zigurous.Math.Processors.Clamp(Vector4,Vector4,Vector4)
   name: Clamp(Vector4, Vector4, Vector4)
   href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Clamp_Vector4_Vector4_Vector4_
@@ -1816,24 +2193,30 @@ references:
   commentId: M:Zigurous.Math.Processors.Clamp01(System.Single)
   fullName: Zigurous.Math.Processors.Clamp01(System.Single)
   nameWithType: Processors.Clamp01(Single)
-- uid: Zigurous.Math.Processors.Clamp01(System.UInt32)
-  name: Clamp01(UInt32)
-  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Clamp01_System_UInt32_
-  commentId: M:Zigurous.Math.Processors.Clamp01(System.UInt32)
-  fullName: Zigurous.Math.Processors.Clamp01(System.UInt32)
-  nameWithType: Processors.Clamp01(UInt32)
 - uid: Zigurous.Math.Processors.Clamp01(Vector2)
   name: Clamp01(Vector2)
   href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Clamp01_Vector2_
   commentId: M:Zigurous.Math.Processors.Clamp01(Vector2)
   fullName: Zigurous.Math.Processors.Clamp01(Vector2)
   nameWithType: Processors.Clamp01(Vector2)
+- uid: Zigurous.Math.Processors.Clamp01(Vector2Int)
+  name: Clamp01(Vector2Int)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Clamp01_Vector2Int_
+  commentId: M:Zigurous.Math.Processors.Clamp01(Vector2Int)
+  fullName: Zigurous.Math.Processors.Clamp01(Vector2Int)
+  nameWithType: Processors.Clamp01(Vector2Int)
 - uid: Zigurous.Math.Processors.Clamp01(Vector3)
   name: Clamp01(Vector3)
   href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Clamp01_Vector3_
   commentId: M:Zigurous.Math.Processors.Clamp01(Vector3)
   fullName: Zigurous.Math.Processors.Clamp01(Vector3)
   nameWithType: Processors.Clamp01(Vector3)
+- uid: Zigurous.Math.Processors.Clamp01(Vector3Int)
+  name: Clamp01(Vector3Int)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Clamp01_Vector3Int_
+  commentId: M:Zigurous.Math.Processors.Clamp01(Vector3Int)
+  fullName: Zigurous.Math.Processors.Clamp01(Vector3Int)
+  nameWithType: Processors.Clamp01(Vector3Int)
 - uid: Zigurous.Math.Processors.Clamp01(Vector4)
   name: Clamp01(Vector4)
   href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Clamp01_Vector4_
@@ -1847,6 +2230,12 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.Processors.Clamp01
   nameWithType: Processors.Clamp01
+- uid: Zigurous.Math.Processors.Decay(System.Double,System.Double,System.Double)
+  name: Decay(Double, Double, Double)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Decay_System_Double_System_Double_System_Double_
+  commentId: M:Zigurous.Math.Processors.Decay(System.Double,System.Double,System.Double)
+  fullName: Zigurous.Math.Processors.Decay(System.Double, System.Double, System.Double)
+  nameWithType: Processors.Decay(Double, Double, Double)
 - uid: Zigurous.Math.Processors.Decay(System.Single,System.Single,System.Single)
   name: Decay(Single, Single, Single)
   href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Decay_System_Single_System_Single_System_Single_
@@ -1860,6 +2249,73 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.Processors.Decay
   nameWithType: Processors.Decay
+- uid: Zigurous.Math.Processors.Floor(System.Double)
+  name: Floor(Double)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Floor_System_Double_
+  commentId: M:Zigurous.Math.Processors.Floor(System.Double)
+  fullName: Zigurous.Math.Processors.Floor(System.Double)
+  nameWithType: Processors.Floor(Double)
+- uid: Zigurous.Math.Processors.Floor(System.Int32)
+  name: Floor(Int32)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Floor_System_Int32_
+  commentId: M:Zigurous.Math.Processors.Floor(System.Int32)
+  fullName: Zigurous.Math.Processors.Floor(System.Int32)
+  nameWithType: Processors.Floor(Int32)
+- uid: Zigurous.Math.Processors.Floor(System.Single)
+  name: Floor(Single)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Floor_System_Single_
+  commentId: M:Zigurous.Math.Processors.Floor(System.Single)
+  fullName: Zigurous.Math.Processors.Floor(System.Single)
+  nameWithType: Processors.Floor(Single)
+- uid: Zigurous.Math.Processors.Floor(Vector2)
+  name: Floor(Vector2)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Floor_Vector2_
+  commentId: M:Zigurous.Math.Processors.Floor(Vector2)
+  fullName: Zigurous.Math.Processors.Floor(Vector2)
+  nameWithType: Processors.Floor(Vector2)
+- uid: Zigurous.Math.Processors.Floor(Vector2Int)
+  name: Floor(Vector2Int)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Floor_Vector2Int_
+  commentId: M:Zigurous.Math.Processors.Floor(Vector2Int)
+  fullName: Zigurous.Math.Processors.Floor(Vector2Int)
+  nameWithType: Processors.Floor(Vector2Int)
+- uid: Zigurous.Math.Processors.Floor(Vector3)
+  name: Floor(Vector3)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Floor_Vector3_
+  commentId: M:Zigurous.Math.Processors.Floor(Vector3)
+  fullName: Zigurous.Math.Processors.Floor(Vector3)
+  nameWithType: Processors.Floor(Vector3)
+- uid: Zigurous.Math.Processors.Floor(Vector3Int)
+  name: Floor(Vector3Int)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Floor_Vector3Int_
+  commentId: M:Zigurous.Math.Processors.Floor(Vector3Int)
+  fullName: Zigurous.Math.Processors.Floor(Vector3Int)
+  nameWithType: Processors.Floor(Vector3Int)
+- uid: Zigurous.Math.Processors.Floor(Vector4)
+  name: Floor(Vector4)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Floor_Vector4_
+  commentId: M:Zigurous.Math.Processors.Floor(Vector4)
+  fullName: Zigurous.Math.Processors.Floor(Vector4)
+  nameWithType: Processors.Floor(Vector4)
+- uid: Zigurous.Math.Processors.Floor*
+  name: Floor
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Floor_
+  commentId: Overload:Zigurous.Math.Processors.Floor
+  isSpec: "True"
+  fullName: Zigurous.Math.Processors.Floor
+  nameWithType: Processors.Floor
+- uid: Zigurous.Math.Processors.Invert(System.Double)
+  name: Invert(Double)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Invert_System_Double_
+  commentId: M:Zigurous.Math.Processors.Invert(System.Double)
+  fullName: Zigurous.Math.Processors.Invert(System.Double)
+  nameWithType: Processors.Invert(Double)
+- uid: Zigurous.Math.Processors.Invert(System.Int32)
+  name: Invert(Int32)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Invert_System_Int32_
+  commentId: M:Zigurous.Math.Processors.Invert(System.Int32)
+  fullName: Zigurous.Math.Processors.Invert(System.Int32)
+  nameWithType: Processors.Invert(Int32)
 - uid: Zigurous.Math.Processors.Invert(System.Single)
   name: Invert(Single)
   href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Invert_System_Single_
@@ -1878,6 +2334,18 @@ references:
   commentId: M:Zigurous.Math.Processors.Invert(Vector2,System.Boolean,System.Boolean)
   fullName: Zigurous.Math.Processors.Invert(Vector2, System.Boolean, System.Boolean)
   nameWithType: Processors.Invert(Vector2, Boolean, Boolean)
+- uid: Zigurous.Math.Processors.Invert(Vector2Int)
+  name: Invert(Vector2Int)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Invert_Vector2Int_
+  commentId: M:Zigurous.Math.Processors.Invert(Vector2Int)
+  fullName: Zigurous.Math.Processors.Invert(Vector2Int)
+  nameWithType: Processors.Invert(Vector2Int)
+- uid: Zigurous.Math.Processors.Invert(Vector2Int,System.Boolean,System.Boolean)
+  name: Invert(Vector2Int, Boolean, Boolean)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Invert_Vector2Int_System_Boolean_System_Boolean_
+  commentId: M:Zigurous.Math.Processors.Invert(Vector2Int,System.Boolean,System.Boolean)
+  fullName: Zigurous.Math.Processors.Invert(Vector2Int, System.Boolean, System.Boolean)
+  nameWithType: Processors.Invert(Vector2Int, Boolean, Boolean)
 - uid: Zigurous.Math.Processors.Invert(Vector3)
   name: Invert(Vector3)
   href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Invert_Vector3_
@@ -1890,6 +2358,18 @@ references:
   commentId: M:Zigurous.Math.Processors.Invert(Vector3,System.Boolean,System.Boolean,System.Boolean)
   fullName: Zigurous.Math.Processors.Invert(Vector3, System.Boolean, System.Boolean, System.Boolean)
   nameWithType: Processors.Invert(Vector3, Boolean, Boolean, Boolean)
+- uid: Zigurous.Math.Processors.Invert(Vector3Int)
+  name: Invert(Vector3Int)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Invert_Vector3Int_
+  commentId: M:Zigurous.Math.Processors.Invert(Vector3Int)
+  fullName: Zigurous.Math.Processors.Invert(Vector3Int)
+  nameWithType: Processors.Invert(Vector3Int)
+- uid: Zigurous.Math.Processors.Invert(Vector3Int,System.Boolean,System.Boolean,System.Boolean)
+  name: Invert(Vector3Int, Boolean, Boolean, Boolean)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Invert_Vector3Int_System_Boolean_System_Boolean_System_Boolean_
+  commentId: M:Zigurous.Math.Processors.Invert(Vector3Int,System.Boolean,System.Boolean,System.Boolean)
+  fullName: Zigurous.Math.Processors.Invert(Vector3Int, System.Boolean, System.Boolean, System.Boolean)
+  nameWithType: Processors.Invert(Vector3Int, Boolean, Boolean, Boolean)
 - uid: Zigurous.Math.Processors.Invert(Vector4)
   name: Invert(Vector4)
   href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Invert_Vector4_
@@ -1909,6 +2389,12 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.Processors.Invert
   nameWithType: Processors.Invert
+- uid: Zigurous.Math.Processors.Normalize(System.Double,System.Double,System.Double,System.Double)
+  name: Normalize(Double, Double, Double, Double)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Normalize_System_Double_System_Double_System_Double_System_Double_
+  commentId: M:Zigurous.Math.Processors.Normalize(System.Double,System.Double,System.Double,System.Double)
+  fullName: Zigurous.Math.Processors.Normalize(System.Double, System.Double, System.Double, System.Double)
+  nameWithType: Processors.Normalize(Double, Double, Double, Double)
 - uid: Zigurous.Math.Processors.Normalize(System.Single,System.Single,System.Single,System.Single)
   name: Normalize(Single, Single, Single, Single)
   href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Normalize_System_Single_System_Single_System_Single_System_Single_
@@ -1940,6 +2426,73 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.Processors.Normalize
   nameWithType: Processors.Normalize
+- uid: Zigurous.Math.Processors.Round(System.Double)
+  name: Round(Double)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Round_System_Double_
+  commentId: M:Zigurous.Math.Processors.Round(System.Double)
+  fullName: Zigurous.Math.Processors.Round(System.Double)
+  nameWithType: Processors.Round(Double)
+- uid: Zigurous.Math.Processors.Round(System.Int32)
+  name: Round(Int32)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Round_System_Int32_
+  commentId: M:Zigurous.Math.Processors.Round(System.Int32)
+  fullName: Zigurous.Math.Processors.Round(System.Int32)
+  nameWithType: Processors.Round(Int32)
+- uid: Zigurous.Math.Processors.Round(System.Single)
+  name: Round(Single)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Round_System_Single_
+  commentId: M:Zigurous.Math.Processors.Round(System.Single)
+  fullName: Zigurous.Math.Processors.Round(System.Single)
+  nameWithType: Processors.Round(Single)
+- uid: Zigurous.Math.Processors.Round(Vector2)
+  name: Round(Vector2)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Round_Vector2_
+  commentId: M:Zigurous.Math.Processors.Round(Vector2)
+  fullName: Zigurous.Math.Processors.Round(Vector2)
+  nameWithType: Processors.Round(Vector2)
+- uid: Zigurous.Math.Processors.Round(Vector2Int)
+  name: Round(Vector2Int)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Round_Vector2Int_
+  commentId: M:Zigurous.Math.Processors.Round(Vector2Int)
+  fullName: Zigurous.Math.Processors.Round(Vector2Int)
+  nameWithType: Processors.Round(Vector2Int)
+- uid: Zigurous.Math.Processors.Round(Vector3)
+  name: Round(Vector3)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Round_Vector3_
+  commentId: M:Zigurous.Math.Processors.Round(Vector3)
+  fullName: Zigurous.Math.Processors.Round(Vector3)
+  nameWithType: Processors.Round(Vector3)
+- uid: Zigurous.Math.Processors.Round(Vector3Int)
+  name: Round(Vector3Int)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Round_Vector3Int_
+  commentId: M:Zigurous.Math.Processors.Round(Vector3Int)
+  fullName: Zigurous.Math.Processors.Round(Vector3Int)
+  nameWithType: Processors.Round(Vector3Int)
+- uid: Zigurous.Math.Processors.Round(Vector4)
+  name: Round(Vector4)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Round_Vector4_
+  commentId: M:Zigurous.Math.Processors.Round(Vector4)
+  fullName: Zigurous.Math.Processors.Round(Vector4)
+  nameWithType: Processors.Round(Vector4)
+- uid: Zigurous.Math.Processors.Round*
+  name: Round
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Round_
+  commentId: Overload:Zigurous.Math.Processors.Round
+  isSpec: "True"
+  fullName: Zigurous.Math.Processors.Round
+  nameWithType: Processors.Round
+- uid: Zigurous.Math.Processors.Scale(System.Double,System.Double)
+  name: Scale(Double, Double)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Scale_System_Double_System_Double_
+  commentId: M:Zigurous.Math.Processors.Scale(System.Double,System.Double)
+  fullName: Zigurous.Math.Processors.Scale(System.Double, System.Double)
+  nameWithType: Processors.Scale(Double, Double)
+- uid: Zigurous.Math.Processors.Scale(System.Int32,System.Int32)
+  name: Scale(Int32, Int32)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Scale_System_Int32_System_Int32_
+  commentId: M:Zigurous.Math.Processors.Scale(System.Int32,System.Int32)
+  fullName: Zigurous.Math.Processors.Scale(System.Int32, System.Int32)
+  nameWithType: Processors.Scale(Int32, Int32)
 - uid: Zigurous.Math.Processors.Scale(System.Single,System.Single)
   name: Scale(Single, Single)
   href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Scale_System_Single_System_Single_
@@ -1958,6 +2511,18 @@ references:
   commentId: M:Zigurous.Math.Processors.Scale(Vector2,System.Single,System.Single)
   fullName: Zigurous.Math.Processors.Scale(Vector2, System.Single, System.Single)
   nameWithType: Processors.Scale(Vector2, Single, Single)
+- uid: Zigurous.Math.Processors.Scale(Vector2Int,System.Int32)
+  name: Scale(Vector2Int, Int32)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Scale_Vector2Int_System_Int32_
+  commentId: M:Zigurous.Math.Processors.Scale(Vector2Int,System.Int32)
+  fullName: Zigurous.Math.Processors.Scale(Vector2Int, System.Int32)
+  nameWithType: Processors.Scale(Vector2Int, Int32)
+- uid: Zigurous.Math.Processors.Scale(Vector2Int,System.Int32,System.Int32)
+  name: Scale(Vector2Int, Int32, Int32)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Scale_Vector2Int_System_Int32_System_Int32_
+  commentId: M:Zigurous.Math.Processors.Scale(Vector2Int,System.Int32,System.Int32)
+  fullName: Zigurous.Math.Processors.Scale(Vector2Int, System.Int32, System.Int32)
+  nameWithType: Processors.Scale(Vector2Int, Int32, Int32)
 - uid: Zigurous.Math.Processors.Scale(Vector3,System.Single)
   name: Scale(Vector3, Single)
   href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Scale_Vector3_System_Single_
@@ -1970,6 +2535,18 @@ references:
   commentId: M:Zigurous.Math.Processors.Scale(Vector3,System.Single,System.Single,System.Single)
   fullName: Zigurous.Math.Processors.Scale(Vector3, System.Single, System.Single, System.Single)
   nameWithType: Processors.Scale(Vector3, Single, Single, Single)
+- uid: Zigurous.Math.Processors.Scale(Vector3Int,System.Int32)
+  name: Scale(Vector3Int, Int32)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Scale_Vector3Int_System_Int32_
+  commentId: M:Zigurous.Math.Processors.Scale(Vector3Int,System.Int32)
+  fullName: Zigurous.Math.Processors.Scale(Vector3Int, System.Int32)
+  nameWithType: Processors.Scale(Vector3Int, Int32)
+- uid: Zigurous.Math.Processors.Scale(Vector3Int,System.Int32,System.Int32,System.Int32)
+  name: Scale(Vector3Int, Int32, Int32, Int32)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Scale_Vector3Int_System_Int32_System_Int32_System_Int32_
+  commentId: M:Zigurous.Math.Processors.Scale(Vector3Int,System.Int32,System.Int32,System.Int32)
+  fullName: Zigurous.Math.Processors.Scale(Vector3Int, System.Int32, System.Int32, System.Int32)
+  nameWithType: Processors.Scale(Vector3Int, Int32, Int32, Int32)
 - uid: Zigurous.Math.Processors.Scale(Vector4,System.Single)
   name: Scale(Vector4, Single)
   href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Scale_Vector4_System_Single_
@@ -1989,6 +2566,19 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.Processors.Scale
   nameWithType: Processors.Scale
+- uid: Zigurous.Math.Processors.StickDeadzone(Vector2,System.Single,System.Single)
+  name: StickDeadzone(Vector2, Single, Single)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_StickDeadzone_Vector2_System_Single_System_Single_
+  commentId: M:Zigurous.Math.Processors.StickDeadzone(Vector2,System.Single,System.Single)
+  fullName: Zigurous.Math.Processors.StickDeadzone(Vector2, System.Single, System.Single)
+  nameWithType: Processors.StickDeadzone(Vector2, Single, Single)
+- uid: Zigurous.Math.Processors.StickDeadzone*
+  name: StickDeadzone
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_StickDeadzone_
+  commentId: Overload:Zigurous.Math.Processors.StickDeadzone
+  isSpec: "True"
+  fullName: Zigurous.Math.Processors.StickDeadzone
+  nameWithType: Processors.StickDeadzone
 - uid: Zigurous.Math.Processors.Wrap(System.Double,System.Double,System.Double)
   name: Wrap(Double, Double, Double)
   href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Wrap_System_Double_System_Double_System_Double_
@@ -2007,12 +2597,36 @@ references:
   commentId: M:Zigurous.Math.Processors.Wrap(System.Single,System.Single,System.Single)
   fullName: Zigurous.Math.Processors.Wrap(System.Single, System.Single, System.Single)
   nameWithType: Processors.Wrap(Single, Single, Single)
-- uid: Zigurous.Math.Processors.Wrap(System.UInt32,System.UInt32,System.UInt32)
-  name: Wrap(UInt32, UInt32, UInt32)
-  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Wrap_System_UInt32_System_UInt32_System_UInt32_
-  commentId: M:Zigurous.Math.Processors.Wrap(System.UInt32,System.UInt32,System.UInt32)
-  fullName: Zigurous.Math.Processors.Wrap(System.UInt32, System.UInt32, System.UInt32)
-  nameWithType: Processors.Wrap(UInt32, UInt32, UInt32)
+- uid: Zigurous.Math.Processors.Wrap(Vector2,Vector2,Vector2)
+  name: Wrap(Vector2, Vector2, Vector2)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Wrap_Vector2_Vector2_Vector2_
+  commentId: M:Zigurous.Math.Processors.Wrap(Vector2,Vector2,Vector2)
+  fullName: Zigurous.Math.Processors.Wrap(Vector2, Vector2, Vector2)
+  nameWithType: Processors.Wrap(Vector2, Vector2, Vector2)
+- uid: Zigurous.Math.Processors.Wrap(Vector2Int,Vector2Int,Vector2Int)
+  name: Wrap(Vector2Int, Vector2Int, Vector2Int)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Wrap_Vector2Int_Vector2Int_Vector2Int_
+  commentId: M:Zigurous.Math.Processors.Wrap(Vector2Int,Vector2Int,Vector2Int)
+  fullName: Zigurous.Math.Processors.Wrap(Vector2Int, Vector2Int, Vector2Int)
+  nameWithType: Processors.Wrap(Vector2Int, Vector2Int, Vector2Int)
+- uid: Zigurous.Math.Processors.Wrap(Vector3,Vector3,Vector3)
+  name: Wrap(Vector3, Vector3, Vector3)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Wrap_Vector3_Vector3_Vector3_
+  commentId: M:Zigurous.Math.Processors.Wrap(Vector3,Vector3,Vector3)
+  fullName: Zigurous.Math.Processors.Wrap(Vector3, Vector3, Vector3)
+  nameWithType: Processors.Wrap(Vector3, Vector3, Vector3)
+- uid: Zigurous.Math.Processors.Wrap(Vector3Int,Vector3Int,Vector3Int)
+  name: Wrap(Vector3Int, Vector3Int, Vector3Int)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Wrap_Vector3Int_Vector3Int_Vector3Int_
+  commentId: M:Zigurous.Math.Processors.Wrap(Vector3Int,Vector3Int,Vector3Int)
+  fullName: Zigurous.Math.Processors.Wrap(Vector3Int, Vector3Int, Vector3Int)
+  nameWithType: Processors.Wrap(Vector3Int, Vector3Int, Vector3Int)
+- uid: Zigurous.Math.Processors.Wrap(Vector4,Vector4,Vector4)
+  name: Wrap(Vector4, Vector4, Vector4)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Wrap_Vector4_Vector4_Vector4_
+  commentId: M:Zigurous.Math.Processors.Wrap(Vector4,Vector4,Vector4)
+  fullName: Zigurous.Math.Processors.Wrap(Vector4, Vector4, Vector4)
+  nameWithType: Processors.Wrap(Vector4, Vector4, Vector4)
 - uid: Zigurous.Math.Processors.Wrap*
   name: Wrap
   href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Wrap_
@@ -2026,12 +2640,48 @@ references:
   commentId: M:Zigurous.Math.Processors.Wrap01(System.Double)
   fullName: Zigurous.Math.Processors.Wrap01(System.Double)
   nameWithType: Processors.Wrap01(Double)
+- uid: Zigurous.Math.Processors.Wrap01(System.Int32)
+  name: Wrap01(Int32)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Wrap01_System_Int32_
+  commentId: M:Zigurous.Math.Processors.Wrap01(System.Int32)
+  fullName: Zigurous.Math.Processors.Wrap01(System.Int32)
+  nameWithType: Processors.Wrap01(Int32)
 - uid: Zigurous.Math.Processors.Wrap01(System.Single)
   name: Wrap01(Single)
   href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Wrap01_System_Single_
   commentId: M:Zigurous.Math.Processors.Wrap01(System.Single)
   fullName: Zigurous.Math.Processors.Wrap01(System.Single)
   nameWithType: Processors.Wrap01(Single)
+- uid: Zigurous.Math.Processors.Wrap01(Vector2)
+  name: Wrap01(Vector2)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Wrap01_Vector2_
+  commentId: M:Zigurous.Math.Processors.Wrap01(Vector2)
+  fullName: Zigurous.Math.Processors.Wrap01(Vector2)
+  nameWithType: Processors.Wrap01(Vector2)
+- uid: Zigurous.Math.Processors.Wrap01(Vector2Int)
+  name: Wrap01(Vector2Int)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Wrap01_Vector2Int_
+  commentId: M:Zigurous.Math.Processors.Wrap01(Vector2Int)
+  fullName: Zigurous.Math.Processors.Wrap01(Vector2Int)
+  nameWithType: Processors.Wrap01(Vector2Int)
+- uid: Zigurous.Math.Processors.Wrap01(Vector3)
+  name: Wrap01(Vector3)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Wrap01_Vector3_
+  commentId: M:Zigurous.Math.Processors.Wrap01(Vector3)
+  fullName: Zigurous.Math.Processors.Wrap01(Vector3)
+  nameWithType: Processors.Wrap01(Vector3)
+- uid: Zigurous.Math.Processors.Wrap01(Vector3Int)
+  name: Wrap01(Vector3Int)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Wrap01_Vector3Int_
+  commentId: M:Zigurous.Math.Processors.Wrap01(Vector3Int)
+  fullName: Zigurous.Math.Processors.Wrap01(Vector3Int)
+  nameWithType: Processors.Wrap01(Vector3Int)
+- uid: Zigurous.Math.Processors.Wrap01(Vector4)
+  name: Wrap01(Vector4)
+  href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Wrap01_Vector4_
+  commentId: M:Zigurous.Math.Processors.Wrap01(Vector4)
+  fullName: Zigurous.Math.Processors.Wrap01(Vector4)
+  nameWithType: Processors.Wrap01(Vector4)
 - uid: Zigurous.Math.Processors.Wrap01*
   name: Wrap01
   href: api/Zigurous.Math.Processors.html#Zigurous_Math_Processors_Wrap01_
@@ -2158,19 +2808,19 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.ShortExtensions.IsZero
   nameWithType: ShortExtensions.IsZero
-- uid: Zigurous.Math.ShortExtensions.ToBinary(System.Int16)
-  name: ToBinary(Int16)
-  href: api/Zigurous.Math.ShortExtensions.html#Zigurous_Math_ShortExtensions_ToBinary_System_Int16_
-  commentId: M:Zigurous.Math.ShortExtensions.ToBinary(System.Int16)
-  fullName: Zigurous.Math.ShortExtensions.ToBinary(System.Int16)
-  nameWithType: ShortExtensions.ToBinary(Int16)
-- uid: Zigurous.Math.ShortExtensions.ToBinary*
-  name: ToBinary
-  href: api/Zigurous.Math.ShortExtensions.html#Zigurous_Math_ShortExtensions_ToBinary_
-  commentId: Overload:Zigurous.Math.ShortExtensions.ToBinary
+- uid: Zigurous.Math.ShortExtensions.ToBinaryString(System.Int16)
+  name: ToBinaryString(Int16)
+  href: api/Zigurous.Math.ShortExtensions.html#Zigurous_Math_ShortExtensions_ToBinaryString_System_Int16_
+  commentId: M:Zigurous.Math.ShortExtensions.ToBinaryString(System.Int16)
+  fullName: Zigurous.Math.ShortExtensions.ToBinaryString(System.Int16)
+  nameWithType: ShortExtensions.ToBinaryString(Int16)
+- uid: Zigurous.Math.ShortExtensions.ToBinaryString*
+  name: ToBinaryString
+  href: api/Zigurous.Math.ShortExtensions.html#Zigurous_Math_ShortExtensions_ToBinaryString_
+  commentId: Overload:Zigurous.Math.ShortExtensions.ToBinaryString
   isSpec: "True"
-  fullName: Zigurous.Math.ShortExtensions.ToBinary
-  nameWithType: ShortExtensions.ToBinary
+  fullName: Zigurous.Math.ShortExtensions.ToBinaryString
+  nameWithType: ShortExtensions.ToBinaryString
 - uid: Zigurous.Math.UIntExtensions
   name: UIntExtensions
   href: api/Zigurous.Math.UIntExtensions.html
@@ -2255,6 +2905,19 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.UIntExtensions.IsOdd
   nameWithType: UIntExtensions.IsOdd
+- uid: Zigurous.Math.UIntExtensions.IsPositive(System.UInt32)
+  name: IsPositive(UInt32)
+  href: api/Zigurous.Math.UIntExtensions.html#Zigurous_Math_UIntExtensions_IsPositive_System_UInt32_
+  commentId: M:Zigurous.Math.UIntExtensions.IsPositive(System.UInt32)
+  fullName: Zigurous.Math.UIntExtensions.IsPositive(System.UInt32)
+  nameWithType: UIntExtensions.IsPositive(UInt32)
+- uid: Zigurous.Math.UIntExtensions.IsPositive*
+  name: IsPositive
+  href: api/Zigurous.Math.UIntExtensions.html#Zigurous_Math_UIntExtensions_IsPositive_
+  commentId: Overload:Zigurous.Math.UIntExtensions.IsPositive
+  isSpec: "True"
+  fullName: Zigurous.Math.UIntExtensions.IsPositive
+  nameWithType: UIntExtensions.IsPositive
 - uid: Zigurous.Math.UIntExtensions.IsZero(System.UInt32)
   name: IsZero(UInt32)
   href: api/Zigurous.Math.UIntExtensions.html#Zigurous_Math_UIntExtensions_IsZero_System_UInt32_
@@ -2268,19 +2931,19 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.UIntExtensions.IsZero
   nameWithType: UIntExtensions.IsZero
-- uid: Zigurous.Math.UIntExtensions.ToBinary(System.UInt32)
-  name: ToBinary(UInt32)
-  href: api/Zigurous.Math.UIntExtensions.html#Zigurous_Math_UIntExtensions_ToBinary_System_UInt32_
-  commentId: M:Zigurous.Math.UIntExtensions.ToBinary(System.UInt32)
-  fullName: Zigurous.Math.UIntExtensions.ToBinary(System.UInt32)
-  nameWithType: UIntExtensions.ToBinary(UInt32)
-- uid: Zigurous.Math.UIntExtensions.ToBinary*
-  name: ToBinary
-  href: api/Zigurous.Math.UIntExtensions.html#Zigurous_Math_UIntExtensions_ToBinary_
-  commentId: Overload:Zigurous.Math.UIntExtensions.ToBinary
+- uid: Zigurous.Math.UIntExtensions.ToBinaryString(System.UInt32)
+  name: ToBinaryString(UInt32)
+  href: api/Zigurous.Math.UIntExtensions.html#Zigurous_Math_UIntExtensions_ToBinaryString_System_UInt32_
+  commentId: M:Zigurous.Math.UIntExtensions.ToBinaryString(System.UInt32)
+  fullName: Zigurous.Math.UIntExtensions.ToBinaryString(System.UInt32)
+  nameWithType: UIntExtensions.ToBinaryString(UInt32)
+- uid: Zigurous.Math.UIntExtensions.ToBinaryString*
+  name: ToBinaryString
+  href: api/Zigurous.Math.UIntExtensions.html#Zigurous_Math_UIntExtensions_ToBinaryString_
+  commentId: Overload:Zigurous.Math.UIntExtensions.ToBinaryString
   isSpec: "True"
-  fullName: Zigurous.Math.UIntExtensions.ToBinary
-  nameWithType: UIntExtensions.ToBinary
+  fullName: Zigurous.Math.UIntExtensions.ToBinaryString
+  nameWithType: UIntExtensions.ToBinaryString
 - uid: Zigurous.Math.Vector2Extensions
   name: Vector2Extensions
   href: api/Zigurous.Math.Vector2Extensions.html
@@ -2403,12 +3066,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.Vector2Extensions.Floored
   nameWithType: Vector2Extensions.Floored
-- uid: Zigurous.Math.Vector2Extensions.IsEqualTo(Vector2,Vector2)
-  name: IsEqualTo(Vector2, Vector2)
-  href: api/Zigurous.Math.Vector2Extensions.html#Zigurous_Math_Vector2Extensions_IsEqualTo_Vector2_Vector2_
-  commentId: M:Zigurous.Math.Vector2Extensions.IsEqualTo(Vector2,Vector2)
-  fullName: Zigurous.Math.Vector2Extensions.IsEqualTo(Vector2, Vector2)
-  nameWithType: Vector2Extensions.IsEqualTo(Vector2, Vector2)
 - uid: Zigurous.Math.Vector2Extensions.IsEqualTo(Vector2,Vector2,System.Single)
   name: IsEqualTo(Vector2, Vector2, Single)
   href: api/Zigurous.Math.Vector2Extensions.html#Zigurous_Math_Vector2Extensions_IsEqualTo_Vector2_Vector2_System_Single_
@@ -2422,50 +3079,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.Vector2Extensions.IsEqualTo
   nameWithType: Vector2Extensions.IsEqualTo
-- uid: Zigurous.Math.Vector2Extensions.IsNotEqualTo(Vector2,Vector2)
-  name: IsNotEqualTo(Vector2, Vector2)
-  href: api/Zigurous.Math.Vector2Extensions.html#Zigurous_Math_Vector2Extensions_IsNotEqualTo_Vector2_Vector2_
-  commentId: M:Zigurous.Math.Vector2Extensions.IsNotEqualTo(Vector2,Vector2)
-  fullName: Zigurous.Math.Vector2Extensions.IsNotEqualTo(Vector2, Vector2)
-  nameWithType: Vector2Extensions.IsNotEqualTo(Vector2, Vector2)
-- uid: Zigurous.Math.Vector2Extensions.IsNotEqualTo(Vector2,Vector2,System.Single)
-  name: IsNotEqualTo(Vector2, Vector2, Single)
-  href: api/Zigurous.Math.Vector2Extensions.html#Zigurous_Math_Vector2Extensions_IsNotEqualTo_Vector2_Vector2_System_Single_
-  commentId: M:Zigurous.Math.Vector2Extensions.IsNotEqualTo(Vector2,Vector2,System.Single)
-  fullName: Zigurous.Math.Vector2Extensions.IsNotEqualTo(Vector2, Vector2, System.Single)
-  nameWithType: Vector2Extensions.IsNotEqualTo(Vector2, Vector2, Single)
-- uid: Zigurous.Math.Vector2Extensions.IsNotEqualTo*
-  name: IsNotEqualTo
-  href: api/Zigurous.Math.Vector2Extensions.html#Zigurous_Math_Vector2Extensions_IsNotEqualTo_
-  commentId: Overload:Zigurous.Math.Vector2Extensions.IsNotEqualTo
-  isSpec: "True"
-  fullName: Zigurous.Math.Vector2Extensions.IsNotEqualTo
-  nameWithType: Vector2Extensions.IsNotEqualTo
-- uid: Zigurous.Math.Vector2Extensions.IsNotZero(Vector2)
-  name: IsNotZero(Vector2)
-  href: api/Zigurous.Math.Vector2Extensions.html#Zigurous_Math_Vector2Extensions_IsNotZero_Vector2_
-  commentId: M:Zigurous.Math.Vector2Extensions.IsNotZero(Vector2)
-  fullName: Zigurous.Math.Vector2Extensions.IsNotZero(Vector2)
-  nameWithType: Vector2Extensions.IsNotZero(Vector2)
-- uid: Zigurous.Math.Vector2Extensions.IsNotZero(Vector2,System.Single)
-  name: IsNotZero(Vector2, Single)
-  href: api/Zigurous.Math.Vector2Extensions.html#Zigurous_Math_Vector2Extensions_IsNotZero_Vector2_System_Single_
-  commentId: M:Zigurous.Math.Vector2Extensions.IsNotZero(Vector2,System.Single)
-  fullName: Zigurous.Math.Vector2Extensions.IsNotZero(Vector2, System.Single)
-  nameWithType: Vector2Extensions.IsNotZero(Vector2, Single)
-- uid: Zigurous.Math.Vector2Extensions.IsNotZero*
-  name: IsNotZero
-  href: api/Zigurous.Math.Vector2Extensions.html#Zigurous_Math_Vector2Extensions_IsNotZero_
-  commentId: Overload:Zigurous.Math.Vector2Extensions.IsNotZero
-  isSpec: "True"
-  fullName: Zigurous.Math.Vector2Extensions.IsNotZero
-  nameWithType: Vector2Extensions.IsNotZero
-- uid: Zigurous.Math.Vector2Extensions.IsZero(Vector2)
-  name: IsZero(Vector2)
-  href: api/Zigurous.Math.Vector2Extensions.html#Zigurous_Math_Vector2Extensions_IsZero_Vector2_
-  commentId: M:Zigurous.Math.Vector2Extensions.IsZero(Vector2)
-  fullName: Zigurous.Math.Vector2Extensions.IsZero(Vector2)
-  nameWithType: Vector2Extensions.IsZero(Vector2)
 - uid: Zigurous.Math.Vector2Extensions.IsZero(Vector2,System.Single)
   name: IsZero(Vector2, Single)
   href: api/Zigurous.Math.Vector2Extensions.html#Zigurous_Math_Vector2Extensions_IsZero_Vector2_System_Single_
@@ -2508,35 +3121,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.Vector2Extensions.Rounded
   nameWithType: Vector2Extensions.Rounded
-- uid: Zigurous.Math.Vector2Extensions.ScaleBy(Vector2@,Vector2)
-  name: ScaleBy(ref Vector2, Vector2)
-  href: api/Zigurous.Math.Vector2Extensions.html#Zigurous_Math_Vector2Extensions_ScaleBy_Vector2__Vector2_
-  commentId: M:Zigurous.Math.Vector2Extensions.ScaleBy(Vector2@,Vector2)
-  name.vb: ScaleBy(ByRef Vector2, Vector2)
-  fullName: Zigurous.Math.Vector2Extensions.ScaleBy(ref Vector2, Vector2)
-  fullName.vb: Zigurous.Math.Vector2Extensions.ScaleBy(ByRef Vector2, Vector2)
-  nameWithType: Vector2Extensions.ScaleBy(ref Vector2, Vector2)
-  nameWithType.vb: Vector2Extensions.ScaleBy(ByRef Vector2, Vector2)
-- uid: Zigurous.Math.Vector2Extensions.ScaleBy*
-  name: ScaleBy
-  href: api/Zigurous.Math.Vector2Extensions.html#Zigurous_Math_Vector2Extensions_ScaleBy_
-  commentId: Overload:Zigurous.Math.Vector2Extensions.ScaleBy
-  isSpec: "True"
-  fullName: Zigurous.Math.Vector2Extensions.ScaleBy
-  nameWithType: Vector2Extensions.ScaleBy
-- uid: Zigurous.Math.Vector2Extensions.ScaledBy(Vector2,Vector2)
-  name: ScaledBy(Vector2, Vector2)
-  href: api/Zigurous.Math.Vector2Extensions.html#Zigurous_Math_Vector2Extensions_ScaledBy_Vector2_Vector2_
-  commentId: M:Zigurous.Math.Vector2Extensions.ScaledBy(Vector2,Vector2)
-  fullName: Zigurous.Math.Vector2Extensions.ScaledBy(Vector2, Vector2)
-  nameWithType: Vector2Extensions.ScaledBy(Vector2, Vector2)
-- uid: Zigurous.Math.Vector2Extensions.ScaledBy*
-  name: ScaledBy
-  href: api/Zigurous.Math.Vector2Extensions.html#Zigurous_Math_Vector2Extensions_ScaledBy_
-  commentId: Overload:Zigurous.Math.Vector2Extensions.ScaledBy
-  isSpec: "True"
-  fullName: Zigurous.Math.Vector2Extensions.ScaledBy
-  nameWithType: Vector2Extensions.ScaledBy
 - uid: Zigurous.Math.Vector2Extensions.SetUniform(Vector2@,System.Single)
   name: SetUniform(ref Vector2, Single)
   href: api/Zigurous.Math.Vector2Extensions.html#Zigurous_Math_Vector2Extensions_SetUniform_Vector2__System_Single_
@@ -2595,6 +3179,128 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.Vector2Extensions.Wrapped
   nameWithType: Vector2Extensions.Wrapped
+- uid: Zigurous.Math.Vector2IntExtensions
+  name: Vector2IntExtensions
+  href: api/Zigurous.Math.Vector2IntExtensions.html
+  commentId: T:Zigurous.Math.Vector2IntExtensions
+  fullName: Zigurous.Math.Vector2IntExtensions
+  nameWithType: Vector2IntExtensions
+- uid: Zigurous.Math.Vector2IntExtensions.Abs(Vector2Int)
+  name: Abs(Vector2Int)
+  href: api/Zigurous.Math.Vector2IntExtensions.html#Zigurous_Math_Vector2IntExtensions_Abs_Vector2Int_
+  commentId: M:Zigurous.Math.Vector2IntExtensions.Abs(Vector2Int)
+  fullName: Zigurous.Math.Vector2IntExtensions.Abs(Vector2Int)
+  nameWithType: Vector2IntExtensions.Abs(Vector2Int)
+- uid: Zigurous.Math.Vector2IntExtensions.Abs*
+  name: Abs
+  href: api/Zigurous.Math.Vector2IntExtensions.html#Zigurous_Math_Vector2IntExtensions_Abs_
+  commentId: Overload:Zigurous.Math.Vector2IntExtensions.Abs
+  isSpec: "True"
+  fullName: Zigurous.Math.Vector2IntExtensions.Abs
+  nameWithType: Vector2IntExtensions.Abs
+- uid: Zigurous.Math.Vector2IntExtensions.Average(Vector2Int[])
+  name: Average(Vector2Int[])
+  href: api/Zigurous.Math.Vector2IntExtensions.html#Zigurous_Math_Vector2IntExtensions_Average_Vector2Int___
+  commentId: M:Zigurous.Math.Vector2IntExtensions.Average(Vector2Int[])
+  name.vb: Average(Vector2Int())
+  fullName: Zigurous.Math.Vector2IntExtensions.Average(Vector2Int[])
+  fullName.vb: Zigurous.Math.Vector2IntExtensions.Average(Vector2Int())
+  nameWithType: Vector2IntExtensions.Average(Vector2Int[])
+  nameWithType.vb: Vector2IntExtensions.Average(Vector2Int())
+- uid: Zigurous.Math.Vector2IntExtensions.Average*
+  name: Average
+  href: api/Zigurous.Math.Vector2IntExtensions.html#Zigurous_Math_Vector2IntExtensions_Average_
+  commentId: Overload:Zigurous.Math.Vector2IntExtensions.Average
+  isSpec: "True"
+  fullName: Zigurous.Math.Vector2IntExtensions.Average
+  nameWithType: Vector2IntExtensions.Average
+- uid: Zigurous.Math.Vector2IntExtensions.Clamp(Vector2Int@,Vector2Int,Vector2Int)
+  name: Clamp(ref Vector2Int, Vector2Int, Vector2Int)
+  href: api/Zigurous.Math.Vector2IntExtensions.html#Zigurous_Math_Vector2IntExtensions_Clamp_Vector2Int__Vector2Int_Vector2Int_
+  commentId: M:Zigurous.Math.Vector2IntExtensions.Clamp(Vector2Int@,Vector2Int,Vector2Int)
+  name.vb: Clamp(ByRef Vector2Int, Vector2Int, Vector2Int)
+  fullName: Zigurous.Math.Vector2IntExtensions.Clamp(ref Vector2Int, Vector2Int, Vector2Int)
+  fullName.vb: Zigurous.Math.Vector2IntExtensions.Clamp(ByRef Vector2Int, Vector2Int, Vector2Int)
+  nameWithType: Vector2IntExtensions.Clamp(ref Vector2Int, Vector2Int, Vector2Int)
+  nameWithType.vb: Vector2IntExtensions.Clamp(ByRef Vector2Int, Vector2Int, Vector2Int)
+- uid: Zigurous.Math.Vector2IntExtensions.Clamp*
+  name: Clamp
+  href: api/Zigurous.Math.Vector2IntExtensions.html#Zigurous_Math_Vector2IntExtensions_Clamp_
+  commentId: Overload:Zigurous.Math.Vector2IntExtensions.Clamp
+  isSpec: "True"
+  fullName: Zigurous.Math.Vector2IntExtensions.Clamp
+  nameWithType: Vector2IntExtensions.Clamp
+- uid: Zigurous.Math.Vector2IntExtensions.Clamped(Vector2Int,Vector2Int,Vector2Int)
+  name: Clamped(Vector2Int, Vector2Int, Vector2Int)
+  href: api/Zigurous.Math.Vector2IntExtensions.html#Zigurous_Math_Vector2IntExtensions_Clamped_Vector2Int_Vector2Int_Vector2Int_
+  commentId: M:Zigurous.Math.Vector2IntExtensions.Clamped(Vector2Int,Vector2Int,Vector2Int)
+  fullName: Zigurous.Math.Vector2IntExtensions.Clamped(Vector2Int, Vector2Int, Vector2Int)
+  nameWithType: Vector2IntExtensions.Clamped(Vector2Int, Vector2Int, Vector2Int)
+- uid: Zigurous.Math.Vector2IntExtensions.Clamped*
+  name: Clamped
+  href: api/Zigurous.Math.Vector2IntExtensions.html#Zigurous_Math_Vector2IntExtensions_Clamped_
+  commentId: Overload:Zigurous.Math.Vector2IntExtensions.Clamped
+  isSpec: "True"
+  fullName: Zigurous.Math.Vector2IntExtensions.Clamped
+  nameWithType: Vector2IntExtensions.Clamped
+- uid: Zigurous.Math.Vector2IntExtensions.SetUniform(Vector2Int@,System.Int32)
+  name: SetUniform(ref Vector2Int, Int32)
+  href: api/Zigurous.Math.Vector2IntExtensions.html#Zigurous_Math_Vector2IntExtensions_SetUniform_Vector2Int__System_Int32_
+  commentId: M:Zigurous.Math.Vector2IntExtensions.SetUniform(Vector2Int@,System.Int32)
+  name.vb: SetUniform(ByRef Vector2Int, Int32)
+  fullName: Zigurous.Math.Vector2IntExtensions.SetUniform(ref Vector2Int, System.Int32)
+  fullName.vb: Zigurous.Math.Vector2IntExtensions.SetUniform(ByRef Vector2Int, System.Int32)
+  nameWithType: Vector2IntExtensions.SetUniform(ref Vector2Int, Int32)
+  nameWithType.vb: Vector2IntExtensions.SetUniform(ByRef Vector2Int, Int32)
+- uid: Zigurous.Math.Vector2IntExtensions.SetUniform*
+  name: SetUniform
+  href: api/Zigurous.Math.Vector2IntExtensions.html#Zigurous_Math_Vector2IntExtensions_SetUniform_
+  commentId: Overload:Zigurous.Math.Vector2IntExtensions.SetUniform
+  isSpec: "True"
+  fullName: Zigurous.Math.Vector2IntExtensions.SetUniform
+  nameWithType: Vector2IntExtensions.SetUniform
+- uid: Zigurous.Math.Vector2IntExtensions.SetUniformly(Vector2Int,System.Int32)
+  name: SetUniformly(Vector2Int, Int32)
+  href: api/Zigurous.Math.Vector2IntExtensions.html#Zigurous_Math_Vector2IntExtensions_SetUniformly_Vector2Int_System_Int32_
+  commentId: M:Zigurous.Math.Vector2IntExtensions.SetUniformly(Vector2Int,System.Int32)
+  fullName: Zigurous.Math.Vector2IntExtensions.SetUniformly(Vector2Int, System.Int32)
+  nameWithType: Vector2IntExtensions.SetUniformly(Vector2Int, Int32)
+- uid: Zigurous.Math.Vector2IntExtensions.SetUniformly*
+  name: SetUniformly
+  href: api/Zigurous.Math.Vector2IntExtensions.html#Zigurous_Math_Vector2IntExtensions_SetUniformly_
+  commentId: Overload:Zigurous.Math.Vector2IntExtensions.SetUniformly
+  isSpec: "True"
+  fullName: Zigurous.Math.Vector2IntExtensions.SetUniformly
+  nameWithType: Vector2IntExtensions.SetUniformly
+- uid: Zigurous.Math.Vector2IntExtensions.Wrap(Vector2Int@,Vector2Int,Vector2Int)
+  name: Wrap(ref Vector2Int, Vector2Int, Vector2Int)
+  href: api/Zigurous.Math.Vector2IntExtensions.html#Zigurous_Math_Vector2IntExtensions_Wrap_Vector2Int__Vector2Int_Vector2Int_
+  commentId: M:Zigurous.Math.Vector2IntExtensions.Wrap(Vector2Int@,Vector2Int,Vector2Int)
+  name.vb: Wrap(ByRef Vector2Int, Vector2Int, Vector2Int)
+  fullName: Zigurous.Math.Vector2IntExtensions.Wrap(ref Vector2Int, Vector2Int, Vector2Int)
+  fullName.vb: Zigurous.Math.Vector2IntExtensions.Wrap(ByRef Vector2Int, Vector2Int, Vector2Int)
+  nameWithType: Vector2IntExtensions.Wrap(ref Vector2Int, Vector2Int, Vector2Int)
+  nameWithType.vb: Vector2IntExtensions.Wrap(ByRef Vector2Int, Vector2Int, Vector2Int)
+- uid: Zigurous.Math.Vector2IntExtensions.Wrap*
+  name: Wrap
+  href: api/Zigurous.Math.Vector2IntExtensions.html#Zigurous_Math_Vector2IntExtensions_Wrap_
+  commentId: Overload:Zigurous.Math.Vector2IntExtensions.Wrap
+  isSpec: "True"
+  fullName: Zigurous.Math.Vector2IntExtensions.Wrap
+  nameWithType: Vector2IntExtensions.Wrap
+- uid: Zigurous.Math.Vector2IntExtensions.Wrapped(Vector2Int,Vector2Int,Vector2Int)
+  name: Wrapped(Vector2Int, Vector2Int, Vector2Int)
+  href: api/Zigurous.Math.Vector2IntExtensions.html#Zigurous_Math_Vector2IntExtensions_Wrapped_Vector2Int_Vector2Int_Vector2Int_
+  commentId: M:Zigurous.Math.Vector2IntExtensions.Wrapped(Vector2Int,Vector2Int,Vector2Int)
+  fullName: Zigurous.Math.Vector2IntExtensions.Wrapped(Vector2Int, Vector2Int, Vector2Int)
+  nameWithType: Vector2IntExtensions.Wrapped(Vector2Int, Vector2Int, Vector2Int)
+- uid: Zigurous.Math.Vector2IntExtensions.Wrapped*
+  name: Wrapped
+  href: api/Zigurous.Math.Vector2IntExtensions.html#Zigurous_Math_Vector2IntExtensions_Wrapped_
+  commentId: Overload:Zigurous.Math.Vector2IntExtensions.Wrapped
+  isSpec: "True"
+  fullName: Zigurous.Math.Vector2IntExtensions.Wrapped
+  nameWithType: Vector2IntExtensions.Wrapped
 - uid: Zigurous.Math.Vector3Extensions
   name: Vector3Extensions
   href: api/Zigurous.Math.Vector3Extensions.html
@@ -2717,12 +3423,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.Vector3Extensions.Floored
   nameWithType: Vector3Extensions.Floored
-- uid: Zigurous.Math.Vector3Extensions.IsEqualTo(Vector3,Vector3)
-  name: IsEqualTo(Vector3, Vector3)
-  href: api/Zigurous.Math.Vector3Extensions.html#Zigurous_Math_Vector3Extensions_IsEqualTo_Vector3_Vector3_
-  commentId: M:Zigurous.Math.Vector3Extensions.IsEqualTo(Vector3,Vector3)
-  fullName: Zigurous.Math.Vector3Extensions.IsEqualTo(Vector3, Vector3)
-  nameWithType: Vector3Extensions.IsEqualTo(Vector3, Vector3)
 - uid: Zigurous.Math.Vector3Extensions.IsEqualTo(Vector3,Vector3,System.Single)
   name: IsEqualTo(Vector3, Vector3, Single)
   href: api/Zigurous.Math.Vector3Extensions.html#Zigurous_Math_Vector3Extensions_IsEqualTo_Vector3_Vector3_System_Single_
@@ -2736,50 +3436,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.Vector3Extensions.IsEqualTo
   nameWithType: Vector3Extensions.IsEqualTo
-- uid: Zigurous.Math.Vector3Extensions.IsNotEqualTo(Vector3,Vector3)
-  name: IsNotEqualTo(Vector3, Vector3)
-  href: api/Zigurous.Math.Vector3Extensions.html#Zigurous_Math_Vector3Extensions_IsNotEqualTo_Vector3_Vector3_
-  commentId: M:Zigurous.Math.Vector3Extensions.IsNotEqualTo(Vector3,Vector3)
-  fullName: Zigurous.Math.Vector3Extensions.IsNotEqualTo(Vector3, Vector3)
-  nameWithType: Vector3Extensions.IsNotEqualTo(Vector3, Vector3)
-- uid: Zigurous.Math.Vector3Extensions.IsNotEqualTo(Vector3,Vector3,System.Single)
-  name: IsNotEqualTo(Vector3, Vector3, Single)
-  href: api/Zigurous.Math.Vector3Extensions.html#Zigurous_Math_Vector3Extensions_IsNotEqualTo_Vector3_Vector3_System_Single_
-  commentId: M:Zigurous.Math.Vector3Extensions.IsNotEqualTo(Vector3,Vector3,System.Single)
-  fullName: Zigurous.Math.Vector3Extensions.IsNotEqualTo(Vector3, Vector3, System.Single)
-  nameWithType: Vector3Extensions.IsNotEqualTo(Vector3, Vector3, Single)
-- uid: Zigurous.Math.Vector3Extensions.IsNotEqualTo*
-  name: IsNotEqualTo
-  href: api/Zigurous.Math.Vector3Extensions.html#Zigurous_Math_Vector3Extensions_IsNotEqualTo_
-  commentId: Overload:Zigurous.Math.Vector3Extensions.IsNotEqualTo
-  isSpec: "True"
-  fullName: Zigurous.Math.Vector3Extensions.IsNotEqualTo
-  nameWithType: Vector3Extensions.IsNotEqualTo
-- uid: Zigurous.Math.Vector3Extensions.IsNotZero(Vector3)
-  name: IsNotZero(Vector3)
-  href: api/Zigurous.Math.Vector3Extensions.html#Zigurous_Math_Vector3Extensions_IsNotZero_Vector3_
-  commentId: M:Zigurous.Math.Vector3Extensions.IsNotZero(Vector3)
-  fullName: Zigurous.Math.Vector3Extensions.IsNotZero(Vector3)
-  nameWithType: Vector3Extensions.IsNotZero(Vector3)
-- uid: Zigurous.Math.Vector3Extensions.IsNotZero(Vector3,System.Single)
-  name: IsNotZero(Vector3, Single)
-  href: api/Zigurous.Math.Vector3Extensions.html#Zigurous_Math_Vector3Extensions_IsNotZero_Vector3_System_Single_
-  commentId: M:Zigurous.Math.Vector3Extensions.IsNotZero(Vector3,System.Single)
-  fullName: Zigurous.Math.Vector3Extensions.IsNotZero(Vector3, System.Single)
-  nameWithType: Vector3Extensions.IsNotZero(Vector3, Single)
-- uid: Zigurous.Math.Vector3Extensions.IsNotZero*
-  name: IsNotZero
-  href: api/Zigurous.Math.Vector3Extensions.html#Zigurous_Math_Vector3Extensions_IsNotZero_
-  commentId: Overload:Zigurous.Math.Vector3Extensions.IsNotZero
-  isSpec: "True"
-  fullName: Zigurous.Math.Vector3Extensions.IsNotZero
-  nameWithType: Vector3Extensions.IsNotZero
-- uid: Zigurous.Math.Vector3Extensions.IsZero(Vector3)
-  name: IsZero(Vector3)
-  href: api/Zigurous.Math.Vector3Extensions.html#Zigurous_Math_Vector3Extensions_IsZero_Vector3_
-  commentId: M:Zigurous.Math.Vector3Extensions.IsZero(Vector3)
-  fullName: Zigurous.Math.Vector3Extensions.IsZero(Vector3)
-  nameWithType: Vector3Extensions.IsZero(Vector3)
 - uid: Zigurous.Math.Vector3Extensions.IsZero(Vector3,System.Single)
   name: IsZero(Vector3, Single)
   href: api/Zigurous.Math.Vector3Extensions.html#Zigurous_Math_Vector3Extensions_IsZero_Vector3_System_Single_
@@ -2822,35 +3478,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.Vector3Extensions.Rounded
   nameWithType: Vector3Extensions.Rounded
-- uid: Zigurous.Math.Vector3Extensions.ScaleBy(Vector3@,Vector3)
-  name: ScaleBy(ref Vector3, Vector3)
-  href: api/Zigurous.Math.Vector3Extensions.html#Zigurous_Math_Vector3Extensions_ScaleBy_Vector3__Vector3_
-  commentId: M:Zigurous.Math.Vector3Extensions.ScaleBy(Vector3@,Vector3)
-  name.vb: ScaleBy(ByRef Vector3, Vector3)
-  fullName: Zigurous.Math.Vector3Extensions.ScaleBy(ref Vector3, Vector3)
-  fullName.vb: Zigurous.Math.Vector3Extensions.ScaleBy(ByRef Vector3, Vector3)
-  nameWithType: Vector3Extensions.ScaleBy(ref Vector3, Vector3)
-  nameWithType.vb: Vector3Extensions.ScaleBy(ByRef Vector3, Vector3)
-- uid: Zigurous.Math.Vector3Extensions.ScaleBy*
-  name: ScaleBy
-  href: api/Zigurous.Math.Vector3Extensions.html#Zigurous_Math_Vector3Extensions_ScaleBy_
-  commentId: Overload:Zigurous.Math.Vector3Extensions.ScaleBy
-  isSpec: "True"
-  fullName: Zigurous.Math.Vector3Extensions.ScaleBy
-  nameWithType: Vector3Extensions.ScaleBy
-- uid: Zigurous.Math.Vector3Extensions.ScaledBy(Vector3,Vector3)
-  name: ScaledBy(Vector3, Vector3)
-  href: api/Zigurous.Math.Vector3Extensions.html#Zigurous_Math_Vector3Extensions_ScaledBy_Vector3_Vector3_
-  commentId: M:Zigurous.Math.Vector3Extensions.ScaledBy(Vector3,Vector3)
-  fullName: Zigurous.Math.Vector3Extensions.ScaledBy(Vector3, Vector3)
-  nameWithType: Vector3Extensions.ScaledBy(Vector3, Vector3)
-- uid: Zigurous.Math.Vector3Extensions.ScaledBy*
-  name: ScaledBy
-  href: api/Zigurous.Math.Vector3Extensions.html#Zigurous_Math_Vector3Extensions_ScaledBy_
-  commentId: Overload:Zigurous.Math.Vector3Extensions.ScaledBy
-  isSpec: "True"
-  fullName: Zigurous.Math.Vector3Extensions.ScaledBy
-  nameWithType: Vector3Extensions.ScaledBy
 - uid: Zigurous.Math.Vector3Extensions.SetUniform(Vector3@,System.Single)
   name: SetUniform(ref Vector3, Single)
   href: api/Zigurous.Math.Vector3Extensions.html#Zigurous_Math_Vector3Extensions_SetUniform_Vector3__System_Single_
@@ -2909,6 +3536,128 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.Vector3Extensions.Wrapped
   nameWithType: Vector3Extensions.Wrapped
+- uid: Zigurous.Math.Vector3IntExtensions
+  name: Vector3IntExtensions
+  href: api/Zigurous.Math.Vector3IntExtensions.html
+  commentId: T:Zigurous.Math.Vector3IntExtensions
+  fullName: Zigurous.Math.Vector3IntExtensions
+  nameWithType: Vector3IntExtensions
+- uid: Zigurous.Math.Vector3IntExtensions.Abs(Vector3Int)
+  name: Abs(Vector3Int)
+  href: api/Zigurous.Math.Vector3IntExtensions.html#Zigurous_Math_Vector3IntExtensions_Abs_Vector3Int_
+  commentId: M:Zigurous.Math.Vector3IntExtensions.Abs(Vector3Int)
+  fullName: Zigurous.Math.Vector3IntExtensions.Abs(Vector3Int)
+  nameWithType: Vector3IntExtensions.Abs(Vector3Int)
+- uid: Zigurous.Math.Vector3IntExtensions.Abs*
+  name: Abs
+  href: api/Zigurous.Math.Vector3IntExtensions.html#Zigurous_Math_Vector3IntExtensions_Abs_
+  commentId: Overload:Zigurous.Math.Vector3IntExtensions.Abs
+  isSpec: "True"
+  fullName: Zigurous.Math.Vector3IntExtensions.Abs
+  nameWithType: Vector3IntExtensions.Abs
+- uid: Zigurous.Math.Vector3IntExtensions.Average(Vector3Int[])
+  name: Average(Vector3Int[])
+  href: api/Zigurous.Math.Vector3IntExtensions.html#Zigurous_Math_Vector3IntExtensions_Average_Vector3Int___
+  commentId: M:Zigurous.Math.Vector3IntExtensions.Average(Vector3Int[])
+  name.vb: Average(Vector3Int())
+  fullName: Zigurous.Math.Vector3IntExtensions.Average(Vector3Int[])
+  fullName.vb: Zigurous.Math.Vector3IntExtensions.Average(Vector3Int())
+  nameWithType: Vector3IntExtensions.Average(Vector3Int[])
+  nameWithType.vb: Vector3IntExtensions.Average(Vector3Int())
+- uid: Zigurous.Math.Vector3IntExtensions.Average*
+  name: Average
+  href: api/Zigurous.Math.Vector3IntExtensions.html#Zigurous_Math_Vector3IntExtensions_Average_
+  commentId: Overload:Zigurous.Math.Vector3IntExtensions.Average
+  isSpec: "True"
+  fullName: Zigurous.Math.Vector3IntExtensions.Average
+  nameWithType: Vector3IntExtensions.Average
+- uid: Zigurous.Math.Vector3IntExtensions.Clamp(Vector3Int@,Vector3Int,Vector3Int)
+  name: Clamp(ref Vector3Int, Vector3Int, Vector3Int)
+  href: api/Zigurous.Math.Vector3IntExtensions.html#Zigurous_Math_Vector3IntExtensions_Clamp_Vector3Int__Vector3Int_Vector3Int_
+  commentId: M:Zigurous.Math.Vector3IntExtensions.Clamp(Vector3Int@,Vector3Int,Vector3Int)
+  name.vb: Clamp(ByRef Vector3Int, Vector3Int, Vector3Int)
+  fullName: Zigurous.Math.Vector3IntExtensions.Clamp(ref Vector3Int, Vector3Int, Vector3Int)
+  fullName.vb: Zigurous.Math.Vector3IntExtensions.Clamp(ByRef Vector3Int, Vector3Int, Vector3Int)
+  nameWithType: Vector3IntExtensions.Clamp(ref Vector3Int, Vector3Int, Vector3Int)
+  nameWithType.vb: Vector3IntExtensions.Clamp(ByRef Vector3Int, Vector3Int, Vector3Int)
+- uid: Zigurous.Math.Vector3IntExtensions.Clamp*
+  name: Clamp
+  href: api/Zigurous.Math.Vector3IntExtensions.html#Zigurous_Math_Vector3IntExtensions_Clamp_
+  commentId: Overload:Zigurous.Math.Vector3IntExtensions.Clamp
+  isSpec: "True"
+  fullName: Zigurous.Math.Vector3IntExtensions.Clamp
+  nameWithType: Vector3IntExtensions.Clamp
+- uid: Zigurous.Math.Vector3IntExtensions.Clamped(Vector3Int,Vector3Int,Vector3Int)
+  name: Clamped(Vector3Int, Vector3Int, Vector3Int)
+  href: api/Zigurous.Math.Vector3IntExtensions.html#Zigurous_Math_Vector3IntExtensions_Clamped_Vector3Int_Vector3Int_Vector3Int_
+  commentId: M:Zigurous.Math.Vector3IntExtensions.Clamped(Vector3Int,Vector3Int,Vector3Int)
+  fullName: Zigurous.Math.Vector3IntExtensions.Clamped(Vector3Int, Vector3Int, Vector3Int)
+  nameWithType: Vector3IntExtensions.Clamped(Vector3Int, Vector3Int, Vector3Int)
+- uid: Zigurous.Math.Vector3IntExtensions.Clamped*
+  name: Clamped
+  href: api/Zigurous.Math.Vector3IntExtensions.html#Zigurous_Math_Vector3IntExtensions_Clamped_
+  commentId: Overload:Zigurous.Math.Vector3IntExtensions.Clamped
+  isSpec: "True"
+  fullName: Zigurous.Math.Vector3IntExtensions.Clamped
+  nameWithType: Vector3IntExtensions.Clamped
+- uid: Zigurous.Math.Vector3IntExtensions.SetUniform(Vector3Int@,System.Int32)
+  name: SetUniform(ref Vector3Int, Int32)
+  href: api/Zigurous.Math.Vector3IntExtensions.html#Zigurous_Math_Vector3IntExtensions_SetUniform_Vector3Int__System_Int32_
+  commentId: M:Zigurous.Math.Vector3IntExtensions.SetUniform(Vector3Int@,System.Int32)
+  name.vb: SetUniform(ByRef Vector3Int, Int32)
+  fullName: Zigurous.Math.Vector3IntExtensions.SetUniform(ref Vector3Int, System.Int32)
+  fullName.vb: Zigurous.Math.Vector3IntExtensions.SetUniform(ByRef Vector3Int, System.Int32)
+  nameWithType: Vector3IntExtensions.SetUniform(ref Vector3Int, Int32)
+  nameWithType.vb: Vector3IntExtensions.SetUniform(ByRef Vector3Int, Int32)
+- uid: Zigurous.Math.Vector3IntExtensions.SetUniform*
+  name: SetUniform
+  href: api/Zigurous.Math.Vector3IntExtensions.html#Zigurous_Math_Vector3IntExtensions_SetUniform_
+  commentId: Overload:Zigurous.Math.Vector3IntExtensions.SetUniform
+  isSpec: "True"
+  fullName: Zigurous.Math.Vector3IntExtensions.SetUniform
+  nameWithType: Vector3IntExtensions.SetUniform
+- uid: Zigurous.Math.Vector3IntExtensions.SetUniformly(Vector3Int,System.Int32)
+  name: SetUniformly(Vector3Int, Int32)
+  href: api/Zigurous.Math.Vector3IntExtensions.html#Zigurous_Math_Vector3IntExtensions_SetUniformly_Vector3Int_System_Int32_
+  commentId: M:Zigurous.Math.Vector3IntExtensions.SetUniformly(Vector3Int,System.Int32)
+  fullName: Zigurous.Math.Vector3IntExtensions.SetUniformly(Vector3Int, System.Int32)
+  nameWithType: Vector3IntExtensions.SetUniformly(Vector3Int, Int32)
+- uid: Zigurous.Math.Vector3IntExtensions.SetUniformly*
+  name: SetUniformly
+  href: api/Zigurous.Math.Vector3IntExtensions.html#Zigurous_Math_Vector3IntExtensions_SetUniformly_
+  commentId: Overload:Zigurous.Math.Vector3IntExtensions.SetUniformly
+  isSpec: "True"
+  fullName: Zigurous.Math.Vector3IntExtensions.SetUniformly
+  nameWithType: Vector3IntExtensions.SetUniformly
+- uid: Zigurous.Math.Vector3IntExtensions.Wrap(Vector3Int@,Vector3Int,Vector3Int)
+  name: Wrap(ref Vector3Int, Vector3Int, Vector3Int)
+  href: api/Zigurous.Math.Vector3IntExtensions.html#Zigurous_Math_Vector3IntExtensions_Wrap_Vector3Int__Vector3Int_Vector3Int_
+  commentId: M:Zigurous.Math.Vector3IntExtensions.Wrap(Vector3Int@,Vector3Int,Vector3Int)
+  name.vb: Wrap(ByRef Vector3Int, Vector3Int, Vector3Int)
+  fullName: Zigurous.Math.Vector3IntExtensions.Wrap(ref Vector3Int, Vector3Int, Vector3Int)
+  fullName.vb: Zigurous.Math.Vector3IntExtensions.Wrap(ByRef Vector3Int, Vector3Int, Vector3Int)
+  nameWithType: Vector3IntExtensions.Wrap(ref Vector3Int, Vector3Int, Vector3Int)
+  nameWithType.vb: Vector3IntExtensions.Wrap(ByRef Vector3Int, Vector3Int, Vector3Int)
+- uid: Zigurous.Math.Vector3IntExtensions.Wrap*
+  name: Wrap
+  href: api/Zigurous.Math.Vector3IntExtensions.html#Zigurous_Math_Vector3IntExtensions_Wrap_
+  commentId: Overload:Zigurous.Math.Vector3IntExtensions.Wrap
+  isSpec: "True"
+  fullName: Zigurous.Math.Vector3IntExtensions.Wrap
+  nameWithType: Vector3IntExtensions.Wrap
+- uid: Zigurous.Math.Vector3IntExtensions.Wrapped(Vector3Int,Vector3Int,Vector3Int)
+  name: Wrapped(Vector3Int, Vector3Int, Vector3Int)
+  href: api/Zigurous.Math.Vector3IntExtensions.html#Zigurous_Math_Vector3IntExtensions_Wrapped_Vector3Int_Vector3Int_Vector3Int_
+  commentId: M:Zigurous.Math.Vector3IntExtensions.Wrapped(Vector3Int,Vector3Int,Vector3Int)
+  fullName: Zigurous.Math.Vector3IntExtensions.Wrapped(Vector3Int, Vector3Int, Vector3Int)
+  nameWithType: Vector3IntExtensions.Wrapped(Vector3Int, Vector3Int, Vector3Int)
+- uid: Zigurous.Math.Vector3IntExtensions.Wrapped*
+  name: Wrapped
+  href: api/Zigurous.Math.Vector3IntExtensions.html#Zigurous_Math_Vector3IntExtensions_Wrapped_
+  commentId: Overload:Zigurous.Math.Vector3IntExtensions.Wrapped
+  isSpec: "True"
+  fullName: Zigurous.Math.Vector3IntExtensions.Wrapped
+  nameWithType: Vector3IntExtensions.Wrapped
 - uid: Zigurous.Math.Vector4Extensions
   name: Vector4Extensions
   href: api/Zigurous.Math.Vector4Extensions.html
@@ -3031,12 +3780,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.Vector4Extensions.Floored
   nameWithType: Vector4Extensions.Floored
-- uid: Zigurous.Math.Vector4Extensions.IsEqualTo(Vector4,Vector4)
-  name: IsEqualTo(Vector4, Vector4)
-  href: api/Zigurous.Math.Vector4Extensions.html#Zigurous_Math_Vector4Extensions_IsEqualTo_Vector4_Vector4_
-  commentId: M:Zigurous.Math.Vector4Extensions.IsEqualTo(Vector4,Vector4)
-  fullName: Zigurous.Math.Vector4Extensions.IsEqualTo(Vector4, Vector4)
-  nameWithType: Vector4Extensions.IsEqualTo(Vector4, Vector4)
 - uid: Zigurous.Math.Vector4Extensions.IsEqualTo(Vector4,Vector4,System.Single)
   name: IsEqualTo(Vector4, Vector4, Single)
   href: api/Zigurous.Math.Vector4Extensions.html#Zigurous_Math_Vector4Extensions_IsEqualTo_Vector4_Vector4_System_Single_
@@ -3050,50 +3793,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.Vector4Extensions.IsEqualTo
   nameWithType: Vector4Extensions.IsEqualTo
-- uid: Zigurous.Math.Vector4Extensions.IsNotEqualTo(Vector4,Vector4)
-  name: IsNotEqualTo(Vector4, Vector4)
-  href: api/Zigurous.Math.Vector4Extensions.html#Zigurous_Math_Vector4Extensions_IsNotEqualTo_Vector4_Vector4_
-  commentId: M:Zigurous.Math.Vector4Extensions.IsNotEqualTo(Vector4,Vector4)
-  fullName: Zigurous.Math.Vector4Extensions.IsNotEqualTo(Vector4, Vector4)
-  nameWithType: Vector4Extensions.IsNotEqualTo(Vector4, Vector4)
-- uid: Zigurous.Math.Vector4Extensions.IsNotEqualTo(Vector4,Vector4,System.Single)
-  name: IsNotEqualTo(Vector4, Vector4, Single)
-  href: api/Zigurous.Math.Vector4Extensions.html#Zigurous_Math_Vector4Extensions_IsNotEqualTo_Vector4_Vector4_System_Single_
-  commentId: M:Zigurous.Math.Vector4Extensions.IsNotEqualTo(Vector4,Vector4,System.Single)
-  fullName: Zigurous.Math.Vector4Extensions.IsNotEqualTo(Vector4, Vector4, System.Single)
-  nameWithType: Vector4Extensions.IsNotEqualTo(Vector4, Vector4, Single)
-- uid: Zigurous.Math.Vector4Extensions.IsNotEqualTo*
-  name: IsNotEqualTo
-  href: api/Zigurous.Math.Vector4Extensions.html#Zigurous_Math_Vector4Extensions_IsNotEqualTo_
-  commentId: Overload:Zigurous.Math.Vector4Extensions.IsNotEqualTo
-  isSpec: "True"
-  fullName: Zigurous.Math.Vector4Extensions.IsNotEqualTo
-  nameWithType: Vector4Extensions.IsNotEqualTo
-- uid: Zigurous.Math.Vector4Extensions.IsNotZero(Vector4)
-  name: IsNotZero(Vector4)
-  href: api/Zigurous.Math.Vector4Extensions.html#Zigurous_Math_Vector4Extensions_IsNotZero_Vector4_
-  commentId: M:Zigurous.Math.Vector4Extensions.IsNotZero(Vector4)
-  fullName: Zigurous.Math.Vector4Extensions.IsNotZero(Vector4)
-  nameWithType: Vector4Extensions.IsNotZero(Vector4)
-- uid: Zigurous.Math.Vector4Extensions.IsNotZero(Vector4,System.Single)
-  name: IsNotZero(Vector4, Single)
-  href: api/Zigurous.Math.Vector4Extensions.html#Zigurous_Math_Vector4Extensions_IsNotZero_Vector4_System_Single_
-  commentId: M:Zigurous.Math.Vector4Extensions.IsNotZero(Vector4,System.Single)
-  fullName: Zigurous.Math.Vector4Extensions.IsNotZero(Vector4, System.Single)
-  nameWithType: Vector4Extensions.IsNotZero(Vector4, Single)
-- uid: Zigurous.Math.Vector4Extensions.IsNotZero*
-  name: IsNotZero
-  href: api/Zigurous.Math.Vector4Extensions.html#Zigurous_Math_Vector4Extensions_IsNotZero_
-  commentId: Overload:Zigurous.Math.Vector4Extensions.IsNotZero
-  isSpec: "True"
-  fullName: Zigurous.Math.Vector4Extensions.IsNotZero
-  nameWithType: Vector4Extensions.IsNotZero
-- uid: Zigurous.Math.Vector4Extensions.IsZero(Vector4)
-  name: IsZero(Vector4)
-  href: api/Zigurous.Math.Vector4Extensions.html#Zigurous_Math_Vector4Extensions_IsZero_Vector4_
-  commentId: M:Zigurous.Math.Vector4Extensions.IsZero(Vector4)
-  fullName: Zigurous.Math.Vector4Extensions.IsZero(Vector4)
-  nameWithType: Vector4Extensions.IsZero(Vector4)
 - uid: Zigurous.Math.Vector4Extensions.IsZero(Vector4,System.Single)
   name: IsZero(Vector4, Single)
   href: api/Zigurous.Math.Vector4Extensions.html#Zigurous_Math_Vector4Extensions_IsZero_Vector4_System_Single_
@@ -3136,35 +3835,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.Math.Vector4Extensions.Rounded
   nameWithType: Vector4Extensions.Rounded
-- uid: Zigurous.Math.Vector4Extensions.ScaleBy(Vector4@,Vector4)
-  name: ScaleBy(ref Vector4, Vector4)
-  href: api/Zigurous.Math.Vector4Extensions.html#Zigurous_Math_Vector4Extensions_ScaleBy_Vector4__Vector4_
-  commentId: M:Zigurous.Math.Vector4Extensions.ScaleBy(Vector4@,Vector4)
-  name.vb: ScaleBy(ByRef Vector4, Vector4)
-  fullName: Zigurous.Math.Vector4Extensions.ScaleBy(ref Vector4, Vector4)
-  fullName.vb: Zigurous.Math.Vector4Extensions.ScaleBy(ByRef Vector4, Vector4)
-  nameWithType: Vector4Extensions.ScaleBy(ref Vector4, Vector4)
-  nameWithType.vb: Vector4Extensions.ScaleBy(ByRef Vector4, Vector4)
-- uid: Zigurous.Math.Vector4Extensions.ScaleBy*
-  name: ScaleBy
-  href: api/Zigurous.Math.Vector4Extensions.html#Zigurous_Math_Vector4Extensions_ScaleBy_
-  commentId: Overload:Zigurous.Math.Vector4Extensions.ScaleBy
-  isSpec: "True"
-  fullName: Zigurous.Math.Vector4Extensions.ScaleBy
-  nameWithType: Vector4Extensions.ScaleBy
-- uid: Zigurous.Math.Vector4Extensions.ScaledBy(Vector4,Vector4)
-  name: ScaledBy(Vector4, Vector4)
-  href: api/Zigurous.Math.Vector4Extensions.html#Zigurous_Math_Vector4Extensions_ScaledBy_Vector4_Vector4_
-  commentId: M:Zigurous.Math.Vector4Extensions.ScaledBy(Vector4,Vector4)
-  fullName: Zigurous.Math.Vector4Extensions.ScaledBy(Vector4, Vector4)
-  nameWithType: Vector4Extensions.ScaledBy(Vector4, Vector4)
-- uid: Zigurous.Math.Vector4Extensions.ScaledBy*
-  name: ScaledBy
-  href: api/Zigurous.Math.Vector4Extensions.html#Zigurous_Math_Vector4Extensions_ScaledBy_
-  commentId: Overload:Zigurous.Math.Vector4Extensions.ScaledBy
-  isSpec: "True"
-  fullName: Zigurous.Math.Vector4Extensions.ScaledBy
-  nameWithType: Vector4Extensions.ScaledBy
 - uid: Zigurous.Math.Vector4Extensions.SetUniform(Vector4@,System.Single)
   name: SetUniform(ref Vector4, Single)
   href: api/Zigurous.Math.Vector4Extensions.html#Zigurous_Math_Vector4Extensions_SetUniform_Vector4__System_Single_

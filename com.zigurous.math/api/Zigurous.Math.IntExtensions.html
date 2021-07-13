@@ -80,10 +80,10 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.Math.IntExtensions">
-  
   <h1 id="Zigurous_Math_IntExtensions" data-uid="Zigurous.Math.IntExtensions" class="text-break">Class IntExtensions
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Extension methods for ints.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -91,7 +91,6 @@
     <div class="level1"><span class="xref">IntExtensions</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Math.html">Zigurous.Math</a></h6>
-  <h5 id="Zigurous_Math_IntExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class IntExtensions</code></pre>
   </div>
@@ -99,427 +98,355 @@
   </h3>
   <a id="Zigurous_Math_IntExtensions_GetBits_" data-uid="Zigurous.Math.IntExtensions.GetBits*"></a>
   <h4 id="Zigurous_Math_IntExtensions_GetBits_System_Int32_System_Int32_System_Int32_" data-uid="Zigurous.Math.IntExtensions.GetBits(System.Int32,System.Int32,System.Int32)">GetBits(Int32, Int32, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns a subset of bits from the number.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int GetBits(this int value, int offset, int n)</code></pre>
+    <pre><code class="lang-csharp hljs">public static int GetBits(this int n, int amount, int offset)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">offset</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">n</span></td>
-        <td></td>
+        <td><p>The number to get bits from.</p>
+</td>
       </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
+        <td><span class="parametername">amount</span></td>
+        <td><p>The amount of bits to return.</p>
+</td>
       </tr>
-    </thead>
-    <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The amount of bits to discard.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_IntExtensions_HasAnyFlag_" data-uid="Zigurous.Math.IntExtensions.HasAnyFlag*"></a>
   <h4 id="Zigurous_Math_IntExtensions_HasAnyFlag_System_Int32_System_Int32_" data-uid="Zigurous.Math.IntExtensions.HasAnyFlag(System.Int32,System.Int32)">HasAnyFlag(Int32, Int32)</h4>
-  <div class="markdown level1 summary"><p><code>(mask &amp; flags) != 0</code></p>
+  <div class="markdown level1 summary"><p>Checks if any of the <code data-dev-comment-type="paramref" class="paramref">flags</code> are set in the bitmask.
+<code>(mask &amp; flags) != 0</code></p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool HasAnyFlag(this int mask, int flags)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">mask</span></td>
-        <td></td>
+        <td><p>The mask to check.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">flags</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>The flags to check for.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_IntExtensions_HasFlag_" data-uid="Zigurous.Math.IntExtensions.HasFlag*"></a>
   <h4 id="Zigurous_Math_IntExtensions_HasFlag_System_Int32_System_Int32_" data-uid="Zigurous.Math.IntExtensions.HasFlag(System.Int32,System.Int32)">HasFlag(Int32, Int32)</h4>
-  <div class="markdown level1 summary"><p><code>(mask &amp; flag) == flag</code></p>
+  <div class="markdown level1 summary"><p>Checks if the <code data-dev-comment-type="paramref" class="paramref">flag</code> is set in the bitmask.
+<code>(mask &amp; flag) == flag</code></p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool HasFlag(this int mask, int flag)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">mask</span></td>
-        <td></td>
+        <td><p>The mask to check.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">flag</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>The flag to check for.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_IntExtensions_IsEven_" data-uid="Zigurous.Math.IntExtensions.IsEven*"></a>
   <h4 id="Zigurous_Math_IntExtensions_IsEven_System_Int32_" data-uid="Zigurous.Math.IntExtensions.IsEven(System.Int32)">IsEven(Int32)</h4>
-  <div class="markdown level1 summary"><p><code>n % 2 == 0</code></p>
+  <div class="markdown level1 summary"><p>Checks if the number is even.
+<code>n % 2 == 0</code></p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsEven(this int n)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">n</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>The number to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_IntExtensions_IsNegative_" data-uid="Zigurous.Math.IntExtensions.IsNegative*"></a>
   <h4 id="Zigurous_Math_IntExtensions_IsNegative_System_Int32_" data-uid="Zigurous.Math.IntExtensions.IsNegative(System.Int32)">IsNegative(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the number is negative.
+<code>n &lt; 0</code></p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsNegative(this int n)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">n</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>The number to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_IntExtensions_IsOdd_" data-uid="Zigurous.Math.IntExtensions.IsOdd*"></a>
   <h4 id="Zigurous_Math_IntExtensions_IsOdd_System_Int32_" data-uid="Zigurous.Math.IntExtensions.IsOdd(System.Int32)">IsOdd(Int32)</h4>
-  <div class="markdown level1 summary"><p><code>n % 2 != 0</code></p>
+  <div class="markdown level1 summary"><p>Checks if the number is odd.
+<code>n % 2 != 0</code></p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsOdd(this int n)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">n</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>The number to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_IntExtensions_IsPositive_" data-uid="Zigurous.Math.IntExtensions.IsPositive*"></a>
   <h4 id="Zigurous_Math_IntExtensions_IsPositive_System_Int32_" data-uid="Zigurous.Math.IntExtensions.IsPositive(System.Int32)">IsPositive(Int32)</h4>
-  <div class="markdown level1 summary"><p><code>n &gt; 0</code></p>
+  <div class="markdown level1 summary"><p>Checks if the number is positive.
+<code>n &gt; 0</code></p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsPositive(this int n)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">n</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>The number to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_IntExtensions_IsZero_" data-uid="Zigurous.Math.IntExtensions.IsZero*"></a>
   <h4 id="Zigurous_Math_IntExtensions_IsZero_System_Int32_" data-uid="Zigurous.Math.IntExtensions.IsZero(System.Int32)">IsZero(Int32)</h4>
-  <div class="markdown level1 summary"><p><code>n == 0</code></p>
+  <div class="markdown level1 summary"><p>Checks if the number is zero.
+<code>n == 0</code></p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsZero(this int n)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">n</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>The number to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_IntExtensions_NumDigits_" data-uid="Zigurous.Math.IntExtensions.NumDigits*"></a>
   <h4 id="Zigurous_Math_IntExtensions_NumDigits_System_Int32_" data-uid="Zigurous.Math.IntExtensions.NumDigits(System.Int32)">NumDigits(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the number of digits in the number.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int NumDigits(this int n)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">n</span></td>
-        <td></td>
+        <td><p>The number to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_Math_IntExtensions_ToBinary_" data-uid="Zigurous.Math.IntExtensions.ToBinary*"></a>
-  <h4 id="Zigurous_Math_IntExtensions_ToBinary_System_Int32_" data-uid="Zigurous.Math.IntExtensions.ToBinary(System.Int32)">ToBinary(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Zigurous_Math_IntExtensions_ToAbbreviatedString_" data-uid="Zigurous.Math.IntExtensions.ToAbbreviatedString*"></a>
+  <h4 id="Zigurous_Math_IntExtensions_ToAbbreviatedString_System_Int32_" data-uid="Zigurous.Math.IntExtensions.ToAbbreviatedString(System.Int32)">ToAbbreviatedString(Int32)</h4>
+  <div class="markdown level1 summary"><p>Converts the number to an abbreviated string, e.g. &quot;1k&quot; for 1000.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ToBinary(this int n)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string ToAbbreviatedString(this int n)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">n</span></td>
-        <td></td>
+        <td><p>The number to abbreviate.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>A new string of the abbreviated number, or the number as a string if it cannot be abbreviated.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_Math_IntExtensions_ToAbbreviatedString_" data-uid="Zigurous.Math.IntExtensions.ToAbbreviatedString*"></a>
+  <h4 id="Zigurous_Math_IntExtensions_ToAbbreviatedString_System_Int32_Zigurous_Math_NumberAbbreviation___" data-uid="Zigurous.Math.IntExtensions.ToAbbreviatedString(System.Int32,Zigurous.Math.NumberAbbreviation[])">ToAbbreviatedString(Int32, NumberAbbreviation[])</h4>
+  <div class="markdown level1 summary"><p>Converts the number to an abbreviated string using the possible
+provided <code data-dev-comment-type="paramref" class="paramref">abbreviations</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToAbbreviatedString(this int n, NumberAbbreviation[] abbreviations)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">n</span></td>
+        <td><p>The number to abbreviate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">abbreviations</span></td>
+        <td><p>The abbreviations to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Returns</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A new string of the abbreviated number, or the number as a string if it cannot be abbreviated.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_Math_IntExtensions_ToBinaryString_" data-uid="Zigurous.Math.IntExtensions.ToBinaryString*"></a>
+  <h4 id="Zigurous_Math_IntExtensions_ToBinaryString_System_Int32_" data-uid="Zigurous.Math.IntExtensions.ToBinaryString(System.Int32)">ToBinaryString(Int32)</h4>
+  <div class="markdown level1 summary"><p>Converts the number to a string of binary digits.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToBinaryString(this int n)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">n</span></td>
+        <td><p>The number to convert.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Returns</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The binary representation of the number.</p>
+</td>
       </tr>
     </tbody>
   </table>

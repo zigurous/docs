@@ -80,10 +80,10 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.Math.ArrayExtensions">
-  
   <h1 id="Zigurous_Math_ArrayExtensions" data-uid="Zigurous.Math.ArrayExtensions" class="text-break">Class ArrayExtensions
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Extension methods for arrays.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -91,129 +91,164 @@
     <div class="level1"><span class="xref">ArrayExtensions</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Math.html">Zigurous.Math</a></h6>
-  <h5 id="Zigurous_Math_ArrayExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class ArrayExtensions</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  <a id="Zigurous_Math_ArrayExtensions_Sum_" data-uid="Zigurous.Math.ArrayExtensions.Sum*"></a>
-  <h4 id="Zigurous_Math_ArrayExtensions_Sum_System_Double___" data-uid="Zigurous.Math.ArrayExtensions.Sum(System.Double[])">Sum(Double[])</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Zigurous_Math_ArrayExtensions_Shuffle_" data-uid="Zigurous.Math.ArrayExtensions.Shuffle*"></a>
+  <h4 id="Zigurous_Math_ArrayExtensions_Shuffle__1___0___" data-uid="Zigurous.Math.ArrayExtensions.Shuffle``1(``0[])">Shuffle&lt;T&gt;(T[])</h4>
+  <div class="markdown level1 summary"><p>Shuffles the array in place.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+  <h5 id="Zigurous_Math_ArrayExtensions_Shuffle__1___0____remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level1 remarks"><p>The shuffle is done using the Fisher-Yates algorithm.</p>
+</div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static double Sum(this double[] array)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Shuffle&lt;T&gt;(this T[] array)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span>[]</td>
         <td><span class="parametername">array</span></td>
-        <td></td>
+        <td><p>The array to shuffle.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td></td>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the array.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_Math_ArrayExtensions_Shuffle_" data-uid="Zigurous.Math.ArrayExtensions.Shuffle*"></a>
+  <h4 id="Zigurous_Math_ArrayExtensions_Shuffle__1___0___Random_" data-uid="Zigurous.Math.ArrayExtensions.Shuffle``1(``0[],Random)">Shuffle&lt;T&gt;(T[], Random)</h4>
+  <div class="markdown level1 summary"><p>Shuffles the array in place using the given random number generator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 id="Zigurous_Math_ArrayExtensions_Shuffle__1___0___Random__remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level1 remarks"><p>The shuffle is done using the Fisher-Yates algorithm.</p>
+</div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Shuffle&lt;T&gt;(this T[] array, Random rng)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">array</span></td>
+        <td><p>The array to shuffle.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">rng</span></td>
+        <td><p>The random number generator to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the array.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_Math_ArrayExtensions_Sum_" data-uid="Zigurous.Math.ArrayExtensions.Sum*"></a>
+  <h4 id="Zigurous_Math_ArrayExtensions_Sum_System_Double___" data-uid="Zigurous.Math.ArrayExtensions.Sum(System.Double[])">Sum(Double[])</h4>
+  <div class="markdown level1 summary"><p>Returns the sum of all elements in the array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double Sum(this double[] array)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">array</span></td>
+        <td><p>The array to sum.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_ArrayExtensions_Sum_" data-uid="Zigurous.Math.ArrayExtensions.Sum*"></a>
   <h4 id="Zigurous_Math_ArrayExtensions_Sum_System_Int32___" data-uid="Zigurous.Math.ArrayExtensions.Sum(System.Int32[])">Sum(Int32[])</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the sum of all elements in the array.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int Sum(this int[] array)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span>[]</td>
         <td><span class="parametername">array</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
+        <td><p>The array to sum.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_ArrayExtensions_Sum_" data-uid="Zigurous.Math.ArrayExtensions.Sum*"></a>
   <h4 id="Zigurous_Math_ArrayExtensions_Sum_System_Single___" data-uid="Zigurous.Math.ArrayExtensions.Sum(System.Single[])">Sum(Single[])</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the sum of all elements in the array.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static float Sum(this float[] array)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span>[]</td>
         <td><span class="parametername">array</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td></td>
+        <td><p>The array to sum.</p>
+</td>
       </tr>
     </tbody>
   </table>

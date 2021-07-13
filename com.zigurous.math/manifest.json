@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "changelog/CHANGELOG.html",
-          "hash": "A6HxQ1OhuRWhvit1L3Tj9+ETf/r3WgJYbpQ/eL9NtsI="
+          "hash": "uu0jvQWFB5y/EU6lmJEj1qcwoiFp3m9NXm1GksvUyFM="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Math.ArrayExtensions.html",
-          "hash": "Nj425QLN3/GYXgDDORG94AhmrAdvJurxA4PBcXgniC8="
+          "hash": "9en+uEH+jxjFN4Wmb3GwVOLc8G9mDJPAxEMWBsh5Zvs="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Math.BoundsExtensions.html",
-          "hash": "SZtV7O0vASzRmKMtGp6mr1LtIoQE5LvUCSIz9vwQlRU="
+          "hash": "2oaO6WhXw4YTelIC0H5F/U/gNZayHRnmmfGQ0QaeZx8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.Chance.Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.Chance.Card.html",
+          "hash": "DioKnt84yeOdoF8R3mcA4h7s+FmxGi59CnLJ3rFUug0="
         }
       },
       "is_incremental": false,
@@ -54,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Math.Chance.Coin.html",
-          "hash": "xf9vjF+zPgvjE8xo27H9tDzjX0uOi3NBlpsREK/EJlU="
+          "hash": "S2veckVlZiTvw3yykuTJ1G4HTM2ETOjXI1PhKviZ42s="
         }
       },
       "is_incremental": false,
@@ -62,35 +74,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Math.Chance.GamblingColor.yml",
+      "source_relative_path": "api/Zigurous.Math.Chance.Suit.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.Math.Chance.GamblingColor.html",
-          "hash": "pcWKb9x00JBIExAs5CVSwtzJ4RvbiFzwqJW81RQMy/s="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Math.Chance.PlayingCard.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Math.Chance.PlayingCard.html",
-          "hash": "gcDz3s7ROkKjzSL2AmQGFlrp1N5teUsa4BdeXGn2dmA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Math.Chance.PlayingCardSuit.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Math.Chance.PlayingCardSuit.html",
-          "hash": "ra8JmNOcv36VlsXwRYdgtRDngnwx1gMY7vu/kUc0uno="
+          "relative_path": "api/Zigurous.Math.Chance.Suit.html",
+          "hash": "/Cu2Qp7emxs3A4s30cAVLhXyRnyWwYfigtnyUldNnac="
         }
       },
       "is_incremental": false,
@@ -102,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Math.Chance.html",
-          "hash": "2t+nMh97FZ4dhrlaUlcXwkX8aFHrwaZdeqlkW4fmkHE="
+          "hash": "SEe2+Sl+ohL1gOPnryTl+k1F+RtPudZzqRhKgm9RPPg="
         }
       },
       "is_incremental": false,
@@ -114,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Math.ColliderExtensions.html",
-          "hash": "anoRIgryp6H5EPWGJx+qhCYebeC6OWq14XyuGV2Vj/4="
+          "hash": "aPe5Sa0b/6Pawei7JKm5avC31Y+2LqUnRnh2DDw3Gmc="
         }
       },
       "is_incremental": false,
@@ -126,7 +114,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Math.ComparableExtensions.html",
-          "hash": "aCt2Cs3vEgxEZjeEaJBmj5SqEI0Ra7FbFm2IvW9nkbk="
+          "hash": "2Dku/BcXUEgU6XWjxPKP447y2oKaA7NJHKwsztb1FMw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.Dice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.Dice.html",
+          "hash": "saAveKCqZ/QNrKR7b8Us5t+K82Gt52T9ygmYB63uKKc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.DoubleEqualityComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.DoubleEqualityComparer.html",
+          "hash": "VpYWV6bCJT3zxCfkFXQtxJYxWxeP5k093494OHcmSoI="
         }
       },
       "is_incremental": false,
@@ -138,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Math.DoubleExtensions.html",
-          "hash": "Edla7n9q8Sr/1OaB0rtqpqiutoxReqXqOSfUqDKZ8oo="
+          "hash": "mUFpj5tZrzWadTxPsFDZL40Vu+NX2aARHkjaLoECX4Y="
         }
       },
       "is_incremental": false,
@@ -150,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Math.FloatEqualityComparer.html",
-          "hash": "qT8aoHPsic/5HBKR9Un5CZ1fITanNzQhQ70DbS0rbTA="
+          "hash": "GkgQr9iEb9JuIqJq7y/cQ3LmPoYVcyfXF524Gi1xJUw="
         }
       },
       "is_incremental": false,
@@ -162,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Math.FloatExtensions.html",
-          "hash": "SLSsKiPUte2n/rm/pUCzjM2dwKbz2VRQMH3Fb7m+obc="
+          "hash": "D/XJtxI614H4qPcjYZXpZUhR22GTLaP7l4CXgEZegQ0="
         }
       },
       "is_incremental": false,
@@ -174,7 +186,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Math.IntExtensions.html",
-          "hash": "V/KVOHxqmElwt/+/mZ4QUwVuTqCURluXZVJI8FZp8pQ="
+          "hash": "Yz+JA5YWruG6xkeAvi+1xtNtF1D/tmLdQAS4WwTzVHg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.ListExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.ListExtensions.html",
+          "hash": "920gVrD6kUzLoOr8GIlvn9L/BszWeDmUazl/uFGKSfU="
         }
       },
       "is_incremental": false,
@@ -186,7 +210,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Math.LongExtensions.html",
-          "hash": "tAeaRE9xP78bpZoWErFk6BQWXo9UKoKRifg0sP31K+s="
+          "hash": "mbWq1wznFYhfzBk6LOI7Wpy1L6ho9CsyIRA4go/GhLA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.NumberAbbreviation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.NumberAbbreviation.html",
+          "hash": "I989zwRaL/ocMVR4IlGHs4STu4rh4+vS8LEM/L8VskM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.NumberAbbreviationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.NumberAbbreviationExtensions.html",
+          "hash": "e9rMnEfqaY7XRzDOyton7UD4fIGHbwrxBqdaKeUo3wU="
         }
       },
       "is_incremental": false,
@@ -198,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Math.Processors.html",
-          "hash": "McyrtEJHMIEAC3EEPt9RAxRnKomO0kuibcYLeRo4asU="
+          "hash": "LP1648+QHwnoOltBU3TpsG9Gu7byvyUUJOoNnRfXjgQ="
         }
       },
       "is_incremental": false,
@@ -210,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Math.QuaternionExtensions.html",
-          "hash": "QNhAbpjYo2aosbVJ4etBBQJ3CI2pYb99WijDhVrMud8="
+          "hash": "lETRXVoR/aMwgnFzaEgpITrr1jZEG5ckTnU79SQ7jcM="
         }
       },
       "is_incremental": false,
@@ -222,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Math.ShortExtensions.html",
-          "hash": "HXsXoobYyGmpKtYnPZwBQU2UZPRgr9404TGGq4GtiV0="
+          "hash": "kWLt5eGOKbC5q1WoAuzlZGTGPBu4PJuhNORPUS7pgDI="
         }
       },
       "is_incremental": false,
@@ -234,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Math.UIntExtensions.html",
-          "hash": "MdP8HK0x+UVc8Ryaub5JvwhGMdn2kXEQhZ+q8Jg+81M="
+          "hash": "7gtwSma4zbJFyIardsFMukd9ui5nMoGoTTTMlX/JVB0="
         }
       },
       "is_incremental": false,
@@ -246,7 +294,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Math.Vector2Extensions.html",
-          "hash": "h1MbMzm0zZ3QIRZS1Zr46gd0I8oBcr3cVa+9JGsJA1Y="
+          "hash": "rNdaEHQcqg2NsVKw0nXn0S2yhcOz9P1NtDA/thonS20="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.Vector2IntExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.Vector2IntExtensions.html",
+          "hash": "k/XBwi+T15d6W4g3WovDaOeTpUDlCfEyEN1+liDreTQ="
         }
       },
       "is_incremental": false,
@@ -258,7 +318,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Math.Vector3Extensions.html",
-          "hash": "L6TtldwUKV2IcICj+UGqzYmqXhabX1I8QQiJ8to4W48="
+          "hash": "prUiQz51NTj/87mZ2PRjlvvSZqfNKAZRVyR5U1xrkAg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Math.Vector3IntExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Math.Vector3IntExtensions.html",
+          "hash": "VwaMg6coXP+rA7OAbam9FJYAaNjGyH/4opAL43iV/j0="
         }
       },
       "is_incremental": false,
@@ -270,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Math.Vector4Extensions.html",
-          "hash": "y9sTok0+mv0MnucoIn2FHpQI0R/m45EqERNPUuNBTcM="
+          "hash": "JVyfpgs5Wlx7fKi/6LsvZKYxNAnWAFT0VbBYGDg3yWM="
         }
       },
       "is_incremental": false,
@@ -282,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Math.html",
-          "hash": "nULz8SlwemEHecLEOiz2shMWAqgCWkAIfYNogunnMaI="
+          "hash": "QqKkRaTV0Liodj2RDJptSGygNy04gRHvxIACbWgoJPs="
         }
       },
       "is_incremental": false,
@@ -294,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "iW7DGuIPS1HqBl91NmgA9RN3Q3xKxCZqxDCJPnXD8B0="
+          "hash": "LV832DeU0kWqw+C2VPNlwvNwlgXRKH8sxlYxA29XIF0="
         }
       },
       "is_incremental": false,
@@ -371,11 +443,47 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/abbreviations.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/abbreviations.html",
+          "hash": "13z6NqYXNryvl8Sf3p89KqwUamIv7LG1zFZQM5+iqto="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/chance.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/chance.html",
+          "hash": "UuCJNHjOfhoefTK7V2fw1xhTnU0IGW8x0rnYWJ/emlc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/extensions.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/extensions.html",
+          "hash": "aJV0mv0GY1/ULpYT0OToRBlwkA88SD0Jbjty3iiQ8IA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/index.md",
       "output": {
         ".html": {
           "relative_path": "manual/index.html",
-          "hash": "mjj/tR2ANBTa///KB+2OCGB06TXvD95untTA9J7ItqI="
+          "hash": "3yKiPkv329/ufPnTe8eF7LV+Bml+bgfmvzMtYFGpbXA="
         }
       },
       "is_incremental": false,
@@ -394,12 +502,24 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "manual/processors.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/processors.html",
+          "hash": "kW8VT8woLxDTJig5yUbwVNr5tFkhGVgLVD7mnHYuwik="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "manual/toc.yml",
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "AUBmkjcV6Rgc5XQX3SpA8j/bnbBPgpTg+VqyBcLddP4="
+          "hash": "65i86vD+DyF2ZVRgkKLJhTlBBofPXuPrbzWthS55zXE="
         }
       },
       "is_incremental": false,
@@ -432,13 +552,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 4,
+          "total_file_count": 8,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 22,
+          "total_file_count": 28,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

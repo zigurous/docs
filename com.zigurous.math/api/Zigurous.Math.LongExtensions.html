@@ -80,10 +80,10 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.Math.LongExtensions">
-  
   <h1 id="Zigurous_Math_LongExtensions" data-uid="Zigurous.Math.LongExtensions" class="text-break">Class LongExtensions
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Extension methods for longs.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -91,7 +91,6 @@
     <div class="level1"><span class="xref">LongExtensions</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Math.html">Zigurous.Math</a></h6>
-  <h5 id="Zigurous_Math_LongExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class LongExtensions</code></pre>
   </div>
@@ -99,387 +98,250 @@
   </h3>
   <a id="Zigurous_Math_LongExtensions_GetBits_" data-uid="Zigurous.Math.LongExtensions.GetBits*"></a>
   <h4 id="Zigurous_Math_LongExtensions_GetBits_System_Int64_System_Int32_System_Int32_" data-uid="Zigurous.Math.LongExtensions.GetBits(System.Int64,System.Int32,System.Int32)">GetBits(Int64, Int32, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns a subset of bits from the number.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static long GetBits(this long value, int offset, int n)</code></pre>
+    <pre><code class="lang-csharp hljs">public static long GetBits(this long n, int amount, int offset)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">offset</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">n</span></td>
-        <td></td>
+        <td><p>The number to get bits from.</p>
+</td>
       </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
+        <td><span class="parametername">amount</span></td>
+        <td><p>The amount of bits to return.</p>
+</td>
       </tr>
-    </thead>
-    <tbody>
       <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The amount of bits to discard.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_LongExtensions_HasAnyFlag_" data-uid="Zigurous.Math.LongExtensions.HasAnyFlag*"></a>
   <h4 id="Zigurous_Math_LongExtensions_HasAnyFlag_System_Int64_System_Int64_" data-uid="Zigurous.Math.LongExtensions.HasAnyFlag(System.Int64,System.Int64)">HasAnyFlag(Int64, Int64)</h4>
-  <div class="markdown level1 summary"><p><code>(mask &amp; flags) != 0</code></p>
+  <div class="markdown level1 summary"><p>Checks if any of the <code data-dev-comment-type="paramref" class="paramref">flags</code> are set in the bitmask.
+<code>(mask &amp; flags) != 0</code></p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool HasAnyFlag(this long mask, long flags)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">mask</span></td>
-        <td></td>
+        <td><p>The mask to check.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">flags</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>The flags to check for.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_LongExtensions_HasFlag_" data-uid="Zigurous.Math.LongExtensions.HasFlag*"></a>
   <h4 id="Zigurous_Math_LongExtensions_HasFlag_System_Int64_System_Int64_" data-uid="Zigurous.Math.LongExtensions.HasFlag(System.Int64,System.Int64)">HasFlag(Int64, Int64)</h4>
-  <div class="markdown level1 summary"><p><code>(mask &amp; flag) == flag</code></p>
+  <div class="markdown level1 summary"><p>Checks if the <code data-dev-comment-type="paramref" class="paramref">flag</code> is set in the bitmask.
+<code>(mask &amp; flag) == flag</code></p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool HasFlag(this long mask, long flag)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">mask</span></td>
-        <td></td>
+        <td><p>The mask to check.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">flag</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>The flag to check for.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_LongExtensions_IsEven_" data-uid="Zigurous.Math.LongExtensions.IsEven*"></a>
   <h4 id="Zigurous_Math_LongExtensions_IsEven_System_Int64_" data-uid="Zigurous.Math.LongExtensions.IsEven(System.Int64)">IsEven(Int64)</h4>
-  <div class="markdown level1 summary"><p><code>n % 2 == 0</code></p>
+  <div class="markdown level1 summary"><p>Checks if the number is even.
+<code>n % 2 == 0</code></p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsEven(this long n)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">n</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>The number to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_LongExtensions_IsNegative_" data-uid="Zigurous.Math.LongExtensions.IsNegative*"></a>
   <h4 id="Zigurous_Math_LongExtensions_IsNegative_System_Int64_" data-uid="Zigurous.Math.LongExtensions.IsNegative(System.Int64)">IsNegative(Int64)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the number is negative.
+<code>n &lt; 0</code></p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsNegative(this long n)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">n</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>The number to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_LongExtensions_IsOdd_" data-uid="Zigurous.Math.LongExtensions.IsOdd*"></a>
   <h4 id="Zigurous_Math_LongExtensions_IsOdd_System_Int64_" data-uid="Zigurous.Math.LongExtensions.IsOdd(System.Int64)">IsOdd(Int64)</h4>
-  <div class="markdown level1 summary"><p><code>n % 2 != 0</code></p>
+  <div class="markdown level1 summary"><p>Checks if the number is odd.
+<code>n % 2 != 0</code></p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsOdd(this long n)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">n</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>The number to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_LongExtensions_IsPositive_" data-uid="Zigurous.Math.LongExtensions.IsPositive*"></a>
   <h4 id="Zigurous_Math_LongExtensions_IsPositive_System_Int64_" data-uid="Zigurous.Math.LongExtensions.IsPositive(System.Int64)">IsPositive(Int64)</h4>
-  <div class="markdown level1 summary"><p><code>n &gt; 0</code></p>
+  <div class="markdown level1 summary"><p>Checks if the number is positive.
+<code>n &gt; 0</code></p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsPositive(this long n)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">n</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>The number to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_LongExtensions_IsZero_" data-uid="Zigurous.Math.LongExtensions.IsZero*"></a>
   <h4 id="Zigurous_Math_LongExtensions_IsZero_System_Int64_" data-uid="Zigurous.Math.LongExtensions.IsZero(System.Int64)">IsZero(Int64)</h4>
-  <div class="markdown level1 summary"><p><code>n == 0</code></p>
+  <div class="markdown level1 summary"><p>Checks if the number is zero.
+<code>n == 0</code></p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsZero(this long n)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">n</span></td>
-        <td></td>
+        <td><p>The number to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_Math_LongExtensions_ToBinary_" data-uid="Zigurous.Math.LongExtensions.ToBinary*"></a>
-  <h4 id="Zigurous_Math_LongExtensions_ToBinary_System_Int64_" data-uid="Zigurous.Math.LongExtensions.ToBinary(System.Int64)">ToBinary(Int64)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Zigurous_Math_LongExtensions_ToBinaryString_" data-uid="Zigurous.Math.LongExtensions.ToBinaryString*"></a>
+  <h4 id="Zigurous_Math_LongExtensions_ToBinaryString_System_Int64_" data-uid="Zigurous.Math.LongExtensions.ToBinaryString(System.Int64)">ToBinaryString(Int64)</h4>
+  <div class="markdown level1 summary"><p>Converts the number to a string of binary digits.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ToBinary(this long n)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string ToBinaryString(this long n)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">n</span></td>
-        <td></td>
+        <td><p>The number to convert.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>The binary representation of the number.</p>
+</td>
       </tr>
     </tbody>
   </table>

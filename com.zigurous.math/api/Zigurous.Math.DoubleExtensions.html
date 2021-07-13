@@ -80,10 +80,10 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.Math.DoubleExtensions">
-  
   <h1 id="Zigurous_Math_DoubleExtensions" data-uid="Zigurous.Math.DoubleExtensions" class="text-break">Class DoubleExtensions
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Extension methods for doubles.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -91,7 +91,6 @@
     <div class="level1"><span class="xref">DoubleExtensions</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Math.html">Zigurous.Math</a></h6>
-  <h5 id="Zigurous_Math_DoubleExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class DoubleExtensions</code></pre>
   </div>
@@ -99,1081 +98,491 @@
   </h3>
   <a id="Zigurous_Math_DoubleExtensions_IsDividable_" data-uid="Zigurous.Math.DoubleExtensions.IsDividable*"></a>
   <h4 id="Zigurous_Math_DoubleExtensions_IsDividable_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.IsDividable(System.Double)">IsDividable(Double)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the value can be divided (not zero, not infinite, and not
+<code>NaN</code>).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsDividable(this double value)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_Math_DoubleExtensions_IsEqualTo_" data-uid="Zigurous.Math.DoubleExtensions.IsEqualTo*"></a>
-  <h4 id="Zigurous_Math_DoubleExtensions_IsEqualTo_System_Double_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.IsEqualTo(System.Double,System.Double)">IsEqualTo(Double, Double)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsEqualTo(this double lhs, double rhs)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td><span class="parametername">lhs</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td><span class="parametername">rhs</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>The value to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_DoubleExtensions_IsEqualTo_" data-uid="Zigurous.Math.DoubleExtensions.IsEqualTo*"></a>
   <h4 id="Zigurous_Math_DoubleExtensions_IsEqualTo_System_Double_System_Double_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.IsEqualTo(System.Double,System.Double,System.Double)">IsEqualTo(Double, Double, Double)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks for equality with another value given a margin of error
+specified by the <code data-dev-comment-type="paramref" class="paramref">epsilon</code></p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsEqualTo(this double lhs, double rhs, double epsilon)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsEqualTo(this double lhs, double rhs, double epsilon = 4.94065645841247E-324)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">lhs</span></td>
-        <td></td>
+        <td><p>The left-hand side of the equality check.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">rhs</span></td>
-        <td></td>
+        <td><p>The right-hand side of the equality check.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">epsilon</span></td>
-        <td></td>
+        <td><p>The margin of error.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>True if <code data-dev-comment-type="paramref" class="paramref">lhs</code> is considered equal to <code data-dev-comment-type="paramref" class="paramref">rhs</code>.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_DoubleExtensions_IsImaginaryNumber_" data-uid="Zigurous.Math.DoubleExtensions.IsImaginaryNumber*"></a>
   <h4 id="Zigurous_Math_DoubleExtensions_IsImaginaryNumber_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.IsImaginaryNumber(System.Double)">IsImaginaryNumber(Double)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the value is an imaginary number (infinite or <code>NaN</code>).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsImaginaryNumber(this double value)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>The value to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_Math_DoubleExtensions_IsInfinity_" data-uid="Zigurous.Math.DoubleExtensions.IsInfinity*"></a>
-  <h4 id="Zigurous_Math_DoubleExtensions_IsInfinity_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.IsInfinity(System.Double)">IsInfinity(Double)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Zigurous_Math_DoubleExtensions_IsInfinite_" data-uid="Zigurous.Math.DoubleExtensions.IsInfinite*"></a>
+  <h4 id="Zigurous_Math_DoubleExtensions_IsInfinite_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.IsInfinite(System.Double)">IsInfinite(Double)</h4>
+  <div class="markdown level1 summary"><p>Checks if the value is infinite.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsInfinity(this double value)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsInfinite(this double value)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_Math_DoubleExtensions_IsInRange_" data-uid="Zigurous.Math.DoubleExtensions.IsInRange*"></a>
-  <h4 id="Zigurous_Math_DoubleExtensions_IsInRange_System_Double_System_Double_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.IsInRange(System.Double,System.Double,System.Double)">IsInRange(Double, Double, Double)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsInRange(this double value, double min, double max)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td><span class="parametername">min</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td><span class="parametername">max</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>The value to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_DoubleExtensions_IsNaN_" data-uid="Zigurous.Math.DoubleExtensions.IsNaN*"></a>
   <h4 id="Zigurous_Math_DoubleExtensions_IsNaN_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.IsNaN(System.Double)">IsNaN(Double)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the value is <code>NaN</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsNaN(this double value)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>The value to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_DoubleExtensions_IsNegative_" data-uid="Zigurous.Math.DoubleExtensions.IsNegative*"></a>
   <h4 id="Zigurous_Math_DoubleExtensions_IsNegative_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.IsNegative(System.Double)">IsNegative(Double)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the value is negative.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsNegative(this double value)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>The value to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_DoubleExtensions_IsNegativeInfinity_" data-uid="Zigurous.Math.DoubleExtensions.IsNegativeInfinity*"></a>
   <h4 id="Zigurous_Math_DoubleExtensions_IsNegativeInfinity_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.IsNegativeInfinity(System.Double)">IsNegativeInfinity(Double)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the value is equal to negative infinity.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsNegativeInfinity(this double value)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_Math_DoubleExtensions_IsNotEqualTo_" data-uid="Zigurous.Math.DoubleExtensions.IsNotEqualTo*"></a>
-  <h4 id="Zigurous_Math_DoubleExtensions_IsNotEqualTo_System_Double_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.IsNotEqualTo(System.Double,System.Double)">IsNotEqualTo(Double, Double)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsNotEqualTo(this double lhs, double rhs)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td><span class="parametername">lhs</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td><span class="parametername">rhs</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_Math_DoubleExtensions_IsNotEqualTo_" data-uid="Zigurous.Math.DoubleExtensions.IsNotEqualTo*"></a>
-  <h4 id="Zigurous_Math_DoubleExtensions_IsNotEqualTo_System_Double_System_Double_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.IsNotEqualTo(System.Double,System.Double,System.Double)">IsNotEqualTo(Double, Double, Double)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsNotEqualTo(this double lhs, double rhs, double epsilon)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td><span class="parametername">lhs</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td><span class="parametername">rhs</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td><span class="parametername">epsilon</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_Math_DoubleExtensions_IsNotInfinity_" data-uid="Zigurous.Math.DoubleExtensions.IsNotInfinity*"></a>
-  <h4 id="Zigurous_Math_DoubleExtensions_IsNotInfinity_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.IsNotInfinity(System.Double)">IsNotInfinity(Double)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsNotInfinity(this double value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_Math_DoubleExtensions_IsNotNaN_" data-uid="Zigurous.Math.DoubleExtensions.IsNotNaN*"></a>
-  <h4 id="Zigurous_Math_DoubleExtensions_IsNotNaN_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.IsNotNaN(System.Double)">IsNotNaN(Double)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsNotNaN(this double value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_Math_DoubleExtensions_IsNotZero_" data-uid="Zigurous.Math.DoubleExtensions.IsNotZero*"></a>
-  <h4 id="Zigurous_Math_DoubleExtensions_IsNotZero_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.IsNotZero(System.Double)">IsNotZero(Double)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsNotZero(this double value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_Math_DoubleExtensions_IsNotZero_" data-uid="Zigurous.Math.DoubleExtensions.IsNotZero*"></a>
-  <h4 id="Zigurous_Math_DoubleExtensions_IsNotZero_System_Double_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.IsNotZero(System.Double,System.Double)">IsNotZero(Double, Double)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsNotZero(this double value, double epsilon)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td><span class="parametername">epsilon</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>The value to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_DoubleExtensions_IsPositive_" data-uid="Zigurous.Math.DoubleExtensions.IsPositive*"></a>
   <h4 id="Zigurous_Math_DoubleExtensions_IsPositive_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.IsPositive(System.Double)">IsPositive(Double)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the value is positive.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsPositive(this double value)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>The value to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_DoubleExtensions_IsPositiveInfinity_" data-uid="Zigurous.Math.DoubleExtensions.IsPositiveInfinity*"></a>
   <h4 id="Zigurous_Math_DoubleExtensions_IsPositiveInfinity_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.IsPositiveInfinity(System.Double)">IsPositiveInfinity(Double)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the value is equal to positive infinity.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsPositiveInfinity(this double value)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>The value to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_DoubleExtensions_IsRealNumber_" data-uid="Zigurous.Math.DoubleExtensions.IsRealNumber*"></a>
   <h4 id="Zigurous_Math_DoubleExtensions_IsRealNumber_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.IsRealNumber(System.Double)">IsRealNumber(Double)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the value is a real number (not infinite and not
+<code>NaN</code>).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsRealNumber(this double value)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_Math_DoubleExtensions_IsZero_" data-uid="Zigurous.Math.DoubleExtensions.IsZero*"></a>
-  <h4 id="Zigurous_Math_DoubleExtensions_IsZero_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.IsZero(System.Double)">IsZero(Double)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsZero(this double value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>The value to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Math_DoubleExtensions_IsZero_" data-uid="Zigurous.Math.DoubleExtensions.IsZero*"></a>
   <h4 id="Zigurous_Math_DoubleExtensions_IsZero_System_Double_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.IsZero(System.Double,System.Double)">IsZero(Double, Double)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the value is zero given a margin of error specified by the
+<code data-dev-comment-type="paramref" class="paramref">epsilon</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsZero(this double value, double epsilon)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsZero(this double value, double epsilon = 4.94065645841247E-324)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>The value to check.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">epsilon</span></td>
-        <td></td>
+        <td><p>The margin of error.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_Math_DoubleExtensions_NotImaginary_" data-uid="Zigurous.Math.DoubleExtensions.NotImaginary*"></a>
-  <h4 id="Zigurous_Math_DoubleExtensions_NotImaginary_System_Double_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.NotImaginary(System.Double,System.Double)">NotImaginary(Double, Double)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Zigurous_Math_DoubleExtensions_ToAbbreviatedString_" data-uid="Zigurous.Math.DoubleExtensions.ToAbbreviatedString*"></a>
+  <h4 id="Zigurous_Math_DoubleExtensions_ToAbbreviatedString_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.ToAbbreviatedString(System.Double)">ToAbbreviatedString(Double)</h4>
+  <div class="markdown level1 summary"><p>Converts the number to an abbreviated string, e.g. &quot;1k&quot; for 1000.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static double NotImaginary(this double value, double newValue = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string ToAbbreviatedString(this double value)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td><span class="parametername">newValue</span></td>
-        <td></td>
+        <td><p>The number to abbreviate.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td></td>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A new string of the abbreviated number, or the number as a string if it cannot be abbreviated.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_Math_DoubleExtensions_NotInfinity_" data-uid="Zigurous.Math.DoubleExtensions.NotInfinity*"></a>
-  <h4 id="Zigurous_Math_DoubleExtensions_NotInfinity_System_Double_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.NotInfinity(System.Double,System.Double)">NotInfinity(Double, Double)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Zigurous_Math_DoubleExtensions_ToAbbreviatedString_" data-uid="Zigurous.Math.DoubleExtensions.ToAbbreviatedString*"></a>
+  <h4 id="Zigurous_Math_DoubleExtensions_ToAbbreviatedString_System_Double_Zigurous_Math_NumberAbbreviation___" data-uid="Zigurous.Math.DoubleExtensions.ToAbbreviatedString(System.Double,Zigurous.Math.NumberAbbreviation[])">ToAbbreviatedString(Double, NumberAbbreviation[])</h4>
+  <div class="markdown level1 summary"><p>Converts the number to an abbreviated string using the possible
+provided <code data-dev-comment-type="paramref" class="paramref">abbreviations</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static double NotInfinity(this double value, double newValue = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string ToAbbreviatedString(this double value, NumberAbbreviation[] abbreviations)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>The number to abbreviate.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td><span class="parametername">newValue</span></td>
-        <td></td>
+        <td><span class="parametername">abbreviations</span></td>
+        <td><p>The possible abbreviations.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td></td>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A new string of the abbreviated number, or the number as a string if it cannot be abbreviated.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_Math_DoubleExtensions_NotNaN_" data-uid="Zigurous.Math.DoubleExtensions.NotNaN*"></a>
-  <h4 id="Zigurous_Math_DoubleExtensions_NotNaN_System_Double_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.NotNaN(System.Double,System.Double)">NotNaN(Double, Double)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Zigurous_Math_DoubleExtensions_UnsetImaginary_" data-uid="Zigurous.Math.DoubleExtensions.UnsetImaginary*"></a>
+  <h4 id="Zigurous_Math_DoubleExtensions_UnsetImaginary_System_Double__System_Double_" data-uid="Zigurous.Math.DoubleExtensions.UnsetImaginary(System.Double@,System.Double)">UnsetImaginary(ref Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Sets the value to <code data-dev-comment-type="paramref" class="paramref">newValue</code> if the value is an
+imaginary number (infinite or <code>NaN</code>).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static double NotNaN(this double value, double newValue = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void UnsetImaginary(this ref double value, double newValue = 0)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>The value to check.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">newValue</span></td>
-        <td></td>
+        <td><p>The value to return if the original value is an imaginary number.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_Math_DoubleExtensions_NotZero_" data-uid="Zigurous.Math.DoubleExtensions.NotZero*"></a>
-  <h4 id="Zigurous_Math_DoubleExtensions_NotZero_System_Double_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.NotZero(System.Double,System.Double)">NotZero(Double, Double)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Zigurous_Math_DoubleExtensions_UnsetInfinite_" data-uid="Zigurous.Math.DoubleExtensions.UnsetInfinite*"></a>
+  <h4 id="Zigurous_Math_DoubleExtensions_UnsetInfinite_System_Double__System_Double_" data-uid="Zigurous.Math.DoubleExtensions.UnsetInfinite(System.Double@,System.Double)">UnsetInfinite(ref Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Sets the value to <code data-dev-comment-type="paramref" class="paramref">newValue</code> if the value is an
+infinite number.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static double NotZero(this double value, double newValue = 4.94065645841247E-324)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void UnsetInfinite(this ref double value, double newValue = 0)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>The value to check.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">newValue</span></td>
-        <td></td>
+        <td><p>The value to return if the original value is infinite.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_Math_DoubleExtensions_NotZero_" data-uid="Zigurous.Math.DoubleExtensions.NotZero*"></a>
-  <h4 id="Zigurous_Math_DoubleExtensions_NotZero_System_Double_System_Double_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.NotZero(System.Double,System.Double,System.Double)">NotZero(Double, Double, Double)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Zigurous_Math_DoubleExtensions_UnsetNaN_" data-uid="Zigurous.Math.DoubleExtensions.UnsetNaN*"></a>
+  <h4 id="Zigurous_Math_DoubleExtensions_UnsetNaN_System_Double__System_Double_" data-uid="Zigurous.Math.DoubleExtensions.UnsetNaN(System.Double@,System.Double)">UnsetNaN(ref Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Sets the value to <code data-dev-comment-type="paramref" class="paramref">newValue</code> if the value is
+<code>NaN</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static double NotZero(this double value, double newValue = 4.94065645841247E-324, double epsilon = 4.94065645841247E-324)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void UnsetNaN(this ref double value, double newValue = 0)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>The value to check.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">newValue</span></td>
-        <td></td>
+        <td><p>The value to return if the original value is <code>NaN</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_Math_DoubleExtensions_UnsetZero_" data-uid="Zigurous.Math.DoubleExtensions.UnsetZero*"></a>
+  <h4 id="Zigurous_Math_DoubleExtensions_UnsetZero_System_Double__System_Double_System_Double_" data-uid="Zigurous.Math.DoubleExtensions.UnsetZero(System.Double@,System.Double,System.Double)">UnsetZero(ref Double, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Sets the value to <code data-dev-comment-type="paramref" class="paramref">newValue</code> if the value is zero
+given a margin of error specified by the <code data-dev-comment-type="paramref" class="paramref">epsilon</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UnsetZero(this ref double value, double newValue = 4.94065645841247E-324, double epsilon = 4.94065645841247E-324)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to check.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">newValue</span></td>
+        <td><p>The value to return if the original value is zero.</p>
+</td>
+      </tr>
+      <tr>
         <td><span class="parametername">epsilon</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td></td>
+        <td><p>The margin of error.</p>
+</td>
       </tr>
     </tbody>
   </table>
