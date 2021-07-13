@@ -4,11 +4,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum ScrollToSelection.ScrollDirection
-   | UI Toolkit </title>
+    <title>Menus | UI Toolkit </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum ScrollToSelection.ScrollDirection
-   | UI Toolkit ">
+    <meta name="title" content="Menus | UI Toolkit ">
     <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -79,44 +77,16 @@
                 <li></li>
               </ul>
             </div>
-            <article class="content wrap" id="_content" data-uid="Zigurous.UI.ScrollToSelection.ScrollDirection">
-  
-  <h1 id="Zigurous_UI_ScrollToSelection_ScrollDirection" data-uid="Zigurous.UI.ScrollToSelection.ScrollDirection" class="text-break">Enum ScrollToSelection.ScrollDirection
-  </h1>
-  <div class="markdown level0 summary"><p>A scroll direction.</p>
-</div>
-  <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.UI.html">Zigurous.UI</a></h6>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum ScrollDirection</code></pre>
-  </div>
-  <h3 id="fields">Fields
-  </h3>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    <thead>
-    <tbody>
-      <tr>
-        <td id="Zigurous_UI_ScrollToSelection_ScrollDirection_Both">Both</td>
-        <td><p>Scrolls in both the x-axis and the y-axis.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Zigurous_UI_ScrollToSelection_ScrollDirection_Horizontal">Horizontal</td>
-        <td><p>Scrolls in the x-axis.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Zigurous_UI_ScrollToSelection_ScrollDirection_Vertical">Vertical</td>
-        <td><p>Scrolls in the y-axis.</p>
-</td>
-      </tr>
-    </tbody>
-  </thead></thead></table>
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="menus">Menus</h1>
+
+<p>The UI Toolkit comes with a few scripts to assist in creating UI menus. There are several common problems that arise, especially in regards to menu navigation and controller-support. Generally speaking, basic navigation in menus across any input device can be achieved out-of-box using Unity's EventSystem component; however, this is not always the case.</p>
+<h4 id="navigationstack"><a class="xref" href="../api/Zigurous.UI.NavigationStack.html">NavigationStack</a></h4>
+<p>This script manages a stack of game objects (menus) that you can navigate between. As you navigate to another menu layer or sub-menu, you push the menu's game object onto the stack. Then, when you need to navigate back to the previous menu, you simply pop the game object off the top of the stack. The script can also automatically turn on/off the game objects as they are pushed and popped from the stack. The script also provides an InputAction to handle backwards navigation.</p>
+<h4 id="scrolltoselection"><a class="xref" href="../api/Zigurous.UI.ScrollToSelection.html">ScrollToSelection</a></h4>
+<p>This script works in conjunction with the EventSystem to handle scrolling a ScrollRect component to the selected game object. For example, when using a controller you usually do not freely scroll menus that display a list of buttons, such as a level select menu. Rather, you simply navigate up and down to the next or previous button, respectively. The ScrollRect will automatically be scrolled to whichever game object is selected.</p>
+<h4 id="scrollwithinput"><a class="xref" href="../api/Zigurous.UI.ScrollWithInput.html">ScrollWithInput</a></h4>
+<p>For other menus that use a ScrollRect component, you may just want to be able to freely scroll up and down. This may not be supported out of the box for controllers, so this script simply exposes an InputAction that you can bind controls to in order to scroll the menu. There is actually nothing specific to controllers in this script, so you can also use it with any kind of input, but generally mouse+keyboard already works with ScrollRect.</p>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">

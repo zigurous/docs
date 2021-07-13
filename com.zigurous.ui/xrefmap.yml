@@ -25,19 +25,6 @@ references:
   commentId: F:Zigurous.UI.NavigationStack.allowNullSelections
   fullName: Zigurous.UI.NavigationStack.allowNullSelections
   nameWithType: NavigationStack.allowNullSelections
-- uid: Zigurous.UI.NavigationStack.Back
-  name: Back()
-  href: api/Zigurous.UI.NavigationStack.html#Zigurous_UI_NavigationStack_Back
-  commentId: M:Zigurous.UI.NavigationStack.Back
-  fullName: Zigurous.UI.NavigationStack.Back()
-  nameWithType: NavigationStack.Back()
-- uid: Zigurous.UI.NavigationStack.Back*
-  name: Back
-  href: api/Zigurous.UI.NavigationStack.html#Zigurous_UI_NavigationStack_Back_
-  commentId: Overload:Zigurous.UI.NavigationStack.Back
-  isSpec: "True"
-  fullName: Zigurous.UI.NavigationStack.Back
-  nameWithType: NavigationStack.Back
 - uid: Zigurous.UI.NavigationStack.backNavigationInput
   name: backNavigationInput
   href: api/Zigurous.UI.NavigationStack.html#Zigurous_UI_NavigationStack_backNavigationInput
@@ -70,6 +57,19 @@ references:
   isSpec: "True"
   fullName: Zigurous.UI.NavigationStack.items
   nameWithType: NavigationStack.items
+- uid: Zigurous.UI.NavigationStack.Pop
+  name: Pop()
+  href: api/Zigurous.UI.NavigationStack.html#Zigurous_UI_NavigationStack_Pop
+  commentId: M:Zigurous.UI.NavigationStack.Pop
+  fullName: Zigurous.UI.NavigationStack.Pop()
+  nameWithType: NavigationStack.Pop()
+- uid: Zigurous.UI.NavigationStack.Pop*
+  name: Pop
+  href: api/Zigurous.UI.NavigationStack.html#Zigurous_UI_NavigationStack_Pop_
+  commentId: Overload:Zigurous.UI.NavigationStack.Pop
+  isSpec: "True"
+  fullName: Zigurous.UI.NavigationStack.Pop
+  nameWithType: NavigationStack.Pop
 - uid: Zigurous.UI.NavigationStack.Push(GameObject)
   name: Push(GameObject)
   href: api/Zigurous.UI.NavigationStack.html#Zigurous_UI_NavigationStack_Push_GameObject_

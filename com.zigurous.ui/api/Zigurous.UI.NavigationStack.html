@@ -80,11 +80,11 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.UI.NavigationStack">
-  
   <h1 id="Zigurous_UI_NavigationStack" data-uid="Zigurous.UI.NavigationStack" class="text-break">Class NavigationStack
   </h1>
-  <div class="markdown level0 summary"><p>Keeps track of a stack of selected game objects as to allow for easy
-back navigation.</p>
+  <div class="markdown level0 summary"><p>Manages a stack of game objects for menu navigation purposes. This is
+especially useful to handle backwards navigation by simply popping off
+the last item in the stack.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -93,7 +93,6 @@ back navigation.</p>
     <div class="level1"><span class="xref">NavigationStack</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.UI.html">Zigurous.UI</a></h6>
-  <h5 id="Zigurous_UI_NavigationStack_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class NavigationStack : MonoBehaviour</code></pre>
   </div>
@@ -104,7 +103,6 @@ back navigation.</p>
 want to maintain at least the root game object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool allowEmptyStack</code></pre>
   </div>
@@ -112,16 +110,14 @@ want to maintain at least the root game object.</p>
   <div class="markdown level1 summary"><p>Allows for null game objects to be pushed onto the stack.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool allowNullSelections</code></pre>
   </div>
   <h4 id="Zigurous_UI_NavigationStack_backNavigationInput" data-uid="Zigurous.UI.NavigationStack.backNavigationInput">backNavigationInput</h4>
-  <div class="markdown level1 summary"><p>The input action to handle navigating backwards in the stack by
-popping items off.</p>
+  <div class="markdown level1 summary"><p>The input action that handles backwards navigation by popping items
+off the stack.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public InputAction backNavigationInput</code></pre>
   </div>
@@ -129,7 +125,6 @@ popping items off.</p>
   <div class="markdown level1 summary"><p>The root game object added to the bottom of the stack.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public GameObject rootGameObject</code></pre>
   </div>
@@ -138,7 +133,6 @@ popping items off.</p>
 pushed on and off the stack.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool setActiveState</code></pre>
   </div>
@@ -149,7 +143,6 @@ pushed on and off the stack.</p>
   <div class="markdown level1 summary"><p>The event system being tracked by the navigation stack.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public EventSystem eventSystem { get; }</code></pre>
   </div>
@@ -158,7 +151,6 @@ pushed on and off the stack.</p>
   <div class="markdown level1 summary"><p>The game objects added to the stack.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Stack&lt;GameObject&gt; items { get; }</code></pre>
   </div>
@@ -167,42 +159,56 @@ pushed on and off the stack.</p>
   <div class="markdown level1 summary"><p>The current selected game object at the top of the stack.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public GameObject Top { get; }</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  <a id="Zigurous_UI_NavigationStack_Back_" data-uid="Zigurous.UI.NavigationStack.Back*"></a>
-  <h4 id="Zigurous_UI_NavigationStack_Back" data-uid="Zigurous.UI.NavigationStack.Back">Back()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Zigurous_UI_NavigationStack_Pop_" data-uid="Zigurous.UI.NavigationStack.Pop*"></a>
+  <h4 id="Zigurous_UI_NavigationStack_Pop" data-uid="Zigurous.UI.NavigationStack.Pop">Pop()</h4>
+  <div class="markdown level1 summary"><p>Pops the last game object off the stack, effectively navigating
+backwards.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Back()</code></pre>
+    <pre><code class="lang-csharp hljs">public GameObject Pop()</code></pre>
   </div>
-  <a id="Zigurous_UI_NavigationStack_Push_" data-uid="Zigurous.UI.NavigationStack.Push*"></a>
-  <h4 id="Zigurous_UI_NavigationStack_Push_GameObject_" data-uid="Zigurous.UI.NavigationStack.Push(GameObject)">Push(GameObject)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Push(GameObject selected)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">GameObject</span></td>
+        <td><p>The game object that was popped off the stack.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_UI_NavigationStack_Push_" data-uid="Zigurous.UI.NavigationStack.Push*"></a>
+  <h4 id="Zigurous_UI_NavigationStack_Push_GameObject_" data-uid="Zigurous.UI.NavigationStack.Push(GameObject)">Push(GameObject)</h4>
+  <div class="markdown level1 summary"><p>Pushes a game object onto the stack, effectively navigating
+forwards.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Push(GameObject selected)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
         <td><span class="parametername">selected</span></td>
-        <td></td>
+        <td><p>The game object to push onto the stack.</p>
+</td>
       </tr>
     </tbody>
   </table>
