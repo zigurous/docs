@@ -26,11 +26,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Physics.CollisionEnter.Event.yml",
+      "source_relative_path": "api/Zigurous.Physics.Events.ColliderEvent.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.Physics.CollisionEnter.Event.html",
-          "hash": "Uv22Un+BxFHTE+625VuU4RZTEjkanEyc+1NTroNg+Hw="
+          "relative_path": "api/Zigurous.Physics.Events.ColliderEvent.html",
+          "hash": "Usdv4jXeTu0ZTNpBXElBPvaYKOBp+SwHbp+fKncpNCY="
         }
       },
       "is_incremental": false,
@@ -38,11 +38,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Physics.CollisionEnter.yml",
+      "source_relative_path": "api/Zigurous.Physics.Events.ColliderEvent2D.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.Physics.CollisionEnter.html",
-          "hash": "157sqtBp+7HSNEInINgp3YIjhb/qHD/QsvbaoTcsyDM="
+          "relative_path": "api/Zigurous.Physics.Events.ColliderEvent2D.html",
+          "hash": "zSK+xHLn9rgU9s1T9S+C+6yrH62T8bc41tX37VBlHY4="
         }
       },
       "is_incremental": false,
@@ -50,11 +50,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Physics.CollisionEnter2D.Event.yml",
+      "source_relative_path": "api/Zigurous.Physics.Events.CollisionEnter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.Physics.CollisionEnter2D.Event.html",
-          "hash": "QWTqmTIFRZo92bCpy+prWVYg+PSH+HdGIQnXMMik1K4="
+          "relative_path": "api/Zigurous.Physics.Events.CollisionEnter.html",
+          "hash": "Npevbs1eNstkmnf7jZVu3Mz4UYEnG+ry3HCZ3p63FtM="
         }
       },
       "is_incremental": false,
@@ -62,11 +62,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Physics.CollisionEnter2D.yml",
+      "source_relative_path": "api/Zigurous.Physics.Events.CollisionEnter2D.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.Physics.CollisionEnter2D.html",
-          "hash": "ghs7FLxQCQ7mk0GetghTbZ8518YbwZXgbhKymmRX2i0="
+          "relative_path": "api/Zigurous.Physics.Events.CollisionEnter2D.html",
+          "hash": "5biu9l5xBJGLQ2NoTqEPyxQriiv9mvUmgk7XBoZR6CM="
         }
       },
       "is_incremental": false,
@@ -74,11 +74,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Physics.CollisionExit.Event.yml",
+      "source_relative_path": "api/Zigurous.Physics.Events.CollisionEvent.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.Physics.CollisionExit.Event.html",
-          "hash": "yerydKJBQAHtwnoNJFbYufy/DQgvvdVl3f3208JG4t4="
+          "relative_path": "api/Zigurous.Physics.Events.CollisionEvent.html",
+          "hash": "YO4MC8hEHQszB2EsGJi2mtr2XkXtAs2PLB1aBcDHgbo="
         }
       },
       "is_incremental": false,
@@ -86,11 +86,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Physics.CollisionExit.yml",
+      "source_relative_path": "api/Zigurous.Physics.Events.CollisionEvent2D.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.Physics.CollisionExit.html",
-          "hash": "RYOj1kq9NZoCHA3oH9ohtvdA8oTnzM4vvn35585WIyY="
+          "relative_path": "api/Zigurous.Physics.Events.CollisionEvent2D.html",
+          "hash": "SsgF5dHjDCIgqm6vux1iN8xguolRWTDE0upxqFILZfE="
         }
       },
       "is_incremental": false,
@@ -98,11 +98,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Physics.CollisionExit2D.Event.yml",
+      "source_relative_path": "api/Zigurous.Physics.Events.CollisionExit.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.Physics.CollisionExit2D.Event.html",
-          "hash": "MtUTUdVTUKJ1CUNO6Vvf1HxYdF+SCLSHcK5ZfNQrySg="
+          "relative_path": "api/Zigurous.Physics.Events.CollisionExit.html",
+          "hash": "6eZooOchdlTsuJkJEXsI1mO3VmZZqiNqunI+Ty+jt+o="
         }
       },
       "is_incremental": false,
@@ -110,11 +110,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Physics.CollisionExit2D.yml",
+      "source_relative_path": "api/Zigurous.Physics.Events.CollisionExit2D.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.Physics.CollisionExit2D.html",
-          "hash": "WCe4a5BzfS7XLMILMC6U0CHVwRRPRYt1/qXqfMnzgAs="
+          "relative_path": "api/Zigurous.Physics.Events.CollisionExit2D.html",
+          "hash": "aQm9KlNvYaWm6QE45xdisX0qIuiroApd4hU02c7abLQ="
         }
       },
       "is_incremental": false,
@@ -122,11 +122,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Physics.CollisionStay.Event.yml",
+      "source_relative_path": "api/Zigurous.Physics.Events.CollisionStay.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.Physics.CollisionStay.Event.html",
-          "hash": "eqx2X8OBwQKxXPyxmoQuX79SXSt0oR15uLJpSEHVX8Q="
+          "relative_path": "api/Zigurous.Physics.Events.CollisionStay.html",
+          "hash": "5XpNVwKkz/r+kJ/0ihfwOFIGKjudAYQK19m/9vj3F14="
         }
       },
       "is_incremental": false,
@@ -134,11 +134,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Physics.CollisionStay.yml",
+      "source_relative_path": "api/Zigurous.Physics.Events.CollisionStay2D.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.Physics.CollisionStay.html",
-          "hash": "c6pWAhbEpHGfRaG1Pet3LB4jkw/lo8MfAIG+1nUnuUo="
+          "relative_path": "api/Zigurous.Physics.Events.CollisionStay2D.html",
+          "hash": "Ip+/CbV2SWAWJvQU/3Ck2AMF2j5Z+y+m8WusE08OqhM="
         }
       },
       "is_incremental": false,
@@ -146,11 +146,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Physics.CollisionStay2D.Event.yml",
+      "source_relative_path": "api/Zigurous.Physics.Events.TriggerEnter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.Physics.CollisionStay2D.Event.html",
-          "hash": "z/ZTY9khv3FbolbX+AwQoKh6xa5qxPkVNrSE+xlEBzU="
+          "relative_path": "api/Zigurous.Physics.Events.TriggerEnter.html",
+          "hash": "8zuy+aGV2wE3EvBruSaExnUDUcAYbCvVNA8ESR6FGbQ="
         }
       },
       "is_incremental": false,
@@ -158,11 +158,71 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Physics.CollisionStay2D.yml",
+      "source_relative_path": "api/Zigurous.Physics.Events.TriggerEnter2D.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.Physics.CollisionStay2D.html",
-          "hash": "6SNJJYqcmRaxNs5Qqa/bpgqLNZ02ibRes44534vYw5o="
+          "relative_path": "api/Zigurous.Physics.Events.TriggerEnter2D.html",
+          "hash": "6ipRmhlAyz2HZdmd12x/Rv5Sacoyvbx0o8mcyBTWGQ8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.Events.TriggerExit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.Events.TriggerExit.html",
+          "hash": "uXf+nQj7jTsrD1ztp73jmsKmU+XUBnVMl/amj4hIJVQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.Events.TriggerExit2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.Events.TriggerExit2D.html",
+          "hash": "9RDjceOEUjm5Y8FzxwVPF6kTwZu9fud2t5bEWEgX98c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.Events.TriggerStay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.Events.TriggerStay.html",
+          "hash": "PJ6VxO6Us0NbKnF7cauxJydja/dfRUOutux2AUnNoBs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.Events.TriggerStay2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.Events.TriggerStay2D.html",
+          "hash": "y3oHsdbtfLnbrIbG/j1ivp+e/zUoxgetK9iWGKLlAQ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Physics.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Physics.Events.html",
+          "hash": "Ezhz4cKTb3lpBX4OUk6DPeKyuc/jYRBmpZXb17RMEAw="
         }
       },
       "is_incremental": false,
@@ -174,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Physics.Explosion.Trigger.html",
-          "hash": "lt20mlI9H505HiLrVPdqGCICKFitAzgnzLjXQbZDEGk="
+          "hash": "RJE3B/T58jbqP9xwj36bV+VH3AbNWuxWL4vEs+729d4="
         }
       },
       "is_incremental": false,
@@ -186,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Physics.Explosion.html",
-          "hash": "Cfkpk8Rs3ESMi8Wlf/9pTXY5iWUai2Na1txlK7ka44A="
+          "hash": "uSyfLpH53kREaTU4V/orGNKGqV/nejkDJ0E5I886WMs="
         }
       },
       "is_incremental": false,
@@ -198,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Physics.LayerMaskExtensions.html",
-          "hash": "zvT0/5Ss4I3BHHazSkpFccMq2TRYWSrTI0OIi9Nrgrw="
+          "hash": "b8kLwFfaqbOmp277xeMlbsvHFhZRCH3Sp5mqdn66Ks8="
         }
       },
       "is_incremental": false,
@@ -210,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Physics.Magnet.html",
-          "hash": "E2EpWgvgDLzDugb9H3ZIQJ+MrxlozLJKOI7R1Yuri/A="
+          "hash": "InRzfl73fXY9LS7jIYxOA3M4uRUSE3DCr8P2ZWa3IZI="
         }
       },
       "is_incremental": false,
@@ -222,151 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Physics.Magnetic.html",
-          "hash": "q+V0OaDF8IKMOGDLi2a1UdFr6BPBdOPTxYZOLdLA9Vs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Physics.TriggerEnter.Event.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Physics.TriggerEnter.Event.html",
-          "hash": "D/hldYTitfNlqN8ZtmNG8B9OAQ2WorVlYIxP/nx2gb0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Physics.TriggerEnter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Physics.TriggerEnter.html",
-          "hash": "HHc8d5nGoocs0bgktNTz9KayXmi6xm8WC7brBtmNd4k="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Physics.TriggerEnter2D.Event.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Physics.TriggerEnter2D.Event.html",
-          "hash": "MIuS20hBt5J82pHkXn1NAFXm5xIBnX5QQc5MQCT+/AU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Physics.TriggerEnter2D.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Physics.TriggerEnter2D.html",
-          "hash": "1uRmyutw+4i34LHTmW2PJGZ2i9vatTCpAhmeFwgmP74="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Physics.TriggerExit.Event.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Physics.TriggerExit.Event.html",
-          "hash": "FTY3vvDsOC5j97JeI9nLJaJr4e8foR2v3YjshaskYMo="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Physics.TriggerExit.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Physics.TriggerExit.html",
-          "hash": "lKwjLYjQSAodAOjty9R/bvhuw6gTg8SoZg0h/ajKLOg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Physics.TriggerExit2D.Event.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Physics.TriggerExit2D.Event.html",
-          "hash": "0j7NYgNAyU+H+34TeINjCIl/3UHIfdmVKFDJpCopO+4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Physics.TriggerExit2D.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Physics.TriggerExit2D.html",
-          "hash": "agX1uui0ywL1oxOb5Qp/2mHBpGDo/j6EQN+++BoHZRo="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Physics.TriggerStay.Event.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Physics.TriggerStay.Event.html",
-          "hash": "kRAdkEaTGlJrYuirvQJpfkndBlg64UcJ7ON9cP+KSd4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Physics.TriggerStay.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Physics.TriggerStay.html",
-          "hash": "dndEJf66/gjoIYIaVn8NEHtGhN31jBGxtk2ZxTlw4KM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Physics.TriggerStay2D.Event.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Physics.TriggerStay2D.Event.html",
-          "hash": "rI+hqeNffJEmc5sx3eRrRVHchSexQ4DNaFRTW42njXI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Physics.TriggerStay2D.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Physics.TriggerStay2D.html",
-          "hash": "SKU+GZIWN99bknvMUJ213+TMcMZ9ybsfV1PjjKK2fGU="
+          "hash": "ku1CHG+BzbUs8S9hoVDCmnLwoczbGoacJv9sZNtjPNQ="
         }
       },
       "is_incremental": false,
@@ -378,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Physics.html",
-          "hash": "9JSNBz3quEzq1Gj9OOVG9kV1XBvrEBFNc7x8uSonoC0="
+          "hash": "NEQNy9LB8C4c+MSFE/PpyGoPPdPiNBCGUHNKFf91QuY="
         }
       },
       "is_incremental": false,
@@ -390,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "L2koe2Qmk4qUcDtCWfE6wpn/MpPJTgk1L4qVaXvPuOU="
+          "hash": "mG0RAPgla6B5ogTnwGfRxG1HrV/Caa/hq9Lc6TD4BsM="
         }
       },
       "is_incremental": false,
@@ -414,6 +330,17 @@
       "output": {
         "resource": {
           "relative_path": "favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/event.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/event.png"
         }
       },
       "is_incremental": false,
@@ -467,11 +394,23 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/events.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/events.html",
+          "hash": "Vi7I8lK6mQN3jbXPvT0rF6VMynNu+8FFXwoCz2kSsg0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/index.md",
       "output": {
         ".html": {
           "relative_path": "manual/index.html",
-          "hash": "sRfpT4pswAex37jJzR0CZlrrHIp/r3w7jIeiu+xwvQs="
+          "hash": "7GvabAr2jSpG4oqmLl4XZf3XV/foQ5EjvWm9bb+b4cs="
         }
       },
       "is_incremental": false,
@@ -490,12 +429,24 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "manual/materials.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/materials.html",
+          "hash": "iI3iYABabXB2R0x2soxRWCO+h1arUesBv3pVSm/V6go="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "manual/toc.yml",
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "AUBmkjcV6Rgc5XQX3SpA8j/bnbBPgpTg+VqyBcLddP4="
+          "hash": "l9EZKjgo0pHM9zCJcjQ/2yjyyNOiszwE1gxo93r3z40="
         }
       },
       "is_incremental": false,
@@ -528,13 +479,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 4,
+          "total_file_count": 6,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 30,
+          "total_file_count": 23,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

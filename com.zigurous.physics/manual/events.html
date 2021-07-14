@@ -4,11 +4,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class TriggerEnter.Event
-   | Physics Utils </title>
+    <title>Event Behaviors | Physics Utils </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class TriggerEnter.Event
-   | Physics Utils ">
+    <meta name="title" content="Event Behaviors | Physics Utils ">
     <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -79,23 +77,28 @@
                 <li></li>
               </ul>
             </div>
-            <article class="content wrap" id="_content" data-uid="Zigurous.Physics.TriggerEnter.Event">
-  
-  <h1 id="Zigurous_Physics_TriggerEnter_Event" data-uid="Zigurous.Physics.TriggerEnter.Event" class="text-break">Class TriggerEnter.Event
-  </h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">TriggerEnter.Event</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Physics.html">Zigurous.Physics</a></h6>
-  <h5 id="Zigurous_Physics_TriggerEnter_Event_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class Event : UnityEvent&lt;Collider&gt;</code></pre>
-  </div>
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="event-behaviors">Event Behaviors</h1>
+
+<p>It is very common for scripts in Unity projects to respond to collision/trigger events using Unity's event callback functions, such as <code>OnCollisionEnter</code> and <code>OnTriggerEnter</code>. In such events, you might need to communicate a state change to another object. This often leads to a lot of boilerplate code and miscellaneous scripts.</p>
+<p>The Physics Utils package comes with several behaviors that serialize event callbacks into the editor so all you have to do is pick the function you want to be called on any object on any script anywhere in your scene. It eliminates having to create entirely new scripts whenever you need a simple response to an event.</p>
+<p>The great thing about Unity's event system is that it is not limited to only functions. You can also invoke property getters/setters, and you can even pass in arguments to functions. Let's say you want to damage your character's health when they enter an unsafe trigger zone, you could easily do that without writing any new code.</p>
+<img src="../images/event.png" width="480">
+<h3 id="behaviors">Behaviors</h3>
+<ul>
+<li><a class="xref" href="../api/Zigurous.Physics.Events.CollisionEnter.html">CollisionEnter</a></li>
+<li><a class="xref" href="../api/Zigurous.Physics.Events.CollisionEnter2D.html">CollisionEnter2D</a></li>
+<li><a class="xref" href="../api/Zigurous.Physics.Events.CollisionExit.html">CollisionExit</a></li>
+<li><a class="xref" href="../api/Zigurous.Physics.Events.CollisionExit2D.html">CollisionExit2D</a></li>
+<li><a class="xref" href="../api/Zigurous.Physics.Events.CollisionStay.html">CollisionStay</a></li>
+<li><a class="xref" href="../api/Zigurous.Physics.Events.CollisionStay2D.html">CollisionStay2D</a></li>
+<li><a class="xref" href="../api/Zigurous.Physics.Events.TriggerEnter.html">TriggerEnter</a></li>
+<li><a class="xref" href="../api/Zigurous.Physics.Events.TriggerEnter2D.html">TriggerEnter2D</a></li>
+<li><a class="xref" href="../api/Zigurous.Physics.Events.TriggerExit.html">TriggerExit</a></li>
+<li><a class="xref" href="../api/Zigurous.Physics.Events.TriggerExit2D.html">TriggerExit2D</a></li>
+<li><a class="xref" href="../api/Zigurous.Physics.Events.TriggerStay.html">TriggerStay</a></li>
+<li><a class="xref" href="../api/Zigurous.Physics.Events.TriggerStay2D.html">TriggerStay2D</a></li>
+</ul>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">

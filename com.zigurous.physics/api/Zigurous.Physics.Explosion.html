@@ -80,7 +80,6 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.Physics.Explosion">
-  
   <h1 id="Zigurous_Physics_Explosion" data-uid="Zigurous.Physics.Explosion" class="text-break">Class Explosion
   </h1>
   <div class="markdown level0 summary"><p>Adds an explosion force to all rigidbodies within a set radius upon
@@ -93,7 +92,6 @@ being triggered.</p>
     <div class="level1"><span class="xref">Explosion</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Physics.html">Zigurous.Physics</a></h6>
-  <h5 id="Zigurous_Physics_Explosion_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class Explosion : MonoBehaviour</code></pre>
   </div>
@@ -103,7 +101,6 @@ being triggered.</p>
   <div class="markdown level1 summary"><p>Destroys the game object of the script after exploding.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool destroyOnExplode</code></pre>
   </div>
@@ -111,7 +108,6 @@ being triggered.</p>
   <div class="markdown level1 summary"><p>The type of force applied to affected rigidbodies.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ForceMode forceMode</code></pre>
   </div>
@@ -120,7 +116,6 @@ being triggered.</p>
 triggered.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float fuseTime</code></pre>
   </div>
@@ -128,7 +123,6 @@ triggered.</p>
   <div class="markdown level1 summary"><p>The layers that can be affected by the explosion.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public LayerMask layerMask</code></pre>
   </div>
@@ -136,7 +130,6 @@ triggered.</p>
   <div class="markdown level1 summary"><p>The radius of the sphere within which the explosion has its effect.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float radius</code></pre>
   </div>
@@ -144,7 +137,6 @@ triggered.</p>
   <div class="markdown level1 summary"><p>The force strength of the explosion.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float strength</code></pre>
   </div>
@@ -152,7 +144,6 @@ triggered.</p>
   <div class="markdown level1 summary"><p>The type of trigger that causes the explosion.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Explosion.Trigger trigger</code></pre>
   </div>
@@ -161,7 +152,6 @@ triggered.</p>
 seem to lift objects.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float upwardsModifier</code></pre>
   </div>
@@ -169,145 +159,36 @@ seem to lift objects.</p>
   </h3>
   <a id="Zigurous_Physics_Explosion_Explode_" data-uid="Zigurous.Physics.Explosion.Explode*"></a>
   <h4 id="Zigurous_Physics_Explosion_Explode" data-uid="Zigurous.Physics.Explosion.Explode">Explode()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Triggers the explosion.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public virtual void Explode()</code></pre>
   </div>
   <a id="Zigurous_Physics_Explosion_Explode_" data-uid="Zigurous.Physics.Explosion.Explode*"></a>
   <h4 id="Zigurous_Physics_Explosion_Explode_System_Single_" data-uid="Zigurous.Physics.Explosion.Explode(System.Single)">Explode(Single)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Triggers the explosion after the given amount of seconds specified
+by <code data-dev-comment-type="paramref" class="paramref">fuseTime</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Explode(float fuseTime)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">fuseTime</span></td>
-        <td></td>
+        <td><p>The amount of seconds before the explosion takes effect.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_Physics_Explosion_OnCollisionEnter_" data-uid="Zigurous.Physics.Explosion.OnCollisionEnter*"></a>
-  <h4 id="Zigurous_Physics_Explosion_OnCollisionEnter_Collision_" data-uid="Zigurous.Physics.Explosion.OnCollisionEnter(Collision)">OnCollisionEnter(Collision)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnCollisionEnter(Collision collision)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Collision</span></td>
-        <td><span class="parametername">collision</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_Physics_Explosion_OnCollisionExit_" data-uid="Zigurous.Physics.Explosion.OnCollisionExit*"></a>
-  <h4 id="Zigurous_Physics_Explosion_OnCollisionExit_Collision_" data-uid="Zigurous.Physics.Explosion.OnCollisionExit(Collision)">OnCollisionExit(Collision)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnCollisionExit(Collision collision)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Collision</span></td>
-        <td><span class="parametername">collision</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_Physics_Explosion_OnTriggerEnter_" data-uid="Zigurous.Physics.Explosion.OnTriggerEnter*"></a>
-  <h4 id="Zigurous_Physics_Explosion_OnTriggerEnter_Collider_" data-uid="Zigurous.Physics.Explosion.OnTriggerEnter(Collider)">OnTriggerEnter(Collider)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnTriggerEnter(Collider collider)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Collider</span></td>
-        <td><span class="parametername">collider</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_Physics_Explosion_OnTriggerExit_" data-uid="Zigurous.Physics.Explosion.OnTriggerExit*"></a>
-  <h4 id="Zigurous_Physics_Explosion_OnTriggerExit_Collider_" data-uid="Zigurous.Physics.Explosion.OnTriggerExit(Collider)">OnTriggerExit(Collider)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnTriggerExit(Collider collider)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Collider</span></td>
-        <td><span class="parametername">collider</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_Physics_Explosion_Start_" data-uid="Zigurous.Physics.Explosion.Start*"></a>
-  <h4 id="Zigurous_Physics_Explosion_Start" data-uid="Zigurous.Physics.Explosion.Start">Start()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void Start()</code></pre>
-  </div>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">
