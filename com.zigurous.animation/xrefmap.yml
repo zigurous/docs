@@ -143,6 +143,15 @@ references:
   fullName.vb: Zigurous.Animation.AnimatorParameter.Widening(System.String to Zigurous.Animation.AnimatorParameter)
   nameWithType: AnimatorParameter.Implicit(String to AnimatorParameter)
   nameWithType.vb: AnimatorParameter.Widening(String to AnimatorParameter)
+- uid: Zigurous.Animation.AnimatorParameter.op_Implicit(Zigurous.Animation.AnimatorParameter)~System.Int32
+  name: Implicit(AnimatorParameter to Int32)
+  href: api/Zigurous.Animation.AnimatorParameter.html#Zigurous_Animation_AnimatorParameter_op_Implicit_Zigurous_Animation_AnimatorParameter__System_Int32
+  commentId: M:Zigurous.Animation.AnimatorParameter.op_Implicit(Zigurous.Animation.AnimatorParameter)~System.Int32
+  name.vb: Widening(AnimatorParameter to Int32)
+  fullName: Zigurous.Animation.AnimatorParameter.Implicit(Zigurous.Animation.AnimatorParameter to System.Int32)
+  fullName.vb: Zigurous.Animation.AnimatorParameter.Widening(Zigurous.Animation.AnimatorParameter to System.Int32)
+  nameWithType: AnimatorParameter.Implicit(AnimatorParameter to Int32)
+  nameWithType.vb: AnimatorParameter.Widening(AnimatorParameter to Int32)
 - uid: Zigurous.Animation.AnimatorParameter.op_Implicit*
   name: Implicit
   href: api/Zigurous.Animation.AnimatorParameter.html#Zigurous_Animation_AnimatorParameter_op_Implicit_

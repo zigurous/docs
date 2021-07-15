@@ -141,7 +141,8 @@ optimized setters and getters on Animator parameters.</p>
   </h3>
   <a id="Zigurous_Animation_AnimatorParameter_op_Implicit_" data-uid="Zigurous.Animation.AnimatorParameter.op_Implicit*"></a>
   <h4 id="Zigurous_Animation_AnimatorParameter_op_Implicit_System_String__Zigurous_Animation_AnimatorParameter" data-uid="Zigurous.Animation.AnimatorParameter.op_Implicit(System.String)~Zigurous.Animation.AnimatorParameter">Implicit(String to AnimatorParameter)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Implicitly converts a name to an animator parameter.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static implicit operator AnimatorParameter(string name)</code></pre>
@@ -156,7 +157,30 @@ optimized setters and getters on Animator parameters.</p>
     <tbody>
       <tr>
         <td><span class="parametername">name</span></td>
-        <td><p>The name of the animation parameter.</p>
+        <td><p>The name of the animator parameter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_Animation_AnimatorParameter_op_Implicit_" data-uid="Zigurous.Animation.AnimatorParameter.op_Implicit*"></a>
+  <h4 id="Zigurous_Animation_AnimatorParameter_op_Implicit_Zigurous_Animation_AnimatorParameter__System_Int32" data-uid="Zigurous.Animation.AnimatorParameter.op_Implicit(Zigurous.Animation.AnimatorParameter)~System.Int32">Implicit(AnimatorParameter to Int32)</h4>
+  <div class="markdown level1 summary"><p>Implicitly converts an animator parameter to a hash id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator int (AnimatorParameter property)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">property</span></td>
+        <td><p>The animator parameter to convert to an id.</p>
 </td>
       </tr>
     </tbody>
