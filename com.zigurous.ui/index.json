@@ -37,7 +37,7 @@
   "manual/index.html": {
     "href": "manual/index.html",
     "title": "UI Toolkit | UI Toolkit",
-    "keywords": "UI Toolkit The UI Toolkit package contains scripts and utilities for creating UI in Unity projects. The package is intended to solve common problems that arise when developing UI and menus. The package is still early in development, and more scripts will be added over time. Reference Menus"
+    "keywords": "UI Toolkit The UI Toolkit package contains scripts and utilities for creating UI in Unity projects. The package is intended to solve common problems that arise when developing UI and menus. The package is still early in development, and more functionality will be added over time. Reference Menus"
   },
   "manual/installation.html": {
     "href": "manual/installation.html",
