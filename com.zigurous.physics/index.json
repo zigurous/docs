@@ -132,7 +132,7 @@
   "manual/index.html": {
     "href": "manual/index.html",
     "title": "Physics Utils | Physics Utils",
-    "keywords": "Physics Utils The Physics Utils package contains physics-related scripts and utilities for Unity projects. The package is still very early in development, and new scripts and functionality will be added over time. Reference Event Behaviors Physics Materials Explosion (Script) Magnet (Script) Magnetic (Script)"
+    "keywords": "Physics Utils The Physics Utils package contains physics-related scripts and utilities for Unity projects. The package is still early in development, and more functionality will be added over time. Reference Event Behaviors Physics Materials Explosion (Script) Magnet (Script) Magnetic (Script)"
   },
   "manual/installation.html": {
     "href": "manual/installation.html",
