@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Graphics.AutoTile.Axis.html",
-          "hash": "EEgFarA+ITLdyWjaZ5um3fpC54tLhMJCnbWe+QJozAo="
+          "hash": "MCcZxhd1KnIM5fiERSxRcu8kRrVgXPUaph1X1vjkur8="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Graphics.AutoTile.Submesh.html",
-          "hash": "D5MQ1wiumMxj66ugY/dSNK0H8txQmamZJXznWl6P4YQ="
+          "hash": "oFXo/VV+sBJiVOPu4vynxjjiLqO7t9xEFNwUvrDep+g="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Graphics.AutoTile.html",
-          "hash": "M5BRN118rLN7r9FerxeBz0sDgz/nl6FIlM584xSGnZg="
+          "hash": "PI5RJs3bwIc/nPFn6JiqF7t1IFbOYLQ5exakHzFIR9U="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Graphics.CubeMesh.html",
-          "hash": "fkvpRGe1lA0QjubbnHvUSPzFHQHhWI4g1igWf2c3I7g="
+          "hash": "4WpIXq9Nmh49DqMM7vP9ngmaMTHYNZsEVQK0DKQVmQ4="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Graphics.CubeMesh3.html",
-          "hash": "JE84h0ECiUS0rXyJpb4NYf1TIXzaw1sP4AIpIftWf+s="
+          "hash": "J1yrfMnybo+RY9W7CnYsAGXisNntpvnCKzT4thjkkdM="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Graphics.CubeMesh6.html",
-          "hash": "AUQCf6m7TwiufiUCspdxTqysg/Sze1bZyzVGggDxkb4="
+          "hash": "QLngbvHFHsK+ZLhAoRW1BK+BX/rSU5xh2WzBsFP6io8="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Graphics.Identifier.html",
-          "hash": "6dDh51kAgIxw/kuwDhVYqGTxA0GwsBbaj8hGJYwoxls="
+          "hash": "ute+O0V6wDKD1KoZT6pgmGiGBeu3TyA6YMGiuJY0xus="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Graphics.InvertMesh.html",
-          "hash": "qs0fWV4LatqghrUGs2zHNe38so2KuL3H1iiX/qkKyUk="
+          "hash": "vdlqFGRPuIxS343ke+w6Lfqi7Nih/u7mQUX/ZKqrhHQ="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Graphics.MaterialExtensions.html",
-          "hash": "jxwm4DWy4FzUDDExso+ka+NdwuEODfJYuT/neYneJyM="
+          "hash": "xhIvSGRwXfK2tmi3JDIb+rDx1VdLA0jsx5ipXSW9UA8="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Graphics.MeshExtensions.html",
-          "hash": "rvNre/P4Pk0dj6QcGbIqxYbPK8GUBn64z+6iDUdDOXY="
+          "hash": "06YDqoewlAMosem2FIlLmK37qDl8V5usQDx6Ob4JyIY="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Graphics.RenderingMode.html",
-          "hash": "GxI1dn5AxUrggpNoz9eBG1uwQ/uI2Iifqw0XIZagtNM="
+          "hash": "oNA9B18ZVXfB2Z8O1dWzFuV30sUoxEsKJZdkFATwPgg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Graphics.SaveMesh.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Graphics.SaveMesh.html",
+          "hash": "eXami6nqkO6DvbwXiX7DF9Nbj/kvYVbEJ8BKutgbB0w="
         }
       },
       "is_incremental": false,
@@ -162,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Graphics.ShaderProperty.html",
-          "hash": "+KNtFiA+4w3lzog68jwJlcWLSvHn9Hf7NJ3UilmzpfE="
+          "hash": "wc5asMS1Q784iVZ9tqhi8sjjEkvOOH/bQqxoSGEXuyE="
         }
       },
       "is_incremental": false,
@@ -174,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Graphics.Triangle.html",
-          "hash": "1T7iV6DLXPwl0VWL1kE5Dc9mMMa3F9+aAVTPnuKcfGE="
+          "hash": "0kgUCzZP2OHjXhhVJBtTOQ4pZtGMKIWv4Xb+VRBiH4I="
         }
       },
       "is_incremental": false,
@@ -186,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Graphics.html",
-          "hash": "eLz2TNInHfokac4jJnXBBHrQ3KLDYm2FufHT9sKa4Pw="
+          "hash": "n80eoInV90t4sEo5HMKYdc6ls1WbXQGi78Ywsi2N4Iw="
         }
       },
       "is_incremental": false,
@@ -198,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "tfgzqid6+pc2uiqn1nVCSY8WSDk2JUsa7RhyU6L9qX0="
+          "hash": "JiipV0m/WqEk6+87NAXoDMf63Qw6U+hmb8tZdv17mx0="
         }
       },
       "is_incremental": false,
@@ -275,11 +287,23 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/identifiers.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/identifiers.html",
+          "hash": "MhNIV7RUd5IZn6J13KW2Myoo+9q5vOzW0shgM0cl8JA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/index.md",
       "output": {
         ".html": {
           "relative_path": "manual/index.html",
-          "hash": "QC0rw4eYSMQ+qPKyNkRvZXn2UezXbFT01UuNbry1qp4="
+          "hash": "bt08Ni99ks48bDavmgqyWxnwnLzr4hrrLwnbJ6LNBnk="
         }
       },
       "is_incremental": false,
@@ -298,12 +322,36 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "manual/meshes.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/meshes.html",
+          "hash": "1tUUYkUwBFfLOE96bM1eusG4Q6v2a4INHZ85Yj0Xum0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/tiling.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/tiling.html",
+          "hash": "fFSOcuvJKndIz1zlEP0s345O7j2UiiQjYpXbR7wpW9k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "manual/toc.yml",
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "AUBmkjcV6Rgc5XQX3SpA8j/bnbBPgpTg+VqyBcLddP4="
+          "hash": "BKmEXasBWjoeplhEn8ldOAZpP9snwJJ3gVH6fEqlLuo="
         }
       },
       "is_incremental": false,
@@ -336,13 +384,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 4,
+          "total_file_count": 7,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 14,
+          "total_file_count": 15,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

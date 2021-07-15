@@ -230,24 +230,24 @@ references:
   isSpec: "True"
   fullName: Zigurous.Graphics.CubeMesh3.Create
   nameWithType: CubeMesh3.Create
-- uid: Zigurous.Graphics.CubeMesh3.Triangles_X
-  name: Triangles_X
-  href: api/Zigurous.Graphics.CubeMesh3.html#Zigurous_Graphics_CubeMesh3_Triangles_X
-  commentId: F:Zigurous.Graphics.CubeMesh3.Triangles_X
-  fullName: Zigurous.Graphics.CubeMesh3.Triangles_X
-  nameWithType: CubeMesh3.Triangles_X
-- uid: Zigurous.Graphics.CubeMesh3.Triangles_Y
-  name: Triangles_Y
-  href: api/Zigurous.Graphics.CubeMesh3.html#Zigurous_Graphics_CubeMesh3_Triangles_Y
-  commentId: F:Zigurous.Graphics.CubeMesh3.Triangles_Y
-  fullName: Zigurous.Graphics.CubeMesh3.Triangles_Y
-  nameWithType: CubeMesh3.Triangles_Y
-- uid: Zigurous.Graphics.CubeMesh3.Triangles_Z
-  name: Triangles_Z
-  href: api/Zigurous.Graphics.CubeMesh3.html#Zigurous_Graphics_CubeMesh3_Triangles_Z
-  commentId: F:Zigurous.Graphics.CubeMesh3.Triangles_Z
-  fullName: Zigurous.Graphics.CubeMesh3.Triangles_Z
-  nameWithType: CubeMesh3.Triangles_Z
+- uid: Zigurous.Graphics.CubeMesh3.TrianglesX
+  name: TrianglesX
+  href: api/Zigurous.Graphics.CubeMesh3.html#Zigurous_Graphics_CubeMesh3_TrianglesX
+  commentId: F:Zigurous.Graphics.CubeMesh3.TrianglesX
+  fullName: Zigurous.Graphics.CubeMesh3.TrianglesX
+  nameWithType: CubeMesh3.TrianglesX
+- uid: Zigurous.Graphics.CubeMesh3.TrianglesY
+  name: TrianglesY
+  href: api/Zigurous.Graphics.CubeMesh3.html#Zigurous_Graphics_CubeMesh3_TrianglesY
+  commentId: F:Zigurous.Graphics.CubeMesh3.TrianglesY
+  fullName: Zigurous.Graphics.CubeMesh3.TrianglesY
+  nameWithType: CubeMesh3.TrianglesY
+- uid: Zigurous.Graphics.CubeMesh3.TrianglesZ
+  name: TrianglesZ
+  href: api/Zigurous.Graphics.CubeMesh3.html#Zigurous_Graphics_CubeMesh3_TrianglesZ
+  commentId: F:Zigurous.Graphics.CubeMesh3.TrianglesZ
+  fullName: Zigurous.Graphics.CubeMesh3.TrianglesZ
+  nameWithType: CubeMesh3.TrianglesZ
 - uid: Zigurous.Graphics.CubeMesh6
   name: CubeMesh6
   href: api/Zigurous.Graphics.CubeMesh6.html
@@ -280,42 +280,42 @@ references:
   isSpec: "True"
   fullName: Zigurous.Graphics.CubeMesh6.Create
   nameWithType: CubeMesh6.Create
-- uid: Zigurous.Graphics.CubeMesh6.Triangles_Back
-  name: Triangles_Back
-  href: api/Zigurous.Graphics.CubeMesh6.html#Zigurous_Graphics_CubeMesh6_Triangles_Back
-  commentId: F:Zigurous.Graphics.CubeMesh6.Triangles_Back
-  fullName: Zigurous.Graphics.CubeMesh6.Triangles_Back
-  nameWithType: CubeMesh6.Triangles_Back
-- uid: Zigurous.Graphics.CubeMesh6.Triangles_Bottom
-  name: Triangles_Bottom
-  href: api/Zigurous.Graphics.CubeMesh6.html#Zigurous_Graphics_CubeMesh6_Triangles_Bottom
-  commentId: F:Zigurous.Graphics.CubeMesh6.Triangles_Bottom
-  fullName: Zigurous.Graphics.CubeMesh6.Triangles_Bottom
-  nameWithType: CubeMesh6.Triangles_Bottom
-- uid: Zigurous.Graphics.CubeMesh6.Triangles_Front
-  name: Triangles_Front
-  href: api/Zigurous.Graphics.CubeMesh6.html#Zigurous_Graphics_CubeMesh6_Triangles_Front
-  commentId: F:Zigurous.Graphics.CubeMesh6.Triangles_Front
-  fullName: Zigurous.Graphics.CubeMesh6.Triangles_Front
-  nameWithType: CubeMesh6.Triangles_Front
-- uid: Zigurous.Graphics.CubeMesh6.Triangles_Left
-  name: Triangles_Left
-  href: api/Zigurous.Graphics.CubeMesh6.html#Zigurous_Graphics_CubeMesh6_Triangles_Left
-  commentId: F:Zigurous.Graphics.CubeMesh6.Triangles_Left
-  fullName: Zigurous.Graphics.CubeMesh6.Triangles_Left
-  nameWithType: CubeMesh6.Triangles_Left
-- uid: Zigurous.Graphics.CubeMesh6.Triangles_Right
-  name: Triangles_Right
-  href: api/Zigurous.Graphics.CubeMesh6.html#Zigurous_Graphics_CubeMesh6_Triangles_Right
-  commentId: F:Zigurous.Graphics.CubeMesh6.Triangles_Right
-  fullName: Zigurous.Graphics.CubeMesh6.Triangles_Right
-  nameWithType: CubeMesh6.Triangles_Right
-- uid: Zigurous.Graphics.CubeMesh6.Triangles_Top
-  name: Triangles_Top
-  href: api/Zigurous.Graphics.CubeMesh6.html#Zigurous_Graphics_CubeMesh6_Triangles_Top
-  commentId: F:Zigurous.Graphics.CubeMesh6.Triangles_Top
-  fullName: Zigurous.Graphics.CubeMesh6.Triangles_Top
-  nameWithType: CubeMesh6.Triangles_Top
+- uid: Zigurous.Graphics.CubeMesh6.TrianglesBack
+  name: TrianglesBack
+  href: api/Zigurous.Graphics.CubeMesh6.html#Zigurous_Graphics_CubeMesh6_TrianglesBack
+  commentId: F:Zigurous.Graphics.CubeMesh6.TrianglesBack
+  fullName: Zigurous.Graphics.CubeMesh6.TrianglesBack
+  nameWithType: CubeMesh6.TrianglesBack
+- uid: Zigurous.Graphics.CubeMesh6.TrianglesBottom
+  name: TrianglesBottom
+  href: api/Zigurous.Graphics.CubeMesh6.html#Zigurous_Graphics_CubeMesh6_TrianglesBottom
+  commentId: F:Zigurous.Graphics.CubeMesh6.TrianglesBottom
+  fullName: Zigurous.Graphics.CubeMesh6.TrianglesBottom
+  nameWithType: CubeMesh6.TrianglesBottom
+- uid: Zigurous.Graphics.CubeMesh6.TrianglesFront
+  name: TrianglesFront
+  href: api/Zigurous.Graphics.CubeMesh6.html#Zigurous_Graphics_CubeMesh6_TrianglesFront
+  commentId: F:Zigurous.Graphics.CubeMesh6.TrianglesFront
+  fullName: Zigurous.Graphics.CubeMesh6.TrianglesFront
+  nameWithType: CubeMesh6.TrianglesFront
+- uid: Zigurous.Graphics.CubeMesh6.TrianglesLeft
+  name: TrianglesLeft
+  href: api/Zigurous.Graphics.CubeMesh6.html#Zigurous_Graphics_CubeMesh6_TrianglesLeft
+  commentId: F:Zigurous.Graphics.CubeMesh6.TrianglesLeft
+  fullName: Zigurous.Graphics.CubeMesh6.TrianglesLeft
+  nameWithType: CubeMesh6.TrianglesLeft
+- uid: Zigurous.Graphics.CubeMesh6.TrianglesRight
+  name: TrianglesRight
+  href: api/Zigurous.Graphics.CubeMesh6.html#Zigurous_Graphics_CubeMesh6_TrianglesRight
+  commentId: F:Zigurous.Graphics.CubeMesh6.TrianglesRight
+  fullName: Zigurous.Graphics.CubeMesh6.TrianglesRight
+  nameWithType: CubeMesh6.TrianglesRight
+- uid: Zigurous.Graphics.CubeMesh6.TrianglesTop
+  name: TrianglesTop
+  href: api/Zigurous.Graphics.CubeMesh6.html#Zigurous_Graphics_CubeMesh6_TrianglesTop
+  commentId: F:Zigurous.Graphics.CubeMesh6.TrianglesTop
+  fullName: Zigurous.Graphics.CubeMesh6.TrianglesTop
+  nameWithType: CubeMesh6.TrianglesTop
 - uid: Zigurous.Graphics.Identifier
   name: Identifier
   href: api/Zigurous.Graphics.Identifier.html
@@ -685,6 +685,37 @@ references:
   commentId: F:Zigurous.Graphics.RenderingMode.Transparent
   fullName: Zigurous.Graphics.RenderingMode.Transparent
   nameWithType: RenderingMode.Transparent
+- uid: Zigurous.Graphics.SaveMesh
+  name: SaveMesh
+  href: api/Zigurous.Graphics.SaveMesh.html
+  commentId: T:Zigurous.Graphics.SaveMesh
+  fullName: Zigurous.Graphics.SaveMesh
+  nameWithType: SaveMesh
+- uid: Zigurous.Graphics.SaveMesh.assetName
+  name: assetName
+  href: api/Zigurous.Graphics.SaveMesh.html#Zigurous_Graphics_SaveMesh_assetName
+  commentId: F:Zigurous.Graphics.SaveMesh.assetName
+  fullName: Zigurous.Graphics.SaveMesh.assetName
+  nameWithType: SaveMesh.assetName
+- uid: Zigurous.Graphics.SaveMesh.Save
+  name: Save()
+  href: api/Zigurous.Graphics.SaveMesh.html#Zigurous_Graphics_SaveMesh_Save
+  commentId: M:Zigurous.Graphics.SaveMesh.Save
+  fullName: Zigurous.Graphics.SaveMesh.Save()
+  nameWithType: SaveMesh.Save()
+- uid: Zigurous.Graphics.SaveMesh.Save*
+  name: Save
+  href: api/Zigurous.Graphics.SaveMesh.html#Zigurous_Graphics_SaveMesh_Save_
+  commentId: Overload:Zigurous.Graphics.SaveMesh.Save
+  isSpec: "True"
+  fullName: Zigurous.Graphics.SaveMesh.Save
+  nameWithType: SaveMesh.Save
+- uid: Zigurous.Graphics.SaveMesh.saveOnStart
+  name: saveOnStart
+  href: api/Zigurous.Graphics.SaveMesh.html#Zigurous_Graphics_SaveMesh_saveOnStart
+  commentId: F:Zigurous.Graphics.SaveMesh.saveOnStart
+  fullName: Zigurous.Graphics.SaveMesh.saveOnStart
+  nameWithType: SaveMesh.saveOnStart
 - uid: Zigurous.Graphics.ShaderProperty
   name: ShaderProperty
   href: api/Zigurous.Graphics.ShaderProperty.html
@@ -739,6 +770,15 @@ references:
   fullName.vb: Zigurous.Graphics.ShaderProperty.Widening(System.String to Zigurous.Graphics.ShaderProperty)
   nameWithType: ShaderProperty.Implicit(String to ShaderProperty)
   nameWithType.vb: ShaderProperty.Widening(String to ShaderProperty)
+- uid: Zigurous.Graphics.ShaderProperty.op_Implicit(Zigurous.Graphics.ShaderProperty)~System.Int32
+  name: Implicit(ShaderProperty to Int32)
+  href: api/Zigurous.Graphics.ShaderProperty.html#Zigurous_Graphics_ShaderProperty_op_Implicit_Zigurous_Graphics_ShaderProperty__System_Int32
+  commentId: M:Zigurous.Graphics.ShaderProperty.op_Implicit(Zigurous.Graphics.ShaderProperty)~System.Int32
+  name.vb: Widening(ShaderProperty to Int32)
+  fullName: Zigurous.Graphics.ShaderProperty.Implicit(Zigurous.Graphics.ShaderProperty to System.Int32)
+  fullName.vb: Zigurous.Graphics.ShaderProperty.Widening(Zigurous.Graphics.ShaderProperty to System.Int32)
+  nameWithType: ShaderProperty.Implicit(ShaderProperty to Int32)
+  nameWithType.vb: ShaderProperty.Widening(ShaderProperty to Int32)
 - uid: Zigurous.Graphics.ShaderProperty.op_Implicit*
   name: Implicit
   href: api/Zigurous.Graphics.ShaderProperty.html#Zigurous_Graphics_ShaderProperty_op_Implicit_
@@ -755,24 +795,19 @@ references:
   commentId: T:Zigurous.Graphics.Triangle
   fullName: Zigurous.Graphics.Triangle
   nameWithType: Triangle
-- uid: Zigurous.Graphics.Triangle.a
-  name: a
-  href: api/Zigurous.Graphics.Triangle.html#Zigurous_Graphics_Triangle_a
-  commentId: F:Zigurous.Graphics.Triangle.a
-  fullName: Zigurous.Graphics.Triangle.a
-  nameWithType: Triangle.a
-- uid: Zigurous.Graphics.Triangle.b
-  name: b
-  href: api/Zigurous.Graphics.Triangle.html#Zigurous_Graphics_Triangle_b
-  commentId: F:Zigurous.Graphics.Triangle.b
-  fullName: Zigurous.Graphics.Triangle.b
-  nameWithType: Triangle.b
-- uid: Zigurous.Graphics.Triangle.c
-  name: c
-  href: api/Zigurous.Graphics.Triangle.html#Zigurous_Graphics_Triangle_c
-  commentId: F:Zigurous.Graphics.Triangle.c
-  fullName: Zigurous.Graphics.Triangle.c
-  nameWithType: Triangle.c
+- uid: Zigurous.Graphics.Triangle.#ctor(Vector3,Vector3,Vector3)
+  name: Triangle(Vector3, Vector3, Vector3)
+  href: api/Zigurous.Graphics.Triangle.html#Zigurous_Graphics_Triangle__ctor_Vector3_Vector3_Vector3_
+  commentId: M:Zigurous.Graphics.Triangle.#ctor(Vector3,Vector3,Vector3)
+  fullName: Zigurous.Graphics.Triangle.Triangle(Vector3, Vector3, Vector3)
+  nameWithType: Triangle.Triangle(Vector3, Vector3, Vector3)
+- uid: Zigurous.Graphics.Triangle.#ctor*
+  name: Triangle
+  href: api/Zigurous.Graphics.Triangle.html#Zigurous_Graphics_Triangle__ctor_
+  commentId: Overload:Zigurous.Graphics.Triangle.#ctor
+  isSpec: "True"
+  fullName: Zigurous.Graphics.Triangle.Triangle
+  nameWithType: Triangle.Triangle
 - uid: Zigurous.Graphics.Triangle.Equals(System.Object)
   name: Equals(Object)
   href: api/Zigurous.Graphics.Triangle.html#Zigurous_Graphics_Triangle_Equals_System_Object_
@@ -847,3 +882,34 @@ references:
   isSpec: "True"
   fullName: Zigurous.Graphics.Triangle.Inequality
   nameWithType: Triangle.Inequality
+- uid: Zigurous.Graphics.Triangle.ToString
+  name: ToString()
+  href: api/Zigurous.Graphics.Triangle.html#Zigurous_Graphics_Triangle_ToString
+  commentId: M:Zigurous.Graphics.Triangle.ToString
+  fullName: Zigurous.Graphics.Triangle.ToString()
+  nameWithType: Triangle.ToString()
+- uid: Zigurous.Graphics.Triangle.ToString*
+  name: ToString
+  href: api/Zigurous.Graphics.Triangle.html#Zigurous_Graphics_Triangle_ToString_
+  commentId: Overload:Zigurous.Graphics.Triangle.ToString
+  isSpec: "True"
+  fullName: Zigurous.Graphics.Triangle.ToString
+  nameWithType: Triangle.ToString
+- uid: Zigurous.Graphics.Triangle.v1
+  name: v1
+  href: api/Zigurous.Graphics.Triangle.html#Zigurous_Graphics_Triangle_v1
+  commentId: F:Zigurous.Graphics.Triangle.v1
+  fullName: Zigurous.Graphics.Triangle.v1
+  nameWithType: Triangle.v1
+- uid: Zigurous.Graphics.Triangle.v2
+  name: v2
+  href: api/Zigurous.Graphics.Triangle.html#Zigurous_Graphics_Triangle_v2
+  commentId: F:Zigurous.Graphics.Triangle.v2
+  fullName: Zigurous.Graphics.Triangle.v2
+  nameWithType: Triangle.v2
+- uid: Zigurous.Graphics.Triangle.v3
+  name: v3
+  href: api/Zigurous.Graphics.Triangle.html#Zigurous_Graphics_Triangle_v3
+  commentId: F:Zigurous.Graphics.Triangle.v3
+  fullName: Zigurous.Graphics.Triangle.v3
+  nameWithType: Triangle.v3
