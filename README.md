@@ -20,7 +20,7 @@
 | UI Toolkit        | ![](https://img.shields.io/badge/-com.zigurous.ui-lightgrey?color=4c4c4c)             | [![](https://img.shields.io/github/package-json/v/zigurous/unity-ui-toolkit)](https://github.com/zigurous/unity-ui-toolkit/releases)               | [![](https://img.shields.io/badge/docs-link-blue)](https://docs.zigurous.com/com.zigurous.ui)             | [![](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/zigurous/unity-ui-toolkit)        |
 
 
-### Unity Packages Early Access
+### Unity Packages Early Access (Exclusive)
 
 | Name | Identifier | Version | Docs | Repo |
 |:-----|:-----------|:--------|:-----|:-----|
