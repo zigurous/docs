@@ -4,11 +4,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class PrototypingMaterialStylePalette
-   | Prototyping Kit </title>
+    <title>Prefabs | Prototyping Kit </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class PrototypingMaterialStylePalette
-   | Prototyping Kit ">
+    <meta name="title" content="Prefabs | Prototyping Kit ">
     <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -79,84 +77,14 @@
                 <li></li>
               </ul>
             </div>
-            <article class="content wrap" id="_content" data-uid="Zigurous.Prototyping.PrototypingMaterialStylePalette">
-  
-  <h1 id="Zigurous_Prototyping_PrototypingMaterialStylePalette" data-uid="Zigurous.Prototyping.PrototypingMaterialStylePalette" class="text-break">Class PrototypingMaterialStylePalette
-  </h1>
-  <div class="markdown level0 summary"><p>An enumerated collection of preset styles.</p>
-</div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">PrototypingMaterialStylePalette</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Prototyping.html">Zigurous.Prototyping</a></h6>
-  <h5 id="Zigurous_Prototyping_PrototypingMaterialStylePalette_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class PrototypingMaterialStylePalette : ScriptableObject</code></pre>
-  </div>
-  <h3 id="fields">Fields
-  </h3>
-  <h4 id="Zigurous_Prototyping_PrototypingMaterialStylePalette_baseMaterial" data-uid="Zigurous.Prototyping.PrototypingMaterialStylePalette.baseMaterial">baseMaterial</h4>
-  <div class="markdown level1 summary"><p>The base material from which new materials are created.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Material baseMaterial</code></pre>
-  </div>
-  <h4 id="Zigurous_Prototyping_PrototypingMaterialStylePalette_styles" data-uid="Zigurous.Prototyping.PrototypingMaterialStylePalette.styles">styles</h4>
-  <div class="markdown level1 summary"><p>The available styles in the palette.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PrototypingMaterialStylePalette.Style[] styles</code></pre>
-  </div>
-  <h3 id="methods">Methods
-  </h3>
-  <a id="Zigurous_Prototyping_PrototypingMaterialStylePalette_CreateMaterialInstance_" data-uid="Zigurous.Prototyping.PrototypingMaterialStylePalette.CreateMaterialInstance*"></a>
-  <h4 id="Zigurous_Prototyping_PrototypingMaterialStylePalette_CreateMaterialInstance_Zigurous_Prototyping_PrototypingMaterialStylePreset_" data-uid="Zigurous.Prototyping.PrototypingMaterialStylePalette.CreateMaterialInstance(Zigurous.Prototyping.PrototypingMaterialStylePreset)">CreateMaterialInstance(PrototypingMaterialStylePreset)</h4>
-  <div class="markdown level1 summary"><p>Returns a new material instance for a given preset value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Material CreateMaterialInstance(PrototypingMaterialStylePreset preset)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.Prototyping.PrototypingMaterialStylePreset.html">PrototypingMaterialStylePreset</a></td>
-        <td><span class="parametername">preset</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Material</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="prefabs">Prefabs</h1>
+
+<p>The Prototyping Kit comes with several prefab objects, primarily for blocking out levels. The grid prefabs, such as the <code>Grid-Cube.prefab</code>, are the most commonly used objects as these are configured with a material selector and automatic tiling. Using the prefabs provides the most utility out of the box.</p>
+<h3 id="material-selector">Material Selector</h3>
+<p>The grid prefabs all have a <a class="xref" href="../api/Zigurous.Prototyping.MaterialSelector.html">Material Selector</a> script that allows you to select a material style and pattern from a list of presets. This means you can customize the look of every object, and it will change the materials automatically. By default, there are 20 styles and 14 patterns to choose from.</p>
+<h3 id="automatic-tiling">Automatic Tiling</h3>
+<p>The grid and checkerboard prefabs have a <a class="xref" href="../api/Zigurous.Prototyping.MaterialTiling.html">Material Tiling</a> script that automatically tiles the material based on the object's size. This is extremely convenient so you do not need to create different material variants for different sized objects. For cubes, this is made possible from a custom mesh applied to the object.</p>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">

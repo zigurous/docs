@@ -2,57 +2,57 @@
   "api/Zigurous.Prototyping.html": {
     "href": "api/Zigurous.Prototyping.html",
     "title": "Namespace Zigurous.Prototyping | Prototyping Kit",
-    "keywords": "Namespace Zigurous.Prototyping Classes PrototypingMaterialPatternPalette An enumerated collection of preset patterns. PrototypingMaterialSelector Assigns a renderer's material from a preset list of options. PrototypingMaterialStylePalette An enumerated collection of preset styles. PrototypingMaterialTiling Automatically tiles the material textures based on the object's scale. PrototypingMaterialTilingCube Automatically tiles the material textures based on the object's scale. PrototypingMaterialTilingPlane Automatically tiles the material textures based on the object's scale. Structs PrototypingMaterialPatternPalette.Pattern PrototypingMaterialStylePalette.Style Enums PrototypingMaterialPatternPreset PrototypingMaterialStylePreset"
+    "keywords": "Namespace Zigurous.Prototyping Classes MaterialPatternPalette A collection of material pattern presets. MaterialSelector Assigns a renderer's material from a preset list of options. MaterialStylePalette A collection of material style presets. MaterialTiling Automatically tiles the materials of an object based on its scale. MaterialTilingCube Automatically tiles the materials of a cube based on its scale. MaterialTilingPlane Automatically tiles the materials of a plane based on its scale. Structs MaterialPatternPalette.Pattern A material pattern, defined by a texture asset. MaterialStylePalette.Style A material style, defined by color, metallic, and smoothness values. Enums MaterialPatternPreset An enumerated preset of material patterns. MaterialStylePreset An enumerated preset of material styles."
   },
-  "api/Zigurous.Prototyping.PrototypingMaterialPatternPalette.html": {
-    "href": "api/Zigurous.Prototyping.PrototypingMaterialPatternPalette.html",
-    "title": "Class PrototypingMaterialPatternPalette | Prototyping Kit",
-    "keywords": "Class PrototypingMaterialPatternPalette An enumerated collection of preset patterns. Inheritance System.Object PrototypingMaterialPatternPalette Namespace : Zigurous.Prototyping Syntax public sealed class PrototypingMaterialPatternPalette : ScriptableObject Fields patterns The available patterns in the palette. Declaration public PrototypingMaterialPatternPalette.Pattern[] patterns Methods GetTexture(PrototypingMaterialPatternPreset) Returns the texture asset for a given preset value. Declaration public Texture2D GetTexture(PrototypingMaterialPatternPreset preset) Parameters Type Name Description PrototypingMaterialPatternPreset preset Returns Type Description Texture2D SetTexture(Material, PrototypingMaterialPatternPreset) Declaration public void SetTexture(Material material, PrototypingMaterialPatternPreset preset) Parameters Type Name Description Material material PrototypingMaterialPatternPreset preset"
+  "api/Zigurous.Prototyping.MaterialPatternPalette.html": {
+    "href": "api/Zigurous.Prototyping.MaterialPatternPalette.html",
+    "title": "Class MaterialPatternPalette | Prototyping Kit",
+    "keywords": "Class MaterialPatternPalette A collection of material pattern presets. Inheritance System.Object MaterialPatternPalette Namespace : Zigurous.Prototyping public sealed class MaterialPatternPalette : ScriptableObject Fields patterns The available patterns in the palette. public MaterialPatternPalette.Pattern[] patterns Methods GetTexture(MaterialPatternPreset) Returns the texture asset for the preset . public Texture2D GetTexture(MaterialPatternPreset preset) Parameter Description preset The preset to get the texture for. SetTexture(Material, MaterialPatternPreset) Applies the preset pattern texture to the material. public void SetTexture(Material material, MaterialPatternPreset preset) Parameter Description material The material to apply the pattern to. preset The preset to apply."
   },
-  "api/Zigurous.Prototyping.PrototypingMaterialPatternPalette.Pattern.html": {
-    "href": "api/Zigurous.Prototyping.PrototypingMaterialPatternPalette.Pattern.html",
-    "title": "Struct PrototypingMaterialPatternPalette.Pattern | Prototyping Kit",
-    "keywords": "Struct PrototypingMaterialPatternPalette.Pattern Namespace : Zigurous.Prototyping Syntax [Serializable] public struct Pattern Fields preset The preset enumeration value of the pattern. Declaration public PrototypingMaterialPatternPreset preset texture The texture of the pattern. Declaration public Texture2D texture"
+  "api/Zigurous.Prototyping.MaterialPatternPalette.Pattern.html": {
+    "href": "api/Zigurous.Prototyping.MaterialPatternPalette.Pattern.html",
+    "title": "Struct MaterialPatternPalette.Pattern | Prototyping Kit",
+    "keywords": "Struct MaterialPatternPalette.Pattern A material pattern, defined by a texture asset. Namespace : Zigurous.Prototyping [Serializable] public struct Pattern Fields preset The preset enumeration value of the pattern. public MaterialPatternPreset preset texture The texture of the pattern. public Texture2D texture"
   },
-  "api/Zigurous.Prototyping.PrototypingMaterialPatternPreset.html": {
-    "href": "api/Zigurous.Prototyping.PrototypingMaterialPatternPreset.html",
-    "title": "Enum PrototypingMaterialPatternPreset | Prototyping Kit",
-    "keywords": "Enum PrototypingMaterialPatternPreset Namespace : Zigurous.Prototyping Syntax public enum PrototypingMaterialPatternPreset Fields Name Description Pattern1 Pattern10 Pattern11 Pattern12 Pattern13 Pattern14 Pattern2 Pattern3 Pattern4 Pattern5 Pattern6 Pattern7 Pattern8 Pattern9"
+  "api/Zigurous.Prototyping.MaterialPatternPreset.html": {
+    "href": "api/Zigurous.Prototyping.MaterialPatternPreset.html",
+    "title": "Enum MaterialPatternPreset | Prototyping Kit",
+    "keywords": "Enum MaterialPatternPreset An enumerated preset of material patterns. Namespace : Zigurous.Prototyping public enum MaterialPatternPreset Fields Name Description Pattern1 Pattern10 Pattern11 Pattern12 Pattern13 Pattern14 Pattern2 Pattern3 Pattern4 Pattern5 Pattern6 Pattern7 Pattern8 Pattern9"
   },
-  "api/Zigurous.Prototyping.PrototypingMaterialSelector.html": {
-    "href": "api/Zigurous.Prototyping.PrototypingMaterialSelector.html",
-    "title": "Class PrototypingMaterialSelector | Prototyping Kit",
-    "keywords": "Class PrototypingMaterialSelector Assigns a renderer's material from a preset list of options. Inheritance System.Object PrototypingMaterialSelector Namespace : Zigurous.Prototyping Syntax public sealed class PrototypingMaterialSelector : MonoBehaviour Fields patterns The palette of available patterns. Declaration public PrototypingMaterialPatternPalette patterns styles The palette of available styles. Declaration public PrototypingMaterialStylePalette styles Properties pattern The selected pattern preset. Declaration public PrototypingMaterialPatternPreset pattern { get; set; } renderer The renderer that holds the material being selected. Declaration public Renderer renderer { get; } style The selected style preset. Declaration public PrototypingMaterialStylePreset style { get; set; }"
+  "api/Zigurous.Prototyping.MaterialSelector.html": {
+    "href": "api/Zigurous.Prototyping.MaterialSelector.html",
+    "title": "Class MaterialSelector | Prototyping Kit",
+    "keywords": "Class MaterialSelector Assigns a renderer's material from a preset list of options. Inheritance System.Object MaterialSelector Namespace : Zigurous.Prototyping public sealed class MaterialSelector : MonoBehaviour Fields patterns The palette of available patterns. public MaterialPatternPalette patterns styles The palette of available styles. public MaterialStylePalette styles Properties pattern The selected pattern preset. public MaterialPatternPreset pattern { get; set; } renderer The renderer that holds the material being selected. public Renderer renderer { get; } style The selected style preset. public MaterialStylePreset style { get; set; }"
   },
-  "api/Zigurous.Prototyping.PrototypingMaterialStylePalette.html": {
-    "href": "api/Zigurous.Prototyping.PrototypingMaterialStylePalette.html",
-    "title": "Class PrototypingMaterialStylePalette | Prototyping Kit",
-    "keywords": "Class PrototypingMaterialStylePalette An enumerated collection of preset styles. Inheritance System.Object PrototypingMaterialStylePalette Namespace : Zigurous.Prototyping Syntax public sealed class PrototypingMaterialStylePalette : ScriptableObject Fields baseMaterial The base material from which new materials are created. Declaration public Material baseMaterial styles The available styles in the palette. Declaration public PrototypingMaterialStylePalette.Style[] styles Methods CreateMaterialInstance(PrototypingMaterialStylePreset) Returns a new material instance for a given preset value. Declaration public Material CreateMaterialInstance(PrototypingMaterialStylePreset preset) Parameters Type Name Description PrototypingMaterialStylePreset preset Returns Type Description Material"
+  "api/Zigurous.Prototyping.MaterialStylePalette.html": {
+    "href": "api/Zigurous.Prototyping.MaterialStylePalette.html",
+    "title": "Class MaterialStylePalette | Prototyping Kit",
+    "keywords": "Class MaterialStylePalette A collection of material style presets. Inheritance System.Object MaterialStylePalette Namespace : Zigurous.Prototyping public sealed class MaterialStylePalette : ScriptableObject Fields baseMaterial The base material from which new materials are created. public Material baseMaterial styles The available styles in the palette. public MaterialStylePalette.Style[] styles Methods CreateMaterialInstance(MaterialStylePreset) Returns a new material instance for the preset . public Material CreateMaterialInstance(MaterialStylePreset preset) Parameter Description preset The preset for the material."
   },
-  "api/Zigurous.Prototyping.PrototypingMaterialStylePalette.Style.html": {
-    "href": "api/Zigurous.Prototyping.PrototypingMaterialStylePalette.Style.html",
-    "title": "Struct PrototypingMaterialStylePalette.Style | Prototyping Kit",
-    "keywords": "Struct PrototypingMaterialStylePalette.Style Namespace : Zigurous.Prototyping Syntax [Serializable] public struct Style Fields color The color of the material style. Declaration public Color color metallic Declaration public float metallic preset The preset enumeration value of the style. Declaration public PrototypingMaterialStylePreset preset smoothness Declaration public float smoothness"
+  "api/Zigurous.Prototyping.MaterialStylePalette.Style.html": {
+    "href": "api/Zigurous.Prototyping.MaterialStylePalette.Style.html",
+    "title": "Struct MaterialStylePalette.Style | Prototyping Kit",
+    "keywords": "Struct MaterialStylePalette.Style A material style, defined by color, metallic, and smoothness values. Namespace : Zigurous.Prototyping [Serializable] public struct Style Fields color The color of the material style. public Color color metallic The metallic value of the material style. public float metallic preset The preset enumeration value of the style. public MaterialStylePreset preset smoothness The smoothness value of the material style. public float smoothness"
   },
-  "api/Zigurous.Prototyping.PrototypingMaterialStylePreset.html": {
-    "href": "api/Zigurous.Prototyping.PrototypingMaterialStylePreset.html",
-    "title": "Enum PrototypingMaterialStylePreset | Prototyping Kit",
-    "keywords": "Enum PrototypingMaterialStylePreset Namespace : Zigurous.Prototyping Syntax public enum PrototypingMaterialStylePreset Fields Name Description Azure Black Blue Brown Custom1 Custom2 Custom3 Custom4 Custom5 Cyan DarkGray Glass Gray Green Indigo LightGray Lime Magenta None Orange Pink Purple Red Teal White Yellow"
+  "api/Zigurous.Prototyping.MaterialStylePreset.html": {
+    "href": "api/Zigurous.Prototyping.MaterialStylePreset.html",
+    "title": "Enum MaterialStylePreset | Prototyping Kit",
+    "keywords": "Enum MaterialStylePreset An enumerated preset of material styles. Namespace : Zigurous.Prototyping public enum MaterialStylePreset Fields Name Description Azure Black Blue Brown Custom1 Custom2 Custom3 Custom4 Custom5 Cyan DarkGray Glass Gray Green Indigo LightGray Lime Magenta None Orange Pink Purple Red Teal White Yellow"
   },
-  "api/Zigurous.Prototyping.PrototypingMaterialTiling.html": {
-    "href": "api/Zigurous.Prototyping.PrototypingMaterialTiling.html",
-    "title": "Class PrototypingMaterialTiling | Prototyping Kit",
-    "keywords": "Class PrototypingMaterialTiling Automatically tiles the material textures based on the object's scale. Inheritance System.Object PrototypingMaterialTiling PrototypingMaterialTilingCube PrototypingMaterialTilingPlane Namespace : Zigurous.Prototyping Syntax public abstract class PrototypingMaterialTiling : MonoBehaviour Fields autoUpdate Whether the material texture(s) are tiled automatically when the transform changes. Declaration public bool autoUpdate Properties renderer The renderer component of the material being tiled. Declaration public Renderer renderer { get; } Methods Tile() Declaration public void Tile() UpdateMaterial(Material, Vector2) Declaration protected void UpdateMaterial(Material material, Vector2 scale) Parameters Type Name Description Material material Vector2 scale UpdateMaterials() Declaration protected abstract void UpdateMaterials() UpdateMaterialsInEditor() Declaration protected abstract void UpdateMaterialsInEditor()"
+  "api/Zigurous.Prototyping.MaterialTiling.html": {
+    "href": "api/Zigurous.Prototyping.MaterialTiling.html",
+    "title": "Class MaterialTiling | Prototyping Kit",
+    "keywords": "Class MaterialTiling Automatically tiles the materials of an object based on its scale. Inheritance System.Object MaterialTiling MaterialTilingCube MaterialTilingPlane Namespace : Zigurous.Prototyping public abstract class MaterialTiling : MonoBehaviour Fields autoUpdate Whether the material texture(s) are tiled automatically when the transform changes. public bool autoUpdate Properties renderer The renderer component of the material being tiled. public Renderer renderer { get; } Methods SetTextureScale(Material, Vector2) Sets the texture scale of the material to the provided scale . protected void SetTextureScale(Material material, Vector2 scale) Parameter Description material The material to set the texture scale of. scale The texture scale to set. Tile() Tiles the materials of the object. public void Tile() UpdateMaterials() Updates the materials of the object. protected abstract void UpdateMaterials() UpdateMaterialsInEditor() Updates the materials of the object while running in the editor. protected abstract void UpdateMaterialsInEditor()"
   },
-  "api/Zigurous.Prototyping.PrototypingMaterialTilingCube.html": {
-    "href": "api/Zigurous.Prototyping.PrototypingMaterialTilingCube.html",
-    "title": "Class PrototypingMaterialTilingCube | Prototyping Kit",
-    "keywords": "Class PrototypingMaterialTilingCube Automatically tiles the material textures based on the object's scale. Inheritance System.Object PrototypingMaterialTiling PrototypingMaterialTilingCube Inherited Members PrototypingMaterialTiling.renderer PrototypingMaterialTiling.autoUpdate PrototypingMaterialTiling.Tile() PrototypingMaterialTiling.UpdateMaterial(Material, Vector2) PrototypingMaterialTiling.UpdateMaterialsInEditor() Namespace : Zigurous.Prototyping Syntax public sealed class PrototypingMaterialTilingCube : PrototypingMaterialTiling Methods UpdateMaterials() Declaration protected override void UpdateMaterials() Overrides PrototypingMaterialTiling.UpdateMaterials()"
+  "api/Zigurous.Prototyping.MaterialTilingCube.html": {
+    "href": "api/Zigurous.Prototyping.MaterialTilingCube.html",
+    "title": "Class MaterialTilingCube | Prototyping Kit",
+    "keywords": "Class MaterialTilingCube Automatically tiles the materials of a cube based on its scale. Inheritance System.Object MaterialTiling MaterialTilingCube Inherited Members MaterialTiling.renderer MaterialTiling.autoUpdate MaterialTiling.Tile() MaterialTiling.SetTextureScale(Material, Vector2) Namespace : Zigurous.Prototyping public sealed class MaterialTilingCube : MaterialTiling Methods UpdateMaterials() Updates the materials of the object. protected override void UpdateMaterials() Overrides MaterialTiling.UpdateMaterials() UpdateMaterialsInEditor() Updates the materials of the object while running in the editor. protected override void UpdateMaterialsInEditor() Overrides MaterialTiling.UpdateMaterialsInEditor()"
   },
-  "api/Zigurous.Prototyping.PrototypingMaterialTilingPlane.html": {
-    "href": "api/Zigurous.Prototyping.PrototypingMaterialTilingPlane.html",
-    "title": "Class PrototypingMaterialTilingPlane | Prototyping Kit",
-    "keywords": "Class PrototypingMaterialTilingPlane Automatically tiles the material textures based on the object's scale. Inheritance System.Object PrototypingMaterialTiling PrototypingMaterialTilingPlane Inherited Members PrototypingMaterialTiling.renderer PrototypingMaterialTiling.autoUpdate PrototypingMaterialTiling.Tile() PrototypingMaterialTiling.UpdateMaterial(Material, Vector2) Namespace : Zigurous.Prototyping Syntax public sealed class PrototypingMaterialTilingPlane : PrototypingMaterialTiling Methods UpdateMaterials() Declaration protected override void UpdateMaterials() Overrides PrototypingMaterialTiling.UpdateMaterials() UpdateMaterialsInEditor() Declaration protected override void UpdateMaterialsInEditor() Overrides PrototypingMaterialTiling.UpdateMaterialsInEditor()"
+  "api/Zigurous.Prototyping.MaterialTilingPlane.html": {
+    "href": "api/Zigurous.Prototyping.MaterialTilingPlane.html",
+    "title": "Class MaterialTilingPlane | Prototyping Kit",
+    "keywords": "Class MaterialTilingPlane Automatically tiles the materials of a plane based on its scale. Inheritance System.Object MaterialTiling MaterialTilingPlane Inherited Members MaterialTiling.renderer MaterialTiling.autoUpdate MaterialTiling.Tile() MaterialTiling.SetTextureScale(Material, Vector2) Namespace : Zigurous.Prototyping public sealed class MaterialTilingPlane : MaterialTiling Methods UpdateMaterials() Updates the materials of the object. protected override void UpdateMaterials() Overrides MaterialTiling.UpdateMaterials() UpdateMaterialsInEditor() Updates the materials of the object while running in the editor. protected override void UpdateMaterialsInEditor() Overrides MaterialTiling.UpdateMaterialsInEditor()"
   },
   "changelog/CHANGELOG.html": {
     "href": "changelog/CHANGELOG.html",
@@ -67,11 +67,26 @@
   "manual/index.html": {
     "href": "manual/index.html",
     "title": "Prototyping Kit | Prototyping Kit",
-    "keywords": "Prototyping Kit The Prototyping Kit package contains assets and materials for prototyping levels in Unity."
+    "keywords": "Prototyping Kit The Prototyping Kit package contains assets and materials for prototyping levels in Unity. The best feature of the package is the ability for objects to be styled without needing to create new materials, and the ability for those materials to be automatically tiled based on the object's size. The package is still in development, and more functionality will be added over time. Reference Prefabs Materials Textures"
   },
   "manual/installation.html": {
     "href": "manual/installation.html",
     "title": "Installation | Prototyping Kit",
     "keywords": "Installation Use the Unity Package Manager to install the Prototyping Kit package. Open the Package Manager in Window > Package Manager Click the add ( + ) button in the status bar Select Add package from git URL from the add menu Enter the following Git URL in the text box and click Add: https://github.com/zigurous/unity-prototyping-kit.git For more information on the Package Manager and installing packages, see the following pages: Unity's Package Manager Installing from a Git URL Importing Import the package namespace in each script or file you want to use it. Note : You may need to regenerate project files/assemblies first. using Zigurous.Prototyping; Source Code The source code for the Prototyping Kit package is in the following repository: https://github.com/zigurous/unity-prototyping-kit"
+  },
+  "manual/materials.html": {
+    "href": "manual/materials.html",
+    "title": "Materials | Prototyping Kit",
+    "keywords": "Materials The Prototyping Kit includes various materials for prototyping purposes, including checkerboard patterns, grid patterns, and more. Most of the materials are rendered using Unity's standard shader, but there is also an included shader for drawing checkerboard patterns, and one for mapping a cubemap texture onto an object. Styles and Patterns Many of the prefabs included in the package are configured with a Material Selector script that allows you to customize an object's material using various style and pattern presets. By default, there are 20 styles and 14 different patterns to choose from. A style is defined by color, metallic, and smoothness values. A pattern is defined by a texture (see the Textures manual). You can also create your own palettes from the asset creation menu Assets > Create > Zigurous > Prototyping in the Unity editor."
+  },
+  "manual/prefabs.html": {
+    "href": "manual/prefabs.html",
+    "title": "Prefabs | Prototyping Kit",
+    "keywords": "Prefabs The Prototyping Kit comes with several prefab objects, primarily for blocking out levels. The grid prefabs, such as the Grid-Cube.prefab , are the most commonly used objects as these are configured with a material selector and automatic tiling. Using the prefabs provides the most utility out of the box. Material Selector The grid prefabs all have a Material Selector script that allows you to select a material style and pattern from a list of presets. This means you can customize the look of every object, and it will change the materials automatically. By default, there are 20 styles and 14 patterns to choose from. Automatic Tiling The grid and checkerboard prefabs have a Material Tiling script that automatically tiles the material based on the object's size. This is extremely convenient so you do not need to create different material variants for different sized objects. For cubes, this is made possible from a custom mesh applied to the object."
+  },
+  "manual/textures.html": {
+    "href": "manual/textures.html",
+    "title": "Textures | Prototyping Kit",
+    "keywords": "Textures The Prototyping Kit includes over a dozen different texture variants. Most of these are grid and checkerboard patterns. The grid patterns are intended to be used as emission maps so the grid lines are still visible in dark environments. Changing the emission color will change the overall color of the texture. The other textures can be used normally as the main texture of a material. Images"
   }
 }

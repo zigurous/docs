@@ -26,11 +26,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Prototyping.PrototypingMaterialPatternPalette.Pattern.yml",
+      "source_relative_path": "api/Zigurous.Prototyping.MaterialPatternPalette.Pattern.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.Prototyping.PrototypingMaterialPatternPalette.Pattern.html",
-          "hash": "ortwuBAdAyfeyjMWQ/xDzchp3iVPYax12lKdNEWCysg="
+          "relative_path": "api/Zigurous.Prototyping.MaterialPatternPalette.Pattern.html",
+          "hash": "J1ABWN7JM6jgSnErYXrZoAYf0KVD1QnMJoCzTvPoM1Q="
         }
       },
       "is_incremental": false,
@@ -38,11 +38,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Prototyping.PrototypingMaterialPatternPalette.yml",
+      "source_relative_path": "api/Zigurous.Prototyping.MaterialPatternPalette.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.Prototyping.PrototypingMaterialPatternPalette.html",
-          "hash": "qvANHY7CPGEtxi73LLxjNm1AxlkCtNx7wkrvTADQ64w="
+          "relative_path": "api/Zigurous.Prototyping.MaterialPatternPalette.html",
+          "hash": "IuhIVZaccDVxfnVjKD0BLLmWkXP9SbtbasCooHX3X+0="
         }
       },
       "is_incremental": false,
@@ -50,11 +50,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Prototyping.PrototypingMaterialPatternPreset.yml",
+      "source_relative_path": "api/Zigurous.Prototyping.MaterialPatternPreset.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.Prototyping.PrototypingMaterialPatternPreset.html",
-          "hash": "wtBchfiZDQ0VWoTQqlVpTzLQr3HOiJ2vLoh2dl1lmZg="
+          "relative_path": "api/Zigurous.Prototyping.MaterialPatternPreset.html",
+          "hash": "u15w5mgrcxAk8OTl5cipIfqeYEak8U1YRelI0Cv5LgU="
         }
       },
       "is_incremental": false,
@@ -62,11 +62,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Prototyping.PrototypingMaterialSelector.yml",
+      "source_relative_path": "api/Zigurous.Prototyping.MaterialSelector.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.Prototyping.PrototypingMaterialSelector.html",
-          "hash": "z/TyD+RgER/0QJ0SYGFIiRgTMRj7GEXGeKt0uGxS5Og="
+          "relative_path": "api/Zigurous.Prototyping.MaterialSelector.html",
+          "hash": "Qxlm4xQQEFC1j5vxaYGmydNl1yn/naWLvFVo/0lzB1E="
         }
       },
       "is_incremental": false,
@@ -74,11 +74,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Prototyping.PrototypingMaterialStylePalette.Style.yml",
+      "source_relative_path": "api/Zigurous.Prototyping.MaterialStylePalette.Style.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.Prototyping.PrototypingMaterialStylePalette.Style.html",
-          "hash": "XXqYsDmbdkpHzSJV5/PuKbz3yM/uSHN4c/T4utyEw/k="
+          "relative_path": "api/Zigurous.Prototyping.MaterialStylePalette.Style.html",
+          "hash": "QDbIofPpsXd5aR3cJHsjmUa5qmkQgcBxhu4BacG7GkI="
         }
       },
       "is_incremental": false,
@@ -86,11 +86,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Prototyping.PrototypingMaterialStylePalette.yml",
+      "source_relative_path": "api/Zigurous.Prototyping.MaterialStylePalette.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.Prototyping.PrototypingMaterialStylePalette.html",
-          "hash": "C4onpPLkGn3ZM/GYI8EMbOHdnISkYNkuva0JVSb7oAU="
+          "relative_path": "api/Zigurous.Prototyping.MaterialStylePalette.html",
+          "hash": "qUcXwARJirv/144D08wxGn3v0weWi3lLAuLAliTip/E="
         }
       },
       "is_incremental": false,
@@ -98,11 +98,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Prototyping.PrototypingMaterialStylePreset.yml",
+      "source_relative_path": "api/Zigurous.Prototyping.MaterialStylePreset.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.Prototyping.PrototypingMaterialStylePreset.html",
-          "hash": "W/KQ3oSer8v/0Gnv4DOUtuuFjHcILVsIyQHC8cEo+9Q="
+          "relative_path": "api/Zigurous.Prototyping.MaterialStylePreset.html",
+          "hash": "9Yb2F7njAHNlLsuT+4g2zKAYcvq1DXg+Lsosg4rVw14="
         }
       },
       "is_incremental": false,
@@ -110,11 +110,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Prototyping.PrototypingMaterialTiling.yml",
+      "source_relative_path": "api/Zigurous.Prototyping.MaterialTiling.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.Prototyping.PrototypingMaterialTiling.html",
-          "hash": "ynxKhEFXmpZCgyn7I4wsYaO6w96QmqOzRtRRK6pPdac="
+          "relative_path": "api/Zigurous.Prototyping.MaterialTiling.html",
+          "hash": "SHaWWcOOPAVvoUH+ZIt/aOP3IKWK/+H/i8OJCzNUdHo="
         }
       },
       "is_incremental": false,
@@ -122,11 +122,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Prototyping.PrototypingMaterialTilingCube.yml",
+      "source_relative_path": "api/Zigurous.Prototyping.MaterialTilingCube.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.Prototyping.PrototypingMaterialTilingCube.html",
-          "hash": "JlJgjfoTCJzqlenkqZFSjcrMIhhCCtYC8ijNPVDlgVo="
+          "relative_path": "api/Zigurous.Prototyping.MaterialTilingCube.html",
+          "hash": "bNSvn1R9wR2fs1ZuhvTvRoG/gE07ucfxIadfGMvrWHo="
         }
       },
       "is_incremental": false,
@@ -134,11 +134,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Prototyping.PrototypingMaterialTilingPlane.yml",
+      "source_relative_path": "api/Zigurous.Prototyping.MaterialTilingPlane.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.Prototyping.PrototypingMaterialTilingPlane.html",
-          "hash": "WVjHRtVs9KNU2kj/GpxXLpyB6Zz3mFoJzRwUKcN6Fxk="
+          "relative_path": "api/Zigurous.Prototyping.MaterialTilingPlane.html",
+          "hash": "Uf8N51Ds1zuIddOguKgBtqbERsvYDGJwzI7g/+oVSiQ="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Prototyping.html",
-          "hash": "ef2Q1vbVlp7JF2GVQAni/MFotATqvLM1S+CDlm0Ea38="
+          "hash": "ii22+OcFZIepo46BeEL84lEQLLSdVkOXl/A0FCyiUPM="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "r0RGIboqfFWS+0nE/Nt8rLqTeqpRLiPoHCbNcKX8Q4s="
+          "hash": "q10Dn3TD78QS6CDunxYbZygkzwHDLCVt8mbmudOYXy4="
         }
       },
       "is_incremental": false,
@@ -186,6 +186,215 @@
       "output": {
         "resource": {
           "relative_path": "favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/material-selector.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/material-selector.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/textures/Checkerboard-2x2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/textures/Checkerboard-2x2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/textures/Checkerboard-4x4.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/textures/Checkerboard-4x4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/textures/Checkerboard-8x8.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/textures/Checkerboard-8x8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/textures/Cubemap-Template.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/textures/Cubemap-Template.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/textures/Grid-Pattern-01.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/textures/Grid-Pattern-01.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/textures/Grid-Pattern-02.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/textures/Grid-Pattern-02.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/textures/Grid-Pattern-03.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/textures/Grid-Pattern-03.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/textures/Grid-Pattern-04.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/textures/Grid-Pattern-04.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/textures/Grid-Pattern-05.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/textures/Grid-Pattern-05.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/textures/Grid-Pattern-06.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/textures/Grid-Pattern-06.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/textures/Grid-Pattern-07.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/textures/Grid-Pattern-07.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/textures/Grid-Pattern-08.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/textures/Grid-Pattern-08.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/textures/Grid-Pattern-09.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/textures/Grid-Pattern-09.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/textures/Grid-Pattern-10.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/textures/Grid-Pattern-10.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/textures/Grid-Pattern-11.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/textures/Grid-Pattern-11.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/textures/Grid-Pattern-12.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/textures/Grid-Pattern-12.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/textures/Grid-Pattern-13.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/textures/Grid-Pattern-13.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/textures/Grid-Pattern-14.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/textures/Grid-Pattern-14.png"
         }
       },
       "is_incremental": false,
@@ -243,7 +452,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/index.html",
-          "hash": "cmyZG+a1sUdXEhsq/5VCdJmi6njNcxIdM50ZBqKQx2A="
+          "hash": "MDHiYCX5xrTMILFNC1Ge7KGLEuTVhWfIDPX+THsJqf8="
         }
       },
       "is_incremental": false,
@@ -262,12 +471,48 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "manual/materials.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/materials.html",
+          "hash": "HK9znhduAqMpN2oAyk7T4RCO3mz2SuT6qX17NV3TP8I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/prefabs.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/prefabs.html",
+          "hash": "w7/oPYKsvxG3WJVxD5VEgcTRib5ZujxGfP1TMx09qzs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/textures.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/textures.html",
+          "hash": "0QCZMbyyVduNABH2JbhstJVXGI48wjoU/Sj6AM5y3ek="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "manual/toc.yml",
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "AUBmkjcV6Rgc5XQX3SpA8j/bnbBPgpTg+VqyBcLddP4="
+          "hash": "5Cc+ByZBHet+l6CTXUFwOyv31NMj0pwwebotfN4wHJ4="
         }
       },
       "is_incremental": false,
@@ -300,7 +545,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 4,
+          "total_file_count": 7,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {

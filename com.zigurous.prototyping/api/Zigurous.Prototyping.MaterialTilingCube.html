@@ -4,10 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class PrototypingMaterialSelector
+    <title>Class MaterialTilingCube
    | Prototyping Kit </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class PrototypingMaterialSelector
+    <meta name="title" content="Class MaterialTilingCube
    | Prototyping Kit ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -79,70 +79,59 @@
                 <li></li>
               </ul>
             </div>
-            <article class="content wrap" id="_content" data-uid="Zigurous.Prototyping.PrototypingMaterialSelector">
-  
-  <h1 id="Zigurous_Prototyping_PrototypingMaterialSelector" data-uid="Zigurous.Prototyping.PrototypingMaterialSelector" class="text-break">Class PrototypingMaterialSelector
+            <article class="content wrap" id="_content" data-uid="Zigurous.Prototyping.MaterialTilingCube">
+  <h1 id="Zigurous_Prototyping_MaterialTilingCube" data-uid="Zigurous.Prototyping.MaterialTilingCube" class="text-break">Class MaterialTilingCube
   </h1>
-  <div class="markdown level0 summary"><p>Assigns a renderer's material from a preset list of options.</p>
+  <div class="markdown level0 summary"><p>Automatically tiles the materials of a cube based on its scale.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">PrototypingMaterialSelector</span></div>
+    <div class="level1"><a class="xref" href="Zigurous.Prototyping.MaterialTiling.html">MaterialTiling</a></div>
+    <div class="level2"><span class="xref">MaterialTilingCube</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Zigurous.Prototyping.MaterialTiling.html#Zigurous_Prototyping_MaterialTiling_renderer">MaterialTiling.renderer</a>
+    </div>
+    <div>
+      <a class="xref" href="Zigurous.Prototyping.MaterialTiling.html#Zigurous_Prototyping_MaterialTiling_autoUpdate">MaterialTiling.autoUpdate</a>
+    </div>
+    <div>
+      <a class="xref" href="Zigurous.Prototyping.MaterialTiling.html#Zigurous_Prototyping_MaterialTiling_Tile">MaterialTiling.Tile()</a>
+    </div>
+    <div>
+      <a class="xref" href="Zigurous.Prototyping.MaterialTiling.html#Zigurous_Prototyping_MaterialTiling_SetTextureScale_Material_Vector2_">MaterialTiling.SetTextureScale(Material, Vector2)</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Prototyping.html">Zigurous.Prototyping</a></h6>
-  <h5 id="Zigurous_Prototyping_PrototypingMaterialSelector_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class PrototypingMaterialSelector : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class MaterialTilingCube : MaterialTiling</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="methods">Methods
   </h3>
-  <h4 id="Zigurous_Prototyping_PrototypingMaterialSelector_patterns" data-uid="Zigurous.Prototyping.PrototypingMaterialSelector.patterns">patterns</h4>
-  <div class="markdown level1 summary"><p>The palette of available patterns.</p>
+  <a id="Zigurous_Prototyping_MaterialTilingCube_UpdateMaterials_" data-uid="Zigurous.Prototyping.MaterialTilingCube.UpdateMaterials*"></a>
+  <h4 id="Zigurous_Prototyping_MaterialTilingCube_UpdateMaterials" data-uid="Zigurous.Prototyping.MaterialTilingCube.UpdateMaterials">UpdateMaterials()</h4>
+  <div class="markdown level1 summary"><p>Updates the materials of the object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PrototypingMaterialPatternPalette patterns</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void UpdateMaterials()</code></pre>
   </div>
-  <h4 id="Zigurous_Prototyping_PrototypingMaterialSelector_styles" data-uid="Zigurous.Prototyping.PrototypingMaterialSelector.styles">styles</h4>
-  <div class="markdown level1 summary"><p>The palette of available styles.</p>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Zigurous.Prototyping.MaterialTiling.html#Zigurous_Prototyping_MaterialTiling_UpdateMaterials">MaterialTiling.UpdateMaterials()</a></div>
+  <a id="Zigurous_Prototyping_MaterialTilingCube_UpdateMaterialsInEditor_" data-uid="Zigurous.Prototyping.MaterialTilingCube.UpdateMaterialsInEditor*"></a>
+  <h4 id="Zigurous_Prototyping_MaterialTilingCube_UpdateMaterialsInEditor" data-uid="Zigurous.Prototyping.MaterialTilingCube.UpdateMaterialsInEditor">UpdateMaterialsInEditor()</h4>
+  <div class="markdown level1 summary"><p>Updates the materials of the object while running in the editor.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PrototypingMaterialStylePalette styles</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void UpdateMaterialsInEditor()</code></pre>
   </div>
-  <h3 id="properties">Properties
-  </h3>
-  <a id="Zigurous_Prototyping_PrototypingMaterialSelector_pattern_" data-uid="Zigurous.Prototyping.PrototypingMaterialSelector.pattern*"></a>
-  <h4 id="Zigurous_Prototyping_PrototypingMaterialSelector_pattern" data-uid="Zigurous.Prototyping.PrototypingMaterialSelector.pattern">pattern</h4>
-  <div class="markdown level1 summary"><p>The selected pattern preset.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PrototypingMaterialPatternPreset pattern { get; set; }</code></pre>
-  </div>
-  <a id="Zigurous_Prototyping_PrototypingMaterialSelector_renderer_" data-uid="Zigurous.Prototyping.PrototypingMaterialSelector.renderer*"></a>
-  <h4 id="Zigurous_Prototyping_PrototypingMaterialSelector_renderer" data-uid="Zigurous.Prototyping.PrototypingMaterialSelector.renderer">renderer</h4>
-  <div class="markdown level1 summary"><p>The renderer that holds the material being selected.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Renderer renderer { get; }</code></pre>
-  </div>
-  <a id="Zigurous_Prototyping_PrototypingMaterialSelector_style_" data-uid="Zigurous.Prototyping.PrototypingMaterialSelector.style*"></a>
-  <h4 id="Zigurous_Prototyping_PrototypingMaterialSelector_style" data-uid="Zigurous.Prototyping.PrototypingMaterialSelector.style">style</h4>
-  <div class="markdown level1 summary"><p>The selected style preset.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PrototypingMaterialStylePreset style { get; set; }</code></pre>
-  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Zigurous.Prototyping.MaterialTiling.html#Zigurous_Prototyping_MaterialTiling_UpdateMaterialsInEditor">MaterialTiling.UpdateMaterialsInEditor()</a></div>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">
