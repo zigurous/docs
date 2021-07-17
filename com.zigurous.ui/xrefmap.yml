@@ -7,6 +7,160 @@ references:
   commentId: N:Zigurous.UI
   fullName: Zigurous.UI
   nameWithType: Zigurous.UI
+- uid: Zigurous.UI.CanvasExtensions
+  name: CanvasExtensions
+  href: api/Zigurous.UI.CanvasExtensions.html
+  commentId: T:Zigurous.UI.CanvasExtensions
+  fullName: Zigurous.UI.CanvasExtensions
+  nameWithType: CanvasExtensions
+- uid: Zigurous.UI.CanvasExtensions.FadeInGraphics(Canvas,System.Single,System.Boolean)
+  name: FadeInGraphics(Canvas, Single, Boolean)
+  href: api/Zigurous.UI.CanvasExtensions.html#Zigurous_UI_CanvasExtensions_FadeInGraphics_Canvas_System_Single_System_Boolean_
+  commentId: M:Zigurous.UI.CanvasExtensions.FadeInGraphics(Canvas,System.Single,System.Boolean)
+  fullName: Zigurous.UI.CanvasExtensions.FadeInGraphics(Canvas, System.Single, System.Boolean)
+  nameWithType: CanvasExtensions.FadeInGraphics(Canvas, Single, Boolean)
+- uid: Zigurous.UI.CanvasExtensions.FadeInGraphics*
+  name: FadeInGraphics
+  href: api/Zigurous.UI.CanvasExtensions.html#Zigurous_UI_CanvasExtensions_FadeInGraphics_
+  commentId: Overload:Zigurous.UI.CanvasExtensions.FadeInGraphics
+  isSpec: "True"
+  fullName: Zigurous.UI.CanvasExtensions.FadeInGraphics
+  nameWithType: CanvasExtensions.FadeInGraphics
+- uid: Zigurous.UI.CanvasExtensions.FadeOutGraphics(Canvas,System.Single,System.Boolean)
+  name: FadeOutGraphics(Canvas, Single, Boolean)
+  href: api/Zigurous.UI.CanvasExtensions.html#Zigurous_UI_CanvasExtensions_FadeOutGraphics_Canvas_System_Single_System_Boolean_
+  commentId: M:Zigurous.UI.CanvasExtensions.FadeOutGraphics(Canvas,System.Single,System.Boolean)
+  fullName: Zigurous.UI.CanvasExtensions.FadeOutGraphics(Canvas, System.Single, System.Boolean)
+  nameWithType: CanvasExtensions.FadeOutGraphics(Canvas, Single, Boolean)
+- uid: Zigurous.UI.CanvasExtensions.FadeOutGraphics*
+  name: FadeOutGraphics
+  href: api/Zigurous.UI.CanvasExtensions.html#Zigurous_UI_CanvasExtensions_FadeOutGraphics_
+  commentId: Overload:Zigurous.UI.CanvasExtensions.FadeOutGraphics
+  isSpec: "True"
+  fullName: Zigurous.UI.CanvasExtensions.FadeOutGraphics
+  nameWithType: CanvasExtensions.FadeOutGraphics
+- uid: Zigurous.UI.GraphicExtensions
+  name: GraphicExtensions
+  href: api/Zigurous.UI.GraphicExtensions.html
+  commentId: T:Zigurous.UI.GraphicExtensions
+  fullName: Zigurous.UI.GraphicExtensions
+  nameWithType: GraphicExtensions
+- uid: Zigurous.UI.GraphicExtensions.FadeIn(Graphic,System.Single,System.Boolean)
+  name: FadeIn(Graphic, Single, Boolean)
+  href: api/Zigurous.UI.GraphicExtensions.html#Zigurous_UI_GraphicExtensions_FadeIn_Graphic_System_Single_System_Boolean_
+  commentId: M:Zigurous.UI.GraphicExtensions.FadeIn(Graphic,System.Single,System.Boolean)
+  fullName: Zigurous.UI.GraphicExtensions.FadeIn(Graphic, System.Single, System.Boolean)
+  nameWithType: GraphicExtensions.FadeIn(Graphic, Single, Boolean)
+- uid: Zigurous.UI.GraphicExtensions.FadeIn*
+  name: FadeIn
+  href: api/Zigurous.UI.GraphicExtensions.html#Zigurous_UI_GraphicExtensions_FadeIn_
+  commentId: Overload:Zigurous.UI.GraphicExtensions.FadeIn
+  isSpec: "True"
+  fullName: Zigurous.UI.GraphicExtensions.FadeIn
+  nameWithType: GraphicExtensions.FadeIn
+- uid: Zigurous.UI.GraphicExtensions.FadeOut(Graphic,System.Single,System.Boolean)
+  name: FadeOut(Graphic, Single, Boolean)
+  href: api/Zigurous.UI.GraphicExtensions.html#Zigurous_UI_GraphicExtensions_FadeOut_Graphic_System_Single_System_Boolean_
+  commentId: M:Zigurous.UI.GraphicExtensions.FadeOut(Graphic,System.Single,System.Boolean)
+  fullName: Zigurous.UI.GraphicExtensions.FadeOut(Graphic, System.Single, System.Boolean)
+  nameWithType: GraphicExtensions.FadeOut(Graphic, Single, Boolean)
+- uid: Zigurous.UI.GraphicExtensions.FadeOut*
+  name: FadeOut
+  href: api/Zigurous.UI.GraphicExtensions.html#Zigurous_UI_GraphicExtensions_FadeOut_
+  commentId: Overload:Zigurous.UI.GraphicExtensions.FadeOut
+  isSpec: "True"
+  fullName: Zigurous.UI.GraphicExtensions.FadeOut
+  nameWithType: GraphicExtensions.FadeOut
+- uid: Zigurous.UI.Letterboxing
+  name: Letterboxing
+  href: api/Zigurous.UI.Letterboxing.html
+  commentId: T:Zigurous.UI.Letterboxing
+  fullName: Zigurous.UI.Letterboxing
+  nameWithType: Letterboxing
+- uid: Zigurous.UI.Letterboxing.animationDuration
+  name: animationDuration
+  href: api/Zigurous.UI.Letterboxing.html#Zigurous_UI_Letterboxing_animationDuration
+  commentId: F:Zigurous.UI.Letterboxing.animationDuration
+  fullName: Zigurous.UI.Letterboxing.animationDuration
+  nameWithType: Letterboxing.animationDuration
+- uid: Zigurous.UI.Letterboxing.aspectRatio
+  name: aspectRatio
+  href: api/Zigurous.UI.Letterboxing.html#Zigurous_UI_Letterboxing_aspectRatio
+  commentId: P:Zigurous.UI.Letterboxing.aspectRatio
+  fullName: Zigurous.UI.Letterboxing.aspectRatio
+  nameWithType: Letterboxing.aspectRatio
+- uid: Zigurous.UI.Letterboxing.aspectRatio*
+  name: aspectRatio
+  href: api/Zigurous.UI.Letterboxing.html#Zigurous_UI_Letterboxing_aspectRatio_
+  commentId: Overload:Zigurous.UI.Letterboxing.aspectRatio
+  isSpec: "True"
+  fullName: Zigurous.UI.Letterboxing.aspectRatio
+  nameWithType: Letterboxing.aspectRatio
+- uid: Zigurous.UI.Letterboxing.color
+  name: color
+  href: api/Zigurous.UI.Letterboxing.html#Zigurous_UI_Letterboxing_color
+  commentId: P:Zigurous.UI.Letterboxing.color
+  fullName: Zigurous.UI.Letterboxing.color
+  nameWithType: Letterboxing.color
+- uid: Zigurous.UI.Letterboxing.color*
+  name: color
+  href: api/Zigurous.UI.Letterboxing.html#Zigurous_UI_Letterboxing_color_
+  commentId: Overload:Zigurous.UI.Letterboxing.color
+  isSpec: "True"
+  fullName: Zigurous.UI.Letterboxing.color
+  nameWithType: Letterboxing.color
+- uid: Zigurous.UI.Letterboxing.material
+  name: material
+  href: api/Zigurous.UI.Letterboxing.html#Zigurous_UI_Letterboxing_material
+  commentId: P:Zigurous.UI.Letterboxing.material
+  fullName: Zigurous.UI.Letterboxing.material
+  nameWithType: Letterboxing.material
+- uid: Zigurous.UI.Letterboxing.material*
+  name: material
+  href: api/Zigurous.UI.Letterboxing.html#Zigurous_UI_Letterboxing_material_
+  commentId: Overload:Zigurous.UI.Letterboxing.material
+  isSpec: "True"
+  fullName: Zigurous.UI.Letterboxing.material
+  nameWithType: Letterboxing.material
+- uid: Zigurous.UI.Letterboxing.matteBottom
+  name: matteBottom
+  href: api/Zigurous.UI.Letterboxing.html#Zigurous_UI_Letterboxing_matteBottom
+  commentId: P:Zigurous.UI.Letterboxing.matteBottom
+  fullName: Zigurous.UI.Letterboxing.matteBottom
+  nameWithType: Letterboxing.matteBottom
+- uid: Zigurous.UI.Letterboxing.matteBottom*
+  name: matteBottom
+  href: api/Zigurous.UI.Letterboxing.html#Zigurous_UI_Letterboxing_matteBottom_
+  commentId: Overload:Zigurous.UI.Letterboxing.matteBottom
+  isSpec: "True"
+  fullName: Zigurous.UI.Letterboxing.matteBottom
+  nameWithType: Letterboxing.matteBottom
+- uid: Zigurous.UI.Letterboxing.matteHeight
+  name: matteHeight
+  href: api/Zigurous.UI.Letterboxing.html#Zigurous_UI_Letterboxing_matteHeight
+  commentId: P:Zigurous.UI.Letterboxing.matteHeight
+  fullName: Zigurous.UI.Letterboxing.matteHeight
+  nameWithType: Letterboxing.matteHeight
+- uid: Zigurous.UI.Letterboxing.matteHeight*
+  name: matteHeight
+  href: api/Zigurous.UI.Letterboxing.html#Zigurous_UI_Letterboxing_matteHeight_
+  commentId: Overload:Zigurous.UI.Letterboxing.matteHeight
+  isSpec: "True"
+  fullName: Zigurous.UI.Letterboxing.matteHeight
+  nameWithType: Letterboxing.matteHeight
+- uid: Zigurous.UI.Letterboxing.matteTop
+  name: matteTop
+  href: api/Zigurous.UI.Letterboxing.html#Zigurous_UI_Letterboxing_matteTop
+  commentId: P:Zigurous.UI.Letterboxing.matteTop
+  fullName: Zigurous.UI.Letterboxing.matteTop
+  nameWithType: Letterboxing.matteTop
+- uid: Zigurous.UI.Letterboxing.matteTop*
+  name: matteTop
+  href: api/Zigurous.UI.Letterboxing.html#Zigurous_UI_Letterboxing_matteTop_
+  commentId: Overload:Zigurous.UI.Letterboxing.matteTop
+  isSpec: "True"
+  fullName: Zigurous.UI.Letterboxing.matteTop
+  nameWithType: Letterboxing.matteTop
 - uid: Zigurous.UI.NavigationStack
   name: NavigationStack
   href: api/Zigurous.UI.NavigationStack.html
@@ -108,6 +262,212 @@ references:
   isSpec: "True"
   fullName: Zigurous.UI.NavigationStack.Top
   nameWithType: NavigationStack.Top
+- uid: Zigurous.UI.RectTransformExtensions
+  name: RectTransformExtensions
+  href: api/Zigurous.UI.RectTransformExtensions.html
+  commentId: T:Zigurous.UI.RectTransformExtensions
+  fullName: Zigurous.UI.RectTransformExtensions
+  nameWithType: RectTransformExtensions
+- uid: Zigurous.UI.RectTransformExtensions.SetAnchorMaxX(RectTransform,System.Single)
+  name: SetAnchorMaxX(RectTransform, Single)
+  href: api/Zigurous.UI.RectTransformExtensions.html#Zigurous_UI_RectTransformExtensions_SetAnchorMaxX_RectTransform_System_Single_
+  commentId: M:Zigurous.UI.RectTransformExtensions.SetAnchorMaxX(RectTransform,System.Single)
+  fullName: Zigurous.UI.RectTransformExtensions.SetAnchorMaxX(RectTransform, System.Single)
+  nameWithType: RectTransformExtensions.SetAnchorMaxX(RectTransform, Single)
+- uid: Zigurous.UI.RectTransformExtensions.SetAnchorMaxX*
+  name: SetAnchorMaxX
+  href: api/Zigurous.UI.RectTransformExtensions.html#Zigurous_UI_RectTransformExtensions_SetAnchorMaxX_
+  commentId: Overload:Zigurous.UI.RectTransformExtensions.SetAnchorMaxX
+  isSpec: "True"
+  fullName: Zigurous.UI.RectTransformExtensions.SetAnchorMaxX
+  nameWithType: RectTransformExtensions.SetAnchorMaxX
+- uid: Zigurous.UI.RectTransformExtensions.SetAnchorMaxY(RectTransform,System.Single)
+  name: SetAnchorMaxY(RectTransform, Single)
+  href: api/Zigurous.UI.RectTransformExtensions.html#Zigurous_UI_RectTransformExtensions_SetAnchorMaxY_RectTransform_System_Single_
+  commentId: M:Zigurous.UI.RectTransformExtensions.SetAnchorMaxY(RectTransform,System.Single)
+  fullName: Zigurous.UI.RectTransformExtensions.SetAnchorMaxY(RectTransform, System.Single)
+  nameWithType: RectTransformExtensions.SetAnchorMaxY(RectTransform, Single)
+- uid: Zigurous.UI.RectTransformExtensions.SetAnchorMaxY*
+  name: SetAnchorMaxY
+  href: api/Zigurous.UI.RectTransformExtensions.html#Zigurous_UI_RectTransformExtensions_SetAnchorMaxY_
+  commentId: Overload:Zigurous.UI.RectTransformExtensions.SetAnchorMaxY
+  isSpec: "True"
+  fullName: Zigurous.UI.RectTransformExtensions.SetAnchorMaxY
+  nameWithType: RectTransformExtensions.SetAnchorMaxY
+- uid: Zigurous.UI.RectTransformExtensions.SetAnchorMinX(RectTransform,System.Single)
+  name: SetAnchorMinX(RectTransform, Single)
+  href: api/Zigurous.UI.RectTransformExtensions.html#Zigurous_UI_RectTransformExtensions_SetAnchorMinX_RectTransform_System_Single_
+  commentId: M:Zigurous.UI.RectTransformExtensions.SetAnchorMinX(RectTransform,System.Single)
+  fullName: Zigurous.UI.RectTransformExtensions.SetAnchorMinX(RectTransform, System.Single)
+  nameWithType: RectTransformExtensions.SetAnchorMinX(RectTransform, Single)
+- uid: Zigurous.UI.RectTransformExtensions.SetAnchorMinX*
+  name: SetAnchorMinX
+  href: api/Zigurous.UI.RectTransformExtensions.html#Zigurous_UI_RectTransformExtensions_SetAnchorMinX_
+  commentId: Overload:Zigurous.UI.RectTransformExtensions.SetAnchorMinX
+  isSpec: "True"
+  fullName: Zigurous.UI.RectTransformExtensions.SetAnchorMinX
+  nameWithType: RectTransformExtensions.SetAnchorMinX
+- uid: Zigurous.UI.RectTransformExtensions.SetAnchorMinY(RectTransform,System.Single)
+  name: SetAnchorMinY(RectTransform, Single)
+  href: api/Zigurous.UI.RectTransformExtensions.html#Zigurous_UI_RectTransformExtensions_SetAnchorMinY_RectTransform_System_Single_
+  commentId: M:Zigurous.UI.RectTransformExtensions.SetAnchorMinY(RectTransform,System.Single)
+  fullName: Zigurous.UI.RectTransformExtensions.SetAnchorMinY(RectTransform, System.Single)
+  nameWithType: RectTransformExtensions.SetAnchorMinY(RectTransform, Single)
+- uid: Zigurous.UI.RectTransformExtensions.SetAnchorMinY*
+  name: SetAnchorMinY
+  href: api/Zigurous.UI.RectTransformExtensions.html#Zigurous_UI_RectTransformExtensions_SetAnchorMinY_
+  commentId: Overload:Zigurous.UI.RectTransformExtensions.SetAnchorMinY
+  isSpec: "True"
+  fullName: Zigurous.UI.RectTransformExtensions.SetAnchorMinY
+  nameWithType: RectTransformExtensions.SetAnchorMinY
+- uid: Zigurous.UI.RectTransformExtensions.SetBottom(RectTransform,System.Single)
+  name: SetBottom(RectTransform, Single)
+  href: api/Zigurous.UI.RectTransformExtensions.html#Zigurous_UI_RectTransformExtensions_SetBottom_RectTransform_System_Single_
+  commentId: M:Zigurous.UI.RectTransformExtensions.SetBottom(RectTransform,System.Single)
+  fullName: Zigurous.UI.RectTransformExtensions.SetBottom(RectTransform, System.Single)
+  nameWithType: RectTransformExtensions.SetBottom(RectTransform, Single)
+- uid: Zigurous.UI.RectTransformExtensions.SetBottom*
+  name: SetBottom
+  href: api/Zigurous.UI.RectTransformExtensions.html#Zigurous_UI_RectTransformExtensions_SetBottom_
+  commentId: Overload:Zigurous.UI.RectTransformExtensions.SetBottom
+  isSpec: "True"
+  fullName: Zigurous.UI.RectTransformExtensions.SetBottom
+  nameWithType: RectTransformExtensions.SetBottom
+- uid: Zigurous.UI.RectTransformExtensions.SetHeight(RectTransform,System.Single)
+  name: SetHeight(RectTransform, Single)
+  href: api/Zigurous.UI.RectTransformExtensions.html#Zigurous_UI_RectTransformExtensions_SetHeight_RectTransform_System_Single_
+  commentId: M:Zigurous.UI.RectTransformExtensions.SetHeight(RectTransform,System.Single)
+  fullName: Zigurous.UI.RectTransformExtensions.SetHeight(RectTransform, System.Single)
+  nameWithType: RectTransformExtensions.SetHeight(RectTransform, Single)
+- uid: Zigurous.UI.RectTransformExtensions.SetHeight*
+  name: SetHeight
+  href: api/Zigurous.UI.RectTransformExtensions.html#Zigurous_UI_RectTransformExtensions_SetHeight_
+  commentId: Overload:Zigurous.UI.RectTransformExtensions.SetHeight
+  isSpec: "True"
+  fullName: Zigurous.UI.RectTransformExtensions.SetHeight
+  nameWithType: RectTransformExtensions.SetHeight
+- uid: Zigurous.UI.RectTransformExtensions.SetLeft(RectTransform,System.Single)
+  name: SetLeft(RectTransform, Single)
+  href: api/Zigurous.UI.RectTransformExtensions.html#Zigurous_UI_RectTransformExtensions_SetLeft_RectTransform_System_Single_
+  commentId: M:Zigurous.UI.RectTransformExtensions.SetLeft(RectTransform,System.Single)
+  fullName: Zigurous.UI.RectTransformExtensions.SetLeft(RectTransform, System.Single)
+  nameWithType: RectTransformExtensions.SetLeft(RectTransform, Single)
+- uid: Zigurous.UI.RectTransformExtensions.SetLeft*
+  name: SetLeft
+  href: api/Zigurous.UI.RectTransformExtensions.html#Zigurous_UI_RectTransformExtensions_SetLeft_
+  commentId: Overload:Zigurous.UI.RectTransformExtensions.SetLeft
+  isSpec: "True"
+  fullName: Zigurous.UI.RectTransformExtensions.SetLeft
+  nameWithType: RectTransformExtensions.SetLeft
+- uid: Zigurous.UI.RectTransformExtensions.SetRight(RectTransform,System.Single)
+  name: SetRight(RectTransform, Single)
+  href: api/Zigurous.UI.RectTransformExtensions.html#Zigurous_UI_RectTransformExtensions_SetRight_RectTransform_System_Single_
+  commentId: M:Zigurous.UI.RectTransformExtensions.SetRight(RectTransform,System.Single)
+  fullName: Zigurous.UI.RectTransformExtensions.SetRight(RectTransform, System.Single)
+  nameWithType: RectTransformExtensions.SetRight(RectTransform, Single)
+- uid: Zigurous.UI.RectTransformExtensions.SetRight*
+  name: SetRight
+  href: api/Zigurous.UI.RectTransformExtensions.html#Zigurous_UI_RectTransformExtensions_SetRight_
+  commentId: Overload:Zigurous.UI.RectTransformExtensions.SetRight
+  isSpec: "True"
+  fullName: Zigurous.UI.RectTransformExtensions.SetRight
+  nameWithType: RectTransformExtensions.SetRight
+- uid: Zigurous.UI.RectTransformExtensions.SetTop(RectTransform,System.Single)
+  name: SetTop(RectTransform, Single)
+  href: api/Zigurous.UI.RectTransformExtensions.html#Zigurous_UI_RectTransformExtensions_SetTop_RectTransform_System_Single_
+  commentId: M:Zigurous.UI.RectTransformExtensions.SetTop(RectTransform,System.Single)
+  fullName: Zigurous.UI.RectTransformExtensions.SetTop(RectTransform, System.Single)
+  nameWithType: RectTransformExtensions.SetTop(RectTransform, Single)
+- uid: Zigurous.UI.RectTransformExtensions.SetTop*
+  name: SetTop
+  href: api/Zigurous.UI.RectTransformExtensions.html#Zigurous_UI_RectTransformExtensions_SetTop_
+  commentId: Overload:Zigurous.UI.RectTransformExtensions.SetTop
+  isSpec: "True"
+  fullName: Zigurous.UI.RectTransformExtensions.SetTop
+  nameWithType: RectTransformExtensions.SetTop
+- uid: Zigurous.UI.RectTransformExtensions.SetWidth(RectTransform,System.Single)
+  name: SetWidth(RectTransform, Single)
+  href: api/Zigurous.UI.RectTransformExtensions.html#Zigurous_UI_RectTransformExtensions_SetWidth_RectTransform_System_Single_
+  commentId: M:Zigurous.UI.RectTransformExtensions.SetWidth(RectTransform,System.Single)
+  fullName: Zigurous.UI.RectTransformExtensions.SetWidth(RectTransform, System.Single)
+  nameWithType: RectTransformExtensions.SetWidth(RectTransform, Single)
+- uid: Zigurous.UI.RectTransformExtensions.SetWidth*
+  name: SetWidth
+  href: api/Zigurous.UI.RectTransformExtensions.html#Zigurous_UI_RectTransformExtensions_SetWidth_
+  commentId: Overload:Zigurous.UI.RectTransformExtensions.SetWidth
+  isSpec: "True"
+  fullName: Zigurous.UI.RectTransformExtensions.SetWidth
+  nameWithType: RectTransformExtensions.SetWidth
+- uid: Zigurous.UI.ScreenSizeListener
+  name: ScreenSizeListener
+  href: api/Zigurous.UI.ScreenSizeListener.html
+  commentId: T:Zigurous.UI.ScreenSizeListener
+  fullName: Zigurous.UI.ScreenSizeListener
+  nameWithType: ScreenSizeListener
+- uid: Zigurous.UI.ScreenSizeListener.HasInstance
+  name: HasInstance
+  href: api/Zigurous.UI.ScreenSizeListener.html#Zigurous_UI_ScreenSizeListener_HasInstance
+  commentId: P:Zigurous.UI.ScreenSizeListener.HasInstance
+  fullName: Zigurous.UI.ScreenSizeListener.HasInstance
+  nameWithType: ScreenSizeListener.HasInstance
+- uid: Zigurous.UI.ScreenSizeListener.HasInstance*
+  name: HasInstance
+  href: api/Zigurous.UI.ScreenSizeListener.html#Zigurous_UI_ScreenSizeListener_HasInstance_
+  commentId: Overload:Zigurous.UI.ScreenSizeListener.HasInstance
+  isSpec: "True"
+  fullName: Zigurous.UI.ScreenSizeListener.HasInstance
+  nameWithType: ScreenSizeListener.HasInstance
+- uid: Zigurous.UI.ScreenSizeListener.height
+  name: height
+  href: api/Zigurous.UI.ScreenSizeListener.html#Zigurous_UI_ScreenSizeListener_height
+  commentId: P:Zigurous.UI.ScreenSizeListener.height
+  fullName: Zigurous.UI.ScreenSizeListener.height
+  nameWithType: ScreenSizeListener.height
+- uid: Zigurous.UI.ScreenSizeListener.height*
+  name: height
+  href: api/Zigurous.UI.ScreenSizeListener.html#Zigurous_UI_ScreenSizeListener_height_
+  commentId: Overload:Zigurous.UI.ScreenSizeListener.height
+  isSpec: "True"
+  fullName: Zigurous.UI.ScreenSizeListener.height
+  nameWithType: ScreenSizeListener.height
+- uid: Zigurous.UI.ScreenSizeListener.Instance
+  name: Instance
+  href: api/Zigurous.UI.ScreenSizeListener.html#Zigurous_UI_ScreenSizeListener_Instance
+  commentId: P:Zigurous.UI.ScreenSizeListener.Instance
+  fullName: Zigurous.UI.ScreenSizeListener.Instance
+  nameWithType: ScreenSizeListener.Instance
+- uid: Zigurous.UI.ScreenSizeListener.Instance*
+  name: Instance
+  href: api/Zigurous.UI.ScreenSizeListener.html#Zigurous_UI_ScreenSizeListener_Instance_
+  commentId: Overload:Zigurous.UI.ScreenSizeListener.Instance
+  isSpec: "True"
+  fullName: Zigurous.UI.ScreenSizeListener.Instance
+  nameWithType: ScreenSizeListener.Instance
+- uid: Zigurous.UI.ScreenSizeListener.OnResize
+  name: ScreenSizeListener.OnResize
+  href: api/Zigurous.UI.ScreenSizeListener.OnResize.html
+  commentId: T:Zigurous.UI.ScreenSizeListener.OnResize
+  fullName: Zigurous.UI.ScreenSizeListener.OnResize
+  nameWithType: ScreenSizeListener.OnResize
+- uid: Zigurous.UI.ScreenSizeListener.resized
+  name: resized
+  href: api/Zigurous.UI.ScreenSizeListener.html#Zigurous_UI_ScreenSizeListener_resized
+  commentId: F:Zigurous.UI.ScreenSizeListener.resized
+  fullName: Zigurous.UI.ScreenSizeListener.resized
+  nameWithType: ScreenSizeListener.resized
+- uid: Zigurous.UI.ScreenSizeListener.width
+  name: width
+  href: api/Zigurous.UI.ScreenSizeListener.html#Zigurous_UI_ScreenSizeListener_width
+  commentId: P:Zigurous.UI.ScreenSizeListener.width
+  fullName: Zigurous.UI.ScreenSizeListener.width
+  nameWithType: ScreenSizeListener.width
+- uid: Zigurous.UI.ScreenSizeListener.width*
+  name: width
+  href: api/Zigurous.UI.ScreenSizeListener.html#Zigurous_UI_ScreenSizeListener_width_
+  commentId: Overload:Zigurous.UI.ScreenSizeListener.width
+  isSpec: "True"
+  fullName: Zigurous.UI.ScreenSizeListener.width
+  nameWithType: ScreenSizeListener.width
 - uid: Zigurous.UI.ScrollToSelection
   name: ScrollToSelection
   href: api/Zigurous.UI.ScrollToSelection.html
@@ -246,3 +606,40 @@ references:
   commentId: F:Zigurous.UI.ScrollWithInput.sensitivity
   fullName: Zigurous.UI.ScrollWithInput.sensitivity
   nameWithType: ScrollWithInput.sensitivity
+- uid: Zigurous.UI.StretchToScreenSize
+  name: StretchToScreenSize
+  href: api/Zigurous.UI.StretchToScreenSize.html
+  commentId: T:Zigurous.UI.StretchToScreenSize
+  fullName: Zigurous.UI.StretchToScreenSize
+  nameWithType: StretchToScreenSize
+- uid: Zigurous.UI.StretchToScreenSize.Stretch
+  name: Stretch()
+  href: api/Zigurous.UI.StretchToScreenSize.html#Zigurous_UI_StretchToScreenSize_Stretch
+  commentId: M:Zigurous.UI.StretchToScreenSize.Stretch
+  fullName: Zigurous.UI.StretchToScreenSize.Stretch()
+  nameWithType: StretchToScreenSize.Stretch()
+- uid: Zigurous.UI.StretchToScreenSize.Stretch(System.Boolean,System.Boolean)
+  name: Stretch(Boolean, Boolean)
+  href: api/Zigurous.UI.StretchToScreenSize.html#Zigurous_UI_StretchToScreenSize_Stretch_System_Boolean_System_Boolean_
+  commentId: M:Zigurous.UI.StretchToScreenSize.Stretch(System.Boolean,System.Boolean)
+  fullName: Zigurous.UI.StretchToScreenSize.Stretch(System.Boolean, System.Boolean)
+  nameWithType: StretchToScreenSize.Stretch(Boolean, Boolean)
+- uid: Zigurous.UI.StretchToScreenSize.Stretch*
+  name: Stretch
+  href: api/Zigurous.UI.StretchToScreenSize.html#Zigurous_UI_StretchToScreenSize_Stretch_
+  commentId: Overload:Zigurous.UI.StretchToScreenSize.Stretch
+  isSpec: "True"
+  fullName: Zigurous.UI.StretchToScreenSize.Stretch
+  nameWithType: StretchToScreenSize.Stretch
+- uid: Zigurous.UI.StretchToScreenSize.stretchHeight
+  name: stretchHeight
+  href: api/Zigurous.UI.StretchToScreenSize.html#Zigurous_UI_StretchToScreenSize_stretchHeight
+  commentId: F:Zigurous.UI.StretchToScreenSize.stretchHeight
+  fullName: Zigurous.UI.StretchToScreenSize.stretchHeight
+  nameWithType: StretchToScreenSize.stretchHeight
+- uid: Zigurous.UI.StretchToScreenSize.stretchWidth
+  name: stretchWidth
+  href: api/Zigurous.UI.StretchToScreenSize.html#Zigurous_UI_StretchToScreenSize_stretchWidth
+  commentId: F:Zigurous.UI.StretchToScreenSize.stretchWidth
+  fullName: Zigurous.UI.StretchToScreenSize.stretchWidth
+  nameWithType: StretchToScreenSize.stretchWidth

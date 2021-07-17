@@ -18,7 +18,43 @@
       "output": {
         ".html": {
           "relative_path": "changelog/CHANGELOG.html",
-          "hash": "PBr9VgwBNrnpM6ulrqy4f2NFQbWmppF1gmr3G0cIhZQ="
+          "hash": "kKVMBy0P8hbpZoP/L++eUr0GUhgdOBQyhynwNy4HEo0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.UI.CanvasExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.UI.CanvasExtensions.html",
+          "hash": "HAB9kpJ151sHXf7iBz9EjHKl+AT0PJVsx6qsmCF88iA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.UI.GraphicExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.UI.GraphicExtensions.html",
+          "hash": "0zOR71mfFFb3x7/GfbL+mLflKsVouhnzcMqFu9y9GEU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.UI.Letterboxing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.UI.Letterboxing.html",
+          "hash": "koXPNPKTjvLlguuzkvtMNVtxVeCde7MVKK3bTXkffjA="
         }
       },
       "is_incremental": false,
@@ -31,6 +67,42 @@
         ".html": {
           "relative_path": "api/Zigurous.UI.NavigationStack.html",
           "hash": "GGGE08KZOSqs9y8PxduUykJhHCVWYrShZ1WsK/GHluI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.UI.RectTransformExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.UI.RectTransformExtensions.html",
+          "hash": "pUzAVuVMArnagCUP64GaQEj+G2jCAWndqGUZTd3Dclw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.UI.ScreenSizeListener.OnResize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.UI.ScreenSizeListener.OnResize.html",
+          "hash": "qPiRZshzQBzQ6FTnYPAbXiVueGgzlYCzEuVc2X/C9fA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.UI.ScreenSizeListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.UI.ScreenSizeListener.html",
+          "hash": "E4kt2Mx2cMNyvUV5ppQ9zvImhEcaoQKm/mH7Z2me/do="
         }
       },
       "is_incremental": false,
@@ -74,11 +146,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.UI.StretchToScreenSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.UI.StretchToScreenSize.html",
+          "hash": "/3mXvZZBhM5Z1nN1myF6VhUHT4UmBFesAf75kJHrA2c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Zigurous.UI.yml",
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.UI.html",
-          "hash": "F4eDV9kHrYYQO2IRa8JIReeTd/e3dmwlgjk9VgWXrrk="
+          "hash": "3t8aep4EJlVUHsbHr+vjEC3Ja/YM7HdklCBqx3GtpPs="
         }
       },
       "is_incremental": false,
@@ -90,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "b+ma5jmfOanCbmk6A+kCEj/xZ8hty1kE2Je1EKqoOU4="
+          "hash": "AfiUaBd5GFFppll5TzA9uPslvAAxjHUsX9E2mALPtJE="
         }
       },
       "is_incremental": false,
@@ -171,7 +255,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/index.html",
-          "hash": "eKtzC3uxTMtNUE/DHK0RMQYXLTs0yOzJjzBObmto2pA="
+          "hash": "UBpSvTrKR0gPcwnPX5Qdx3L6qZ8+7amIz4QftjWBQp0="
         }
       },
       "is_incremental": false,
@@ -246,7 +330,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 5,
+          "total_file_count": 12,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
