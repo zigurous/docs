@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "changelog/CHANGELOG.html",
-          "hash": "+4syyYUuB5mTToFRi+wfxg/e0VZmevkTdslxb7D6srU="
+          "hash": "F1Ygn+EkRTFZ9o1KA+TNI0JXhULXc/f/AAmkyw8DOmE="
         }
       },
       "is_incremental": false,
@@ -122,6 +122,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.Parameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.Parameter.html",
+          "hash": "CJPoSLjeQaf/KRvFCKsVUIAMKHA9scd8ffQA+KSR6wU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Zigurous.Animation.Rotate.yml",
       "output": {
         ".html": {
@@ -151,6 +163,54 @@
         ".html": {
           "relative_path": "api/Zigurous.Animation.Scale.html",
           "hash": "rlaciW9yqMaxO14EDmMfarZsuVu+avyMOEPSx5JWGPE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.SmoothDamp-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.SmoothDamp-1.html",
+          "hash": "b/e8D3RGvEDI+ZrnR169VKcf87r1C4Kd1PqQ+XOaaAw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.SmoothDampFloat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.SmoothDampFloat.html",
+          "hash": "obGat4eJXSVPZltEDBNsbCrDpfUCdSz/EqUD1h7dfQ8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.SmoothDampVector2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.SmoothDampVector2.html",
+          "hash": "rzbD+pXO7P0qKhyeq7vbUqlBRt7R+Z483vxfb/7GIpI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Animation.SmoothDampVector3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Animation.SmoothDampVector3.html",
+          "hash": "KBOcURZeL3uY+0j8xSRtZmxXJq3bFTyRw4Zz8BXkSqM="
         }
       },
       "is_incremental": false,
@@ -282,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Animation.html",
-          "hash": "zJr+AicE9ICXOrQ83HSuFJx7vSz4eB8+KMNYKYxHvWU="
+          "hash": "NQ5KjZFEQswiP7pDMBt5nINinXvgmiZ7RKb8EsbBIOc="
         }
       },
       "is_incremental": false,
@@ -294,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "k4EndgDk9hdpERe/NmFqJZckmXRBUcU8SKxYuSH8aRk="
+          "hash": "2ncvkmJZNYQCsAorUjc7H8zH3x0iiXgEO1kzQSPBXlE="
         }
       },
       "is_incremental": false,
@@ -371,6 +431,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/animator-parameters.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/animator-parameters.html",
+          "hash": "g4jIbOzgjohfxXvojS7vVQEGx85S5vEibVcpV7R5IdQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/avatar-masks.md",
       "output": {
         ".html": {
@@ -387,7 +459,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/index.html",
-          "hash": "qICSWM9F+F/pQYHWyLJxNsXCymGXzVGaNuMDLfnkk60="
+          "hash": "JcOiYjCz0UGpsXyYTODFK7ww9Sn8KA5aV9Fq0aV+gnw="
         }
       },
       "is_incremental": false,
@@ -411,7 +483,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "dYp4ivn7z3UemMwAYN+TMHl4WutPZxBJEhUk85i52Eg="
+          "hash": "M+pUevucRCBOgS6v51qgDQULUX9JiFZMtuCaU9oEnNI="
         }
       },
       "is_incremental": false,
@@ -444,13 +516,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 5,
+          "total_file_count": 6,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 22,
+          "total_file_count": 27,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
