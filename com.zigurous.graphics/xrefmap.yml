@@ -7,6 +7,189 @@ references:
   commentId: N:Zigurous.Graphics
   fullName: Zigurous.Graphics
   nameWithType: Zigurous.Graphics
+- uid: Zigurous.Graphics.AnimatedShaderColorProperty
+  name: AnimatedShaderColorProperty
+  href: api/Zigurous.Graphics.AnimatedShaderColorProperty.html
+  commentId: T:Zigurous.Graphics.AnimatedShaderColorProperty
+  fullName: Zigurous.Graphics.AnimatedShaderColorProperty
+  nameWithType: AnimatedShaderColorProperty
+- uid: Zigurous.Graphics.AnimatedShaderColorProperty.#ctor(Gradient,System.String)
+  name: AnimatedShaderColorProperty(Gradient, String)
+  href: api/Zigurous.Graphics.AnimatedShaderColorProperty.html#Zigurous_Graphics_AnimatedShaderColorProperty__ctor_Gradient_System_String_
+  commentId: M:Zigurous.Graphics.AnimatedShaderColorProperty.#ctor(Gradient,System.String)
+  fullName: Zigurous.Graphics.AnimatedShaderColorProperty.AnimatedShaderColorProperty(Gradient, System.String)
+  nameWithType: AnimatedShaderColorProperty.AnimatedShaderColorProperty(Gradient, String)
+- uid: Zigurous.Graphics.AnimatedShaderColorProperty.#ctor*
+  name: AnimatedShaderColorProperty
+  href: api/Zigurous.Graphics.AnimatedShaderColorProperty.html#Zigurous_Graphics_AnimatedShaderColorProperty__ctor_
+  commentId: Overload:Zigurous.Graphics.AnimatedShaderColorProperty.#ctor
+  isSpec: "True"
+  fullName: Zigurous.Graphics.AnimatedShaderColorProperty.AnimatedShaderColorProperty
+  nameWithType: AnimatedShaderColorProperty.AnimatedShaderColorProperty
+- uid: Zigurous.Graphics.AnimatedShaderColorProperty.Animate(Material,System.Single)
+  name: Animate(Material, Single)
+  href: api/Zigurous.Graphics.AnimatedShaderColorProperty.html#Zigurous_Graphics_AnimatedShaderColorProperty_Animate_Material_System_Single_
+  commentId: M:Zigurous.Graphics.AnimatedShaderColorProperty.Animate(Material,System.Single)
+  fullName: Zigurous.Graphics.AnimatedShaderColorProperty.Animate(Material, System.Single)
+  nameWithType: AnimatedShaderColorProperty.Animate(Material, Single)
+- uid: Zigurous.Graphics.AnimatedShaderColorProperty.Animate*
+  name: Animate
+  href: api/Zigurous.Graphics.AnimatedShaderColorProperty.html#Zigurous_Graphics_AnimatedShaderColorProperty_Animate_
+  commentId: Overload:Zigurous.Graphics.AnimatedShaderColorProperty.Animate
+  isSpec: "True"
+  fullName: Zigurous.Graphics.AnimatedShaderColorProperty.Animate
+  nameWithType: AnimatedShaderColorProperty.Animate
+- uid: Zigurous.Graphics.AnimatedShaderColorProperty.colorOverTime
+  name: colorOverTime
+  href: api/Zigurous.Graphics.AnimatedShaderColorProperty.html#Zigurous_Graphics_AnimatedShaderColorProperty_colorOverTime
+  commentId: F:Zigurous.Graphics.AnimatedShaderColorProperty.colorOverTime
+  fullName: Zigurous.Graphics.AnimatedShaderColorProperty.colorOverTime
+  nameWithType: AnimatedShaderColorProperty.colorOverTime
+- uid: Zigurous.Graphics.AnimatedShaderFloatProperty
+  name: AnimatedShaderFloatProperty
+  href: api/Zigurous.Graphics.AnimatedShaderFloatProperty.html
+  commentId: T:Zigurous.Graphics.AnimatedShaderFloatProperty
+  fullName: Zigurous.Graphics.AnimatedShaderFloatProperty
+  nameWithType: AnimatedShaderFloatProperty
+- uid: Zigurous.Graphics.AnimatedShaderFloatProperty.#ctor(AnimationCurve,System.String)
+  name: AnimatedShaderFloatProperty(AnimationCurve, String)
+  href: api/Zigurous.Graphics.AnimatedShaderFloatProperty.html#Zigurous_Graphics_AnimatedShaderFloatProperty__ctor_AnimationCurve_System_String_
+  commentId: M:Zigurous.Graphics.AnimatedShaderFloatProperty.#ctor(AnimationCurve,System.String)
+  fullName: Zigurous.Graphics.AnimatedShaderFloatProperty.AnimatedShaderFloatProperty(AnimationCurve, System.String)
+  nameWithType: AnimatedShaderFloatProperty.AnimatedShaderFloatProperty(AnimationCurve, String)
+- uid: Zigurous.Graphics.AnimatedShaderFloatProperty.#ctor*
+  name: AnimatedShaderFloatProperty
+  href: api/Zigurous.Graphics.AnimatedShaderFloatProperty.html#Zigurous_Graphics_AnimatedShaderFloatProperty__ctor_
+  commentId: Overload:Zigurous.Graphics.AnimatedShaderFloatProperty.#ctor
+  isSpec: "True"
+  fullName: Zigurous.Graphics.AnimatedShaderFloatProperty.AnimatedShaderFloatProperty
+  nameWithType: AnimatedShaderFloatProperty.AnimatedShaderFloatProperty
+- uid: Zigurous.Graphics.AnimatedShaderFloatProperty.Animate(Material,System.Single)
+  name: Animate(Material, Single)
+  href: api/Zigurous.Graphics.AnimatedShaderFloatProperty.html#Zigurous_Graphics_AnimatedShaderFloatProperty_Animate_Material_System_Single_
+  commentId: M:Zigurous.Graphics.AnimatedShaderFloatProperty.Animate(Material,System.Single)
+  fullName: Zigurous.Graphics.AnimatedShaderFloatProperty.Animate(Material, System.Single)
+  nameWithType: AnimatedShaderFloatProperty.Animate(Material, Single)
+- uid: Zigurous.Graphics.AnimatedShaderFloatProperty.Animate*
+  name: Animate
+  href: api/Zigurous.Graphics.AnimatedShaderFloatProperty.html#Zigurous_Graphics_AnimatedShaderFloatProperty_Animate_
+  commentId: Overload:Zigurous.Graphics.AnimatedShaderFloatProperty.Animate
+  isSpec: "True"
+  fullName: Zigurous.Graphics.AnimatedShaderFloatProperty.Animate
+  nameWithType: AnimatedShaderFloatProperty.Animate
+- uid: Zigurous.Graphics.AnimatedShaderFloatProperty.valueOverTime
+  name: valueOverTime
+  href: api/Zigurous.Graphics.AnimatedShaderFloatProperty.html#Zigurous_Graphics_AnimatedShaderFloatProperty_valueOverTime
+  commentId: F:Zigurous.Graphics.AnimatedShaderFloatProperty.valueOverTime
+  fullName: Zigurous.Graphics.AnimatedShaderFloatProperty.valueOverTime
+  nameWithType: AnimatedShaderFloatProperty.valueOverTime
+- uid: Zigurous.Graphics.AnimatedShaderIntProperty
+  name: AnimatedShaderIntProperty
+  href: api/Zigurous.Graphics.AnimatedShaderIntProperty.html
+  commentId: T:Zigurous.Graphics.AnimatedShaderIntProperty
+  fullName: Zigurous.Graphics.AnimatedShaderIntProperty
+  nameWithType: AnimatedShaderIntProperty
+- uid: Zigurous.Graphics.AnimatedShaderIntProperty.#ctor(AnimationCurve,System.String)
+  name: AnimatedShaderIntProperty(AnimationCurve, String)
+  href: api/Zigurous.Graphics.AnimatedShaderIntProperty.html#Zigurous_Graphics_AnimatedShaderIntProperty__ctor_AnimationCurve_System_String_
+  commentId: M:Zigurous.Graphics.AnimatedShaderIntProperty.#ctor(AnimationCurve,System.String)
+  fullName: Zigurous.Graphics.AnimatedShaderIntProperty.AnimatedShaderIntProperty(AnimationCurve, System.String)
+  nameWithType: AnimatedShaderIntProperty.AnimatedShaderIntProperty(AnimationCurve, String)
+- uid: Zigurous.Graphics.AnimatedShaderIntProperty.#ctor*
+  name: AnimatedShaderIntProperty
+  href: api/Zigurous.Graphics.AnimatedShaderIntProperty.html#Zigurous_Graphics_AnimatedShaderIntProperty__ctor_
+  commentId: Overload:Zigurous.Graphics.AnimatedShaderIntProperty.#ctor
+  isSpec: "True"
+  fullName: Zigurous.Graphics.AnimatedShaderIntProperty.AnimatedShaderIntProperty
+  nameWithType: AnimatedShaderIntProperty.AnimatedShaderIntProperty
+- uid: Zigurous.Graphics.AnimatedShaderIntProperty.Animate(Material,System.Single)
+  name: Animate(Material, Single)
+  href: api/Zigurous.Graphics.AnimatedShaderIntProperty.html#Zigurous_Graphics_AnimatedShaderIntProperty_Animate_Material_System_Single_
+  commentId: M:Zigurous.Graphics.AnimatedShaderIntProperty.Animate(Material,System.Single)
+  fullName: Zigurous.Graphics.AnimatedShaderIntProperty.Animate(Material, System.Single)
+  nameWithType: AnimatedShaderIntProperty.Animate(Material, Single)
+- uid: Zigurous.Graphics.AnimatedShaderIntProperty.Animate*
+  name: Animate
+  href: api/Zigurous.Graphics.AnimatedShaderIntProperty.html#Zigurous_Graphics_AnimatedShaderIntProperty_Animate_
+  commentId: Overload:Zigurous.Graphics.AnimatedShaderIntProperty.Animate
+  isSpec: "True"
+  fullName: Zigurous.Graphics.AnimatedShaderIntProperty.Animate
+  nameWithType: AnimatedShaderIntProperty.Animate
+- uid: Zigurous.Graphics.AnimatedShaderIntProperty.valueOverTime
+  name: valueOverTime
+  href: api/Zigurous.Graphics.AnimatedShaderIntProperty.html#Zigurous_Graphics_AnimatedShaderIntProperty_valueOverTime
+  commentId: F:Zigurous.Graphics.AnimatedShaderIntProperty.valueOverTime
+  fullName: Zigurous.Graphics.AnimatedShaderIntProperty.valueOverTime
+  nameWithType: AnimatedShaderIntProperty.valueOverTime
+- uid: Zigurous.Graphics.AnimatedShaderProperty
+  name: AnimatedShaderProperty
+  href: api/Zigurous.Graphics.AnimatedShaderProperty.html
+  commentId: T:Zigurous.Graphics.AnimatedShaderProperty
+  fullName: Zigurous.Graphics.AnimatedShaderProperty
+  nameWithType: AnimatedShaderProperty
+- uid: Zigurous.Graphics.AnimatedShaderProperty.#ctor(System.String)
+  name: AnimatedShaderProperty(String)
+  href: api/Zigurous.Graphics.AnimatedShaderProperty.html#Zigurous_Graphics_AnimatedShaderProperty__ctor_System_String_
+  commentId: M:Zigurous.Graphics.AnimatedShaderProperty.#ctor(System.String)
+  fullName: Zigurous.Graphics.AnimatedShaderProperty.AnimatedShaderProperty(System.String)
+  nameWithType: AnimatedShaderProperty.AnimatedShaderProperty(String)
+- uid: Zigurous.Graphics.AnimatedShaderProperty.#ctor*
+  name: AnimatedShaderProperty
+  href: api/Zigurous.Graphics.AnimatedShaderProperty.html#Zigurous_Graphics_AnimatedShaderProperty__ctor_
+  commentId: Overload:Zigurous.Graphics.AnimatedShaderProperty.#ctor
+  isSpec: "True"
+  fullName: Zigurous.Graphics.AnimatedShaderProperty.AnimatedShaderProperty
+  nameWithType: AnimatedShaderProperty.AnimatedShaderProperty
+- uid: Zigurous.Graphics.AnimatedShaderProperty.Animate(Material,System.Single)
+  name: Animate(Material, Single)
+  href: api/Zigurous.Graphics.AnimatedShaderProperty.html#Zigurous_Graphics_AnimatedShaderProperty_Animate_Material_System_Single_
+  commentId: M:Zigurous.Graphics.AnimatedShaderProperty.Animate(Material,System.Single)
+  fullName: Zigurous.Graphics.AnimatedShaderProperty.Animate(Material, System.Single)
+  nameWithType: AnimatedShaderProperty.Animate(Material, Single)
+- uid: Zigurous.Graphics.AnimatedShaderProperty.Animate*
+  name: Animate
+  href: api/Zigurous.Graphics.AnimatedShaderProperty.html#Zigurous_Graphics_AnimatedShaderProperty_Animate_
+  commentId: Overload:Zigurous.Graphics.AnimatedShaderProperty.Animate
+  isSpec: "True"
+  fullName: Zigurous.Graphics.AnimatedShaderProperty.Animate
+  nameWithType: AnimatedShaderProperty.Animate
+- uid: Zigurous.Graphics.AnimatedShaderProperty.property
+  name: property
+  href: api/Zigurous.Graphics.AnimatedShaderProperty.html#Zigurous_Graphics_AnimatedShaderProperty_property
+  commentId: F:Zigurous.Graphics.AnimatedShaderProperty.property
+  fullName: Zigurous.Graphics.AnimatedShaderProperty.property
+  nameWithType: AnimatedShaderProperty.property
+- uid: Zigurous.Graphics.AnimatedShaderPropertyExtensions
+  name: AnimatedShaderPropertyExtensions
+  href: api/Zigurous.Graphics.AnimatedShaderPropertyExtensions.html
+  commentId: T:Zigurous.Graphics.AnimatedShaderPropertyExtensions
+  fullName: Zigurous.Graphics.AnimatedShaderPropertyExtensions
+  nameWithType: AnimatedShaderPropertyExtensions
+- uid: Zigurous.Graphics.AnimatedShaderPropertyExtensions.Animate(System.Collections.Generic.List{Zigurous.Graphics.AnimatedShaderProperty},Material,System.Single)
+  name: Animate(List<AnimatedShaderProperty>, Material, Single)
+  href: api/Zigurous.Graphics.AnimatedShaderPropertyExtensions.html#Zigurous_Graphics_AnimatedShaderPropertyExtensions_Animate_System_Collections_Generic_List_Zigurous_Graphics_AnimatedShaderProperty__Material_System_Single_
+  commentId: M:Zigurous.Graphics.AnimatedShaderPropertyExtensions.Animate(System.Collections.Generic.List{Zigurous.Graphics.AnimatedShaderProperty},Material,System.Single)
+  name.vb: Animate(List(Of AnimatedShaderProperty), Material, Single)
+  fullName: Zigurous.Graphics.AnimatedShaderPropertyExtensions.Animate(System.Collections.Generic.List<Zigurous.Graphics.AnimatedShaderProperty>, Material, System.Single)
+  fullName.vb: Zigurous.Graphics.AnimatedShaderPropertyExtensions.Animate(System.Collections.Generic.List(Of Zigurous.Graphics.AnimatedShaderProperty), Material, System.Single)
+  nameWithType: AnimatedShaderPropertyExtensions.Animate(List<AnimatedShaderProperty>, Material, Single)
+  nameWithType.vb: AnimatedShaderPropertyExtensions.Animate(List(Of AnimatedShaderProperty), Material, Single)
+- uid: Zigurous.Graphics.AnimatedShaderPropertyExtensions.Animate(Zigurous.Graphics.AnimatedShaderProperty[],Material,System.Single)
+  name: Animate(AnimatedShaderProperty[], Material, Single)
+  href: api/Zigurous.Graphics.AnimatedShaderPropertyExtensions.html#Zigurous_Graphics_AnimatedShaderPropertyExtensions_Animate_Zigurous_Graphics_AnimatedShaderProperty___Material_System_Single_
+  commentId: M:Zigurous.Graphics.AnimatedShaderPropertyExtensions.Animate(Zigurous.Graphics.AnimatedShaderProperty[],Material,System.Single)
+  name.vb: Animate(AnimatedShaderProperty(), Material, Single)
+  fullName: Zigurous.Graphics.AnimatedShaderPropertyExtensions.Animate(Zigurous.Graphics.AnimatedShaderProperty[], Material, System.Single)
+  fullName.vb: Zigurous.Graphics.AnimatedShaderPropertyExtensions.Animate(Zigurous.Graphics.AnimatedShaderProperty(), Material, System.Single)
+  nameWithType: AnimatedShaderPropertyExtensions.Animate(AnimatedShaderProperty[], Material, Single)
+  nameWithType.vb: AnimatedShaderPropertyExtensions.Animate(AnimatedShaderProperty(), Material, Single)
+- uid: Zigurous.Graphics.AnimatedShaderPropertyExtensions.Animate*
+  name: Animate
+  href: api/Zigurous.Graphics.AnimatedShaderPropertyExtensions.html#Zigurous_Graphics_AnimatedShaderPropertyExtensions_Animate_
+  commentId: Overload:Zigurous.Graphics.AnimatedShaderPropertyExtensions.Animate
+  isSpec: "True"
+  fullName: Zigurous.Graphics.AnimatedShaderPropertyExtensions.Animate
+  nameWithType: AnimatedShaderPropertyExtensions.Animate
 - uid: Zigurous.Graphics.AutoTile
   name: AutoTile
   href: api/Zigurous.Graphics.AutoTile.html
@@ -129,6 +312,117 @@ references:
   isSpec: "True"
   fullName: Zigurous.Graphics.AutoTile.Tile
   nameWithType: AutoTile.Tile
+- uid: Zigurous.Graphics.CheckerboardTextureDrawer
+  name: CheckerboardTextureDrawer
+  href: api/Zigurous.Graphics.CheckerboardTextureDrawer.html
+  commentId: T:Zigurous.Graphics.CheckerboardTextureDrawer
+  fullName: Zigurous.Graphics.CheckerboardTextureDrawer
+  nameWithType: CheckerboardTextureDrawer
+- uid: Zigurous.Graphics.CheckerboardTextureDrawer.checkerboard
+  name: checkerboard
+  href: api/Zigurous.Graphics.CheckerboardTextureDrawer.html#Zigurous_Graphics_CheckerboardTextureDrawer_checkerboard
+  commentId: F:Zigurous.Graphics.CheckerboardTextureDrawer.checkerboard
+  fullName: Zigurous.Graphics.CheckerboardTextureDrawer.checkerboard
+  nameWithType: CheckerboardTextureDrawer.checkerboard
+- uid: Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings
+  name: CheckerboardTextureDrawer.CheckerboardSettings
+  href: api/Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.html
+  commentId: T:Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings
+  fullName: Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings
+  nameWithType: CheckerboardTextureDrawer.CheckerboardSettings
+- uid: Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.#ctor(System.Int32,System.Int32,Color,Color)
+  name: CheckerboardSettings(Int32, Int32, Color, Color)
+  href: api/Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.html#Zigurous_Graphics_CheckerboardTextureDrawer_CheckerboardSettings__ctor_System_Int32_System_Int32_Color_Color_
+  commentId: M:Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.#ctor(System.Int32,System.Int32,Color,Color)
+  fullName: Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.CheckerboardSettings(System.Int32, System.Int32, Color, Color)
+  nameWithType: CheckerboardTextureDrawer.CheckerboardSettings.CheckerboardSettings(Int32, Int32, Color, Color)
+- uid: Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.#ctor*
+  name: CheckerboardSettings
+  href: api/Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.html#Zigurous_Graphics_CheckerboardTextureDrawer_CheckerboardSettings__ctor_
+  commentId: Overload:Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.#ctor
+  isSpec: "True"
+  fullName: Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.CheckerboardSettings
+  nameWithType: CheckerboardTextureDrawer.CheckerboardSettings.CheckerboardSettings
+- uid: Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.colorA
+  name: colorA
+  href: api/Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.html#Zigurous_Graphics_CheckerboardTextureDrawer_CheckerboardSettings_colorA
+  commentId: F:Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.colorA
+  fullName: Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.colorA
+  nameWithType: CheckerboardTextureDrawer.CheckerboardSettings.colorA
+- uid: Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.colorB
+  name: colorB
+  href: api/Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.html#Zigurous_Graphics_CheckerboardTextureDrawer_CheckerboardSettings_colorB
+  commentId: F:Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.colorB
+  fullName: Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.colorB
+  nameWithType: CheckerboardTextureDrawer.CheckerboardSettings.colorB
+- uid: Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.columns
+  name: columns
+  href: api/Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.html#Zigurous_Graphics_CheckerboardTextureDrawer_CheckerboardSettings_columns
+  commentId: F:Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.columns
+  fullName: Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.columns
+  nameWithType: CheckerboardTextureDrawer.CheckerboardSettings.columns
+- uid: Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.rows
+  name: rows
+  href: api/Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.html#Zigurous_Graphics_CheckerboardTextureDrawer_CheckerboardSettings_rows
+  commentId: F:Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.rows
+  fullName: Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.rows
+  nameWithType: CheckerboardTextureDrawer.CheckerboardSettings.rows
+- uid: Zigurous.Graphics.CheckerboardTextureDrawer.SetPixels(Texture2D)
+  name: SetPixels(Texture2D)
+  href: api/Zigurous.Graphics.CheckerboardTextureDrawer.html#Zigurous_Graphics_CheckerboardTextureDrawer_SetPixels_Texture2D_
+  commentId: M:Zigurous.Graphics.CheckerboardTextureDrawer.SetPixels(Texture2D)
+  fullName: Zigurous.Graphics.CheckerboardTextureDrawer.SetPixels(Texture2D)
+  nameWithType: CheckerboardTextureDrawer.SetPixels(Texture2D)
+- uid: Zigurous.Graphics.CheckerboardTextureDrawer.SetPixels*
+  name: SetPixels
+  href: api/Zigurous.Graphics.CheckerboardTextureDrawer.html#Zigurous_Graphics_CheckerboardTextureDrawer_SetPixels_
+  commentId: Overload:Zigurous.Graphics.CheckerboardTextureDrawer.SetPixels
+  isSpec: "True"
+  fullName: Zigurous.Graphics.CheckerboardTextureDrawer.SetPixels
+  nameWithType: CheckerboardTextureDrawer.SetPixels
+- uid: Zigurous.Graphics.CombineChildrenMeshes
+  name: CombineChildrenMeshes
+  href: api/Zigurous.Graphics.CombineChildrenMeshes.html
+  commentId: T:Zigurous.Graphics.CombineChildrenMeshes
+  fullName: Zigurous.Graphics.CombineChildrenMeshes
+  nameWithType: CombineChildrenMeshes
+- uid: Zigurous.Graphics.CombineChildrenMeshes.Combine
+  name: Combine()
+  href: api/Zigurous.Graphics.CombineChildrenMeshes.html#Zigurous_Graphics_CombineChildrenMeshes_Combine
+  commentId: M:Zigurous.Graphics.CombineChildrenMeshes.Combine
+  fullName: Zigurous.Graphics.CombineChildrenMeshes.Combine()
+  nameWithType: CombineChildrenMeshes.Combine()
+- uid: Zigurous.Graphics.CombineChildrenMeshes.Combine*
+  name: Combine
+  href: api/Zigurous.Graphics.CombineChildrenMeshes.html#Zigurous_Graphics_CombineChildrenMeshes_Combine_
+  commentId: Overload:Zigurous.Graphics.CombineChildrenMeshes.Combine
+  isSpec: "True"
+  fullName: Zigurous.Graphics.CombineChildrenMeshes.Combine
+  nameWithType: CombineChildrenMeshes.Combine
+- uid: Zigurous.Graphics.CombineChildrenMeshes.combineOnStart
+  name: combineOnStart
+  href: api/Zigurous.Graphics.CombineChildrenMeshes.html#Zigurous_Graphics_CombineChildrenMeshes_combineOnStart
+  commentId: F:Zigurous.Graphics.CombineChildrenMeshes.combineOnStart
+  fullName: Zigurous.Graphics.CombineChildrenMeshes.combineOnStart
+  nameWithType: CombineChildrenMeshes.combineOnStart
+- uid: Zigurous.Graphics.CombineChildrenMeshes.optimizeMesh
+  name: optimizeMesh
+  href: api/Zigurous.Graphics.CombineChildrenMeshes.html#Zigurous_Graphics_CombineChildrenMeshes_optimizeMesh
+  commentId: F:Zigurous.Graphics.CombineChildrenMeshes.optimizeMesh
+  fullName: Zigurous.Graphics.CombineChildrenMeshes.optimizeMesh
+  nameWithType: CombineChildrenMeshes.optimizeMesh
+- uid: Zigurous.Graphics.CombineChildrenMeshes.recalculateBounds
+  name: recalculateBounds
+  href: api/Zigurous.Graphics.CombineChildrenMeshes.html#Zigurous_Graphics_CombineChildrenMeshes_recalculateBounds
+  commentId: F:Zigurous.Graphics.CombineChildrenMeshes.recalculateBounds
+  fullName: Zigurous.Graphics.CombineChildrenMeshes.recalculateBounds
+  nameWithType: CombineChildrenMeshes.recalculateBounds
+- uid: Zigurous.Graphics.CombineChildrenMeshes.removeChildMeshes
+  name: removeChildMeshes
+  href: api/Zigurous.Graphics.CombineChildrenMeshes.html#Zigurous_Graphics_CombineChildrenMeshes_removeChildMeshes
+  commentId: F:Zigurous.Graphics.CombineChildrenMeshes.removeChildMeshes
+  fullName: Zigurous.Graphics.CombineChildrenMeshes.removeChildMeshes
+  nameWithType: CombineChildrenMeshes.removeChildMeshes
 - uid: Zigurous.Graphics.CubeMesh
   name: CubeMesh
   href: api/Zigurous.Graphics.CubeMesh.html
@@ -789,6 +1083,163 @@ references:
   fullName.vb: Zigurous.Graphics.ShaderProperty.Widening
   nameWithType: ShaderProperty.Implicit
   nameWithType.vb: ShaderProperty.Widening
+- uid: Zigurous.Graphics.TextureDrawer
+  name: TextureDrawer
+  href: api/Zigurous.Graphics.TextureDrawer.html
+  commentId: T:Zigurous.Graphics.TextureDrawer
+  fullName: Zigurous.Graphics.TextureDrawer
+  nameWithType: TextureDrawer
+- uid: Zigurous.Graphics.TextureDrawer.Draw
+  name: Draw()
+  href: api/Zigurous.Graphics.TextureDrawer.html#Zigurous_Graphics_TextureDrawer_Draw
+  commentId: M:Zigurous.Graphics.TextureDrawer.Draw
+  fullName: Zigurous.Graphics.TextureDrawer.Draw()
+  nameWithType: TextureDrawer.Draw()
+- uid: Zigurous.Graphics.TextureDrawer.Draw*
+  name: Draw
+  href: api/Zigurous.Graphics.TextureDrawer.html#Zigurous_Graphics_TextureDrawer_Draw_
+  commentId: Overload:Zigurous.Graphics.TextureDrawer.Draw
+  isSpec: "True"
+  fullName: Zigurous.Graphics.TextureDrawer.Draw
+  nameWithType: TextureDrawer.Draw
+- uid: Zigurous.Graphics.TextureDrawer.invalidated
+  name: invalidated
+  href: api/Zigurous.Graphics.TextureDrawer.html#Zigurous_Graphics_TextureDrawer_invalidated
+  commentId: P:Zigurous.Graphics.TextureDrawer.invalidated
+  fullName: Zigurous.Graphics.TextureDrawer.invalidated
+  nameWithType: TextureDrawer.invalidated
+- uid: Zigurous.Graphics.TextureDrawer.invalidated*
+  name: invalidated
+  href: api/Zigurous.Graphics.TextureDrawer.html#Zigurous_Graphics_TextureDrawer_invalidated_
+  commentId: Overload:Zigurous.Graphics.TextureDrawer.invalidated
+  isSpec: "True"
+  fullName: Zigurous.Graphics.TextureDrawer.invalidated
+  nameWithType: TextureDrawer.invalidated
+- uid: Zigurous.Graphics.TextureDrawer.renderer
+  name: renderer
+  href: api/Zigurous.Graphics.TextureDrawer.html#Zigurous_Graphics_TextureDrawer_renderer
+  commentId: P:Zigurous.Graphics.TextureDrawer.renderer
+  fullName: Zigurous.Graphics.TextureDrawer.renderer
+  nameWithType: TextureDrawer.renderer
+- uid: Zigurous.Graphics.TextureDrawer.renderer*
+  name: renderer
+  href: api/Zigurous.Graphics.TextureDrawer.html#Zigurous_Graphics_TextureDrawer_renderer_
+  commentId: Overload:Zigurous.Graphics.TextureDrawer.renderer
+  isSpec: "True"
+  fullName: Zigurous.Graphics.TextureDrawer.renderer
+  nameWithType: TextureDrawer.renderer
+- uid: Zigurous.Graphics.TextureDrawer.renderSettings
+  name: renderSettings
+  href: api/Zigurous.Graphics.TextureDrawer.html#Zigurous_Graphics_TextureDrawer_renderSettings
+  commentId: F:Zigurous.Graphics.TextureDrawer.renderSettings
+  fullName: Zigurous.Graphics.TextureDrawer.renderSettings
+  nameWithType: TextureDrawer.renderSettings
+- uid: Zigurous.Graphics.TextureDrawer.RenderSettings
+  name: TextureDrawer.RenderSettings
+  href: api/Zigurous.Graphics.TextureDrawer.RenderSettings.html
+  commentId: T:Zigurous.Graphics.TextureDrawer.RenderSettings
+  fullName: Zigurous.Graphics.TextureDrawer.RenderSettings
+  nameWithType: TextureDrawer.RenderSettings
+- uid: Zigurous.Graphics.TextureDrawer.RenderSettings.#ctor(Zigurous.Graphics.ShaderProperty,System.Single,System.Boolean)
+  name: RenderSettings(ShaderProperty, Single, Boolean)
+  href: api/Zigurous.Graphics.TextureDrawer.RenderSettings.html#Zigurous_Graphics_TextureDrawer_RenderSettings__ctor_Zigurous_Graphics_ShaderProperty_System_Single_System_Boolean_
+  commentId: M:Zigurous.Graphics.TextureDrawer.RenderSettings.#ctor(Zigurous.Graphics.ShaderProperty,System.Single,System.Boolean)
+  fullName: Zigurous.Graphics.TextureDrawer.RenderSettings.RenderSettings(Zigurous.Graphics.ShaderProperty, System.Single, System.Boolean)
+  nameWithType: TextureDrawer.RenderSettings.RenderSettings(ShaderProperty, Single, Boolean)
+- uid: Zigurous.Graphics.TextureDrawer.RenderSettings.#ctor*
+  name: RenderSettings
+  href: api/Zigurous.Graphics.TextureDrawer.RenderSettings.html#Zigurous_Graphics_TextureDrawer_RenderSettings__ctor_
+  commentId: Overload:Zigurous.Graphics.TextureDrawer.RenderSettings.#ctor
+  isSpec: "True"
+  fullName: Zigurous.Graphics.TextureDrawer.RenderSettings.RenderSettings
+  nameWithType: TextureDrawer.RenderSettings.RenderSettings
+- uid: Zigurous.Graphics.TextureDrawer.RenderSettings.scaleFactor
+  name: scaleFactor
+  href: api/Zigurous.Graphics.TextureDrawer.RenderSettings.html#Zigurous_Graphics_TextureDrawer_RenderSettings_scaleFactor
+  commentId: F:Zigurous.Graphics.TextureDrawer.RenderSettings.scaleFactor
+  fullName: Zigurous.Graphics.TextureDrawer.RenderSettings.scaleFactor
+  nameWithType: TextureDrawer.RenderSettings.scaleFactor
+- uid: Zigurous.Graphics.TextureDrawer.RenderSettings.scaleTransform
+  name: scaleTransform
+  href: api/Zigurous.Graphics.TextureDrawer.RenderSettings.html#Zigurous_Graphics_TextureDrawer_RenderSettings_scaleTransform
+  commentId: F:Zigurous.Graphics.TextureDrawer.RenderSettings.scaleTransform
+  fullName: Zigurous.Graphics.TextureDrawer.RenderSettings.scaleTransform
+  nameWithType: TextureDrawer.RenderSettings.scaleTransform
+- uid: Zigurous.Graphics.TextureDrawer.RenderSettings.shaderTextureName
+  name: shaderTextureName
+  href: api/Zigurous.Graphics.TextureDrawer.RenderSettings.html#Zigurous_Graphics_TextureDrawer_RenderSettings_shaderTextureName
+  commentId: F:Zigurous.Graphics.TextureDrawer.RenderSettings.shaderTextureName
+  fullName: Zigurous.Graphics.TextureDrawer.RenderSettings.shaderTextureName
+  nameWithType: TextureDrawer.RenderSettings.shaderTextureName
+- uid: Zigurous.Graphics.TextureDrawer.SetPixels(Texture2D)
+  name: SetPixels(Texture2D)
+  href: api/Zigurous.Graphics.TextureDrawer.html#Zigurous_Graphics_TextureDrawer_SetPixels_Texture2D_
+  commentId: M:Zigurous.Graphics.TextureDrawer.SetPixels(Texture2D)
+  fullName: Zigurous.Graphics.TextureDrawer.SetPixels(Texture2D)
+  nameWithType: TextureDrawer.SetPixels(Texture2D)
+- uid: Zigurous.Graphics.TextureDrawer.SetPixels*
+  name: SetPixels
+  href: api/Zigurous.Graphics.TextureDrawer.html#Zigurous_Graphics_TextureDrawer_SetPixels_
+  commentId: Overload:Zigurous.Graphics.TextureDrawer.SetPixels
+  isSpec: "True"
+  fullName: Zigurous.Graphics.TextureDrawer.SetPixels
+  nameWithType: TextureDrawer.SetPixels
+- uid: Zigurous.Graphics.TextureDrawer.texture
+  name: texture
+  href: api/Zigurous.Graphics.TextureDrawer.html#Zigurous_Graphics_TextureDrawer_texture
+  commentId: P:Zigurous.Graphics.TextureDrawer.texture
+  fullName: Zigurous.Graphics.TextureDrawer.texture
+  nameWithType: TextureDrawer.texture
+- uid: Zigurous.Graphics.TextureDrawer.texture*
+  name: texture
+  href: api/Zigurous.Graphics.TextureDrawer.html#Zigurous_Graphics_TextureDrawer_texture_
+  commentId: Overload:Zigurous.Graphics.TextureDrawer.texture
+  isSpec: "True"
+  fullName: Zigurous.Graphics.TextureDrawer.texture
+  nameWithType: TextureDrawer.texture
+- uid: Zigurous.Graphics.TextureDrawer.textureSettings
+  name: textureSettings
+  href: api/Zigurous.Graphics.TextureDrawer.html#Zigurous_Graphics_TextureDrawer_textureSettings
+  commentId: F:Zigurous.Graphics.TextureDrawer.textureSettings
+  fullName: Zigurous.Graphics.TextureDrawer.textureSettings
+  nameWithType: TextureDrawer.textureSettings
+- uid: Zigurous.Graphics.TextureDrawer.TextureSettings
+  name: TextureDrawer.TextureSettings
+  href: api/Zigurous.Graphics.TextureDrawer.TextureSettings.html
+  commentId: T:Zigurous.Graphics.TextureDrawer.TextureSettings
+  fullName: Zigurous.Graphics.TextureDrawer.TextureSettings
+  nameWithType: TextureDrawer.TextureSettings
+- uid: Zigurous.Graphics.TextureDrawer.TextureSettings.#ctor(Vector2Int,FilterMode,TextureWrapMode)
+  name: TextureSettings(Vector2Int, FilterMode, TextureWrapMode)
+  href: api/Zigurous.Graphics.TextureDrawer.TextureSettings.html#Zigurous_Graphics_TextureDrawer_TextureSettings__ctor_Vector2Int_FilterMode_TextureWrapMode_
+  commentId: M:Zigurous.Graphics.TextureDrawer.TextureSettings.#ctor(Vector2Int,FilterMode,TextureWrapMode)
+  fullName: Zigurous.Graphics.TextureDrawer.TextureSettings.TextureSettings(Vector2Int, FilterMode, TextureWrapMode)
+  nameWithType: TextureDrawer.TextureSettings.TextureSettings(Vector2Int, FilterMode, TextureWrapMode)
+- uid: Zigurous.Graphics.TextureDrawer.TextureSettings.#ctor*
+  name: TextureSettings
+  href: api/Zigurous.Graphics.TextureDrawer.TextureSettings.html#Zigurous_Graphics_TextureDrawer_TextureSettings__ctor_
+  commentId: Overload:Zigurous.Graphics.TextureDrawer.TextureSettings.#ctor
+  isSpec: "True"
+  fullName: Zigurous.Graphics.TextureDrawer.TextureSettings.TextureSettings
+  nameWithType: TextureDrawer.TextureSettings.TextureSettings
+- uid: Zigurous.Graphics.TextureDrawer.TextureSettings.filterMode
+  name: filterMode
+  href: api/Zigurous.Graphics.TextureDrawer.TextureSettings.html#Zigurous_Graphics_TextureDrawer_TextureSettings_filterMode
+  commentId: F:Zigurous.Graphics.TextureDrawer.TextureSettings.filterMode
+  fullName: Zigurous.Graphics.TextureDrawer.TextureSettings.filterMode
+  nameWithType: TextureDrawer.TextureSettings.filterMode
+- uid: Zigurous.Graphics.TextureDrawer.TextureSettings.size
+  name: size
+  href: api/Zigurous.Graphics.TextureDrawer.TextureSettings.html#Zigurous_Graphics_TextureDrawer_TextureSettings_size
+  commentId: F:Zigurous.Graphics.TextureDrawer.TextureSettings.size
+  fullName: Zigurous.Graphics.TextureDrawer.TextureSettings.size
+  nameWithType: TextureDrawer.TextureSettings.size
+- uid: Zigurous.Graphics.TextureDrawer.TextureSettings.wrapMode
+  name: wrapMode
+  href: api/Zigurous.Graphics.TextureDrawer.TextureSettings.html#Zigurous_Graphics_TextureDrawer_TextureSettings_wrapMode
+  commentId: F:Zigurous.Graphics.TextureDrawer.TextureSettings.wrapMode
+  fullName: Zigurous.Graphics.TextureDrawer.TextureSettings.wrapMode
+  nameWithType: TextureDrawer.TextureSettings.wrapMode
 - uid: Zigurous.Graphics.Triangle
   name: Triangle
   href: api/Zigurous.Graphics.Triangle.html

@@ -4,9 +4,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Meshes | Graphics Utils </title>
+    <title>Shader Properties | Graphics Utils </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Meshes | Graphics Utils ">
+    <meta name="title" content="Shader Properties | Graphics Utils ">
     <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -78,33 +78,35 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="meshes">Meshes</h1>
+<h1 id="shader-properties">Shader Properties</h1>
 
-<p>The Graphics Utils package comes with a few custom cube meshes.</p>
-<ul>
-<li><code>Cube-3.mesh</code>: cube mesh with 3 submeshes (one for each axis)</li>
-<li><code>Cube-6.mesh</code>: cube mesh with 6 submeshes (one for each face)</li>
-<li><code>Cube-Inverted.mesh</code>: cube mesh with inverted normals and triangles (inside-out)</li>
-<li><code>Cube-Tiling.mesh</code> cube mesh designed specifically for <a href="tiling.html">Auto Tiling</a></li>
-</ul>
-<p>There are also 3 different scripts to generate cube meshes at runtime:</p>
-<ul>
-<li><a class="xref" href="../api/Zigurous.Graphics.CubeMesh.html">CubeMesh</a></li>
-<li><a class="xref" href="../api/Zigurous.Graphics.CubeMesh3.html">CubeMesh3</a></li>
-<li><a class="xref" href="../api/Zigurous.Graphics.CubeMesh6.html">CubeMesh6</a></li>
-</ul>
-<h3 id="saving-meshes">Saving Meshes</h3>
-<p>Often when generating meshes at runtime, you may want to save that mesh as an asset for future use so you do not need to regenerate them over and over. The Graphics Utils package comes with a <a class="xref" href="../api/Zigurous.Graphics.SaveMesh.html">SaveMesh</a> script that will save a mesh as an asset at runtime.</p>
-<h3 id="inverting-meshes">Inverting Meshes</h3>
-<p>Sometimes it is useful to invert a mesh so it renders inside out. This is especially useful for cubes. Inverting a mesh flips the triangles and the normals. The Graphics Utils package comes with an <a class="xref" href="../api/Zigurous.Graphics.InvertMesh.html">InvertMesh</a> script that handles this automatically.</p>
-<p>You can also manually invert the normals and triangles of a mesh by using extension methods:</p>
-<pre><code class="lang-csharp">mesh.InvertNormals();
-mesh.InvertTriangles();
-
-// Returns the inverted values without changing the actual mesh
-Vector3[] normals = mesh.InvertedNormals();
-int[] triangles = mesh.InvertedTriangles();
+<p>When setting shader properties on materials, it is more efficient to use property ids instead of strings. The Graphics Utils package comes with a static class <a class="xref" href="../api/Zigurous.Graphics.Identifier.html">Identifier</a> with predefined ids for common shader properties.</p>
+<pre><code class="lang-csharp">private void Start()
+{
+    Material material = GetComponent&lt;MeshRenderer&gt;().material;
+    material.SetFloat(Identifier.Glossiness, 1.0f);
+}
 </code></pre>
+<h3 id="automatic-property-ids">Automatic Property Ids</h3>
+<p>The <a class="xref" href="../api/Zigurous.Graphics.ShaderProperty.html">ShaderProperty</a> struct included in the Graphics Utils package automatically creates a property id for a given shader property name. Anywhere you might declare a variable for a custom shader property name use <code>ShaderProperty</code> instead. It will still be serialized as a string in the editor, but you can use the id when getting or setting a shader property on a material.</p>
+<p>To learn more, see <a href="https://docs.unity3d.com/ScriptReference/Shader.PropertyToID.html">https://docs.unity3d.com/ScriptReference/Shader.PropertyToID.html</a>.</p>
+<pre><code class="lang-csharp">public ShaderProperty property = &quot;_Custom&quot;;
+public float propertyValue;
+
+private void Start()
+{
+    Material material = GetComponent&lt;MeshRenderer&gt;().material;
+    material.SetFloat(property.id, propertyValue);
+}
+</code></pre>
+<h3 id="animated-properties">Animated Properties</h3>
+<p>Sometimes you want to animate a shader property over time. The Graphics Utils package includes a few data structures to accomplish this. You can declare any one of the following in a script:</p>
+<ul>
+<li><a class="xref" href="../api/Zigurous.Graphics.AnimatedShaderIntProperty.html">AnimatedShaderIntProperty</a></li>
+<li><a class="xref" href="../api/Zigurous.Graphics.AnimatedShaderFloatProperty.html">AnimatedShaderFloatProperty</a></li>
+<li><a class="xref" href="../api/Zigurous.Graphics.AnimatedShaderColorProperty.html">AnimatedShaderColorProperty</a></li>
+</ul>
+<p>The structs provide a <code>valueOverTime</code> or <code>colorOverTime</code> variable that you can use to set the animated values. At this point your script can call <code>Animate(material, time)</code> to evaluate the value at the given time and apply it to the provided material.</p>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">

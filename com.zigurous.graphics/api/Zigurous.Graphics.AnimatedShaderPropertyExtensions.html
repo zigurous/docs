@@ -4,9 +4,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Changelog | Graphics Utils </title>
+    <title>Class AnimatedShaderPropertyExtensions
+   | Graphics Utils </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Changelog | Graphics Utils ">
+    <meta name="title" content="Class AnimatedShaderPropertyExtensions
+   | Graphics Utils ">
     <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -77,51 +79,89 @@
                 <li></li>
               </ul>
             </div>
-            <article class="content wrap" id="_content" data-uid="">
-<h1 id="changelog">Changelog</h1>
-
-<p>All notable changes to this project will be documented in this file.</p>
-<p>The format is based on <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>,
-and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semantic Versioning</a>.</p>
-<h2 id="020---20210717">[0.2.0] - 2021/07/17</h2>
-<h3 id="added">Added</h3>
-<ul>
-<li>Data structure <code>AnimatedShaderProperty</code></li>
-<li>Abstract class <code>TextureDrawer</code></li>
-<li>Behavior <code>CheckerboardTextureDrawer</code></li>
-<li>Behavior <code>CombineChildrenMeshes</code></li>
-</ul>
-<h3 id="fixed">Fixed</h3>
-<ul>
-<li><code>ShaderProperty</code> ids were not changing when the name was changed in the editor</li>
-</ul>
-<h2 id="010---20210705">[0.1.0] - 2021/07/05</h2>
-<h3 id="added-1">Added</h3>
-<h4 id="meshes">Meshes</h4>
-<ul>
-<li>Cube-3</li>
-<li>Cube-6</li>
-<li>Cube-Inverted</li>
-<li>Cube-Tiling</li>
-</ul>
-<h4 id="behaviors">Behaviors</h4>
-<ul>
-<li>AutoTile</li>
-<li>CubeMesh</li>
-<li>CubeMesh3</li>
-<li>CubeMesh6</li>
-<li>InvertMesh</li>
-<li>SaveMesh</li>
-</ul>
-<h4 id="other">Other</h4>
-<ul>
-<li>Identifier</li>
-<li>MaterialExtensions</li>
-<li>MeshExtensions</li>
-<li>RenderingMode</li>
-<li>ShaderProperty</li>
-<li>Triangle</li>
-</ul>
+            <article class="content wrap" id="_content" data-uid="Zigurous.Graphics.AnimatedShaderPropertyExtensions">
+  <h1 id="Zigurous_Graphics_AnimatedShaderPropertyExtensions" data-uid="Zigurous.Graphics.AnimatedShaderPropertyExtensions" class="text-break">Class AnimatedShaderPropertyExtensions
+  </h1>
+  <div class="markdown level0 summary"><p>Extension methods for <a class="xref" href="Zigurous.Graphics.AnimatedShaderProperty.html">AnimatedShaderProperty</a>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">AnimatedShaderPropertyExtensions</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Graphics.html">Zigurous.Graphics</a></h6>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class AnimatedShaderPropertyExtensions</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="Zigurous_Graphics_AnimatedShaderPropertyExtensions_Animate_" data-uid="Zigurous.Graphics.AnimatedShaderPropertyExtensions.Animate*"></a>
+  <h4 id="Zigurous_Graphics_AnimatedShaderPropertyExtensions_Animate_System_Collections_Generic_List_Zigurous_Graphics_AnimatedShaderProperty__Material_System_Single_" data-uid="Zigurous.Graphics.AnimatedShaderPropertyExtensions.Animate(System.Collections.Generic.List{Zigurous.Graphics.AnimatedShaderProperty},Material,System.Single)">Animate(List&lt;AnimatedShaderProperty&gt;, Material, Single)</h4>
+  <div class="markdown level1 summary"><p>Animates an array of shader properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Animate(this List&lt;AnimatedShaderProperty&gt; properties, Material material, float time)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">properties</span></td>
+        <td><p>The shader properties to animate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">material</span></td>
+        <td><p>The material to animate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">time</span></td>
+        <td><p>The time of the animation to evaluate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_Graphics_AnimatedShaderPropertyExtensions_Animate_" data-uid="Zigurous.Graphics.AnimatedShaderPropertyExtensions.Animate*"></a>
+  <h4 id="Zigurous_Graphics_AnimatedShaderPropertyExtensions_Animate_Zigurous_Graphics_AnimatedShaderProperty___Material_System_Single_" data-uid="Zigurous.Graphics.AnimatedShaderPropertyExtensions.Animate(Zigurous.Graphics.AnimatedShaderProperty[],Material,System.Single)">Animate(AnimatedShaderProperty[], Material, Single)</h4>
+  <div class="markdown level1 summary"><p>Animates an array of shader properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Animate(this AnimatedShaderProperty[] properties, Material material, float time)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">properties</span></td>
+        <td><p>The shader properties to animate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">material</span></td>
+        <td><p>The material to animate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">time</span></td>
+        <td><p>The time of the animation to evaluate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">

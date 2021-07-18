@@ -4,10 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SaveMesh
+    <title>Class AnimatedShaderIntProperty
    | Graphics Utils </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SaveMesh
+    <meta name="title" content="Class AnimatedShaderIntProperty
    | Graphics Utils ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -79,48 +79,100 @@
                 <li></li>
               </ul>
             </div>
-            <article class="content wrap" id="_content" data-uid="Zigurous.Graphics.SaveMesh">
-  <h1 id="Zigurous_Graphics_SaveMesh" data-uid="Zigurous.Graphics.SaveMesh" class="text-break">Class SaveMesh
+            <article class="content wrap" id="_content" data-uid="Zigurous.Graphics.AnimatedShaderIntProperty">
+  <h1 id="Zigurous_Graphics_AnimatedShaderIntProperty" data-uid="Zigurous.Graphics.AnimatedShaderIntProperty" class="text-break">Class AnimatedShaderIntProperty
   </h1>
-  <div class="markdown level0 summary"><p>Saves the mesh of a mesh filter into a project asset.</p>
+  <div class="markdown level0 summary"><p>A shader int property that can be animated.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">SaveMesh</span></div>
+    <div class="level1"><a class="xref" href="Zigurous.Graphics.AnimatedShaderProperty.html">AnimatedShaderProperty</a></div>
+    <div class="level2"><span class="xref">AnimatedShaderIntProperty</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Zigurous.Graphics.AnimatedShaderProperty.html#Zigurous_Graphics_AnimatedShaderProperty_property">AnimatedShaderProperty.property</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Graphics.html">Zigurous.Graphics</a></h6>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class SaveMesh : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class AnimatedShaderIntProperty : AnimatedShaderProperty</code></pre>
   </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="Zigurous_Graphics_AnimatedShaderIntProperty__ctor_" data-uid="Zigurous.Graphics.AnimatedShaderIntProperty.#ctor*"></a>
+  <h4 id="Zigurous_Graphics_AnimatedShaderIntProperty__ctor_AnimationCurve_System_String_" data-uid="Zigurous.Graphics.AnimatedShaderIntProperty.#ctor(AnimationCurve,System.String)">AnimatedShaderIntProperty(AnimationCurve, String)</h4>
+  <div class="markdown level1 summary"><p>Creates a new animated shader int property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimatedShaderIntProperty(AnimationCurve valueOverTime, string property)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">valueOverTime</span></td>
+        <td><p>The value over time of the shader property.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">property</span></td>
+        <td><p>The shader property to animate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="fields">Fields
   </h3>
-  <h4 id="Zigurous_Graphics_SaveMesh_assetName" data-uid="Zigurous.Graphics.SaveMesh.assetName">assetName</h4>
-  <div class="markdown level1 summary"><p>The name the asset is saved with. The mesh name will be used if not
-set.</p>
+  <h4 id="Zigurous_Graphics_AnimatedShaderIntProperty_valueOverTime" data-uid="Zigurous.Graphics.AnimatedShaderIntProperty.valueOverTime">valueOverTime</h4>
+  <div class="markdown level1 summary"><p>The value over time of the shader property.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string assetName</code></pre>
-  </div>
-  <h4 id="Zigurous_Graphics_SaveMesh_saveOnStart" data-uid="Zigurous.Graphics.SaveMesh.saveOnStart">saveOnStart</h4>
-  <div class="markdown level1 summary"><p>Saves the mesh on start, otherwise it needs to be called manually.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool saveOnStart</code></pre>
+    <pre><code class="lang-csharp hljs">public AnimationCurve valueOverTime</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  <a id="Zigurous_Graphics_SaveMesh_Save_" data-uid="Zigurous.Graphics.SaveMesh.Save*"></a>
-  <h4 id="Zigurous_Graphics_SaveMesh_Save" data-uid="Zigurous.Graphics.SaveMesh.Save">Save()</h4>
-  <div class="markdown level1 summary"><p>Saves the mesh to a project asset.</p>
+  <a id="Zigurous_Graphics_AnimatedShaderIntProperty_Animate_" data-uid="Zigurous.Graphics.AnimatedShaderIntProperty.Animate*"></a>
+  <h4 id="Zigurous_Graphics_AnimatedShaderIntProperty_Animate_Material_System_Single_" data-uid="Zigurous.Graphics.AnimatedShaderIntProperty.Animate(Material,System.Single)">Animate(Material, Single)</h4>
+  <div class="markdown level1 summary"><p>Animates the shader property.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Save()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Animate(Material material, float time)</code></pre>
   </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">material</span></td>
+        <td><p>The material to animate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">time</span></td>
+        <td><p>The time of the animation to evaluate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Zigurous.Graphics.AnimatedShaderProperty.html#Zigurous_Graphics_AnimatedShaderProperty_Animate_Material_System_Single_">AnimatedShaderProperty.Animate(Material, Single)</a></div>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">

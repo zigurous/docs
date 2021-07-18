@@ -18,7 +18,67 @@
       "output": {
         ".html": {
           "relative_path": "changelog/CHANGELOG.html",
-          "hash": "RdQWj6sPhw/cHEFSYEo7O6CF9lzrnNudzvdCmRFznLU="
+          "hash": "OqMIUP1YOAxq3JjXa6uhQM0iFC1We7zr4FTJ3jHyups="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Graphics.AnimatedShaderColorProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Graphics.AnimatedShaderColorProperty.html",
+          "hash": "cFgXEx3Tjs06ic/JqyZLb2CC6AcN6aFNBhaGJsB2VvY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Graphics.AnimatedShaderFloatProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Graphics.AnimatedShaderFloatProperty.html",
+          "hash": "v8mGR5Auzg8AqFE6jKI4Jv7lHYshC6DRSjFZhLfEgVY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Graphics.AnimatedShaderIntProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Graphics.AnimatedShaderIntProperty.html",
+          "hash": "9dU4Q1vvJdPbESS386HyVv7a0lPvq36G1eMyDYXtAgU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Graphics.AnimatedShaderProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Graphics.AnimatedShaderProperty.html",
+          "hash": "fO/p5ZLHVB9LS72Nnk8/4RycjruUcaGDCe3XFczS9jc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Graphics.AnimatedShaderPropertyExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Graphics.AnimatedShaderPropertyExtensions.html",
+          "hash": "aLkHFkfZhr696ZUf8Y5PS2w1zTEJsM849BSOz3BL6M0="
         }
       },
       "is_incremental": false,
@@ -55,6 +115,42 @@
         ".html": {
           "relative_path": "api/Zigurous.Graphics.AutoTile.html",
           "hash": "PI5RJs3bwIc/nPFn6JiqF7t1IFbOYLQ5exakHzFIR9U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Graphics.CheckerboardTextureDrawer.CheckerboardSettings.html",
+          "hash": "lSzYbxoqKGCXwlTuGZhAjYYWwLXjwUvIe/lMIb3dqUI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Graphics.CheckerboardTextureDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Graphics.CheckerboardTextureDrawer.html",
+          "hash": "yrxAUYb/hSY1VAz+UCGu+uZB6ozk3GR8p0LgzqMb41w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Graphics.CombineChildrenMeshes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Graphics.CombineChildrenMeshes.html",
+          "hash": "nQgFS2nity6n59f91gLCdk+DxMVWlx/uakukbsfLMqg="
         }
       },
       "is_incremental": false,
@@ -162,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Graphics.SaveMesh.html",
-          "hash": "eXami6nqkO6DvbwXiX7DF9Nbj/kvYVbEJ8BKutgbB0w="
+          "hash": "3I5TOU9YXnZkAm4GuOwO8Qdee8OBND8e0p2FUdAVOEw="
         }
       },
       "is_incremental": false,
@@ -175,6 +271,42 @@
         ".html": {
           "relative_path": "api/Zigurous.Graphics.ShaderProperty.html",
           "hash": "wc5asMS1Q784iVZ9tqhi8sjjEkvOOH/bQqxoSGEXuyE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Graphics.TextureDrawer.RenderSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Graphics.TextureDrawer.RenderSettings.html",
+          "hash": "TVUB/FRdZ2BFQnqtB3v5Pu/El+EsgslWIwhGtDqs0kM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Graphics.TextureDrawer.TextureSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Graphics.TextureDrawer.TextureSettings.html",
+          "hash": "wZ14HFFKX0zqwQ0uWjh9kf3sGNMnT/bAVsFQMXjpxKg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Graphics.TextureDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Graphics.TextureDrawer.html",
+          "hash": "6FiLGG5YopMuTmYENREB6Iu4nOuYx9PvxvTSVBY5tKg="
         }
       },
       "is_incremental": false,
@@ -198,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Graphics.html",
-          "hash": "n80eoInV90t4sEo5HMKYdc6ls1WbXQGi78Ywsi2N4Iw="
+          "hash": "hfGI1UcGM7csEB7c5O9jRAr/IQGPYvcezx0xWQCj5ag="
         }
       },
       "is_incremental": false,
@@ -210,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "JiipV0m/WqEk6+87NAXoDMf63Qw6U+hmb8tZdv17mx0="
+          "hash": "6XZc6cfSaAJC2rNtPUfGImPRXpqbELOO29puyr0lDHg="
         }
       },
       "is_incremental": false,
@@ -287,11 +419,23 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/identifiers.md",
+      "source_relative_path": "manual/auto-tiling.md",
       "output": {
         ".html": {
-          "relative_path": "manual/identifiers.html",
-          "hash": "MhNIV7RUd5IZn6J13KW2Myoo+9q5vOzW0shgM0cl8JA="
+          "relative_path": "manual/auto-tiling.html",
+          "hash": "he5+6guvHruZvvOdN97vDbRtYzlFTSyMDM9Zr549vDk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/custom-meshes.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/custom-meshes.html",
+          "hash": "+3SPTbuZ2Isz+T/dtqzR1DwIG2zqHgE3OG1VRytR0w0="
         }
       },
       "is_incremental": false,
@@ -303,7 +447,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/index.html",
-          "hash": "bt08Ni99ks48bDavmgqyWxnwnLzr4hrrLwnbJ6LNBnk="
+          "hash": "qJNznHrgiiDInHOvlvB1MuQef1JE4DjqB3jrAnnFbcs="
         }
       },
       "is_incremental": false,
@@ -323,11 +467,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/meshes.md",
+      "source_relative_path": "manual/shader-properties.md",
       "output": {
         ".html": {
-          "relative_path": "manual/meshes.html",
-          "hash": "1tUUYkUwBFfLOE96bM1eusG4Q6v2a4INHZ85Yj0Xum0="
+          "relative_path": "manual/shader-properties.html",
+          "hash": "7vYpn9QRH+QHhIY4wQ3Zl0oTFr6wxYwlB+CmCxRb8nk="
         }
       },
       "is_incremental": false,
@@ -335,11 +479,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/tiling.md",
+      "source_relative_path": "manual/texture-drawers.md",
       "output": {
         ".html": {
-          "relative_path": "manual/tiling.html",
-          "hash": "fFSOcuvJKndIz1zlEP0s345O7j2UiiQjYpXbR7wpW9k="
+          "relative_path": "manual/texture-drawers.html",
+          "hash": "LtZcpa4KIb3fIALpJCZDHEgiMYhudba9mJ+UH14808Y="
         }
       },
       "is_incremental": false,
@@ -351,7 +495,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "BKmEXasBWjoeplhEn8ldOAZpP9snwJJ3gVH6fEqlLuo="
+          "hash": "WQuUiUSWPCOpwQM10KBjRgCsBQIlqYsJsKNVVcFq//E="
         }
       },
       "is_incremental": false,
@@ -384,13 +528,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 7,
+          "total_file_count": 8,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 15,
+          "total_file_count": 26,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

@@ -4,9 +4,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Changelog | Graphics Utils </title>
+    <title>Texture Drawers | Graphics Utils </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Changelog | Graphics Utils ">
+    <meta name="title" content="Texture Drawers | Graphics Utils ">
     <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -78,50 +78,13 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="changelog">Changelog</h1>
+<h1 id="texture-drawers">Texture Drawers</h1>
 
-<p>All notable changes to this project will be documented in this file.</p>
-<p>The format is based on <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>,
-and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semantic Versioning</a>.</p>
-<h2 id="020---20210717">[0.2.0] - 2021/07/17</h2>
-<h3 id="added">Added</h3>
-<ul>
-<li>Data structure <code>AnimatedShaderProperty</code></li>
-<li>Abstract class <code>TextureDrawer</code></li>
-<li>Behavior <code>CheckerboardTextureDrawer</code></li>
-<li>Behavior <code>CombineChildrenMeshes</code></li>
-</ul>
-<h3 id="fixed">Fixed</h3>
-<ul>
-<li><code>ShaderProperty</code> ids were not changing when the name was changed in the editor</li>
-</ul>
-<h2 id="010---20210705">[0.1.0] - 2021/07/05</h2>
-<h3 id="added-1">Added</h3>
-<h4 id="meshes">Meshes</h4>
-<ul>
-<li>Cube-3</li>
-<li>Cube-6</li>
-<li>Cube-Inverted</li>
-<li>Cube-Tiling</li>
-</ul>
-<h4 id="behaviors">Behaviors</h4>
-<ul>
-<li>AutoTile</li>
-<li>CubeMesh</li>
-<li>CubeMesh3</li>
-<li>CubeMesh6</li>
-<li>InvertMesh</li>
-<li>SaveMesh</li>
-</ul>
-<h4 id="other">Other</h4>
-<ul>
-<li>Identifier</li>
-<li>MaterialExtensions</li>
-<li>MeshExtensions</li>
-<li>RenderingMode</li>
-<li>ShaderProperty</li>
-<li>Triangle</li>
-</ul>
+<p>The Graphics Utils package includes a base class for drawing textures at runtime. It provides the boilerplate code for creating and drawing new textures programmatically. Create a new class that inherits from <a class="xref" href="../api/Zigurous.Graphics.TextureDrawer.html">TextureDrawer</a> and override the function <code>SetPixels(Texture2D)</code> to complete the implementation.</p>
+<h3 id="rendering">Rendering</h3>
+<p>The <a class="xref" href="../api/Zigurous.Graphics.TextureDrawer.html">TextureDrawer</a> script will automatically apply your texture to the renderer's main material on the object if a Renderer component is available. This is not required, but often is useful. There are additional customization options available in regards to the rendering, such as which shader property the texture is set to.</p>
+<h3 id="checkerboard">Checkerboard</h3>
+<p>The Graphics Utils package includes a script <a class="xref" href="../api/Zigurous.Graphics.CheckerboardTextureDrawer.html">CheckerboardTextureDrawer</a> as a sample implementation. It is, of course, a fully functional script that draws a checkerboard pattern. This can be used however you desire, and there are even a number of customization options available.</p>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">
