@@ -80,11 +80,10 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.Tweening.Tweener`1">
-  
   <h1 id="Zigurous_Tweening_Tweener_1" data-uid="Zigurous.Tweening.Tweener`1" class="text-break">Class Tweener&lt;T&gt;
   </h1>
-  <div class="markdown level0 summary"><p>A tween object, an animation that changes a value over time using an
-easing function.</p>
+  <div class="markdown level0 summary"><p>A tween that animates a parameter over time from a start value to an end
+value.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -177,6 +176,9 @@ easing function.</p>
       <a class="xref" href="Zigurous.Tweening.Tween.html#Zigurous_Tweening_Tween_onKill">Tween.onKill</a>
     </div>
     <div>
+      <a class="xref" href="Zigurous.Tweening.Tween.html#Zigurous_Tweening_Tween_Animate">Tween.Animate()</a>
+    </div>
+    <div>
       <a class="xref" href="Zigurous.Tweening.Tween.html#Zigurous_Tweening_Tween_Play">Tween.Play()</a>
     </div>
     <div>
@@ -198,6 +200,9 @@ easing function.</p>
       <a class="xref" href="Zigurous.Tweening.Tween.html#Zigurous_Tweening_Tween_OnUpdate">Tween.OnUpdate()</a>
     </div>
     <div>
+      <a class="xref" href="Zigurous.Tweening.Tween.html#Zigurous_Tweening_Tween_OnStart">Tween.OnStart()</a>
+    </div>
+    <div>
       <a class="xref" href="Zigurous.Tweening.Tween.html#Zigurous_Tweening_Tween_OnStop">Tween.OnStop()</a>
     </div>
     <div>
@@ -209,24 +214,29 @@ easing function.</p>
     <div>
       <a class="xref" href="Zigurous.Tweening.Tween.html#Zigurous_Tweening_Tween_OnComplete">Tween.OnComplete()</a>
     </div>
+    <div>
+      <a class="xref" href="Zigurous.Tweening.Tween.html#Zigurous_Tweening_Tween_OnKill">Tween.OnKill()</a>
+    </div>
+    <div>
+      <a class="xref" href="Zigurous.Tweening.Tween.html#Zigurous_Tweening_Tween_OnReset">Tween.OnReset()</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Tweening.html">Zigurous.Tweening</a></h6>
-  <h5 id="Zigurous_Tweening_Tweener_1_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class Tweener&lt;T&gt; : Tween</code></pre>
   </div>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>The type of the parameter to tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -234,20 +244,18 @@ easing function.</p>
   </h3>
   <a id="Zigurous_Tweening_Tweener_1__ctor_" data-uid="Zigurous.Tweening.Tweener`1.#ctor*"></a>
   <h4 id="Zigurous_Tweening_Tweener_1__ctor" data-uid="Zigurous.Tweening.Tweener`1.#ctor">Tweener()</h4>
-  <div class="markdown level1 summary"><p>Constructs a new core tween.</p>
+  <div class="markdown level1 summary"><p>Creates a new tweener.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Tweener()</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   <h4 id="Zigurous_Tweening_Tweener_1_endValue" data-uid="Zigurous.Tweening.Tweener`1.endValue">endValue</h4>
-  <div class="markdown level1 summary"><p>The value of the parameter being tweened at the end of the tween.</p>
+  <div class="markdown level1 summary"><p>The desired value of the parameter at the end of the tween.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public T endValue</code></pre>
   </div>
@@ -256,7 +264,6 @@ easing function.</p>
 tweened.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public TweenGetter&lt;T&gt; getter</code></pre>
   </div>
@@ -265,7 +272,6 @@ tweened.</p>
 end value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Interpolater&lt;T&gt; interpolater</code></pre>
   </div>
@@ -273,60 +279,16 @@ end value.</p>
   <div class="markdown level1 summary"><p>The function that sets a new value of the parameter being tweened.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public TweenSetter&lt;T&gt; setter</code></pre>
   </div>
   <h4 id="Zigurous_Tweening_Tweener_1_startValue" data-uid="Zigurous.Tweening.Tweener`1.startValue">startValue</h4>
-  <div class="markdown level1 summary"><p>The value of the parameter being tweened at the start of the tween.</p>
+  <div class="markdown level1 summary"><p>The initial value of the parameter at the start of the tween.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public T startValue</code></pre>
   </div>
-  <h3 id="methods">Methods
-  </h3>
-  <a id="Zigurous_Tweening_Tweener_1_Animate_" data-uid="Zigurous.Tweening.Tweener`1.Animate*"></a>
-  <h4 id="Zigurous_Tweening_Tweener_1_Animate" data-uid="Zigurous.Tweening.Tweener`1.Animate">Animate()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Animate()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Zigurous.Tweening.Tween.html#Zigurous_Tweening_Tween_Animate">Tween.Animate()</a></div>
-  <a id="Zigurous_Tweening_Tweener_1_OnKill_" data-uid="Zigurous.Tweening.Tweener`1.OnKill*"></a>
-  <h4 id="Zigurous_Tweening_Tweener_1_OnKill" data-uid="Zigurous.Tweening.Tweener`1.OnKill">OnKill()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnKill()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Zigurous.Tweening.Tween.html#Zigurous_Tweening_Tween_OnKill">Tween.OnKill()</a></div>
-  <a id="Zigurous_Tweening_Tweener_1_OnReset_" data-uid="Zigurous.Tweening.Tweener`1.OnReset*"></a>
-  <h4 id="Zigurous_Tweening_Tweener_1_OnReset" data-uid="Zigurous.Tweening.Tweener`1.OnReset">OnReset()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnReset()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Zigurous.Tweening.Tween.html#Zigurous_Tweening_Tween_OnReset">Tween.OnReset()</a></div>
-  <a id="Zigurous_Tweening_Tweener_1_OnStart_" data-uid="Zigurous.Tweening.Tweener`1.OnStart*"></a>
-  <h4 id="Zigurous_Tweening_Tweener_1_OnStart" data-uid="Zigurous.Tweening.Tweener`1.OnStart">OnStart()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnStart()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Zigurous.Tweening.Tween.html#Zigurous_Tweening_Tween_OnStart">Tween.OnStart()</a></div>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">

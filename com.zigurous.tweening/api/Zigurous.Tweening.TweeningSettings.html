@@ -80,10 +80,10 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.Tweening.TweeningSettings">
-  
   <h1 id="Zigurous_Tweening_TweeningSettings" data-uid="Zigurous.Tweening.TweeningSettings" class="text-break">Class TweeningSettings
   </h1>
-  <div class="markdown level0 summary"><p>A behavior that allows tweening settings to be changed in the editor.</p>
+  <div class="markdown level0 summary"><p>A behavior that allows tweening settings to be changed in the editor or
+at runtime.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -92,7 +92,6 @@
     <div class="level1"><span class="xref">TweeningSettings</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Tweening.html">Zigurous.Tweening</a></h6>
-  <h5 id="Zigurous_Tweening_TweeningSettings_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public sealed class TweeningSettings : MonoBehaviour</code></pre>
   </div>
@@ -103,7 +102,6 @@
   <div class="markdown level1 summary"><p>Automatically kills tweens after being completed, by default.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool autoKill { get; set; }</code></pre>
   </div>
@@ -112,7 +110,6 @@
   <div class="markdown level1 summary"><p>Automatically starts tweens after being created, by default.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool autoStart { get; set; }</code></pre>
   </div>
@@ -121,7 +118,6 @@
   <div class="markdown level1 summary"><p>The default amount of seconds before every tween starts.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float defaultDelay { get; set; }</code></pre>
   </div>
@@ -130,7 +126,6 @@
   <div class="markdown level1 summary"><p>The default amount of seconds a tween takes to complete.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float defaultDuration { get; set; }</code></pre>
   </div>
@@ -139,7 +134,6 @@
   <div class="markdown level1 summary"><p>The default Ease assigned to every tween.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Ease defaultEase { get; set; }</code></pre>
   </div>
@@ -149,7 +143,6 @@
 system starts. Additional memory will be allocated as needed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int initialCapacity { get; set; }</code></pre>
   </div>
@@ -158,7 +151,6 @@ system starts. Additional memory will be allocated as needed.</p>
   <div class="markdown level1 summary"><p>The overshoot value used in easing functions.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float overshoot { get; set; }</code></pre>
   </div>
@@ -167,7 +159,6 @@ system starts. Additional memory will be allocated as needed.</p>
   <div class="markdown level1 summary"><p>Keeps tweens in memory to be re-used after being killed, by default.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool recyclable { get; set; }</code></pre>
   </div>

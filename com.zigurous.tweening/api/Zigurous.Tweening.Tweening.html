@@ -80,7 +80,6 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.Tweening.Tweening">
-  
   <h1 id="Zigurous_Tweening_Tweening" data-uid="Zigurous.Tweening.Tweening" class="text-break">Class Tweening
   </h1>
   <div class="markdown level0 summary"><p>The primary interface to create, control, and manage tweens.</p>
@@ -92,7 +91,6 @@
     <div class="level1"><span class="xref">Tweening</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Tweening.html">Zigurous.Tweening</a></h6>
-  <h5 id="Zigurous_Tweening_Tweening_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class Tweening</code></pre>
   </div>
@@ -102,7 +100,6 @@
   <div class="markdown level1 summary"><p>Automatically kills tweens after being completed, by default.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool autoKill</code></pre>
   </div>
@@ -110,7 +107,6 @@
   <div class="markdown level1 summary"><p>Automatically starts tweens after being created, by default.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool autoStart</code></pre>
   </div>
@@ -118,7 +114,6 @@
   <div class="markdown level1 summary"><p>The default amount of seconds before every tween starts.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static float defaultDelay</code></pre>
   </div>
@@ -126,7 +121,6 @@
   <div class="markdown level1 summary"><p>The default amount of seconds a tween takes to complete.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static float defaultDuration</code></pre>
   </div>
@@ -134,7 +128,6 @@
   <div class="markdown level1 summary"><p>The default Ease assigned to every tween.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Ease defaultEase</code></pre>
   </div>
@@ -143,7 +136,6 @@
 system starts. Additional memory will be allocated as needed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int initialCapacity</code></pre>
   </div>
@@ -151,7 +143,6 @@ system starts. Additional memory will be allocated as needed.</p>
   <div class="markdown level1 summary"><p>The default overshoot value used in easing functions.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static float overshoot</code></pre>
   </div>
@@ -159,7 +150,6 @@ system starts. Additional memory will be allocated as needed.</p>
   <div class="markdown level1 summary"><p>Keeps tweens in memory to be re-used after being killed, by default.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool recyclable</code></pre>
   </div>
@@ -170,7 +160,6 @@ system starts. Additional memory will be allocated as needed.</p>
   <div class="markdown level1 summary"><p>The number of tweens that are currently alive and active.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int ActiveCount { get; }</code></pre>
   </div>
@@ -179,7 +168,6 @@ system starts. Additional memory will be allocated as needed.</p>
   <div class="markdown level1 summary"><p>The number of tweens currently alive (not necessarily active).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int Count { get; }</code></pre>
   </div>
@@ -190,24 +178,21 @@ system starts. Additional memory will be allocated as needed.</p>
   <div class="markdown level1 summary"><p>Completes any alive tween that matches the given id.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Complete(int id)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">id</span></td>
-        <td></td>
+        <td><p>The id of the tween(s) to complete.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -216,40 +201,37 @@ system starts. Additional memory will be allocated as needed.</p>
   <div class="markdown level1 summary"><p>Completes any alive tween that is animating the given target object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Complete&lt;T&gt;(T target)
     where T : class</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">target</span></td>
-        <td></td>
+        <td><p>The target object to complete the tweens of.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>The type of the target object.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -258,7 +240,6 @@ system starts. Additional memory will be allocated as needed.</p>
   <div class="markdown level1 summary"><p>Completes all active tweens.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void CompleteAll()</code></pre>
   </div>
@@ -268,54 +249,51 @@ system starts. Additional memory will be allocated as needed.</p>
 the current value over a set duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tween From(TweenGetter&lt;Color&gt; getter, TweenSetter&lt;Color&gt; setter, Color endValue, float duration)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenGetter-1.html">TweenGetter</a>&lt;<span class="xref">Color</span>&gt;</td>
         <td><span class="parametername">getter</span></td>
-        <td></td>
+        <td><p>The function that gets the current value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenSetter-1.html">TweenSetter</a>&lt;<span class="xref">Color</span>&gt;</td>
         <td><span class="parametername">setter</span></td>
-        <td></td>
+        <td><p>The function that sets a new value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">endValue</span></td>
-        <td></td>
+        <td><p>The end value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><p>The duration of the tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a></td>
-        <td></td>
+        <td><p>A new tween that animates the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -325,54 +303,51 @@ the current value over a set duration.</p>
 the current value over a set duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tween From(TweenGetter&lt;Quaternion&gt; getter, TweenSetter&lt;Quaternion&gt; setter, Quaternion endValue, float duration)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenGetter-1.html">TweenGetter</a>&lt;<span class="xref">Quaternion</span>&gt;</td>
         <td><span class="parametername">getter</span></td>
-        <td></td>
+        <td><p>The function that gets the current value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenSetter-1.html">TweenSetter</a>&lt;<span class="xref">Quaternion</span>&gt;</td>
         <td><span class="parametername">setter</span></td>
-        <td></td>
+        <td><p>The function that sets a new value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Quaternion</span></td>
         <td><span class="parametername">endValue</span></td>
-        <td></td>
+        <td><p>The end value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><p>The duration of the tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a></td>
-        <td></td>
+        <td><p>A new tween that animates the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -382,54 +357,51 @@ the current value over a set duration.</p>
 the current value over a set duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tween From(TweenGetter&lt;Rect&gt; getter, TweenSetter&lt;Rect&gt; setter, Rect endValue, float duration)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenGetter-1.html">TweenGetter</a>&lt;<span class="xref">Rect</span>&gt;</td>
         <td><span class="parametername">getter</span></td>
-        <td></td>
+        <td><p>The function that gets the current value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenSetter-1.html">TweenSetter</a>&lt;<span class="xref">Rect</span>&gt;</td>
         <td><span class="parametername">setter</span></td>
-        <td></td>
+        <td><p>The function that sets a new value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Rect</span></td>
         <td><span class="parametername">endValue</span></td>
-        <td></td>
+        <td><p>The end value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><p>The duration of the tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a></td>
-        <td></td>
+        <td><p>A new tween that animates the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -439,54 +411,51 @@ the current value over a set duration.</p>
 the current value over a set duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tween From(TweenGetter&lt;double&gt; getter, TweenSetter&lt;double&gt; setter, double endValue, float duration)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenGetter-1.html">TweenGetter</a>&lt;<span class="xref">System.Double</span>&gt;</td>
         <td><span class="parametername">getter</span></td>
-        <td></td>
+        <td><p>The function that gets the current value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenSetter-1.html">TweenSetter</a>&lt;<span class="xref">System.Double</span>&gt;</td>
         <td><span class="parametername">setter</span></td>
-        <td></td>
+        <td><p>The function that sets a new value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">endValue</span></td>
-        <td></td>
+        <td><p>The end value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><p>The duration of the tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a></td>
-        <td></td>
+        <td><p>A new tween that animates the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -496,54 +465,51 @@ the current value over a set duration.</p>
 the current value over a set duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tween From(TweenGetter&lt;int&gt; getter, TweenSetter&lt;int&gt; setter, int endValue, float duration)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenGetter-1.html">TweenGetter</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
         <td><span class="parametername">getter</span></td>
-        <td></td>
+        <td><p>The function that gets the current value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenSetter-1.html">TweenSetter</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
         <td><span class="parametername">setter</span></td>
-        <td></td>
+        <td><p>The function that sets a new value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">endValue</span></td>
-        <td></td>
+        <td><p>The end value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><p>The duration of the tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a></td>
-        <td></td>
+        <td><p>A new tween that animates the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -553,54 +519,51 @@ the current value over a set duration.</p>
 the current value over a set duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tween From(TweenGetter&lt;long&gt; getter, TweenSetter&lt;long&gt; setter, long endValue, float duration)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenGetter-1.html">TweenGetter</a>&lt;<span class="xref">System.Int64</span>&gt;</td>
         <td><span class="parametername">getter</span></td>
-        <td></td>
+        <td><p>The function that gets the current value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenSetter-1.html">TweenSetter</a>&lt;<span class="xref">System.Int64</span>&gt;</td>
         <td><span class="parametername">setter</span></td>
-        <td></td>
+        <td><p>The function that sets a new value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">endValue</span></td>
-        <td></td>
+        <td><p>The end value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><p>The duration of the tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a></td>
-        <td></td>
+        <td><p>A new tween that animates the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -610,54 +573,51 @@ the current value over a set duration.</p>
 the current value over a set duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tween From(TweenGetter&lt;float&gt; getter, TweenSetter&lt;float&gt; setter, float endValue, float duration)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenGetter-1.html">TweenGetter</a>&lt;<span class="xref">System.Single</span>&gt;</td>
         <td><span class="parametername">getter</span></td>
-        <td></td>
+        <td><p>The function that gets the current value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenSetter-1.html">TweenSetter</a>&lt;<span class="xref">System.Single</span>&gt;</td>
         <td><span class="parametername">setter</span></td>
-        <td></td>
+        <td><p>The function that sets a new value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">endValue</span></td>
-        <td></td>
+        <td><p>The end value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><p>The duration of the tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a></td>
-        <td></td>
+        <td><p>A new tween that animates the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -667,54 +627,51 @@ the current value over a set duration.</p>
 the current value over a set duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tween From(TweenGetter&lt;Vector2&gt; getter, TweenSetter&lt;Vector2&gt; setter, Vector2 endValue, float duration)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenGetter-1.html">TweenGetter</a>&lt;<span class="xref">Vector2</span>&gt;</td>
         <td><span class="parametername">getter</span></td>
-        <td></td>
+        <td><p>The function that gets the current value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenSetter-1.html">TweenSetter</a>&lt;<span class="xref">Vector2</span>&gt;</td>
         <td><span class="parametername">setter</span></td>
-        <td></td>
+        <td><p>The function that sets a new value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Vector2</span></td>
         <td><span class="parametername">endValue</span></td>
-        <td></td>
+        <td><p>The end value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><p>The duration of the tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a></td>
-        <td></td>
+        <td><p>A new tween that animates the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -724,54 +681,51 @@ the current value over a set duration.</p>
 the current value over a set duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tween From(TweenGetter&lt;Vector2Int&gt; getter, TweenSetter&lt;Vector2Int&gt; setter, Vector2Int endValue, float duration)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenGetter-1.html">TweenGetter</a>&lt;<span class="xref">Vector2Int</span>&gt;</td>
         <td><span class="parametername">getter</span></td>
-        <td></td>
+        <td><p>The function that gets the current value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenSetter-1.html">TweenSetter</a>&lt;<span class="xref">Vector2Int</span>&gt;</td>
         <td><span class="parametername">setter</span></td>
-        <td></td>
+        <td><p>The function that sets a new value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Vector2Int</span></td>
         <td><span class="parametername">endValue</span></td>
-        <td></td>
+        <td><p>The end value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><p>The duration of the tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a></td>
-        <td></td>
+        <td><p>A new tween that animates the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -781,54 +735,51 @@ the current value over a set duration.</p>
 the current value over a set duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tween From(TweenGetter&lt;Vector3&gt; getter, TweenSetter&lt;Vector3&gt; setter, Vector3 endValue, float duration)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenGetter-1.html">TweenGetter</a>&lt;<span class="xref">Vector3</span>&gt;</td>
         <td><span class="parametername">getter</span></td>
-        <td></td>
+        <td><p>The function that gets the current value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenSetter-1.html">TweenSetter</a>&lt;<span class="xref">Vector3</span>&gt;</td>
         <td><span class="parametername">setter</span></td>
-        <td></td>
+        <td><p>The function that sets a new value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Vector3</span></td>
         <td><span class="parametername">endValue</span></td>
-        <td></td>
+        <td><p>The end value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><p>The duration of the tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a></td>
-        <td></td>
+        <td><p>A new tween that animates the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -838,54 +789,51 @@ the current value over a set duration.</p>
 the current value over a set duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tween From(TweenGetter&lt;Vector3Int&gt; getter, TweenSetter&lt;Vector3Int&gt; setter, Vector3Int endValue, float duration)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenGetter-1.html">TweenGetter</a>&lt;<span class="xref">Vector3Int</span>&gt;</td>
         <td><span class="parametername">getter</span></td>
-        <td></td>
+        <td><p>The function that gets the current value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenSetter-1.html">TweenSetter</a>&lt;<span class="xref">Vector3Int</span>&gt;</td>
         <td><span class="parametername">setter</span></td>
-        <td></td>
+        <td><p>The function that sets a new value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Vector3Int</span></td>
         <td><span class="parametername">endValue</span></td>
-        <td></td>
+        <td><p>The end value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><p>The duration of the tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a></td>
-        <td></td>
+        <td><p>A new tween that animates the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -895,54 +843,51 @@ the current value over a set duration.</p>
 the current value over a set duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tween From(TweenGetter&lt;Vector4&gt; getter, TweenSetter&lt;Vector4&gt; setter, Vector4 endValue, float duration)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenGetter-1.html">TweenGetter</a>&lt;<span class="xref">Vector4</span>&gt;</td>
         <td><span class="parametername">getter</span></td>
-        <td></td>
+        <td><p>The function that gets the current value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenSetter-1.html">TweenSetter</a>&lt;<span class="xref">Vector4</span>&gt;</td>
         <td><span class="parametername">setter</span></td>
-        <td></td>
+        <td><p>The function that sets a new value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Vector4</span></td>
         <td><span class="parametername">endValue</span></td>
-        <td></td>
+        <td><p>The end value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><p>The duration of the tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a></td>
-        <td></td>
+        <td><p>A new tween that animates the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -952,74 +897,71 @@ the current value over a set duration.</p>
 the current value over a set duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tween From&lt;T&gt;(Interpolater&lt;T&gt; interpolater, TweenGetter&lt;T&gt; getter, TweenSetter&lt;T&gt; setter, T endValue, float duration)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.Interpolater-1.html">Interpolater</a>&lt;T&gt;</td>
         <td><span class="parametername">interpolater</span></td>
-        <td></td>
+        <td><p>The function that interpolates values between the start and end value.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenGetter-1.html">TweenGetter</a>&lt;T&gt;</td>
         <td><span class="parametername">getter</span></td>
-        <td></td>
+        <td><p>The function that gets the current value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenSetter-1.html">TweenSetter</a>&lt;T&gt;</td>
         <td><span class="parametername">setter</span></td>
-        <td></td>
+        <td><p>The function that sets a new value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">endValue</span></td>
-        <td></td>
+        <td><p>The end value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><p>The duration of the tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a></td>
-        <td></td>
+        <td><p>A new tween that animates the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>The type of the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1029,29 +971,26 @@ the current value over a set duration.</p>
 tweens can be completed before being killed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Kill(int id, bool complete = false)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">id</span></td>
-        <td></td>
+        <td><p>The id of the tween(s) to kill.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">complete</span></td>
-        <td></td>
+        <td><p>Whether to complete the tweens before being killed.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1061,72 +1000,21 @@ tweens can be completed before being killed.</p>
 before being killed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void KillAll(bool complete = false)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">complete</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_Tweening_Tweening_KillTweens_" data-uid="Zigurous.Tweening.Tweening.KillTweens*"></a>
-  <h4 id="Zigurous_Tweening_Tweening_KillTweens__1___0_System_Boolean_" data-uid="Zigurous.Tweening.Tweening.KillTweens``1(``0,System.Boolean)">KillTweens&lt;T&gt;(T, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Kills any alive tweens being animated on the target object.
-Optionally, the tweens can be completed before being killed.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void KillTweens&lt;T&gt;(this T target, bool complete = false)
-    where T : class</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">target</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">complete</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>Whether to complete the tweens before being killed.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1135,24 +1023,21 @@ Optionally, the tweens can be completed before being killed.</p>
   <div class="markdown level1 summary"><p>Plays any alive tween that matches the given id.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Play(int id)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">id</span></td>
-        <td></td>
+        <td><p>The id of the tween(s) to play.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1161,40 +1046,37 @@ Optionally, the tweens can be completed before being killed.</p>
   <div class="markdown level1 summary"><p>Plays any alive tween that is animating the given target object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Play&lt;T&gt;(T target)
     where T : class</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">target</span></td>
-        <td></td>
+        <td><p>The target object to play the tweens of.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>The type of the target object.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1203,7 +1085,6 @@ Optionally, the tweens can be completed before being killed.</p>
   <div class="markdown level1 summary"><p>Plays all active tweens.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void PlayAll()</code></pre>
   </div>
@@ -1212,24 +1093,21 @@ Optionally, the tweens can be completed before being killed.</p>
   <div class="markdown level1 summary"><p>Restarts any alive tween that matches the given id.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Restart(int id)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">id</span></td>
-        <td></td>
+        <td><p>The id of the tween(s) to restart.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1238,40 +1116,37 @@ Optionally, the tweens can be completed before being killed.</p>
   <div class="markdown level1 summary"><p>Restarts any alive tween that is animating the given target object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Restart&lt;T&gt;(T target)
     where T : class</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">target</span></td>
-        <td></td>
+        <td><p>The target object to restart the tweens of.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>The type of the target object.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1280,7 +1155,6 @@ Optionally, the tweens can be completed before being killed.</p>
   <div class="markdown level1 summary"><p>Restarts all active tweens.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void RestartAll()</code></pre>
   </div>
@@ -1289,22 +1163,21 @@ Optionally, the tweens can be completed before being killed.</p>
   <div class="markdown level1 summary"><p>Creates a new, empty tween sequence.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Sequence Sequence()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Sequence.html">Sequence</a></td>
-        <td></td>
+        <td><p>The new tween sequence.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1313,39 +1186,36 @@ Optionally, the tweens can be completed before being killed.</p>
   <div class="markdown level1 summary"><p>Creates a new tween sequence of the given tweens.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Sequence Sequence(params Tween[] tweens)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a>[]</td>
         <td><span class="parametername">tweens</span></td>
-        <td></td>
+        <td><p>The tweens to add to the sequence.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Sequence.html">Sequence</a></td>
-        <td></td>
+        <td><p>The new tween sequence.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1354,24 +1224,21 @@ Optionally, the tweens can be completed before being killed.</p>
   <div class="markdown level1 summary"><p>Stops any alive tween that matches the given id.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Stop(int id)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">id</span></td>
-        <td></td>
+        <td><p>The id of the tween(s) to stop.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1380,40 +1247,37 @@ Optionally, the tweens can be completed before being killed.</p>
   <div class="markdown level1 summary"><p>Stops any alive tween that is animating the given target object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Stop&lt;T&gt;(T target)
     where T : class</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">target</span></td>
-        <td></td>
+        <td><p>The target object to stop the tweens of.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>The type of the target object.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1422,7 +1286,6 @@ Optionally, the tweens can be completed before being killed.</p>
   <div class="markdown level1 summary"><p>Stops all active tweens.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void StopAll()</code></pre>
   </div>
@@ -1432,54 +1295,51 @@ Optionally, the tweens can be completed before being killed.</p>
 a set duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tween To(TweenGetter&lt;Color&gt; getter, TweenSetter&lt;Color&gt; setter, Color endValue, float duration)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenGetter-1.html">TweenGetter</a>&lt;<span class="xref">Color</span>&gt;</td>
         <td><span class="parametername">getter</span></td>
-        <td></td>
+        <td><p>The function that gets the current value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenSetter-1.html">TweenSetter</a>&lt;<span class="xref">Color</span>&gt;</td>
         <td><span class="parametername">setter</span></td>
-        <td></td>
+        <td><p>The function that sets a new value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">endValue</span></td>
-        <td></td>
+        <td><p>The end value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><p>The duration of the tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a></td>
-        <td></td>
+        <td><p>A new tween that animates the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1489,54 +1349,51 @@ a set duration.</p>
 a set duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tween To(TweenGetter&lt;Quaternion&gt; getter, TweenSetter&lt;Quaternion&gt; setter, Quaternion endValue, float duration)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenGetter-1.html">TweenGetter</a>&lt;<span class="xref">Quaternion</span>&gt;</td>
         <td><span class="parametername">getter</span></td>
-        <td></td>
+        <td><p>The function that gets the current value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenSetter-1.html">TweenSetter</a>&lt;<span class="xref">Quaternion</span>&gt;</td>
         <td><span class="parametername">setter</span></td>
-        <td></td>
+        <td><p>The function that sets a new value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Quaternion</span></td>
         <td><span class="parametername">endValue</span></td>
-        <td></td>
+        <td><p>The end value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><p>The duration of the tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a></td>
-        <td></td>
+        <td><p>A new tween that animates the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1546,54 +1403,51 @@ a set duration.</p>
 a set duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tween To(TweenGetter&lt;Rect&gt; getter, TweenSetter&lt;Rect&gt; setter, Rect endValue, float duration)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenGetter-1.html">TweenGetter</a>&lt;<span class="xref">Rect</span>&gt;</td>
         <td><span class="parametername">getter</span></td>
-        <td></td>
+        <td><p>The function that gets the current value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenSetter-1.html">TweenSetter</a>&lt;<span class="xref">Rect</span>&gt;</td>
         <td><span class="parametername">setter</span></td>
-        <td></td>
+        <td><p>The function that sets a new value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Rect</span></td>
         <td><span class="parametername">endValue</span></td>
-        <td></td>
+        <td><p>The end value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><p>The duration of the tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a></td>
-        <td></td>
+        <td><p>A new tween that animates the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1603,54 +1457,51 @@ a set duration.</p>
 a set duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tween To(TweenGetter&lt;double&gt; getter, TweenSetter&lt;double&gt; setter, double endValue, float duration)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenGetter-1.html">TweenGetter</a>&lt;<span class="xref">System.Double</span>&gt;</td>
         <td><span class="parametername">getter</span></td>
-        <td></td>
+        <td><p>The function that gets the current value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenSetter-1.html">TweenSetter</a>&lt;<span class="xref">System.Double</span>&gt;</td>
         <td><span class="parametername">setter</span></td>
-        <td></td>
+        <td><p>The function that sets a new value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">endValue</span></td>
-        <td></td>
+        <td><p>The end value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><p>The duration of the tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a></td>
-        <td></td>
+        <td><p>A new tween that animates the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1660,54 +1511,51 @@ a set duration.</p>
 a set duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tween To(TweenGetter&lt;int&gt; getter, TweenSetter&lt;int&gt; setter, int endValue, float duration)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenGetter-1.html">TweenGetter</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
         <td><span class="parametername">getter</span></td>
-        <td></td>
+        <td><p>The function that gets the current value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenSetter-1.html">TweenSetter</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
         <td><span class="parametername">setter</span></td>
-        <td></td>
+        <td><p>The function that sets a new value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">endValue</span></td>
-        <td></td>
+        <td><p>The end value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><p>The duration of the tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a></td>
-        <td></td>
+        <td><p>A new tween that animates the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1717,54 +1565,51 @@ a set duration.</p>
 a set duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tween To(TweenGetter&lt;long&gt; getter, TweenSetter&lt;long&gt; setter, long endValue, float duration)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenGetter-1.html">TweenGetter</a>&lt;<span class="xref">System.Int64</span>&gt;</td>
         <td><span class="parametername">getter</span></td>
-        <td></td>
+        <td><p>The function that gets the current value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenSetter-1.html">TweenSetter</a>&lt;<span class="xref">System.Int64</span>&gt;</td>
         <td><span class="parametername">setter</span></td>
-        <td></td>
+        <td><p>The function that sets a new value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">endValue</span></td>
-        <td></td>
+        <td><p>The end value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><p>The duration of the tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a></td>
-        <td></td>
+        <td><p>A new tween that animates the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1774,54 +1619,51 @@ a set duration.</p>
 a set duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tween To(TweenGetter&lt;float&gt; getter, TweenSetter&lt;float&gt; setter, float endValue, float duration)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenGetter-1.html">TweenGetter</a>&lt;<span class="xref">System.Single</span>&gt;</td>
         <td><span class="parametername">getter</span></td>
-        <td></td>
+        <td><p>The function that gets the current value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenSetter-1.html">TweenSetter</a>&lt;<span class="xref">System.Single</span>&gt;</td>
         <td><span class="parametername">setter</span></td>
-        <td></td>
+        <td><p>The function that sets a new value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">endValue</span></td>
-        <td></td>
+        <td><p>The end value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><p>The duration of the tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a></td>
-        <td></td>
+        <td><p>A new tween that animates the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1831,54 +1673,51 @@ a set duration.</p>
 a set duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tween To(TweenGetter&lt;Vector2&gt; getter, TweenSetter&lt;Vector2&gt; setter, Vector2 endValue, float duration)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenGetter-1.html">TweenGetter</a>&lt;<span class="xref">Vector2</span>&gt;</td>
         <td><span class="parametername">getter</span></td>
-        <td></td>
+        <td><p>The function that gets the current value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenSetter-1.html">TweenSetter</a>&lt;<span class="xref">Vector2</span>&gt;</td>
         <td><span class="parametername">setter</span></td>
-        <td></td>
+        <td><p>The function that sets a new value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Vector2</span></td>
         <td><span class="parametername">endValue</span></td>
-        <td></td>
+        <td><p>The end value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><p>The duration of the tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a></td>
-        <td></td>
+        <td><p>A new tween that animates the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1888,54 +1727,51 @@ a set duration.</p>
 a set duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tween To(TweenGetter&lt;Vector2Int&gt; getter, TweenSetter&lt;Vector2Int&gt; setter, Vector2Int endValue, float duration)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenGetter-1.html">TweenGetter</a>&lt;<span class="xref">Vector2Int</span>&gt;</td>
         <td><span class="parametername">getter</span></td>
-        <td></td>
+        <td><p>The function that gets the current value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenSetter-1.html">TweenSetter</a>&lt;<span class="xref">Vector2Int</span>&gt;</td>
         <td><span class="parametername">setter</span></td>
-        <td></td>
+        <td><p>The function that sets a new value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Vector2Int</span></td>
         <td><span class="parametername">endValue</span></td>
-        <td></td>
+        <td><p>The end value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><p>The duration of the tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a></td>
-        <td></td>
+        <td><p>A new tween that animates the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1945,54 +1781,51 @@ a set duration.</p>
 a set duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tween To(TweenGetter&lt;Vector3&gt; getter, TweenSetter&lt;Vector3&gt; setter, Vector3 endValue, float duration)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenGetter-1.html">TweenGetter</a>&lt;<span class="xref">Vector3</span>&gt;</td>
         <td><span class="parametername">getter</span></td>
-        <td></td>
+        <td><p>The function that gets the current value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenSetter-1.html">TweenSetter</a>&lt;<span class="xref">Vector3</span>&gt;</td>
         <td><span class="parametername">setter</span></td>
-        <td></td>
+        <td><p>The function that sets a new value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Vector3</span></td>
         <td><span class="parametername">endValue</span></td>
-        <td></td>
+        <td><p>The end value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><p>The duration of the tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a></td>
-        <td></td>
+        <td><p>A new tween that animates the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2002,54 +1835,51 @@ a set duration.</p>
 a set duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tween To(TweenGetter&lt;Vector3Int&gt; getter, TweenSetter&lt;Vector3Int&gt; setter, Vector3Int endValue, float duration)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenGetter-1.html">TweenGetter</a>&lt;<span class="xref">Vector3Int</span>&gt;</td>
         <td><span class="parametername">getter</span></td>
-        <td></td>
+        <td><p>The function that gets the current value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenSetter-1.html">TweenSetter</a>&lt;<span class="xref">Vector3Int</span>&gt;</td>
         <td><span class="parametername">setter</span></td>
-        <td></td>
+        <td><p>The function that sets a new value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Vector3Int</span></td>
         <td><span class="parametername">endValue</span></td>
-        <td></td>
+        <td><p>The end value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><p>The duration of the tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a></td>
-        <td></td>
+        <td><p>A new tween that animates the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2059,54 +1889,51 @@ a set duration.</p>
 a set duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tween To(TweenGetter&lt;Vector4&gt; getter, TweenSetter&lt;Vector4&gt; setter, Vector4 endValue, float duration)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenGetter-1.html">TweenGetter</a>&lt;<span class="xref">Vector4</span>&gt;</td>
         <td><span class="parametername">getter</span></td>
-        <td></td>
+        <td><p>The function that gets the current value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenSetter-1.html">TweenSetter</a>&lt;<span class="xref">Vector4</span>&gt;</td>
         <td><span class="parametername">setter</span></td>
-        <td></td>
+        <td><p>The function that sets a new value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Vector4</span></td>
         <td><span class="parametername">endValue</span></td>
-        <td></td>
+        <td><p>The end value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><p>The duration of the tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a></td>
-        <td></td>
+        <td><p>A new tween that animates the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2116,74 +1943,71 @@ a set duration.</p>
 a set duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tween To&lt;T&gt;(Interpolater&lt;T&gt; interpolater, TweenGetter&lt;T&gt; getter, TweenSetter&lt;T&gt; setter, T endValue, float duration)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.Interpolater-1.html">Interpolater</a>&lt;T&gt;</td>
         <td><span class="parametername">interpolater</span></td>
-        <td></td>
+        <td><p>The function that interpolates values between the start and end value.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenGetter-1.html">TweenGetter</a>&lt;T&gt;</td>
         <td><span class="parametername">getter</span></td>
-        <td></td>
+        <td><p>The function that gets the current value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Tweening.TweenSetter-1.html">TweenSetter</a>&lt;T&gt;</td>
         <td><span class="parametername">setter</span></td>
-        <td></td>
+        <td><p>The function that sets a new value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">endValue</span></td>
-        <td></td>
+        <td><p>The end value of the parameter.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><p>The duration of the tween.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Zigurous.Tweening.Tween.html">Tween</a></td>
-        <td></td>
+        <td><p>A new tween that animates the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>The type of the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>

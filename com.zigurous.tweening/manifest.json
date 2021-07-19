@@ -26,419 +26,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.AimConstraintTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.AimConstraintTweens.html",
-          "hash": "wig60v8edGpLNTnjVWOoClAM8qDv9DxmIOjiTZgZd0g="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.AnchoredJoint2DTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.AnchoredJoint2DTweens.html",
-          "hash": "88dDqxvD2gGAqCR2KPDdGlVb5Kl+3pkQybSZg+dQwDw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.AnimatorTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.AnimatorTweens.html",
-          "hash": "N3qUupkOefwh0aMQE2x5Mh7N7vCzQShFNvH9i5CkoUw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.AreaEffector2DTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.AreaEffector2DTweens.html",
-          "hash": "CR4hWMG3szmVtvgJ/viBTCMLffKW5dnKqS5DeDcMtCw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.AspectRatioFitterTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.AspectRatioFitterTweens.html",
-          "hash": "ox9oc7rrvTrgZ5JrXvqaqtJxyI3H2pIkmtkUcjqwIl8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.AudioChorusFilterTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.AudioChorusFilterTweens.html",
-          "hash": "UKzjzL0BVF9DHOIZSvpRzl+4WwLV46eTU5NIyyv01tc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.AudioDistortionFilterTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.AudioDistortionFilterTweens.html",
-          "hash": "sbKxNS7aFlNht98J4zrojb8OFDsqNSG2wLkg06OV8po="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.AudioEchoFilterTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.AudioEchoFilterTweens.html",
-          "hash": "3eU11qskQzAirW7ha6MZ4MdowxYG0PjpizrAIRIYJnE="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.AudioHighPassFilterTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.AudioHighPassFilterTweens.html",
-          "hash": "f0UJAGnzqPnq40uyrvz7JZYyTCgiSG7jozMNWpJUMeQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.AudioListenerTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.AudioListenerTweens.html",
-          "hash": "RwxXwi8pQ+JvQu+vKPjOFPxxDqhHwBRJYQWo5rzQ5Qg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.AudioLowPassFilterTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.AudioLowPassFilterTweens.html",
-          "hash": "GspAxi0ajiEIuB3NOH+WnXQFQDiuKg366QW2ePvhjGA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.AudioReverbFilterTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.AudioReverbFilterTweens.html",
-          "hash": "3H2qVRTwRj4VISnGFyTd8b7Vwq0Sdq/D87BuQ4NMpxE="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.AudioReverbZoneTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.AudioReverbZoneTweens.html",
-          "hash": "8TCaZQOI3NjFTUqIMGU44D1X7utryoIOlLGIBQUjNAA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.AudioSourceTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.AudioSourceTweens.html",
-          "hash": "N9lpOLunkLqGeNc3R6JEebSJLGGd4fVvpS/qZyfT7UI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.BoxCollider2DTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.BoxCollider2DTweens.html",
-          "hash": "7jmVMj5MyVkpUTkImiLtxJp6uOyjuAseGDeMdqsXHLM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.BoxColliderTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.BoxColliderTweens.html",
-          "hash": "neSpPHr6+rysGZWNIGx8kOxLShfTHByAN7b7NzAyLj8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.BuoyancyEffector2DTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.BuoyancyEffector2DTweens.html",
-          "hash": "z5Asogkn3xlvFl3ks1KQr9Lu3h9PLgTDS5gqWLgbreU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.CameraTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.CameraTweens.html",
-          "hash": "sxLYb0CMy05VlFWEpI9GDZCycsqFU2usjdSkAJK4A8E="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.CanvasGroupTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.CanvasGroupTweens.html",
-          "hash": "KJEt/43cWYIXu9sZWLW2iR/BYNA5yJbB35tYFv9LNnA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.CanvasScalerTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.CanvasScalerTweens.html",
-          "hash": "cN7UktxAsxdRw3hMGkrkX4SLTX7Z2ykvxPSYvm6NIeM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.CanvasTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.CanvasTweens.html",
-          "hash": "PL+cPz/b3+3SojeSLwd6DbbC0szzOibMyvoZNgdV9dM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.CapsuleCollider2DTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.CapsuleCollider2DTweens.html",
-          "hash": "zJ55MNO77XNgaRAp3LMN7d43qlNXZQtxQ6YJEKQ2bAE="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.CapsuleColliderTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.CapsuleColliderTweens.html",
-          "hash": "NJ3zMc9MRDqi9j335A37//UmmbPm1rgAySCvXgfTqhA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.CharacterControllerTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.CharacterControllerTweens.html",
-          "hash": "OvNj8psvxmEC3Ghdw+UZf0cc8FAEFZsvgRf6jJnqh+g="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.CharacterJointTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.CharacterJointTweens.html",
-          "hash": "eZb0ek8jcygimpbC1HxoXNfV5bxSfNVAK0s6Y+y6FO4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.CircleCollider2DTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.CircleCollider2DTweens.html",
-          "hash": "48f58Sp6WjAuezgHlwvblmDLqoI58bA+nSpE6Qh+LJw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.ClothTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.ClothTweens.html",
-          "hash": "JugTvV2wh/w7slArnfSPRxyKBlLZwO0yj5tfhiOViOs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.Collider2DTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.Collider2DTweens.html",
-          "hash": "FV23xuyzjZ1+u7fq3FSPm3SDo520hlmUaC4zJFgVz1E="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.ColliderTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.ColliderTweens.html",
-          "hash": "QK4hEz/hDQU3yXq3TJCKLbLb+Ejn2XAXlMcszVNw3JA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.CompositeCollider2DTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.CompositeCollider2DTweens.html",
-          "hash": "3bVEBo4uWsOWcfnxzUwQgevwehyS9NEZj7vwyLlwIVY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.ConfigurableJointTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.ConfigurableJointTweens.html",
-          "hash": "dO9RdIrEMMK0gUxGnBOUPcL6SfL9W6MoFMbh6dfeui0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.ConstantForce2DTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.ConstantForce2DTweens.html",
-          "hash": "jrhxuoMkwyLuvBkvQwfva+5YGL9DZg4X7jsYFceKcxg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.ConstantForceTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.ConstantForceTweens.html",
-          "hash": "QQMIQopdLbbFZOiKLWwgnEwY0d6JyCBSTwZ2d7YoUo4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.DistanceJoint2DTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.DistanceJoint2DTweens.html",
-          "hash": "epX+WGIkEjsUBqe8h2fBquRiQqGMVAtCmQNjp9BXSEs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Zigurous.Tweening.Ease.yml",
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Tweening.Ease.html",
-          "hash": "VhuzQ5Da0LnXCMNj8nXkxhT66VDDpVeVzQGd8Dw3GH0="
+          "hash": "DL5nQP1/DxDIoP9SEsUtWd8WkJVsHmm1VFeHSXX8oBU="
         }
       },
       "is_incremental": false,
@@ -450,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Tweening.EaseEqualityComparer.html",
-          "hash": "UyGYAi3C8Thi0gnWgY8zDpEcsPM0UoztTd2xbLX/agY="
+          "hash": "D6aVTkpW1SuwkZZ5uXVXoR9gHhhgXfoUt6PkQY/9efA="
         }
       },
       "is_incremental": false,
@@ -462,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Tweening.EaseExtensions.html",
-          "hash": "OdTnuSjXURMbf6E6TjE7ZaT20qcWa6AC8bAdzLvX8IM="
+          "hash": "9ySAVZMR4e+8+KrwVBwn4h2W6Q+rsxRfgG75BzpAnwg="
         }
       },
       "is_incremental": false,
@@ -474,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Tweening.EaseFunction.TimingCurve.html",
-          "hash": "SJbaOzXRDG69w/ybWKLv/xXkXggBrZt4Rq0sVxLs9sc="
+          "hash": "/M/obz0xMp1ZwKcKG1nmf4yBe7PLgtOOSuttlPhZHXQ="
         }
       },
       "is_incremental": false,
@@ -486,91 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Tweening.EaseFunction.html",
-          "hash": "NobBP9+GD8IJJuhIUz1rzBbRenPzgSVCSwiICKbF0Po="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.EdgeCollider2DTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.EdgeCollider2DTweens.html",
-          "hash": "lbUGwtYHEeWf5ydPqKQBtf2OpFkLRFzWRy/zp7vmy2c="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.FixedJoint2DTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.FixedJoint2DTweens.html",
-          "hash": "YYL3CRhDoawSt8/n3j6pfX9iyNR/oxxEQ++sR00MWbc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.FrictionJoint2DTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.FrictionJoint2DTweens.html",
-          "hash": "nuFeY4q/QJIAOIPQ+03t8YatEdDXRb4SU1QSC04WUgo="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.GraphicTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.GraphicTweens.html",
-          "hash": "wNcBmqmI6l0G4Tb6X/TQBmbCLgk1HZxS5Dnc2Dn5/Rw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.GridLayoutGroupTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.GridLayoutGroupTweens.html",
-          "hash": "bxKxyTw9hTw7To5gw8K9dzXGjQDAfT6AP9ekjcbri50="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.GridTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.GridTweens.html",
-          "hash": "I2+bkckx+6PzL8mW7Xg+ipuDBBahHNVknr2KQyno/fs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.HorizontalOrVerticalLayoutGroupTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.HorizontalOrVerticalLayoutGroupTweens.html",
-          "hash": "nUOGgngcAJNPJdtSgXDNIkl2FWn7nW0R4+zkExZFFz4="
+          "hash": "+ZhJmdW5Trtr5jsjVl2qw3vJFOdnPPlE+G0UhTxO7Bk="
         }
       },
       "is_incremental": false,
@@ -582,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Tweening.Interpolater-1.html",
-          "hash": "9b+R9pcjiVQqiwQug5z7a2xf5p/QLtGETHRspJf7bxg="
+          "hash": "RtVJTjwjzfFWFq7kvlhAjDM2onF5uhvCLyeKVza9U8Y="
         }
       },
       "is_incremental": false,
@@ -594,79 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Tweening.Interpolation.html",
-          "hash": "02TlyRt10+fu19SJcuaLeBe9f2Leti3GHPO5UOHHc8E="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.Joint2DTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.Joint2DTweens.html",
-          "hash": "+WcVDbeXdoF+wbh3WVZT3Eh5vx3KX2DzOM4R6e6jtzw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.JointTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.JointTweens.html",
-          "hash": "jgrRuwPAYPZ0dMGEsWH7QV/KmNaaqqA2rGv/6dPj9Vc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.LensFlareTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.LensFlareTweens.html",
-          "hash": "KYmFUErYslrQpqgs8FEaS/W7/OBjBKULcMZtKrJBc7g="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.LightTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.LightTweens.html",
-          "hash": "4SOsfcknaJGt/mzQN5WLf6HkzTPoUcv3oJeEwv8eFxI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.LineRendererTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.LineRendererTweens.html",
-          "hash": "kgYxOYXIOJikOlfQOnHJ94US8kxTLGBbr4hwh/32o6M="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.LookAtConstraintTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.LookAtConstraintTweens.html",
-          "hash": "dPbGZOJG1ULrhKiBz8cdruvlRQnhNWNlPzvSBgW7Oys="
+          "hash": "h/KTiIYwLKwK103RegY2xLI11kdPEFTE86KpFekh2cM="
         }
       },
       "is_incremental": false,
@@ -678,163 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Tweening.LoopType.html",
-          "hash": "fEepEjCYVglGFshCvSszgtM8iN8MWjoJzBbVmtjIRAc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.MaterialTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.MaterialTweens.html",
-          "hash": "r+6q3GMDB6/GlSK0JzZjmdZfIMxYCyxmojMX2VfvSUE="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.NavMeshAgentTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.NavMeshAgentTweens.html",
-          "hash": "LQ0cieqVYJlHicmTMe1FNHrcPwmSDx6uwTsHV8pdtLQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.NavMeshObstacleTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.NavMeshObstacleTweens.html",
-          "hash": "+xxjLP8vsDUwfysbDuheqGorBnpxE6fPny4OX4Y6E6E="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.OcclusionAreaTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.OcclusionAreaTweens.html",
-          "hash": "WOX7BTc7lQNIEKzgb+MrBnXTArHH3uE2xkFSRqcEbNY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.ParentConstraintTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.ParentConstraintTweens.html",
-          "hash": "Cd1ji655mYRRICFkGbsskdknOjBLCDXHp1uc9h5YSwk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.ParticleSystemForceFieldTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.ParticleSystemForceFieldTweens.html",
-          "hash": "HnLQXJ31X/WOSfP7wRe33x+Wnw2RL+26CfYgZ/4eBaw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.ParticleSystemTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.ParticleSystemTweens.html",
-          "hash": "UQvbRwXha1nPG13Tk9AIHpXAY1aBEK3yDl/TQVO7JvQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.PhysicMaterialTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.PhysicMaterialTweens.html",
-          "hash": "iSc+G6kE37D7K23YZib6zBUHa5+axif5ODKXBcx1xB0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.PhysicsMaterial2DTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.PhysicsMaterial2DTweens.html",
-          "hash": "8XdaBt8YrMrYn2zOxJIEJqWnY50wBI4+AV9VwGjWLFI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.PlatformEffector2DTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.PlatformEffector2DTweens.html",
-          "hash": "oaYXPDAqWBF4GaQpPVudT0NYceAbT5k/WTbwbFJz1EA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.PointEffector2DTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.PointEffector2DTweens.html",
-          "hash": "gNB6FMba4zVu97UU+AOQ/ejlSx4dRUyJsIqupp+LzV4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.PositionConstraintTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.PositionConstraintTweens.html",
-          "hash": "QtQsd+zvcUUDRH9BXRZ+hdwPg0wWVSAfzbXainFVCf0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.ProjectorTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.ProjectorTweens.html",
-          "hash": "f5keOXo0lzKm4KJGjfBz0X8qJBSNeHPX+IgTDYwutGQ="
+          "hash": "zW5mrBU1qJuH0euweORBDdz9BT6uc30hFhHCFJth9AU="
         }
       },
       "is_incremental": false,
@@ -846,139 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Tweening.PropertyChaining.html",
-          "hash": "U6ZpbsFmmW6CY/IDvfgZvau13OKxFQfdGt5SZCLmMx0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.RectMask2DTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.RectMask2DTweens.html",
-          "hash": "MoA4pbkbL4lDBrkx2rJL9TyIn4LzTgrPxjBdhVDDyNg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.RectOffsetTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.RectOffsetTweens.html",
-          "hash": "WagcQvoBQTostYq5dOwwsGjn7kf7G4NMo34YALK+LO8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.RectTransformTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.RectTransformTweens.html",
-          "hash": "efi+ZrMoLudxZtaDoK8JCYKrokojc0IX/a0QeXcwh9M="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.ReflectionProbeTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.ReflectionProbeTweens.html",
-          "hash": "19ipZxCnFlQ20lUvkD0u8akGLtsx9rNw8aAqtoUu0gM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.RelativeJoint2DTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.RelativeJoint2DTweens.html",
-          "hash": "h1vVjoOK3t8O/FYX314EROMb7FbKmnZyysmdRRUce/A="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.Rigidbody2DTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.Rigidbody2DTweens.html",
-          "hash": "/vkZeOfy/kj1n/yqq1to0JxmsyIDQVAlDW5eAAsJwlk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.RigidbodyTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.RigidbodyTweens.html",
-          "hash": "d+9xLXt9y5tGaN9wvpVXA8XfYTr3AXRYSmY8Fir+ok8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.RotationConstraintTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.RotationConstraintTweens.html",
-          "hash": "+in3o43AGpciSZec3GJKClEM5/LKy+3ZATNHf1VShcY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.ScaleConstraintTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.ScaleConstraintTweens.html",
-          "hash": "3NK7YPUH/0aMJbizzzOE26wGozTHMYTnfznUw6/ZGyc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.ScrollRectTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.ScrollRectTweens.html",
-          "hash": "EXD+8/MF1aFB6Q3ML7oMdQ+VjoNBw6BDEQWqQ6fWEKA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.ScrollbarTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.ScrollbarTweens.html",
-          "hash": "5zO3hpUt0sPCJtqi4ZpOBdj/dOqCIXx4jmvwyTdJt/Y="
+          "hash": "WfxorLVA876SQYuFtf3gK4WjlLZkj/bUXOFb6lzcmXI="
         }
       },
       "is_incremental": false,
@@ -990,199 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Tweening.Sequence.html",
-          "hash": "QbxQHq58Iqxuo7v52x3lXhu+4EiCwslI2G89I8x1xJI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.ShadowTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.ShadowTweens.html",
-          "hash": "UpZBie8h5v7aIwvgY6dLvdMUGb+GNGttpofiGUee5bQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.SliderJoint2DTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.SliderJoint2DTweens.html",
-          "hash": "/MsV0lRmq4/4CJH6K7XVRkb72chyK9Jc2xxmk7HWOvM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.SliderTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.SliderTweens.html",
-          "hash": "Tg25KKS9OF7D/CPXPRnRqmrmHTOHrMDRH+JoFoWdWWU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.SphereColliderTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.SphereColliderTweens.html",
-          "hash": "OsBMHolKge8Xg8SpWPIuSiiCeb9WmzxZBqAVe+KMPno="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.SpringJoint2DTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.SpringJoint2DTweens.html",
-          "hash": "WqOIcoQY+kUmu/trdBud2zjrGyaAvKYfkhi5+ZQ9qpw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.SpringJointTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.SpringJointTweens.html",
-          "hash": "4taR+Uch1TAqquPJEUON+ShUrgnOP5Jn8BhWaTSsNE0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.SpriteMaskTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.SpriteMaskTweens.html",
-          "hash": "AhfASxCmm1HEZocvSVecMJ2TPGRmwjydQ4z434ifwoE="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.SpriteRendererTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.SpriteRendererTweens.html",
-          "hash": "KX67+glnsfItAW+vImH+jGocWBG0RekYurjnhYO/MmU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.SpriteShapeRendererTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.SpriteShapeRendererTweens.html",
-          "hash": "20qoJ58W9LRrUPuOROfcfKdj0CyVMh8U0Sb91+4H7ig="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.SurfaceEffector2DTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.SurfaceEffector2DTweens.html",
-          "hash": "jXpvgAZLV8GX3Yp1svaFIgz3Xrbks1ursJ0T/WJSJUM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.TargetJoint2DTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.TargetJoint2DTweens.html",
-          "hash": "XEfwdYjKvMKdpeTvXy9EdNqNLLSDWEUE0kbq3AQwE5A="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.TextMeshTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.TextMeshTweens.html",
-          "hash": "K79bJw0Xd/KpvxMJ1KTAoOnXfkvzPWine4ZFMjfNRxQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.TextTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.TextTweens.html",
-          "hash": "zOtd07Alp0uCsBm81zzWD1CbDWbrTXxKrv1mzWrP7+g="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.TilemapTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.TilemapTweens.html",
-          "hash": "NNMjHj6H7CNOwqcllMnjAFYTn1WIunPue0y88TAoQME="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.TrailRendererTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.TrailRendererTweens.html",
-          "hash": "kEiIEfv1oJv8dePrVkSepeNr7nMd2KsgXMmWTY3AufY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.TransformTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.TransformTweens.html",
-          "hash": "8b6ZERpjYiYQJRcaOc8lLEhs1jVsUZ3nxVOhsxOwXT4="
+          "hash": "Y/yg2KDF0sJjeZGmnCwEb5phKPQ+0xcJlLkJGom2cSg="
         }
       },
       "is_incremental": false,
@@ -1194,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Tweening.Tween.html",
-          "hash": "alC7yvmOZrTt4avjL47c95ghTl6U79ZSgoXS65tWlMQ="
+          "hash": "xkIkGRZL1bE4Kplwos4cP6QU+K3QdS/Ek9h8xM2/siA="
         }
       },
       "is_incremental": false,
@@ -1206,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Tweening.TweenCallback.html",
-          "hash": "BN+lqO1CK+fdsM36EZuFe44Lu4T0+7P9FqeZzpNS1T8="
+          "hash": "n1qIYF5tfSTa/u9es9H5IXtYwzqeL7Zcv7gfN4/eA1E="
         }
       },
       "is_incremental": false,
@@ -1218,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Tweening.TweenGetter-1.html",
-          "hash": "reClBYyksdgxVHlnVNjG3UsSY15IwQ4uK8e9lUyJuyM="
+          "hash": "/BZOjlt68cL/7cpRzIMqE6wOoq9fff/2XzQknOMk9eI="
         }
       },
       "is_incremental": false,
@@ -1230,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Tweening.TweenSetter-1.html",
-          "hash": "pjWohsc/j9/tIZpZOyNFANgyc/nmaeWk8Q5zOq3ySvU="
+          "hash": "+uM48ZLWhP6907uZRhsQJgs+/lr7TkSMw9pljR5dnSs="
         }
       },
       "is_incremental": false,
@@ -1242,19 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Tweening.TweenState.html",
-          "hash": "S7DTtJ1pUOrhtqBf/Qo1qzoc/wPXg/hmeLsgcab5qAY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.TweenStateExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.TweenStateExtensions.html",
-          "hash": "/6TI9+KcwrusWLKTLjN98+GRk8uZH6OBWqNzLvVdrh8="
+          "hash": "wcrgh9+IlHylKxpv+GayCRU1LhS/VmGTUzi25qRbLwE="
         }
       },
       "is_incremental": false,
@@ -1266,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Tweening.Tweener-1.html",
-          "hash": "2X7nxaVT8WCUgNDtd6yZCXRH49XqOHTumplIhk70zf4="
+          "hash": "OJ+QRSpgWqwGSXTRYQQaifly1D1ehjegiaiNCSDpu/g="
         }
       },
       "is_incremental": false,
@@ -1278,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Tweening.Tweening.html",
-          "hash": "5pxIayTFt3HNjI7fwDaY584PFrzTB1my++brUsNpmTs="
+          "hash": "cRB6vUrOXh7F1WRgDr7ukG8PqP7e9E6YcOkaQdMB2Zg="
         }
       },
       "is_incremental": false,
@@ -1290,43 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Tweening.TweeningSettings.html",
-          "hash": "H2advesX6MVD3xzoWG2Qm2LbvB7to9x4gaI805zluxQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.VideoPlayerTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.VideoPlayerTweens.html",
-          "hash": "/55TzztBDY8kDjr/JgR4e/96iYTtp6rv8+HcAY5UkaM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.WheelColliderTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.WheelColliderTweens.html",
-          "hash": "NyzqQe+kMXlfvyQrOhk8OS99vK8h/sPVT/t5B9xUKvU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.Tweening.WindZoneTweens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.Tweening.WindZoneTweens.html",
-          "hash": "BLnq+CFk7SHO//idZXhpMz0wlWwtlPtPjFV/f9EEpUk="
+          "hash": "uQFhwWeNVExtiYagD9B1ZeBQEC+Ih9/+wC/K1HZ/SVU="
         }
       },
       "is_incremental": false,
@@ -1338,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Tweening.html",
-          "hash": "oCCewwE4ENWjKDNSa/FfmIYH0Mi/715BqLcXwwC3/kI="
+          "hash": "HMkgAORVwvy+8iuKltfAmi28T9By2cQWXDsLCms2XoY="
         }
       },
       "is_incremental": false,
@@ -1350,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "XPvJwrTHlhp9Kqgrd4y/WGjr5ykgSPnTD6qPnsPFVl0="
+          "hash": "ryt4VeH2sr6MqkIqG8xSPmeF+09rF0YbGkIa9n+cTbw="
         }
       },
       "is_incremental": false,
@@ -1494,7 +402,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 110,
+          "total_file_count": 19,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

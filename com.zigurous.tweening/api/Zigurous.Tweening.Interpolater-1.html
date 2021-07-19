@@ -80,76 +80,73 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.Tweening.Interpolater`1">
-  
   <h1 id="Zigurous_Tweening_Interpolater_1" data-uid="Zigurous.Tweening.Interpolater`1" class="text-break">Delegate Interpolater&lt;T&gt;
   </h1>
-  <div class="markdown level0 summary"><p>A function type that interpolates the value between a and b by t.</p>
+  <div class="markdown level0 summary"><p>A function delegate that interpolates the value between
+<code data-dev-comment-type="paramref" class="paramref">a</code> and <code data-dev-comment-type="paramref" class="paramref">b</code> by <code data-dev-comment-type="paramref" class="paramref">t</code>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Tweening.html">Zigurous.Tweening</a></h6>
-  <h5 id="Zigurous_Tweening_Interpolater_1_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public delegate T Interpolater&lt;T&gt;(T a, T b, float t, bool snapping);</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><p>The start value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">T</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><p>The end value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">t</span></td>
-        <td></td>
+        <td><p>The interpolation value between the start and end value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">snapping</span></td>
-        <td></td>
+        <td><p>Snaps the interpolated value to the nearest whole number.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td></td>
+        <td><p>The interpolated value between the start and end value.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>The type of the parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>

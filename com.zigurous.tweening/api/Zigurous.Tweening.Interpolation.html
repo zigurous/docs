@@ -80,10 +80,9 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.Tweening.Interpolation">
-  
   <h1 id="Zigurous_Tweening_Interpolation" data-uid="Zigurous.Tweening.Interpolation" class="text-break">Class Interpolation
   </h1>
-  <div class="markdown level0 summary"><p>Provides functions for interpolating values.</p>
+  <div class="markdown level0 summary"><p>Functions for interpolating values.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -92,7 +91,6 @@
     <div class="level1"><span class="xref">Interpolation</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Tweening.html">Zigurous.Tweening</a></h6>
-  <h5 id="Zigurous_Tweening_Interpolation_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class Interpolation</code></pre>
   </div>
@@ -100,673 +98,649 @@
   </h3>
   <a id="Zigurous_Tweening_Interpolation_Lerp_" data-uid="Zigurous.Tweening.Interpolation.Lerp*"></a>
   <h4 id="Zigurous_Tweening_Interpolation_Lerp_Color_Color_System_Single_System_Boolean_" data-uid="Zigurous.Tweening.Interpolation.Lerp(Color,Color,System.Single,System.Boolean)">Lerp(Color, Color, Single, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Linearly interpolates between a and b by t.</p>
+  <div class="markdown level1 summary"><p>Linearly interpolates between <code data-dev-comment-type="paramref" class="paramref">a</code> and
+<code data-dev-comment-type="paramref" class="paramref">b</code> by <code data-dev-comment-type="paramref" class="paramref">t</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Color Lerp(Color a, Color b, float t, bool snapping = false)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><p>The start value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><p>The end value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">t</span></td>
-        <td></td>
+        <td><p>The interpolation value between the start and end value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">snapping</span></td>
-        <td></td>
+        <td><p>Snaps the interpolated value to the nearest whole number.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">Color</span></td>
-        <td></td>
+        <td><p>The interpolated value between the start and end value.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Tweening_Interpolation_Lerp_" data-uid="Zigurous.Tweening.Interpolation.Lerp*"></a>
   <h4 id="Zigurous_Tweening_Interpolation_Lerp_Quaternion_Quaternion_System_Single_System_Boolean_" data-uid="Zigurous.Tweening.Interpolation.Lerp(Quaternion,Quaternion,System.Single,System.Boolean)">Lerp(Quaternion, Quaternion, Single, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Linearly interpolates between a and b by t.</p>
+  <div class="markdown level1 summary"><p>Linearly interpolates between <code data-dev-comment-type="paramref" class="paramref">a</code> and
+<code data-dev-comment-type="paramref" class="paramref">b</code> by <code data-dev-comment-type="paramref" class="paramref">t</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Quaternion Lerp(Quaternion a, Quaternion b, float t, bool snapping = false)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Quaternion</span></td>
         <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><p>The start value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Quaternion</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><p>The end value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">t</span></td>
-        <td></td>
+        <td><p>The interpolation value between the start and end value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">snapping</span></td>
-        <td></td>
+        <td><p>Snaps the interpolated value to the nearest whole number.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">Quaternion</span></td>
-        <td></td>
+        <td><p>The interpolated value between the start and end value.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Tweening_Interpolation_Lerp_" data-uid="Zigurous.Tweening.Interpolation.Lerp*"></a>
   <h4 id="Zigurous_Tweening_Interpolation_Lerp_Rect_Rect_System_Single_System_Boolean_" data-uid="Zigurous.Tweening.Interpolation.Lerp(Rect,Rect,System.Single,System.Boolean)">Lerp(Rect, Rect, Single, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Linearly interpolates between a and b by t.</p>
+  <div class="markdown level1 summary"><p>Linearly interpolates between <code data-dev-comment-type="paramref" class="paramref">a</code> and
+<code data-dev-comment-type="paramref" class="paramref">b</code> by <code data-dev-comment-type="paramref" class="paramref">t</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Rect Lerp(Rect a, Rect b, float t, bool snapping = false)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Rect</span></td>
         <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><p>The start value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Rect</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><p>The end value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">t</span></td>
-        <td></td>
+        <td><p>The interpolation value between the start and end value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">snapping</span></td>
-        <td></td>
+        <td><p>Snaps the interpolated value to the nearest whole number.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">Rect</span></td>
-        <td></td>
+        <td><p>The interpolated value between the start and end value.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Tweening_Interpolation_Lerp_" data-uid="Zigurous.Tweening.Interpolation.Lerp*"></a>
   <h4 id="Zigurous_Tweening_Interpolation_Lerp_System_Double_System_Double_System_Single_System_Boolean_" data-uid="Zigurous.Tweening.Interpolation.Lerp(System.Double,System.Double,System.Single,System.Boolean)">Lerp(Double, Double, Single, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Linearly interpolates between a and b by t.</p>
+  <div class="markdown level1 summary"><p>Linearly interpolates between <code data-dev-comment-type="paramref" class="paramref">a</code> and
+<code data-dev-comment-type="paramref" class="paramref">b</code> by <code data-dev-comment-type="paramref" class="paramref">t</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static double Lerp(double a, double b, float t, bool snapping = false)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><p>The start value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><p>The end value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">t</span></td>
-        <td></td>
+        <td><p>The interpolation value between the start and end value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">snapping</span></td>
-        <td></td>
+        <td><p>Snaps the interpolated value to the nearest whole number.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.Double</span></td>
-        <td></td>
+        <td><p>The interpolated value between the start and end value.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Tweening_Interpolation_Lerp_" data-uid="Zigurous.Tweening.Interpolation.Lerp*"></a>
   <h4 id="Zigurous_Tweening_Interpolation_Lerp_System_Int32_System_Int32_System_Single_System_Boolean_" data-uid="Zigurous.Tweening.Interpolation.Lerp(System.Int32,System.Int32,System.Single,System.Boolean)">Lerp(Int32, Int32, Single, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Linearly interpolates between a and b by t.</p>
+  <div class="markdown level1 summary"><p>Linearly interpolates between <code data-dev-comment-type="paramref" class="paramref">a</code> and
+<code data-dev-comment-type="paramref" class="paramref">b</code> by <code data-dev-comment-type="paramref" class="paramref">t</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int Lerp(int a, int b, float t, bool snapping = false)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><p>The start value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><p>The end value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">t</span></td>
-        <td></td>
+        <td><p>The interpolation value between the start and end value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">snapping</span></td>
-        <td></td>
+        <td><p>Snaps the interpolated value to the nearest whole number.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td></td>
+        <td><p>The interpolated value between the start and end value.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Tweening_Interpolation_Lerp_" data-uid="Zigurous.Tweening.Interpolation.Lerp*"></a>
   <h4 id="Zigurous_Tweening_Interpolation_Lerp_System_Int64_System_Int64_System_Single_System_Boolean_" data-uid="Zigurous.Tweening.Interpolation.Lerp(System.Int64,System.Int64,System.Single,System.Boolean)">Lerp(Int64, Int64, Single, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Linearly interpolates between a and b by t.</p>
+  <div class="markdown level1 summary"><p>Linearly interpolates between <code data-dev-comment-type="paramref" class="paramref">a</code> and
+<code data-dev-comment-type="paramref" class="paramref">b</code> by <code data-dev-comment-type="paramref" class="paramref">t</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static long Lerp(long a, long b, float t, bool snapping = false)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><p>The start value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><p>The end value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">t</span></td>
-        <td></td>
+        <td><p>The interpolation value between the start and end value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">snapping</span></td>
-        <td></td>
+        <td><p>Snaps the interpolated value to the nearest whole number.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.Int64</span></td>
-        <td></td>
+        <td><p>The interpolated value between the start and end value.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Tweening_Interpolation_Lerp_" data-uid="Zigurous.Tweening.Interpolation.Lerp*"></a>
   <h4 id="Zigurous_Tweening_Interpolation_Lerp_System_Single_System_Single_System_Single_System_Boolean_" data-uid="Zigurous.Tweening.Interpolation.Lerp(System.Single,System.Single,System.Single,System.Boolean)">Lerp(Single, Single, Single, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Linearly interpolates between a and b by t.</p>
+  <div class="markdown level1 summary"><p>Linearly interpolates between <code data-dev-comment-type="paramref" class="paramref">a</code> and
+<code data-dev-comment-type="paramref" class="paramref">b</code> by <code data-dev-comment-type="paramref" class="paramref">t</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static float Lerp(float a, float b, float t, bool snapping = false)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><p>The start value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><p>The end value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">t</span></td>
-        <td></td>
+        <td><p>The interpolation value between the start and end value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">snapping</span></td>
-        <td></td>
+        <td><p>Snaps the interpolated value to the nearest whole number.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.Single</span></td>
-        <td></td>
+        <td><p>The interpolated value between the start and end value.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Tweening_Interpolation_Lerp_" data-uid="Zigurous.Tweening.Interpolation.Lerp*"></a>
   <h4 id="Zigurous_Tweening_Interpolation_Lerp_Vector2_Vector2_System_Single_System_Boolean_" data-uid="Zigurous.Tweening.Interpolation.Lerp(Vector2,Vector2,System.Single,System.Boolean)">Lerp(Vector2, Vector2, Single, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Linearly interpolates between a and b by t.</p>
+  <div class="markdown level1 summary"><p>Linearly interpolates between <code data-dev-comment-type="paramref" class="paramref">a</code> and
+<code data-dev-comment-type="paramref" class="paramref">b</code> by <code data-dev-comment-type="paramref" class="paramref">t</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Vector2 Lerp(Vector2 a, Vector2 b, float t, bool snapping = false)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector2</span></td>
         <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><p>The start value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Vector2</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><p>The end value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">t</span></td>
-        <td></td>
+        <td><p>The interpolation value between the start and end value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">snapping</span></td>
-        <td></td>
+        <td><p>Snaps the interpolated value to the nearest whole number.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">Vector2</span></td>
-        <td></td>
+        <td><p>The interpolated value between the start and end value.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Tweening_Interpolation_Lerp_" data-uid="Zigurous.Tweening.Interpolation.Lerp*"></a>
   <h4 id="Zigurous_Tweening_Interpolation_Lerp_Vector2Int_Vector2Int_System_Single_System_Boolean_" data-uid="Zigurous.Tweening.Interpolation.Lerp(Vector2Int,Vector2Int,System.Single,System.Boolean)">Lerp(Vector2Int, Vector2Int, Single, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Linearly interpolates between a and b by t.</p>
+  <div class="markdown level1 summary"><p>Linearly interpolates between <code data-dev-comment-type="paramref" class="paramref">a</code> and
+<code data-dev-comment-type="paramref" class="paramref">b</code> by <code data-dev-comment-type="paramref" class="paramref">t</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Vector2Int Lerp(Vector2Int a, Vector2Int b, float t, bool snapping = false)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector2Int</span></td>
         <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><p>The start value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Vector2Int</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><p>The end value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">t</span></td>
-        <td></td>
+        <td><p>The interpolation value between the start and end value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">snapping</span></td>
-        <td></td>
+        <td><p>Snaps the interpolated value to the nearest whole number.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">Vector2Int</span></td>
-        <td></td>
+        <td><p>The interpolated value between the start and end value.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Tweening_Interpolation_Lerp_" data-uid="Zigurous.Tweening.Interpolation.Lerp*"></a>
   <h4 id="Zigurous_Tweening_Interpolation_Lerp_Vector3_Vector3_System_Single_System_Boolean_" data-uid="Zigurous.Tweening.Interpolation.Lerp(Vector3,Vector3,System.Single,System.Boolean)">Lerp(Vector3, Vector3, Single, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Linearly interpolates between a and b by t.</p>
+  <div class="markdown level1 summary"><p>Linearly interpolates between <code data-dev-comment-type="paramref" class="paramref">a</code> and
+<code data-dev-comment-type="paramref" class="paramref">b</code> by <code data-dev-comment-type="paramref" class="paramref">t</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Vector3 Lerp(Vector3 a, Vector3 b, float t, bool snapping = false)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
         <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><p>The start value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Vector3</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><p>The end value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">t</span></td>
-        <td></td>
+        <td><p>The interpolation value between the start and end value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">snapping</span></td>
-        <td></td>
+        <td><p>Snaps the interpolated value to the nearest whole number.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">Vector3</span></td>
-        <td></td>
+        <td><p>The interpolated value between the start and end value.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Tweening_Interpolation_Lerp_" data-uid="Zigurous.Tweening.Interpolation.Lerp*"></a>
   <h4 id="Zigurous_Tweening_Interpolation_Lerp_Vector3Int_Vector3Int_System_Single_System_Boolean_" data-uid="Zigurous.Tweening.Interpolation.Lerp(Vector3Int,Vector3Int,System.Single,System.Boolean)">Lerp(Vector3Int, Vector3Int, Single, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Linearly interpolates between a and b by t.</p>
+  <div class="markdown level1 summary"><p>Linearly interpolates between <code data-dev-comment-type="paramref" class="paramref">a</code> and
+<code data-dev-comment-type="paramref" class="paramref">b</code> by <code data-dev-comment-type="paramref" class="paramref">t</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Vector3Int Lerp(Vector3Int a, Vector3Int b, float t, bool snapping = false)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3Int</span></td>
         <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><p>The start value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Vector3Int</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><p>The end value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">t</span></td>
-        <td></td>
+        <td><p>The interpolation value between the start and end value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">snapping</span></td>
-        <td></td>
+        <td><p>Snaps the interpolated value to the nearest whole number.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">Vector3Int</span></td>
-        <td></td>
+        <td><p>The interpolated value between the start and end value.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Tweening_Interpolation_Lerp_" data-uid="Zigurous.Tweening.Interpolation.Lerp*"></a>
   <h4 id="Zigurous_Tweening_Interpolation_Lerp_Vector4_Vector4_System_Single_System_Boolean_" data-uid="Zigurous.Tweening.Interpolation.Lerp(Vector4,Vector4,System.Single,System.Boolean)">Lerp(Vector4, Vector4, Single, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Linearly interpolates between a and b by t.</p>
+  <div class="markdown level1 summary"><p>Linearly interpolates between <code data-dev-comment-type="paramref" class="paramref">a</code> and
+<code data-dev-comment-type="paramref" class="paramref">b</code> by <code data-dev-comment-type="paramref" class="paramref">t</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Vector4 Lerp(Vector4 a, Vector4 b, float t, bool snapping = false)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector4</span></td>
         <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><p>The start value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Vector4</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><p>The end value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">t</span></td>
-        <td></td>
+        <td><p>The interpolation value between the start and end value.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">snapping</span></td>
-        <td></td>
+        <td><p>Snaps the interpolated value to the nearest whole number.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Returns</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">Vector4</span></td>
-        <td></td>
+        <td><p>The interpolated value between the start and end value.</p>
+</td>
       </tr>
     </tbody>
   </table>

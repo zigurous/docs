@@ -80,11 +80,9 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.Tweening.Tween">
-  
   <h1 id="Zigurous_Tweening_Tween" data-uid="Zigurous.Tweening.Tween" class="text-break">Class Tween
   </h1>
-  <div class="markdown level0 summary"><p>A tween object, an animation that changes a value over time using an
-easing function.</p>
+  <div class="markdown level0 summary"><p>The base class of every tween.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -95,9 +93,18 @@ easing function.</p>
       <div class="level2"><a class="xref" href="Zigurous.Tweening.Tweener-1.html">Tweener&lt;T&gt;</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Tweening.html">Zigurous.Tweening</a></h6>
-  <h5 id="Zigurous_Tweening_Tween_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract class Tween</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="Zigurous_Tweening_Tween__ctor_" data-uid="Zigurous.Tweening.Tween.#ctor*"></a>
+  <h4 id="Zigurous_Tweening_Tween__ctor" data-uid="Zigurous.Tweening.Tween.#ctor">Tween()</h4>
+  <div class="markdown level1 summary"><p>Creates a new tween object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Tween()</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -106,7 +113,6 @@ easing function.</p>
 started.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float delay</code></pre>
   </div>
@@ -114,7 +120,6 @@ started.</p>
   <div class="markdown level1 summary"><p>The amount of seconds the tween takes to complete.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float duration</code></pre>
   </div>
@@ -122,7 +127,6 @@ started.</p>
   <div class="markdown level1 summary"><p>The easing function type used by the tween to animate values.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Ease ease</code></pre>
   </div>
@@ -133,7 +137,6 @@ is often used to identify which object the parameter being animated
 belongs to, and often that object is animating multiple parameters.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int id</code></pre>
   </div>
@@ -142,7 +145,6 @@ belongs to, and often that object is animating multiple parameters.</p>
 tween infinitely.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int loops</code></pre>
   </div>
@@ -150,7 +152,6 @@ tween infinitely.</p>
   <div class="markdown level1 summary"><p>The style in which the tween loops.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public LoopType loopType</code></pre>
   </div>
@@ -158,7 +159,6 @@ tween infinitely.</p>
   <div class="markdown level1 summary"><p>The callback invoked when the tween is completed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public TweenCallback onComplete</code></pre>
   </div>
@@ -166,7 +166,6 @@ tween infinitely.</p>
   <div class="markdown level1 summary"><p>The callback invoked when the tween is killed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public TweenCallback onKill</code></pre>
   </div>
@@ -174,7 +173,6 @@ tween infinitely.</p>
   <div class="markdown level1 summary"><p>The callback invoked when the tween is looped.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public TweenCallback onLoop</code></pre>
   </div>
@@ -182,7 +180,6 @@ tween infinitely.</p>
   <div class="markdown level1 summary"><p>The callback invoked when the tween is started.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public TweenCallback onStart</code></pre>
   </div>
@@ -190,7 +187,6 @@ tween infinitely.</p>
   <div class="markdown level1 summary"><p>The callback invoked when the tween is stopped.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public TweenCallback onStop</code></pre>
   </div>
@@ -199,7 +195,6 @@ tween infinitely.</p>
 the parameter being animated is changed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public TweenCallback onUpdate</code></pre>
   </div>
@@ -210,7 +205,6 @@ the parameter being animated is changed.</p>
   <div class="markdown level1 summary"><p>Automatically kills the tween after being completed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool autoKill { get; set; }</code></pre>
   </div>
@@ -219,7 +213,6 @@ the parameter being animated is changed.</p>
   <div class="markdown level1 summary"><p>Automatically starts the tween after being created.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool autoStart { get; set; }</code></pre>
   </div>
@@ -229,7 +222,6 @@ the parameter being animated is changed.</p>
 state, when applicable.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float delayElapsed { get; }</code></pre>
   </div>
@@ -238,7 +230,6 @@ state, when applicable.</p>
   <div class="markdown level1 summary"><p>The amount of seconds that have elapsed since the tween started.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float elapsed { get; }</code></pre>
   </div>
@@ -247,7 +238,6 @@ state, when applicable.</p>
   <div class="markdown level1 summary"><p>Whether the tween is complete.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool IsComplete { get; }</code></pre>
   </div>
@@ -258,7 +248,6 @@ has been started but the elapsed time has not exceeded the delay
 duration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool IsDelayed { get; }</code></pre>
   </div>
@@ -267,7 +256,6 @@ duration.</p>
   <div class="markdown level1 summary"><p>Whether the tween is killed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool IsKilled { get; }</code></pre>
   </div>
@@ -276,7 +264,6 @@ duration.</p>
   <div class="markdown level1 summary"><p>Whether the tween is playing.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool IsPlaying { get; }</code></pre>
   </div>
@@ -285,7 +272,6 @@ duration.</p>
   <div class="markdown level1 summary"><p>Whether the tween is stopped.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool IsStopped { get; }</code></pre>
   </div>
@@ -294,7 +280,6 @@ duration.</p>
   <div class="markdown level1 summary"><p>The number of times the tween has completed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int iterations { get; }</code></pre>
   </div>
@@ -303,7 +288,6 @@ duration.</p>
   <div class="markdown level1 summary"><p>The tween's percentage of completion.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float PercentComplete { get; }</code></pre>
   </div>
@@ -312,7 +296,6 @@ duration.</p>
   <div class="markdown level1 summary"><p>Keeps the tween in memory to be re-used after being killed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool recyclable { get; set; }</code></pre>
   </div>
@@ -322,16 +305,14 @@ duration.</p>
 animating from the start value to the end value like normal.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool reversed { get; set; }</code></pre>
   </div>
   <a id="Zigurous_Tweening_Tween_snapping_" data-uid="Zigurous.Tweening.Tween.snapping*"></a>
   <h4 id="Zigurous_Tweening_Tween_snapping" data-uid="Zigurous.Tweening.Tween.snapping">snapping</h4>
-  <div class="markdown level1 summary"><p>Smoothly snaps all interpolated values to integers.</p>
+  <div class="markdown level1 summary"><p>Smoothly snaps all interpolated values to whole numbers.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool snapping { get; set; }</code></pre>
   </div>
@@ -340,7 +321,6 @@ animating from the start value to the end value like normal.</p>
   <div class="markdown level1 summary"><p>The animation state of the tween.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public TweenState state { get; }</code></pre>
   </div>
@@ -351,7 +331,6 @@ animating from the start value to the end value like normal.</p>
   <div class="markdown level1 summary"><p>Animates the parameter being tweened to the current state.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract void Animate()</code></pre>
   </div>
@@ -360,104 +339,87 @@ animating from the start value to the end value like normal.</p>
   <div class="markdown level1 summary"><p>Completes the tween, jumping to the end value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Complete()</code></pre>
   </div>
   <a id="Zigurous_Tweening_Tween_IsFinished_" data-uid="Zigurous.Tweening.Tween.IsFinished*"></a>
   <h4 id="Zigurous_Tweening_Tween_IsFinished" data-uid="Zigurous.Tweening.Tween.IsFinished">IsFinished()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Determines if the tween has finished playing.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected virtual bool IsFinished()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <a id="Zigurous_Tweening_Tween_Kill_" data-uid="Zigurous.Tweening.Tween.Kill*"></a>
   <h4 id="Zigurous_Tweening_Tween_Kill" data-uid="Zigurous.Tweening.Tween.Kill">Kill()</h4>
   <div class="markdown level1 summary"><p>Kills the tween in its place, preventing any further state changes
 or changes to the parameter being animated.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Kill()</code></pre>
   </div>
   <a id="Zigurous_Tweening_Tween_OnComplete_" data-uid="Zigurous.Tweening.Tween.OnComplete*"></a>
   <h4 id="Zigurous_Tweening_Tween_OnComplete" data-uid="Zigurous.Tweening.Tween.OnComplete">OnComplete()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Override to handle custom logic when the tween is completed.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected virtual void OnComplete()</code></pre>
   </div>
   <a id="Zigurous_Tweening_Tween_OnKill_" data-uid="Zigurous.Tweening.Tween.OnKill*"></a>
   <h4 id="Zigurous_Tweening_Tween_OnKill" data-uid="Zigurous.Tweening.Tween.OnKill">OnKill()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Override to handle custom logic when the tween is killed.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected virtual void OnKill()</code></pre>
   </div>
   <a id="Zigurous_Tweening_Tween_OnLoop_" data-uid="Zigurous.Tweening.Tween.OnLoop*"></a>
   <h4 id="Zigurous_Tweening_Tween_OnLoop" data-uid="Zigurous.Tweening.Tween.OnLoop">OnLoop()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Override to handle custom logic when the tween is looped.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected virtual void OnLoop()</code></pre>
   </div>
   <a id="Zigurous_Tweening_Tween_OnReset_" data-uid="Zigurous.Tweening.Tween.OnReset*"></a>
   <h4 id="Zigurous_Tweening_Tween_OnReset" data-uid="Zigurous.Tweening.Tween.OnReset">OnReset()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Override to handle custom logic when the tween is reset.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected virtual void OnReset()</code></pre>
   </div>
   <a id="Zigurous_Tweening_Tween_OnResume_" data-uid="Zigurous.Tweening.Tween.OnResume*"></a>
   <h4 id="Zigurous_Tweening_Tween_OnResume" data-uid="Zigurous.Tweening.Tween.OnResume">OnResume()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Override to handle custom logic when the tween is resumed.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected virtual void OnResume()</code></pre>
   </div>
   <a id="Zigurous_Tweening_Tween_OnStart_" data-uid="Zigurous.Tweening.Tween.OnStart*"></a>
   <h4 id="Zigurous_Tweening_Tween_OnStart" data-uid="Zigurous.Tweening.Tween.OnStart">OnStart()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Override to handle custom logic when the tween is started.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected virtual void OnStart()</code></pre>
   </div>
   <a id="Zigurous_Tweening_Tween_OnStop_" data-uid="Zigurous.Tweening.Tween.OnStop*"></a>
   <h4 id="Zigurous_Tweening_Tween_OnStop" data-uid="Zigurous.Tweening.Tween.OnStop">OnStop()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Override to handle custom logic when the tween is stopped.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected virtual void OnStop()</code></pre>
   </div>
   <a id="Zigurous_Tweening_Tween_OnUpdate_" data-uid="Zigurous.Tweening.Tween.OnUpdate*"></a>
   <h4 id="Zigurous_Tweening_Tween_OnUpdate" data-uid="Zigurous.Tweening.Tween.OnUpdate">OnUpdate()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Override to handle custom logic when the tween is updated.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected virtual void OnUpdate()</code></pre>
   </div>
@@ -467,7 +429,6 @@ or changes to the parameter being animated.</p>
 from a stopped state.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Play()</code></pre>
   </div>
@@ -476,7 +437,6 @@ from a stopped state.</p>
   <div class="markdown level1 summary"><p>Restarts the tween as along as it has not been killed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Restart()</code></pre>
   </div>
@@ -485,7 +445,6 @@ from a stopped state.</p>
   <div class="markdown level1 summary"><p>Stops the tween if currently being played.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Stop()</code></pre>
   </div>
