@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.DataStructures.EulerRange.html",
-          "hash": "RZhkqpiDqiszBFtp+HLmXgRgu7PesIm/sTY76iel5hQ="
+          "hash": "vBFAIDWDnP0AcRKUK4/btXv1BGYzFqo2o2Mpf1GnmGE="
         }
       },
       "is_incremental": false,
@@ -174,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.DataStructures.GridSize.html",
-          "hash": "EFNBW1iygRRD+jtBmZOhf+7GYJHjqD78H//JneKAEK0="
+          "hash": "vFWPIomqlsTSQev1FF8JcV+/CFQicKi0p2qcADjFbMg="
         }
       },
       "is_incremental": false,
@@ -378,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.DataStructures.Range-1.html",
-          "hash": "w3HcoX6GoOCpp8Zgr+ZbpfAFe8hgTGTgzO8tQRkiK/0="
+          "hash": "1nOIO3upqgg0Y+mBspd6x5EOSwtL6PoY+Dt3hz7UMoY="
         }
       },
       "is_incremental": false,
@@ -402,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.DataStructures.Size.html",
-          "hash": "UAoDgXO/ueaboZbL85rKnWFAQBke6LnewpCDHmB7TsQ="
+          "hash": "0+WsPUgmpE7w3gzPyQZuSY/cN94WFVE97wDS/PdKkPA="
         }
       },
       "is_incremental": false,
@@ -570,7 +570,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.DataStructures.html",
-          "hash": "hegvGA71u981BG32sk/myWZhi1/AZJkpJD3YQqAzB1Q="
+          "hash": "G6bXr3dpL5yKmELNye/5QRE3bffW52c8XwFw5jlS7eI="
         }
       },
       "is_incremental": false,
@@ -659,11 +659,23 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/extensions.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/extensions.html",
+          "hash": "RWuGz8+VbXEGp9XN6O28tI3ZH6ReKDwxWgTmG7KbUbY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/index.md",
       "output": {
         ".html": {
           "relative_path": "manual/index.html",
-          "hash": "Skx3QOtbO1Zl7nUu6YMy2AmJaCjhnRrbpLvHkAduW64="
+          "hash": "/gdytQhxCTMA0MM9bhFeXmZ0ed3mTaDXq4Md6O1xQKA="
         }
       },
       "is_incremental": false,
@@ -682,12 +694,48 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "manual/patterns.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/patterns.html",
+          "hash": "VX4+kcGDkurERY5sxI2822AdPcpBxNkURQrIMHqeZ2g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/structs.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/structs.html",
+          "hash": "4h4CJafszNwq7Lri5AxBV2kZ8mqFS8S4hi69/fzsiss="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "manual/toc.yml",
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "AUBmkjcV6Rgc5XQX3SpA8j/bnbBPgpTg+VqyBcLddP4="
+          "hash": "Lstk+eNu0L+EjKxcFxlmkj/4SK446p7yJRRTIZJfzDU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/utilities.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/utilities.html",
+          "hash": "RfNHgNSDzrh5ePYwl7UtuysZurHNAzi4S7C95gffhK8="
         }
       },
       "is_incremental": false,
@@ -720,7 +768,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 4,
+          "total_file_count": 8,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
