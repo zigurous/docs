@@ -47,7 +47,7 @@
   "manual/index.html": {
     "href": "manual/index.html",
     "title": "Debug Tools | Debug Tools",
-    "keywords": "Debug Tools The Debug Tools package contains assets and scripts for debugging Unity projects. Included in the package are scripts for enhanced console logging, benchmarking, displaying framerate, and more. The package also comes with shaders to visualize different vertex data. Logging Benchmarking Framerate Display Debug Shaders"
+    "keywords": "Debug Tools The Debug Tools package contains assets and scripts for debugging Unity projects. Included in the package are scripts for enhanced console logging, benchmarking, displaying framerate, and more. The package also comes with shaders to visualize different vertex data. Reference Logging Benchmarking Framerate Display Debug Shaders"
   },
   "manual/installation.html": {
     "href": "manual/installation.html",
