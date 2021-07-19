@@ -80,12 +80,11 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.Reticles.ReticleTargeting">
-  
   <h1 id="Zigurous_Reticles_ReticleTargeting" data-uid="Zigurous.Reticles.ReticleTargeting" class="text-break">Class ReticleTargeting
   </h1>
   <div class="markdown level0 summary"><p>Handles changing the appearance of the reticle when targeting other
 objects. For example, the reticle might become red when targeting an
-enemy or green when targeting a friendly.</p>
+enemy or green when targeting a friendly character.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -94,17 +93,15 @@ enemy or green when targeting a friendly.</p>
     <div class="level1"><span class="xref">ReticleTargeting</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Reticles.html">Zigurous.Reticles</a></h6>
-  <h5 id="Zigurous_Reticles_ReticleTargeting_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class ReticleTargeting : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class ReticleTargeting : MonoBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   <h4 id="Zigurous_Reticles_ReticleTargeting_layerMask" data-uid="Zigurous.Reticles.ReticleTargeting.layerMask">layerMask</h4>
-  <div class="markdown level1 summary"><p>The layer mask used to selectively ignore colliders when raycasting.</p>
+  <div class="markdown level1 summary"><p>The layers that can be targeted by the reticle.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public LayerMask layerMask</code></pre>
   </div>
@@ -112,7 +109,6 @@ enemy or green when targeting a friendly.</p>
   <div class="markdown level1 summary"><p>The transform from which raycasts originate, usually the camera.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Transform lookTransform</code></pre>
   </div>
@@ -120,7 +116,6 @@ enemy or green when targeting a friendly.</p>
   <div class="markdown level1 summary"><p>The max distance the ray can check for targets.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float maxDistance</code></pre>
   </div>
@@ -128,7 +123,6 @@ enemy or green when targeting a friendly.</p>
   <div class="markdown level1 summary"><p>The amount of seconds between raycasts.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float scanRate</code></pre>
   </div>
@@ -139,7 +133,6 @@ enemy or green when targeting a friendly.</p>
   <div class="markdown level1 summary"><p>The time at which the next scan will occur.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float nextScanTime { get; }</code></pre>
   </div>
@@ -148,7 +141,6 @@ enemy or green when targeting a friendly.</p>
   <div class="markdown level1 summary"><p>The reticle that changes color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Reticle reticle { get; }</code></pre>
   </div>
@@ -156,42 +148,42 @@ enemy or green when targeting a friendly.</p>
   </h3>
   <a id="Zigurous_Reticles_ReticleTargeting_ChangeAppearance_" data-uid="Zigurous.Reticles.ReticleTargeting.ChangeAppearance*"></a>
   <h4 id="Zigurous_Reticles_ReticleTargeting_ChangeAppearance_Zigurous_Reticles_ReticleTarget_" data-uid="Zigurous.Reticles.ReticleTargeting.ChangeAppearance(Zigurous.Reticles.ReticleTarget)">ChangeAppearance(ReticleTarget)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Changes the appearance of the reticle to reflect the
+<code data-dev-comment-type="paramref" class="paramref">target</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ChangeAppearance(ReticleTarget target)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void ChangeAppearance(ReticleTarget target)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Reticles.ReticleTarget.html">ReticleTarget</a></td>
         <td><span class="parametername">target</span></td>
-        <td></td>
+        <td><p>The target to set the reticle apperance for.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Reticles_ReticleTargeting_ResetAppearance_" data-uid="Zigurous.Reticles.ReticleTargeting.ResetAppearance*"></a>
   <h4 id="Zigurous_Reticles_ReticleTargeting_ResetAppearance" data-uid="Zigurous.Reticles.ReticleTargeting.ResetAppearance">ResetAppearance()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Resets the appearance of the reticle to the default reticle config.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ResetAppearance()</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void ResetAppearance()</code></pre>
   </div>
   <a id="Zigurous_Reticles_ReticleTargeting_Scan_" data-uid="Zigurous.Reticles.ReticleTargeting.Scan*"></a>
   <h4 id="Zigurous_Reticles_ReticleTargeting_Scan" data-uid="Zigurous.Reticles.ReticleTargeting.Scan">Scan()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Performs a scan to see if the reticle should change appearance based
+on the target object being looked at.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Scan()</code></pre>
   </div>

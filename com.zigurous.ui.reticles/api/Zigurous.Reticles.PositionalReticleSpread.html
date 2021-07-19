@@ -80,7 +80,6 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.Reticles.PositionalReticleSpread">
-  
   <h1 id="Zigurous_Reticles_PositionalReticleSpread" data-uid="Zigurous.Reticles.PositionalReticleSpread" class="text-break">Class PositionalReticleSpread
   </h1>
   <div class="markdown level0 summary"><p>Handles reticle spread by changing the position of the reticle image(s).</p>
@@ -95,7 +94,6 @@
       <div class="level3"><a class="xref" href="Zigurous.Reticles.RectangularReticleSpread.html">RectangularReticleSpread</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Reticles.html">Zigurous.Reticles</a></h6>
-  <h5 id="Zigurous_Reticles_PositionalReticleSpread_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract class PositionalReticleSpread : ReticleSpread</code></pre>
   </div>
@@ -103,91 +101,74 @@
   </h3>
   <a id="Zigurous_Reticles_PositionalReticleSpread_CalculateOffset_" data-uid="Zigurous.Reticles.PositionalReticleSpread.CalculateOffset*"></a>
   <h4 id="Zigurous_Reticles_PositionalReticleSpread_CalculateOffset_System_Single_System_Single_System_Single_" data-uid="Zigurous.Reticles.PositionalReticleSpread.CalculateOffset(System.Single,System.Single,System.Single)">CalculateOffset(Single, Single, Single)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Calculates the offset of the reticle image based on the reticle
+spread and size. The offset is calculated differently based on the
+reticle type.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract float CalculateOffset(float spread, float reticleSize, float reticleThickness)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract float CalculateOffset(float spread, float size, float thickness)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">spread</span></td>
-        <td></td>
+        <td><p>The amount of spread to apply.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">reticleSize</span></td>
-        <td></td>
+        <td><span class="parametername">size</span></td>
+        <td><p>The size of the reticle image.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">reticleThickness</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td></td>
+        <td><span class="parametername">thickness</span></td>
+        <td><p>The thickness of the reticle image.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Reticles_PositionalReticleSpread_Update_" data-uid="Zigurous.Reticles.PositionalReticleSpread.Update*"></a>
   <h4 id="Zigurous_Reticles_PositionalReticleSpread_Update_RectTransform_Zigurous_Reticles_ReticleConfiguration_System_Single_System_Int32_" data-uid="Zigurous.Reticles.PositionalReticleSpread.Update(RectTransform,Zigurous.Reticles.ReticleConfiguration,System.Single,System.Int32)">Update(RectTransform, ReticleConfiguration, Single, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Updates the reticle's spread by changing the transform of the image.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override void Update(RectTransform transform, ReticleConfiguration config, float spread, int index)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">RectTransform</span></td>
         <td><span class="parametername">transform</span></td>
-        <td></td>
+        <td><p>The transform of the reticle image to update.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.Reticles.ReticleConfiguration.html">ReticleConfiguration</a></td>
         <td><span class="parametername">config</span></td>
-        <td></td>
+        <td><p>The reticle configuration being used.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">spread</span></td>
-        <td></td>
+        <td><p>The amount of spread to apply.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
-        <td></td>
+        <td><p>The index of the reticle image. The spread offset might depend on the index for cardinal images.</p>
+</td>
       </tr>
     </tbody>
   </table>

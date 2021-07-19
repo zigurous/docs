@@ -256,12 +256,12 @@ references:
   isSpec: "True"
   fullName: Zigurous.Reticles.Reticle.config
   nameWithType: Reticle.config
-- uid: Zigurous.Reticles.Reticle.preGenerated
-  name: preGenerated
-  href: api/Zigurous.Reticles.Reticle.html#Zigurous_Reticles_Reticle_preGenerated
-  commentId: F:Zigurous.Reticles.Reticle.preGenerated
-  fullName: Zigurous.Reticles.Reticle.preGenerated
-  nameWithType: Reticle.preGenerated
+- uid: Zigurous.Reticles.Reticle.pregenerated
+  name: pregenerated
+  href: api/Zigurous.Reticles.Reticle.html#Zigurous_Reticles_Reticle_pregenerated
+  commentId: F:Zigurous.Reticles.Reticle.pregenerated
+  fullName: Zigurous.Reticles.Reticle.pregenerated
+  nameWithType: Reticle.pregenerated
 - uid: Zigurous.Reticles.Reticle.spread
   name: spread
   href: api/Zigurous.Reticles.Reticle.html#Zigurous_Reticles_Reticle_spread
@@ -525,19 +525,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.Reticles.ReticleGroup.Add
   nameWithType: ReticleGroup.Add
-- uid: Zigurous.Reticles.ReticleGroup.Awake
-  name: Awake()
-  href: api/Zigurous.Reticles.ReticleGroup.html#Zigurous_Reticles_ReticleGroup_Awake
-  commentId: M:Zigurous.Reticles.ReticleGroup.Awake
-  fullName: Zigurous.Reticles.ReticleGroup.Awake()
-  nameWithType: ReticleGroup.Awake()
-- uid: Zigurous.Reticles.ReticleGroup.Awake*
-  name: Awake
-  href: api/Zigurous.Reticles.ReticleGroup.html#Zigurous_Reticles_ReticleGroup_Awake_
-  commentId: Overload:Zigurous.Reticles.ReticleGroup.Awake
-  isSpec: "True"
-  fullName: Zigurous.Reticles.ReticleGroup.Awake
-  nameWithType: ReticleGroup.Awake
 - uid: Zigurous.Reticles.ReticleGroup.Clear
   name: Clear()
   href: api/Zigurous.Reticles.ReticleGroup.html#Zigurous_Reticles_ReticleGroup_Clear

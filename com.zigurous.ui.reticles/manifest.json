@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Reticles.CircularReticleSpread.html",
-          "hash": "Y5Z6YZceS3JpPAOYFXs/y5oe7o+NEQOoYQCff3T2EkU="
+          "hash": "byUjVV+i1wDQ2ycPffqKAxejVgdxHeWg77qBX+32Ddk="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Reticles.CrosshairEditor.html",
-          "hash": "qIMd+ACwPlYwH1ZuP/X4rI/WvReoRoEGW6l5bPeTvz4="
+          "hash": "EZ/KBy+qKCkwgQAS7vbyLt0Oj1GLbSjb3gcJSlilXzA="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Reticles.Hitmarker.html",
-          "hash": "lziooknOPH7MxviYuUo5ksjB6YJGdc1fwcfhG7wpNPo="
+          "hash": "HR2EPBj1hCbF5xdQxQ9laO6YQGXMYlKG+pm1SsgMfLQ="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Reticles.NoReticleSpread.html",
-          "hash": "V+D4ObAQfrNsLGmYe2MJpnfXEcWMKCLyE70kQ+VluPc="
+          "hash": "V/GwNwaqEyNI6u49V1FKwLIDYMXSdaAY77WpvcfhHLE="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Reticles.PositionalReticleSpread.html",
-          "hash": "OqRedO3tg9Gax29+HU7hsSFWidvuy+0zKYHjrxs679A="
+          "hash": "ENhE2I4gl+e6yUUYdf6EV08+uwI4Q+ZNaVwEFfHdyvU="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Reticles.RectangularReticleSpread.html",
-          "hash": "sjq3EyIR5Je6A68MCjWsingg2+DVNHXrFXuVK7DLxHg="
+          "hash": "eRC6/F6OxSEiEhNw/TBaJWx/eTnBexXcASPTlNN9lGU="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Reticles.Reticle.html",
-          "hash": "KBlxNE+R+n6l7QogqqHhhJ/x8YIvr0+9J8HK6zsRvpM="
+          "hash": "DdBFarC/mC32zWmFJHjueczQFu8SFbTO5YQq5JyDsM4="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Reticles.ReticleBloom.html",
-          "hash": "g9m9GR+/muBB2q06krJ0KRTSKhxVLb2wJ0jg2r03KYM="
+          "hash": "+LlIVKupsFG4mlGH/LsI9ulVtBhoLU6o6NfO5NwR0lI="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Reticles.ReticleConfiguration.Layout.html",
-          "hash": "Ip1QGL2JwQp8Bn8ZIiF28FcvlXWJJx8jyEBAar8WSH0="
+          "hash": "9Uc5cdOciYzZRVOyrZzP449n9ySUJC4OjSB/hxzfQHI="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Reticles.ReticleConfiguration.Shape.html",
-          "hash": "z96inHdWxPIVUzrGQrbaVlWKfIIzjUE0S1A9KOkOuqw="
+          "hash": "D3tPAKmxgz3sD3277dyvosGcTS904Rb0Kf1XRvnZzK0="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Reticles.ReticleConfiguration.Spread.html",
-          "hash": "waz8RnF74EgF7ZKIWSajbXX6dwaBfRRsPqxHkZempJI="
+          "hash": "8SUBzAQRFlVsPnVXiwLSLtQIJX7J58dSH94uLGnZaQ8="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Reticles.ReticleConfiguration.html",
-          "hash": "NB73TIKGc9gKU6Iu4gqvZqZx0+6SWTk4Muw2xsVKLa8="
+          "hash": "pQuw90s2TQFniD8GJvKH6j4NY/eqy2odWj83eojc8QY="
         }
       },
       "is_incremental": false,
@@ -174,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Reticles.ReticleGroup.html",
-          "hash": "DlNIdALypQguMuogmdsZSQGJE+UincKBWcscDAnsU9I="
+          "hash": "cHakHS4ZnceoRKaqJM3Iiua+YdNWhL4s+gkJNgz1Ew4="
         }
       },
       "is_incremental": false,
@@ -186,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Reticles.ReticleImage.html",
-          "hash": "Mjy+WSTWw8F9oSGA8GfHibwaeFU7b9LWYGOjGrGveEM="
+          "hash": "K4/dXPY3k9Em/tIhLWUAyapgSpVM0Y0caB0P/4S6VLM="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Reticles.ReticleSpread.html",
-          "hash": "92axc+nEJ1fEvdH/TOHE4P8KI2hHxVYXr7IcBjwYL3o="
+          "hash": "LppjmlI3tmwZEyZg8hSFSERDV/hhKBHHZTOIZWJGwqk="
         }
       },
       "is_incremental": false,
@@ -210,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Reticles.ReticleTarget.html",
-          "hash": "7bfp0BcXak4E7LslBtDl5PjqxKw9HzEQ+1a7FKFa+0g="
+          "hash": "Yy08YKn2m7C8AL7W+rvr5fLSREKRayHD0cnqrWHfx+A="
         }
       },
       "is_incremental": false,
@@ -222,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Reticles.ReticleTargeting.Colors.html",
-          "hash": "8f1h546nT/VAec7gFuYLTLWYcyJxNvWEUPv3Iu6lKqc="
+          "hash": "/cj6wyOhaRHa3+hDUj6TN/EK5KnfsFKAWwK3Z/14+0k="
         }
       },
       "is_incremental": false,
@@ -234,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Reticles.ReticleTargeting.html",
-          "hash": "oPnfnzR5T9QqVuciZJmFTrWl7AVCM+gqoFE788tMYeY="
+          "hash": "MUwueXX6tBpT4dFLwdn49jtJzOp/X8CbEvZABPrJ4Qg="
         }
       },
       "is_incremental": false,
@@ -246,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Reticles.ScalingReticleSpread.html",
-          "hash": "5Nw21gyEMv63w8Gi8+IrF5Cdn4jnulF+E/8pgWM6fRQ="
+          "hash": "r8QNnK3z5z+rDjrDM+VGkEHWeT1DSwwXx3L+kG5/FLo="
         }
       },
       "is_incremental": false,
@@ -258,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Reticles.html",
-          "hash": "IuoeOZ/Yl/Uqg1Ul3y/8f+8C17LsAnn+UmFWWEzceI8="
+          "hash": "55xenoeZfgNNLN1xL6hiw5gJUaO7UeyE+jp0+xZ9qG0="
         }
       },
       "is_incremental": false,
@@ -316,7 +316,7 @@
       "output": {
         ".html": {
           "relative_path": "license/LICENSE.html",
-          "hash": "5ONWtthW7PSPt+IRvNDJbv34adnVIus2mNSdPNLSnQc="
+          "hash": "VVQIYWlAXKHtmuOpvTw5ytsP6sTns3NYV8qu5dzqBSw="
         }
       },
       "is_incremental": false,

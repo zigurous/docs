@@ -80,10 +80,9 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.Reticles.ReticleImage">
-  
   <h1 id="Zigurous_Reticles_ReticleImage" data-uid="Zigurous.Reticles.ReticleImage" class="text-break">Class ReticleImage
   </h1>
-  <div class="markdown level0 summary"><p>Provides methods to change the styling of reticle images.</p>
+  <div class="markdown level0 summary"><p>Provides methods to change the styling of a reticle image.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -92,7 +91,6 @@
     <div class="level1"><span class="xref">ReticleImage</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Reticles.html">Zigurous.Reticles</a></h6>
-  <h5 id="Zigurous_Reticles_ReticleImage_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public sealed class ReticleImage : Image</code></pre>
   </div>
@@ -100,161 +98,150 @@
   </h3>
   <a id="Zigurous_Reticles_ReticleImage_SetMask_" data-uid="Zigurous.Reticles.ReticleImage.SetMask*"></a>
   <h4 id="Zigurous_Reticles_ReticleImage_SetMask_Zigurous_Reticles_ReticleConfiguration_Shape_System_Boolean_System_Single_" data-uid="Zigurous.Reticles.ReticleImage.SetMask(Zigurous.Reticles.ReticleConfiguration.Shape,System.Boolean,System.Single)">SetMask(ReticleConfiguration.Shape, Boolean, Single)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets or removes the image mask.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void SetMask(ReticleConfiguration.Shape shape, bool masked, float fillAmount)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Reticles.ReticleConfiguration.Shape.html">ReticleConfiguration.Shape</a></td>
         <td><span class="parametername">shape</span></td>
-        <td></td>
+        <td><p>The shape of the reticle image, e.g., rectangular or circular.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">masked</span></td>
-        <td></td>
+        <td><p>True to add the mask, false to remove it.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">fillAmount</span></td>
-        <td></td>
+        <td><p>The amount of the image to show when masked.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Reticles_ReticleImage_SetOutline_" data-uid="Zigurous.Reticles.ReticleImage.SetOutline*"></a>
   <h4 id="Zigurous_Reticles_ReticleImage_SetOutline_System_Boolean_Color_Vector2_" data-uid="Zigurous.Reticles.ReticleImage.SetOutline(System.Boolean,Color,Vector2)">SetOutline(Boolean, Color, Vector2)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets or removes an outline effect on the image.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void SetOutline(bool outlined, Color color, Vector2 distance)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">outlined</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color of the outline effect.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Vector2</span></td>
         <td><span class="parametername">distance</span></td>
-        <td></td>
+        <td><p>The distance of the outline effect.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Reticles_ReticleImage_SetPosition_" data-uid="Zigurous.Reticles.ReticleImage.SetPosition*"></a>
   <h4 id="Zigurous_Reticles_ReticleImage_SetPosition_Vector3_" data-uid="Zigurous.Reticles.ReticleImage.SetPosition(Vector3)">SetPosition(Vector3)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets the local offset position of the reticle image.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void SetPosition(Vector3 offset)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
         <td><span class="parametername">offset</span></td>
-        <td></td>
+        <td><p>The local offset position of the reticle image.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Reticles_ReticleImage_SetRotation_" data-uid="Zigurous.Reticles.ReticleImage.SetRotation*"></a>
   <h4 id="Zigurous_Reticles_ReticleImage_SetRotation_System_Single_System_Int32_" data-uid="Zigurous.Reticles.ReticleImage.SetRotation(System.Single,System.Int32)">SetRotation(Single, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets the rotation of the image.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void SetRotation(float rotation, int index)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">rotation</span></td>
-        <td></td>
+        <td><p>The rotation of the image as an angle in degrees.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
-        <td></td>
+        <td><p>The index of the image to factor into the amount of rotation. This is used to automatically rotate images in a pattern.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_Reticles_ReticleImage_SetSize_" data-uid="Zigurous.Reticles.ReticleImage.SetSize*"></a>
   <h4 id="Zigurous_Reticles_ReticleImage_SetSize_Zigurous_Reticles_ReticleConfiguration_Shape_System_Single_System_Single_" data-uid="Zigurous.Reticles.ReticleImage.SetSize(Zigurous.Reticles.ReticleConfiguration.Shape,System.Single,System.Single)">SetSize(ReticleConfiguration.Shape, Single, Single)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets the size of the reticle image.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void SetSize(ReticleConfiguration.Shape shape, float size, float thickness)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.Reticles.ReticleConfiguration.Shape.html">ReticleConfiguration.Shape</a></td>
         <td><span class="parametername">shape</span></td>
-        <td></td>
+        <td><p>The shape of the reticle image, e.g., rectangular or circular.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">size</span></td>
-        <td></td>
+        <td><p>The length or radius of the reticle image depending on the image shape.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">thickness</span></td>
-        <td></td>
+        <td><p>The thickness of the reticle image (only applicable to rectangular shaped images).</p>
+</td>
       </tr>
     </tbody>
   </table>

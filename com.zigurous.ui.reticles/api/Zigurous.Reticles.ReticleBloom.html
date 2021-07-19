@@ -80,12 +80,12 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.Reticles.ReticleBloom">
-  
   <h1 id="Zigurous_Reticles_ReticleBloom" data-uid="Zigurous.Reticles.ReticleBloom" class="text-break">Class ReticleBloom
   </h1>
   <div class="markdown level0 summary"><p>Handles dynamically changing the spread of a reticle based on a given
 bloom amount. Bloom is a way of visualizing the accuracy of a weapon.
-The more bloom the less accurate a weapon is.</p>
+The more bloom the less accurate a weapon is. Bloom is added and removed
+when the behavior is enabled or disabled, repectively.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -94,7 +94,6 @@ The more bloom the less accurate a weapon is.</p>
     <div class="level1"><span class="xref">ReticleBloom</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Reticles.html">Zigurous.Reticles</a></h6>
-  <h5 id="Zigurous_Reticles_ReticleBloom_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class ReticleBloom : MonoBehaviour</code></pre>
   </div>
@@ -104,7 +103,6 @@ The more bloom the less accurate a weapon is.</p>
   <div class="markdown level1 summary"><p>How quickly the reticle bloom decays back to zero.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float decayRate</code></pre>
   </div>
@@ -112,7 +110,6 @@ The more bloom the less accurate a weapon is.</p>
   <div class="markdown level1 summary"><p>The maximum amount of spread that can be applied to the reticle.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float maxSpread</code></pre>
   </div>
@@ -120,7 +117,6 @@ The more bloom the less accurate a weapon is.</p>
   <div class="markdown level1 summary"><p>The reticle that the bloom effect is applied to.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Reticle reticle</code></pre>
   </div>
@@ -128,7 +124,6 @@ The more bloom the less accurate a weapon is.</p>
   <div class="markdown level1 summary"><p>The amount of spread to apply to the reticle when bloomed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float spread</code></pre>
   </div>
@@ -139,7 +134,6 @@ The more bloom the less accurate a weapon is.</p>
   <div class="markdown level1 summary"><p>The base amount of spread on the reticle without bloom.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float baseSpread { get; }</code></pre>
   </div>
@@ -148,7 +142,6 @@ The more bloom the less accurate a weapon is.</p>
   <div class="markdown level1 summary"><p>The current amount of bloom applied to the reticle.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float bloom { get; }</code></pre>
   </div>
@@ -156,9 +149,9 @@ The more bloom the less accurate a weapon is.</p>
   </h3>
   <a id="Zigurous_Reticles_ReticleBloom_Apply_" data-uid="Zigurous.Reticles.ReticleBloom.Apply*"></a>
   <h4 id="Zigurous_Reticles_ReticleBloom_Apply" data-uid="Zigurous.Reticles.ReticleBloom.Apply">Apply()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Applies the bloom to the reticle.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Apply()</code></pre>
   </div>
