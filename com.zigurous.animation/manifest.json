@@ -455,11 +455,35 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/behaviors.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/behaviors.html",
+          "hash": "/kfsf9UUsXdmU1AmzYAcDlsiIqQv0Zbs5xhN8w+v95k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/data-structures.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/data-structures.html",
+          "hash": "YBVDILtsjqeCDLvzXoFP7rBabNEjwH3H9ykAo9ieQaU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/index.md",
       "output": {
         ".html": {
           "relative_path": "manual/index.html",
-          "hash": "JcOiYjCz0UGpsXyYTODFK7ww9Sn8KA5aV9Fq0aV+gnw="
+          "hash": "ph3/6MlYGYaCpqx2XfUFUFxoW0yYkfINMyuwzfOsCwY="
         }
       },
       "is_incremental": false,
@@ -483,7 +507,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "M+pUevucRCBOgS6v51qgDQULUX9JiFZMtuCaU9oEnNI="
+          "hash": "AK0HC5m8OZCDjZ0IUfkR+LH4ar90nWh31/luKX3nkWg="
         }
       },
       "is_incremental": false,
@@ -516,7 +540,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 6,
+          "total_file_count": 8,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {

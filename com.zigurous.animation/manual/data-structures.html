@@ -4,9 +4,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Animation Library | Animation Library </title>
+    <title>Data Structures | Animation Library </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Animation Library | Animation Library ">
+    <meta name="title" content="Data Structures | Animation Library ">
     <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -78,16 +78,31 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="animation-library">Animation Library</h1>
+<h1 id="data-structures">Data Structures</h1>
 
-<p>The Animation Library package contains assets and scripts for animating Unity objects. Animation behaviors include Blink, FollowPath, Move, Orbit, Rotate, Scale, SmoothFollow, SmoothLookAt, and more. The package also contains several animation-related data structures and predefined avatar masks.</p>
-<h3 id="reference">Reference</h3>
-<ul>
-<li><a href="behaviors.html">Behaviors</a></li>
-<li><a href="data-structures.html">Data Structures</a></li>
-<li><a href="animator-parameters.html">Animator Parameters</a></li>
-<li><a href="avatar-masks.html">Avatar Masks</a></li>
-</ul>
+<p>The Animation Library package includes several data structures to assist in animation-related purposes, mainly when writing custom scripts.</p>
+<h4 id="animatorparameter"><a class="xref" href="../api/Zigurous.Animation.AnimatorParameter.html">AnimatorParameter</a></h4>
+<p>An animation parameter that can be set on an Animator. A hash id is automatically created for the parameter. Ids are used for optimized setters and getters on Animator parameters.</p>
+<h4 id="smoothdampfloat"><a class="xref" href="../api/Zigurous.Animation.SmoothDampFloat.html">SmoothDampFloat</a></h4>
+<p>Gradually changes a float over time using a spring-damper function, which will never overshoot.</p>
+<h4 id="smoothdampvector2"><a class="xref" href="../api/Zigurous.Animation.SmoothDampVector2.html">SmoothDampVector2</a></h4>
+<p>Gradually changes a Vector2 over time using a spring-damper function, which will never overshoot.</p>
+<h4 id="smoothdampvector3"><a class="xref" href="../api/Zigurous.Animation.SmoothDampVector3.html">SmoothDampVector3</a></h4>
+<p>Gradually changes a Vector3 over time using a spring-damper function, which will never overshoot.</p>
+<h4 id="timing"><a class="xref" href="../api/Zigurous.Animation.Timing.html">Timing</a></h4>
+<p>The start and end time of an animation.</p>
+<h4 id="timing01"><a class="xref" href="../api/Zigurous.Animation.Timing01.html">Timing01</a></h4>
+<p>The start and end time of an animation normalized between 0 and 1.</p>
+<h4 id="timingrange"><a class="xref" href="../api/Zigurous.Animation.TimingRange.html">TimingRange</a></h4>
+<p>An animation timing range between a lower and upper bound.</p>
+<h4 id="timingrange01"><a class="xref" href="../api/Zigurous.Animation.TimingRange01.html">TimingRange01</a></h4>
+<p>An animation timing range normalized between 0 and 1.</p>
+<h4 id="vector2animationcurve"><a class="xref" href="../api/Zigurous.Animation.Vector2AnimationCurve.html">Vector2AnimationCurve</a></h4>
+<p>Stores a collection of keyframes that can be evaluated over time as a Vector2.</p>
+<h4 id="vector3animationcurve"><a class="xref" href="../api/Zigurous.Animation.Vector3AnimationCurve.html">Vector3AnimationCurve</a></h4>
+<p>Stores a collection of keyframes that can be evaluated over time as a Vector3.</p>
+<h4 id="vector4animationcurve"><a class="xref" href="../api/Zigurous.Animation.Vector4AnimationCurve.html">Vector4AnimationCurve</a></h4>
+<p>Stores a collection of keyframes that can be evaluated over time as a Vector4.</p>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">
