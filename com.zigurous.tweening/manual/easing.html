@@ -4,9 +4,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Changelog | Tweening </title>
+    <title>Easing | Tweening </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Changelog | Tweening ">
+    <meta name="title" content="Easing | Tweening ">
     <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -78,110 +78,52 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="changelog">Changelog</h1>
+<h1 id="easing">Easing</h1>
 
-<p>All notable changes to this project will be documented in this file.</p>
-<p>The format is based on <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>,
-and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semantic Versioning</a>.</p>
-<h2 id="250---20210721">[2.5.0] - 2021/07/21</h2>
-<h3 id="changed">Changed</h3>
+<p>Easing functions specify the rate of change of a parameter over time.</p>
+<p>Objects in real life don’t just start and stop instantly, and almost never move at a constant speed. When we open a drawer, we first move it quickly, and slow it down as it comes out. Drop something on the floor, and it will first accelerate downwards, and then bounce back up after hitting the floor.</p>
+<p>The website <a href="https://easings.net/">https://easings.net/</a> is a good resource to visualize common easing functions.</p>
+<h3 id="using-easing-functions">Using easing functions</h3>
+<p>To specify which easing function a tween uses, the property <a class="xref" href="../api/Zigurous.Tweening.Tween.html#Zigurous_Tweening_Tween_ease">ease</a> can be set. This property is backed by a custom enum called <a class="xref" href="../api/Zigurous.Tweening.Ease.html">Ease</a> containing 30+ ease types.</p>
+<pre><code class="lang-csharp">tween.ease = Ease.QuadOut;
+</code></pre>
+<p>You can also use the easing functions directly through the static class <a class="xref" href="../api/Zigurous.Tweening.EaseFunction.html">EaseFunction</a>.<br>
+Every easing function takes the form f(x):</p>
+<pre><code class="lang-csharp">public float EaseFunction(float x);
+</code></pre>
+<h3 id="available-eases">Available Eases</h3>
 <ul>
-<li>Global settings defined in <code>Tweening</code> have been moved to new static class <code>Settings</code></li>
-<li>Scene indexes default to the current active scene</li>
-<li>Tween <code>sceneIndex</code> is now a publicly exposed field</li>
-<li>Shortcut tweens that are not apart of components still have an id set automatically</li>
-</ul>
-<h2 id="240---20210628">[2.4.0] - 2021/06/28</h2>
-<h3 id="added">Added</h3>
-<ul>
-<li>New <code>TweeningSettings</code> component that can be used to change settings in the editor</li>
-</ul>
-<h3 id="changed-1">Changed</h3>
-<ul>
-<li>Hide <code>TweenManager</code> in component menu</li>
-<li>Settings properties have been renamed</li>
-</ul>
-<h2 id="230---20210627">[2.3.0] - 2021/06/27</h2>
-<h3 id="added-1">Added</h3>
-<ul>
-<li>Support for tweening <code>Rect</code> values</li>
-<li>New <code>Material</code> tween extensions</li>
-<li>New <code>Camera</code> tween extensions</li>
-</ul>
-<h3 id="changed-2">Changed</h3>
-<ul>
-<li>Optimized memory consumption using enum flags</li>
-</ul>
-<h3 id="removed">Removed</h3>
-<ul>
-<li>Removed <code>Tweening.killTweensOnSceneUnload</code> setting. Each tween now tracks the scene index and is automatically killed when that scene is unloaded.</li>
-</ul>
-<h2 id="221---20210618">[2.2.1] - 2021/06/18</h2>
-<h3 id="fixed">Fixed</h3>
-<ul>
-<li>Removed editor only property tweens</li>
-</ul>
-<h2 id="220---20210615">[2.2.0] - 2021/06/15</h2>
-<h3 id="added-2">Added</h3>
-<ul>
-<li>Setting to kill tweens when the scene is unloaded (default=true)</li>
-</ul>
-<h2 id="210---20210609">[2.1.0] - 2021/06/09</h2>
-<h3 id="added-3">Added</h3>
-<ul>
-<li>Support for looping</li>
-<li>Support for snapping</li>
-<li>Support for reversing sequences</li>
-</ul>
-<h2 id="201---20210607">[2.0.1] - 2021/06/07</h2>
-<h3 id="fixed-1">Fixed</h3>
-<ul>
-<li>Fix meta file reference error</li>
-</ul>
-<h2 id="200---20210525">[2.0.0] - 2021/05/25</h2>
-<h3 id="changed-3">Changed</h3>
-<ul>
-<li>Overhauled internal code to be more optimized and memory efficient</li>
-<li>Sequences can now be controlled and managed the same way as any other tween</li>
-</ul>
-<h3 id="added-4">Added</h3>
-<ul>
-<li>Hundreds of predefined extension methods for tweening properties on common Unity objects</li>
-<li>More generic types are now compatible with the tweening system</li>
-</ul>
-<h2 id="101---20210413">[1.0.1] - 2021/04/13</h2>
-<h3 id="changed-4">Changed</h3>
-<ul>
-<li>Package name and description</li>
-</ul>
-<h2 id="100---20210324">[1.0.0] - 2021/03/24</h2>
-<h3 id="added-5">Added</h3>
-<ul>
-<li>Scripts
-<ul>
-<li>Ease</li>
-<li>EaseFunction</li>
-<li>Sequence</li>
-<li>Settings</li>
-<li>Tween</li>
-<li>Tween+Chaining</li>
-<li>Tweener</li>
-<li>TweenState</li>
-<li>TweenUpdater</li>
-</ul>
-</li>
-<li>Tweenable Objects
-<ul>
-<li>Audio</li>
-<li>Camera</li>
-<li>CanvasGroup</li>
-<li>Graphic</li>
-<li>Light</li>
-<li>SpriteRenderer</li>
-<li>TextMesh</li>
-<li>Transform</li>
-</ul>
-</li>
+<li>Linear</li>
+<li>SineIn</li>
+<li>SineOut</li>
+<li>SineInOut</li>
+<li>CubicIn</li>
+<li>CubicOut</li>
+<li>CubicInOut</li>
+<li>QuadIn</li>
+<li>QuadOut</li>
+<li>QuadInOut</li>
+<li>QuartIn</li>
+<li>QuartOut</li>
+<li>QuartInOut</li>
+<li>QuintIn</li>
+<li>QuintOut</li>
+<li>QuintInOut</li>
+<li>ExpoIn</li>
+<li>ExpoOut</li>
+<li>ExpoInOut</li>
+<li>CircIn</li>
+<li>CircOut</li>
+<li>CircInOut</li>
+<li>BackIn</li>
+<li>BackOut</li>
+<li>BackInOut</li>
+<li>ElasticIn</li>
+<li>ElasticOut</li>
+<li>ElasticInOut</li>
+<li>BounceIn</li>
+<li>BounceOut</li>
+<li>BounceInOut</li>
 </ul>
 </article>
           </div>

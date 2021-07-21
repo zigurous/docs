@@ -4,9 +4,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Changelog | Tweening </title>
+    <title>Managing Tweens | Tweening </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Changelog | Tweening ">
+    <meta name="title" content="Managing Tweens | Tweening ">
     <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -78,111 +78,44 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="changelog">Changelog</h1>
+<h1 id="managing-tweens">Managing Tweens</h1>
 
-<p>All notable changes to this project will be documented in this file.</p>
-<p>The format is based on <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>,
-and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semantic Versioning</a>.</p>
-<h2 id="250---20210721">[2.5.0] - 2021/07/21</h2>
-<h3 id="changed">Changed</h3>
-<ul>
-<li>Global settings defined in <code>Tweening</code> have been moved to new static class <code>Settings</code></li>
-<li>Scene indexes default to the current active scene</li>
-<li>Tween <code>sceneIndex</code> is now a publicly exposed field</li>
-<li>Shortcut tweens that are not apart of components still have an id set automatically</li>
-</ul>
-<h2 id="240---20210628">[2.4.0] - 2021/06/28</h2>
-<h3 id="added">Added</h3>
-<ul>
-<li>New <code>TweeningSettings</code> component that can be used to change settings in the editor</li>
-</ul>
-<h3 id="changed-1">Changed</h3>
-<ul>
-<li>Hide <code>TweenManager</code> in component menu</li>
-<li>Settings properties have been renamed</li>
-</ul>
-<h2 id="230---20210627">[2.3.0] - 2021/06/27</h2>
-<h3 id="added-1">Added</h3>
-<ul>
-<li>Support for tweening <code>Rect</code> values</li>
-<li>New <code>Material</code> tween extensions</li>
-<li>New <code>Camera</code> tween extensions</li>
-</ul>
-<h3 id="changed-2">Changed</h3>
-<ul>
-<li>Optimized memory consumption using enum flags</li>
-</ul>
-<h3 id="removed">Removed</h3>
-<ul>
-<li>Removed <code>Tweening.killTweensOnSceneUnload</code> setting. Each tween now tracks the scene index and is automatically killed when that scene is unloaded.</li>
-</ul>
-<h2 id="221---20210618">[2.2.1] - 2021/06/18</h2>
-<h3 id="fixed">Fixed</h3>
-<ul>
-<li>Removed editor only property tweens</li>
-</ul>
-<h2 id="220---20210615">[2.2.0] - 2021/06/15</h2>
-<h3 id="added-2">Added</h3>
-<ul>
-<li>Setting to kill tweens when the scene is unloaded (default=true)</li>
-</ul>
-<h2 id="210---20210609">[2.1.0] - 2021/06/09</h2>
-<h3 id="added-3">Added</h3>
-<ul>
-<li>Support for looping</li>
-<li>Support for snapping</li>
-<li>Support for reversing sequences</li>
-</ul>
-<h2 id="201---20210607">[2.0.1] - 2021/06/07</h2>
-<h3 id="fixed-1">Fixed</h3>
-<ul>
-<li>Fix meta file reference error</li>
-</ul>
-<h2 id="200---20210525">[2.0.0] - 2021/05/25</h2>
-<h3 id="changed-3">Changed</h3>
-<ul>
-<li>Overhauled internal code to be more optimized and memory efficient</li>
-<li>Sequences can now be controlled and managed the same way as any other tween</li>
-</ul>
-<h3 id="added-4">Added</h3>
-<ul>
-<li>Hundreds of predefined extension methods for tweening properties on common Unity objects</li>
-<li>More generic types are now compatible with the tweening system</li>
-</ul>
-<h2 id="101---20210413">[1.0.1] - 2021/04/13</h2>
-<h3 id="changed-4">Changed</h3>
-<ul>
-<li>Package name and description</li>
-</ul>
-<h2 id="100---20210324">[1.0.0] - 2021/03/24</h2>
-<h3 id="added-5">Added</h3>
-<ul>
-<li>Scripts
-<ul>
-<li>Ease</li>
-<li>EaseFunction</li>
-<li>Sequence</li>
-<li>Settings</li>
-<li>Tween</li>
-<li>Tween+Chaining</li>
-<li>Tweener</li>
-<li>TweenState</li>
-<li>TweenUpdater</li>
-</ul>
-</li>
-<li>Tweenable Objects
-<ul>
-<li>Audio</li>
-<li>Camera</li>
-<li>CanvasGroup</li>
-<li>Graphic</li>
-<li>Light</li>
-<li>SpriteRenderer</li>
-<li>TextMesh</li>
-<li>Transform</li>
-</ul>
-</li>
-</ul>
+<p>Apart from controlling the state of an individual tween, you can also manage tweens globally using the static class <a class="xref" href="../api/Zigurous.Tweening.Tweening.html">Tweening</a>. This class contains functions to change the state of all managed tweens:</p>
+<pre><code class="lang-csharp">Tweening.PlayAll();
+Tweening.StopAll();
+Tweening.RestartAll();
+Tweening.CompleteAll();
+Tweening.KillAll();
+</code></pre>
+<p>You can also get the current amount of tweens:</p>
+<pre><code class="lang-csharp">int count = Tweening.Count; // the number of tweens alive (not necessarily active)
+int alive = Tweening.ActiveCount; // the number of tween active
+</code></pre>
+<h3 id="tween-ids">Tween Ids</h3>
+<p>You can also target specific tweens by id. Every tween has an <code>id</code> property which allows you to distinguish it from others. However, this is not required, nor is the id unique. The id is set automatically unless you create tweens manually using the generic approach.</p>
+<pre><code class="lang-csharp">Tweening.Play(id);
+Tweening.Stop(id);
+Tweening.Restart(id);
+Tweening.Complete(id);
+Tweening.Kill(id);
+</code></pre>
+<h3 id="target-references">Target References</h3>
+<p>Tweens that are created using the shortcut functions will automatically set the id based on the target object being animated. For example, if you tween a transform's position, the id of the tween will get set to the hash code of the transform instance. This then allows you to find tweens using that reference object.</p>
+<pre><code class="lang-csharp">Tweening.Play(transform);
+Tweening.Stop(transform);
+Tweening.Restart(transform);
+Tweening.Complete(transform);
+Tweening.Kill(transform);
+</code></pre>
+<p>If you create tweens manually using the generic approach, you should indicate to the tween what its target game object or component is, which will set the id of the tween based on that object's hash code.</p>
+<pre><code class="lang-csharp">tween.SetTarget(gameObject);
+tween.SetTarget(component);
+</code></pre>
+<h3 id="scene-unloading">Scene Unloading</h3>
+<p>Tweens will be killed automatically when the scene they are apart of is unloaded which prevents errors. However, this only works automatically if the tween knows which target object it is animating (see above). You should only need to worry about this if you are creating tweens manually using the generic approach.</p>
+<p>Make sure to kill your tweens before transitioning scenes, or set the target reference as outlined above. You can also manually set the scene index if desired.</p>
+<pre><code class="lang-csharp">tween.sceneIndex = SceneManager.GetActiveScene().buildIndex;
+</code></pre>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">

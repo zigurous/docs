@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "changelog/CHANGELOG.html",
-          "hash": "emTXeUiWy+NCfQPXt+l4tsOhga41h6Pe22VYf1Q4CSM="
+          "hash": "1o7zH3SPNhIALZQ2/VMGrM0HqtL3iBpHd1WCZRgsjuQ="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Tweening.PropertyChaining.html",
-          "hash": "WfxorLVA876SQYuFtf3gK4WjlLZkj/bUXOFb6lzcmXI="
+          "hash": "VauO1k9wCsnCUt1bWA4lBjstCa2VMvp6rT99RUTZTLs="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Tweening.Sequence.html",
-          "hash": "Y/yg2KDF0sJjeZGmnCwEb5phKPQ+0xcJlLkJGom2cSg="
+          "hash": "mjUrjqrYUOpXtAgP7fIioPL2aTorTck9Z3CHWJ7wVus="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Tweening.Tween.html",
-          "hash": "xkIkGRZL1bE4Kplwos4cP6QU+K3QdS/Ek9h8xM2/siA="
+          "hash": "311WmBO6gcQAMKxSTz+MUKz7LulXAFEWo1gRaIKnfg0="
         }
       },
       "is_incremental": false,
@@ -222,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Tweening.Tweener-1.html",
-          "hash": "OJ+QRSpgWqwGSXTRYQQaifly1D1ehjegiaiNCSDpu/g="
+          "hash": "H0Dm7ah180G/mnzQiw+slJpkI/AEbwPlidFP1bS6NM8="
         }
       },
       "is_incremental": false,
@@ -301,6 +301,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/tweening-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/tweening-settings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "index.html",
       "output": {
         "resource": {
@@ -347,11 +358,35 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/callbacks.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/callbacks.html",
+          "hash": "PChdGDcal8Fh89AyiLNawfHcgk3+PtvPOkEZt44J/hw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/easing.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/easing.html",
+          "hash": "RgqEg9/ySsLGsrxZIybu8stfMtdlEYkmlGSbaz8BzJE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/index.md",
       "output": {
         ".html": {
           "relative_path": "manual/index.html",
-          "hash": "YBIzZ0wf5O1p4qfR+6O/Lm/RiUlZkRFuyN8xgKR5tn0="
+          "hash": "1K9LaeO4Sf0n7+6y4VKCeBKWyGbror/gNy6oQQq1CaI="
         }
       },
       "is_incremental": false,
@@ -370,12 +405,87 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "manual/managing-tweens.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/managing-tweens.html",
+          "hash": "2EBfRqoDG1zM8ZTD574O5pudmlwlLQEkdUCCzV1/T1c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/property-chaining.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/property-chaining.html",
+          "hash": "5UsZg41lfo2WkbR+XwNO+Y+r+/FzMIFvG1/P/jnikvk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/sequences.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/sequences.html",
+          "hash": "aTZf4buUzZR9X76BoEWbAQ4QQUPkE1YwS9mj8yd2mvc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "manual/settings.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/settings.html",
+          "hash": "fqgx7Gj4peFsorlc5GOwjM+hA2npJqtN4IHAMCnRK+Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/supported-types.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/supported-types.html",
+          "hash": "LAb894WOx+TkR8aJO7t2HpN1jxRUxkGgK2wykG1Ol1E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "manual/toc.yml",
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "AUBmkjcV6Rgc5XQX3SpA8j/bnbBPgpTg+VqyBcLddP4="
+          "hash": "u8WZyORlaqZpnamFo1DD1rheN/ju6qzFDwBKNFKvgLI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/tweens.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/tweens.html",
+          "hash": "DzzIIi11xXxcU1ucydcN2MFU+N5ntBdFH+Vc9kgQwqI="
         }
       },
       "is_incremental": false,
@@ -408,7 +518,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 4,
+          "total_file_count": 12,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {

@@ -1035,6 +1035,22 @@ references:
   fullName.vb: Zigurous.Tweening.PropertyChaining.SetReversed(Of T)(T, System.Boolean)
   nameWithType: PropertyChaining.SetReversed<T>(T, Boolean)
   nameWithType.vb: PropertyChaining.SetReversed(Of T)(T, Boolean)
+- uid: Zigurous.Tweening.PropertyChaining.SetSceneIndex*
+  name: SetSceneIndex
+  href: api/Zigurous.Tweening.PropertyChaining.html#Zigurous_Tweening_PropertyChaining_SetSceneIndex_
+  commentId: Overload:Zigurous.Tweening.PropertyChaining.SetSceneIndex
+  isSpec: "True"
+  fullName: Zigurous.Tweening.PropertyChaining.SetSceneIndex
+  nameWithType: PropertyChaining.SetSceneIndex
+- uid: Zigurous.Tweening.PropertyChaining.SetSceneIndex``1(``0,System.Int32)
+  name: SetSceneIndex<T>(T, Int32)
+  href: api/Zigurous.Tweening.PropertyChaining.html#Zigurous_Tweening_PropertyChaining_SetSceneIndex__1___0_System_Int32_
+  commentId: M:Zigurous.Tweening.PropertyChaining.SetSceneIndex``1(``0,System.Int32)
+  name.vb: SetSceneIndex(Of T)(T, Int32)
+  fullName: Zigurous.Tweening.PropertyChaining.SetSceneIndex<T>(T, System.Int32)
+  fullName.vb: Zigurous.Tweening.PropertyChaining.SetSceneIndex(Of T)(T, System.Int32)
+  nameWithType: PropertyChaining.SetSceneIndex<T>(T, Int32)
+  nameWithType.vb: PropertyChaining.SetSceneIndex(Of T)(T, Int32)
 - uid: Zigurous.Tweening.PropertyChaining.SetSnapping*
   name: SetSnapping
   href: api/Zigurous.Tweening.PropertyChaining.html#Zigurous_Tweening_PropertyChaining_SetSnapping_
@@ -1669,6 +1685,12 @@ references:
   isSpec: "True"
   fullName: Zigurous.Tweening.Tween.reversed
   nameWithType: Tween.reversed
+- uid: Zigurous.Tweening.Tween.sceneIndex
+  name: sceneIndex
+  href: api/Zigurous.Tweening.Tween.html#Zigurous_Tweening_Tween_sceneIndex
+  commentId: F:Zigurous.Tweening.Tween.sceneIndex
+  fullName: Zigurous.Tweening.Tween.sceneIndex
+  nameWithType: Tween.sceneIndex
 - uid: Zigurous.Tweening.Tween.snapping
   name: snapping
   href: api/Zigurous.Tweening.Tween.html#Zigurous_Tweening_Tween_snapping
