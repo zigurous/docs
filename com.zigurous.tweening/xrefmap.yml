@@ -1173,6 +1173,60 @@ references:
   isSpec: "True"
   fullName: Zigurous.Tweening.Sequence.tweens
   nameWithType: Sequence.tweens
+- uid: Zigurous.Tweening.Settings
+  name: Settings
+  href: api/Zigurous.Tweening.Settings.html
+  commentId: T:Zigurous.Tweening.Settings
+  fullName: Zigurous.Tweening.Settings
+  nameWithType: Settings
+- uid: Zigurous.Tweening.Settings.autoKill
+  name: autoKill
+  href: api/Zigurous.Tweening.Settings.html#Zigurous_Tweening_Settings_autoKill
+  commentId: F:Zigurous.Tweening.Settings.autoKill
+  fullName: Zigurous.Tweening.Settings.autoKill
+  nameWithType: Settings.autoKill
+- uid: Zigurous.Tweening.Settings.autoStart
+  name: autoStart
+  href: api/Zigurous.Tweening.Settings.html#Zigurous_Tweening_Settings_autoStart
+  commentId: F:Zigurous.Tweening.Settings.autoStart
+  fullName: Zigurous.Tweening.Settings.autoStart
+  nameWithType: Settings.autoStart
+- uid: Zigurous.Tweening.Settings.defaultDelay
+  name: defaultDelay
+  href: api/Zigurous.Tweening.Settings.html#Zigurous_Tweening_Settings_defaultDelay
+  commentId: F:Zigurous.Tweening.Settings.defaultDelay
+  fullName: Zigurous.Tweening.Settings.defaultDelay
+  nameWithType: Settings.defaultDelay
+- uid: Zigurous.Tweening.Settings.defaultDuration
+  name: defaultDuration
+  href: api/Zigurous.Tweening.Settings.html#Zigurous_Tweening_Settings_defaultDuration
+  commentId: F:Zigurous.Tweening.Settings.defaultDuration
+  fullName: Zigurous.Tweening.Settings.defaultDuration
+  nameWithType: Settings.defaultDuration
+- uid: Zigurous.Tweening.Settings.defaultEase
+  name: defaultEase
+  href: api/Zigurous.Tweening.Settings.html#Zigurous_Tweening_Settings_defaultEase
+  commentId: F:Zigurous.Tweening.Settings.defaultEase
+  fullName: Zigurous.Tweening.Settings.defaultEase
+  nameWithType: Settings.defaultEase
+- uid: Zigurous.Tweening.Settings.initialCapacity
+  name: initialCapacity
+  href: api/Zigurous.Tweening.Settings.html#Zigurous_Tweening_Settings_initialCapacity
+  commentId: F:Zigurous.Tweening.Settings.initialCapacity
+  fullName: Zigurous.Tweening.Settings.initialCapacity
+  nameWithType: Settings.initialCapacity
+- uid: Zigurous.Tweening.Settings.overshoot
+  name: overshoot
+  href: api/Zigurous.Tweening.Settings.html#Zigurous_Tweening_Settings_overshoot
+  commentId: F:Zigurous.Tweening.Settings.overshoot
+  fullName: Zigurous.Tweening.Settings.overshoot
+  nameWithType: Settings.overshoot
+- uid: Zigurous.Tweening.Settings.recyclable
+  name: recyclable
+  href: api/Zigurous.Tweening.Settings.html#Zigurous_Tweening_Settings_recyclable
+  commentId: F:Zigurous.Tweening.Settings.recyclable
+  fullName: Zigurous.Tweening.Settings.recyclable
+  nameWithType: Settings.recyclable
 - uid: Zigurous.Tweening.Tween
   name: Tween
   href: api/Zigurous.Tweening.Tween.html
@@ -1754,18 +1808,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.Tweening.Tweening.ActiveCount
   nameWithType: Tweening.ActiveCount
-- uid: Zigurous.Tweening.Tweening.autoKill
-  name: autoKill
-  href: api/Zigurous.Tweening.Tweening.html#Zigurous_Tweening_Tweening_autoKill
-  commentId: F:Zigurous.Tweening.Tweening.autoKill
-  fullName: Zigurous.Tweening.Tweening.autoKill
-  nameWithType: Tweening.autoKill
-- uid: Zigurous.Tweening.Tweening.autoStart
-  name: autoStart
-  href: api/Zigurous.Tweening.Tweening.html#Zigurous_Tweening_Tweening_autoStart
-  commentId: F:Zigurous.Tweening.Tweening.autoStart
-  fullName: Zigurous.Tweening.Tweening.autoStart
-  nameWithType: Tweening.autoStart
 - uid: Zigurous.Tweening.Tweening.Complete(System.Int32)
   name: Complete(Int32)
   href: api/Zigurous.Tweening.Tweening.html#Zigurous_Tweening_Tweening_Complete_System_Int32_
@@ -1814,24 +1856,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.Tweening.Tweening.Count
   nameWithType: Tweening.Count
-- uid: Zigurous.Tweening.Tweening.defaultDelay
-  name: defaultDelay
-  href: api/Zigurous.Tweening.Tweening.html#Zigurous_Tweening_Tweening_defaultDelay
-  commentId: F:Zigurous.Tweening.Tweening.defaultDelay
-  fullName: Zigurous.Tweening.Tweening.defaultDelay
-  nameWithType: Tweening.defaultDelay
-- uid: Zigurous.Tweening.Tweening.defaultDuration
-  name: defaultDuration
-  href: api/Zigurous.Tweening.Tweening.html#Zigurous_Tweening_Tweening_defaultDuration
-  commentId: F:Zigurous.Tweening.Tweening.defaultDuration
-  fullName: Zigurous.Tweening.Tweening.defaultDuration
-  nameWithType: Tweening.defaultDuration
-- uid: Zigurous.Tweening.Tweening.defaultEase
-  name: defaultEase
-  href: api/Zigurous.Tweening.Tweening.html#Zigurous_Tweening_Tweening_defaultEase
-  commentId: F:Zigurous.Tweening.Tweening.defaultEase
-  fullName: Zigurous.Tweening.Tweening.defaultEase
-  nameWithType: Tweening.defaultEase
 - uid: Zigurous.Tweening.Tweening.From(Zigurous.Tweening.TweenGetter{Color},Zigurous.Tweening.TweenSetter{Color},Color,System.Single)
   name: From(TweenGetter<Color>, TweenSetter<Color>, Color, Single)
   href: api/Zigurous.Tweening.Tweening.html#Zigurous_Tweening_Tweening_From_Zigurous_Tweening_TweenGetter_Color__Zigurous_Tweening_TweenSetter_Color__Color_System_Single_
@@ -1956,12 +1980,6 @@ references:
   fullName.vb: Zigurous.Tweening.Tweening.From(Of T)(Zigurous.Tweening.Interpolater(Of T), Zigurous.Tweening.TweenGetter(Of T), Zigurous.Tweening.TweenSetter(Of T), T, System.Single)
   nameWithType: Tweening.From<T>(Interpolater<T>, TweenGetter<T>, TweenSetter<T>, T, Single)
   nameWithType.vb: Tweening.From(Of T)(Interpolater(Of T), TweenGetter(Of T), TweenSetter(Of T), T, Single)
-- uid: Zigurous.Tweening.Tweening.initialCapacity
-  name: initialCapacity
-  href: api/Zigurous.Tweening.Tweening.html#Zigurous_Tweening_Tweening_initialCapacity
-  commentId: F:Zigurous.Tweening.Tweening.initialCapacity
-  fullName: Zigurous.Tweening.Tweening.initialCapacity
-  nameWithType: Tweening.initialCapacity
 - uid: Zigurous.Tweening.Tweening.Kill(System.Int32,System.Boolean)
   name: Kill(Int32, Boolean)
   href: api/Zigurous.Tweening.Tweening.html#Zigurous_Tweening_Tweening_Kill_System_Int32_System_Boolean_
@@ -1988,12 +2006,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.Tweening.Tweening.KillAll
   nameWithType: Tweening.KillAll
-- uid: Zigurous.Tweening.Tweening.overshoot
-  name: overshoot
-  href: api/Zigurous.Tweening.Tweening.html#Zigurous_Tweening_Tweening_overshoot
-  commentId: F:Zigurous.Tweening.Tweening.overshoot
-  fullName: Zigurous.Tweening.Tweening.overshoot
-  nameWithType: Tweening.overshoot
 - uid: Zigurous.Tweening.Tweening.Play(System.Int32)
   name: Play(Int32)
   href: api/Zigurous.Tweening.Tweening.html#Zigurous_Tweening_Tweening_Play_System_Int32_
@@ -2029,12 +2041,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.Tweening.Tweening.PlayAll
   nameWithType: Tweening.PlayAll
-- uid: Zigurous.Tweening.Tweening.recyclable
-  name: recyclable
-  href: api/Zigurous.Tweening.Tweening.html#Zigurous_Tweening_Tweening_recyclable
-  commentId: F:Zigurous.Tweening.Tweening.recyclable
-  fullName: Zigurous.Tweening.Tweening.recyclable
-  nameWithType: Tweening.recyclable
 - uid: Zigurous.Tweening.Tweening.Restart(System.Int32)
   name: Restart(Int32)
   href: api/Zigurous.Tweening.Tweening.html#Zigurous_Tweening_Tweening_Restart_System_Int32_

@@ -146,6 +146,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Tweening.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Tweening.Settings.html",
+          "hash": "ihkdep1Y4UcNthMANqDLuwr9PcyyLaE+KcV1oaPJhF0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Zigurous.Tweening.Tween.yml",
       "output": {
         ".html": {
@@ -222,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Tweening.Tweening.html",
-          "hash": "cRB6vUrOXh7F1WRgDr7ukG8PqP7e9E6YcOkaQdMB2Zg="
+          "hash": "e70FTZMle1nU/3X2IZg4dnGInv1+C5IggXqTje8yhA8="
         }
       },
       "is_incremental": false,
@@ -234,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Tweening.TweeningSettings.html",
-          "hash": "uQFhwWeNVExtiYagD9B1ZeBQEC+Ih9/+wC/K1HZ/SVU="
+          "hash": "8QW/wv7imee8RxXUxZ+QAY5TU5s65XV2iQp8IMAF1DU="
         }
       },
       "is_incremental": false,
@@ -246,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Tweening.html",
-          "hash": "HMkgAORVwvy+8iuKltfAmi28T9By2cQWXDsLCms2XoY="
+          "hash": "rulpLTJrQChEu4uyGViZN3Dq0pEy5w2rFYxhmQGtQbI="
         }
       },
       "is_incremental": false,
@@ -258,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "ryt4VeH2sr6MqkIqG8xSPmeF+09rF0YbGkIa9n+cTbw="
+          "hash": "So2W/zDITSHZLZZxdgippL/ay+zmk4PRJ2JLmgZV1s4="
         }
       },
       "is_incremental": false,
@@ -402,7 +414,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 19,
+          "total_file_count": 20,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

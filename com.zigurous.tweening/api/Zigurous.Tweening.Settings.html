@@ -4,10 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class TweeningSettings
+    <title>Class Settings
    | Tweening </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class TweeningSettings
+    <meta name="title" content="Class Settings
    | Tweening ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -79,88 +79,79 @@
                 <li></li>
               </ul>
             </div>
-            <article class="content wrap" id="_content" data-uid="Zigurous.Tweening.TweeningSettings">
-  <h1 id="Zigurous_Tweening_TweeningSettings" data-uid="Zigurous.Tweening.TweeningSettings" class="text-break">Class TweeningSettings
+            <article class="content wrap" id="_content" data-uid="Zigurous.Tweening.Settings">
+  <h1 id="Zigurous_Tweening_Settings" data-uid="Zigurous.Tweening.Settings" class="text-break">Class Settings
   </h1>
-  <div class="markdown level0 summary"><p>A behavior that allows tweening settings to be changed in the editor or
-at runtime.</p>
+  <div class="markdown level0 summary"><p>Properties for changing global tweening settings.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">TweeningSettings</span></div>
+    <div class="level1"><span class="xref">Settings</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Tweening.html">Zigurous.Tweening</a></h6>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class TweeningSettings : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public static class Settings</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="fields">Fields
   </h3>
-  <a id="Zigurous_Tweening_TweeningSettings_autoKill_" data-uid="Zigurous.Tweening.TweeningSettings.autoKill*"></a>
-  <h4 id="Zigurous_Tweening_TweeningSettings_autoKill" data-uid="Zigurous.Tweening.TweeningSettings.autoKill">autoKill</h4>
+  <h4 id="Zigurous_Tweening_Settings_autoKill" data-uid="Zigurous.Tweening.Settings.autoKill">autoKill</h4>
   <div class="markdown level1 summary"><p>Automatically kills tweens after being completed, by default.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool autoKill { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool autoKill</code></pre>
   </div>
-  <a id="Zigurous_Tweening_TweeningSettings_autoStart_" data-uid="Zigurous.Tweening.TweeningSettings.autoStart*"></a>
-  <h4 id="Zigurous_Tweening_TweeningSettings_autoStart" data-uid="Zigurous.Tweening.TweeningSettings.autoStart">autoStart</h4>
+  <h4 id="Zigurous_Tweening_Settings_autoStart" data-uid="Zigurous.Tweening.Settings.autoStart">autoStart</h4>
   <div class="markdown level1 summary"><p>Automatically starts tweens after being created, by default.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool autoStart { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool autoStart</code></pre>
   </div>
-  <a id="Zigurous_Tweening_TweeningSettings_defaultDelay_" data-uid="Zigurous.Tweening.TweeningSettings.defaultDelay*"></a>
-  <h4 id="Zigurous_Tweening_TweeningSettings_defaultDelay" data-uid="Zigurous.Tweening.TweeningSettings.defaultDelay">defaultDelay</h4>
+  <h4 id="Zigurous_Tweening_Settings_defaultDelay" data-uid="Zigurous.Tweening.Settings.defaultDelay">defaultDelay</h4>
   <div class="markdown level1 summary"><p>The default amount of seconds before every tween starts.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float defaultDelay { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static float defaultDelay</code></pre>
   </div>
-  <a id="Zigurous_Tweening_TweeningSettings_defaultDuration_" data-uid="Zigurous.Tweening.TweeningSettings.defaultDuration*"></a>
-  <h4 id="Zigurous_Tweening_TweeningSettings_defaultDuration" data-uid="Zigurous.Tweening.TweeningSettings.defaultDuration">defaultDuration</h4>
+  <h4 id="Zigurous_Tweening_Settings_defaultDuration" data-uid="Zigurous.Tweening.Settings.defaultDuration">defaultDuration</h4>
   <div class="markdown level1 summary"><p>The default amount of seconds a tween takes to complete.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float defaultDuration { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static float defaultDuration</code></pre>
   </div>
-  <a id="Zigurous_Tweening_TweeningSettings_defaultEase_" data-uid="Zigurous.Tweening.TweeningSettings.defaultEase*"></a>
-  <h4 id="Zigurous_Tweening_TweeningSettings_defaultEase" data-uid="Zigurous.Tweening.TweeningSettings.defaultEase">defaultEase</h4>
+  <h4 id="Zigurous_Tweening_Settings_defaultEase" data-uid="Zigurous.Tweening.Settings.defaultEase">defaultEase</h4>
   <div class="markdown level1 summary"><p>The default Ease assigned to every tween.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Ease defaultEase { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static Ease defaultEase</code></pre>
   </div>
-  <a id="Zigurous_Tweening_TweeningSettings_initialCapacity_" data-uid="Zigurous.Tweening.TweeningSettings.initialCapacity*"></a>
-  <h4 id="Zigurous_Tweening_TweeningSettings_initialCapacity" data-uid="Zigurous.Tweening.TweeningSettings.initialCapacity">initialCapacity</h4>
+  <h4 id="Zigurous_Tweening_Settings_initialCapacity" data-uid="Zigurous.Tweening.Settings.initialCapacity">initialCapacity</h4>
   <div class="markdown level1 summary"><p>The initial amount of tweens memory is allocated for when the system
 starts. Additional memory will be allocated as needed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int initialCapacity { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static int initialCapacity</code></pre>
   </div>
-  <a id="Zigurous_Tweening_TweeningSettings_overshoot_" data-uid="Zigurous.Tweening.TweeningSettings.overshoot*"></a>
-  <h4 id="Zigurous_Tweening_TweeningSettings_overshoot" data-uid="Zigurous.Tweening.TweeningSettings.overshoot">overshoot</h4>
+  <h4 id="Zigurous_Tweening_Settings_overshoot" data-uid="Zigurous.Tweening.Settings.overshoot">overshoot</h4>
   <div class="markdown level1 summary"><p>The overshoot value used in easing functions.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float overshoot { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static float overshoot</code></pre>
   </div>
-  <a id="Zigurous_Tweening_TweeningSettings_recyclable_" data-uid="Zigurous.Tweening.TweeningSettings.recyclable*"></a>
-  <h4 id="Zigurous_Tweening_TweeningSettings_recyclable" data-uid="Zigurous.Tweening.TweeningSettings.recyclable">recyclable</h4>
+  <h4 id="Zigurous_Tweening_Settings_recyclable" data-uid="Zigurous.Tweening.Settings.recyclable">recyclable</h4>
   <div class="markdown level1 summary"><p>Keeps tweens in memory to be re-used after being killed, by default.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool recyclable { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool recyclable</code></pre>
   </div>
 </article>
           </div>
