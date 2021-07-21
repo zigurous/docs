@@ -57,7 +57,7 @@
   "changelog/CHANGELOG.html": {
     "href": "changelog/CHANGELOG.html",
     "title": "Changelog | Prototyping Kit",
-    "keywords": "Changelog All notable changes to this project will be documented in this file. The format is based on Keep a Changelog , and this project adheres to Semantic Versioning . [0.1.0] - 2021/05/19 Added Materials Grid 4x4 (20 color variants) Checkerboard 2x2 Checkerboard 4x4 Cubemap Axes Reflection Textures Grid Emission 4x4 Checkerboard 2x2 Checkerboard 4x4 Cubemap Light/Dark Cubemap Axes Prefabs Grid Cube 1x1x1 Grid Plane 1x1x1 Grid Room 50x50x50 Checkerboard Cube 1x1x1 Reflection Sphere Cubemap Axes Shaders Checkerboard Lit Checkerboard Unlit"
+    "keywords": "Changelog All notable changes to this project will be documented in this file. The format is based on Keep a Changelog , and this project adheres to Semantic Versioning . [0.2.0] - 2021/07/21 Added New prototyping cube mesh New grid pattern texture variants (14) Cubemap surface shader Cubemap prefabs 8x8 checkerboard Changed All scripts have been rewritten for simplicity, performance, and new feature support [0.1.0] - 2021/05/19 Added Materials Grid 4x4 (20 color variants) Checkerboard 2x2 Checkerboard 4x4 Cubemap Axes Reflection Textures Grid Emission 4x4 Checkerboard 2x2 Checkerboard 4x4 Cubemap Light/Dark Cubemap Axes Prefabs Grid Cube 1x1x1 Grid Plane 1x1x1 Grid Room 50x50x50 Checkerboard Cube 1x1x1 Reflection Sphere Cubemap Axes Shaders Checkerboard Lit Checkerboard Unlit"
   },
   "license/LICENSE.html": {
     "href": "license/LICENSE.html",
