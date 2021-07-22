@@ -80,10 +80,10 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.ColorUtils.Gradients">
-  
   <h1 id="Zigurous_ColorUtils_Gradients" data-uid="Zigurous.ColorUtils.Gradients" class="text-break">Class Gradients
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Functions for creating and working with color gradients.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -91,7 +91,6 @@
     <div class="level1"><span class="xref">Gradients</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.ColorUtils.html">Zigurous.ColorUtils</a></h6>
-  <h5 id="Zigurous_ColorUtils_Gradients_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class Gradients</code></pre>
   </div>
@@ -102,44 +101,26 @@
   <div class="markdown level1 summary"><p>Creates a new gradient with a given start color and end color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Gradient Create(Color start, Color end)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">start</span></td>
-        <td></td>
+        <td><p>The start color of the gradient.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">end</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Gradient</span></td>
-        <td></td>
+        <td><p>The end color of the gradient.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -149,48 +130,29 @@
 between a start color and end color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Gradient Create(Color start, Color end, int stops)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">start</span></td>
-        <td></td>
+        <td><p>The start color of the gradient.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">end</span></td>
-        <td></td>
+        <td><p>The end color of the gradient.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">stops</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Gradient</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -201,49 +163,31 @@ between a start color and end color.</p>
 between a start color and end color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Gradient Create(Color start, Color end, float[] stops)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">start</span></td>
-        <td></td>
+        <td><p>The start color of the gradient.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">end</span></td>
-        <td></td>
+        <td><p>The end color of the gradient.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span>[]</td>
         <td><span class="parametername">stops</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Gradient</span></td>
-        <td></td>
+        <td><p>The array of stops to distribute between the start and end color.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -252,91 +196,84 @@ between a start color and end color.</p>
   <div class="markdown level1 summary"><p>Creates a new gradient and sets the given color keys and alpha keys.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Gradient Create(GradientColorKey[] colorKeys, GradientAlphaKey[] alphaKeys)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Gradient Create(GradientColorKey[] colors, GradientAlphaKey[] alpha)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">GradientColorKey</span>[]</td>
-        <td><span class="parametername">colorKeys</span></td>
-        <td></td>
+        <td><span class="parametername">colors</span></td>
+        <td><p>The color keys to set on the gradient.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">GradientAlphaKey</span>[]</td>
-        <td><span class="parametername">alphaKeys</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Gradient</span></td>
-        <td></td>
+        <td><span class="parametername">alpha</span></td>
+        <td><p>The alpha keys to set on the gradient.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorUtils_Gradients_Create_" data-uid="Zigurous.ColorUtils.Gradients.Create*"></a>
   <h4 id="Zigurous_ColorUtils_Gradients_Create_GradientColorKey___System_Single_" data-uid="Zigurous.ColorUtils.Gradients.Create(GradientColorKey[],System.Single)">Create(GradientColorKey[], Single)</h4>
   <div class="markdown level1 summary"><p>Creates a new gradient and sets the given color keys with a constant
-alpha value.</p>
+alpha value for the entire gradient.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Gradient Create(GradientColorKey[] colorKeys, float alpha = 1F)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Gradient Create(GradientColorKey[] colors, float alpha = 1F)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">GradientColorKey</span>[]</td>
-        <td><span class="parametername">colorKeys</span></td>
-        <td></td>
+        <td><span class="parametername">colors</span></td>
+        <td><p>The color keys to set on the gradient.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">alpha</span></td>
-        <td></td>
+        <td><p>The constant alpha value to set on the gradient.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <a id="Zigurous_ColorUtils_Gradients_ToColors_" data-uid="Zigurous.ColorUtils.Gradients.ToColors*"></a>
+  <h4 id="Zigurous_ColorUtils_Gradients_ToColors_Gradient_System_Int32_" data-uid="Zigurous.ColorUtils.Gradients.ToColors(Gradient,System.Int32)">ToColors(Gradient, Int32)</h4>
+  <div class="markdown level1 summary"><p>Generates a palette of colors by interpolating a linear amount of
+stops within a gradient.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color[] ToColors(this Gradient gradient, int stops)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Gradient</span></td>
-        <td></td>
+        <td><span class="parametername">gradient</span></td>
+        <td><p>The gradient to interpolate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">stops</span></td>
+        <td><p>The number of stops to interpolate in the gradient.</p>
+</td>
       </tr>
     </tbody>
   </table>

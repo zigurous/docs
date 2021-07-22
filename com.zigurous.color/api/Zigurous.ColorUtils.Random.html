@@ -80,10 +80,10 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.ColorUtils.Random">
-  
   <h1 id="Zigurous_ColorUtils_Random" data-uid="Zigurous.ColorUtils.Random" class="text-break">Class Random
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Functions for generating random colors.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -91,7 +91,6 @@
     <div class="level1"><span class="xref">Random</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.ColorUtils.html">Zigurous.ColorUtils</a></h6>
-  <h5 id="Zigurous_ColorUtils_Random_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class Random</code></pre>
   </div>
@@ -102,39 +101,21 @@
   <div class="markdown level1 summary"><p>Returns a random color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Color Color(bool randomizeAlpha = false)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">randomizeAlpha</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Color</span></td>
-        <td></td>
+        <td><p>Randomizes the alpha value as well, otherwise uses a value of 1.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -143,160 +124,58 @@
   <div class="markdown level1 summary"><p>Returns a random array of colors.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Color[] Colors(int amount, bool randomizeAlpha = false)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">amount</span></td>
-        <td></td>
+        <td><p>The number of colors to return.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">randomizeAlpha</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Color</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_ColorUtils_Random_ColorSet_" data-uid="Zigurous.ColorUtils.Random.ColorSet*"></a>
-  <h4 id="Zigurous_ColorUtils_Random_ColorSet_System_Int32_System_Boolean_" data-uid="Zigurous.ColorUtils.Random.ColorSet(System.Int32,System.Boolean)">ColorSet(Int32, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Returns a random set of unique colors.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static HashSet&lt;Color&gt; ColorSet(int amount, bool randomizeAlpha = false)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">amount</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">randomizeAlpha</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">HashSet</span>&lt;<span class="xref">Color</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_ColorUtils_Random_ColorSetNonAlloc_" data-uid="Zigurous.ColorUtils.Random.ColorSetNonAlloc*"></a>
-  <h4 id="Zigurous_ColorUtils_Random_ColorSetNonAlloc_HashSet_Color__System_Int32_System_Boolean_" data-uid="Zigurous.ColorUtils.Random.ColorSetNonAlloc(HashSet{Color},System.Int32,System.Boolean)">ColorSetNonAlloc(HashSet&lt;Color&gt;, Int32, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Populates an existing set with unique random colors. This function
-does not allocate any memory on the heap.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ColorSetNonAlloc(HashSet&lt;Color&gt; colors, int amount, bool randomizeAlpha = false)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">HashSet</span>&lt;<span class="xref">Color</span>&gt;</td>
-        <td><span class="parametername">colors</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">amount</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">randomizeAlpha</span></td>
-        <td></td>
+        <td><p>Randomizes the alpha values as well, otherwise uses a value of 1.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorUtils_Random_ColorsNonAlloc_" data-uid="Zigurous.ColorUtils.Random.ColorsNonAlloc*"></a>
   <h4 id="Zigurous_ColorUtils_Random_ColorsNonAlloc_Color___System_Boolean_" data-uid="Zigurous.ColorUtils.Random.ColorsNonAlloc(Color[],System.Boolean)">ColorsNonAlloc(Color[], Boolean)</h4>
-  <div class="markdown level1 summary"><p>Populates an existing array with random colors. This function does
-not allocate any memory on the heap. The amount of colors created is
-determined by the size of the array.</p>
+  <div class="markdown level1 summary"><p>Populates an existing array with random colors.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+  <h5 id="Zigurous_ColorUtils_Random_ColorsNonAlloc_Color___System_Boolean__remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level1 remarks"><p>This function does not allocate any memory on the heap. The amount
+of colors created is determined by the size of the array.</p>
+</div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ColorsNonAlloc(Color[] colors, bool randomizeAlpha = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void ColorsNonAlloc(Color[] output, bool randomizeAlpha = false)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span>[]</td>
-        <td><span class="parametername">colors</span></td>
-        <td></td>
+        <td><span class="parametername">output</span></td>
+        <td><p>The array to populate with random colors.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">randomizeAlpha</span></td>
-        <td></td>
+        <td><p>Randomizes the alpha values as well, otherwise uses a value of 1.</p>
+</td>
       </tr>
     </tbody>
   </table>

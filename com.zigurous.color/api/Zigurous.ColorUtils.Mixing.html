@@ -80,10 +80,10 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.ColorUtils.Mixing">
-  
   <h1 id="Zigurous_ColorUtils_Mixing" data-uid="Zigurous.ColorUtils.Mixing" class="text-break">Class Mixing
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Functions for mixing colors together, including tints, shades, and tones.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -91,7 +91,6 @@
     <div class="level1"><span class="xref">Mixing</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.ColorUtils.html">Zigurous.ColorUtils</a></h6>
-  <h5 id="Zigurous_ColorUtils_Mixing_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class Mixing</code></pre>
   </div>
@@ -100,161 +99,108 @@
   <a id="Zigurous_ColorUtils_Mixing_Mix_" data-uid="Zigurous.ColorUtils.Mixing.Mix*"></a>
   <h4 id="Zigurous_ColorUtils_Mixing_Mix_Color_Color_System_Single_System_Boolean_" data-uid="Zigurous.ColorUtils.Mixing.Mix(Color,Color,System.Single,System.Boolean)">Mix(Color, Color, Single, Boolean)</h4>
   <div class="markdown level1 summary"><p>Returns the result of mixing two colors together using a given
-weight between [0..1].</p>
+weight between [0..1]. A weight of 0 results in the first color, and
+a weight of 1 results in the second color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Color Mix(Color first, Color second, float weight = 0.5F, bool mixAlpha = true)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">first</span></td>
-        <td></td>
+        <td><p>The first color to mix.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">second</span></td>
-        <td></td>
+        <td><p>The second color to mix.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">weight</span></td>
-        <td></td>
+        <td><p>The weight of the second color to mix with the first.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">mixAlpha</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Color</span></td>
-        <td></td>
+        <td><p>True to mix the alpha components, otherwise the first color's alpha is used.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorUtils_Mixing_MixedWith_" data-uid="Zigurous.ColorUtils.Mixing.MixedWith*"></a>
   <h4 id="Zigurous_ColorUtils_Mixing_MixedWith_Color_Color_System_Single_System_Boolean_" data-uid="Zigurous.ColorUtils.Mixing.MixedWith(Color,Color,System.Single,System.Boolean)">MixedWith(Color, Color, Single, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Returns the result of mixing the current color with another using a
-given weight between [0..1].</p>
+  <div class="markdown level1 summary"><p>Returns the result of mixing the current color with another color
+using a given weight between [0..1]. A weight of 0 results in the
+first color, and a weight of 1 results in the second color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Color MixedWith(this Color color, Color other, float weight = 0.5F, bool mixAlpha = true)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The first color to mix.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">other</span></td>
-        <td></td>
+        <td><p>The second color to mix.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">weight</span></td>
-        <td></td>
+        <td><p>The weight of the second color to mix with the first.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">mixAlpha</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Color</span></td>
-        <td></td>
+        <td><p>True to mix the alpha components, otherwise the first color's alpha is used.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorUtils_Mixing_Shade_" data-uid="Zigurous.ColorUtils.Mixing.Shade*"></a>
   <h4 id="Zigurous_ColorUtils_Mixing_Shade_Color_System_Single_" data-uid="Zigurous.ColorUtils.Mixing.Shade(Color,System.Single)">Shade(Color, Single)</h4>
-  <div class="markdown level1 summary"><p>Returns a shade of the color by mixing it with a percentage of
-black.</p>
+  <div class="markdown level1 summary"><p>Returns a shade of the color by mixing it with a percentage of black.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color Shade(this Color color, float percent = 0.1F)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color Shade(this Color color, float percentage = 0.1F)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to shade.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">percent</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Color</span></td>
-        <td></td>
+        <td><span class="parametername">percentage</span></td>
+        <td><p>The percentage of black to mix with.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -263,44 +209,26 @@ black.</p>
   <div class="markdown level1 summary"><p>Returns a tint of the color by mixing it with a percentage of white.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color Tint(this Color color, float percent = 0.1F)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color Tint(this Color color, float percentage = 0.1F)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to tint.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">percent</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Color</span></td>
-        <td></td>
+        <td><span class="parametername">percentage</span></td>
+        <td><p>The percentage of white to mix with.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -309,44 +237,26 @@ black.</p>
   <div class="markdown level1 summary"><p>Returns a tone of the color by mixing it with a percentage of gray.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color Tone(this Color color, float percent = 0.1F)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color Tone(this Color color, float percentage = 0.1F)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to tone.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">percent</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Color</span></td>
-        <td></td>
+        <td><span class="parametername">percentage</span></td>
+        <td><p>The percentage of gray to mix with.</p>
+</td>
       </tr>
     </tbody>
   </table>

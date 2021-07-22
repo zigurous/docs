@@ -13,12 +13,12 @@ references:
   commentId: T:Zigurous.ColorUtils.Accessibility
   fullName: Zigurous.ColorUtils.Accessibility
   nameWithType: Accessibility
-- uid: Zigurous.ColorUtils.Accessibility.IsCompliant(Color,Zigurous.ColorUtils.Accessibility.Requirement,Color)
-  name: IsCompliant(Color, Accessibility.Requirement, Color)
-  href: api/Zigurous.ColorUtils.Accessibility.html#Zigurous_ColorUtils_Accessibility_IsCompliant_Color_Zigurous_ColorUtils_Accessibility_Requirement_Color_
-  commentId: M:Zigurous.ColorUtils.Accessibility.IsCompliant(Color,Zigurous.ColorUtils.Accessibility.Requirement,Color)
-  fullName: Zigurous.ColorUtils.Accessibility.IsCompliant(Color, Zigurous.ColorUtils.Accessibility.Requirement, Color)
-  nameWithType: Accessibility.IsCompliant(Color, Accessibility.Requirement, Color)
+- uid: Zigurous.ColorUtils.Accessibility.IsCompliant(Color,Color,Zigurous.ColorUtils.Accessibility.Requirement)
+  name: IsCompliant(Color, Color, Accessibility.Requirement)
+  href: api/Zigurous.ColorUtils.Accessibility.html#Zigurous_ColorUtils_Accessibility_IsCompliant_Color_Color_Zigurous_ColorUtils_Accessibility_Requirement_
+  commentId: M:Zigurous.ColorUtils.Accessibility.IsCompliant(Color,Color,Zigurous.ColorUtils.Accessibility.Requirement)
+  fullName: Zigurous.ColorUtils.Accessibility.IsCompliant(Color, Color, Zigurous.ColorUtils.Accessibility.Requirement)
+  nameWithType: Accessibility.IsCompliant(Color, Color, Accessibility.Requirement)
 - uid: Zigurous.ColorUtils.Accessibility.IsCompliant(Zigurous.ColorUtils.Accessibility.Requirement,Color,Color)
   name: IsCompliant(Accessibility.Requirement, Color, Color)
   href: api/Zigurous.ColorUtils.Accessibility.html#Zigurous_ColorUtils_Accessibility_IsCompliant_Zigurous_ColorUtils_Accessibility_Requirement_Color_Color_
@@ -94,6 +94,22 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorUtils.Adjustment.Complement
   nameWithType: Adjustment.Complement
+- uid: Zigurous.ColorUtils.Adjustment.Darken(Color@,System.Single)
+  name: Darken(ref Color, Single)
+  href: api/Zigurous.ColorUtils.Adjustment.html#Zigurous_ColorUtils_Adjustment_Darken_Color__System_Single_
+  commentId: M:Zigurous.ColorUtils.Adjustment.Darken(Color@,System.Single)
+  name.vb: Darken(ByRef Color, Single)
+  fullName: Zigurous.ColorUtils.Adjustment.Darken(ref Color, System.Single)
+  fullName.vb: Zigurous.ColorUtils.Adjustment.Darken(ByRef Color, System.Single)
+  nameWithType: Adjustment.Darken(ref Color, Single)
+  nameWithType.vb: Adjustment.Darken(ByRef Color, Single)
+- uid: Zigurous.ColorUtils.Adjustment.Darken*
+  name: Darken
+  href: api/Zigurous.ColorUtils.Adjustment.html#Zigurous_ColorUtils_Adjustment_Darken_
+  commentId: Overload:Zigurous.ColorUtils.Adjustment.Darken
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Adjustment.Darken
+  nameWithType: Adjustment.Darken
 - uid: Zigurous.ColorUtils.Adjustment.Darker(Color,System.Single)
   name: Darker(Color, Single)
   href: api/Zigurous.ColorUtils.Adjustment.html#Zigurous_ColorUtils_Adjustment_Darker_Color_System_Single_
@@ -107,6 +123,22 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorUtils.Adjustment.Darker
   nameWithType: Adjustment.Darker
+- uid: Zigurous.ColorUtils.Adjustment.Desaturate(Color@,System.Single)
+  name: Desaturate(ref Color, Single)
+  href: api/Zigurous.ColorUtils.Adjustment.html#Zigurous_ColorUtils_Adjustment_Desaturate_Color__System_Single_
+  commentId: M:Zigurous.ColorUtils.Adjustment.Desaturate(Color@,System.Single)
+  name.vb: Desaturate(ByRef Color, Single)
+  fullName: Zigurous.ColorUtils.Adjustment.Desaturate(ref Color, System.Single)
+  fullName.vb: Zigurous.ColorUtils.Adjustment.Desaturate(ByRef Color, System.Single)
+  nameWithType: Adjustment.Desaturate(ref Color, Single)
+  nameWithType.vb: Adjustment.Desaturate(ByRef Color, Single)
+- uid: Zigurous.ColorUtils.Adjustment.Desaturate*
+  name: Desaturate
+  href: api/Zigurous.ColorUtils.Adjustment.html#Zigurous_ColorUtils_Adjustment_Desaturate_
+  commentId: Overload:Zigurous.ColorUtils.Adjustment.Desaturate
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Adjustment.Desaturate
+  nameWithType: Adjustment.Desaturate
 - uid: Zigurous.ColorUtils.Adjustment.Desaturated(Color,System.Single)
   name: Desaturated(Color, Single)
   href: api/Zigurous.ColorUtils.Adjustment.html#Zigurous_ColorUtils_Adjustment_Desaturated_Color_System_Single_
@@ -120,6 +152,22 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorUtils.Adjustment.Desaturated
   nameWithType: Adjustment.Desaturated
+- uid: Zigurous.ColorUtils.Adjustment.Grayscale(Color@)
+  name: Grayscale(ref Color)
+  href: api/Zigurous.ColorUtils.Adjustment.html#Zigurous_ColorUtils_Adjustment_Grayscale_Color__
+  commentId: M:Zigurous.ColorUtils.Adjustment.Grayscale(Color@)
+  name.vb: Grayscale(ByRef Color)
+  fullName: Zigurous.ColorUtils.Adjustment.Grayscale(ref Color)
+  fullName.vb: Zigurous.ColorUtils.Adjustment.Grayscale(ByRef Color)
+  nameWithType: Adjustment.Grayscale(ref Color)
+  nameWithType.vb: Adjustment.Grayscale(ByRef Color)
+- uid: Zigurous.ColorUtils.Adjustment.Grayscale*
+  name: Grayscale
+  href: api/Zigurous.ColorUtils.Adjustment.html#Zigurous_ColorUtils_Adjustment_Grayscale_
+  commentId: Overload:Zigurous.ColorUtils.Adjustment.Grayscale
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Adjustment.Grayscale
+  nameWithType: Adjustment.Grayscale
 - uid: Zigurous.ColorUtils.Adjustment.Grayscaled(Color)
   name: Grayscaled(Color)
   href: api/Zigurous.ColorUtils.Adjustment.html#Zigurous_ColorUtils_Adjustment_Grayscaled_Color_
@@ -133,12 +181,15 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorUtils.Adjustment.Grayscaled
   nameWithType: Adjustment.Grayscaled
-- uid: Zigurous.ColorUtils.Adjustment.HueShift(Color,System.Single)
-  name: HueShift(Color, Single)
-  href: api/Zigurous.ColorUtils.Adjustment.html#Zigurous_ColorUtils_Adjustment_HueShift_Color_System_Single_
-  commentId: M:Zigurous.ColorUtils.Adjustment.HueShift(Color,System.Single)
-  fullName: Zigurous.ColorUtils.Adjustment.HueShift(Color, System.Single)
-  nameWithType: Adjustment.HueShift(Color, Single)
+- uid: Zigurous.ColorUtils.Adjustment.HueShift(Color@,System.Single)
+  name: HueShift(ref Color, Single)
+  href: api/Zigurous.ColorUtils.Adjustment.html#Zigurous_ColorUtils_Adjustment_HueShift_Color__System_Single_
+  commentId: M:Zigurous.ColorUtils.Adjustment.HueShift(Color@,System.Single)
+  name.vb: HueShift(ByRef Color, Single)
+  fullName: Zigurous.ColorUtils.Adjustment.HueShift(ref Color, System.Single)
+  fullName.vb: Zigurous.ColorUtils.Adjustment.HueShift(ByRef Color, System.Single)
+  nameWithType: Adjustment.HueShift(ref Color, Single)
+  nameWithType.vb: Adjustment.HueShift(ByRef Color, Single)
 - uid: Zigurous.ColorUtils.Adjustment.HueShift*
   name: HueShift
   href: api/Zigurous.ColorUtils.Adjustment.html#Zigurous_ColorUtils_Adjustment_HueShift_
@@ -146,6 +197,35 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorUtils.Adjustment.HueShift
   nameWithType: Adjustment.HueShift
+- uid: Zigurous.ColorUtils.Adjustment.HueShifted(Color,System.Single)
+  name: HueShifted(Color, Single)
+  href: api/Zigurous.ColorUtils.Adjustment.html#Zigurous_ColorUtils_Adjustment_HueShifted_Color_System_Single_
+  commentId: M:Zigurous.ColorUtils.Adjustment.HueShifted(Color,System.Single)
+  fullName: Zigurous.ColorUtils.Adjustment.HueShifted(Color, System.Single)
+  nameWithType: Adjustment.HueShifted(Color, Single)
+- uid: Zigurous.ColorUtils.Adjustment.HueShifted*
+  name: HueShifted
+  href: api/Zigurous.ColorUtils.Adjustment.html#Zigurous_ColorUtils_Adjustment_HueShifted_
+  commentId: Overload:Zigurous.ColorUtils.Adjustment.HueShifted
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Adjustment.HueShifted
+  nameWithType: Adjustment.HueShifted
+- uid: Zigurous.ColorUtils.Adjustment.Invert(Color@)
+  name: Invert(ref Color)
+  href: api/Zigurous.ColorUtils.Adjustment.html#Zigurous_ColorUtils_Adjustment_Invert_Color__
+  commentId: M:Zigurous.ColorUtils.Adjustment.Invert(Color@)
+  name.vb: Invert(ByRef Color)
+  fullName: Zigurous.ColorUtils.Adjustment.Invert(ref Color)
+  fullName.vb: Zigurous.ColorUtils.Adjustment.Invert(ByRef Color)
+  nameWithType: Adjustment.Invert(ref Color)
+  nameWithType.vb: Adjustment.Invert(ByRef Color)
+- uid: Zigurous.ColorUtils.Adjustment.Invert*
+  name: Invert
+  href: api/Zigurous.ColorUtils.Adjustment.html#Zigurous_ColorUtils_Adjustment_Invert_
+  commentId: Overload:Zigurous.ColorUtils.Adjustment.Invert
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Adjustment.Invert
+  nameWithType: Adjustment.Invert
 - uid: Zigurous.ColorUtils.Adjustment.Inverted(Color)
   name: Inverted(Color)
   href: api/Zigurous.ColorUtils.Adjustment.html#Zigurous_ColorUtils_Adjustment_Inverted_Color_
@@ -159,6 +239,22 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorUtils.Adjustment.Inverted
   nameWithType: Adjustment.Inverted
+- uid: Zigurous.ColorUtils.Adjustment.Lighten(Color@,System.Single)
+  name: Lighten(ref Color, Single)
+  href: api/Zigurous.ColorUtils.Adjustment.html#Zigurous_ColorUtils_Adjustment_Lighten_Color__System_Single_
+  commentId: M:Zigurous.ColorUtils.Adjustment.Lighten(Color@,System.Single)
+  name.vb: Lighten(ByRef Color, Single)
+  fullName: Zigurous.ColorUtils.Adjustment.Lighten(ref Color, System.Single)
+  fullName.vb: Zigurous.ColorUtils.Adjustment.Lighten(ByRef Color, System.Single)
+  nameWithType: Adjustment.Lighten(ref Color, Single)
+  nameWithType.vb: Adjustment.Lighten(ByRef Color, Single)
+- uid: Zigurous.ColorUtils.Adjustment.Lighten*
+  name: Lighten
+  href: api/Zigurous.ColorUtils.Adjustment.html#Zigurous_ColorUtils_Adjustment_Lighten_
+  commentId: Overload:Zigurous.ColorUtils.Adjustment.Lighten
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Adjustment.Lighten
+  nameWithType: Adjustment.Lighten
 - uid: Zigurous.ColorUtils.Adjustment.Lighter(Color,System.Single)
   name: Lighter(Color, Single)
   href: api/Zigurous.ColorUtils.Adjustment.html#Zigurous_ColorUtils_Adjustment_Lighter_Color_System_Single_
@@ -172,6 +268,22 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorUtils.Adjustment.Lighter
   nameWithType: Adjustment.Lighter
+- uid: Zigurous.ColorUtils.Adjustment.Saturate(Color@,System.Single)
+  name: Saturate(ref Color, Single)
+  href: api/Zigurous.ColorUtils.Adjustment.html#Zigurous_ColorUtils_Adjustment_Saturate_Color__System_Single_
+  commentId: M:Zigurous.ColorUtils.Adjustment.Saturate(Color@,System.Single)
+  name.vb: Saturate(ByRef Color, Single)
+  fullName: Zigurous.ColorUtils.Adjustment.Saturate(ref Color, System.Single)
+  fullName.vb: Zigurous.ColorUtils.Adjustment.Saturate(ByRef Color, System.Single)
+  nameWithType: Adjustment.Saturate(ref Color, Single)
+  nameWithType.vb: Adjustment.Saturate(ByRef Color, Single)
+- uid: Zigurous.ColorUtils.Adjustment.Saturate*
+  name: Saturate
+  href: api/Zigurous.ColorUtils.Adjustment.html#Zigurous_ColorUtils_Adjustment_Saturate_
+  commentId: Overload:Zigurous.ColorUtils.Adjustment.Saturate
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Adjustment.Saturate
+  nameWithType: Adjustment.Saturate
 - uid: Zigurous.ColorUtils.Adjustment.Saturated(Color,System.Single)
   name: Saturated(Color, Single)
   href: api/Zigurous.ColorUtils.Adjustment.html#Zigurous_ColorUtils_Adjustment_Saturated_Color_System_Single_
@@ -185,6 +297,19 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorUtils.Adjustment.Saturated
   nameWithType: Adjustment.Saturated
+- uid: Zigurous.ColorUtils.Adjustment.WebSafe(Color)
+  name: WebSafe(Color)
+  href: api/Zigurous.ColorUtils.Adjustment.html#Zigurous_ColorUtils_Adjustment_WebSafe_Color_
+  commentId: M:Zigurous.ColorUtils.Adjustment.WebSafe(Color)
+  fullName: Zigurous.ColorUtils.Adjustment.WebSafe(Color)
+  nameWithType: Adjustment.WebSafe(Color)
+- uid: Zigurous.ColorUtils.Adjustment.WebSafe*
+  name: WebSafe
+  href: api/Zigurous.ColorUtils.Adjustment.html#Zigurous_ColorUtils_Adjustment_WebSafe_
+  commentId: Overload:Zigurous.ColorUtils.Adjustment.WebSafe
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Adjustment.WebSafe
+  nameWithType: Adjustment.WebSafe
 - uid: Zigurous.ColorUtils.ARGB
   name: ARGB
   href: api/Zigurous.ColorUtils.ARGB.html
@@ -1023,233 +1148,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorUtils.ColorPalette.Random
   nameWithType: ColorPalette.Random
-- uid: Zigurous.ColorUtils.ColorPalettes
-  name: ColorPalettes
-  href: api/Zigurous.ColorUtils.ColorPalettes.html
-  commentId: T:Zigurous.ColorUtils.ColorPalettes
-  fullName: Zigurous.ColorUtils.ColorPalettes
-  nameWithType: ColorPalettes
-- uid: Zigurous.ColorUtils.ColorPalettes.Darker(Color,System.Int32)
-  name: Darker(Color, Int32)
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_Darker_Color_System_Int32_
-  commentId: M:Zigurous.ColorUtils.ColorPalettes.Darker(Color,System.Int32)
-  fullName: Zigurous.ColorUtils.ColorPalettes.Darker(Color, System.Int32)
-  nameWithType: ColorPalettes.Darker(Color, Int32)
-- uid: Zigurous.ColorUtils.ColorPalettes.Darker*
-  name: Darker
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_Darker_
-  commentId: Overload:Zigurous.ColorUtils.ColorPalettes.Darker
-  isSpec: "True"
-  fullName: Zigurous.ColorUtils.ColorPalettes.Darker
-  nameWithType: ColorPalettes.Darker
-- uid: Zigurous.ColorUtils.ColorPalettes.Desaturated(Color,System.Int32)
-  name: Desaturated(Color, Int32)
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_Desaturated_Color_System_Int32_
-  commentId: M:Zigurous.ColorUtils.ColorPalettes.Desaturated(Color,System.Int32)
-  fullName: Zigurous.ColorUtils.ColorPalettes.Desaturated(Color, System.Int32)
-  nameWithType: ColorPalettes.Desaturated(Color, Int32)
-- uid: Zigurous.ColorUtils.ColorPalettes.Desaturated*
-  name: Desaturated
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_Desaturated_
-  commentId: Overload:Zigurous.ColorUtils.ColorPalettes.Desaturated
-  isSpec: "True"
-  fullName: Zigurous.ColorUtils.ColorPalettes.Desaturated
-  nameWithType: ColorPalettes.Desaturated
-- uid: Zigurous.ColorUtils.ColorPalettes.Hues(Color,System.Single)
-  name: Hues(Color, Single)
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_Hues_Color_System_Single_
-  commentId: M:Zigurous.ColorUtils.ColorPalettes.Hues(Color,System.Single)
-  fullName: Zigurous.ColorUtils.ColorPalettes.Hues(Color, System.Single)
-  nameWithType: ColorPalettes.Hues(Color, Single)
-- uid: Zigurous.ColorUtils.ColorPalettes.Hues*
-  name: Hues
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_Hues_
-  commentId: Overload:Zigurous.ColorUtils.ColorPalettes.Hues
-  isSpec: "True"
-  fullName: Zigurous.ColorUtils.ColorPalettes.Hues
-  nameWithType: ColorPalettes.Hues
-- uid: Zigurous.ColorUtils.ColorPalettes.Lighter(Color,System.Int32)
-  name: Lighter(Color, Int32)
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_Lighter_Color_System_Int32_
-  commentId: M:Zigurous.ColorUtils.ColorPalettes.Lighter(Color,System.Int32)
-  fullName: Zigurous.ColorUtils.ColorPalettes.Lighter(Color, System.Int32)
-  nameWithType: ColorPalettes.Lighter(Color, Int32)
-- uid: Zigurous.ColorUtils.ColorPalettes.Lighter*
-  name: Lighter
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_Lighter_
-  commentId: Overload:Zigurous.ColorUtils.ColorPalettes.Lighter
-  isSpec: "True"
-  fullName: Zigurous.ColorUtils.ColorPalettes.Lighter
-  nameWithType: ColorPalettes.Lighter
-- uid: Zigurous.ColorUtils.ColorPalettes.RandomDarker(Color,System.Int32,System.Single,System.Single)
-  name: RandomDarker(Color, Int32, Single, Single)
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_RandomDarker_Color_System_Int32_System_Single_System_Single_
-  commentId: M:Zigurous.ColorUtils.ColorPalettes.RandomDarker(Color,System.Int32,System.Single,System.Single)
-  fullName: Zigurous.ColorUtils.ColorPalettes.RandomDarker(Color, System.Int32, System.Single, System.Single)
-  nameWithType: ColorPalettes.RandomDarker(Color, Int32, Single, Single)
-- uid: Zigurous.ColorUtils.ColorPalettes.RandomDarker*
-  name: RandomDarker
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_RandomDarker_
-  commentId: Overload:Zigurous.ColorUtils.ColorPalettes.RandomDarker
-  isSpec: "True"
-  fullName: Zigurous.ColorUtils.ColorPalettes.RandomDarker
-  nameWithType: ColorPalettes.RandomDarker
-- uid: Zigurous.ColorUtils.ColorPalettes.RandomDesaturated(Color,System.Int32,System.Single,System.Single)
-  name: RandomDesaturated(Color, Int32, Single, Single)
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_RandomDesaturated_Color_System_Int32_System_Single_System_Single_
-  commentId: M:Zigurous.ColorUtils.ColorPalettes.RandomDesaturated(Color,System.Int32,System.Single,System.Single)
-  fullName: Zigurous.ColorUtils.ColorPalettes.RandomDesaturated(Color, System.Int32, System.Single, System.Single)
-  nameWithType: ColorPalettes.RandomDesaturated(Color, Int32, Single, Single)
-- uid: Zigurous.ColorUtils.ColorPalettes.RandomDesaturated*
-  name: RandomDesaturated
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_RandomDesaturated_
-  commentId: Overload:Zigurous.ColorUtils.ColorPalettes.RandomDesaturated
-  isSpec: "True"
-  fullName: Zigurous.ColorUtils.ColorPalettes.RandomDesaturated
-  nameWithType: ColorPalettes.RandomDesaturated
-- uid: Zigurous.ColorUtils.ColorPalettes.RandomHues(Color,System.Int32)
-  name: RandomHues(Color, Int32)
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_RandomHues_Color_System_Int32_
-  commentId: M:Zigurous.ColorUtils.ColorPalettes.RandomHues(Color,System.Int32)
-  fullName: Zigurous.ColorUtils.ColorPalettes.RandomHues(Color, System.Int32)
-  nameWithType: ColorPalettes.RandomHues(Color, Int32)
-- uid: Zigurous.ColorUtils.ColorPalettes.RandomHues*
-  name: RandomHues
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_RandomHues_
-  commentId: Overload:Zigurous.ColorUtils.ColorPalettes.RandomHues
-  isSpec: "True"
-  fullName: Zigurous.ColorUtils.ColorPalettes.RandomHues
-  nameWithType: ColorPalettes.RandomHues
-- uid: Zigurous.ColorUtils.ColorPalettes.RandomLighter(Color,System.Int32,System.Single,System.Single)
-  name: RandomLighter(Color, Int32, Single, Single)
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_RandomLighter_Color_System_Int32_System_Single_System_Single_
-  commentId: M:Zigurous.ColorUtils.ColorPalettes.RandomLighter(Color,System.Int32,System.Single,System.Single)
-  fullName: Zigurous.ColorUtils.ColorPalettes.RandomLighter(Color, System.Int32, System.Single, System.Single)
-  nameWithType: ColorPalettes.RandomLighter(Color, Int32, Single, Single)
-- uid: Zigurous.ColorUtils.ColorPalettes.RandomLighter*
-  name: RandomLighter
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_RandomLighter_
-  commentId: Overload:Zigurous.ColorUtils.ColorPalettes.RandomLighter
-  isSpec: "True"
-  fullName: Zigurous.ColorUtils.ColorPalettes.RandomLighter
-  nameWithType: ColorPalettes.RandomLighter
-- uid: Zigurous.ColorUtils.ColorPalettes.RandomSaturated(Color,System.Int32,System.Single,System.Single)
-  name: RandomSaturated(Color, Int32, Single, Single)
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_RandomSaturated_Color_System_Int32_System_Single_System_Single_
-  commentId: M:Zigurous.ColorUtils.ColorPalettes.RandomSaturated(Color,System.Int32,System.Single,System.Single)
-  fullName: Zigurous.ColorUtils.ColorPalettes.RandomSaturated(Color, System.Int32, System.Single, System.Single)
-  nameWithType: ColorPalettes.RandomSaturated(Color, Int32, Single, Single)
-- uid: Zigurous.ColorUtils.ColorPalettes.RandomSaturated*
-  name: RandomSaturated
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_RandomSaturated_
-  commentId: Overload:Zigurous.ColorUtils.ColorPalettes.RandomSaturated
-  isSpec: "True"
-  fullName: Zigurous.ColorUtils.ColorPalettes.RandomSaturated
-  nameWithType: ColorPalettes.RandomSaturated
-- uid: Zigurous.ColorUtils.ColorPalettes.RandomShades(Color,System.Int32,System.Single,System.Single)
-  name: RandomShades(Color, Int32, Single, Single)
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_RandomShades_Color_System_Int32_System_Single_System_Single_
-  commentId: M:Zigurous.ColorUtils.ColorPalettes.RandomShades(Color,System.Int32,System.Single,System.Single)
-  fullName: Zigurous.ColorUtils.ColorPalettes.RandomShades(Color, System.Int32, System.Single, System.Single)
-  nameWithType: ColorPalettes.RandomShades(Color, Int32, Single, Single)
-- uid: Zigurous.ColorUtils.ColorPalettes.RandomShades*
-  name: RandomShades
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_RandomShades_
-  commentId: Overload:Zigurous.ColorUtils.ColorPalettes.RandomShades
-  isSpec: "True"
-  fullName: Zigurous.ColorUtils.ColorPalettes.RandomShades
-  nameWithType: ColorPalettes.RandomShades
-- uid: Zigurous.ColorUtils.ColorPalettes.RandomTints(Color,System.Int32,System.Single,System.Single)
-  name: RandomTints(Color, Int32, Single, Single)
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_RandomTints_Color_System_Int32_System_Single_System_Single_
-  commentId: M:Zigurous.ColorUtils.ColorPalettes.RandomTints(Color,System.Int32,System.Single,System.Single)
-  fullName: Zigurous.ColorUtils.ColorPalettes.RandomTints(Color, System.Int32, System.Single, System.Single)
-  nameWithType: ColorPalettes.RandomTints(Color, Int32, Single, Single)
-- uid: Zigurous.ColorUtils.ColorPalettes.RandomTints*
-  name: RandomTints
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_RandomTints_
-  commentId: Overload:Zigurous.ColorUtils.ColorPalettes.RandomTints
-  isSpec: "True"
-  fullName: Zigurous.ColorUtils.ColorPalettes.RandomTints
-  nameWithType: ColorPalettes.RandomTints
-- uid: Zigurous.ColorUtils.ColorPalettes.RandomTones(Color,System.Int32,System.Single,System.Single)
-  name: RandomTones(Color, Int32, Single, Single)
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_RandomTones_Color_System_Int32_System_Single_System_Single_
-  commentId: M:Zigurous.ColorUtils.ColorPalettes.RandomTones(Color,System.Int32,System.Single,System.Single)
-  fullName: Zigurous.ColorUtils.ColorPalettes.RandomTones(Color, System.Int32, System.Single, System.Single)
-  nameWithType: ColorPalettes.RandomTones(Color, Int32, Single, Single)
-- uid: Zigurous.ColorUtils.ColorPalettes.RandomTones*
-  name: RandomTones
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_RandomTones_
-  commentId: Overload:Zigurous.ColorUtils.ColorPalettes.RandomTones
-  isSpec: "True"
-  fullName: Zigurous.ColorUtils.ColorPalettes.RandomTones
-  nameWithType: ColorPalettes.RandomTones
-- uid: Zigurous.ColorUtils.ColorPalettes.Saturated(Color,System.Int32)
-  name: Saturated(Color, Int32)
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_Saturated_Color_System_Int32_
-  commentId: M:Zigurous.ColorUtils.ColorPalettes.Saturated(Color,System.Int32)
-  fullName: Zigurous.ColorUtils.ColorPalettes.Saturated(Color, System.Int32)
-  nameWithType: ColorPalettes.Saturated(Color, Int32)
-- uid: Zigurous.ColorUtils.ColorPalettes.Saturated*
-  name: Saturated
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_Saturated_
-  commentId: Overload:Zigurous.ColorUtils.ColorPalettes.Saturated
-  isSpec: "True"
-  fullName: Zigurous.ColorUtils.ColorPalettes.Saturated
-  nameWithType: ColorPalettes.Saturated
-- uid: Zigurous.ColorUtils.ColorPalettes.Shades(Color,System.Int32)
-  name: Shades(Color, Int32)
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_Shades_Color_System_Int32_
-  commentId: M:Zigurous.ColorUtils.ColorPalettes.Shades(Color,System.Int32)
-  fullName: Zigurous.ColorUtils.ColorPalettes.Shades(Color, System.Int32)
-  nameWithType: ColorPalettes.Shades(Color, Int32)
-- uid: Zigurous.ColorUtils.ColorPalettes.Shades*
-  name: Shades
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_Shades_
-  commentId: Overload:Zigurous.ColorUtils.ColorPalettes.Shades
-  isSpec: "True"
-  fullName: Zigurous.ColorUtils.ColorPalettes.Shades
-  nameWithType: ColorPalettes.Shades
-- uid: Zigurous.ColorUtils.ColorPalettes.Tints(Color,System.Int32)
-  name: Tints(Color, Int32)
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_Tints_Color_System_Int32_
-  commentId: M:Zigurous.ColorUtils.ColorPalettes.Tints(Color,System.Int32)
-  fullName: Zigurous.ColorUtils.ColorPalettes.Tints(Color, System.Int32)
-  nameWithType: ColorPalettes.Tints(Color, Int32)
-- uid: Zigurous.ColorUtils.ColorPalettes.Tints*
-  name: Tints
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_Tints_
-  commentId: Overload:Zigurous.ColorUtils.ColorPalettes.Tints
-  isSpec: "True"
-  fullName: Zigurous.ColorUtils.ColorPalettes.Tints
-  nameWithType: ColorPalettes.Tints
-- uid: Zigurous.ColorUtils.ColorPalettes.ToColors(Gradient,System.Int32)
-  name: ToColors(Gradient, Int32)
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_ToColors_Gradient_System_Int32_
-  commentId: M:Zigurous.ColorUtils.ColorPalettes.ToColors(Gradient,System.Int32)
-  fullName: Zigurous.ColorUtils.ColorPalettes.ToColors(Gradient, System.Int32)
-  nameWithType: ColorPalettes.ToColors(Gradient, Int32)
-- uid: Zigurous.ColorUtils.ColorPalettes.ToColors*
-  name: ToColors
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_ToColors_
-  commentId: Overload:Zigurous.ColorUtils.ColorPalettes.ToColors
-  isSpec: "True"
-  fullName: Zigurous.ColorUtils.ColorPalettes.ToColors
-  nameWithType: ColorPalettes.ToColors
-- uid: Zigurous.ColorUtils.ColorPalettes.Tones(Color,System.Int32)
-  name: Tones(Color, Int32)
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_Tones_Color_System_Int32_
-  commentId: M:Zigurous.ColorUtils.ColorPalettes.Tones(Color,System.Int32)
-  fullName: Zigurous.ColorUtils.ColorPalettes.Tones(Color, System.Int32)
-  nameWithType: ColorPalettes.Tones(Color, Int32)
-- uid: Zigurous.ColorUtils.ColorPalettes.Tones*
-  name: Tones
-  href: api/Zigurous.ColorUtils.ColorPalettes.html#Zigurous_ColorUtils_ColorPalettes_Tones_
-  commentId: Overload:Zigurous.ColorUtils.ColorPalettes.Tones
-  isSpec: "True"
-  fullName: Zigurous.ColorUtils.ColorPalettes.Tones
-  nameWithType: ColorPalettes.Tones
 - uid: Zigurous.ColorUtils.ColorSpace
   name: ColorSpace
   href: api/Zigurous.ColorUtils.ColorSpace.html
@@ -1391,38 +1289,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorUtils.Components.Lightness
   nameWithType: Components.Lightness
-- uid: Zigurous.ColorUtils.Components.RGB(Color,System.Single@,System.Single@,System.Single@)
-  name: RGB(Color, out Single, out Single, out Single)
-  href: api/Zigurous.ColorUtils.Components.html#Zigurous_ColorUtils_Components_RGB_Color_System_Single__System_Single__System_Single__
-  commentId: M:Zigurous.ColorUtils.Components.RGB(Color,System.Single@,System.Single@,System.Single@)
-  name.vb: RGB(Color, ByRef Single, ByRef Single, ByRef Single)
-  fullName: Zigurous.ColorUtils.Components.RGB(Color, out System.Single, out System.Single, out System.Single)
-  fullName.vb: Zigurous.ColorUtils.Components.RGB(Color, ByRef System.Single, ByRef System.Single, ByRef System.Single)
-  nameWithType: Components.RGB(Color, out Single, out Single, out Single)
-  nameWithType.vb: Components.RGB(Color, ByRef Single, ByRef Single, ByRef Single)
-- uid: Zigurous.ColorUtils.Components.RGB*
-  name: RGB
-  href: api/Zigurous.ColorUtils.Components.html#Zigurous_ColorUtils_Components_RGB_
-  commentId: Overload:Zigurous.ColorUtils.Components.RGB
-  isSpec: "True"
-  fullName: Zigurous.ColorUtils.Components.RGB
-  nameWithType: Components.RGB
-- uid: Zigurous.ColorUtils.Components.RGBA(Color,System.Single@,System.Single@,System.Single@,System.Single@)
-  name: RGBA(Color, out Single, out Single, out Single, out Single)
-  href: api/Zigurous.ColorUtils.Components.html#Zigurous_ColorUtils_Components_RGBA_Color_System_Single__System_Single__System_Single__System_Single__
-  commentId: M:Zigurous.ColorUtils.Components.RGBA(Color,System.Single@,System.Single@,System.Single@,System.Single@)
-  name.vb: RGBA(Color, ByRef Single, ByRef Single, ByRef Single, ByRef Single)
-  fullName: Zigurous.ColorUtils.Components.RGBA(Color, out System.Single, out System.Single, out System.Single, out System.Single)
-  fullName.vb: Zigurous.ColorUtils.Components.RGBA(Color, ByRef System.Single, ByRef System.Single, ByRef System.Single, ByRef System.Single)
-  nameWithType: Components.RGBA(Color, out Single, out Single, out Single, out Single)
-  nameWithType.vb: Components.RGBA(Color, ByRef Single, ByRef Single, ByRef Single, ByRef Single)
-- uid: Zigurous.ColorUtils.Components.RGBA*
-  name: RGBA
-  href: api/Zigurous.ColorUtils.Components.html#Zigurous_ColorUtils_Components_RGBA_
-  commentId: Overload:Zigurous.ColorUtils.Components.RGBA
-  isSpec: "True"
-  fullName: Zigurous.ColorUtils.Components.RGBA
-  nameWithType: Components.RGBA
 - uid: Zigurous.ColorUtils.Components.SaturationL(Color)
   name: SaturationL(Color)
   href: api/Zigurous.ColorUtils.Components.html#Zigurous_ColorUtils_Components_SaturationL_Color_
@@ -1488,6 +1354,19 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorUtils.Components.WithBlue
   nameWithType: Components.WithBlue
+- uid: Zigurous.ColorUtils.Components.WithBrightness(Color,System.Single)
+  name: WithBrightness(Color, Single)
+  href: api/Zigurous.ColorUtils.Components.html#Zigurous_ColorUtils_Components_WithBrightness_Color_System_Single_
+  commentId: M:Zigurous.ColorUtils.Components.WithBrightness(Color,System.Single)
+  fullName: Zigurous.ColorUtils.Components.WithBrightness(Color, System.Single)
+  nameWithType: Components.WithBrightness(Color, Single)
+- uid: Zigurous.ColorUtils.Components.WithBrightness*
+  name: WithBrightness
+  href: api/Zigurous.ColorUtils.Components.html#Zigurous_ColorUtils_Components_WithBrightness_
+  commentId: Overload:Zigurous.ColorUtils.Components.WithBrightness
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Components.WithBrightness
+  nameWithType: Components.WithBrightness
 - uid: Zigurous.ColorUtils.Components.WithGreen(Color,System.Single)
   name: WithGreen(Color, Single)
   href: api/Zigurous.ColorUtils.Components.html#Zigurous_ColorUtils_Components_WithGreen_Color_System_Single_
@@ -1514,6 +1393,19 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorUtils.Components.WithHue
   nameWithType: Components.WithHue
+- uid: Zigurous.ColorUtils.Components.WithLightness(Color,System.Single)
+  name: WithLightness(Color, Single)
+  href: api/Zigurous.ColorUtils.Components.html#Zigurous_ColorUtils_Components_WithLightness_Color_System_Single_
+  commentId: M:Zigurous.ColorUtils.Components.WithLightness(Color,System.Single)
+  fullName: Zigurous.ColorUtils.Components.WithLightness(Color, System.Single)
+  nameWithType: Components.WithLightness(Color, Single)
+- uid: Zigurous.ColorUtils.Components.WithLightness*
+  name: WithLightness
+  href: api/Zigurous.ColorUtils.Components.html#Zigurous_ColorUtils_Components_WithLightness_
+  commentId: Overload:Zigurous.ColorUtils.Components.WithLightness
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Components.WithLightness
+  nameWithType: Components.WithLightness
 - uid: Zigurous.ColorUtils.Components.WithRed(Color,System.Single)
   name: WithRed(Color, Single)
   href: api/Zigurous.ColorUtils.Components.html#Zigurous_ColorUtils_Components_WithRed_Color_System_Single_
@@ -1527,6 +1419,45 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorUtils.Components.WithRed
   nameWithType: Components.WithRed
+- uid: Zigurous.ColorUtils.Components.WithSaturationL(Color,System.Single)
+  name: WithSaturationL(Color, Single)
+  href: api/Zigurous.ColorUtils.Components.html#Zigurous_ColorUtils_Components_WithSaturationL_Color_System_Single_
+  commentId: M:Zigurous.ColorUtils.Components.WithSaturationL(Color,System.Single)
+  fullName: Zigurous.ColorUtils.Components.WithSaturationL(Color, System.Single)
+  nameWithType: Components.WithSaturationL(Color, Single)
+- uid: Zigurous.ColorUtils.Components.WithSaturationL*
+  name: WithSaturationL
+  href: api/Zigurous.ColorUtils.Components.html#Zigurous_ColorUtils_Components_WithSaturationL_
+  commentId: Overload:Zigurous.ColorUtils.Components.WithSaturationL
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Components.WithSaturationL
+  nameWithType: Components.WithSaturationL
+- uid: Zigurous.ColorUtils.Components.WithSaturationV(Color,System.Single)
+  name: WithSaturationV(Color, Single)
+  href: api/Zigurous.ColorUtils.Components.html#Zigurous_ColorUtils_Components_WithSaturationV_Color_System_Single_
+  commentId: M:Zigurous.ColorUtils.Components.WithSaturationV(Color,System.Single)
+  fullName: Zigurous.ColorUtils.Components.WithSaturationV(Color, System.Single)
+  nameWithType: Components.WithSaturationV(Color, Single)
+- uid: Zigurous.ColorUtils.Components.WithSaturationV*
+  name: WithSaturationV
+  href: api/Zigurous.ColorUtils.Components.html#Zigurous_ColorUtils_Components_WithSaturationV_
+  commentId: Overload:Zigurous.ColorUtils.Components.WithSaturationV
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Components.WithSaturationV
+  nameWithType: Components.WithSaturationV
+- uid: Zigurous.ColorUtils.Components.WithValue(Color,System.Single)
+  name: WithValue(Color, Single)
+  href: api/Zigurous.ColorUtils.Components.html#Zigurous_ColorUtils_Components_WithValue_Color_System_Single_
+  commentId: M:Zigurous.ColorUtils.Components.WithValue(Color,System.Single)
+  fullName: Zigurous.ColorUtils.Components.WithValue(Color, System.Single)
+  nameWithType: Components.WithValue(Color, Single)
+- uid: Zigurous.ColorUtils.Components.WithValue*
+  name: WithValue
+  href: api/Zigurous.ColorUtils.Components.html#Zigurous_ColorUtils_Components_WithValue_
+  commentId: Overload:Zigurous.ColorUtils.Components.WithValue
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Components.WithValue
+  nameWithType: Components.WithValue
 - uid: Zigurous.ColorUtils.Contrast
   name: Contrast
   href: api/Zigurous.ColorUtils.Contrast.html
@@ -2391,19 +2322,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorUtils.Conversion.ToYUV
   nameWithType: Conversion.ToYUV
-- uid: Zigurous.ColorUtils.Conversion.WebSafe(Color)
-  name: WebSafe(Color)
-  href: api/Zigurous.ColorUtils.Conversion.html#Zigurous_ColorUtils_Conversion_WebSafe_Color_
-  commentId: M:Zigurous.ColorUtils.Conversion.WebSafe(Color)
-  fullName: Zigurous.ColorUtils.Conversion.WebSafe(Color)
-  nameWithType: Conversion.WebSafe(Color)
-- uid: Zigurous.ColorUtils.Conversion.WebSafe*
-  name: WebSafe
-  href: api/Zigurous.ColorUtils.Conversion.html#Zigurous_ColorUtils_Conversion_WebSafe_
-  commentId: Overload:Zigurous.ColorUtils.Conversion.WebSafe
-  isSpec: "True"
-  fullName: Zigurous.ColorUtils.Conversion.WebSafe
-  nameWithType: Conversion.WebSafe
 - uid: Zigurous.ColorUtils.Equality
   name: Equality
   href: api/Zigurous.ColorUtils.Equality.html
@@ -2488,6 +2406,19 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorUtils.Gradients.Create
   nameWithType: Gradients.Create
+- uid: Zigurous.ColorUtils.Gradients.ToColors(Gradient,System.Int32)
+  name: ToColors(Gradient, Int32)
+  href: api/Zigurous.ColorUtils.Gradients.html#Zigurous_ColorUtils_Gradients_ToColors_Gradient_System_Int32_
+  commentId: M:Zigurous.ColorUtils.Gradients.ToColors(Gradient,System.Int32)
+  fullName: Zigurous.ColorUtils.Gradients.ToColors(Gradient, System.Int32)
+  nameWithType: Gradients.ToColors(Gradient, Int32)
+- uid: Zigurous.ColorUtils.Gradients.ToColors*
+  name: ToColors
+  href: api/Zigurous.ColorUtils.Gradients.html#Zigurous_ColorUtils_Gradients_ToColors_
+  commentId: Overload:Zigurous.ColorUtils.Gradients.ToColors
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Gradients.ToColors
+  nameWithType: Gradients.ToColors
 - uid: Zigurous.ColorUtils.Harmonies
   name: Harmonies
   href: api/Zigurous.ColorUtils.Harmonies.html
@@ -2507,6 +2438,22 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorUtils.Harmonies.Analogous
   nameWithType: Harmonies.Analogous
+- uid: Zigurous.ColorUtils.Harmonies.AnalogousNonAlloc(Color,Color[],System.Single)
+  name: AnalogousNonAlloc(Color, Color[], Single)
+  href: api/Zigurous.ColorUtils.Harmonies.html#Zigurous_ColorUtils_Harmonies_AnalogousNonAlloc_Color_Color___System_Single_
+  commentId: M:Zigurous.ColorUtils.Harmonies.AnalogousNonAlloc(Color,Color[],System.Single)
+  name.vb: AnalogousNonAlloc(Color, Color(), Single)
+  fullName: Zigurous.ColorUtils.Harmonies.AnalogousNonAlloc(Color, Color[], System.Single)
+  fullName.vb: Zigurous.ColorUtils.Harmonies.AnalogousNonAlloc(Color, Color(), System.Single)
+  nameWithType: Harmonies.AnalogousNonAlloc(Color, Color[], Single)
+  nameWithType.vb: Harmonies.AnalogousNonAlloc(Color, Color(), Single)
+- uid: Zigurous.ColorUtils.Harmonies.AnalogousNonAlloc*
+  name: AnalogousNonAlloc
+  href: api/Zigurous.ColorUtils.Harmonies.html#Zigurous_ColorUtils_Harmonies_AnalogousNonAlloc_
+  commentId: Overload:Zigurous.ColorUtils.Harmonies.AnalogousNonAlloc
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Harmonies.AnalogousNonAlloc
+  nameWithType: Harmonies.AnalogousNonAlloc
 - uid: Zigurous.ColorUtils.Harmonies.Complementary(Color)
   name: Complementary(Color)
   href: api/Zigurous.ColorUtils.Harmonies.html#Zigurous_ColorUtils_Harmonies_Complementary_Color_
@@ -2520,6 +2467,22 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorUtils.Harmonies.Complementary
   nameWithType: Harmonies.Complementary
+- uid: Zigurous.ColorUtils.Harmonies.ComplementaryNonAlloc(Color,Color[])
+  name: ComplementaryNonAlloc(Color, Color[])
+  href: api/Zigurous.ColorUtils.Harmonies.html#Zigurous_ColorUtils_Harmonies_ComplementaryNonAlloc_Color_Color___
+  commentId: M:Zigurous.ColorUtils.Harmonies.ComplementaryNonAlloc(Color,Color[])
+  name.vb: ComplementaryNonAlloc(Color, Color())
+  fullName: Zigurous.ColorUtils.Harmonies.ComplementaryNonAlloc(Color, Color[])
+  fullName.vb: Zigurous.ColorUtils.Harmonies.ComplementaryNonAlloc(Color, Color())
+  nameWithType: Harmonies.ComplementaryNonAlloc(Color, Color[])
+  nameWithType.vb: Harmonies.ComplementaryNonAlloc(Color, Color())
+- uid: Zigurous.ColorUtils.Harmonies.ComplementaryNonAlloc*
+  name: ComplementaryNonAlloc
+  href: api/Zigurous.ColorUtils.Harmonies.html#Zigurous_ColorUtils_Harmonies_ComplementaryNonAlloc_
+  commentId: Overload:Zigurous.ColorUtils.Harmonies.ComplementaryNonAlloc
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Harmonies.ComplementaryNonAlloc
+  nameWithType: Harmonies.ComplementaryNonAlloc
 - uid: Zigurous.ColorUtils.Harmonies.DoubleSplitComplementary(Color)
   name: DoubleSplitComplementary(Color)
   href: api/Zigurous.ColorUtils.Harmonies.html#Zigurous_ColorUtils_Harmonies_DoubleSplitComplementary_Color_
@@ -2533,6 +2496,22 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorUtils.Harmonies.DoubleSplitComplementary
   nameWithType: Harmonies.DoubleSplitComplementary
+- uid: Zigurous.ColorUtils.Harmonies.DoubleSplitComplementaryNonAlloc(Color,Color[])
+  name: DoubleSplitComplementaryNonAlloc(Color, Color[])
+  href: api/Zigurous.ColorUtils.Harmonies.html#Zigurous_ColorUtils_Harmonies_DoubleSplitComplementaryNonAlloc_Color_Color___
+  commentId: M:Zigurous.ColorUtils.Harmonies.DoubleSplitComplementaryNonAlloc(Color,Color[])
+  name.vb: DoubleSplitComplementaryNonAlloc(Color, Color())
+  fullName: Zigurous.ColorUtils.Harmonies.DoubleSplitComplementaryNonAlloc(Color, Color[])
+  fullName.vb: Zigurous.ColorUtils.Harmonies.DoubleSplitComplementaryNonAlloc(Color, Color())
+  nameWithType: Harmonies.DoubleSplitComplementaryNonAlloc(Color, Color[])
+  nameWithType.vb: Harmonies.DoubleSplitComplementaryNonAlloc(Color, Color())
+- uid: Zigurous.ColorUtils.Harmonies.DoubleSplitComplementaryNonAlloc*
+  name: DoubleSplitComplementaryNonAlloc
+  href: api/Zigurous.ColorUtils.Harmonies.html#Zigurous_ColorUtils_Harmonies_DoubleSplitComplementaryNonAlloc_
+  commentId: Overload:Zigurous.ColorUtils.Harmonies.DoubleSplitComplementaryNonAlloc
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Harmonies.DoubleSplitComplementaryNonAlloc
+  nameWithType: Harmonies.DoubleSplitComplementaryNonAlloc
 - uid: Zigurous.ColorUtils.Harmonies.Monochromatic(Color,System.Int32,System.Single)
   name: Monochromatic(Color, Int32, Single)
   href: api/Zigurous.ColorUtils.Harmonies.html#Zigurous_ColorUtils_Harmonies_Monochromatic_Color_System_Int32_System_Single_
@@ -2546,6 +2525,22 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorUtils.Harmonies.Monochromatic
   nameWithType: Harmonies.Monochromatic
+- uid: Zigurous.ColorUtils.Harmonies.MonochromaticNonAlloc(Color,Color[],System.Single)
+  name: MonochromaticNonAlloc(Color, Color[], Single)
+  href: api/Zigurous.ColorUtils.Harmonies.html#Zigurous_ColorUtils_Harmonies_MonochromaticNonAlloc_Color_Color___System_Single_
+  commentId: M:Zigurous.ColorUtils.Harmonies.MonochromaticNonAlloc(Color,Color[],System.Single)
+  name.vb: MonochromaticNonAlloc(Color, Color(), Single)
+  fullName: Zigurous.ColorUtils.Harmonies.MonochromaticNonAlloc(Color, Color[], System.Single)
+  fullName.vb: Zigurous.ColorUtils.Harmonies.MonochromaticNonAlloc(Color, Color(), System.Single)
+  nameWithType: Harmonies.MonochromaticNonAlloc(Color, Color[], Single)
+  nameWithType.vb: Harmonies.MonochromaticNonAlloc(Color, Color(), Single)
+- uid: Zigurous.ColorUtils.Harmonies.MonochromaticNonAlloc*
+  name: MonochromaticNonAlloc
+  href: api/Zigurous.ColorUtils.Harmonies.html#Zigurous_ColorUtils_Harmonies_MonochromaticNonAlloc_
+  commentId: Overload:Zigurous.ColorUtils.Harmonies.MonochromaticNonAlloc
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Harmonies.MonochromaticNonAlloc
+  nameWithType: Harmonies.MonochromaticNonAlloc
 - uid: Zigurous.ColorUtils.Harmonies.SplitComplementary(Color)
   name: SplitComplementary(Color)
   href: api/Zigurous.ColorUtils.Harmonies.html#Zigurous_ColorUtils_Harmonies_SplitComplementary_Color_
@@ -2559,6 +2554,22 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorUtils.Harmonies.SplitComplementary
   nameWithType: Harmonies.SplitComplementary
+- uid: Zigurous.ColorUtils.Harmonies.SplitComplementaryNonAlloc(Color,Color[])
+  name: SplitComplementaryNonAlloc(Color, Color[])
+  href: api/Zigurous.ColorUtils.Harmonies.html#Zigurous_ColorUtils_Harmonies_SplitComplementaryNonAlloc_Color_Color___
+  commentId: M:Zigurous.ColorUtils.Harmonies.SplitComplementaryNonAlloc(Color,Color[])
+  name.vb: SplitComplementaryNonAlloc(Color, Color())
+  fullName: Zigurous.ColorUtils.Harmonies.SplitComplementaryNonAlloc(Color, Color[])
+  fullName.vb: Zigurous.ColorUtils.Harmonies.SplitComplementaryNonAlloc(Color, Color())
+  nameWithType: Harmonies.SplitComplementaryNonAlloc(Color, Color[])
+  nameWithType.vb: Harmonies.SplitComplementaryNonAlloc(Color, Color())
+- uid: Zigurous.ColorUtils.Harmonies.SplitComplementaryNonAlloc*
+  name: SplitComplementaryNonAlloc
+  href: api/Zigurous.ColorUtils.Harmonies.html#Zigurous_ColorUtils_Harmonies_SplitComplementaryNonAlloc_
+  commentId: Overload:Zigurous.ColorUtils.Harmonies.SplitComplementaryNonAlloc
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Harmonies.SplitComplementaryNonAlloc
+  nameWithType: Harmonies.SplitComplementaryNonAlloc
 - uid: Zigurous.ColorUtils.Harmonies.Square(Color)
   name: Square(Color)
   href: api/Zigurous.ColorUtils.Harmonies.html#Zigurous_ColorUtils_Harmonies_Square_Color_
@@ -2572,6 +2583,22 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorUtils.Harmonies.Square
   nameWithType: Harmonies.Square
+- uid: Zigurous.ColorUtils.Harmonies.SquareNonAlloc(Color,Color[])
+  name: SquareNonAlloc(Color, Color[])
+  href: api/Zigurous.ColorUtils.Harmonies.html#Zigurous_ColorUtils_Harmonies_SquareNonAlloc_Color_Color___
+  commentId: M:Zigurous.ColorUtils.Harmonies.SquareNonAlloc(Color,Color[])
+  name.vb: SquareNonAlloc(Color, Color())
+  fullName: Zigurous.ColorUtils.Harmonies.SquareNonAlloc(Color, Color[])
+  fullName.vb: Zigurous.ColorUtils.Harmonies.SquareNonAlloc(Color, Color())
+  nameWithType: Harmonies.SquareNonAlloc(Color, Color[])
+  nameWithType.vb: Harmonies.SquareNonAlloc(Color, Color())
+- uid: Zigurous.ColorUtils.Harmonies.SquareNonAlloc*
+  name: SquareNonAlloc
+  href: api/Zigurous.ColorUtils.Harmonies.html#Zigurous_ColorUtils_Harmonies_SquareNonAlloc_
+  commentId: Overload:Zigurous.ColorUtils.Harmonies.SquareNonAlloc
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Harmonies.SquareNonAlloc
+  nameWithType: Harmonies.SquareNonAlloc
 - uid: Zigurous.ColorUtils.Harmonies.Triadic(Color)
   name: Triadic(Color)
   href: api/Zigurous.ColorUtils.Harmonies.html#Zigurous_ColorUtils_Harmonies_Triadic_Color_
@@ -2585,6 +2612,22 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorUtils.Harmonies.Triadic
   nameWithType: Harmonies.Triadic
+- uid: Zigurous.ColorUtils.Harmonies.TriadicNonAlloc(Color,Color[])
+  name: TriadicNonAlloc(Color, Color[])
+  href: api/Zigurous.ColorUtils.Harmonies.html#Zigurous_ColorUtils_Harmonies_TriadicNonAlloc_Color_Color___
+  commentId: M:Zigurous.ColorUtils.Harmonies.TriadicNonAlloc(Color,Color[])
+  name.vb: TriadicNonAlloc(Color, Color())
+  fullName: Zigurous.ColorUtils.Harmonies.TriadicNonAlloc(Color, Color[])
+  fullName.vb: Zigurous.ColorUtils.Harmonies.TriadicNonAlloc(Color, Color())
+  nameWithType: Harmonies.TriadicNonAlloc(Color, Color[])
+  nameWithType.vb: Harmonies.TriadicNonAlloc(Color, Color())
+- uid: Zigurous.ColorUtils.Harmonies.TriadicNonAlloc*
+  name: TriadicNonAlloc
+  href: api/Zigurous.ColorUtils.Harmonies.html#Zigurous_ColorUtils_Harmonies_TriadicNonAlloc_
+  commentId: Overload:Zigurous.ColorUtils.Harmonies.TriadicNonAlloc
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Harmonies.TriadicNonAlloc
+  nameWithType: Harmonies.TriadicNonAlloc
 - uid: Zigurous.ColorUtils.Hex
   name: Hex
   href: api/Zigurous.ColorUtils.Hex.html
@@ -5006,6 +5049,220 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorUtils.MixingModelExtensions.TertiaryColors
   nameWithType: MixingModelExtensions.TertiaryColors
+- uid: Zigurous.ColorUtils.Palette
+  name: Palette
+  href: api/Zigurous.ColorUtils.Palette.html
+  commentId: T:Zigurous.ColorUtils.Palette
+  fullName: Zigurous.ColorUtils.Palette
+  nameWithType: Palette
+- uid: Zigurous.ColorUtils.Palette.Darker(Color,System.Int32)
+  name: Darker(Color, Int32)
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_Darker_Color_System_Int32_
+  commentId: M:Zigurous.ColorUtils.Palette.Darker(Color,System.Int32)
+  fullName: Zigurous.ColorUtils.Palette.Darker(Color, System.Int32)
+  nameWithType: Palette.Darker(Color, Int32)
+- uid: Zigurous.ColorUtils.Palette.Darker*
+  name: Darker
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_Darker_
+  commentId: Overload:Zigurous.ColorUtils.Palette.Darker
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Palette.Darker
+  nameWithType: Palette.Darker
+- uid: Zigurous.ColorUtils.Palette.Desaturated(Color,System.Int32)
+  name: Desaturated(Color, Int32)
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_Desaturated_Color_System_Int32_
+  commentId: M:Zigurous.ColorUtils.Palette.Desaturated(Color,System.Int32)
+  fullName: Zigurous.ColorUtils.Palette.Desaturated(Color, System.Int32)
+  nameWithType: Palette.Desaturated(Color, Int32)
+- uid: Zigurous.ColorUtils.Palette.Desaturated*
+  name: Desaturated
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_Desaturated_
+  commentId: Overload:Zigurous.ColorUtils.Palette.Desaturated
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Palette.Desaturated
+  nameWithType: Palette.Desaturated
+- uid: Zigurous.ColorUtils.Palette.Hues(Color,System.Single)
+  name: Hues(Color, Single)
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_Hues_Color_System_Single_
+  commentId: M:Zigurous.ColorUtils.Palette.Hues(Color,System.Single)
+  fullName: Zigurous.ColorUtils.Palette.Hues(Color, System.Single)
+  nameWithType: Palette.Hues(Color, Single)
+- uid: Zigurous.ColorUtils.Palette.Hues*
+  name: Hues
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_Hues_
+  commentId: Overload:Zigurous.ColorUtils.Palette.Hues
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Palette.Hues
+  nameWithType: Palette.Hues
+- uid: Zigurous.ColorUtils.Palette.Lighter(Color,System.Int32)
+  name: Lighter(Color, Int32)
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_Lighter_Color_System_Int32_
+  commentId: M:Zigurous.ColorUtils.Palette.Lighter(Color,System.Int32)
+  fullName: Zigurous.ColorUtils.Palette.Lighter(Color, System.Int32)
+  nameWithType: Palette.Lighter(Color, Int32)
+- uid: Zigurous.ColorUtils.Palette.Lighter*
+  name: Lighter
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_Lighter_
+  commentId: Overload:Zigurous.ColorUtils.Palette.Lighter
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Palette.Lighter
+  nameWithType: Palette.Lighter
+- uid: Zigurous.ColorUtils.Palette.RandomDarker(Color,System.Int32,System.Single,System.Single)
+  name: RandomDarker(Color, Int32, Single, Single)
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_RandomDarker_Color_System_Int32_System_Single_System_Single_
+  commentId: M:Zigurous.ColorUtils.Palette.RandomDarker(Color,System.Int32,System.Single,System.Single)
+  fullName: Zigurous.ColorUtils.Palette.RandomDarker(Color, System.Int32, System.Single, System.Single)
+  nameWithType: Palette.RandomDarker(Color, Int32, Single, Single)
+- uid: Zigurous.ColorUtils.Palette.RandomDarker*
+  name: RandomDarker
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_RandomDarker_
+  commentId: Overload:Zigurous.ColorUtils.Palette.RandomDarker
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Palette.RandomDarker
+  nameWithType: Palette.RandomDarker
+- uid: Zigurous.ColorUtils.Palette.RandomDesaturated(Color,System.Int32,System.Single,System.Single)
+  name: RandomDesaturated(Color, Int32, Single, Single)
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_RandomDesaturated_Color_System_Int32_System_Single_System_Single_
+  commentId: M:Zigurous.ColorUtils.Palette.RandomDesaturated(Color,System.Int32,System.Single,System.Single)
+  fullName: Zigurous.ColorUtils.Palette.RandomDesaturated(Color, System.Int32, System.Single, System.Single)
+  nameWithType: Palette.RandomDesaturated(Color, Int32, Single, Single)
+- uid: Zigurous.ColorUtils.Palette.RandomDesaturated*
+  name: RandomDesaturated
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_RandomDesaturated_
+  commentId: Overload:Zigurous.ColorUtils.Palette.RandomDesaturated
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Palette.RandomDesaturated
+  nameWithType: Palette.RandomDesaturated
+- uid: Zigurous.ColorUtils.Palette.RandomHues(Color,System.Int32)
+  name: RandomHues(Color, Int32)
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_RandomHues_Color_System_Int32_
+  commentId: M:Zigurous.ColorUtils.Palette.RandomHues(Color,System.Int32)
+  fullName: Zigurous.ColorUtils.Palette.RandomHues(Color, System.Int32)
+  nameWithType: Palette.RandomHues(Color, Int32)
+- uid: Zigurous.ColorUtils.Palette.RandomHues*
+  name: RandomHues
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_RandomHues_
+  commentId: Overload:Zigurous.ColorUtils.Palette.RandomHues
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Palette.RandomHues
+  nameWithType: Palette.RandomHues
+- uid: Zigurous.ColorUtils.Palette.RandomLighter(Color,System.Int32,System.Single,System.Single)
+  name: RandomLighter(Color, Int32, Single, Single)
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_RandomLighter_Color_System_Int32_System_Single_System_Single_
+  commentId: M:Zigurous.ColorUtils.Palette.RandomLighter(Color,System.Int32,System.Single,System.Single)
+  fullName: Zigurous.ColorUtils.Palette.RandomLighter(Color, System.Int32, System.Single, System.Single)
+  nameWithType: Palette.RandomLighter(Color, Int32, Single, Single)
+- uid: Zigurous.ColorUtils.Palette.RandomLighter*
+  name: RandomLighter
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_RandomLighter_
+  commentId: Overload:Zigurous.ColorUtils.Palette.RandomLighter
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Palette.RandomLighter
+  nameWithType: Palette.RandomLighter
+- uid: Zigurous.ColorUtils.Palette.RandomSaturated(Color,System.Int32,System.Single,System.Single)
+  name: RandomSaturated(Color, Int32, Single, Single)
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_RandomSaturated_Color_System_Int32_System_Single_System_Single_
+  commentId: M:Zigurous.ColorUtils.Palette.RandomSaturated(Color,System.Int32,System.Single,System.Single)
+  fullName: Zigurous.ColorUtils.Palette.RandomSaturated(Color, System.Int32, System.Single, System.Single)
+  nameWithType: Palette.RandomSaturated(Color, Int32, Single, Single)
+- uid: Zigurous.ColorUtils.Palette.RandomSaturated*
+  name: RandomSaturated
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_RandomSaturated_
+  commentId: Overload:Zigurous.ColorUtils.Palette.RandomSaturated
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Palette.RandomSaturated
+  nameWithType: Palette.RandomSaturated
+- uid: Zigurous.ColorUtils.Palette.RandomShades(Color,System.Int32,System.Single,System.Single)
+  name: RandomShades(Color, Int32, Single, Single)
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_RandomShades_Color_System_Int32_System_Single_System_Single_
+  commentId: M:Zigurous.ColorUtils.Palette.RandomShades(Color,System.Int32,System.Single,System.Single)
+  fullName: Zigurous.ColorUtils.Palette.RandomShades(Color, System.Int32, System.Single, System.Single)
+  nameWithType: Palette.RandomShades(Color, Int32, Single, Single)
+- uid: Zigurous.ColorUtils.Palette.RandomShades*
+  name: RandomShades
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_RandomShades_
+  commentId: Overload:Zigurous.ColorUtils.Palette.RandomShades
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Palette.RandomShades
+  nameWithType: Palette.RandomShades
+- uid: Zigurous.ColorUtils.Palette.RandomTints(Color,System.Int32,System.Single,System.Single)
+  name: RandomTints(Color, Int32, Single, Single)
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_RandomTints_Color_System_Int32_System_Single_System_Single_
+  commentId: M:Zigurous.ColorUtils.Palette.RandomTints(Color,System.Int32,System.Single,System.Single)
+  fullName: Zigurous.ColorUtils.Palette.RandomTints(Color, System.Int32, System.Single, System.Single)
+  nameWithType: Palette.RandomTints(Color, Int32, Single, Single)
+- uid: Zigurous.ColorUtils.Palette.RandomTints*
+  name: RandomTints
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_RandomTints_
+  commentId: Overload:Zigurous.ColorUtils.Palette.RandomTints
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Palette.RandomTints
+  nameWithType: Palette.RandomTints
+- uid: Zigurous.ColorUtils.Palette.RandomTones(Color,System.Int32,System.Single,System.Single)
+  name: RandomTones(Color, Int32, Single, Single)
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_RandomTones_Color_System_Int32_System_Single_System_Single_
+  commentId: M:Zigurous.ColorUtils.Palette.RandomTones(Color,System.Int32,System.Single,System.Single)
+  fullName: Zigurous.ColorUtils.Palette.RandomTones(Color, System.Int32, System.Single, System.Single)
+  nameWithType: Palette.RandomTones(Color, Int32, Single, Single)
+- uid: Zigurous.ColorUtils.Palette.RandomTones*
+  name: RandomTones
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_RandomTones_
+  commentId: Overload:Zigurous.ColorUtils.Palette.RandomTones
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Palette.RandomTones
+  nameWithType: Palette.RandomTones
+- uid: Zigurous.ColorUtils.Palette.Saturated(Color,System.Int32)
+  name: Saturated(Color, Int32)
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_Saturated_Color_System_Int32_
+  commentId: M:Zigurous.ColorUtils.Palette.Saturated(Color,System.Int32)
+  fullName: Zigurous.ColorUtils.Palette.Saturated(Color, System.Int32)
+  nameWithType: Palette.Saturated(Color, Int32)
+- uid: Zigurous.ColorUtils.Palette.Saturated*
+  name: Saturated
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_Saturated_
+  commentId: Overload:Zigurous.ColorUtils.Palette.Saturated
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Palette.Saturated
+  nameWithType: Palette.Saturated
+- uid: Zigurous.ColorUtils.Palette.Shades(Color,System.Int32)
+  name: Shades(Color, Int32)
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_Shades_Color_System_Int32_
+  commentId: M:Zigurous.ColorUtils.Palette.Shades(Color,System.Int32)
+  fullName: Zigurous.ColorUtils.Palette.Shades(Color, System.Int32)
+  nameWithType: Palette.Shades(Color, Int32)
+- uid: Zigurous.ColorUtils.Palette.Shades*
+  name: Shades
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_Shades_
+  commentId: Overload:Zigurous.ColorUtils.Palette.Shades
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Palette.Shades
+  nameWithType: Palette.Shades
+- uid: Zigurous.ColorUtils.Palette.Tints(Color,System.Int32)
+  name: Tints(Color, Int32)
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_Tints_Color_System_Int32_
+  commentId: M:Zigurous.ColorUtils.Palette.Tints(Color,System.Int32)
+  fullName: Zigurous.ColorUtils.Palette.Tints(Color, System.Int32)
+  nameWithType: Palette.Tints(Color, Int32)
+- uid: Zigurous.ColorUtils.Palette.Tints*
+  name: Tints
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_Tints_
+  commentId: Overload:Zigurous.ColorUtils.Palette.Tints
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Palette.Tints
+  nameWithType: Palette.Tints
+- uid: Zigurous.ColorUtils.Palette.Tones(Color,System.Int32)
+  name: Tones(Color, Int32)
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_Tones_Color_System_Int32_
+  commentId: M:Zigurous.ColorUtils.Palette.Tones(Color,System.Int32)
+  fullName: Zigurous.ColorUtils.Palette.Tones(Color, System.Int32)
+  nameWithType: Palette.Tones(Color, Int32)
+- uid: Zigurous.ColorUtils.Palette.Tones*
+  name: Tones
+  href: api/Zigurous.ColorUtils.Palette.html#Zigurous_ColorUtils_Palette_Tones_
+  commentId: Overload:Zigurous.ColorUtils.Palette.Tones
+  isSpec: "True"
+  fullName: Zigurous.ColorUtils.Palette.Tones
+  nameWithType: Palette.Tones
 - uid: Zigurous.ColorUtils.Random
   name: Random
   href: api/Zigurous.ColorUtils.Random.html
@@ -5038,35 +5295,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorUtils.Random.Colors
   nameWithType: Random.Colors
-- uid: Zigurous.ColorUtils.Random.ColorSet(System.Int32,System.Boolean)
-  name: ColorSet(Int32, Boolean)
-  href: api/Zigurous.ColorUtils.Random.html#Zigurous_ColorUtils_Random_ColorSet_System_Int32_System_Boolean_
-  commentId: M:Zigurous.ColorUtils.Random.ColorSet(System.Int32,System.Boolean)
-  fullName: Zigurous.ColorUtils.Random.ColorSet(System.Int32, System.Boolean)
-  nameWithType: Random.ColorSet(Int32, Boolean)
-- uid: Zigurous.ColorUtils.Random.ColorSet*
-  name: ColorSet
-  href: api/Zigurous.ColorUtils.Random.html#Zigurous_ColorUtils_Random_ColorSet_
-  commentId: Overload:Zigurous.ColorUtils.Random.ColorSet
-  isSpec: "True"
-  fullName: Zigurous.ColorUtils.Random.ColorSet
-  nameWithType: Random.ColorSet
-- uid: Zigurous.ColorUtils.Random.ColorSetNonAlloc(HashSet{Color},System.Int32,System.Boolean)
-  name: ColorSetNonAlloc(HashSet<Color>, Int32, Boolean)
-  href: api/Zigurous.ColorUtils.Random.html#Zigurous_ColorUtils_Random_ColorSetNonAlloc_HashSet_Color__System_Int32_System_Boolean_
-  commentId: M:Zigurous.ColorUtils.Random.ColorSetNonAlloc(HashSet{Color},System.Int32,System.Boolean)
-  name.vb: ColorSetNonAlloc(HashSet(Of Color), Int32, Boolean)
-  fullName: Zigurous.ColorUtils.Random.ColorSetNonAlloc(HashSet<Color>, System.Int32, System.Boolean)
-  fullName.vb: Zigurous.ColorUtils.Random.ColorSetNonAlloc(HashSet(Of Color), System.Int32, System.Boolean)
-  nameWithType: Random.ColorSetNonAlloc(HashSet<Color>, Int32, Boolean)
-  nameWithType.vb: Random.ColorSetNonAlloc(HashSet(Of Color), Int32, Boolean)
-- uid: Zigurous.ColorUtils.Random.ColorSetNonAlloc*
-  name: ColorSetNonAlloc
-  href: api/Zigurous.ColorUtils.Random.html#Zigurous_ColorUtils_Random_ColorSetNonAlloc_
-  commentId: Overload:Zigurous.ColorUtils.Random.ColorSetNonAlloc
-  isSpec: "True"
-  fullName: Zigurous.ColorUtils.Random.ColorSetNonAlloc
-  nameWithType: Random.ColorSetNonAlloc
 - uid: Zigurous.ColorUtils.Random.ColorsNonAlloc(Color[],System.Boolean)
   name: ColorsNonAlloc(Color[], Boolean)
   href: api/Zigurous.ColorUtils.Random.html#Zigurous_ColorUtils_Random_ColorsNonAlloc_Color___System_Boolean_

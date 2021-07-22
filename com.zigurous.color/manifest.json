@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.ARGB.html",
-          "hash": "j3hP6gNXoQxXXTgVAVgw5+iB04DwyQiuWkxuigwNDpI="
+          "hash": "08W8Gw0PzSIHE/242BuN4/W+/kO1VEmiCpH5Ug936es="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.ARGB255.html",
-          "hash": "SDIfjUPZW1AmtpV5HzIYIWiHD+nscSqZEIwoZf/kW6c="
+          "hash": "BC1atwUzKhZyPB2NjvWSH7NmyyxTF0yHH09m2oUIwvQ="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.Accessibility.Requirement.html",
-          "hash": "iIFIGIoxoECvNj+Zg6F1kdQoU4g4QEwmYosdxXOnzmI="
+          "hash": "Rm5IJXANec4DsPNeRGdOki/lv1+vnliWZUrjJPZYYM0="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.Accessibility.html",
-          "hash": "csNn5jNlmZM96xk2McR5SFHM+JIzdGi/UogX0ArC16A="
+          "hash": "xG1avbRrdG/k7jKQxvoWexl2CVrf19VkzxtO5nn/ETc="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.Adjustment.html",
-          "hash": "xpcQMYQYLehCxSQFyvZX8bxHEfcpA3xVR+ioVMEnt4Y="
+          "hash": "99K8HyV8Y03wF03kQ/qi3kz6WXHT77ZleUOVz8LDx+U="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.Arithmetic.html",
-          "hash": "EoJSmRHjwhm84vu+gE5bHoQzUcLa8/AlU9hOs2sPGEs="
+          "hash": "fBo9/59KB/wvTuls7cnWa/NjtIhGWTjlQim8Qf5P9q0="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.Averaging.html",
-          "hash": "w8jyt1Ms9oZuLrdRWIQ2rS8kiz9EiqVDOMKalYjJGKE="
+          "hash": "HovIw4e0rwizI4kyNZ7vWiCbayhtIk0lW4LDh9F69HQ="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.CMYK.html",
-          "hash": "IxtcEWFa5kIReuH341ZbJyFztG0lvIyhgofQzsgPy5I="
+          "hash": "xQtAX+LTP0L4b/rTuqlXqcBXd+syBfSS5m1k+ji15s4="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.ColorModel.html",
-          "hash": "XXPwyNehwNbiN8KVzUnWrGbjsIzjFULU14LjNGIOaEk="
+          "hash": "BXZIY/5a/fRPnSjYhASqVwtCHK8edb0ONP9HDgAsMH4="
         }
       },
       "is_incremental": false,
@@ -138,19 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.ColorPalette.html",
-          "hash": "9jWRq9yHJO35Xj33ua6BFnK6hDswOv5KzBF0Cs8cZOA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.ColorPalettes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.ColorPalettes.html",
-          "hash": "SWTnxMb4I8/bJSVDRwSlTOdXjNSKURN4zy3Sw5oBtOQ="
+          "hash": "P3Qjy7aoaxcfU0FNwviKB/M//rYZbyRfkoNywZ69+yg="
         }
       },
       "is_incremental": false,
@@ -162,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.ColorSpace.html",
-          "hash": "1/uEdu1z0e82q6qSlLUvetNIb7n7iDbdEaPUF/K6ON0="
+          "hash": "7nM6YXJxhwvZEaLaWvzGN2YY/g74SIpgNbHydAwpvO4="
         }
       },
       "is_incremental": false,
@@ -174,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.ColorWheelDivision.html",
-          "hash": "eFkIblnJjwIHw3jrNLbcL4KdkV6vMm/OlVTXZdcyzko="
+          "hash": "IMPpz0u2UzYDI84u+rZDn+B2e4XbRZ6u6IxlqyLKwhk="
         }
       },
       "is_incremental": false,
@@ -186,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.Components.html",
-          "hash": "koeoPX2LO+XUD/nK7mT5vyGW3A60huEpZwJ/4LhI4OI="
+          "hash": "3GS19rig1CEbQTchC6644b3BNjKySeKQZOSJzeyOvfw="
         }
       },
       "is_incremental": false,
@@ -198,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.Contrast.html",
-          "hash": "VoDKUYtsCLWyFCJDGUopLJwRjhUFmARHoyUpJrzDwjU="
+          "hash": "Vfx4J7GIe/oV1CdUiYbkk1+GtpWH/sSVohpXYHpAWFs="
         }
       },
       "is_incremental": false,
@@ -210,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.Conversion.html",
-          "hash": "bV8fy0Xs+1YoehqauBsAeyjbAsEJ3Yij5ABYayfKVGM="
+          "hash": "EKcNES2ViFRNRSPx9/y6BJebHPgQNh4NDCdlvpscQLQ="
         }
       },
       "is_incremental": false,
@@ -222,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.Equality.html",
-          "hash": "jPPX/TVnSsAweX2hXQX/Fg+bTHCSOSXbuVzapSL/LMo="
+          "hash": "SgrFNDGHDHah8FtVvdNBL0BZ4twC4X6qX6f+zz1qSZ0="
         }
       },
       "is_incremental": false,
@@ -234,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.Gradients.html",
-          "hash": "f7j6mV8XY8m3Erei9OJyTrU3EMwd51NGLZnWRUf323c="
+          "hash": "0onwH9RSO8aSSWkU2VfIN1Os8MVqK+Sg5sD6ibh/T1U="
         }
       },
       "is_incremental": false,
@@ -246,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.HSB.html",
-          "hash": "UIFxlWIzYhsjdcQu0PtWGKxsSa52rymdrMjLgxdUlKk="
+          "hash": "nbi5t5ZGivy7qYbGQUe55H530RkITZuIqNRtqqe8BCI="
         }
       },
       "is_incremental": false,
@@ -258,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.HSI.html",
-          "hash": "10gpD5CrQA2GfWtXk9kK2U96i9M1paU5gLAW/6GqtHk="
+          "hash": "6g/tA/yhZRcs5+5a3ncdlRG9NIm9TchIxmcXbnzs5KQ="
         }
       },
       "is_incremental": false,
@@ -270,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.HSL.html",
-          "hash": "YLnYDgb3HpNooyr1eC3BKEH0z9b/WxrjeVpYa2yLKhM="
+          "hash": "VUO9Hi64l4QSME7qWLOwXO6kzuWZXCJR4zzRxZ889tA="
         }
       },
       "is_incremental": false,
@@ -282,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.HSV.html",
-          "hash": "jCs/neHzLsuA4ZPD7qY3+u1z9XvEyaLFVyOPxOiO7yU="
+          "hash": "3qm8AD8xnkngIgq/+8e6zOf2slhqF7OLeN/QIqCqJKk="
         }
       },
       "is_incremental": false,
@@ -294,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.Harmonies.html",
-          "hash": "iCK4l9hdAJgkNgzkQq3pco6zB1qcMnkitRJw7g4ouvk="
+          "hash": "0O/h5JtOy29qKTmkHaHkOjsmMy086zszHPy2ixiLLfI="
         }
       },
       "is_incremental": false,
@@ -306,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.Hex.html",
-          "hash": "EGDr1W/wO2gqRaKKblkkWqX4K513jRPXbzv318sfJec="
+          "hash": "QXe4S5lT/usBtqUCKO03g8AVM3e/oN956quiR9VoooU="
         }
       },
       "is_incremental": false,
@@ -318,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.HunterLab.html",
-          "hash": "IZ9wOBxD/X4XK+ycbtk7kI/tpdGWaJyssfj6/c3tnok="
+          "hash": "LDdKS4w6dC7TW++Lptge4ySIU9Sf6QUFMalHDraTBCk="
         }
       },
       "is_incremental": false,
@@ -330,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.Illuminant.html",
-          "hash": "LY/k8KCG0012w/wCFBzzll2aBGC8cdYGIlRZpDPLBQM="
+          "hash": "0pjsE6dshUzlBJFc2gFCyJMW7LqrHnrW11t4mJ6T7AI="
         }
       },
       "is_incremental": false,
@@ -342,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.IlluminantExtensions.html",
-          "hash": "8SSSHm6aMxUpbdxkJ8qO6y9CINC4mT++qLRdC2Ra9TA="
+          "hash": "8tZ2fKC7G3g17mAdWipwA2yIxV0qxjAnT63ezW/yyDQ="
         }
       },
       "is_incremental": false,
@@ -354,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.LAB.html",
-          "hash": "lEebmQN6vITl2faojwStjEbEq5clQEj4OM/ZpxEpCKU="
+          "hash": "wMesca/NW+o+frT/qYSIzl6gdJBnrGJ4jW/74qigS4Q="
         }
       },
       "is_incremental": false,
@@ -366,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.LCH_ab.html",
-          "hash": "pHgR3/4WtoMIXfYB1OYMfGK4Rmi2syTjHcn17UOvHJc="
+          "hash": "vVQhWlQu43YVQG8BLfCEroXDuWk/ypLxru6CcDciN6U="
         }
       },
       "is_incremental": false,
@@ -378,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.LCH_uv.html",
-          "hash": "96JBPh3fbAzUfjWoi6I4/FxUEJaBKgN35UMgEToVtuQ="
+          "hash": "k0cEwyJBRLh8LUXJLEVPGZQPtguYDVdBk016Ul67XeQ="
         }
       },
       "is_incremental": false,
@@ -390,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.LUV.html",
-          "hash": "C+AGisbDqaI5s0hfGaXKznJCnYIiyWNLVYq0SZ3OnO0="
+          "hash": "6B+GfO0xGHJiLkNuinigujSA9TqPwxe4/MWllGPLjAU="
         }
       },
       "is_incremental": false,
@@ -402,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.Luminance.html",
-          "hash": "TmojuodNT6Tkg/Uo+TAU8wN+D1h0JKnnixp/HcaK5Js="
+          "hash": "ILdcypO0yDzoLs1LDSu7j4Bn9TvRpGVq6xNVcY4EUbQ="
         }
       },
       "is_incremental": false,
@@ -414,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.MaterialPalette.html",
-          "hash": "pRqWO42a2kH4mYQxqgUBDKSyoG7bd1Bm7OYpsu9nJiA="
+          "hash": "7EFF8ec6NFuH7XhYY5emx0NLKPpqvz5d+04N/SLiyyc="
         }
       },
       "is_incremental": false,
@@ -426,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.Mixing.html",
-          "hash": "LJiQ14GfRHDUzpo730DhqZ4FZ2JuoiB1L2sziRYTQJQ="
+          "hash": "NRiHPI24IY/La0h1SqzKesGptYayrJ0qG5wP0rwGeM4="
         }
       },
       "is_incremental": false,
@@ -438,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.MixingModel.html",
-          "hash": "Zfkont4g/aXD163k75BpKNZLT6GD+APzp28ipPO2Tyc="
+          "hash": "xFPuGZ7Ccb1FS/bTbcQ9Yyqwj2dEPE0NtTD34e5fCEc="
         }
       },
       "is_incremental": false,
@@ -450,7 +438,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.MixingModelExtensions.html",
-          "hash": "Ns6N+1zFfB/4bitoyT16qa0aW6yGrV5Au9XHrsZ3N4g="
+          "hash": "aR21nJSjAKScayP6IxnuqzxUpGmXnUT6IcgEXv/oqHg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorUtils.Palette.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorUtils.Palette.html",
+          "hash": "oQEvBxbu7ZShTshL05BBL6ssd+27sJ1XF26jY4REeeg="
         }
       },
       "is_incremental": false,
@@ -462,7 +462,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.RGB.html",
-          "hash": "Moj4NmrzyJgH3xuzZxcoClrEkQFzvVsk2YnV0EgMxZM="
+          "hash": "nNROcxg1sK0ubtdnokv/XPZBZefcwajRvHYAPsXy090="
         }
       },
       "is_incremental": false,
@@ -474,7 +474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.RGB255.html",
-          "hash": "S6KPkxYBoLi2UrgFTcq5iTeFoD34688fh9o65CP5u3o="
+          "hash": "Ug1Zy2cAfUn5vfLOFYXkyq+eH405jPWBFKUoosC1/kQ="
         }
       },
       "is_incremental": false,
@@ -486,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.RGBA.html",
-          "hash": "hTqeqmmYrNNgKKnr/lI0nxVPrrAKauyq8dptRBBtowU="
+          "hash": "W+ovYiq14hW6vU0ehk3POAMaww+ytvkg0/XZBw+wMjQ="
         }
       },
       "is_incremental": false,
@@ -498,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.RGBA255.html",
-          "hash": "TFsPBrk1/WMVWNtDaai+C1vpx9Cfd4Col0stphHJKZw="
+          "hash": "4TQBgPk0MBr/o3eoLVXkAdO64WlnFS9naqVvj+RtngY="
         }
       },
       "is_incremental": false,
@@ -510,7 +510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.Random.html",
-          "hash": "06YF+ZPM8FUVyoB5GywHSh857IlOTBGHXVlnNFC3hwk="
+          "hash": "k6UZWb3EDkOnDSnKh0XEWw88lpTfk0DbZBsgZrF1Xvg="
         }
       },
       "is_incremental": false,
@@ -522,7 +522,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.SignalEncoding.html",
-          "hash": "93STt2jpZfxODoUCmD8uYdwx1XNy/orn4xT88R1ppag="
+          "hash": "edSqwlmSVySsWEXJdLYn8Setrb2XjRmcDSIPeNlgpb4="
         }
       },
       "is_incremental": false,
@@ -534,7 +534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.SignalEncodingExtensions.html",
-          "hash": "txCZudIfDh0YdT0HEuFjjh65knPkZHugfuV2RnS5qFg="
+          "hash": "fe42dBhKCKLb+LNUne1kOsVRu41LaLLbGAQAddOPLQ8="
         }
       },
       "is_incremental": false,
@@ -546,7 +546,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.StandardObserver.html",
-          "hash": "t9vs4T2s5OjZSsu0osbcczkRXFFEwinwpWE3CHBfSq0="
+          "hash": "bM4NRDQMSAq7ZiMixPgYU1EV/JhpMTv4Ueb9QyaX2sk="
         }
       },
       "is_incremental": false,
@@ -558,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.Temperature.html",
-          "hash": "Zk37PipkMTETG8h8wpHi8Ro3kGdxtVGh3/CfCyNzdhE="
+          "hash": "zKmcqC+zc8Sb1sJifZCl9dJhvGHtXFHrJJ6KMqTKdVg="
         }
       },
       "is_incremental": false,
@@ -570,7 +570,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.Tristimulus.html",
-          "hash": "soLKixnSejrXdXAu5aCrtVDXtDgDqKupBcupxUa3tgw="
+          "hash": "RdGSdTqFE2ywbBxWgg9bkecVgz3UrVOFX/KOaBfRHF8="
         }
       },
       "is_incremental": false,
@@ -582,7 +582,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.UCS.html",
-          "hash": "LSbNdBkAjG0bKtAtslOFIuhCEM+v9nAjrQPXtANBdeY="
+          "hash": "m+K1h7i9rh5yl3UyYbr6L3Bgci0k5kQH6PKmKCiO5rs="
         }
       },
       "is_incremental": false,
@@ -594,7 +594,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.UVW.html",
-          "hash": "2n+l7b25IItJv2p/nU04ks5uFlVwD0E1B3noGYxXUHM="
+          "hash": "IBZ9+z0g+txrVs+oPPU7dG4Rj7d9GQ8AAEoW07xAVfc="
         }
       },
       "is_incremental": false,
@@ -606,7 +606,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.XYZ.html",
-          "hash": "Hbn56IwOqLk4tlikOrwLfS1SXqagcbTlKTBmhZD7i4w="
+          "hash": "6Y3K3sWju4IU7098ufZBYpQqVoxKGj0yWmVhffjw0Ww="
         }
       },
       "is_incremental": false,
@@ -618,7 +618,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.YCbCr.html",
-          "hash": "XrfYV96bOl5h7Al+z1NBuVFb9LpvVPBxf745izVFtGo="
+          "hash": "rlFsTlcPZHswtj29vMSInt+R7xH2QcBu9hk0hHFwWFQ="
         }
       },
       "is_incremental": false,
@@ -630,7 +630,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.YIQ.html",
-          "hash": "Yln22BBQhDGsgw9G336mmdl5tBlxtS/qB6VF8mBuAKo="
+          "hash": "s56bpwCpiV4lypUGaBfZx9+v7/0c67QGkDLeqQuKGJg="
         }
       },
       "is_incremental": false,
@@ -642,7 +642,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.YPbPr.html",
-          "hash": "Dac4jXE90oDYKHnW3uCTEsRvs4saoFT9f0gXKIydc30="
+          "hash": "s3grwiPxKWIKSbtH3oMecvO7K9T6IQgDrvmkJbQIzvE="
         }
       },
       "is_incremental": false,
@@ -654,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.YUV.html",
-          "hash": "rtNnhIdJtCBTB53tBQxYDuZ5dPjFpvmTT0BM14vnMKg="
+          "hash": "RsAPbiXtFuWQ/2UHC2LRwUQ78J3VVuEqVxY+b+SO0+c="
         }
       },
       "is_incremental": false,
@@ -666,7 +666,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.xyY.html",
-          "hash": "nHwIaeOhMxTENqT5iQtVxdLURoJJYESNhZjGaCR21u0="
+          "hash": "xDkxS8A6+4LF+EPQ3MihyxD/sotLWQApdatzeGKeDq0="
         }
       },
       "is_incremental": false,
@@ -678,7 +678,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorUtils.html",
-          "hash": "xhT9LYMlK9uecScmumvDKGVfn2hIQ29vKyRQTQiqkuI="
+          "hash": "smo4K/xFhfOa8+kkJmAqSKHbYAvdSWOr3GjW/2Kt0A8="
         }
       },
       "is_incremental": false,
@@ -690,7 +690,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "uEY5Cy/my9+4Mo8/g6CWhjZgPau7tRDxq0tVY88iDcA="
+          "hash": "sobY4TPmKrT+cizgq/IgIvvHTi2ffPPKYJD4Uo8XwAI="
         }
       },
       "is_incremental": false,

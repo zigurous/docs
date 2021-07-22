@@ -80,10 +80,10 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.ColorUtils.Accessibility">
-  
   <h1 id="Zigurous_ColorUtils_Accessibility" data-uid="Zigurous.ColorUtils.Accessibility" class="text-break">Class Accessibility
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Functions for testing color accessibility requirements.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -91,61 +91,42 @@
     <div class="level1"><span class="xref">Accessibility</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.ColorUtils.html">Zigurous.ColorUtils</a></h6>
-  <h5 id="Zigurous_ColorUtils_Accessibility_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class Accessibility</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <a id="Zigurous_ColorUtils_Accessibility_IsCompliant_" data-uid="Zigurous.ColorUtils.Accessibility.IsCompliant*"></a>
-  <h4 id="Zigurous_ColorUtils_Accessibility_IsCompliant_Color_Zigurous_ColorUtils_Accessibility_Requirement_Color_" data-uid="Zigurous.ColorUtils.Accessibility.IsCompliant(Color,Zigurous.ColorUtils.Accessibility.Requirement,Color)">IsCompliant(Color, Accessibility.Requirement, Color)</h4>
+  <h4 id="Zigurous_ColorUtils_Accessibility_IsCompliant_Color_Color_Zigurous_ColorUtils_Accessibility_Requirement_" data-uid="Zigurous.ColorUtils.Accessibility.IsCompliant(Color,Color,Zigurous.ColorUtils.Accessibility.Requirement)">IsCompliant(Color, Color, Accessibility.Requirement)</h4>
   <div class="markdown level1 summary"><p>Determines if the contrast between the color and a background color
 is compliant to a given accessibility requirement.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsCompliant(this Color color, Accessibility.Requirement requirement, Color background)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsCompliant(this Color foreground, Color background, Accessibility.Requirement requirement)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
-        <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><span class="parametername">foreground</span></td>
+        <td><p>The foreground color.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Accessibility.Requirement.html">Accessibility.Requirement</a></td>
-        <td><span class="parametername">requirement</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">background</span></td>
-        <td></td>
+        <td><p>The background color.</p>
+</td>
       </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><span class="parametername">requirement</span></td>
+        <td><p>The requirement to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -155,49 +136,31 @@ is compliant to a given accessibility requirement.</p>
 background color is compliant to a given accessibility requirement.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsCompliant(Accessibility.Requirement requirement, Color foreground, Color background)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Accessibility.Requirement.html">Accessibility.Requirement</a></td>
         <td><span class="parametername">requirement</span></td>
-        <td></td>
+        <td><p>The requirement to check.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">foreground</span></td>
-        <td></td>
+        <td><p>The foreground color.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">background</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>The background color.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -207,39 +170,21 @@ background color is compliant to a given accessibility requirement.</p>
 given accessibility requirement.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static float MinimumContrastRatio(this Accessibility.Requirement requirement)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Accessibility.Requirement.html">Accessibility.Requirement</a></td>
         <td><span class="parametername">requirement</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td></td>
+        <td><p>The requirement to check.</p>
+</td>
       </tr>
     </tbody>
   </table>

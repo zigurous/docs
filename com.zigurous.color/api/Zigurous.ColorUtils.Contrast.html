@@ -80,10 +80,10 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.ColorUtils.Contrast">
-  
   <h1 id="Zigurous_ColorUtils_Contrast" data-uid="Zigurous.ColorUtils.Contrast" class="text-break">Class Contrast
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Functions for calculating contrast between colors.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -91,7 +91,6 @@
     <div class="level1"><span class="xref">Contrast</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.ColorUtils.html">Zigurous.ColorUtils</a></h6>
-  <h5 id="Zigurous_ColorUtils_Contrast_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class Contrast</code></pre>
   </div>
@@ -102,44 +101,26 @@
   <div class="markdown level1 summary"><p>Returns the contrast ratio between two colors.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float ContrastRatioBetween(Color a, Color b)</code></pre>
+    <pre><code class="lang-csharp hljs">public static float ContrastRatioBetween(Color first, Color second)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
-        <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><span class="parametername">first</span></td>
+        <td><p>The first color to compare.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Color</span></td>
-        <td><span class="parametername">b</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td></td>
+        <td><span class="parametername">second</span></td>
+        <td><p>The second color to compare.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -148,242 +129,148 @@
   <div class="markdown level1 summary"><p>Returns the contrast ratio of the color to another.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static float ContrastRatioTo(this Color color, Color other)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The first color to compare.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">other</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td></td>
+        <td><p>The second color to compare.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorUtils_Contrast_HigherContrastingColor_" data-uid="Zigurous.ColorUtils.Contrast.HigherContrastingColor*"></a>
   <h4 id="Zigurous_ColorUtils_Contrast_HigherContrastingColor_Color_Color_Color_" data-uid="Zigurous.ColorUtils.Contrast.HigherContrastingColor(Color,Color,Color)">HigherContrastingColor(Color, Color, Color)</h4>
-  <div class="markdown level1 summary"><p>Returns the color that has the higher contrast ratio to the current
-color.</p>
+  <div class="markdown level1 summary"><p>Returns the color that has the higher contrast ratio to the current color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Color HigherContrastingColor(this Color color, Color a, Color b)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to compare to.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><p>The first color to test.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Color</span></td>
-        <td></td>
+        <td><p>The second color to test.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorUtils_Contrast_HighestContrastingColor_" data-uid="Zigurous.ColorUtils.Contrast.HighestContrastingColor*"></a>
   <h4 id="Zigurous_ColorUtils_Contrast_HighestContrastingColor_Color_Color___" data-uid="Zigurous.ColorUtils.Contrast.HighestContrastingColor(Color,Color[])">HighestContrastingColor(Color, Color[])</h4>
-  <div class="markdown level1 summary"><p>Returns the color that has the highest contrast ratio to the current
-color.</p>
+  <div class="markdown level1 summary"><p>Returns the color that has the highest contrast ratio to the current color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Color HighestContrastingColor(this Color color, params Color[] colors)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to compare to.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Color</span>[]</td>
         <td><span class="parametername">colors</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Color</span></td>
-        <td></td>
+        <td><p>The colors to test.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorUtils_Contrast_LowerContrastingColor_" data-uid="Zigurous.ColorUtils.Contrast.LowerContrastingColor*"></a>
   <h4 id="Zigurous_ColorUtils_Contrast_LowerContrastingColor_Color_Color_Color_" data-uid="Zigurous.ColorUtils.Contrast.LowerContrastingColor(Color,Color,Color)">LowerContrastingColor(Color, Color, Color)</h4>
-  <div class="markdown level1 summary"><p>Returns the color that has the lower contrast ratio to the current
-color.</p>
+  <div class="markdown level1 summary"><p>Returns the color that has the lower contrast ratio to the current color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Color LowerContrastingColor(this Color color, Color a, Color b)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to compare to.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><p>The first color to test.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Color</span></td>
-        <td></td>
+        <td><p>The second color to test.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorUtils_Contrast_LowestContrastingColor_" data-uid="Zigurous.ColorUtils.Contrast.LowestContrastingColor*"></a>
   <h4 id="Zigurous_ColorUtils_Contrast_LowestContrastingColor_Color_Color___" data-uid="Zigurous.ColorUtils.Contrast.LowestContrastingColor(Color,Color[])">LowestContrastingColor(Color, Color[])</h4>
-  <div class="markdown level1 summary"><p>Returns the color that has the lowest contrast ratio to the current
-color.</p>
+  <div class="markdown level1 summary"><p>Returns the color that has the lowest contrast ratio to the current color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Color LowestContrastingColor(this Color color, params Color[] colors)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to compare to.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Color</span>[]</td>
         <td><span class="parametername">colors</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Color</span></td>
-        <td></td>
+        <td><p>The colors to test.</p>
+</td>
       </tr>
     </tbody>
   </table>

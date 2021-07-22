@@ -80,10 +80,11 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.ColorUtils.Adjustment">
-  
   <h1 id="Zigurous_ColorUtils_Adjustment" data-uid="Zigurous.ColorUtils.Adjustment" class="text-break">Class Adjustment
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Functions for adjusting color values, e.g., hue, saturation, brightness,
+lightness, etc.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -91,7 +92,6 @@
     <div class="level1"><span class="xref">Adjustment</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.ColorUtils.html">Zigurous.ColorUtils</a></h6>
-  <h5 id="Zigurous_ColorUtils_Adjustment_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class Adjustment</code></pre>
   </div>
@@ -102,39 +102,49 @@
   <div class="markdown level1 summary"><p>Returns the complement of the color by shifting the hue 180°.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Color Complement(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to get the complement of.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <a id="Zigurous_ColorUtils_Adjustment_Darken_" data-uid="Zigurous.ColorUtils.Adjustment.Darken*"></a>
+  <h4 id="Zigurous_ColorUtils_Adjustment_Darken_Color__System_Single_" data-uid="Zigurous.ColorUtils.Adjustment.Darken(Color@,System.Single)">Darken(ref Color, Single)</h4>
+  <div class="markdown level1 summary"><p>Decreases the lightness of the color by the given amount.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Darken(this ref Color color, float decrease = 0.1F)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
-        <td></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to adjust.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">decrease</span></td>
+        <td><p>The amount to decrease the lightness.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -143,44 +153,54 @@
   <div class="markdown level1 summary"><p>Returns a new instance of the color with decreased lightness.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color Darker(this Color color, float percent = 0.1F)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color Darker(this Color color, float decrease = 0.1F)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to adjust.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">percent</span></td>
-        <td></td>
+        <td><span class="parametername">decrease</span></td>
+        <td><p>The amount to decrease the lightness.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <a id="Zigurous_ColorUtils_Adjustment_Desaturate_" data-uid="Zigurous.ColorUtils.Adjustment.Desaturate*"></a>
+  <h4 id="Zigurous_ColorUtils_Adjustment_Desaturate_Color__System_Single_" data-uid="Zigurous.ColorUtils.Adjustment.Desaturate(Color@,System.Single)">Desaturate(ref Color, Single)</h4>
+  <div class="markdown level1 summary"><p>Decreases the saturation of the color by the given amount.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Desaturate(this ref Color color, float amount = 0.1F)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
-        <td></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to adjust.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">amount</span></td>
+        <td><p>The amount to decrease the saturation.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -189,174 +209,204 @@
   <div class="markdown level1 summary"><p>Returns a new instance of the color with decreased saturation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color Desaturated(this Color color, float percent = 0.1F)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color Desaturated(this Color color, float amount = 0.1F)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to adjust.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">percent</span></td>
-        <td></td>
+        <td><span class="parametername">amount</span></td>
+        <td><p>The amount to decrease the saturation.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <a id="Zigurous_ColorUtils_Adjustment_Grayscale_" data-uid="Zigurous.ColorUtils.Adjustment.Grayscale*"></a>
+  <h4 id="Zigurous_ColorUtils_Adjustment_Grayscale_Color__" data-uid="Zigurous.ColorUtils.Adjustment.Grayscale(Color@)">Grayscale(ref Color)</h4>
+  <div class="markdown level1 summary"><p>Sets the saturation of the color to zero.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Grayscale(this ref Color color)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
-        <td></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to adjust.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorUtils_Adjustment_Grayscaled_" data-uid="Zigurous.ColorUtils.Adjustment.Grayscaled*"></a>
   <h4 id="Zigurous_ColorUtils_Adjustment_Grayscaled_Color_" data-uid="Zigurous.ColorUtils.Adjustment.Grayscaled(Color)">Grayscaled(Color)</h4>
-  <div class="markdown level1 summary"><p>Returns a new instance of the color with 100% decreased saturation.</p>
+  <div class="markdown level1 summary"><p>Returns a new instance of the color with zero saturation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Color Grayscaled(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Color</span></td>
-        <td></td>
+        <td><p>The color to adjust.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorUtils_Adjustment_HueShift_" data-uid="Zigurous.ColorUtils.Adjustment.HueShift*"></a>
-  <h4 id="Zigurous_ColorUtils_Adjustment_HueShift_Color_System_Single_" data-uid="Zigurous.ColorUtils.Adjustment.HueShift(Color,System.Single)">HueShift(Color, Single)</h4>
+  <h4 id="Zigurous_ColorUtils_Adjustment_HueShift_Color__System_Single_" data-uid="Zigurous.ColorUtils.Adjustment.HueShift(Color@,System.Single)">HueShift(ref Color, Single)</h4>
+  <div class="markdown level1 summary"><p>Shifts the hue of the color by the given amount of degrees.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void HueShift(this ref Color color, float degrees)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to adjust.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">degrees</span></td>
+        <td><p>The amount of degrees to shift the hue.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorUtils_Adjustment_HueShifted_" data-uid="Zigurous.ColorUtils.Adjustment.HueShifted*"></a>
+  <h4 id="Zigurous_ColorUtils_Adjustment_HueShifted_Color_System_Single_" data-uid="Zigurous.ColorUtils.Adjustment.HueShifted(Color,System.Single)">HueShifted(Color, Single)</h4>
   <div class="markdown level1 summary"><p>Returns a new instance of the color by shifting its hue by a given
 amount of degrees.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color HueShift(this Color color, float degrees)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color HueShifted(this Color color, float degrees)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to adjust.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">degrees</span></td>
-        <td></td>
+        <td><p>The amount of degrees to shift the hue.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <a id="Zigurous_ColorUtils_Adjustment_Invert_" data-uid="Zigurous.ColorUtils.Adjustment.Invert*"></a>
+  <h4 id="Zigurous_ColorUtils_Adjustment_Invert_Color__" data-uid="Zigurous.ColorUtils.Adjustment.Invert(Color@)">Invert(ref Color)</h4>
+  <div class="markdown level1 summary"><p>Inverts the color by subtracting the RGB components from 1.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Invert(this ref Color color)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
-        <td></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to invert.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorUtils_Adjustment_Inverted_" data-uid="Zigurous.ColorUtils.Adjustment.Inverted*"></a>
   <h4 id="Zigurous_ColorUtils_Adjustment_Inverted_Color_" data-uid="Zigurous.ColorUtils.Adjustment.Inverted(Color)">Inverted(Color)</h4>
-  <div class="markdown level1 summary"><p>Returns the inverse of the color by subtracting the RGB component
-values from 1.</p>
+  <div class="markdown level1 summary"><p>Returns the inverse of the color by subtracting the RGB components
+from 1.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Color Inverted(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to get the inverse of.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <a id="Zigurous_ColorUtils_Adjustment_Lighten_" data-uid="Zigurous.ColorUtils.Adjustment.Lighten*"></a>
+  <h4 id="Zigurous_ColorUtils_Adjustment_Lighten_Color__System_Single_" data-uid="Zigurous.ColorUtils.Adjustment.Lighten(Color@,System.Single)">Lighten(ref Color, Single)</h4>
+  <div class="markdown level1 summary"><p>Increases the lightness of the color by the given amount.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Lighten(this ref Color color, float increase = 0.1F)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
-        <td></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to adjust.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">increase</span></td>
+        <td><p>The amount to increase the lightness.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -365,44 +415,54 @@ values from 1.</p>
   <div class="markdown level1 summary"><p>Returns a new instance of the color with increased lightness.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color Lighter(this Color color, float percent = 0.1F)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color Lighter(this Color color, float increase = 0.1F)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to adjust.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">percent</span></td>
-        <td></td>
+        <td><span class="parametername">increase</span></td>
+        <td><p>The amount to increase the lightness.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <a id="Zigurous_ColorUtils_Adjustment_Saturate_" data-uid="Zigurous.ColorUtils.Adjustment.Saturate*"></a>
+  <h4 id="Zigurous_ColorUtils_Adjustment_Saturate_Color__System_Single_" data-uid="Zigurous.ColorUtils.Adjustment.Saturate(Color@,System.Single)">Saturate(ref Color, Single)</h4>
+  <div class="markdown level1 summary"><p>Increases the saturation of the color by the given amount.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Saturate(this ref Color color, float amount = 0.1F)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
-        <td></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to adjust.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">amount</span></td>
+        <td><p>The amount to increase the saturation.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -411,44 +471,49 @@ values from 1.</p>
   <div class="markdown level1 summary"><p>Returns a new instance of the color with increased saturation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color Saturated(this Color color, float percent = 0.1F)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color Saturated(this Color color, float amount = 0.1F)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to adjust.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">percent</span></td>
-        <td></td>
+        <td><span class="parametername">amount</span></td>
+        <td><p>The amount to increase the saturation.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <a id="Zigurous_ColorUtils_Adjustment_WebSafe_" data-uid="Zigurous.ColorUtils.Adjustment.WebSafe*"></a>
+  <h4 id="Zigurous_ColorUtils_Adjustment_WebSafe_Color_" data-uid="Zigurous.ColorUtils.Adjustment.WebSafe(Color)">WebSafe(Color)</h4>
+  <div class="markdown level1 summary"><p>Returns the nearest websafe color to the current color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color WebSafe(this Color color)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
-        <td></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to get the closet websafe color of.</p>
+</td>
       </tr>
     </tbody>
   </table>

@@ -80,10 +80,10 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.ColorUtils.Conversion">
-  
   <h1 id="Zigurous_ColorUtils_Conversion" data-uid="Zigurous.ColorUtils.Conversion" class="text-break">Class Conversion
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Functions for converting between color spaces and models.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -91,7 +91,6 @@
     <div class="level1"><span class="xref">Conversion</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.ColorUtils.html">Zigurous.ColorUtils</a></h6>
-  <h5 id="Zigurous_ColorUtils_Conversion_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class Conversion</code></pre>
   </div>
@@ -103,39 +102,21 @@
 the range [0..1].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static ARGB ToARGB(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.ARGB.html">ARGB</a></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -145,44 +126,41 @@ the range [0..1].</p>
 the range [0..1].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToARGB(this Color color, out float a, out float r, out float g, out float b)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><p>The alpha component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">r</span></td>
-        <td></td>
+        <td><p>The red component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">g</span></td>
-        <td></td>
+        <td><p>The green component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><p>The blue component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -192,39 +170,21 @@ the range [0..1].</p>
 the range [0..255].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static ARGB255 ToARGB255(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.ARGB255.html">ARGB255</a></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -234,44 +194,41 @@ the range [0..255].</p>
 the range [0..1].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToARGB255(this Color color, out int a, out int r, out int g, out int b)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><p>The alpha component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">r</span></td>
-        <td></td>
+        <td><p>The red component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">g</span></td>
-        <td></td>
+        <td><p>The green component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><p>The blue component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -281,39 +238,21 @@ the range [0..1].</p>
 components in the range [0..1].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static CMYK ToCMYK(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.CMYK.html">CMYK</a></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -323,44 +262,41 @@ components in the range [0..1].</p>
 components in the range [0..1].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToCMYK(this Color color, out float c, out float m, out float y, out float k)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">c</span></td>
-        <td></td>
+        <td><p>The cyan component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">m</span></td>
-        <td></td>
+        <td><p>The magenta component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">y</span></td>
-        <td></td>
+        <td><p>The yellow component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">k</span></td>
-        <td></td>
+        <td><p>The black component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -370,39 +306,21 @@ components in the range [0..1].</p>
 in the range [0..1].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static HSB ToHSB(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.HSB.html">HSB</a></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -412,39 +330,36 @@ in the range [0..1].</p>
 in the range [0..1].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToHSB(this Color color, out float h, out float s, out float b)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">h</span></td>
-        <td></td>
+        <td><p>The hue component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">s</span></td>
-        <td></td>
+        <td><p>The saturation component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><p>The brightness component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -454,39 +369,21 @@ in the range [0..1].</p>
 in the range [0..1].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static HSI ToHSI(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.HSI.html">HSI</a></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -496,39 +393,36 @@ in the range [0..1].</p>
 in the range [0..1].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToHSI(this Color color, out float h, out float s, out float i)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">h</span></td>
-        <td></td>
+        <td><p>The hue component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">s</span></td>
-        <td></td>
+        <td><p>The saturation component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">i</span></td>
-        <td></td>
+        <td><p>The intensity component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -538,39 +432,21 @@ in the range [0..1].</p>
 in the range [0..1].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static HSL ToHSL(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.HSL.html">HSL</a></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -580,39 +456,36 @@ in the range [0..1].</p>
 in the range [0..1].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToHSL(this Color color, out float h, out float s, out float l)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">h</span></td>
-        <td></td>
+        <td><p>The hue component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">s</span></td>
-        <td></td>
+        <td><p>The saturation component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">l</span></td>
-        <td></td>
+        <td><p>The lightness component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -622,39 +495,21 @@ in the range [0..1].</p>
 the range [0..1].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static HSV ToHSV(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.HSV.html">HSV</a></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -664,39 +519,36 @@ the range [0..1].</p>
 the range [0..1].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToHSV(this Color color, out float h, out float s, out float v)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">h</span></td>
-        <td></td>
+        <td><p>The hue component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">s</span></td>
-        <td></td>
+        <td><p>The saturation component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">v</span></td>
-        <td></td>
+        <td><p>The value component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -705,39 +557,21 @@ the range [0..1].</p>
   <div class="markdown level1 summary"><p>Converts the color into Hunter Lab components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static HunterLab ToHunterLab(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.HunterLab.html">HunterLab</a></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -746,39 +580,36 @@ the range [0..1].</p>
   <div class="markdown level1 summary"><p>Converts the color into Hunter Lab components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToHunterLab(this Color color, out float L, out float a, out float b)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">L</span></td>
-        <td></td>
+        <td><p>The L component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><p>The a component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><p>The b component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -788,49 +619,31 @@ the range [0..1].</p>
 illuminant and standard observer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static HunterLab ToHunterLab(this Color color, Illuminant illuminant, StandardObserver observer)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Illuminant.html">Illuminant</a></td>
         <td><span class="parametername">illuminant</span></td>
-        <td></td>
+        <td><p>The illuminant to use.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.StandardObserver.html">StandardObserver</a></td>
         <td><span class="parametername">observer</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.HunterLab.html">HunterLab</a></td>
-        <td></td>
+        <td><p>The standard observer to use.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -840,143 +653,117 @@ illuminant and standard observer.</p>
 illuminant and standard observer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToHunterLab(this Color color, Illuminant illuminant, StandardObserver observer, out float L, out float a, out float b)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Illuminant.html">Illuminant</a></td>
         <td><span class="parametername">illuminant</span></td>
-        <td></td>
+        <td><p>The illuminant to use.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.StandardObserver.html">StandardObserver</a></td>
         <td><span class="parametername">observer</span></td>
-        <td></td>
+        <td><p>The standard observer to use.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">L</span></td>
-        <td></td>
+        <td><p>The L component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><p>The a component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><p>The b component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorUtils_Conversion_ToHunterLab_" data-uid="Zigurous.ColorUtils.Conversion.ToHunterLab*"></a>
   <h4 id="Zigurous_ColorUtils_Conversion_ToHunterLab_Color_Zigurous_ColorUtils_Tristimulus_" data-uid="Zigurous.ColorUtils.Conversion.ToHunterLab(Color,Zigurous.ColorUtils.Tristimulus)">ToHunterLab(Color, Tristimulus)</h4>
-  <div class="markdown level1 summary"><p>Converts the color into Hunter Lab components using the given white
-point.</p>
+  <div class="markdown level1 summary"><p>Converts the color into Hunter Lab components using the given white point.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static HunterLab ToHunterLab(this Color color, Tristimulus whitePoint)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Tristimulus.html">Tristimulus</a></td>
         <td><span class="parametername">whitePoint</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.HunterLab.html">HunterLab</a></td>
-        <td></td>
+        <td><p>The white point to use.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorUtils_Conversion_ToHunterLab_" data-uid="Zigurous.ColorUtils.Conversion.ToHunterLab*"></a>
   <h4 id="Zigurous_ColorUtils_Conversion_ToHunterLab_Color_Zigurous_ColorUtils_Tristimulus_System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorUtils.Conversion.ToHunterLab(Color,Zigurous.ColorUtils.Tristimulus,System.Single@,System.Single@,System.Single@)">ToHunterLab(Color, Tristimulus, out Single, out Single, out Single)</h4>
-  <div class="markdown level1 summary"><p>Converts the color into Hunter Lab components using the given white
-point.</p>
+  <div class="markdown level1 summary"><p>Converts the color into Hunter Lab components using the given white point.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToHunterLab(this Color color, Tristimulus whitePoint, out float L, out float a, out float b)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Tristimulus.html">Tristimulus</a></td>
         <td><span class="parametername">whitePoint</span></td>
-        <td></td>
+        <td><p>The white point to use.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">L</span></td>
-        <td></td>
+        <td><p>The L component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><p>The a component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><p>The b component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -985,39 +772,21 @@ point.</p>
   <div class="markdown level1 summary"><p>Converts the color into LAB components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static LAB ToLAB(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.LAB.html">LAB</a></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1026,39 +795,36 @@ point.</p>
   <div class="markdown level1 summary"><p>Converts the color into LAB components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToLAB(this Color color, out float L, out float a, out float b)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">L</span></td>
-        <td></td>
+        <td><p>The L component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><p>The a component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><p>The b component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1068,49 +834,31 @@ point.</p>
 and standard observer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static LAB ToLAB(this Color color, Illuminant illuminant, StandardObserver observer)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Illuminant.html">Illuminant</a></td>
         <td><span class="parametername">illuminant</span></td>
-        <td></td>
+        <td><p>The illuminant to use.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.StandardObserver.html">StandardObserver</a></td>
         <td><span class="parametername">observer</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.LAB.html">LAB</a></td>
-        <td></td>
+        <td><p>The standard observer to use.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1120,49 +868,46 @@ and standard observer.</p>
 and standard observer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToLAB(this Color color, Illuminant illuminant, StandardObserver observer, out float L, out float a, out float b)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Illuminant.html">Illuminant</a></td>
         <td><span class="parametername">illuminant</span></td>
-        <td></td>
+        <td><p>The illuminant to use.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.StandardObserver.html">StandardObserver</a></td>
         <td><span class="parametername">observer</span></td>
-        <td></td>
+        <td><p>The standard observer to use.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">L</span></td>
-        <td></td>
+        <td><p>The L component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><p>The a component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><p>The b component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1171,44 +916,26 @@ and standard observer.</p>
   <div class="markdown level1 summary"><p>Converts the color into LAB components using the given white point.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static LAB ToLAB(this Color color, Tristimulus whitePoint)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Tristimulus.html">Tristimulus</a></td>
         <td><span class="parametername">whitePoint</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.LAB.html">LAB</a></td>
-        <td></td>
+        <td><p>The white point to use.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1217,44 +944,41 @@ and standard observer.</p>
   <div class="markdown level1 summary"><p>Converts the color into LAB components using the given white point.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToLAB(this Color color, Tristimulus whitePoint, out float L, out float a, out float b)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Tristimulus.html">Tristimulus</a></td>
         <td><span class="parametername">whitePoint</span></td>
-        <td></td>
+        <td><p>The white point to use.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">L</span></td>
-        <td></td>
+        <td><p>The L component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><p>The a component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><p>The b component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1263,39 +987,21 @@ and standard observer.</p>
   <div class="markdown level1 summary"><p>Converts the color into LCH_ab components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static LCH_ab ToLCH_ab(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.LCH_ab.html">LCH_ab</a></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1304,39 +1010,36 @@ and standard observer.</p>
   <div class="markdown level1 summary"><p>Converts the color into LCH_ab components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToLCH_ab(this Color color, out float L, out float C, out float h)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">L</span></td>
-        <td></td>
+        <td><p>The L component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">C</span></td>
-        <td></td>
+        <td><p>The C component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">h</span></td>
-        <td></td>
+        <td><p>The h component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1346,49 +1049,31 @@ and standard observer.</p>
 and standard observer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static LCH_ab ToLCH_ab(this Color color, Illuminant illuminant, StandardObserver observer)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Illuminant.html">Illuminant</a></td>
         <td><span class="parametername">illuminant</span></td>
-        <td></td>
+        <td><p>The illuminant to use.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.StandardObserver.html">StandardObserver</a></td>
         <td><span class="parametername">observer</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.LCH_ab.html">LCH_ab</a></td>
-        <td></td>
+        <td><p>The standard observer to use.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1398,143 +1083,117 @@ and standard observer.</p>
 and standard observer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToLCH_ab(this Color color, Illuminant illuminant, StandardObserver observer, out float L, out float C, out float h)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Illuminant.html">Illuminant</a></td>
         <td><span class="parametername">illuminant</span></td>
-        <td></td>
+        <td><p>The illuminant to use.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.StandardObserver.html">StandardObserver</a></td>
         <td><span class="parametername">observer</span></td>
-        <td></td>
+        <td><p>The standard observer to use.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">L</span></td>
-        <td></td>
+        <td><p>The L component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">C</span></td>
-        <td></td>
+        <td><p>The C component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">h</span></td>
-        <td></td>
+        <td><p>The h component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorUtils_Conversion_ToLCH_ab_" data-uid="Zigurous.ColorUtils.Conversion.ToLCH_ab*"></a>
   <h4 id="Zigurous_ColorUtils_Conversion_ToLCH_ab_Color_Zigurous_ColorUtils_Tristimulus_" data-uid="Zigurous.ColorUtils.Conversion.ToLCH_ab(Color,Zigurous.ColorUtils.Tristimulus)">ToLCH_ab(Color, Tristimulus)</h4>
-  <div class="markdown level1 summary"><p>Converts the color into LCH_ab components using the given white
-point.</p>
+  <div class="markdown level1 summary"><p>Converts the color into LCH_ab components using the given white point.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static LCH_ab ToLCH_ab(this Color color, Tristimulus whitePoint)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Tristimulus.html">Tristimulus</a></td>
         <td><span class="parametername">whitePoint</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.LCH_ab.html">LCH_ab</a></td>
-        <td></td>
+        <td><p>The white point to use.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorUtils_Conversion_ToLCH_ab_" data-uid="Zigurous.ColorUtils.Conversion.ToLCH_ab*"></a>
   <h4 id="Zigurous_ColorUtils_Conversion_ToLCH_ab_Color_Zigurous_ColorUtils_Tristimulus_System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorUtils.Conversion.ToLCH_ab(Color,Zigurous.ColorUtils.Tristimulus,System.Single@,System.Single@,System.Single@)">ToLCH_ab(Color, Tristimulus, out Single, out Single, out Single)</h4>
-  <div class="markdown level1 summary"><p>Converts the color into LCH_ab components using the given white
-point.</p>
+  <div class="markdown level1 summary"><p>Converts the color into LCH_ab components using the given white point.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToLCH_ab(this Color color, Tristimulus whitePoint, out float L, out float C, out float h)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Tristimulus.html">Tristimulus</a></td>
         <td><span class="parametername">whitePoint</span></td>
-        <td></td>
+        <td><p>The white point to use.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">L</span></td>
-        <td></td>
+        <td><p>The L component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">C</span></td>
-        <td></td>
+        <td><p>The C component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">h</span></td>
-        <td></td>
+        <td><p>The h component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1543,39 +1202,21 @@ point.</p>
   <div class="markdown level1 summary"><p>Converts the color into LCH_uv components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static LCH_uv ToLCH_uv(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.LCH_uv.html">LCH_uv</a></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1584,39 +1225,36 @@ point.</p>
   <div class="markdown level1 summary"><p>Converts the color into LCH_uv components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToLCH_uv(this Color color, out float L, out float C, out float h)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">L</span></td>
-        <td></td>
+        <td><p>The L component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">C</span></td>
-        <td></td>
+        <td><p>The C component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">h</span></td>
-        <td></td>
+        <td><p>The h component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1626,49 +1264,31 @@ point.</p>
 and standard observer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static LCH_uv ToLCH_uv(this Color color, Illuminant illuminant, StandardObserver observer)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Illuminant.html">Illuminant</a></td>
         <td><span class="parametername">illuminant</span></td>
-        <td></td>
+        <td><p>The illuminant to use.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.StandardObserver.html">StandardObserver</a></td>
         <td><span class="parametername">observer</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.LCH_uv.html">LCH_uv</a></td>
-        <td></td>
+        <td><p>The standard observer to use.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1678,143 +1298,117 @@ and standard observer.</p>
 and standard observer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToLCH_uv(this Color color, Illuminant illuminant, StandardObserver observer, out float L, out float C, out float h)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Illuminant.html">Illuminant</a></td>
         <td><span class="parametername">illuminant</span></td>
-        <td></td>
+        <td><p>The illuminant to use.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.StandardObserver.html">StandardObserver</a></td>
         <td><span class="parametername">observer</span></td>
-        <td></td>
+        <td><p>The standard observer to use.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">L</span></td>
-        <td></td>
+        <td><p>The L component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">C</span></td>
-        <td></td>
+        <td><p>The C component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">h</span></td>
-        <td></td>
+        <td><p>The h component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorUtils_Conversion_ToLCH_uv_" data-uid="Zigurous.ColorUtils.Conversion.ToLCH_uv*"></a>
   <h4 id="Zigurous_ColorUtils_Conversion_ToLCH_uv_Color_Zigurous_ColorUtils_Tristimulus_" data-uid="Zigurous.ColorUtils.Conversion.ToLCH_uv(Color,Zigurous.ColorUtils.Tristimulus)">ToLCH_uv(Color, Tristimulus)</h4>
-  <div class="markdown level1 summary"><p>Converts the color into LCH_uv components using the given white
-point.</p>
+  <div class="markdown level1 summary"><p>Converts the color into LCH_uv components using the given white point.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static LCH_uv ToLCH_uv(this Color color, Tristimulus whitePoint)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Tristimulus.html">Tristimulus</a></td>
         <td><span class="parametername">whitePoint</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.LCH_uv.html">LCH_uv</a></td>
-        <td></td>
+        <td><p>The white point to use.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorUtils_Conversion_ToLCH_uv_" data-uid="Zigurous.ColorUtils.Conversion.ToLCH_uv*"></a>
   <h4 id="Zigurous_ColorUtils_Conversion_ToLCH_uv_Color_Zigurous_ColorUtils_Tristimulus_System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorUtils.Conversion.ToLCH_uv(Color,Zigurous.ColorUtils.Tristimulus,System.Single@,System.Single@,System.Single@)">ToLCH_uv(Color, Tristimulus, out Single, out Single, out Single)</h4>
-  <div class="markdown level1 summary"><p>Converts the color into LCH_uv components using the given white
-point.</p>
+  <div class="markdown level1 summary"><p>Converts the color into LCH_uv components using the given white point.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToLCH_uv(this Color color, Tristimulus whitePoint, out float L, out float C, out float h)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Tristimulus.html">Tristimulus</a></td>
         <td><span class="parametername">whitePoint</span></td>
-        <td></td>
+        <td><p>The white point to use.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">L</span></td>
-        <td></td>
+        <td><p>The L component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">C</span></td>
-        <td></td>
+        <td><p>The C component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">h</span></td>
-        <td></td>
+        <td><p>The h component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1823,39 +1417,21 @@ point.</p>
   <div class="markdown level1 summary"><p>Converts the color into LUV components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static LUV ToLUV(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.LUV.html">LUV</a></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1864,39 +1440,36 @@ point.</p>
   <div class="markdown level1 summary"><p>Converts the color into LUV components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToLUV(this Color color, out float L, out float u, out float v)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">L</span></td>
-        <td></td>
+        <td><p>The L component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">u</span></td>
-        <td></td>
+        <td><p>The u component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">v</span></td>
-        <td></td>
+        <td><p>The v component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1906,49 +1479,31 @@ point.</p>
 and standard observer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static LUV ToLUV(this Color color, Illuminant illuminant, StandardObserver observer)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Illuminant.html">Illuminant</a></td>
         <td><span class="parametername">illuminant</span></td>
-        <td></td>
+        <td><p>The illuminant to use.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.StandardObserver.html">StandardObserver</a></td>
         <td><span class="parametername">observer</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.LUV.html">LUV</a></td>
-        <td></td>
+        <td><p>The standard observer to use.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1958,49 +1513,46 @@ and standard observer.</p>
 and standard observer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToLUV(this Color color, Illuminant illuminant, StandardObserver observer, out float L, out float u, out float v)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Illuminant.html">Illuminant</a></td>
         <td><span class="parametername">illuminant</span></td>
-        <td></td>
+        <td><p>The illuminant to use.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.StandardObserver.html">StandardObserver</a></td>
         <td><span class="parametername">observer</span></td>
-        <td></td>
+        <td><p>The standard observer to use.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">L</span></td>
-        <td></td>
+        <td><p>The L component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">u</span></td>
-        <td></td>
+        <td><p>The u component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">v</span></td>
-        <td></td>
+        <td><p>The v component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2009,44 +1561,26 @@ and standard observer.</p>
   <div class="markdown level1 summary"><p>Converts the color into LUV components using the given white point.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static LUV ToLUV(this Color color, Tristimulus whitePoint)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Tristimulus.html">Tristimulus</a></td>
         <td><span class="parametername">whitePoint</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.LUV.html">LUV</a></td>
-        <td></td>
+        <td><p>The white point to use.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2055,44 +1589,41 @@ and standard observer.</p>
   <div class="markdown level1 summary"><p>Converts the color into LUV components using the given white point.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToLUV(this Color color, Tristimulus whitePoint, out float L, out float u, out float v)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Tristimulus.html">Tristimulus</a></td>
         <td><span class="parametername">whitePoint</span></td>
-        <td></td>
+        <td><p>The white point to use.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">L</span></td>
-        <td></td>
+        <td><p>The L component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">u</span></td>
-        <td></td>
+        <td><p>The u component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">v</span></td>
-        <td></td>
+        <td><p>The v component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2102,39 +1633,21 @@ and standard observer.</p>
 range [0..1].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static RGB ToRGB(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.RGB.html">RGB</a></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2144,39 +1657,36 @@ range [0..1].</p>
 range [0..1].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToRGB(this Color color, out float r, out float g, out float b)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">r</span></td>
-        <td></td>
+        <td><p>The red component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">g</span></td>
-        <td></td>
+        <td><p>The green component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><p>The blue component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2186,39 +1696,21 @@ range [0..1].</p>
 range [0..255].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static RGB255 ToRGB255(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.RGB255.html">RGB255</a></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2228,39 +1720,36 @@ range [0..255].</p>
 range [0..1].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToRGB255(this Color color, out int r, out int g, out int b)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">r</span></td>
-        <td></td>
+        <td><p>The red component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">g</span></td>
-        <td></td>
+        <td><p>The green component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><p>The blue component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2270,39 +1759,21 @@ range [0..1].</p>
 the range [0..1].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static RGBA ToRGBA(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.RGBA.html">RGBA</a></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2312,44 +1783,41 @@ the range [0..1].</p>
 the range [0..1].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToRGBA(this Color color, out float r, out float g, out float b, out float a)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">r</span></td>
-        <td></td>
+        <td><p>The red component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">g</span></td>
-        <td></td>
+        <td><p>The green component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><p>The blue component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><p>The alpha component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2359,39 +1827,21 @@ the range [0..1].</p>
 the range [0..255].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static RGBA255 ToRGBA255(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.RGBA255.html">RGBA255</a></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2401,44 +1851,41 @@ the range [0..255].</p>
 the range [0..1].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToRGBA255(this Color color, out int r, out int g, out int b, out int a)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">r</span></td>
-        <td></td>
+        <td><p>The red component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">g</span></td>
-        <td></td>
+        <td><p>The green component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">b</span></td>
-        <td></td>
+        <td><p>The blue component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">a</span></td>
-        <td></td>
+        <td><p>The alpha component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2447,39 +1894,21 @@ the range [0..1].</p>
   <div class="markdown level1 summary"><p>Converts the color into UCS components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static UCS ToUCS(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.UCS.html">UCS</a></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2488,34 +1917,31 @@ the range [0..1].</p>
   <div class="markdown level1 summary"><p>Converts the color into UCS components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToUCS(this Color color, out float u, out float v)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">u</span></td>
-        <td></td>
+        <td><p>The u component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">v</span></td>
-        <td></td>
+        <td><p>The v component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2524,39 +1950,21 @@ the range [0..1].</p>
   <div class="markdown level1 summary"><p>Converts the color into UVW components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static UVW ToUVW(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.UVW.html">UVW</a></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2565,39 +1973,36 @@ the range [0..1].</p>
   <div class="markdown level1 summary"><p>Converts the color into UVW components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToUVW(this Color color, out float U, out float V, out float W)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">U</span></td>
-        <td></td>
+        <td><p>The U component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">V</span></td>
-        <td></td>
+        <td><p>The V component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">W</span></td>
-        <td></td>
+        <td><p>The W component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2607,49 +2012,31 @@ the range [0..1].</p>
 and standard observer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static UVW ToUVW(this Color color, Illuminant illuminant, StandardObserver observer)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Illuminant.html">Illuminant</a></td>
         <td><span class="parametername">illuminant</span></td>
-        <td></td>
+        <td><p>The illuminant to use.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.StandardObserver.html">StandardObserver</a></td>
         <td><span class="parametername">observer</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.UVW.html">UVW</a></td>
-        <td></td>
+        <td><p>The standard observer to use.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2659,49 +2046,46 @@ and standard observer.</p>
 and standard observer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToUVW(this Color color, Illuminant illuminant, StandardObserver observer, out float U, out float V, out float W)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Illuminant.html">Illuminant</a></td>
         <td><span class="parametername">illuminant</span></td>
-        <td></td>
+        <td><p>The illuminant to use.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.StandardObserver.html">StandardObserver</a></td>
         <td><span class="parametername">observer</span></td>
-        <td></td>
+        <td><p>The standard observer to use.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">U</span></td>
-        <td></td>
+        <td><p>The U component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">V</span></td>
-        <td></td>
+        <td><p>The V component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">W</span></td>
-        <td></td>
+        <td><p>The W component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2710,44 +2094,26 @@ and standard observer.</p>
   <div class="markdown level1 summary"><p>Converts the color into UVW components using the given white point.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static UVW ToUVW(this Color color, Tristimulus whitePoint)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Tristimulus.html">Tristimulus</a></td>
         <td><span class="parametername">whitePoint</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.UVW.html">UVW</a></td>
-        <td></td>
+        <td><p>The white point to use.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2756,44 +2122,41 @@ and standard observer.</p>
   <div class="markdown level1 summary"><p>Converts the color into UVW components using the given white point.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToUVW(this Color color, Tristimulus whitePoint, out float U, out float V, out float W)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Tristimulus.html">Tristimulus</a></td>
         <td><span class="parametername">whitePoint</span></td>
-        <td></td>
+        <td><p>The white point to use.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">U</span></td>
-        <td></td>
+        <td><p>The U component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">V</span></td>
-        <td></td>
+        <td><p>The V component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">W</span></td>
-        <td></td>
+        <td><p>The W component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2802,39 +2165,21 @@ and standard observer.</p>
   <div class="markdown level1 summary"><p>Converts the color into xyY components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static xyY ToxyY(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.xyY.html">xyY</a></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2843,39 +2188,36 @@ and standard observer.</p>
   <div class="markdown level1 summary"><p>Converts the color into xyY components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToxyY(this Color color, out float x, out float y, out float Y)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">x</span></td>
-        <td></td>
+        <td><p>The x component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">y</span></td>
-        <td></td>
+        <td><p>The y component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">Y</span></td>
-        <td></td>
+        <td><p>The Y component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2884,39 +2226,21 @@ and standard observer.</p>
   <div class="markdown level1 summary"><p>Converts the color into XYZ components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static XYZ ToXYZ(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.XYZ.html">XYZ</a></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2925,39 +2249,36 @@ and standard observer.</p>
   <div class="markdown level1 summary"><p>Converts the color into XYZ components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToXYZ(this Color color, out float X, out float Y, out float Z)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">X</span></td>
-        <td></td>
+        <td><p>The X component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">Y</span></td>
-        <td></td>
+        <td><p>The Y component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">Z</span></td>
-        <td></td>
+        <td><p>The Z component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2966,39 +2287,21 @@ and standard observer.</p>
   <div class="markdown level1 summary"><p>Converts the color into Y′CbCr components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static YCbCr ToYCbCr(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.YCbCr.html">YCbCr</a></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -3007,133 +2310,107 @@ and standard observer.</p>
   <div class="markdown level1 summary"><p>Converts the color into Y′CbCr components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToYCbCr(this Color color, out float Y, out float Cb, out float Cr)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">Y</span></td>
-        <td></td>
+        <td><p>The Y component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">Cb</span></td>
-        <td></td>
+        <td><p>The Cb component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">Cr</span></td>
-        <td></td>
+        <td><p>The Cr component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorUtils_Conversion_ToYCbCr_" data-uid="Zigurous.ColorUtils.Conversion.ToYCbCr*"></a>
   <h4 id="Zigurous_ColorUtils_Conversion_ToYCbCr_Color_Zigurous_ColorUtils_SignalEncoding_" data-uid="Zigurous.ColorUtils.Conversion.ToYCbCr(Color,Zigurous.ColorUtils.SignalEncoding)">ToYCbCr(Color, SignalEncoding)</h4>
-  <div class="markdown level1 summary"><p>Converts the color into Y′CbCr components using the given signal
-encoding.</p>
+  <div class="markdown level1 summary"><p>Converts the color into Y′CbCr components using the given signal encoding.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static YCbCr ToYCbCr(this Color color, SignalEncoding encoding)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.SignalEncoding.html">SignalEncoding</a></td>
         <td><span class="parametername">encoding</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.YCbCr.html">YCbCr</a></td>
-        <td></td>
+        <td><p>The signal encoding to use.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorUtils_Conversion_ToYCbCr_" data-uid="Zigurous.ColorUtils.Conversion.ToYCbCr*"></a>
   <h4 id="Zigurous_ColorUtils_Conversion_ToYCbCr_Color_Zigurous_ColorUtils_SignalEncoding_System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorUtils.Conversion.ToYCbCr(Color,Zigurous.ColorUtils.SignalEncoding,System.Single@,System.Single@,System.Single@)">ToYCbCr(Color, SignalEncoding, out Single, out Single, out Single)</h4>
-  <div class="markdown level1 summary"><p>Converts the color into Y′CbCr components using the given signal
-encoding.</p>
+  <div class="markdown level1 summary"><p>Converts the color into Y′CbCr components using the given signal encoding.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToYCbCr(this Color color, SignalEncoding encoding, out float Y, out float Cb, out float Cr)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.SignalEncoding.html">SignalEncoding</a></td>
         <td><span class="parametername">encoding</span></td>
-        <td></td>
+        <td><p>The signal encoding to use.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">Y</span></td>
-        <td></td>
+        <td><p>The Y component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">Cb</span></td>
-        <td></td>
+        <td><p>The Cb component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">Cr</span></td>
-        <td></td>
+        <td><p>The Cr component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -3142,39 +2419,21 @@ encoding.</p>
   <div class="markdown level1 summary"><p>Converts the color into Y′IQ components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static YIQ ToYIQ(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.YIQ.html">YIQ</a></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -3183,133 +2442,107 @@ encoding.</p>
   <div class="markdown level1 summary"><p>Converts the color into Y′IQ components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToYIQ(this Color color, out float Y, out float I, out float Q)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">Y</span></td>
-        <td></td>
+        <td><p>The Y component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">I</span></td>
-        <td></td>
+        <td><p>The I component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">Q</span></td>
-        <td></td>
+        <td><p>The Q component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorUtils_Conversion_ToYIQ_" data-uid="Zigurous.ColorUtils.Conversion.ToYIQ*"></a>
   <h4 id="Zigurous_ColorUtils_Conversion_ToYIQ_Color_Zigurous_ColorUtils_SignalEncoding_" data-uid="Zigurous.ColorUtils.Conversion.ToYIQ(Color,Zigurous.ColorUtils.SignalEncoding)">ToYIQ(Color, SignalEncoding)</h4>
-  <div class="markdown level1 summary"><p>Converts the color into Y′IQ components using the given signal
-encoding.</p>
+  <div class="markdown level1 summary"><p>Converts the color into Y′IQ components using the given signal encoding.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static YIQ ToYIQ(this Color color, SignalEncoding encoding)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.SignalEncoding.html">SignalEncoding</a></td>
         <td><span class="parametername">encoding</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.YIQ.html">YIQ</a></td>
-        <td></td>
+        <td><p>The signal encoding to use.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorUtils_Conversion_ToYIQ_" data-uid="Zigurous.ColorUtils.Conversion.ToYIQ*"></a>
   <h4 id="Zigurous_ColorUtils_Conversion_ToYIQ_Color_Zigurous_ColorUtils_SignalEncoding_System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorUtils.Conversion.ToYIQ(Color,Zigurous.ColorUtils.SignalEncoding,System.Single@,System.Single@,System.Single@)">ToYIQ(Color, SignalEncoding, out Single, out Single, out Single)</h4>
-  <div class="markdown level1 summary"><p>Converts the color into Y′IQ components using the given signal
-encoding.</p>
+  <div class="markdown level1 summary"><p>Converts the color into Y′IQ components using the given signal encoding.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToYIQ(this Color color, SignalEncoding encoding, out float Y, out float I, out float Q)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.SignalEncoding.html">SignalEncoding</a></td>
         <td><span class="parametername">encoding</span></td>
-        <td></td>
+        <td><p>The signal encoding to use.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">Y</span></td>
-        <td></td>
+        <td><p>The Y component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">I</span></td>
-        <td></td>
+        <td><p>The I component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">Q</span></td>
-        <td></td>
+        <td><p>The Q component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -3318,39 +2551,21 @@ encoding.</p>
   <div class="markdown level1 summary"><p>Converts the color into Y′PbPr components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static YPbPr ToYPbPr(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.YPbPr.html">YPbPr</a></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -3359,133 +2574,107 @@ encoding.</p>
   <div class="markdown level1 summary"><p>Converts the color into Y′PbPr components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToYPbPr(this Color color, out float Y, out float Pb, out float Pr)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">Y</span></td>
-        <td></td>
+        <td><p>The Y component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">Pb</span></td>
-        <td></td>
+        <td><p>The Pb component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">Pr</span></td>
-        <td></td>
+        <td><p>The Pr component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorUtils_Conversion_ToYPbPr_" data-uid="Zigurous.ColorUtils.Conversion.ToYPbPr*"></a>
   <h4 id="Zigurous_ColorUtils_Conversion_ToYPbPr_Color_Zigurous_ColorUtils_SignalEncoding_" data-uid="Zigurous.ColorUtils.Conversion.ToYPbPr(Color,Zigurous.ColorUtils.SignalEncoding)">ToYPbPr(Color, SignalEncoding)</h4>
-  <div class="markdown level1 summary"><p>Converts the color into Y′PbPr components using the given signal
-encoding.</p>
+  <div class="markdown level1 summary"><p>Converts the color into Y′PbPr components using the given signal encoding.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static YPbPr ToYPbPr(this Color color, SignalEncoding encoding)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.SignalEncoding.html">SignalEncoding</a></td>
         <td><span class="parametername">encoding</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.YPbPr.html">YPbPr</a></td>
-        <td></td>
+        <td><p>The signal encoding to use.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorUtils_Conversion_ToYPbPr_" data-uid="Zigurous.ColorUtils.Conversion.ToYPbPr*"></a>
   <h4 id="Zigurous_ColorUtils_Conversion_ToYPbPr_Color_Zigurous_ColorUtils_SignalEncoding_System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorUtils.Conversion.ToYPbPr(Color,Zigurous.ColorUtils.SignalEncoding,System.Single@,System.Single@,System.Single@)">ToYPbPr(Color, SignalEncoding, out Single, out Single, out Single)</h4>
-  <div class="markdown level1 summary"><p>Converts the color into Y′PbPr components using the given signal
-encoding.</p>
+  <div class="markdown level1 summary"><p>Converts the color into Y′PbPr components using the given signal encoding.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToYPbPr(this Color color, SignalEncoding encoding, out float Y, out float Pb, out float Pr)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.SignalEncoding.html">SignalEncoding</a></td>
         <td><span class="parametername">encoding</span></td>
-        <td></td>
+        <td><p>The signal encoding to use.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">Y</span></td>
-        <td></td>
+        <td><p>The Y component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">Pb</span></td>
-        <td></td>
+        <td><p>The Pb component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">Pr</span></td>
-        <td></td>
+        <td><p>The Pr component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -3494,39 +2683,21 @@ encoding.</p>
   <div class="markdown level1 summary"><p>Converts the color into Y′UV components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static YUV ToYUV(this Color color)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.YUV.html">YUV</a></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -3535,174 +2706,107 @@ encoding.</p>
   <div class="markdown level1 summary"><p>Converts the color into Y′UV components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToYUV(this Color color, out float Y, out float U, out float V)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">Y</span></td>
-        <td></td>
+        <td><p>The Y component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">U</span></td>
-        <td></td>
+        <td><p>The U component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">V</span></td>
-        <td></td>
+        <td><p>The V component output.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorUtils_Conversion_ToYUV_" data-uid="Zigurous.ColorUtils.Conversion.ToYUV*"></a>
   <h4 id="Zigurous_ColorUtils_Conversion_ToYUV_Color_Zigurous_ColorUtils_SignalEncoding_" data-uid="Zigurous.ColorUtils.Conversion.ToYUV(Color,Zigurous.ColorUtils.SignalEncoding)">ToYUV(Color, SignalEncoding)</h4>
-  <div class="markdown level1 summary"><p>Converts the color into Y′UV components using the given signal
-encoding.</p>
+  <div class="markdown level1 summary"><p>Converts the color into Y′UV components using the given signal encoding.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static YUV ToYUV(this Color color, SignalEncoding encoding)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.SignalEncoding.html">SignalEncoding</a></td>
         <td><span class="parametername">encoding</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.YUV.html">YUV</a></td>
-        <td></td>
+        <td><p>The signal encoding to use.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorUtils_Conversion_ToYUV_" data-uid="Zigurous.ColorUtils.Conversion.ToYUV*"></a>
   <h4 id="Zigurous_ColorUtils_Conversion_ToYUV_Color_Zigurous_ColorUtils_SignalEncoding_System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorUtils.Conversion.ToYUV(Color,Zigurous.ColorUtils.SignalEncoding,System.Single@,System.Single@,System.Single@)">ToYUV(Color, SignalEncoding, out Single, out Single, out Single)</h4>
-  <div class="markdown level1 summary"><p>Converts the color into Y′UV components using the given signal
-encoding.</p>
+  <div class="markdown level1 summary"><p>Converts the color into Y′UV components using the given signal encoding.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ToYUV(this Color color, SignalEncoding encoding, out float Y, out float U, out float V)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to convert.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.SignalEncoding.html">SignalEncoding</a></td>
         <td><span class="parametername">encoding</span></td>
-        <td></td>
+        <td><p>The signal encoding to use.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">Y</span></td>
-        <td></td>
+        <td><p>The Y component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">U</span></td>
-        <td></td>
+        <td><p>The U component output.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">V</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_ColorUtils_Conversion_WebSafe_" data-uid="Zigurous.ColorUtils.Conversion.WebSafe*"></a>
-  <h4 id="Zigurous_ColorUtils_Conversion_WebSafe_Color_" data-uid="Zigurous.ColorUtils.Conversion.WebSafe(Color)">WebSafe(Color)</h4>
-  <div class="markdown level1 summary"><p>Returns the nearest websafe color to the current color.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color WebSafe(this Color color)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Color</span></td>
-        <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Color</span></td>
-        <td></td>
+        <td><p>The V component output.</p>
+</td>
       </tr>
     </tbody>
   </table>

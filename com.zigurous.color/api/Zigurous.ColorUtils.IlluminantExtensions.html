@@ -80,10 +80,10 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.ColorUtils.IlluminantExtensions">
-  
   <h1 id="Zigurous_ColorUtils_IlluminantExtensions" data-uid="Zigurous.ColorUtils.IlluminantExtensions" class="text-break">Class IlluminantExtensions
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Extensions methods for <a class="xref" href="Zigurous.ColorUtils.Illuminant.html">Illuminant</a>.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -91,7 +91,6 @@
     <div class="level1"><span class="xref">IlluminantExtensions</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.ColorUtils.html">Zigurous.ColorUtils</a></h6>
-  <h5 id="Zigurous_ColorUtils_IlluminantExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class IlluminantExtensions</code></pre>
   </div>
@@ -99,54 +98,36 @@
   </h3>
   <a id="Zigurous_ColorUtils_IlluminantExtensions_GetWhitePoint_" data-uid="Zigurous.ColorUtils.IlluminantExtensions.GetWhitePoint*"></a>
   <h4 id="Zigurous_ColorUtils_IlluminantExtensions_GetWhitePoint_Zigurous_ColorUtils_Illuminant_Zigurous_ColorUtils_StandardObserver_System_Single_" data-uid="Zigurous.ColorUtils.IlluminantExtensions.GetWhitePoint(Zigurous.ColorUtils.Illuminant,Zigurous.ColorUtils.StandardObserver,System.Single)">GetWhitePoint(Illuminant, StandardObserver, Single)</h4>
-  <div class="markdown level1 summary"><p>Retrieves the white point tristimulus values of the illuminant while
+  <div class="markdown level1 summary"><p>Returns the white point tristimulus values of the illuminant while
 observed under a given standard observer. Values are usually scaled
 between 0 and 100.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Tristimulus GetWhitePoint(this Illuminant illuminant, StandardObserver observer = StandardObserver.Two, float scale = 100F)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Illuminant.html">Illuminant</a></td>
         <td><span class="parametername">illuminant</span></td>
-        <td></td>
+        <td><p>The illuminant to get the white point of.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.StandardObserver.html">StandardObserver</a></td>
         <td><span class="parametername">observer</span></td>
-        <td></td>
+        <td><p>The standard observer to use.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">scale</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Zigurous.ColorUtils.Tristimulus.html">Tristimulus</a></td>
-        <td></td>
+        <td><p>The scale to use for the output values.</p>
+</td>
       </tr>
     </tbody>
   </table>

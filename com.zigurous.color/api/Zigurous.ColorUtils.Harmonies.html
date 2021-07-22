@@ -80,10 +80,10 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="Zigurous.ColorUtils.Harmonies">
-  
   <h1 id="Zigurous_ColorUtils_Harmonies" data-uid="Zigurous.ColorUtils.Harmonies" class="text-break">Class Harmonies
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Functions for generating color harmonies.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -91,7 +91,6 @@
     <div class="level1"><span class="xref">Harmonies</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.ColorUtils.html">Zigurous.ColorUtils</a></h6>
-  <h5 id="Zigurous_ColorUtils_Harmonies_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class Harmonies</code></pre>
   </div>
@@ -103,49 +102,69 @@
 next to each other on the color wheel.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color[] Analogous(this Color color, int amount = 3, float hueShift = 30F)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color[] Analogous(this Color baseColor, int amount = 3, float hueShift = 30F)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
-        <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to create the harmony from.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">amount</span></td>
-        <td></td>
+        <td><p>The number of colors to create.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">hueShift</span></td>
-        <td></td>
+        <td><p>The amount of degrees to shift each hue.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <a id="Zigurous_ColorUtils_Harmonies_AnalogousNonAlloc_" data-uid="Zigurous.ColorUtils.Harmonies.AnalogousNonAlloc*"></a>
+  <h4 id="Zigurous_ColorUtils_Harmonies_AnalogousNonAlloc_Color_Color___System_Single_" data-uid="Zigurous.ColorUtils.Harmonies.AnalogousNonAlloc(Color,Color[],System.Single)">AnalogousNonAlloc(Color, Color[], Single)</h4>
+  <div class="markdown level1 summary"><p>Creates an analogous harmony of the color, a set of colors located
+next to each other on the color wheel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 id="Zigurous_ColorUtils_Harmonies_AnalogousNonAlloc_Color_Color___System_Single__remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level1 remarks"><p>This function does not allocate any memory on the heap. The amount
+of colors generated is determined by the size of the output array.</p>
+</div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AnalogousNonAlloc(this Color baseColor, Color[] output, float hueShift = 30F)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span>[]</td>
-        <td></td>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to create the harmony from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">output</span></td>
+        <td><p>The output array to store the colors in.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">hueShift</span></td>
+        <td><p>The amount of degrees to shift each hue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -155,39 +174,54 @@ next to each other on the color wheel.</p>
 opposite to each other on the color wheel.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color[] Complementary(this Color color)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color[] Complementary(this Color baseColor)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
-        <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to create the harmony from.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <a id="Zigurous_ColorUtils_Harmonies_ComplementaryNonAlloc_" data-uid="Zigurous.ColorUtils.Harmonies.ComplementaryNonAlloc*"></a>
+  <h4 id="Zigurous_ColorUtils_Harmonies_ComplementaryNonAlloc_Color_Color___" data-uid="Zigurous.ColorUtils.Harmonies.ComplementaryNonAlloc(Color,Color[])">ComplementaryNonAlloc(Color, Color[])</h4>
+  <div class="markdown level1 summary"><p>Creates a complementary harmony of the color, two colors located
+opposite to each other on the color wheel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 id="Zigurous_ColorUtils_Harmonies_ComplementaryNonAlloc_Color_Color____remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level1 remarks"><p>This function does not allocate any memory on the heap. The output
+array is populated with the two complementary colors.</p>
+</div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ComplementaryNonAlloc(this Color baseColor, Color[] output)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span>[]</td>
-        <td></td>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to create the harmony from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">output</span></td>
+        <td><p>The output array to store the colors in.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -197,39 +231,54 @@ opposite to each other on the color wheel.</p>
 of complementary colors on either side of the base color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color[] DoubleSplitComplementary(this Color color)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color[] DoubleSplitComplementary(this Color baseColor)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
-        <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to create the harmony from.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <a id="Zigurous_ColorUtils_Harmonies_DoubleSplitComplementaryNonAlloc_" data-uid="Zigurous.ColorUtils.Harmonies.DoubleSplitComplementaryNonAlloc*"></a>
+  <h4 id="Zigurous_ColorUtils_Harmonies_DoubleSplitComplementaryNonAlloc_Color_Color___" data-uid="Zigurous.ColorUtils.Harmonies.DoubleSplitComplementaryNonAlloc(Color,Color[])">DoubleSplitComplementaryNonAlloc(Color, Color[])</h4>
+  <div class="markdown level1 summary"><p>Creates a double split complementary harmony of the color, two pairs
+of complementary colors on either side of the base color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 id="Zigurous_ColorUtils_Harmonies_DoubleSplitComplementaryNonAlloc_Color_Color____remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level1 remarks"><p>This function does not allocate any memory on the heap. The output
+array is populated with four colors.</p>
+</div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DoubleSplitComplementaryNonAlloc(this Color baseColor, Color[] output)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span>[]</td>
-        <td></td>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to create the harmony from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">output</span></td>
+        <td><p>The output array to store the colors in.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -239,92 +288,126 @@ of complementary colors on either side of the base color.</p>
 shades formed from a base color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color[] Monochromatic(this Color color, int amount = 5, float delta = 0.25F)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color[] Monochromatic(this Color baseColor, int amount = 5, float difference = 0.25F)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
-        <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to create the harmony from.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">amount</span></td>
-        <td></td>
+        <td><p>The number of colors to create.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">delta</span></td>
-        <td></td>
+        <td><span class="parametername">difference</span></td>
+        <td><p>The amount of change in each color.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <a id="Zigurous_ColorUtils_Harmonies_MonochromaticNonAlloc_" data-uid="Zigurous.ColorUtils.Harmonies.MonochromaticNonAlloc*"></a>
+  <h4 id="Zigurous_ColorUtils_Harmonies_MonochromaticNonAlloc_Color_Color___System_Single_" data-uid="Zigurous.ColorUtils.Harmonies.MonochromaticNonAlloc(Color,Color[],System.Single)">MonochromaticNonAlloc(Color, Color[], Single)</h4>
+  <div class="markdown level1 summary"><p>Creates a monochromatic harmony of the color, a set of tints and
+shades formed from a base color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 id="Zigurous_ColorUtils_Harmonies_MonochromaticNonAlloc_Color_Color___System_Single__remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level1 remarks"><p>This function does not allocate any memory on the heap. The amount
+of colors generated is determined by the size of the output array.</p>
+</div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void MonochromaticNonAlloc(this Color baseColor, Color[] output, float difference = 0.25F)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span>[]</td>
-        <td></td>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to create the harmony from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">output</span></td>
+        <td><p>The output array to store the colors in.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">difference</span></td>
+        <td><p>The amount of change in each color.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorUtils_Harmonies_SplitComplementary_" data-uid="Zigurous.ColorUtils.Harmonies.SplitComplementary*"></a>
   <h4 id="Zigurous_ColorUtils_Harmonies_SplitComplementary_Color_" data-uid="Zigurous.ColorUtils.Harmonies.SplitComplementary(Color)">SplitComplementary(Color)</h4>
   <div class="markdown level1 summary"><p>Creates a split complementary harmony of the color, a base color
-with two colors adjacent to the directly opposing color on the color
-wheel.</p>
+with two colors adjacent to the directly opposing color on the color wheel.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color[] SplitComplementary(this Color color)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color[] SplitComplementary(this Color baseColor)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
-        <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to create the harmony from.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <a id="Zigurous_ColorUtils_Harmonies_SplitComplementaryNonAlloc_" data-uid="Zigurous.ColorUtils.Harmonies.SplitComplementaryNonAlloc*"></a>
+  <h4 id="Zigurous_ColorUtils_Harmonies_SplitComplementaryNonAlloc_Color_Color___" data-uid="Zigurous.ColorUtils.Harmonies.SplitComplementaryNonAlloc(Color,Color[])">SplitComplementaryNonAlloc(Color, Color[])</h4>
+  <div class="markdown level1 summary"><p>Creates a split complementary harmony of the color, a base color
+with two colors adjacent to the directly opposing color on the color wheel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 id="Zigurous_ColorUtils_Harmonies_SplitComplementaryNonAlloc_Color_Color____remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level1 remarks"><p>This function does not allocate any memory on the heap. The output
+array is populated with three colors.</p>
+</div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SplitComplementaryNonAlloc(this Color baseColor, Color[] output)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span>[]</td>
-        <td></td>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to create the harmony from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">output</span></td>
+        <td><p>The output array to store the colors in.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -334,39 +417,54 @@ wheel.</p>
 spaced around the color wheel to form a square (90° hue shifts).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color[] Square(this Color color)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color[] Square(this Color baseColor)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
-        <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to create the harmony from.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <a id="Zigurous_ColorUtils_Harmonies_SquareNonAlloc_" data-uid="Zigurous.ColorUtils.Harmonies.SquareNonAlloc*"></a>
+  <h4 id="Zigurous_ColorUtils_Harmonies_SquareNonAlloc_Color_Color___" data-uid="Zigurous.ColorUtils.Harmonies.SquareNonAlloc(Color,Color[])">SquareNonAlloc(Color, Color[])</h4>
+  <div class="markdown level1 summary"><p>Creates a tetradic (square) harmony of the color, four colors evenly
+spaced around the color wheel to form a square (90° hue shifts).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 id="Zigurous_ColorUtils_Harmonies_SquareNonAlloc_Color_Color____remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level1 remarks"><p>This function does not allocate any memory on the heap. The output
+array is populated with four colors.</p>
+</div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SquareNonAlloc(this Color baseColor, Color[] output)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span>[]</td>
-        <td></td>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to create the harmony from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">output</span></td>
+        <td><p>The output array to store the colors in.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -376,39 +474,54 @@ spaced around the color wheel to form a square (90° hue shifts).</p>
 around the color wheel to form a triangle (120° hue shifts).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color[] Triadic(this Color color)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color[] Triadic(this Color baseColor)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
-        <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to create the harmony from.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <a id="Zigurous_ColorUtils_Harmonies_TriadicNonAlloc_" data-uid="Zigurous.ColorUtils.Harmonies.TriadicNonAlloc*"></a>
+  <h4 id="Zigurous_ColorUtils_Harmonies_TriadicNonAlloc_Color_Color___" data-uid="Zigurous.ColorUtils.Harmonies.TriadicNonAlloc(Color,Color[])">TriadicNonAlloc(Color, Color[])</h4>
+  <div class="markdown level1 summary"><p>Creates a triadic harmony of the color, three colors evenly spaced
+around the color wheel to form a triangle (120° hue shifts).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 id="Zigurous_ColorUtils_Harmonies_TriadicNonAlloc_Color_Color____remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level1 remarks"><p>This function does not allocate any memory on the heap. The output
+array is populated with three colors.</p>
+</div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void TriadicNonAlloc(this Color baseColor, Color[] output)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Parameter</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span>[]</td>
-        <td></td>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to create the harmony from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">output</span></td>
+        <td><p>The output array to store the colors in.</p>
+</td>
       </tr>
     </tbody>
   </table>
