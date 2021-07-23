@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "D:/a/unity-color-utils/unity-color-utils/.docfx",
+  "source_base_path": "D:/a/unity-color-pro/unity-color-pro/.docfx",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "changelog/CHANGELOG.html",
-          "hash": "5sGpuXhn+X8uJnCdov+7iIcN0Uwi6TEUj2/OlOSHMLs="
+          "hash": "6fN8ehY/zsYGZ+Jy4wVMw31/AjLd3ri8QKrcJAEkPkM="
         }
       },
       "is_incremental": false,
@@ -26,11 +26,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.ARGB.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.ARGB.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.ARGB.html",
-          "hash": "08W8Gw0PzSIHE/242BuN4/W+/kO1VEmiCpH5Ug936es="
+          "relative_path": "api/Zigurous.ColorPro.ARGB.html",
+          "hash": "iaic66ZkCBZhR5/wzaRF+HuUOg6mUgKMFI7lEM9luxU="
         }
       },
       "is_incremental": false,
@@ -38,11 +38,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.ARGB255.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.ARGB255.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.ARGB255.html",
-          "hash": "BC1atwUzKhZyPB2NjvWSH7NmyyxTF0yHH09m2oUIwvQ="
+          "relative_path": "api/Zigurous.ColorPro.ARGB255.html",
+          "hash": "LkfbtsQLEMzXRRxhuVOoaNJTkSBvQ06OEip+lpf0s3k="
         }
       },
       "is_incremental": false,
@@ -50,11 +50,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.Accessibility.Requirement.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.Accessibility.Requirement.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.Accessibility.Requirement.html",
-          "hash": "Rm5IJXANec4DsPNeRGdOki/lv1+vnliWZUrjJPZYYM0="
+          "relative_path": "api/Zigurous.ColorPro.Accessibility.Requirement.html",
+          "hash": "bXC12YUrn5xD9vcgzZagTgeUPephXbwdOujTkNFpTTM="
         }
       },
       "is_incremental": false,
@@ -62,11 +62,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.Accessibility.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.Accessibility.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.Accessibility.html",
-          "hash": "xG1avbRrdG/k7jKQxvoWexl2CVrf19VkzxtO5nn/ETc="
+          "relative_path": "api/Zigurous.ColorPro.Accessibility.html",
+          "hash": "1JqMX2jvsgSN4tVC9FiNDMAlD+JkbHWEoSNrJ4C9y7k="
         }
       },
       "is_incremental": false,
@@ -74,11 +74,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.Adjustment.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.Adjustment.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.Adjustment.html",
-          "hash": "99K8HyV8Y03wF03kQ/qi3kz6WXHT77ZleUOVz8LDx+U="
+          "relative_path": "api/Zigurous.ColorPro.Adjustment.html",
+          "hash": "Qv614jgv4bjrJqDLyO9GXsseLLVxsr/nIz4eHiah0pg="
         }
       },
       "is_incremental": false,
@@ -86,11 +86,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.Arithmetic.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.Arithmetic.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.Arithmetic.html",
-          "hash": "fBo9/59KB/wvTuls7cnWa/NjtIhGWTjlQim8Qf5P9q0="
+          "relative_path": "api/Zigurous.ColorPro.Arithmetic.html",
+          "hash": "A0B+qnK5W8rEzrQsG5W0N/z+ACJs6Hkjo4okoCMObXI="
         }
       },
       "is_incremental": false,
@@ -98,11 +98,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.Averaging.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.Averaging.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.Averaging.html",
-          "hash": "HovIw4e0rwizI4kyNZ7vWiCbayhtIk0lW4LDh9F69HQ="
+          "relative_path": "api/Zigurous.ColorPro.Averaging.html",
+          "hash": "5KOTXloiIscS8Ehk9pKSWt3y33EFo91nVEa9uDYnsVc="
         }
       },
       "is_incremental": false,
@@ -110,11 +110,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.CMYK.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.CMYK.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.CMYK.html",
-          "hash": "xQtAX+LTP0L4b/rTuqlXqcBXd+syBfSS5m1k+ji15s4="
+          "relative_path": "api/Zigurous.ColorPro.CMYK.html",
+          "hash": "1q140v32IJ/Arpy+SM35ABqxpw9YhK+MYdbEh2e2yHo="
         }
       },
       "is_incremental": false,
@@ -122,11 +122,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.ColorModel.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.ColorModel.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.ColorModel.html",
-          "hash": "BXZIY/5a/fRPnSjYhASqVwtCHK8edb0ONP9HDgAsMH4="
+          "relative_path": "api/Zigurous.ColorPro.ColorModel.html",
+          "hash": "/szOOppwoE+ULWnq5rDGetf5HsnHhm3mLnFYXk018iU="
         }
       },
       "is_incremental": false,
@@ -134,11 +134,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.ColorPalette.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.ColorPalette.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.ColorPalette.html",
-          "hash": "P3Qjy7aoaxcfU0FNwviKB/M//rYZbyRfkoNywZ69+yg="
+          "relative_path": "api/Zigurous.ColorPro.ColorPalette.html",
+          "hash": "pGelYzc7+U7kanAkM6X0kw/kh3GIoEa0M/SexrfU860="
         }
       },
       "is_incremental": false,
@@ -146,11 +146,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.ColorSpace.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.ColorSpace.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.ColorSpace.html",
-          "hash": "7nM6YXJxhwvZEaLaWvzGN2YY/g74SIpgNbHydAwpvO4="
+          "relative_path": "api/Zigurous.ColorPro.ColorSpace.html",
+          "hash": "nS40bOKsQuMo8yBYRNSsmvuOlcNbi2tLOcNhwAlAxew="
         }
       },
       "is_incremental": false,
@@ -158,11 +158,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.ColorWheelDivision.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.ColorWheelDivision.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.ColorWheelDivision.html",
-          "hash": "IMPpz0u2UzYDI84u+rZDn+B2e4XbRZ6u6IxlqyLKwhk="
+          "relative_path": "api/Zigurous.ColorPro.ColorWheelDivision.html",
+          "hash": "e0M90IkCwmefobgLj/3/W+/kjZXhQAWp2kLNr6Cilec="
         }
       },
       "is_incremental": false,
@@ -170,11 +170,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.Components.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.Components.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.Components.html",
-          "hash": "3GS19rig1CEbQTchC6644b3BNjKySeKQZOSJzeyOvfw="
+          "relative_path": "api/Zigurous.ColorPro.Components.html",
+          "hash": "66uOPxkvRAnTnkE/9lqEzKFXQv3um9I+Nmoiq622HRA="
         }
       },
       "is_incremental": false,
@@ -182,11 +182,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.Contrast.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.Contrast.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.Contrast.html",
-          "hash": "Vfx4J7GIe/oV1CdUiYbkk1+GtpWH/sSVohpXYHpAWFs="
+          "relative_path": "api/Zigurous.ColorPro.Contrast.html",
+          "hash": "n9z66iFQKJ3mttvCnhswIBLSLQq3PWc3xUjCrBVMEzk="
         }
       },
       "is_incremental": false,
@@ -194,11 +194,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.Conversion.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.Conversion.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.Conversion.html",
-          "hash": "EKcNES2ViFRNRSPx9/y6BJebHPgQNh4NDCdlvpscQLQ="
+          "relative_path": "api/Zigurous.ColorPro.Conversion.html",
+          "hash": "XprQQY/aN4j9rm8F7FvdSiwJ6oji6zvwmVnHEkZ9J4o="
         }
       },
       "is_incremental": false,
@@ -206,11 +206,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.Equality.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.Equality.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.Equality.html",
-          "hash": "SgrFNDGHDHah8FtVvdNBL0BZ4twC4X6qX6f+zz1qSZ0="
+          "relative_path": "api/Zigurous.ColorPro.Equality.html",
+          "hash": "DtcN9ieJwIE2f0PdMI1gyljOIxMtxf3gw+vJ/6iPW8E="
         }
       },
       "is_incremental": false,
@@ -218,11 +218,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.Gradients.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.Gradients.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.Gradients.html",
-          "hash": "0onwH9RSO8aSSWkU2VfIN1Os8MVqK+Sg5sD6ibh/T1U="
+          "relative_path": "api/Zigurous.ColorPro.Gradients.html",
+          "hash": "O8Uz8HMwwjmwgPL7I2VSiEgxySSCjymWWi9DbqedfP8="
         }
       },
       "is_incremental": false,
@@ -230,11 +230,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.HSB.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.HSB.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.HSB.html",
-          "hash": "nbi5t5ZGivy7qYbGQUe55H530RkITZuIqNRtqqe8BCI="
+          "relative_path": "api/Zigurous.ColorPro.HSB.html",
+          "hash": "xj6KfQ7GYC9MqqVrgRH6F+n2zs5fpJEQ7vJiS/EnR/8="
         }
       },
       "is_incremental": false,
@@ -242,11 +242,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.HSI.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.HSI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.HSI.html",
-          "hash": "6g/tA/yhZRcs5+5a3ncdlRG9NIm9TchIxmcXbnzs5KQ="
+          "relative_path": "api/Zigurous.ColorPro.HSI.html",
+          "hash": "ajKVwo6eICsCSZhAYCK2POSBg33J+XLFJdyupxDAgRw="
         }
       },
       "is_incremental": false,
@@ -254,11 +254,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.HSL.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.HSL.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.HSL.html",
-          "hash": "VUO9Hi64l4QSME7qWLOwXO6kzuWZXCJR4zzRxZ889tA="
+          "relative_path": "api/Zigurous.ColorPro.HSL.html",
+          "hash": "OJtwzUyZMgYtOx9b1ghDDKfSWf2ADVTi6TTf/W/9jqE="
         }
       },
       "is_incremental": false,
@@ -266,11 +266,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.HSV.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.HSV.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.HSV.html",
-          "hash": "3qm8AD8xnkngIgq/+8e6zOf2slhqF7OLeN/QIqCqJKk="
+          "relative_path": "api/Zigurous.ColorPro.HSV.html",
+          "hash": "PTf4oqKjZTawJgu+p/EmPXzsbXlgMi6TCrT1drUG8hA="
         }
       },
       "is_incremental": false,
@@ -278,11 +278,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.Harmonies.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.Harmonies.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.Harmonies.html",
-          "hash": "0O/h5JtOy29qKTmkHaHkOjsmMy086zszHPy2ixiLLfI="
+          "relative_path": "api/Zigurous.ColorPro.Harmonies.html",
+          "hash": "85jQf02rZ5HFxvohMmok+NQ7IM7HPxneqyuSXdr39gs="
         }
       },
       "is_incremental": false,
@@ -290,11 +290,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.Hex.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.Hex.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.Hex.html",
-          "hash": "QXe4S5lT/usBtqUCKO03g8AVM3e/oN956quiR9VoooU="
+          "relative_path": "api/Zigurous.ColorPro.Hex.html",
+          "hash": "Cr/wtjbuKvrpJf8CHa3UDlbb85SuQZ2fFJJxY+BWzNc="
         }
       },
       "is_incremental": false,
@@ -302,11 +302,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.HunterLab.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.HunterLab.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.HunterLab.html",
-          "hash": "LDdKS4w6dC7TW++Lptge4ySIU9Sf6QUFMalHDraTBCk="
+          "relative_path": "api/Zigurous.ColorPro.HunterLab.html",
+          "hash": "G4Eu5M0FDRwmgQl3SjD8ZIOhFKVTQ8rW4MfxyIucURM="
         }
       },
       "is_incremental": false,
@@ -314,11 +314,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.Illuminant.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.Illuminant.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.Illuminant.html",
-          "hash": "0pjsE6dshUzlBJFc2gFCyJMW7LqrHnrW11t4mJ6T7AI="
+          "relative_path": "api/Zigurous.ColorPro.Illuminant.html",
+          "hash": "3mHhmP1aohZ+w/WYPbpLepWoOE7MFpG8yrG70h3OkmU="
         }
       },
       "is_incremental": false,
@@ -326,11 +326,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.IlluminantExtensions.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.IlluminantExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.IlluminantExtensions.html",
-          "hash": "8tZ2fKC7G3g17mAdWipwA2yIxV0qxjAnT63ezW/yyDQ="
+          "relative_path": "api/Zigurous.ColorPro.IlluminantExtensions.html",
+          "hash": "oAlZFRqoZJW1YtQw38ICKF5qSjEl7ouj+kpWit7jmtE="
         }
       },
       "is_incremental": false,
@@ -338,11 +338,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.LAB.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.LAB.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.LAB.html",
-          "hash": "wMesca/NW+o+frT/qYSIzl6gdJBnrGJ4jW/74qigS4Q="
+          "relative_path": "api/Zigurous.ColorPro.LAB.html",
+          "hash": "8CFunMFMcrtZPd7IOt+fCXTW9eKUEVfrbka6to4ajAs="
         }
       },
       "is_incremental": false,
@@ -350,11 +350,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.LCH_ab.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.LCH_ab.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.LCH_ab.html",
-          "hash": "vVQhWlQu43YVQG8BLfCEroXDuWk/ypLxru6CcDciN6U="
+          "relative_path": "api/Zigurous.ColorPro.LCH_ab.html",
+          "hash": "zpkt7kOcWYrcugOmwV68THux9E4K5UmuhRM7MykHA5I="
         }
       },
       "is_incremental": false,
@@ -362,11 +362,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.LCH_uv.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.LCH_uv.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.LCH_uv.html",
-          "hash": "k0cEwyJBRLh8LUXJLEVPGZQPtguYDVdBk016Ul67XeQ="
+          "relative_path": "api/Zigurous.ColorPro.LCH_uv.html",
+          "hash": "7gGFQZfkJmTuEuny8Et+lKM6rbyWMEpvMiPLkJun8zc="
         }
       },
       "is_incremental": false,
@@ -374,11 +374,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.LUV.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.LUV.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.LUV.html",
-          "hash": "6B+GfO0xGHJiLkNuinigujSA9TqPwxe4/MWllGPLjAU="
+          "relative_path": "api/Zigurous.ColorPro.LUV.html",
+          "hash": "lUOr6wWRr7fsk4HzUOjlWftjJ0ffuQkQpL5JKdQWSZ8="
         }
       },
       "is_incremental": false,
@@ -386,11 +386,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.Luminance.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.Luminance.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.Luminance.html",
-          "hash": "ILdcypO0yDzoLs1LDSu7j4Bn9TvRpGVq6xNVcY4EUbQ="
+          "relative_path": "api/Zigurous.ColorPro.Luminance.html",
+          "hash": "82F9484Jn9GGArO9B01h7mCDNqXhdf5GQsB/1vBgaJU="
         }
       },
       "is_incremental": false,
@@ -398,11 +398,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.MaterialPalette.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.MaterialPalette.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.MaterialPalette.html",
-          "hash": "7EFF8ec6NFuH7XhYY5emx0NLKPpqvz5d+04N/SLiyyc="
+          "relative_path": "api/Zigurous.ColorPro.MaterialPalette.html",
+          "hash": "ReGEElNBQbbJRm6lTzgQkcvChfP5XOw2bsmp/41vHQ0="
         }
       },
       "is_incremental": false,
@@ -410,11 +410,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.Mixing.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.Mixing.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.Mixing.html",
-          "hash": "NRiHPI24IY/La0h1SqzKesGptYayrJ0qG5wP0rwGeM4="
+          "relative_path": "api/Zigurous.ColorPro.Mixing.html",
+          "hash": "SD+2Fve0ZVuM8Yj8NbWygBO/EoAG68TBDBwoOgjFFNE="
         }
       },
       "is_incremental": false,
@@ -422,11 +422,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.MixingModel.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.MixingModel.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.MixingModel.html",
-          "hash": "xFPuGZ7Ccb1FS/bTbcQ9Yyqwj2dEPE0NtTD34e5fCEc="
+          "relative_path": "api/Zigurous.ColorPro.MixingModel.html",
+          "hash": "AZd4gEnqHMxIMD/b8KpaWd34xdf7xKgMQ257SxaYk3Q="
         }
       },
       "is_incremental": false,
@@ -434,11 +434,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.MixingModelExtensions.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.MixingModelExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.MixingModelExtensions.html",
-          "hash": "aR21nJSjAKScayP6IxnuqzxUpGmXnUT6IcgEXv/oqHg="
+          "relative_path": "api/Zigurous.ColorPro.MixingModelExtensions.html",
+          "hash": "dpuWo8cZ08g/phDh5He6PmspqM2im7XqVcr4wEUFanw="
         }
       },
       "is_incremental": false,
@@ -446,11 +446,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.Palette.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.Palette.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.Palette.html",
-          "hash": "oQEvBxbu7ZShTshL05BBL6ssd+27sJ1XF26jY4REeeg="
+          "relative_path": "api/Zigurous.ColorPro.Palette.html",
+          "hash": "oegg6VP1Lwqv4nLXpf+XYvO80fGmjNF2dPy5VtLNLkg="
         }
       },
       "is_incremental": false,
@@ -458,11 +458,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.RGB.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.RGB.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.RGB.html",
-          "hash": "nNROcxg1sK0ubtdnokv/XPZBZefcwajRvHYAPsXy090="
+          "relative_path": "api/Zigurous.ColorPro.RGB.html",
+          "hash": "vU8PlkJL7/d79MA8bMZiYXRFApW7xvsPt84quzlxfkQ="
         }
       },
       "is_incremental": false,
@@ -470,11 +470,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.RGB255.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.RGB255.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.RGB255.html",
-          "hash": "Ug1Zy2cAfUn5vfLOFYXkyq+eH405jPWBFKUoosC1/kQ="
+          "relative_path": "api/Zigurous.ColorPro.RGB255.html",
+          "hash": "9Jv8fMniRJEAJThi1h56ko+XEvFXd4aeB5jGjB7+4vM="
         }
       },
       "is_incremental": false,
@@ -482,11 +482,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.RGBA.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.RGBA.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.RGBA.html",
-          "hash": "W+ovYiq14hW6vU0ehk3POAMaww+ytvkg0/XZBw+wMjQ="
+          "relative_path": "api/Zigurous.ColorPro.RGBA.html",
+          "hash": "pzUzNHp+nmuPXSncrV/AIUnO1vlKwhKVUhOe/vSpl/I="
         }
       },
       "is_incremental": false,
@@ -494,11 +494,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.RGBA255.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.RGBA255.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.RGBA255.html",
-          "hash": "4TQBgPk0MBr/o3eoLVXkAdO64WlnFS9naqVvj+RtngY="
+          "relative_path": "api/Zigurous.ColorPro.RGBA255.html",
+          "hash": "cyS/F742pWP009vK6rWDuL3jct57zZAxjbh5qEXkabA="
         }
       },
       "is_incremental": false,
@@ -506,11 +506,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.Random.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.Random.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.Random.html",
-          "hash": "k6UZWb3EDkOnDSnKh0XEWw88lpTfk0DbZBsgZrF1Xvg="
+          "relative_path": "api/Zigurous.ColorPro.Random.html",
+          "hash": "OWQdBDWTt7amqHx0T0qjXDLKPIs2BEb19yL1DvcGcGs="
         }
       },
       "is_incremental": false,
@@ -518,11 +518,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.SignalEncoding.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.SignalEncoding.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.SignalEncoding.html",
-          "hash": "edSqwlmSVySsWEXJdLYn8Setrb2XjRmcDSIPeNlgpb4="
+          "relative_path": "api/Zigurous.ColorPro.SignalEncoding.html",
+          "hash": "y98qjMv2hoGtnQv+lpWXDGL+WHzu6fPutZqFJvSttT8="
         }
       },
       "is_incremental": false,
@@ -530,11 +530,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.SignalEncodingExtensions.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.SignalEncodingExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.SignalEncodingExtensions.html",
-          "hash": "fe42dBhKCKLb+LNUne1kOsVRu41LaLLbGAQAddOPLQ8="
+          "relative_path": "api/Zigurous.ColorPro.SignalEncodingExtensions.html",
+          "hash": "zVDtDQHFDRmBkYlbf8a5shzOaJURD2zl5L42n8hV9C4="
         }
       },
       "is_incremental": false,
@@ -542,11 +542,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.StandardObserver.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.StandardObserver.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.StandardObserver.html",
-          "hash": "bM4NRDQMSAq7ZiMixPgYU1EV/JhpMTv4Ueb9QyaX2sk="
+          "relative_path": "api/Zigurous.ColorPro.StandardObserver.html",
+          "hash": "f+rNm+LZ5bjOOmO31sCXbqep5ocwT83tdddUIpfdKC8="
         }
       },
       "is_incremental": false,
@@ -554,11 +554,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.Temperature.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.Temperature.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.Temperature.html",
-          "hash": "zKmcqC+zc8Sb1sJifZCl9dJhvGHtXFHrJJ6KMqTKdVg="
+          "relative_path": "api/Zigurous.ColorPro.Temperature.html",
+          "hash": "mbVcbh+f+hQunmnZTRlCRFTgb9qYtvUvkwIEZeJocKo="
         }
       },
       "is_incremental": false,
@@ -566,11 +566,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.Tristimulus.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.Tristimulus.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.Tristimulus.html",
-          "hash": "RdGSdTqFE2ywbBxWgg9bkecVgz3UrVOFX/KOaBfRHF8="
+          "relative_path": "api/Zigurous.ColorPro.Tristimulus.html",
+          "hash": "Xgh69Vyt/GoQH3taudIVH2ChuFmqK+Qu/Hx6VMfHX7k="
         }
       },
       "is_incremental": false,
@@ -578,11 +578,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.UCS.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.UCS.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.UCS.html",
-          "hash": "m+K1h7i9rh5yl3UyYbr6L3Bgci0k5kQH6PKmKCiO5rs="
+          "relative_path": "api/Zigurous.ColorPro.UCS.html",
+          "hash": "dbtTbJa55KDDhnhzKWApZa43SChYSWPbKKgIAYouw+Q="
         }
       },
       "is_incremental": false,
@@ -590,11 +590,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.UVW.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.UVW.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.UVW.html",
-          "hash": "IBZ9+z0g+txrVs+oPPU7dG4Rj7d9GQ8AAEoW07xAVfc="
+          "relative_path": "api/Zigurous.ColorPro.UVW.html",
+          "hash": "Sqa9yeDPazmilX71CB3eY5yunJKTvTSIvQXi5G2D5e8="
         }
       },
       "is_incremental": false,
@@ -602,11 +602,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.XYZ.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.XYZ.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.XYZ.html",
-          "hash": "6Y3K3sWju4IU7098ufZBYpQqVoxKGj0yWmVhffjw0Ww="
+          "relative_path": "api/Zigurous.ColorPro.XYZ.html",
+          "hash": "7wCX7/trDdynWsoRf14tO0Ppr1ZtS3lgd2Alx8ezQ4E="
         }
       },
       "is_incremental": false,
@@ -614,11 +614,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.YCbCr.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.YCbCr.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.YCbCr.html",
-          "hash": "rlFsTlcPZHswtj29vMSInt+R7xH2QcBu9hk0hHFwWFQ="
+          "relative_path": "api/Zigurous.ColorPro.YCbCr.html",
+          "hash": "61yawIKdGIqEJeWUounyrUnf5zNaG9O0KGMay6JxSZE="
         }
       },
       "is_incremental": false,
@@ -626,11 +626,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.YIQ.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.YIQ.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.YIQ.html",
-          "hash": "s56bpwCpiV4lypUGaBfZx9+v7/0c67QGkDLeqQuKGJg="
+          "relative_path": "api/Zigurous.ColorPro.YIQ.html",
+          "hash": "DLsSm7KTOYZXMpfdx/NGxLX55mkQRDAXwPMjhQ6txl0="
         }
       },
       "is_incremental": false,
@@ -638,11 +638,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.YPbPr.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.YPbPr.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.YPbPr.html",
-          "hash": "s3grwiPxKWIKSbtH3oMecvO7K9T6IQgDrvmkJbQIzvE="
+          "relative_path": "api/Zigurous.ColorPro.YPbPr.html",
+          "hash": "zmUMf3xscSpwM+HNv/jQha5HRi177rO5bt6TDWceCNw="
         }
       },
       "is_incremental": false,
@@ -650,11 +650,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.YUV.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.YUV.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.YUV.html",
-          "hash": "RsAPbiXtFuWQ/2UHC2LRwUQ78J3VVuEqVxY+b+SO0+c="
+          "relative_path": "api/Zigurous.ColorPro.YUV.html",
+          "hash": "AzTLhuSgj6K3JEguiade8sEhDUr/WXRPnIJavRFJNj4="
         }
       },
       "is_incremental": false,
@@ -662,11 +662,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.xyY.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.xyY.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.xyY.html",
-          "hash": "xDkxS8A6+4LF+EPQ3MihyxD/sotLWQApdatzeGKeDq0="
+          "relative_path": "api/Zigurous.ColorPro.xyY.html",
+          "hash": "bfwAhMtYhFgwubWe0/zoP+ZE1Kwx/fYgaKdLZp52K1Q="
         }
       },
       "is_incremental": false,
@@ -674,11 +674,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zigurous.ColorUtils.yml",
+      "source_relative_path": "api/Zigurous.ColorPro.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zigurous.ColorUtils.html",
-          "hash": "smo4K/xFhfOa8+kkJmAqSKHbYAvdSWOr3GjW/2Kt0A8="
+          "relative_path": "api/Zigurous.ColorPro.html",
+          "hash": "eYLZyTUo7BM/aLL1F5RJvv5YYylRBW6KMlLCZaXQPA0="
         }
       },
       "is_incremental": false,
@@ -690,7 +690,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "sobY4TPmKrT+cizgq/IgIvvHTi2ffPPKYJD4Uo8XwAI="
+          "hash": "a4Ti0trUkNUnfZZXHuf/9P0ZMrxAj/VLOQks/5OaoLI="
         }
       },
       "is_incremental": false,
@@ -736,7 +736,7 @@
       "output": {
         ".html": {
           "relative_path": "license/LICENSE.html",
-          "hash": "LfCiZW6M6mbYBucoYW9OTCsej5+urpRDVJ6K8UmfBzo="
+          "hash": "mXqW35foPtvEooH/FR8On9wTG2Gb2LGvXww5iCkFOpQ="
         }
       },
       "is_incremental": false,
@@ -771,7 +771,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/index.html",
-          "hash": "wiTKqQp7PAdfXcUm4fmbtCcjt3QPenIVtjRXNc7w5Ac="
+          "hash": "WfAkU7f1Q787Bf7dlsN6KFVeNNyrBT/rC0Lh+3B7VSo="
         }
       },
       "is_incremental": false,
@@ -783,7 +783,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/installation.html",
-          "hash": "+nmWH2qAIm6hJ7BH0BPxQMpnWzxlMFutnpSMI+L1lyY="
+          "hash": "8+yNms4f86qqBEYJGtzJPBklyrgaWQUKssCzDsOZw3Y="
         }
       },
       "is_incremental": false,
@@ -807,7 +807,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "1epL5U6k6xGv5w5RRlpJTdCTi0nLw2AJi8uvdMR5tUA="
+          "hash": "T0vcIPApHS3l4TpIonOmruwrCCCzGtIY8phtFFGW260="
         }
       },
       "is_incremental": false,

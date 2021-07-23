@@ -1,0 +1,533 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct HSL
+   | Color Pro </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct HSL
+   | Color Pro ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search">
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <div id="breadcrumb_placeholder">
+              <ul class="level1 breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <article class="content wrap" id="_content" data-uid="Zigurous.ColorPro.HSL">
+  <h1 id="Zigurous_ColorPro_HSL" data-uid="Zigurous.ColorPro.HSL" class="text-break">Struct HSL
+  </h1>
+  <div class="markdown level0 summary"><p>The HSL (hue, saturation, lightness) components of a color in the range [0..1].</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Zigurous.ColorPro.HSL.html">HSL</a>&gt;</div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.ColorPro.html">Zigurous.ColorPro</a></h6>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public struct HSL : IEquatable&lt;HSL&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="Zigurous_ColorPro_HSL__ctor_" data-uid="Zigurous.ColorPro.HSL.#ctor*"></a>
+  <h4 id="Zigurous_ColorPro_HSL__ctor_Color_" data-uid="Zigurous.ColorPro.HSL.#ctor(Color)">HSL(Color)</h4>
+  <div class="markdown level1 summary"><p>Creates new HSL components from the given color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HSL(Color color)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to extract the components from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_HSL__ctor_" data-uid="Zigurous.ColorPro.HSL.#ctor*"></a>
+  <h4 id="Zigurous_ColorPro_HSL__ctor_System_Single_System_Single_System_Single_" data-uid="Zigurous.ColorPro.HSL.#ctor(System.Single,System.Single,System.Single)">HSL(Single, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Creates new HSL components from the given values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HSL(float hue, float saturation, float lightness)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">hue</span></td>
+        <td><p>The hue component of the color in the range [0..1].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">saturation</span></td>
+        <td><p>The saturation component of the color in the range [0..1].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">lightness</span></td>
+        <td><p>The lightness component of the color in the range [0..1].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <h4 id="Zigurous_ColorPro_HSL_hue" data-uid="Zigurous.ColorPro.HSL.hue">hue</h4>
+  <div class="markdown level1 summary"><p>The hue component of the color in the range [0..1].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float hue</code></pre>
+  </div>
+  <h4 id="Zigurous_ColorPro_HSL_lightness" data-uid="Zigurous.ColorPro.HSL.lightness">lightness</h4>
+  <div class="markdown level1 summary"><p>The lightness component of the color in the range [0..1].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float lightness</code></pre>
+  </div>
+  <h4 id="Zigurous_ColorPro_HSL_saturation" data-uid="Zigurous.ColorPro.HSL.saturation">saturation</h4>
+  <div class="markdown level1 summary"><p>The saturation component of the color in the range [0..1].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float saturation</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="Zigurous_ColorPro_HSL_Equals_" data-uid="Zigurous.ColorPro.HSL.Equals*"></a>
+  <h4 id="Zigurous_ColorPro_HSL_Equals_System_Object_" data-uid="Zigurous.ColorPro.HSL.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Determines if the components are equal to <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">other</span></td>
+        <td><p>The other object to compare to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
+  <a id="Zigurous_ColorPro_HSL_Equals_" data-uid="Zigurous.ColorPro.HSL.Equals*"></a>
+  <h4 id="Zigurous_ColorPro_HSL_Equals_Zigurous_ColorPro_HSL_" data-uid="Zigurous.ColorPro.HSL.Equals(Zigurous.ColorPro.HSL)">Equals(HSL)</h4>
+  <div class="markdown level1 summary"><p>Determines if the components are equal to <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(HSL other)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">other</span></td>
+        <td><p>The other components to compare to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_HSL_GetHashCode_" data-uid="Zigurous.ColorPro.HSL.GetHashCode*"></a>
+  <h4 id="Zigurous_ColorPro_HSL_GetHashCode" data-uid="Zigurous.ColorPro.HSL.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Returns the hash code of the components.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.GetHashCode()</span></div>
+  <a id="Zigurous_ColorPro_HSL_ToColor_" data-uid="Zigurous.ColorPro.HSL.ToColor*"></a>
+  <h4 id="Zigurous_ColorPro_HSL_ToColor" data-uid="Zigurous.ColorPro.HSL.ToColor">ToColor()</h4>
+  <div class="markdown level1 summary"><p>Converts the components to a color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color ToColor()</code></pre>
+  </div>
+  <a id="Zigurous_ColorPro_HSL_ToColor_" data-uid="Zigurous.ColorPro.HSL.ToColor*"></a>
+  <h4 id="Zigurous_ColorPro_HSL_ToColor_System_Single_System_Single_System_Single_" data-uid="Zigurous.ColorPro.HSL.ToColor(System.Single,System.Single,System.Single)">ToColor(Single, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Converts HSL (hue, saturation, lightness) components to a color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color ToColor(float h, float s, float l)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">h</span></td>
+        <td><p>The hue component of the color in the range [0..1].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">s</span></td>
+        <td><p>The saturation component of the color in the range [0..1].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">l</span></td>
+        <td><p>The lightness component of the color in the range [0..1].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_HSL_ToHSB_" data-uid="Zigurous.ColorPro.HSL.ToHSB*"></a>
+  <h4 id="Zigurous_ColorPro_HSL_ToHSB_System_Single__System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorPro.HSL.ToHSB(System.Single@,System.Single@,System.Single@,System.Single@)">ToHSB(in Single, ref Single, in Single, out Single)</h4>
+  <div class="markdown level1 summary"><p>Converts HSL (hue, saturation, lightness) components to HSB (hue,
+saturation, brightness) components.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ToHSB(in float h, ref float s, in float l, out float b)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">h</span></td>
+        <td><p>The hue component of the color in the range [0..1].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">s</span></td>
+        <td><p>The saturation component of the color in the range [0..1].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">l</span></td>
+        <td><p>The lightness component of the color in the range [0..1].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">b</span></td>
+        <td><p>The brightness component of the color in the range [0..1].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_HSL_ToHSL_" data-uid="Zigurous.ColorPro.HSL.ToHSL*"></a>
+  <h4 id="Zigurous_ColorPro_HSL_ToHSL_Color_System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorPro.HSL.ToHSL(Color,System.Single@,System.Single@,System.Single@)">ToHSL(Color, out Single, out Single, out Single)</h4>
+  <div class="markdown level1 summary"><p>Converts a color to HSL (hue, saturation, lightness) components.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ToHSL(Color color, out float h, out float s, out float l)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to extract the components from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">h</span></td>
+        <td><p>The hue component output in the range [0..1].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">s</span></td>
+        <td><p>The saturation component output in the range [0..1].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">l</span></td>
+        <td><p>The lightness component output in the range [0..1].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_HSL_ToHSV_" data-uid="Zigurous.ColorPro.HSL.ToHSV*"></a>
+  <h4 id="Zigurous_ColorPro_HSL_ToHSV_System_Single__System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorPro.HSL.ToHSV(System.Single@,System.Single@,System.Single@,System.Single@)">ToHSV(in Single, ref Single, in Single, out Single)</h4>
+  <div class="markdown level1 summary"><p>Converts HSL (hue, saturation, lightness) components to HSV (hue,
+saturation, value) components.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ToHSV(in float h, ref float s, in float l, out float v)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">h</span></td>
+        <td><p>The hue component of the color in the range [0..1].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">s</span></td>
+        <td><p>The saturation component of the color in the range [0..1].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">l</span></td>
+        <td><p>The lightness component of the color in the range [0..1].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">v</span></td>
+        <td><p>The value component of the color in the range [0..1].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_HSL_ToString_" data-uid="Zigurous.ColorPro.HSL.ToString*"></a>
+  <h4 id="Zigurous_ColorPro_HSL_ToString" data-uid="Zigurous.ColorPro.HSL.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Converts the components to a string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.ToString()</span></div>
+  <h3 id="operators">Operators
+  </h3>
+  <a id="Zigurous_ColorPro_HSL_op_Equality_" data-uid="Zigurous.ColorPro.HSL.op_Equality*"></a>
+  <h4 id="Zigurous_ColorPro_HSL_op_Equality_Zigurous_ColorPro_HSL_Zigurous_ColorPro_HSL_" data-uid="Zigurous.ColorPro.HSL.op_Equality(Zigurous.ColorPro.HSL,Zigurous.ColorPro.HSL)">Equality(HSL, HSL)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(HSL lhs, HSL rhs)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">lhs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">rhs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_HSL_op_Explicit_" data-uid="Zigurous.ColorPro.HSL.op_Explicit*"></a>
+  <h4 id="Zigurous_ColorPro_HSL_op_Explicit_Color__Zigurous_ColorPro_HSL" data-uid="Zigurous.ColorPro.HSL.op_Explicit(Color)~Zigurous.ColorPro.HSL">Explicit(Color to HSL)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static explicit operator HSL(Color color)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_HSL_op_Explicit_" data-uid="Zigurous.ColorPro.HSL.op_Explicit*"></a>
+  <h4 id="Zigurous_ColorPro_HSL_op_Explicit_Zigurous_ColorPro_HSL__Color" data-uid="Zigurous.ColorPro.HSL.op_Explicit(Zigurous.ColorPro.HSL)~Color">Explicit(HSL to Color)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static explicit operator Color(HSL hsl)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">hsl</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_HSL_op_Inequality_" data-uid="Zigurous.ColorPro.HSL.op_Inequality*"></a>
+  <h4 id="Zigurous_ColorPro_HSL_op_Inequality_Zigurous_ColorPro_HSL_Zigurous_ColorPro_HSL_" data-uid="Zigurous.ColorPro.HSL.op_Inequality(Zigurous.ColorPro.HSL,Zigurous.ColorPro.HSL)">Inequality(HSL, HSL)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(HSL lhs, HSL rhs)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">lhs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">rhs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IEquatable&lt;&gt;</span>
+  </div>
+</article>
+          </div>
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <ul class="level1 nav bs-docs-sidenav"></ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Generated by <b>DocFX</b><br>Copyright © 2021 Zigurous
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

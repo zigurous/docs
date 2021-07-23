@@ -4,9 +4,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Installation | Color Pro </title>
+    <title>Class MaterialPalette
+   | Color Pro </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Installation | Color Pro ">
+    <meta name="title" content="Class MaterialPalette
+   | Color Pro ">
     <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -77,30 +79,64 @@
                 <li></li>
               </ul>
             </div>
-            <article class="content wrap" id="_content" data-uid="">
-<h1 id="installation">Installation</h1>
-
-<p>Use the Unity <a href="https://docs.unity3d.com/Manual/upm-ui.html">Package Manager</a> to install the Color Pro package.</p>
-<ol>
-<li>Open the Package Manager in <code>Window &gt; Package Manager</code></li>
-<li>Click the add (<code>+</code>) button in the status bar</li>
-<li>Select <code>Add package from git URL</code> from the add menu</li>
-<li>Enter the following Git URL in the text box and click Add:</li>
-</ol>
-<pre><code class="lang-http">https://github.com/zigurous/unity-color-pro.git
-</code></pre>
-<p>For more information on the Package Manager and installing packages, see the following pages:</p>
-<ul>
-<li><a href="https://docs.unity3d.com/Manual/Packages.html">Unity's Package Manager</a></li>
-<li><a href="https://docs.unity3d.com/Manual/upm-ui-giturl.html">Installing from a Git URL</a></li>
-</ul>
-<h3 id="importing">Importing</h3>
-<p>Import the package namespace in each script or file you want to use it.</p>
-<blockquote>
-<p><strong>Note</strong>: You may need to regenerate project files/assemblies first.</p>
-</blockquote>
-<pre><code class="lang-csharp">using Zigurous.ColorPro;
-</code></pre>
+            <article class="content wrap" id="_content" data-uid="Zigurous.ColorPro.MaterialPalette">
+  <h1 id="Zigurous_ColorPro_MaterialPalette" data-uid="Zigurous.ColorPro.MaterialPalette" class="text-break">Class MaterialPalette
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a palette of materials that can be saved as a Unity asset.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">MaterialPalette</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.ColorPro.html">Zigurous.ColorPro</a></h6>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class MaterialPalette : ScriptableObject</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <h4 id="Zigurous_ColorPro_MaterialPalette_materials" data-uid="Zigurous.ColorPro.MaterialPalette.materials">materials</h4>
+  <div class="markdown level1 summary"><p>The materials that define the palette.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Material[] materials</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="Zigurous_ColorPro_MaterialPalette_CreateColorPalette_" data-uid="Zigurous.ColorPro.MaterialPalette.CreateColorPalette*"></a>
+  <h4 id="Zigurous_ColorPro_MaterialPalette_CreateColorPalette" data-uid="Zigurous.ColorPro.MaterialPalette.CreateColorPalette">CreateColorPalette()</h4>
+  <div class="markdown level1 summary"><p>Converts the material palette to a color palette using each
+material's main color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ColorPalette CreateColorPalette()</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Returns</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Zigurous.ColorPro.ColorPalette.html">ColorPalette</a></td>
+        <td><p>A new color palette.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_MaterialPalette_Random_" data-uid="Zigurous.ColorPro.MaterialPalette.Random*"></a>
+  <h4 id="Zigurous_ColorPro_MaterialPalette_Random" data-uid="Zigurous.ColorPro.MaterialPalette.Random">Random()</h4>
+  <div class="markdown level1 summary"><p>Returns a random material from the palette.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Material Random()</code></pre>
+  </div>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">

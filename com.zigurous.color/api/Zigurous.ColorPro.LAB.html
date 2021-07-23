@@ -1,0 +1,743 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct LAB
+   | Color Pro </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct LAB
+   | Color Pro ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search">
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <div id="breadcrumb_placeholder">
+              <ul class="level1 breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+            <article class="content wrap" id="_content" data-uid="Zigurous.ColorPro.LAB">
+  <h1 id="Zigurous_ColorPro_LAB" data-uid="Zigurous.ColorPro.LAB" class="text-break">Struct LAB
+  </h1>
+  <div class="markdown level0 summary"><p>The LAB components of a color - lightness (L) and chromaticity (a,b).</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Zigurous.ColorPro.LAB.html">LAB</a>&gt;</div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.ColorPro.html">Zigurous.ColorPro</a></h6>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public struct LAB : IEquatable&lt;LAB&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="Zigurous_ColorPro_LAB__ctor_" data-uid="Zigurous.ColorPro.LAB.#ctor*"></a>
+  <h4 id="Zigurous_ColorPro_LAB__ctor_Color_" data-uid="Zigurous.ColorPro.LAB.#ctor(Color)">LAB(Color)</h4>
+  <div class="markdown level1 summary"><p>Creates new LAB components from the given color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LAB(Color color)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to extract the components from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_LAB__ctor_" data-uid="Zigurous.ColorPro.LAB.#ctor*"></a>
+  <h4 id="Zigurous_ColorPro_LAB__ctor_Color_Zigurous_ColorPro_Illuminant_Zigurous_ColorPro_StandardObserver_" data-uid="Zigurous.ColorPro.LAB.#ctor(Color,Zigurous.ColorPro.Illuminant,Zigurous.ColorPro.StandardObserver)">LAB(Color, Illuminant, StandardObserver)</h4>
+  <div class="markdown level1 summary"><p>Creates new LAB components from the given color, illuminant, and
+standard observer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LAB(Color color, Illuminant illuminant, StandardObserver observer)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to extract the components from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">illuminant</span></td>
+        <td><p>The illuminant to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">observer</span></td>
+        <td><p>The standard observer to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_LAB__ctor_" data-uid="Zigurous.ColorPro.LAB.#ctor*"></a>
+  <h4 id="Zigurous_ColorPro_LAB__ctor_Color_Zigurous_ColorPro_Tristimulus_" data-uid="Zigurous.ColorPro.LAB.#ctor(Color,Zigurous.ColorPro.Tristimulus)">LAB(Color, Tristimulus)</h4>
+  <div class="markdown level1 summary"><p>Creates new LAB components from the given color and white point.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LAB(Color color, Tristimulus whitePoint)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to extract the components from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">whitePoint</span></td>
+        <td><p>The white point to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_LAB__ctor_" data-uid="Zigurous.ColorPro.LAB.#ctor*"></a>
+  <h4 id="Zigurous_ColorPro_LAB__ctor_System_Single_System_Single_System_Single_" data-uid="Zigurous.ColorPro.LAB.#ctor(System.Single,System.Single,System.Single)">LAB(Single, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Creates new LAB components from the given values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LAB(float L, float a, float b)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">L</span></td>
+        <td><p>The lightness component of the color in the range [0..100].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">a</span></td>
+        <td><p>The green-red chromaticity component of the color in the range [-128..128].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">b</span></td>
+        <td><p>The blue-yellow chromaticity component of the color in the range [-128..128].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <h4 id="Zigurous_ColorPro_LAB_a" data-uid="Zigurous.ColorPro.LAB.a">a</h4>
+  <div class="markdown level1 summary"><p>The green-red chromaticity component of the color in the range [-128..128].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float a</code></pre>
+  </div>
+  <h4 id="Zigurous_ColorPro_LAB_b" data-uid="Zigurous.ColorPro.LAB.b">b</h4>
+  <div class="markdown level1 summary"><p>The blue-yellow chromaticity component of the color in the range [-128..128].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float b</code></pre>
+  </div>
+  <h4 id="Zigurous_ColorPro_LAB_L" data-uid="Zigurous.ColorPro.LAB.L">L</h4>
+  <div class="markdown level1 summary"><p>The lightness component of the color in the range [0..100].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float L</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="Zigurous_ColorPro_LAB_Equals_" data-uid="Zigurous.ColorPro.LAB.Equals*"></a>
+  <h4 id="Zigurous_ColorPro_LAB_Equals_System_Object_" data-uid="Zigurous.ColorPro.LAB.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Determines if the components are equal to <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">other</span></td>
+        <td><p>The other object to compare to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
+  <a id="Zigurous_ColorPro_LAB_Equals_" data-uid="Zigurous.ColorPro.LAB.Equals*"></a>
+  <h4 id="Zigurous_ColorPro_LAB_Equals_Zigurous_ColorPro_LAB_" data-uid="Zigurous.ColorPro.LAB.Equals(Zigurous.ColorPro.LAB)">Equals(LAB)</h4>
+  <div class="markdown level1 summary"><p>Determines if the components are equal to <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(LAB other)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">other</span></td>
+        <td><p>The other components to compare to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_LAB_GetHashCode_" data-uid="Zigurous.ColorPro.LAB.GetHashCode*"></a>
+  <h4 id="Zigurous_ColorPro_LAB_GetHashCode" data-uid="Zigurous.ColorPro.LAB.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Returns the hash code of the components.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.GetHashCode()</span></div>
+  <a id="Zigurous_ColorPro_LAB_ToColor_" data-uid="Zigurous.ColorPro.LAB.ToColor*"></a>
+  <h4 id="Zigurous_ColorPro_LAB_ToColor" data-uid="Zigurous.ColorPro.LAB.ToColor">ToColor()</h4>
+  <div class="markdown level1 summary"><p>Converts the components to a color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color ToColor()</code></pre>
+  </div>
+  <a id="Zigurous_ColorPro_LAB_ToColor_" data-uid="Zigurous.ColorPro.LAB.ToColor*"></a>
+  <h4 id="Zigurous_ColorPro_LAB_ToColor_System_Single_System_Single_System_Single_" data-uid="Zigurous.ColorPro.LAB.ToColor(System.Single,System.Single,System.Single)">ToColor(Single, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Converts LAB components to a color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color ToColor(float L, float a, float b)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">L</span></td>
+        <td><p>The lightness component of the color in the range [0..100].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">a</span></td>
+        <td><p>The green-red chromaticity component of the color in the range [-128..128].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">b</span></td>
+        <td><p>The blue-yellow chromaticity component of the color in the range [-128..128].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_LAB_ToColor_" data-uid="Zigurous.ColorPro.LAB.ToColor*"></a>
+  <h4 id="Zigurous_ColorPro_LAB_ToColor_Zigurous_ColorPro_Illuminant_Zigurous_ColorPro_StandardObserver_" data-uid="Zigurous.ColorPro.LAB.ToColor(Zigurous.ColorPro.Illuminant,Zigurous.ColorPro.StandardObserver)">ToColor(Illuminant, StandardObserver)</h4>
+  <div class="markdown level1 summary"><p>Converts the components to a color using the given illuminant and
+standard observer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color ToColor(Illuminant illuminant, StandardObserver observer)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">illuminant</span></td>
+        <td><p>The illuminant to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">observer</span></td>
+        <td><p>The standard observer to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_LAB_ToColor_" data-uid="Zigurous.ColorPro.LAB.ToColor*"></a>
+  <h4 id="Zigurous_ColorPro_LAB_ToColor_Zigurous_ColorPro_Illuminant_Zigurous_ColorPro_StandardObserver_System_Single_System_Single_System_Single_" data-uid="Zigurous.ColorPro.LAB.ToColor(Zigurous.ColorPro.Illuminant,Zigurous.ColorPro.StandardObserver,System.Single,System.Single,System.Single)">ToColor(Illuminant, StandardObserver, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Converts LAB components to a color using the given illuminant and
+standard observer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color ToColor(Illuminant illuminant, StandardObserver observer, float L, float a, float b)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">illuminant</span></td>
+        <td><p>The illuminant to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">observer</span></td>
+        <td><p>The standard observer to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">L</span></td>
+        <td><p>The lightness component of the color in the range [0..100].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">a</span></td>
+        <td><p>The green-red chromaticity component of the color in the range [-128..128].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">b</span></td>
+        <td><p>The blue-yellow chromaticity component of the color in the range [-128..128].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_LAB_ToColor_" data-uid="Zigurous.ColorPro.LAB.ToColor*"></a>
+  <h4 id="Zigurous_ColorPro_LAB_ToColor_Zigurous_ColorPro_Tristimulus_" data-uid="Zigurous.ColorPro.LAB.ToColor(Zigurous.ColorPro.Tristimulus)">ToColor(Tristimulus)</h4>
+  <div class="markdown level1 summary"><p>Converts the components to a color using the given white point.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color ToColor(Tristimulus whitePoint)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">whitePoint</span></td>
+        <td><p>The white point to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_LAB_ToColor_" data-uid="Zigurous.ColorPro.LAB.ToColor*"></a>
+  <h4 id="Zigurous_ColorPro_LAB_ToColor_Zigurous_ColorPro_Tristimulus_System_Single_System_Single_System_Single_" data-uid="Zigurous.ColorPro.LAB.ToColor(Zigurous.ColorPro.Tristimulus,System.Single,System.Single,System.Single)">ToColor(Tristimulus, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Converts LAB components to a color using the given white point.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color ToColor(Tristimulus whitePoint, float L, float a, float b)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">whitePoint</span></td>
+        <td><p>The white point to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">L</span></td>
+        <td><p>The lightness component of the color in the range [0..100].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">a</span></td>
+        <td><p>The green-red chromaticity component of the color in the range [-128..128].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">b</span></td>
+        <td><p>The blue-yellow chromaticity component of the color in the range [-128..128].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_LAB_ToLAB_" data-uid="Zigurous.ColorPro.LAB.ToLAB*"></a>
+  <h4 id="Zigurous_ColorPro_LAB_ToLAB_Color_System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorPro.LAB.ToLAB(Color,System.Single@,System.Single@,System.Single@)">ToLAB(Color, out Single, out Single, out Single)</h4>
+  <div class="markdown level1 summary"><p>Converts a color to LAB components.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ToLAB(Color color, out float L, out float a, out float b)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to extract the components from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">L</span></td>
+        <td><p>The lightness component output in the range [0..100].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">a</span></td>
+        <td><p>The green-red chromaticity component output in the range [-128..128].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">b</span></td>
+        <td><p>The blue-yellow chromaticity component output in the range [-128..128].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_LAB_ToLAB_" data-uid="Zigurous.ColorPro.LAB.ToLAB*"></a>
+  <h4 id="Zigurous_ColorPro_LAB_ToLAB_Color_Zigurous_ColorPro_Illuminant_Zigurous_ColorPro_StandardObserver_System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorPro.LAB.ToLAB(Color,Zigurous.ColorPro.Illuminant,Zigurous.ColorPro.StandardObserver,System.Single@,System.Single@,System.Single@)">ToLAB(Color, Illuminant, StandardObserver, out Single, out Single, out Single)</h4>
+  <div class="markdown level1 summary"><p>Converts a color to LAB components using the given illuminant and
+standard observer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ToLAB(Color color, Illuminant illuminant, StandardObserver observer, out float L, out float a, out float b)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to extract the components from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">illuminant</span></td>
+        <td><p>The illuminant to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">observer</span></td>
+        <td><p>The standard observer to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">L</span></td>
+        <td><p>The lightness component output in the range [0..100].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">a</span></td>
+        <td><p>The green-red chromaticity component output in the range [-128..128].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">b</span></td>
+        <td><p>The blue-yellow chromaticity component output in the range [-128..128].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_LAB_ToLAB_" data-uid="Zigurous.ColorPro.LAB.ToLAB*"></a>
+  <h4 id="Zigurous_ColorPro_LAB_ToLAB_Color_Zigurous_ColorPro_Tristimulus_System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorPro.LAB.ToLAB(Color,Zigurous.ColorPro.Tristimulus,System.Single@,System.Single@,System.Single@)">ToLAB(Color, Tristimulus, out Single, out Single, out Single)</h4>
+  <div class="markdown level1 summary"><p>Converts a color to LAB components using the given white point.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ToLAB(Color color, Tristimulus whitePoint, out float L, out float a, out float b)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to extract the components from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">whitePoint</span></td>
+        <td><p>The white point to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">L</span></td>
+        <td><p>The lightness component output in the range [0..100].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">a</span></td>
+        <td><p>The green-red chromaticity component output in the range [-128..128].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">b</span></td>
+        <td><p>The blue-yellow chromaticity component output in the range [-128..128].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_LAB_ToString_" data-uid="Zigurous.ColorPro.LAB.ToString*"></a>
+  <h4 id="Zigurous_ColorPro_LAB_ToString" data-uid="Zigurous.ColorPro.LAB.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Converts the components to a string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.ToString()</span></div>
+  <h3 id="operators">Operators
+  </h3>
+  <a id="Zigurous_ColorPro_LAB_op_Equality_" data-uid="Zigurous.ColorPro.LAB.op_Equality*"></a>
+  <h4 id="Zigurous_ColorPro_LAB_op_Equality_Zigurous_ColorPro_LAB_Zigurous_ColorPro_LAB_" data-uid="Zigurous.ColorPro.LAB.op_Equality(Zigurous.ColorPro.LAB,Zigurous.ColorPro.LAB)">Equality(LAB, LAB)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(LAB lhs, LAB rhs)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">lhs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">rhs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_LAB_op_Explicit_" data-uid="Zigurous.ColorPro.LAB.op_Explicit*"></a>
+  <h4 id="Zigurous_ColorPro_LAB_op_Explicit_Color__Zigurous_ColorPro_LAB" data-uid="Zigurous.ColorPro.LAB.op_Explicit(Color)~Zigurous.ColorPro.LAB">Explicit(Color to LAB)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static explicit operator LAB(Color color)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_LAB_op_Explicit_" data-uid="Zigurous.ColorPro.LAB.op_Explicit*"></a>
+  <h4 id="Zigurous_ColorPro_LAB_op_Explicit_Zigurous_ColorPro_LAB__Color" data-uid="Zigurous.ColorPro.LAB.op_Explicit(Zigurous.ColorPro.LAB)~Color">Explicit(LAB to Color)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static explicit operator Color(LAB components)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">components</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_LAB_op_Inequality_" data-uid="Zigurous.ColorPro.LAB.op_Inequality*"></a>
+  <h4 id="Zigurous_ColorPro_LAB_op_Inequality_Zigurous_ColorPro_LAB_Zigurous_ColorPro_LAB_" data-uid="Zigurous.ColorPro.LAB.op_Inequality(Zigurous.ColorPro.LAB,Zigurous.ColorPro.LAB)">Inequality(LAB, LAB)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(LAB lhs, LAB rhs)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">lhs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">rhs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IEquatable&lt;&gt;</span>
+  </div>
+</article>
+          </div>
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <ul class="level1 nav bs-docs-sidenav"></ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Generated by <b>DocFX</b><br>Copyright © 2021 Zigurous
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
