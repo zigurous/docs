@@ -4,9 +4,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Color Pro | Color Pro </title>
+    <title>Averaging | Color Pro </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Color Pro | Color Pro ">
+    <meta name="title" content="Averaging | Color Pro ">
     <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -78,26 +78,20 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="color-pro">Color Pro</h1>
+<h1 id="averaging">Averaging</h1>
 
-<p>The Color Pro package is a robust utility library for working with colors in Unity projects. Included in the package are dozens of functions for color mixing, conversion, generating color palettes, and much more.</p>
-<h3 id="reference">Reference</h3>
-<ul>
-<li><a href="accessibility.html">Accessibility</a></li>
-<li><a href="adjustment.html">Adjustment</a></li>
-<li><a href="arithmetic.html">Arithmetic</a></li>
-<li><a href="averaging.html">Averaging</a></li>
-<li><a href="components.html">Components</a></li>
-<li><a href="contrast.html">Contrast</a></li>
-<li><a href="conversion.html">Conversion</a></li>
-<li><a href="equality.html">Equality</a></li>
-<li><a href="gradients.html">Gradients</a></li>
-<li><a href="harmonies.html">Harmonies</a></li>
-<li><a href="luminance.html">Luminance</a></li>
-<li><a href="mixing.html">Mixing</a></li>
-<li><a href="mixing-models.html">Mixing Models</a></li>
-<li><a href="random.html">Random</a></li>
-</ul>
+<p>The Color Pro package includes functions for averaging colors together. These functions are declared as extension methods in the static class <a class="xref" href="../api/Zigurous.ColorPro.Averaging.html">Averaging</a>.</p>
+<pre><code class="lang-csharp">// Average between two colors
+Color average = color1.Average(color2);
+
+// Average between an array of colors
+Color average = colors.Average();
+
+// Average color across of a Texture2D
+Color average = texture2D.AverageColor();
+</code></pre>
+<h3 id="averaging-vs-mixing">Averaging vs Mixing</h3>
+<p>If you are looking to combine colors then you usually get better results by mixing them instead of averaging them due to how they are calculated. See the <a href="mixing.html">Mixing</a> manual for more information. Averaging can be useful, for example, if you want to understand the most dominant color of an entire image. Averaging is usually better suited for large amounts of data whereas mixing is better suited when you only have a few colors.</p>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">

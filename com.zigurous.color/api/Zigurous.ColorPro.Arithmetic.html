@@ -82,7 +82,8 @@
             <article class="content wrap" id="_content" data-uid="Zigurous.ColorPro.Arithmetic">
   <h1 id="Zigurous_ColorPro_Arithmetic" data-uid="Zigurous.ColorPro.Arithmetic" class="text-break">Class Arithmetic
   </h1>
-  <div class="markdown level0 summary"><p>Functions for color arithmetic.</p>
+  <div class="markdown level0 summary"><p>Functions for color arithmetic, i.e., adding, subtracting, multiplying,
+and dividing colors.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -97,83 +98,13 @@
   <h3 id="methods">Methods
   </h3>
   <a id="Zigurous_ColorPro_Arithmetic_Add_" data-uid="Zigurous.ColorPro.Arithmetic.Add*"></a>
-  <h4 id="Zigurous_ColorPro_Arithmetic_Add_Color_Color_System_Boolean_" data-uid="Zigurous.ColorPro.Arithmetic.Add(Color,Color,System.Boolean)">Add(Color, Color, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Returns the result of adding the RGBA component values of
-<code data-dev-comment-type="paramref" class="paramref">lhs</code> to <code data-dev-comment-type="paramref" class="paramref">rhs</code>. Clamps the values
-in the range [0..1].</p>
+  <h4 id="Zigurous_ColorPro_Arithmetic_Add_Color__Color_System_Boolean_" data-uid="Zigurous.ColorPro.Arithmetic.Add(Color@,Color,System.Boolean)">Add(ref Color, Color, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Adds the components of <code data-dev-comment-type="paramref" class="paramref">other</code> to
+<code data-dev-comment-type="paramref" class="paramref">color</code>. Clamps the values in the range [0..1].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color Add(Color lhs, Color rhs, bool addAlpha = true)</code></pre>
-  </div>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Parameter</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">lhs</span></td>
-        <td><p>The first color to add.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">rhs</span></td>
-        <td><p>The second color to add.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">addAlpha</span></td>
-        <td><p>True to add the alpha components, otherwise the first color's alpha is used.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_ColorPro_Arithmetic_Divide_" data-uid="Zigurous.ColorPro.Arithmetic.Divide*"></a>
-  <h4 id="Zigurous_ColorPro_Arithmetic_Divide_Color_Color_System_Boolean_" data-uid="Zigurous.ColorPro.Arithmetic.Divide(Color,Color,System.Boolean)">Divide(Color, Color, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Returns the result of dividing the RGBA component values of
-<code data-dev-comment-type="paramref" class="paramref">lhs</code> by <code data-dev-comment-type="paramref" class="paramref">rhs</code>. Clamps the values
-in the range [0..1].</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color Divide(Color lhs, Color rhs, bool divideAlpha = true)</code></pre>
-  </div>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Parameter</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">lhs</span></td>
-        <td><p>The first color to divide.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">rhs</span></td>
-        <td><p>The second color to divide.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">divideAlpha</span></td>
-        <td><p>True to divide the alpha components, otherwise the first color's alpha is used.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_ColorPro_Arithmetic_Divide_" data-uid="Zigurous.ColorPro.Arithmetic.Divide*"></a>
-  <h4 id="Zigurous_ColorPro_Arithmetic_Divide_Color_System_Single_System_Boolean_" data-uid="Zigurous.ColorPro.Arithmetic.Divide(Color,System.Single,System.Boolean)">Divide(Color, Single, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Returns the result of dividing the RGBA component values of a color
-by a given divisor. Clamps the values in the range [0..1].</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color Divide(Color color, float divisor, bool divideAlpha = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Add(this ref Color color, Color other, bool addAlpha = true)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -185,7 +116,110 @@ by a given divisor. Clamps the values in the range [0..1].</p>
     <tbody>
       <tr>
         <td><span class="parametername">color</span></td>
-        <td><p>The color to divide.</p>
+        <td><p>The color being added to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">other</span></td>
+        <td><p>The color to add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">addAlpha</span></td>
+        <td><p>True to add the alpha components, otherwise it is left unmodified.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Arithmetic_Adding_" data-uid="Zigurous.ColorPro.Arithmetic.Adding*"></a>
+  <h4 id="Zigurous_ColorPro_Arithmetic_Adding_Color_Color_System_Boolean_" data-uid="Zigurous.ColorPro.Arithmetic.Adding(Color,Color,System.Boolean)">Adding(Color, Color, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Returns the result of adding the components of
+<code data-dev-comment-type="paramref" class="paramref">other</code> to <code data-dev-comment-type="paramref" class="paramref">color</code>. Clamps the
+values in the range [0..1].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Adding(this Color color, Color other, bool addAlpha = true)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color being added to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">other</span></td>
+        <td><p>The color to add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">addAlpha</span></td>
+        <td><p>True to add the alpha components, otherwise it is left unmodified.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Arithmetic_Divide_" data-uid="Zigurous.ColorPro.Arithmetic.Divide*"></a>
+  <h4 id="Zigurous_ColorPro_Arithmetic_Divide_Color__Color_System_Boolean_" data-uid="Zigurous.ColorPro.Arithmetic.Divide(Color@,Color,System.Boolean)">Divide(ref Color, Color, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Divides the components of <code data-dev-comment-type="paramref" class="paramref">color</code> with
+<code data-dev-comment-type="paramref" class="paramref">other</code>. Clamps the values in the range [0..1].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Divide(this ref Color color, Color other, bool divideAlpha = true)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color being divided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">other</span></td>
+        <td><p>The color to divide by.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">divideAlpha</span></td>
+        <td><p>True to divide the alpha components, otherwise it is left unmodified.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Arithmetic_Divide_" data-uid="Zigurous.ColorPro.Arithmetic.Divide*"></a>
+  <h4 id="Zigurous_ColorPro_Arithmetic_Divide_Color__System_Single_System_Boolean_" data-uid="Zigurous.ColorPro.Arithmetic.Divide(Color@,System.Single,System.Boolean)">Divide(ref Color, Single, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Divides the components of <code data-dev-comment-type="paramref" class="paramref">color</code> by the
+<code data-dev-comment-type="paramref" class="paramref">divisor</code>. Clamps the values in the range [0..1].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Divide(this ref Color color, float divisor, bool divideAlpha = true)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color being divided.</p>
 </td>
       </tr>
       <tr>
@@ -195,54 +229,20 @@ by a given divisor. Clamps the values in the range [0..1].</p>
       </tr>
       <tr>
         <td><span class="parametername">divideAlpha</span></td>
-        <td><p>True to divide the alpha component, otherwise it is kept the same.</p>
+        <td><p>True to divide the alpha component, otherwise it is left unmodified.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_ColorPro_Arithmetic_Multiply_" data-uid="Zigurous.ColorPro.Arithmetic.Multiply*"></a>
-  <h4 id="Zigurous_ColorPro_Arithmetic_Multiply_Color_Color_System_Boolean_" data-uid="Zigurous.ColorPro.Arithmetic.Multiply(Color,Color,System.Boolean)">Multiply(Color, Color, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Returns the result of multiplying the RGBA component values of
-<code data-dev-comment-type="paramref" class="paramref">lhs</code> to <code data-dev-comment-type="paramref" class="paramref">rhs</code>. Clamps the values
-in the range [0..1].</p>
+  <a id="Zigurous_ColorPro_Arithmetic_DividedBy_" data-uid="Zigurous.ColorPro.Arithmetic.DividedBy*"></a>
+  <h4 id="Zigurous_ColorPro_Arithmetic_DividedBy_Color_Color_System_Boolean_" data-uid="Zigurous.ColorPro.Arithmetic.DividedBy(Color,Color,System.Boolean)">DividedBy(Color, Color, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Returns the result of dividing the components of
+<code data-dev-comment-type="paramref" class="paramref">color</code> with <code data-dev-comment-type="paramref" class="paramref">other</code>. Clamps the
+values in the range [0..1].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color Multiply(Color lhs, Color rhs, bool multiplyAlpha = true)</code></pre>
-  </div>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Parameter</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">lhs</span></td>
-        <td><p>The first color to multiply.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">rhs</span></td>
-        <td><p>The second color to multiply.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">multiplyAlpha</span></td>
-        <td><p>True to multiply the alpha components, otherwise the first color's alpha is used.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_ColorPro_Arithmetic_Multiply_" data-uid="Zigurous.ColorPro.Arithmetic.Multiply*"></a>
-  <h4 id="Zigurous_ColorPro_Arithmetic_Multiply_Color_System_Single_System_Boolean_" data-uid="Zigurous.ColorPro.Arithmetic.Multiply(Color,System.Single,System.Boolean)">Multiply(Color, Single, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Returns the result of multiplying the RGBA component values of a
-color with a given multiplier. Clamps the values in the range [0..1].</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color Multiply(Color color, float multiplier, bool multiplyAlpha = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color DividedBy(this Color color, Color other, bool divideAlpha = true)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -254,30 +254,30 @@ color with a given multiplier. Clamps the values in the range [0..1].</p>
     <tbody>
       <tr>
         <td><span class="parametername">color</span></td>
-        <td><p>The color to multiply.</p>
+        <td><p>The color being divided.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="parametername">multiplier</span></td>
-        <td><p>The amount to multiply the color by.</p>
+        <td><span class="parametername">other</span></td>
+        <td><p>The color to divide by.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="parametername">multiplyAlpha</span></td>
-        <td><p>True to multiply the alpha component, otherwise it is kept the same.</p>
+        <td><span class="parametername">divideAlpha</span></td>
+        <td><p>True to divide the alpha components, otherwise it is left unmodified.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_ColorPro_Arithmetic_Subtract_" data-uid="Zigurous.ColorPro.Arithmetic.Subtract*"></a>
-  <h4 id="Zigurous_ColorPro_Arithmetic_Subtract_Color_Color_System_Boolean_" data-uid="Zigurous.ColorPro.Arithmetic.Subtract(Color,Color,System.Boolean)">Subtract(Color, Color, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Returns the result of subtracting the RGBA component values of
-<code data-dev-comment-type="paramref" class="paramref">rhs</code> from <code data-dev-comment-type="paramref" class="paramref">lhs</code>. Clamps the
-values in the range [0..1].</p>
+  <a id="Zigurous_ColorPro_Arithmetic_DividedBy_" data-uid="Zigurous.ColorPro.Arithmetic.DividedBy*"></a>
+  <h4 id="Zigurous_ColorPro_Arithmetic_DividedBy_Color_System_Single_System_Boolean_" data-uid="Zigurous.ColorPro.Arithmetic.DividedBy(Color,System.Single,System.Boolean)">DividedBy(Color, Single, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Returns the result of dividing the components of
+<code data-dev-comment-type="paramref" class="paramref">color</code> by the <code data-dev-comment-type="paramref" class="paramref">divisor</code>. Clamps
+the values in the range [0..1].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color Subtract(Color lhs, Color rhs, bool subtractAlpha = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color DividedBy(this Color color, float divisor, bool divideAlpha = true)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -288,18 +288,225 @@ values in the range [0..1].</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">lhs</span></td>
-        <td><p>The first color to subtract.</p>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color being divided.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="parametername">rhs</span></td>
-        <td><p>The second color to subtract.</p>
+        <td><span class="parametername">divisor</span></td>
+        <td><p>The amount to divide the color by.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">divideAlpha</span></td>
+        <td><p>True to divide the alpha component, otherwise it is left unmodified.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Arithmetic_MultipliedBy_" data-uid="Zigurous.ColorPro.Arithmetic.MultipliedBy*"></a>
+  <h4 id="Zigurous_ColorPro_Arithmetic_MultipliedBy_Color_Color_System_Boolean_" data-uid="Zigurous.ColorPro.Arithmetic.MultipliedBy(Color,Color,System.Boolean)">MultipliedBy(Color, Color, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Returns the result of multiplying the components of
+<code data-dev-comment-type="paramref" class="paramref">color</code> with <code data-dev-comment-type="paramref" class="paramref">other</code>. Clamps the
+values in the range [0..1].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color MultipliedBy(this Color color, Color other, bool multiplyAlpha = true)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color being multiplied.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">other</span></td>
+        <td><p>The color to multiply by.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">multiplyAlpha</span></td>
+        <td><p>True to multiply the alpha components, otherwise it is left unmodified.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Arithmetic_MultipliedBy_" data-uid="Zigurous.ColorPro.Arithmetic.MultipliedBy*"></a>
+  <h4 id="Zigurous_ColorPro_Arithmetic_MultipliedBy_Color_System_Single_System_Boolean_" data-uid="Zigurous.ColorPro.Arithmetic.MultipliedBy(Color,System.Single,System.Boolean)">MultipliedBy(Color, Single, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Returns the result of multiplying the components of
+<code data-dev-comment-type="paramref" class="paramref">color</code> by the <code data-dev-comment-type="paramref" class="paramref">multiplier</code>.
+Clamps the values in the range [0..1].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color MultipliedBy(this Color color, float multiplier, bool multiplyAlpha = true)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color being multiplied.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">multiplier</span></td>
+        <td><p>The amount to multiply the color by.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">multiplyAlpha</span></td>
+        <td><p>True to multiply the alpha component, otherwise it is left unmodified.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Arithmetic_Multiply_" data-uid="Zigurous.ColorPro.Arithmetic.Multiply*"></a>
+  <h4 id="Zigurous_ColorPro_Arithmetic_Multiply_Color__Color_System_Boolean_" data-uid="Zigurous.ColorPro.Arithmetic.Multiply(Color@,Color,System.Boolean)">Multiply(ref Color, Color, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Multiplies the components of <code data-dev-comment-type="paramref" class="paramref">color</code> with
+<code data-dev-comment-type="paramref" class="paramref">other</code>. Clamps the values in the range [0..1].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Multiply(this ref Color color, Color other, bool multiplyAlpha = true)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color being multiplied.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">other</span></td>
+        <td><p>The color to multiply by.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">multiplyAlpha</span></td>
+        <td><p>True to multiply the alpha components, otherwise it is left unmodified.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Arithmetic_Multiply_" data-uid="Zigurous.ColorPro.Arithmetic.Multiply*"></a>
+  <h4 id="Zigurous_ColorPro_Arithmetic_Multiply_Color__System_Single_System_Boolean_" data-uid="Zigurous.ColorPro.Arithmetic.Multiply(Color@,System.Single,System.Boolean)">Multiply(ref Color, Single, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Multiplies the components of <code data-dev-comment-type="paramref" class="paramref">color</code> by the
+<code data-dev-comment-type="paramref" class="paramref">multiplier</code>. Clamps the values in the range [0..1].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Multiply(this ref Color color, float multiplier, bool multiplyAlpha = true)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color being multiplied.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">multiplier</span></td>
+        <td><p>The amount to multiply the color by.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">multiplyAlpha</span></td>
+        <td><p>True to multiply the alpha component, otherwise it is left unmodified.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Arithmetic_Subtract_" data-uid="Zigurous.ColorPro.Arithmetic.Subtract*"></a>
+  <h4 id="Zigurous_ColorPro_Arithmetic_Subtract_Color__Color_System_Boolean_" data-uid="Zigurous.ColorPro.Arithmetic.Subtract(Color@,Color,System.Boolean)">Subtract(ref Color, Color, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Subtracts the components of <code data-dev-comment-type="paramref" class="paramref">other</code> from
+<code data-dev-comment-type="paramref" class="paramref">color</code>. Clamps the values in the range [0..1].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Subtract(this ref Color color, Color other, bool subtractAlpha = true)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color being subtracted from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">other</span></td>
+        <td><p>The color to subtract.</p>
 </td>
       </tr>
       <tr>
         <td><span class="parametername">subtractAlpha</span></td>
-        <td><p>True to subtract the alpha components, otherwise the first color's alpha is used.</p>
+        <td><p>True to subtract the alpha components, otherwise it is left unmodified.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Arithmetic_Subtracting_" data-uid="Zigurous.ColorPro.Arithmetic.Subtracting*"></a>
+  <h4 id="Zigurous_ColorPro_Arithmetic_Subtracting_Color_Color_System_Boolean_" data-uid="Zigurous.ColorPro.Arithmetic.Subtracting(Color,Color,System.Boolean)">Subtracting(Color, Color, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Returns the result of subtracting the components of
+<code data-dev-comment-type="paramref" class="paramref">other</code> from <code data-dev-comment-type="paramref" class="paramref">color</code>. Clamps the
+values in the range [0..1].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Subtracting(this Color color, Color other, bool subtractAlpha = true)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color being subtracted from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">other</span></td>
+        <td><p>The color to subtract.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">subtractAlpha</span></td>
+        <td><p>True to subtract the alpha components, otherwise it is left unmodified.</p>
 </td>
       </tr>
     </tbody>

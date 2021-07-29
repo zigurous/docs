@@ -4,9 +4,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Color Pro | Color Pro </title>
+    <title>Random | Color Pro </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Color Pro | Color Pro ">
+    <meta name="title" content="Random | Color Pro ">
     <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -78,26 +78,19 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="color-pro">Color Pro</h1>
+<h1 id="random">Random</h1>
 
-<p>The Color Pro package is a robust utility library for working with colors in Unity projects. Included in the package are dozens of functions for color mixing, conversion, generating color palettes, and much more.</p>
-<h3 id="reference">Reference</h3>
-<ul>
-<li><a href="accessibility.html">Accessibility</a></li>
-<li><a href="adjustment.html">Adjustment</a></li>
-<li><a href="arithmetic.html">Arithmetic</a></li>
-<li><a href="averaging.html">Averaging</a></li>
-<li><a href="components.html">Components</a></li>
-<li><a href="contrast.html">Contrast</a></li>
-<li><a href="conversion.html">Conversion</a></li>
-<li><a href="equality.html">Equality</a></li>
-<li><a href="gradients.html">Gradients</a></li>
-<li><a href="harmonies.html">Harmonies</a></li>
-<li><a href="luminance.html">Luminance</a></li>
-<li><a href="mixing.html">Mixing</a></li>
-<li><a href="mixing-models.html">Mixing Models</a></li>
-<li><a href="random.html">Random</a></li>
-</ul>
+<p>Sometimes it is useful to generate a random color or set of colors. The Color Pro package includes a few functions in the static class <a class="xref" href="../api/Zigurous.ColorPro.Random.html">Random</a> for doing just that.</p>
+<h3 id="single-color">Single Color</h3>
+<pre><code class="lang-csharp">Color color = Random.Color();
+</code></pre>
+<h3 id="multiple-colors">Multiple Colors</h3>
+<pre><code class="lang-csharp">// Generate 10 random colors
+Color[] colors = Random.Colors(10);
+
+// Prevent heap allocations by filling an existing array of `output` colors
+Random.ColorsNonAlloc(output);
+</code></pre>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">

@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorPro.Accessibility.html",
-          "hash": "1JqMX2jvsgSN4tVC9FiNDMAlD+JkbHWEoSNrJ4C9y7k="
+          "hash": "umMGf0IqTvarkhywFSRfVh9X/6MSolAtByNQ3/WIPyM="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorPro.Arithmetic.html",
-          "hash": "A0B+qnK5W8rEzrQsG5W0N/z+ACJs6Hkjo4okoCMObXI="
+          "hash": "1pzKxXm8qp3EmMN2K4MpjiHver4+DEJHjqr2pu7cnC0="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorPro.Averaging.html",
-          "hash": "5KOTXloiIscS8Ehk9pKSWt3y33EFo91nVEa9uDYnsVc="
+          "hash": "5/TUhLO7qaAgcj58USLs5BrfTq0kGzUvuwt9sqLOBzc="
         }
       },
       "is_incremental": false,
@@ -174,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorPro.Components.html",
-          "hash": "66uOPxkvRAnTnkE/9lqEzKFXQv3um9I+Nmoiq622HRA="
+          "hash": "pgnFQ+RDGXnz6V4g2lsirPZh2vSTSIH47yfLULUjmv0="
         }
       },
       "is_incremental": false,
@@ -186,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorPro.Contrast.html",
-          "hash": "n9z66iFQKJ3mttvCnhswIBLSLQq3PWc3xUjCrBVMEzk="
+          "hash": "QAxlR+ZrS7jVn+vwA7E0V+pE/LRNa25lWPQo/IVoQqA="
         }
       },
       "is_incremental": false,
@@ -210,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorPro.Equality.html",
-          "hash": "DtcN9ieJwIE2f0PdMI1gyljOIxMtxf3gw+vJ/6iPW8E="
+          "hash": "ThMIAvWRV4Zt5ksVwJ4gY6Uzw71u29qAb70FkASI64s="
         }
       },
       "is_incremental": false,
@@ -222,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorPro.Gradients.html",
-          "hash": "O8Uz8HMwwjmwgPL7I2VSiEgxySSCjymWWi9DbqedfP8="
+          "hash": "8e8ZK+49WqZDciukMG1zwt3UfXjQiDnP2qJkyJFhR48="
         }
       },
       "is_incremental": false,
@@ -282,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorPro.Harmonies.html",
-          "hash": "85jQf02rZ5HFxvohMmok+NQ7IM7HPxneqyuSXdr39gs="
+          "hash": "2BBxxI+Ea2IXfzz+SYSGRBduJXe5Ewn3DB/dte/iDuw="
         }
       },
       "is_incremental": false,
@@ -414,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorPro.Mixing.html",
-          "hash": "SD+2Fve0ZVuM8Yj8NbWygBO/EoAG68TBDBwoOgjFFNE="
+          "hash": "4tC57/0KoEHa9ro47sHfp7CpT5DEgY8XmkMvXvY/chw="
         }
       },
       "is_incremental": false,
@@ -678,7 +678,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorPro.html",
-          "hash": "eYLZyTUo7BM/aLL1F5RJvv5YYylRBW6KMlLCZaXQPA0="
+          "hash": "ejh9v6h4ex9+q70Mo/VIAygy6DQuIoADwB4LNu45uw0="
         }
       },
       "is_incremental": false,
@@ -767,11 +767,131 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/accessibility.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/accessibility.html",
+          "hash": "NNoipoGZUWq2RASNZrwjb3esyx6JXMj9spoKnrvBk6E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/adjustment.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/adjustment.html",
+          "hash": "d4A+eDJ0G3vMvWRZnjjtXllSnrZcQs15aDL57MVrbO0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/arithmetic.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/arithmetic.html",
+          "hash": "SrNiXAcyGqgFwL7uACHUPiMigMgo7Z4tJ/pjRnfulYU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/averaging.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/averaging.html",
+          "hash": "mfR880ibyBRbEAaB3n4QpW40X6e12iwULdN3I6zGuy0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/components.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/components.html",
+          "hash": "MIt9ClCh6fD0i63mF7Q8hcdI0l17CFPLpy+1C1lNyOU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/contrast.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/contrast.html",
+          "hash": "7IB9ak4fK2arAIbGuIp0Vkbjjor9D07vs6YACIRSfJ0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/conversion.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/conversion.html",
+          "hash": "5MjABz6tG56ZlHCgjE5fcu2/Q+WplnmEgv5gj2lewro="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/equality.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/equality.html",
+          "hash": "HbI7yNzkcqvCp8/lpZp9vbzHmPHpukgcuUqBU7WOUkA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/gradients.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/gradients.html",
+          "hash": "3yHy+lhkBggA41MffsMnoxFSGb6syM/RUVo8o8lDX2Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/harmonies.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/harmonies.html",
+          "hash": "hmDlswycuNs9eDzgId1Wd3FqGa9cF0jzA2VoSLlXyxI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/index.md",
       "output": {
         ".html": {
           "relative_path": "manual/index.html",
-          "hash": "WfAkU7f1Q787Bf7dlsN6KFVeNNyrBT/rC0Lh+3B7VSo="
+          "hash": "VbDpSP8666CaRBygBufU6jE7/IDtPpkHO3SrYD1uPcQ="
         }
       },
       "is_incremental": false,
@@ -790,12 +910,60 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "manual/luminance.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/luminance.html",
+          "hash": "kSsnD/tFVjkJ/CwTcrLCDOPay1xVayPzlSG3Vg3eEgA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/mixing-models.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/mixing-models.html",
+          "hash": "53AVZn0Uzq7P0uWoyfv+Ol6+DZWMRyz+MAGPXyWwfvw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/mixing.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/mixing.html",
+          "hash": "i8CLL58rAclGtALlWN86yiZi+/IXFFb0QE75QdJMPVE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/random.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/random.html",
+          "hash": "R2LjNsNl63ifjOqR0XO/uBboN49T71Bi+lts9yBXr8k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "manual/toc.yml",
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "AUBmkjcV6Rgc5XQX3SpA8j/bnbBPgpTg+VqyBcLddP4="
+          "hash": "+/5nmolPKt0xtQCJD7tSltV5ZvcqF0HdS/zdxr0WyRY="
         }
       },
       "is_incremental": false,
@@ -828,7 +996,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 4,
+          "total_file_count": 18,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {

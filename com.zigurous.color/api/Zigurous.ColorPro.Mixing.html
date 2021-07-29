@@ -98,53 +98,13 @@
   </h3>
   <a id="Zigurous_ColorPro_Mixing_Mix_" data-uid="Zigurous.ColorPro.Mixing.Mix*"></a>
   <h4 id="Zigurous_ColorPro_Mixing_Mix_Color_Color_System_Single_System_Boolean_" data-uid="Zigurous.ColorPro.Mixing.Mix(Color,Color,System.Single,System.Boolean)">Mix(Color, Color, Single, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Returns the result of mixing two colors together using a given
-weight between [0..1]. A weight of 0 results in the first color, and
-a weight of 1 results in the second color.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color Mix(Color first, Color second, float weight = 0.5F, bool mixAlpha = true)</code></pre>
-  </div>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Parameter</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">first</span></td>
-        <td><p>The first color to mix.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">second</span></td>
-        <td><p>The second color to mix.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">weight</span></td>
-        <td><p>The weight of the second color to mix with the first.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">mixAlpha</span></td>
-        <td><p>True to mix the alpha components, otherwise the first color's alpha is used.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_ColorPro_Mixing_MixedWith_" data-uid="Zigurous.ColorPro.Mixing.MixedWith*"></a>
-  <h4 id="Zigurous_ColorPro_Mixing_MixedWith_Color_Color_System_Single_System_Boolean_" data-uid="Zigurous.ColorPro.Mixing.MixedWith(Color,Color,System.Single,System.Boolean)">MixedWith(Color, Color, Single, Boolean)</h4>
   <div class="markdown level1 summary"><p>Returns the result of mixing the current color with another color
 using a given weight between [0..1]. A weight of 0 results in the
 first color, and a weight of 1 results in the second color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color MixedWith(this Color color, Color other, float weight = 0.5F, bool mixAlpha = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color Mix(this Color color, Color other, float weight = 0.5F, bool mixAlpha = true)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>

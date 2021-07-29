@@ -738,12 +738,15 @@ references:
   commentId: T:Zigurous.ColorPro.Arithmetic
   fullName: Zigurous.ColorPro.Arithmetic
   nameWithType: Arithmetic
-- uid: Zigurous.ColorPro.Arithmetic.Add(Color,Color,System.Boolean)
-  name: Add(Color, Color, Boolean)
-  href: api/Zigurous.ColorPro.Arithmetic.html#Zigurous_ColorPro_Arithmetic_Add_Color_Color_System_Boolean_
-  commentId: M:Zigurous.ColorPro.Arithmetic.Add(Color,Color,System.Boolean)
-  fullName: Zigurous.ColorPro.Arithmetic.Add(Color, Color, System.Boolean)
-  nameWithType: Arithmetic.Add(Color, Color, Boolean)
+- uid: Zigurous.ColorPro.Arithmetic.Add(Color@,Color,System.Boolean)
+  name: Add(ref Color, Color, Boolean)
+  href: api/Zigurous.ColorPro.Arithmetic.html#Zigurous_ColorPro_Arithmetic_Add_Color__Color_System_Boolean_
+  commentId: M:Zigurous.ColorPro.Arithmetic.Add(Color@,Color,System.Boolean)
+  name.vb: Add(ByRef Color, Color, Boolean)
+  fullName: Zigurous.ColorPro.Arithmetic.Add(ref Color, Color, System.Boolean)
+  fullName.vb: Zigurous.ColorPro.Arithmetic.Add(ByRef Color, Color, System.Boolean)
+  nameWithType: Arithmetic.Add(ref Color, Color, Boolean)
+  nameWithType.vb: Arithmetic.Add(ByRef Color, Color, Boolean)
 - uid: Zigurous.ColorPro.Arithmetic.Add*
   name: Add
   href: api/Zigurous.ColorPro.Arithmetic.html#Zigurous_ColorPro_Arithmetic_Add_
@@ -751,18 +754,37 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.Arithmetic.Add
   nameWithType: Arithmetic.Add
-- uid: Zigurous.ColorPro.Arithmetic.Divide(Color,Color,System.Boolean)
-  name: Divide(Color, Color, Boolean)
-  href: api/Zigurous.ColorPro.Arithmetic.html#Zigurous_ColorPro_Arithmetic_Divide_Color_Color_System_Boolean_
-  commentId: M:Zigurous.ColorPro.Arithmetic.Divide(Color,Color,System.Boolean)
-  fullName: Zigurous.ColorPro.Arithmetic.Divide(Color, Color, System.Boolean)
-  nameWithType: Arithmetic.Divide(Color, Color, Boolean)
-- uid: Zigurous.ColorPro.Arithmetic.Divide(Color,System.Single,System.Boolean)
-  name: Divide(Color, Single, Boolean)
-  href: api/Zigurous.ColorPro.Arithmetic.html#Zigurous_ColorPro_Arithmetic_Divide_Color_System_Single_System_Boolean_
-  commentId: M:Zigurous.ColorPro.Arithmetic.Divide(Color,System.Single,System.Boolean)
-  fullName: Zigurous.ColorPro.Arithmetic.Divide(Color, System.Single, System.Boolean)
-  nameWithType: Arithmetic.Divide(Color, Single, Boolean)
+- uid: Zigurous.ColorPro.Arithmetic.Adding(Color,Color,System.Boolean)
+  name: Adding(Color, Color, Boolean)
+  href: api/Zigurous.ColorPro.Arithmetic.html#Zigurous_ColorPro_Arithmetic_Adding_Color_Color_System_Boolean_
+  commentId: M:Zigurous.ColorPro.Arithmetic.Adding(Color,Color,System.Boolean)
+  fullName: Zigurous.ColorPro.Arithmetic.Adding(Color, Color, System.Boolean)
+  nameWithType: Arithmetic.Adding(Color, Color, Boolean)
+- uid: Zigurous.ColorPro.Arithmetic.Adding*
+  name: Adding
+  href: api/Zigurous.ColorPro.Arithmetic.html#Zigurous_ColorPro_Arithmetic_Adding_
+  commentId: Overload:Zigurous.ColorPro.Arithmetic.Adding
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Arithmetic.Adding
+  nameWithType: Arithmetic.Adding
+- uid: Zigurous.ColorPro.Arithmetic.Divide(Color@,Color,System.Boolean)
+  name: Divide(ref Color, Color, Boolean)
+  href: api/Zigurous.ColorPro.Arithmetic.html#Zigurous_ColorPro_Arithmetic_Divide_Color__Color_System_Boolean_
+  commentId: M:Zigurous.ColorPro.Arithmetic.Divide(Color@,Color,System.Boolean)
+  name.vb: Divide(ByRef Color, Color, Boolean)
+  fullName: Zigurous.ColorPro.Arithmetic.Divide(ref Color, Color, System.Boolean)
+  fullName.vb: Zigurous.ColorPro.Arithmetic.Divide(ByRef Color, Color, System.Boolean)
+  nameWithType: Arithmetic.Divide(ref Color, Color, Boolean)
+  nameWithType.vb: Arithmetic.Divide(ByRef Color, Color, Boolean)
+- uid: Zigurous.ColorPro.Arithmetic.Divide(Color@,System.Single,System.Boolean)
+  name: Divide(ref Color, Single, Boolean)
+  href: api/Zigurous.ColorPro.Arithmetic.html#Zigurous_ColorPro_Arithmetic_Divide_Color__System_Single_System_Boolean_
+  commentId: M:Zigurous.ColorPro.Arithmetic.Divide(Color@,System.Single,System.Boolean)
+  name.vb: Divide(ByRef Color, Single, Boolean)
+  fullName: Zigurous.ColorPro.Arithmetic.Divide(ref Color, System.Single, System.Boolean)
+  fullName.vb: Zigurous.ColorPro.Arithmetic.Divide(ByRef Color, System.Single, System.Boolean)
+  nameWithType: Arithmetic.Divide(ref Color, Single, Boolean)
+  nameWithType.vb: Arithmetic.Divide(ByRef Color, Single, Boolean)
 - uid: Zigurous.ColorPro.Arithmetic.Divide*
   name: Divide
   href: api/Zigurous.ColorPro.Arithmetic.html#Zigurous_ColorPro_Arithmetic_Divide_
@@ -770,18 +792,62 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.Arithmetic.Divide
   nameWithType: Arithmetic.Divide
-- uid: Zigurous.ColorPro.Arithmetic.Multiply(Color,Color,System.Boolean)
-  name: Multiply(Color, Color, Boolean)
-  href: api/Zigurous.ColorPro.Arithmetic.html#Zigurous_ColorPro_Arithmetic_Multiply_Color_Color_System_Boolean_
-  commentId: M:Zigurous.ColorPro.Arithmetic.Multiply(Color,Color,System.Boolean)
-  fullName: Zigurous.ColorPro.Arithmetic.Multiply(Color, Color, System.Boolean)
-  nameWithType: Arithmetic.Multiply(Color, Color, Boolean)
-- uid: Zigurous.ColorPro.Arithmetic.Multiply(Color,System.Single,System.Boolean)
-  name: Multiply(Color, Single, Boolean)
-  href: api/Zigurous.ColorPro.Arithmetic.html#Zigurous_ColorPro_Arithmetic_Multiply_Color_System_Single_System_Boolean_
-  commentId: M:Zigurous.ColorPro.Arithmetic.Multiply(Color,System.Single,System.Boolean)
-  fullName: Zigurous.ColorPro.Arithmetic.Multiply(Color, System.Single, System.Boolean)
-  nameWithType: Arithmetic.Multiply(Color, Single, Boolean)
+- uid: Zigurous.ColorPro.Arithmetic.DividedBy(Color,Color,System.Boolean)
+  name: DividedBy(Color, Color, Boolean)
+  href: api/Zigurous.ColorPro.Arithmetic.html#Zigurous_ColorPro_Arithmetic_DividedBy_Color_Color_System_Boolean_
+  commentId: M:Zigurous.ColorPro.Arithmetic.DividedBy(Color,Color,System.Boolean)
+  fullName: Zigurous.ColorPro.Arithmetic.DividedBy(Color, Color, System.Boolean)
+  nameWithType: Arithmetic.DividedBy(Color, Color, Boolean)
+- uid: Zigurous.ColorPro.Arithmetic.DividedBy(Color,System.Single,System.Boolean)
+  name: DividedBy(Color, Single, Boolean)
+  href: api/Zigurous.ColorPro.Arithmetic.html#Zigurous_ColorPro_Arithmetic_DividedBy_Color_System_Single_System_Boolean_
+  commentId: M:Zigurous.ColorPro.Arithmetic.DividedBy(Color,System.Single,System.Boolean)
+  fullName: Zigurous.ColorPro.Arithmetic.DividedBy(Color, System.Single, System.Boolean)
+  nameWithType: Arithmetic.DividedBy(Color, Single, Boolean)
+- uid: Zigurous.ColorPro.Arithmetic.DividedBy*
+  name: DividedBy
+  href: api/Zigurous.ColorPro.Arithmetic.html#Zigurous_ColorPro_Arithmetic_DividedBy_
+  commentId: Overload:Zigurous.ColorPro.Arithmetic.DividedBy
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Arithmetic.DividedBy
+  nameWithType: Arithmetic.DividedBy
+- uid: Zigurous.ColorPro.Arithmetic.MultipliedBy(Color,Color,System.Boolean)
+  name: MultipliedBy(Color, Color, Boolean)
+  href: api/Zigurous.ColorPro.Arithmetic.html#Zigurous_ColorPro_Arithmetic_MultipliedBy_Color_Color_System_Boolean_
+  commentId: M:Zigurous.ColorPro.Arithmetic.MultipliedBy(Color,Color,System.Boolean)
+  fullName: Zigurous.ColorPro.Arithmetic.MultipliedBy(Color, Color, System.Boolean)
+  nameWithType: Arithmetic.MultipliedBy(Color, Color, Boolean)
+- uid: Zigurous.ColorPro.Arithmetic.MultipliedBy(Color,System.Single,System.Boolean)
+  name: MultipliedBy(Color, Single, Boolean)
+  href: api/Zigurous.ColorPro.Arithmetic.html#Zigurous_ColorPro_Arithmetic_MultipliedBy_Color_System_Single_System_Boolean_
+  commentId: M:Zigurous.ColorPro.Arithmetic.MultipliedBy(Color,System.Single,System.Boolean)
+  fullName: Zigurous.ColorPro.Arithmetic.MultipliedBy(Color, System.Single, System.Boolean)
+  nameWithType: Arithmetic.MultipliedBy(Color, Single, Boolean)
+- uid: Zigurous.ColorPro.Arithmetic.MultipliedBy*
+  name: MultipliedBy
+  href: api/Zigurous.ColorPro.Arithmetic.html#Zigurous_ColorPro_Arithmetic_MultipliedBy_
+  commentId: Overload:Zigurous.ColorPro.Arithmetic.MultipliedBy
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Arithmetic.MultipliedBy
+  nameWithType: Arithmetic.MultipliedBy
+- uid: Zigurous.ColorPro.Arithmetic.Multiply(Color@,Color,System.Boolean)
+  name: Multiply(ref Color, Color, Boolean)
+  href: api/Zigurous.ColorPro.Arithmetic.html#Zigurous_ColorPro_Arithmetic_Multiply_Color__Color_System_Boolean_
+  commentId: M:Zigurous.ColorPro.Arithmetic.Multiply(Color@,Color,System.Boolean)
+  name.vb: Multiply(ByRef Color, Color, Boolean)
+  fullName: Zigurous.ColorPro.Arithmetic.Multiply(ref Color, Color, System.Boolean)
+  fullName.vb: Zigurous.ColorPro.Arithmetic.Multiply(ByRef Color, Color, System.Boolean)
+  nameWithType: Arithmetic.Multiply(ref Color, Color, Boolean)
+  nameWithType.vb: Arithmetic.Multiply(ByRef Color, Color, Boolean)
+- uid: Zigurous.ColorPro.Arithmetic.Multiply(Color@,System.Single,System.Boolean)
+  name: Multiply(ref Color, Single, Boolean)
+  href: api/Zigurous.ColorPro.Arithmetic.html#Zigurous_ColorPro_Arithmetic_Multiply_Color__System_Single_System_Boolean_
+  commentId: M:Zigurous.ColorPro.Arithmetic.Multiply(Color@,System.Single,System.Boolean)
+  name.vb: Multiply(ByRef Color, Single, Boolean)
+  fullName: Zigurous.ColorPro.Arithmetic.Multiply(ref Color, System.Single, System.Boolean)
+  fullName.vb: Zigurous.ColorPro.Arithmetic.Multiply(ByRef Color, System.Single, System.Boolean)
+  nameWithType: Arithmetic.Multiply(ref Color, Single, Boolean)
+  nameWithType.vb: Arithmetic.Multiply(ByRef Color, Single, Boolean)
 - uid: Zigurous.ColorPro.Arithmetic.Multiply*
   name: Multiply
   href: api/Zigurous.ColorPro.Arithmetic.html#Zigurous_ColorPro_Arithmetic_Multiply_
@@ -789,12 +855,15 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.Arithmetic.Multiply
   nameWithType: Arithmetic.Multiply
-- uid: Zigurous.ColorPro.Arithmetic.Subtract(Color,Color,System.Boolean)
-  name: Subtract(Color, Color, Boolean)
-  href: api/Zigurous.ColorPro.Arithmetic.html#Zigurous_ColorPro_Arithmetic_Subtract_Color_Color_System_Boolean_
-  commentId: M:Zigurous.ColorPro.Arithmetic.Subtract(Color,Color,System.Boolean)
-  fullName: Zigurous.ColorPro.Arithmetic.Subtract(Color, Color, System.Boolean)
-  nameWithType: Arithmetic.Subtract(Color, Color, Boolean)
+- uid: Zigurous.ColorPro.Arithmetic.Subtract(Color@,Color,System.Boolean)
+  name: Subtract(ref Color, Color, Boolean)
+  href: api/Zigurous.ColorPro.Arithmetic.html#Zigurous_ColorPro_Arithmetic_Subtract_Color__Color_System_Boolean_
+  commentId: M:Zigurous.ColorPro.Arithmetic.Subtract(Color@,Color,System.Boolean)
+  name.vb: Subtract(ByRef Color, Color, Boolean)
+  fullName: Zigurous.ColorPro.Arithmetic.Subtract(ref Color, Color, System.Boolean)
+  fullName.vb: Zigurous.ColorPro.Arithmetic.Subtract(ByRef Color, Color, System.Boolean)
+  nameWithType: Arithmetic.Subtract(ref Color, Color, Boolean)
+  nameWithType.vb: Arithmetic.Subtract(ByRef Color, Color, Boolean)
 - uid: Zigurous.ColorPro.Arithmetic.Subtract*
   name: Subtract
   href: api/Zigurous.ColorPro.Arithmetic.html#Zigurous_ColorPro_Arithmetic_Subtract_
@@ -802,6 +871,19 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.Arithmetic.Subtract
   nameWithType: Arithmetic.Subtract
+- uid: Zigurous.ColorPro.Arithmetic.Subtracting(Color,Color,System.Boolean)
+  name: Subtracting(Color, Color, Boolean)
+  href: api/Zigurous.ColorPro.Arithmetic.html#Zigurous_ColorPro_Arithmetic_Subtracting_Color_Color_System_Boolean_
+  commentId: M:Zigurous.ColorPro.Arithmetic.Subtracting(Color,Color,System.Boolean)
+  fullName: Zigurous.ColorPro.Arithmetic.Subtracting(Color, Color, System.Boolean)
+  nameWithType: Arithmetic.Subtracting(Color, Color, Boolean)
+- uid: Zigurous.ColorPro.Arithmetic.Subtracting*
+  name: Subtracting
+  href: api/Zigurous.ColorPro.Arithmetic.html#Zigurous_ColorPro_Arithmetic_Subtracting_
+  commentId: Overload:Zigurous.ColorPro.Arithmetic.Subtracting
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Arithmetic.Subtracting
+  nameWithType: Arithmetic.Subtracting
 - uid: Zigurous.ColorPro.Averaging
   name: Averaging
   href: api/Zigurous.ColorPro.Averaging.html
@@ -830,19 +912,19 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.Averaging.Average
   nameWithType: Averaging.Average
-- uid: Zigurous.ColorPro.Averaging.AveragedWith(Color,Color,System.Boolean)
-  name: AveragedWith(Color, Color, Boolean)
-  href: api/Zigurous.ColorPro.Averaging.html#Zigurous_ColorPro_Averaging_AveragedWith_Color_Color_System_Boolean_
-  commentId: M:Zigurous.ColorPro.Averaging.AveragedWith(Color,Color,System.Boolean)
-  fullName: Zigurous.ColorPro.Averaging.AveragedWith(Color, Color, System.Boolean)
-  nameWithType: Averaging.AveragedWith(Color, Color, Boolean)
-- uid: Zigurous.ColorPro.Averaging.AveragedWith*
-  name: AveragedWith
-  href: api/Zigurous.ColorPro.Averaging.html#Zigurous_ColorPro_Averaging_AveragedWith_
-  commentId: Overload:Zigurous.ColorPro.Averaging.AveragedWith
+- uid: Zigurous.ColorPro.Averaging.AverageColor(Texture2D)
+  name: AverageColor(Texture2D)
+  href: api/Zigurous.ColorPro.Averaging.html#Zigurous_ColorPro_Averaging_AverageColor_Texture2D_
+  commentId: M:Zigurous.ColorPro.Averaging.AverageColor(Texture2D)
+  fullName: Zigurous.ColorPro.Averaging.AverageColor(Texture2D)
+  nameWithType: Averaging.AverageColor(Texture2D)
+- uid: Zigurous.ColorPro.Averaging.AverageColor*
+  name: AverageColor
+  href: api/Zigurous.ColorPro.Averaging.html#Zigurous_ColorPro_Averaging_AverageColor_
+  commentId: Overload:Zigurous.ColorPro.Averaging.AverageColor
   isSpec: "True"
-  fullName: Zigurous.ColorPro.Averaging.AveragedWith
-  nameWithType: Averaging.AveragedWith
+  fullName: Zigurous.ColorPro.Averaging.AverageColor
+  nameWithType: Averaging.AverageColor
 - uid: Zigurous.ColorPro.CMYK
   name: CMYK
   href: api/Zigurous.ColorPro.CMYK.html
@@ -1250,84 +1332,325 @@ references:
   commentId: T:Zigurous.ColorPro.Components
   fullName: Zigurous.ColorPro.Components
   nameWithType: Components
-- uid: Zigurous.ColorPro.Components.Brightness(Color)
-  name: Brightness(Color)
-  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_Brightness_Color_
-  commentId: M:Zigurous.ColorPro.Components.Brightness(Color)
-  fullName: Zigurous.ColorPro.Components.Brightness(Color)
-  nameWithType: Components.Brightness(Color)
-- uid: Zigurous.ColorPro.Components.Brightness*
-  name: Brightness
-  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_Brightness_
-  commentId: Overload:Zigurous.ColorPro.Components.Brightness
+- uid: Zigurous.ColorPro.Components.Copy(Color,System.Boolean)
+  name: Copy(Color, Boolean)
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_Copy_Color_System_Boolean_
+  commentId: M:Zigurous.ColorPro.Components.Copy(Color,System.Boolean)
+  fullName: Zigurous.ColorPro.Components.Copy(Color, System.Boolean)
+  nameWithType: Components.Copy(Color, Boolean)
+- uid: Zigurous.ColorPro.Components.Copy*
+  name: Copy
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_Copy_
+  commentId: Overload:Zigurous.ColorPro.Components.Copy
   isSpec: "True"
-  fullName: Zigurous.ColorPro.Components.Brightness
-  nameWithType: Components.Brightness
-- uid: Zigurous.ColorPro.Components.Hue(Color)
-  name: Hue(Color)
-  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_Hue_Color_
-  commentId: M:Zigurous.ColorPro.Components.Hue(Color)
-  fullName: Zigurous.ColorPro.Components.Hue(Color)
-  nameWithType: Components.Hue(Color)
-- uid: Zigurous.ColorPro.Components.Hue*
-  name: Hue
-  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_Hue_
-  commentId: Overload:Zigurous.ColorPro.Components.Hue
+  fullName: Zigurous.ColorPro.Components.Copy
+  nameWithType: Components.Copy
+- uid: Zigurous.ColorPro.Components.GetAlpha(Color)
+  name: GetAlpha(Color)
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_GetAlpha_Color_
+  commentId: M:Zigurous.ColorPro.Components.GetAlpha(Color)
+  fullName: Zigurous.ColorPro.Components.GetAlpha(Color)
+  nameWithType: Components.GetAlpha(Color)
+- uid: Zigurous.ColorPro.Components.GetAlpha*
+  name: GetAlpha
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_GetAlpha_
+  commentId: Overload:Zigurous.ColorPro.Components.GetAlpha
   isSpec: "True"
-  fullName: Zigurous.ColorPro.Components.Hue
-  nameWithType: Components.Hue
-- uid: Zigurous.ColorPro.Components.Lightness(Color)
-  name: Lightness(Color)
-  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_Lightness_Color_
-  commentId: M:Zigurous.ColorPro.Components.Lightness(Color)
-  fullName: Zigurous.ColorPro.Components.Lightness(Color)
-  nameWithType: Components.Lightness(Color)
-- uid: Zigurous.ColorPro.Components.Lightness*
-  name: Lightness
-  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_Lightness_
-  commentId: Overload:Zigurous.ColorPro.Components.Lightness
+  fullName: Zigurous.ColorPro.Components.GetAlpha
+  nameWithType: Components.GetAlpha
+- uid: Zigurous.ColorPro.Components.GetBlue(Color)
+  name: GetBlue(Color)
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_GetBlue_Color_
+  commentId: M:Zigurous.ColorPro.Components.GetBlue(Color)
+  fullName: Zigurous.ColorPro.Components.GetBlue(Color)
+  nameWithType: Components.GetBlue(Color)
+- uid: Zigurous.ColorPro.Components.GetBlue*
+  name: GetBlue
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_GetBlue_
+  commentId: Overload:Zigurous.ColorPro.Components.GetBlue
   isSpec: "True"
-  fullName: Zigurous.ColorPro.Components.Lightness
-  nameWithType: Components.Lightness
-- uid: Zigurous.ColorPro.Components.SaturationL(Color)
-  name: SaturationL(Color)
-  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_SaturationL_Color_
-  commentId: M:Zigurous.ColorPro.Components.SaturationL(Color)
-  fullName: Zigurous.ColorPro.Components.SaturationL(Color)
-  nameWithType: Components.SaturationL(Color)
-- uid: Zigurous.ColorPro.Components.SaturationL*
-  name: SaturationL
-  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_SaturationL_
-  commentId: Overload:Zigurous.ColorPro.Components.SaturationL
+  fullName: Zigurous.ColorPro.Components.GetBlue
+  nameWithType: Components.GetBlue
+- uid: Zigurous.ColorPro.Components.GetBrightness(Color)
+  name: GetBrightness(Color)
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_GetBrightness_Color_
+  commentId: M:Zigurous.ColorPro.Components.GetBrightness(Color)
+  fullName: Zigurous.ColorPro.Components.GetBrightness(Color)
+  nameWithType: Components.GetBrightness(Color)
+- uid: Zigurous.ColorPro.Components.GetBrightness*
+  name: GetBrightness
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_GetBrightness_
+  commentId: Overload:Zigurous.ColorPro.Components.GetBrightness
   isSpec: "True"
-  fullName: Zigurous.ColorPro.Components.SaturationL
-  nameWithType: Components.SaturationL
-- uid: Zigurous.ColorPro.Components.SaturationV(Color)
-  name: SaturationV(Color)
-  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_SaturationV_Color_
-  commentId: M:Zigurous.ColorPro.Components.SaturationV(Color)
-  fullName: Zigurous.ColorPro.Components.SaturationV(Color)
-  nameWithType: Components.SaturationV(Color)
-- uid: Zigurous.ColorPro.Components.SaturationV*
-  name: SaturationV
-  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_SaturationV_
-  commentId: Overload:Zigurous.ColorPro.Components.SaturationV
+  fullName: Zigurous.ColorPro.Components.GetBrightness
+  nameWithType: Components.GetBrightness
+- uid: Zigurous.ColorPro.Components.GetGreen(Color)
+  name: GetGreen(Color)
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_GetGreen_Color_
+  commentId: M:Zigurous.ColorPro.Components.GetGreen(Color)
+  fullName: Zigurous.ColorPro.Components.GetGreen(Color)
+  nameWithType: Components.GetGreen(Color)
+- uid: Zigurous.ColorPro.Components.GetGreen*
+  name: GetGreen
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_GetGreen_
+  commentId: Overload:Zigurous.ColorPro.Components.GetGreen
   isSpec: "True"
-  fullName: Zigurous.ColorPro.Components.SaturationV
-  nameWithType: Components.SaturationV
-- uid: Zigurous.ColorPro.Components.Value(Color)
-  name: Value(Color)
-  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_Value_Color_
-  commentId: M:Zigurous.ColorPro.Components.Value(Color)
-  fullName: Zigurous.ColorPro.Components.Value(Color)
-  nameWithType: Components.Value(Color)
-- uid: Zigurous.ColorPro.Components.Value*
-  name: Value
-  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_Value_
-  commentId: Overload:Zigurous.ColorPro.Components.Value
+  fullName: Zigurous.ColorPro.Components.GetGreen
+  nameWithType: Components.GetGreen
+- uid: Zigurous.ColorPro.Components.GetHue(Color)
+  name: GetHue(Color)
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_GetHue_Color_
+  commentId: M:Zigurous.ColorPro.Components.GetHue(Color)
+  fullName: Zigurous.ColorPro.Components.GetHue(Color)
+  nameWithType: Components.GetHue(Color)
+- uid: Zigurous.ColorPro.Components.GetHue*
+  name: GetHue
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_GetHue_
+  commentId: Overload:Zigurous.ColorPro.Components.GetHue
   isSpec: "True"
-  fullName: Zigurous.ColorPro.Components.Value
-  nameWithType: Components.Value
+  fullName: Zigurous.ColorPro.Components.GetHue
+  nameWithType: Components.GetHue
+- uid: Zigurous.ColorPro.Components.GetLightness(Color)
+  name: GetLightness(Color)
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_GetLightness_Color_
+  commentId: M:Zigurous.ColorPro.Components.GetLightness(Color)
+  fullName: Zigurous.ColorPro.Components.GetLightness(Color)
+  nameWithType: Components.GetLightness(Color)
+- uid: Zigurous.ColorPro.Components.GetLightness*
+  name: GetLightness
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_GetLightness_
+  commentId: Overload:Zigurous.ColorPro.Components.GetLightness
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Components.GetLightness
+  nameWithType: Components.GetLightness
+- uid: Zigurous.ColorPro.Components.GetRed(Color)
+  name: GetRed(Color)
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_GetRed_Color_
+  commentId: M:Zigurous.ColorPro.Components.GetRed(Color)
+  fullName: Zigurous.ColorPro.Components.GetRed(Color)
+  nameWithType: Components.GetRed(Color)
+- uid: Zigurous.ColorPro.Components.GetRed*
+  name: GetRed
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_GetRed_
+  commentId: Overload:Zigurous.ColorPro.Components.GetRed
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Components.GetRed
+  nameWithType: Components.GetRed
+- uid: Zigurous.ColorPro.Components.GetSaturationL(Color)
+  name: GetSaturationL(Color)
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_GetSaturationL_Color_
+  commentId: M:Zigurous.ColorPro.Components.GetSaturationL(Color)
+  fullName: Zigurous.ColorPro.Components.GetSaturationL(Color)
+  nameWithType: Components.GetSaturationL(Color)
+- uid: Zigurous.ColorPro.Components.GetSaturationL*
+  name: GetSaturationL
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_GetSaturationL_
+  commentId: Overload:Zigurous.ColorPro.Components.GetSaturationL
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Components.GetSaturationL
+  nameWithType: Components.GetSaturationL
+- uid: Zigurous.ColorPro.Components.GetSaturationV(Color)
+  name: GetSaturationV(Color)
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_GetSaturationV_Color_
+  commentId: M:Zigurous.ColorPro.Components.GetSaturationV(Color)
+  fullName: Zigurous.ColorPro.Components.GetSaturationV(Color)
+  nameWithType: Components.GetSaturationV(Color)
+- uid: Zigurous.ColorPro.Components.GetSaturationV*
+  name: GetSaturationV
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_GetSaturationV_
+  commentId: Overload:Zigurous.ColorPro.Components.GetSaturationV
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Components.GetSaturationV
+  nameWithType: Components.GetSaturationV
+- uid: Zigurous.ColorPro.Components.GetValue(Color)
+  name: GetValue(Color)
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_GetValue_Color_
+  commentId: M:Zigurous.ColorPro.Components.GetValue(Color)
+  fullName: Zigurous.ColorPro.Components.GetValue(Color)
+  nameWithType: Components.GetValue(Color)
+- uid: Zigurous.ColorPro.Components.GetValue*
+  name: GetValue
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_GetValue_
+  commentId: Overload:Zigurous.ColorPro.Components.GetValue
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Components.GetValue
+  nameWithType: Components.GetValue
+- uid: Zigurous.ColorPro.Components.Match(Color@,Color,System.Boolean)
+  name: Match(ref Color, Color, Boolean)
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_Match_Color__Color_System_Boolean_
+  commentId: M:Zigurous.ColorPro.Components.Match(Color@,Color,System.Boolean)
+  name.vb: Match(ByRef Color, Color, Boolean)
+  fullName: Zigurous.ColorPro.Components.Match(ref Color, Color, System.Boolean)
+  fullName.vb: Zigurous.ColorPro.Components.Match(ByRef Color, Color, System.Boolean)
+  nameWithType: Components.Match(ref Color, Color, Boolean)
+  nameWithType.vb: Components.Match(ByRef Color, Color, Boolean)
+- uid: Zigurous.ColorPro.Components.Match*
+  name: Match
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_Match_
+  commentId: Overload:Zigurous.ColorPro.Components.Match
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Components.Match
+  nameWithType: Components.Match
+- uid: Zigurous.ColorPro.Components.SetAlpha(Color@,System.Single)
+  name: SetAlpha(ref Color, Single)
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_SetAlpha_Color__System_Single_
+  commentId: M:Zigurous.ColorPro.Components.SetAlpha(Color@,System.Single)
+  name.vb: SetAlpha(ByRef Color, Single)
+  fullName: Zigurous.ColorPro.Components.SetAlpha(ref Color, System.Single)
+  fullName.vb: Zigurous.ColorPro.Components.SetAlpha(ByRef Color, System.Single)
+  nameWithType: Components.SetAlpha(ref Color, Single)
+  nameWithType.vb: Components.SetAlpha(ByRef Color, Single)
+- uid: Zigurous.ColorPro.Components.SetAlpha*
+  name: SetAlpha
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_SetAlpha_
+  commentId: Overload:Zigurous.ColorPro.Components.SetAlpha
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Components.SetAlpha
+  nameWithType: Components.SetAlpha
+- uid: Zigurous.ColorPro.Components.SetBlue(Color@,System.Single)
+  name: SetBlue(ref Color, Single)
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_SetBlue_Color__System_Single_
+  commentId: M:Zigurous.ColorPro.Components.SetBlue(Color@,System.Single)
+  name.vb: SetBlue(ByRef Color, Single)
+  fullName: Zigurous.ColorPro.Components.SetBlue(ref Color, System.Single)
+  fullName.vb: Zigurous.ColorPro.Components.SetBlue(ByRef Color, System.Single)
+  nameWithType: Components.SetBlue(ref Color, Single)
+  nameWithType.vb: Components.SetBlue(ByRef Color, Single)
+- uid: Zigurous.ColorPro.Components.SetBlue*
+  name: SetBlue
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_SetBlue_
+  commentId: Overload:Zigurous.ColorPro.Components.SetBlue
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Components.SetBlue
+  nameWithType: Components.SetBlue
+- uid: Zigurous.ColorPro.Components.SetBrightness(Color@,System.Single)
+  name: SetBrightness(ref Color, Single)
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_SetBrightness_Color__System_Single_
+  commentId: M:Zigurous.ColorPro.Components.SetBrightness(Color@,System.Single)
+  name.vb: SetBrightness(ByRef Color, Single)
+  fullName: Zigurous.ColorPro.Components.SetBrightness(ref Color, System.Single)
+  fullName.vb: Zigurous.ColorPro.Components.SetBrightness(ByRef Color, System.Single)
+  nameWithType: Components.SetBrightness(ref Color, Single)
+  nameWithType.vb: Components.SetBrightness(ByRef Color, Single)
+- uid: Zigurous.ColorPro.Components.SetBrightness*
+  name: SetBrightness
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_SetBrightness_
+  commentId: Overload:Zigurous.ColorPro.Components.SetBrightness
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Components.SetBrightness
+  nameWithType: Components.SetBrightness
+- uid: Zigurous.ColorPro.Components.SetGreen(Color@,System.Single)
+  name: SetGreen(ref Color, Single)
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_SetGreen_Color__System_Single_
+  commentId: M:Zigurous.ColorPro.Components.SetGreen(Color@,System.Single)
+  name.vb: SetGreen(ByRef Color, Single)
+  fullName: Zigurous.ColorPro.Components.SetGreen(ref Color, System.Single)
+  fullName.vb: Zigurous.ColorPro.Components.SetGreen(ByRef Color, System.Single)
+  nameWithType: Components.SetGreen(ref Color, Single)
+  nameWithType.vb: Components.SetGreen(ByRef Color, Single)
+- uid: Zigurous.ColorPro.Components.SetGreen*
+  name: SetGreen
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_SetGreen_
+  commentId: Overload:Zigurous.ColorPro.Components.SetGreen
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Components.SetGreen
+  nameWithType: Components.SetGreen
+- uid: Zigurous.ColorPro.Components.SetHue(Color@,System.Single)
+  name: SetHue(ref Color, Single)
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_SetHue_Color__System_Single_
+  commentId: M:Zigurous.ColorPro.Components.SetHue(Color@,System.Single)
+  name.vb: SetHue(ByRef Color, Single)
+  fullName: Zigurous.ColorPro.Components.SetHue(ref Color, System.Single)
+  fullName.vb: Zigurous.ColorPro.Components.SetHue(ByRef Color, System.Single)
+  nameWithType: Components.SetHue(ref Color, Single)
+  nameWithType.vb: Components.SetHue(ByRef Color, Single)
+- uid: Zigurous.ColorPro.Components.SetHue*
+  name: SetHue
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_SetHue_
+  commentId: Overload:Zigurous.ColorPro.Components.SetHue
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Components.SetHue
+  nameWithType: Components.SetHue
+- uid: Zigurous.ColorPro.Components.SetLightness(Color@,System.Single)
+  name: SetLightness(ref Color, Single)
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_SetLightness_Color__System_Single_
+  commentId: M:Zigurous.ColorPro.Components.SetLightness(Color@,System.Single)
+  name.vb: SetLightness(ByRef Color, Single)
+  fullName: Zigurous.ColorPro.Components.SetLightness(ref Color, System.Single)
+  fullName.vb: Zigurous.ColorPro.Components.SetLightness(ByRef Color, System.Single)
+  nameWithType: Components.SetLightness(ref Color, Single)
+  nameWithType.vb: Components.SetLightness(ByRef Color, Single)
+- uid: Zigurous.ColorPro.Components.SetLightness*
+  name: SetLightness
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_SetLightness_
+  commentId: Overload:Zigurous.ColorPro.Components.SetLightness
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Components.SetLightness
+  nameWithType: Components.SetLightness
+- uid: Zigurous.ColorPro.Components.SetRed(Color@,System.Single)
+  name: SetRed(ref Color, Single)
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_SetRed_Color__System_Single_
+  commentId: M:Zigurous.ColorPro.Components.SetRed(Color@,System.Single)
+  name.vb: SetRed(ByRef Color, Single)
+  fullName: Zigurous.ColorPro.Components.SetRed(ref Color, System.Single)
+  fullName.vb: Zigurous.ColorPro.Components.SetRed(ByRef Color, System.Single)
+  nameWithType: Components.SetRed(ref Color, Single)
+  nameWithType.vb: Components.SetRed(ByRef Color, Single)
+- uid: Zigurous.ColorPro.Components.SetRed*
+  name: SetRed
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_SetRed_
+  commentId: Overload:Zigurous.ColorPro.Components.SetRed
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Components.SetRed
+  nameWithType: Components.SetRed
+- uid: Zigurous.ColorPro.Components.SetSaturationL(Color@,System.Single)
+  name: SetSaturationL(ref Color, Single)
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_SetSaturationL_Color__System_Single_
+  commentId: M:Zigurous.ColorPro.Components.SetSaturationL(Color@,System.Single)
+  name.vb: SetSaturationL(ByRef Color, Single)
+  fullName: Zigurous.ColorPro.Components.SetSaturationL(ref Color, System.Single)
+  fullName.vb: Zigurous.ColorPro.Components.SetSaturationL(ByRef Color, System.Single)
+  nameWithType: Components.SetSaturationL(ref Color, Single)
+  nameWithType.vb: Components.SetSaturationL(ByRef Color, Single)
+- uid: Zigurous.ColorPro.Components.SetSaturationL*
+  name: SetSaturationL
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_SetSaturationL_
+  commentId: Overload:Zigurous.ColorPro.Components.SetSaturationL
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Components.SetSaturationL
+  nameWithType: Components.SetSaturationL
+- uid: Zigurous.ColorPro.Components.SetSaturationV(Color@,System.Single)
+  name: SetSaturationV(ref Color, Single)
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_SetSaturationV_Color__System_Single_
+  commentId: M:Zigurous.ColorPro.Components.SetSaturationV(Color@,System.Single)
+  name.vb: SetSaturationV(ByRef Color, Single)
+  fullName: Zigurous.ColorPro.Components.SetSaturationV(ref Color, System.Single)
+  fullName.vb: Zigurous.ColorPro.Components.SetSaturationV(ByRef Color, System.Single)
+  nameWithType: Components.SetSaturationV(ref Color, Single)
+  nameWithType.vb: Components.SetSaturationV(ByRef Color, Single)
+- uid: Zigurous.ColorPro.Components.SetSaturationV*
+  name: SetSaturationV
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_SetSaturationV_
+  commentId: Overload:Zigurous.ColorPro.Components.SetSaturationV
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Components.SetSaturationV
+  nameWithType: Components.SetSaturationV
+- uid: Zigurous.ColorPro.Components.SetValue(Color@,System.Single)
+  name: SetValue(ref Color, Single)
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_SetValue_Color__System_Single_
+  commentId: M:Zigurous.ColorPro.Components.SetValue(Color@,System.Single)
+  name.vb: SetValue(ByRef Color, Single)
+  fullName: Zigurous.ColorPro.Components.SetValue(ref Color, System.Single)
+  fullName.vb: Zigurous.ColorPro.Components.SetValue(ByRef Color, System.Single)
+  nameWithType: Components.SetValue(ref Color, Single)
+  nameWithType.vb: Components.SetValue(ByRef Color, Single)
+- uid: Zigurous.ColorPro.Components.SetValue*
+  name: SetValue
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_SetValue_
+  commentId: Overload:Zigurous.ColorPro.Components.SetValue
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Components.SetValue
+  nameWithType: Components.SetValue
 - uid: Zigurous.ColorPro.Components.WithAlpha(Color,System.Single)
   name: WithAlpha(Color, Single)
   href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_WithAlpha_Color_System_Single_
@@ -1464,32 +1787,19 @@ references:
   commentId: T:Zigurous.ColorPro.Contrast
   fullName: Zigurous.ColorPro.Contrast
   nameWithType: Contrast
-- uid: Zigurous.ColorPro.Contrast.ContrastRatioBetween(Color,Color)
-  name: ContrastRatioBetween(Color, Color)
-  href: api/Zigurous.ColorPro.Contrast.html#Zigurous_ColorPro_Contrast_ContrastRatioBetween_Color_Color_
-  commentId: M:Zigurous.ColorPro.Contrast.ContrastRatioBetween(Color,Color)
-  fullName: Zigurous.ColorPro.Contrast.ContrastRatioBetween(Color, Color)
-  nameWithType: Contrast.ContrastRatioBetween(Color, Color)
-- uid: Zigurous.ColorPro.Contrast.ContrastRatioBetween*
-  name: ContrastRatioBetween
-  href: api/Zigurous.ColorPro.Contrast.html#Zigurous_ColorPro_Contrast_ContrastRatioBetween_
-  commentId: Overload:Zigurous.ColorPro.Contrast.ContrastRatioBetween
+- uid: Zigurous.ColorPro.Contrast.ContrastRatio(Color,Color)
+  name: ContrastRatio(Color, Color)
+  href: api/Zigurous.ColorPro.Contrast.html#Zigurous_ColorPro_Contrast_ContrastRatio_Color_Color_
+  commentId: M:Zigurous.ColorPro.Contrast.ContrastRatio(Color,Color)
+  fullName: Zigurous.ColorPro.Contrast.ContrastRatio(Color, Color)
+  nameWithType: Contrast.ContrastRatio(Color, Color)
+- uid: Zigurous.ColorPro.Contrast.ContrastRatio*
+  name: ContrastRatio
+  href: api/Zigurous.ColorPro.Contrast.html#Zigurous_ColorPro_Contrast_ContrastRatio_
+  commentId: Overload:Zigurous.ColorPro.Contrast.ContrastRatio
   isSpec: "True"
-  fullName: Zigurous.ColorPro.Contrast.ContrastRatioBetween
-  nameWithType: Contrast.ContrastRatioBetween
-- uid: Zigurous.ColorPro.Contrast.ContrastRatioTo(Color,Color)
-  name: ContrastRatioTo(Color, Color)
-  href: api/Zigurous.ColorPro.Contrast.html#Zigurous_ColorPro_Contrast_ContrastRatioTo_Color_Color_
-  commentId: M:Zigurous.ColorPro.Contrast.ContrastRatioTo(Color,Color)
-  fullName: Zigurous.ColorPro.Contrast.ContrastRatioTo(Color, Color)
-  nameWithType: Contrast.ContrastRatioTo(Color, Color)
-- uid: Zigurous.ColorPro.Contrast.ContrastRatioTo*
-  name: ContrastRatioTo
-  href: api/Zigurous.ColorPro.Contrast.html#Zigurous_ColorPro_Contrast_ContrastRatioTo_
-  commentId: Overload:Zigurous.ColorPro.Contrast.ContrastRatioTo
-  isSpec: "True"
-  fullName: Zigurous.ColorPro.Contrast.ContrastRatioTo
-  nameWithType: Contrast.ContrastRatioTo
+  fullName: Zigurous.ColorPro.Contrast.ContrastRatio
+  nameWithType: Contrast.ContrastRatio
 - uid: Zigurous.ColorPro.Contrast.HigherContrastingColor(Color,Color,Color)
   name: HigherContrastingColor(Color, Color, Color)
   href: api/Zigurous.ColorPro.Contrast.html#Zigurous_ColorPro_Contrast_HigherContrastingColor_Color_Color_Color_
@@ -2406,6 +2716,12 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.Gradients.Create
   nameWithType: Gradients.Create
+- uid: Zigurous.ColorPro.Gradients.ToColors(Gradient)
+  name: ToColors(Gradient)
+  href: api/Zigurous.ColorPro.Gradients.html#Zigurous_ColorPro_Gradients_ToColors_Gradient_
+  commentId: M:Zigurous.ColorPro.Gradients.ToColors(Gradient)
+  fullName: Zigurous.ColorPro.Gradients.ToColors(Gradient)
+  nameWithType: Gradients.ToColors(Gradient)
 - uid: Zigurous.ColorPro.Gradients.ToColors(Gradient,System.Int32)
   name: ToColors(Gradient, Int32)
   href: api/Zigurous.ColorPro.Gradients.html#Zigurous_ColorPro_Gradients_ToColors_Gradient_System_Int32_
@@ -4975,19 +5291,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.Mixing.Mix
   nameWithType: Mixing.Mix
-- uid: Zigurous.ColorPro.Mixing.MixedWith(Color,Color,System.Single,System.Boolean)
-  name: MixedWith(Color, Color, Single, Boolean)
-  href: api/Zigurous.ColorPro.Mixing.html#Zigurous_ColorPro_Mixing_MixedWith_Color_Color_System_Single_System_Boolean_
-  commentId: M:Zigurous.ColorPro.Mixing.MixedWith(Color,Color,System.Single,System.Boolean)
-  fullName: Zigurous.ColorPro.Mixing.MixedWith(Color, Color, System.Single, System.Boolean)
-  nameWithType: Mixing.MixedWith(Color, Color, Single, Boolean)
-- uid: Zigurous.ColorPro.Mixing.MixedWith*
-  name: MixedWith
-  href: api/Zigurous.ColorPro.Mixing.html#Zigurous_ColorPro_Mixing_MixedWith_
-  commentId: Overload:Zigurous.ColorPro.Mixing.MixedWith
-  isSpec: "True"
-  fullName: Zigurous.ColorPro.Mixing.MixedWith
-  nameWithType: Mixing.MixedWith
 - uid: Zigurous.ColorPro.Mixing.Shade(Color,System.Single)
   name: Shade(Color, Single)
   href: api/Zigurous.ColorPro.Mixing.html#Zigurous_ColorPro_Mixing_Shade_Color_System_Single_

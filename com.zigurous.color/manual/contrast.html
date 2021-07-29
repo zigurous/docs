@@ -4,9 +4,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Color Pro | Color Pro </title>
+    <title>Contrast | Color Pro </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Color Pro | Color Pro ">
+    <meta name="title" content="Contrast | Color Pro ">
     <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -78,26 +78,34 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="color-pro">Color Pro</h1>
+<h1 id="contrast">Contrast</h1>
 
-<p>The Color Pro package is a robust utility library for working with colors in Unity projects. Included in the package are dozens of functions for color mixing, conversion, generating color palettes, and much more.</p>
-<h3 id="reference">Reference</h3>
-<ul>
-<li><a href="accessibility.html">Accessibility</a></li>
-<li><a href="adjustment.html">Adjustment</a></li>
-<li><a href="arithmetic.html">Arithmetic</a></li>
-<li><a href="averaging.html">Averaging</a></li>
-<li><a href="components.html">Components</a></li>
-<li><a href="contrast.html">Contrast</a></li>
-<li><a href="conversion.html">Conversion</a></li>
-<li><a href="equality.html">Equality</a></li>
-<li><a href="gradients.html">Gradients</a></li>
-<li><a href="harmonies.html">Harmonies</a></li>
-<li><a href="luminance.html">Luminance</a></li>
-<li><a href="mixing.html">Mixing</a></li>
-<li><a href="mixing-models.html">Mixing Models</a></li>
-<li><a href="random.html">Random</a></li>
-</ul>
+<p>The Color Pro package includes several functions for getting the contrast ratio between colors. This is primarily used when determining <a href="accessibility.html">accessibility requirements</a>, but it can also be used for other purposes.</p>
+<h3 id="calculating-contrast">Calculating Contrast</h3>
+<p>Contrast functions are declared in the static class <a class="xref" href="../api/Zigurous.ColorPro.Contrast.html">Contrast</a>.</p>
+<pre><code class="lang-csharp">Color foreground = Color.white;
+Color background = Color.black;
+
+float contrast = foreground.ContrastRatio(background);
+</code></pre>
+<p>The calculation itself is as follows:</p>
+<pre><code class="lang-csharp">public static float ContrastRatio(this Color color, Color other)
+{
+    float luminanceA = color.RelativeLuminance();
+    float luminanceB = other.RelativeLuminance();
+
+    float darker = Mathf.Min(luminanceA, luminanceB);
+    float lighter = Mathf.Max(luminanceA, luminanceB);
+
+    return (lighter + 0.05f) / (darker + 0.05f);
+}
+</code></pre>
+<h3 id="higher--lower">Higher / Lower</h3>
+<p>Sometimes it is useful to find the color that has the highest or lowest contrast ratio to many other colors. For example, if your text color is white, maybe you want to test different background colors to see which one has the best contrast ratio.</p>
+<pre><code class="lang-csharp">Color foreground = Color.white;
+Color highest = foreground.HigherContrastingColor(Color.red, Color.blue);
+Color lowest = foreground.LowerContrastingColor(Color.red, Color.blue);
+</code></pre>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">

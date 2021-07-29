@@ -4,9 +4,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Color Pro | Color Pro </title>
+    <title>Mixing | Color Pro </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Color Pro | Color Pro ">
+    <meta name="title" content="Mixing | Color Pro ">
     <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -78,26 +78,53 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="color-pro">Color Pro</h1>
+<h1 id="mixing">Mixing</h1>
 
-<p>The Color Pro package is a robust utility library for working with colors in Unity projects. Included in the package are dozens of functions for color mixing, conversion, generating color palettes, and much more.</p>
-<h3 id="reference">Reference</h3>
-<ul>
-<li><a href="accessibility.html">Accessibility</a></li>
-<li><a href="adjustment.html">Adjustment</a></li>
-<li><a href="arithmetic.html">Arithmetic</a></li>
-<li><a href="averaging.html">Averaging</a></li>
-<li><a href="components.html">Components</a></li>
-<li><a href="contrast.html">Contrast</a></li>
-<li><a href="conversion.html">Conversion</a></li>
-<li><a href="equality.html">Equality</a></li>
-<li><a href="gradients.html">Gradients</a></li>
-<li><a href="harmonies.html">Harmonies</a></li>
-<li><a href="luminance.html">Luminance</a></li>
-<li><a href="mixing.html">Mixing</a></li>
-<li><a href="mixing-models.html">Mixing Models</a></li>
-<li><a href="random.html">Random</a></li>
-</ul>
+<p>Mixing colors together is very common when producing color palettes. The most notable examples of this are creating tints (mixing with white), shades (mixing with black), and tones (mixing with gray), although any two colors can be mixed together. These functions are declared as color extensions in the static class <a class="xref" href="../api/Zigurous.ColorPro.Mixing.html">Mixing</a>.</p>
+<pre><code class="lang-csharp">Color red = Color.red;
+Color yellow = Color.yellow;
+Color orange = red.Mix(yellow);
+
+Color result;
+result = red.Mix(yellow, 0.25f); // &quot;red-orange&quot;
+result = red.Mix(yellow, 0.75f); // &quot;amber&quot;
+</code></pre>
+<blockquote>
+<p>Note: Colors are mixed using their RGB values (additive mixing model). See the <a href="mixing-models.html">Mixing Models</a> manual for more information on the differences.</p>
+</blockquote>
+<h3 id="tints">Tints</h3>
+<p>Tints are produced by mixing a color with white (increases lightness).</p>
+<pre><code class="lang-csharp">// produces a tint that is 10% white
+Color tint = color.Tint(0.1f);
+
+// results in no change
+Color same = color.Tint(0.0f);
+
+// results in pure white
+Color white = color.Tint(1.0f);
+</code></pre>
+<h3 id="shades">Shades</h3>
+<p>Tints are produced by mixing a color with black (decreases lightness).</p>
+<pre><code class="lang-csharp">// produces a shade that is 10% black
+Color shade = color.Shade(0.1f);
+
+// results in no change
+Color same = color.Shade(0.0f);
+
+// results in pure black
+Color black = color.Shade(1.0f);
+</code></pre>
+<h3 id="tones">Tones</h3>
+<p>Tints are produced by mixing a color with gray (decreases saturation).</p>
+<pre><code class="lang-csharp">// produces a tone that is 10% gray
+Color tone = color.Tone(0.1f);
+
+// results in no change
+Color same = color.Tone(0.0f);
+
+// results in pure gray (50% white / 50% black)
+Color gray = color.Tone(1.0f);
+</code></pre>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">

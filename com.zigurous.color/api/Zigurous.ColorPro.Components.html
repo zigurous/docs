@@ -82,7 +82,7 @@
             <article class="content wrap" id="_content" data-uid="Zigurous.ColorPro.Components">
   <h1 id="Zigurous_ColorPro_Components" data-uid="Zigurous.ColorPro.Components" class="text-break">Class Components
   </h1>
-  <div class="markdown level0 summary"><p>Functions for extracting color component values.</p>
+  <div class="markdown level0 summary"><p>Functions for getting and setting color component values.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -96,13 +96,13 @@
   </div>
   <h3 id="methods">Methods
   </h3>
-  <a id="Zigurous_ColorPro_Components_Brightness_" data-uid="Zigurous.ColorPro.Components.Brightness*"></a>
-  <h4 id="Zigurous_ColorPro_Components_Brightness_Color_" data-uid="Zigurous.ColorPro.Components.Brightness(Color)">Brightness(Color)</h4>
-  <div class="markdown level1 summary"><p>Returns the brightness component of the color using the HSB/HSV color model.</p>
+  <a id="Zigurous_ColorPro_Components_Copy_" data-uid="Zigurous.ColorPro.Components.Copy*"></a>
+  <h4 id="Zigurous_ColorPro_Components_Copy_Color_System_Boolean_" data-uid="Zigurous.ColorPro.Components.Copy(Color,System.Boolean)">Copy(Color, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Returns a copy of the color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float Brightness(this Color color)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color Copy(this Color color, bool copyAlpha = true)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -114,18 +114,115 @@
     <tbody>
       <tr>
         <td><span class="parametername">color</span></td>
-        <td><p>The color to extract the brightness component from.</p>
+        <td><p>The color to copy.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">copyAlpha</span></td>
+        <td><p>Whether to copy the alpha value.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_ColorPro_Components_Hue_" data-uid="Zigurous.ColorPro.Components.Hue*"></a>
-  <h4 id="Zigurous_ColorPro_Components_Hue_Color_" data-uid="Zigurous.ColorPro.Components.Hue(Color)">Hue(Color)</h4>
+  <a id="Zigurous_ColorPro_Components_GetAlpha_" data-uid="Zigurous.ColorPro.Components.GetAlpha*"></a>
+  <h4 id="Zigurous_ColorPro_Components_GetAlpha_Color_" data-uid="Zigurous.ColorPro.Components.GetAlpha(Color)">GetAlpha(Color)</h4>
+  <div class="markdown level1 summary"><p>Returns the alpha component of the color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float GetAlpha(this Color color)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to get the component from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Components_GetBlue_" data-uid="Zigurous.ColorPro.Components.GetBlue*"></a>
+  <h4 id="Zigurous_ColorPro_Components_GetBlue_Color_" data-uid="Zigurous.ColorPro.Components.GetBlue(Color)">GetBlue(Color)</h4>
+  <div class="markdown level1 summary"><p>Returns the blue component of the color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float GetBlue(this Color color)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to get the component from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Components_GetBrightness_" data-uid="Zigurous.ColorPro.Components.GetBrightness*"></a>
+  <h4 id="Zigurous_ColorPro_Components_GetBrightness_Color_" data-uid="Zigurous.ColorPro.Components.GetBrightness(Color)">GetBrightness(Color)</h4>
+  <div class="markdown level1 summary"><p>Returns the brightness component of the color using the HSB color model.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float GetBrightness(this Color color)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to get the component from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Components_GetGreen_" data-uid="Zigurous.ColorPro.Components.GetGreen*"></a>
+  <h4 id="Zigurous_ColorPro_Components_GetGreen_Color_" data-uid="Zigurous.ColorPro.Components.GetGreen(Color)">GetGreen(Color)</h4>
+  <div class="markdown level1 summary"><p>Returns the green component of the color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float GetGreen(this Color color)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to get the component from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Components_GetHue_" data-uid="Zigurous.ColorPro.Components.GetHue*"></a>
+  <h4 id="Zigurous_ColorPro_Components_GetHue_Color_" data-uid="Zigurous.ColorPro.Components.GetHue(Color)">GetHue(Color)</h4>
   <div class="markdown level1 summary"><p>Returns the hue component of the color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float Hue(this Color color)</code></pre>
+    <pre><code class="lang-csharp hljs">public static float GetHue(this Color color)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -137,18 +234,18 @@
     <tbody>
       <tr>
         <td><span class="parametername">color</span></td>
-        <td><p>The color to extract the hue component from.</p>
+        <td><p>The color to get the component from.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_ColorPro_Components_Lightness_" data-uid="Zigurous.ColorPro.Components.Lightness*"></a>
-  <h4 id="Zigurous_ColorPro_Components_Lightness_Color_" data-uid="Zigurous.ColorPro.Components.Lightness(Color)">Lightness(Color)</h4>
+  <a id="Zigurous_ColorPro_Components_GetLightness_" data-uid="Zigurous.ColorPro.Components.GetLightness*"></a>
+  <h4 id="Zigurous_ColorPro_Components_GetLightness_Color_" data-uid="Zigurous.ColorPro.Components.GetLightness(Color)">GetLightness(Color)</h4>
   <div class="markdown level1 summary"><p>Returns the lightness component of the color using the HSL color model.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float Lightness(this Color color)</code></pre>
+    <pre><code class="lang-csharp hljs">public static float GetLightness(this Color color)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -160,18 +257,41 @@
     <tbody>
       <tr>
         <td><span class="parametername">color</span></td>
-        <td><p>The color to extract the lightness component from.</p>
+        <td><p>The color to get the component from.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_ColorPro_Components_SaturationL_" data-uid="Zigurous.ColorPro.Components.SaturationL*"></a>
-  <h4 id="Zigurous_ColorPro_Components_SaturationL_Color_" data-uid="Zigurous.ColorPro.Components.SaturationL(Color)">SaturationL(Color)</h4>
+  <a id="Zigurous_ColorPro_Components_GetRed_" data-uid="Zigurous.ColorPro.Components.GetRed*"></a>
+  <h4 id="Zigurous_ColorPro_Components_GetRed_Color_" data-uid="Zigurous.ColorPro.Components.GetRed(Color)">GetRed(Color)</h4>
+  <div class="markdown level1 summary"><p>Returns the red component of the color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float GetRed(this Color color)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to get the component from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Components_GetSaturationL_" data-uid="Zigurous.ColorPro.Components.GetSaturationL*"></a>
+  <h4 id="Zigurous_ColorPro_Components_GetSaturationL_Color_" data-uid="Zigurous.ColorPro.Components.GetSaturationL(Color)">GetSaturationL(Color)</h4>
   <div class="markdown level1 summary"><p>Returns the saturation component of the color using the HSL color model.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float SaturationL(this Color color)</code></pre>
+    <pre><code class="lang-csharp hljs">public static float GetSaturationL(this Color color)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -183,18 +303,18 @@
     <tbody>
       <tr>
         <td><span class="parametername">color</span></td>
-        <td><p>The color to extract the saturation component from.</p>
+        <td><p>The color to get the component from.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_ColorPro_Components_SaturationV_" data-uid="Zigurous.ColorPro.Components.SaturationV*"></a>
-  <h4 id="Zigurous_ColorPro_Components_SaturationV_Color_" data-uid="Zigurous.ColorPro.Components.SaturationV(Color)">SaturationV(Color)</h4>
+  <a id="Zigurous_ColorPro_Components_GetSaturationV_" data-uid="Zigurous.ColorPro.Components.GetSaturationV*"></a>
+  <h4 id="Zigurous_ColorPro_Components_GetSaturationV_Color_" data-uid="Zigurous.ColorPro.Components.GetSaturationV(Color)">GetSaturationV(Color)</h4>
   <div class="markdown level1 summary"><p>Returns the saturation component of the color using the HSV color model.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float SaturationV(this Color color)</code></pre>
+    <pre><code class="lang-csharp hljs">public static float GetSaturationV(this Color color)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -206,18 +326,18 @@
     <tbody>
       <tr>
         <td><span class="parametername">color</span></td>
-        <td><p>The color to extract the saturation component from.</p>
+        <td><p>The color to get the component from.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_ColorPro_Components_Value_" data-uid="Zigurous.ColorPro.Components.Value*"></a>
-  <h4 id="Zigurous_ColorPro_Components_Value_Color_" data-uid="Zigurous.ColorPro.Components.Value(Color)">Value(Color)</h4>
-  <div class="markdown level1 summary"><p>Returns the value component of the color using the HSV color model.</p>
+  <a id="Zigurous_ColorPro_Components_GetValue_" data-uid="Zigurous.ColorPro.Components.GetValue*"></a>
+  <h4 id="Zigurous_ColorPro_Components_GetValue_Color_" data-uid="Zigurous.ColorPro.Components.GetValue(Color)">GetValue(Color)</h4>
+  <div class="markdown level1 summary"><p>Returns the &quot;value&quot; component of the color using the HSV color model.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float Value(this Color color)</code></pre>
+    <pre><code class="lang-csharp hljs">public static float GetValue(this Color color)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -229,14 +349,332 @@
     <tbody>
       <tr>
         <td><span class="parametername">color</span></td>
-        <td><p>The color to extract the value component from.</p>
+        <td><p>The color to get the component from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Components_Match_" data-uid="Zigurous.ColorPro.Components.Match*"></a>
+  <h4 id="Zigurous_ColorPro_Components_Match_Color__Color_System_Boolean_" data-uid="Zigurous.ColorPro.Components.Match(Color@,Color,System.Boolean)">Match(ref Color, Color, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Sets the components of the color to match another color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Match(this ref Color color, Color other, bool matchAlpha = true)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to set the components of.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">other</span></td>
+        <td><p>The color to copy the components from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">matchAlpha</span></td>
+        <td><p>Whether to match the alpha component.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Components_SetAlpha_" data-uid="Zigurous.ColorPro.Components.SetAlpha*"></a>
+  <h4 id="Zigurous_ColorPro_Components_SetAlpha_Color__System_Single_" data-uid="Zigurous.ColorPro.Components.SetAlpha(Color@,System.Single)">SetAlpha(ref Color, Single)</h4>
+  <div class="markdown level1 summary"><p>Sets the alpha component of the color to the given value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAlpha(this ref Color color, float alpha)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to set the component on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">alpha</span></td>
+        <td><p>The value to set the component to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Components_SetBlue_" data-uid="Zigurous.ColorPro.Components.SetBlue*"></a>
+  <h4 id="Zigurous_ColorPro_Components_SetBlue_Color__System_Single_" data-uid="Zigurous.ColorPro.Components.SetBlue(Color@,System.Single)">SetBlue(ref Color, Single)</h4>
+  <div class="markdown level1 summary"><p>Sets the blue component of the color to the given value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetBlue(this ref Color color, float blue)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to set the component on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">blue</span></td>
+        <td><p>The value to set the component to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Components_SetBrightness_" data-uid="Zigurous.ColorPro.Components.SetBrightness*"></a>
+  <h4 id="Zigurous_ColorPro_Components_SetBrightness_Color__System_Single_" data-uid="Zigurous.ColorPro.Components.SetBrightness(Color@,System.Single)">SetBrightness(ref Color, Single)</h4>
+  <div class="markdown level1 summary"><p>Sets the brightness component of the color to the given value using
+the HSB color model.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetBrightness(this ref Color color, float brightness)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to set the component on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">brightness</span></td>
+        <td><p>The value to set the component to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Components_SetGreen_" data-uid="Zigurous.ColorPro.Components.SetGreen*"></a>
+  <h4 id="Zigurous_ColorPro_Components_SetGreen_Color__System_Single_" data-uid="Zigurous.ColorPro.Components.SetGreen(Color@,System.Single)">SetGreen(ref Color, Single)</h4>
+  <div class="markdown level1 summary"><p>Sets the green component of the color to the given value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetGreen(this ref Color color, float green)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to set the component on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">green</span></td>
+        <td><p>The value to set the component to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Components_SetHue_" data-uid="Zigurous.ColorPro.Components.SetHue*"></a>
+  <h4 id="Zigurous_ColorPro_Components_SetHue_Color__System_Single_" data-uid="Zigurous.ColorPro.Components.SetHue(Color@,System.Single)">SetHue(ref Color, Single)</h4>
+  <div class="markdown level1 summary"><p>Sets the hue component of the color to the given value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetHue(this ref Color color, float hue)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to set the component on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">hue</span></td>
+        <td><p>The value to set the component to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Components_SetLightness_" data-uid="Zigurous.ColorPro.Components.SetLightness*"></a>
+  <h4 id="Zigurous_ColorPro_Components_SetLightness_Color__System_Single_" data-uid="Zigurous.ColorPro.Components.SetLightness(Color@,System.Single)">SetLightness(ref Color, Single)</h4>
+  <div class="markdown level1 summary"><p>Sets the lightness component of the color to the given value using
+the HSL color model.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetLightness(this ref Color color, float lightness)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to set the component on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">lightness</span></td>
+        <td><p>The value to set the component to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Components_SetRed_" data-uid="Zigurous.ColorPro.Components.SetRed*"></a>
+  <h4 id="Zigurous_ColorPro_Components_SetRed_Color__System_Single_" data-uid="Zigurous.ColorPro.Components.SetRed(Color@,System.Single)">SetRed(ref Color, Single)</h4>
+  <div class="markdown level1 summary"><p>Sets the red component of the color to the given value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetRed(this ref Color color, float red)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to set the component on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">red</span></td>
+        <td><p>The value to set the component to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Components_SetSaturationL_" data-uid="Zigurous.ColorPro.Components.SetSaturationL*"></a>
+  <h4 id="Zigurous_ColorPro_Components_SetSaturationL_Color__System_Single_" data-uid="Zigurous.ColorPro.Components.SetSaturationL(Color@,System.Single)">SetSaturationL(ref Color, Single)</h4>
+  <div class="markdown level1 summary"><p>Sets the saturation component of the color to the given value using
+the HSL color model.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetSaturationL(this ref Color color, float saturation)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to set the component on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">saturation</span></td>
+        <td><p>The value to set the component to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Components_SetSaturationV_" data-uid="Zigurous.ColorPro.Components.SetSaturationV*"></a>
+  <h4 id="Zigurous_ColorPro_Components_SetSaturationV_Color__System_Single_" data-uid="Zigurous.ColorPro.Components.SetSaturationV(Color@,System.Single)">SetSaturationV(ref Color, Single)</h4>
+  <div class="markdown level1 summary"><p>Sets the saturation component of the color to the given value using
+the HSV color model.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetSaturationV(this ref Color color, float saturation)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to set the component on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">saturation</span></td>
+        <td><p>The value to set the component to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Components_SetValue_" data-uid="Zigurous.ColorPro.Components.SetValue*"></a>
+  <h4 id="Zigurous_ColorPro_Components_SetValue_Color__System_Single_" data-uid="Zigurous.ColorPro.Components.SetValue(Color@,System.Single)">SetValue(ref Color, Single)</h4>
+  <div class="markdown level1 summary"><p>Sets the &quot;value&quot; component of the color to the given value using the
+HSV color model.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetValue(this ref Color color, float value)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to set the component on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to set the component to.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorPro_Components_WithAlpha_" data-uid="Zigurous.ColorPro.Components.WithAlpha*"></a>
   <h4 id="Zigurous_ColorPro_Components_WithAlpha_Color_System_Single_" data-uid="Zigurous.ColorPro.Components.WithAlpha(Color,System.Single)">WithAlpha(Color, Single)</h4>
-  <div class="markdown level1 summary"><p>Returns a new instance of the color with a new alpha component value.</p>
+  <div class="markdown level1 summary"><p>Returns a copy of the color with a new alpha component value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
@@ -257,14 +695,14 @@
       </tr>
       <tr>
         <td><span class="parametername">alpha</span></td>
-        <td><p>The new alpha component value.</p>
+        <td><p>The new component value.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorPro_Components_WithBlue_" data-uid="Zigurous.ColorPro.Components.WithBlue*"></a>
   <h4 id="Zigurous_ColorPro_Components_WithBlue_Color_System_Single_" data-uid="Zigurous.ColorPro.Components.WithBlue(Color,System.Single)">WithBlue(Color, Single)</h4>
-  <div class="markdown level1 summary"><p>Returns a new instance of the color with a new blue component value.</p>
+  <div class="markdown level1 summary"><p>Returns a copy of the color with a new blue component value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
@@ -285,15 +723,15 @@
       </tr>
       <tr>
         <td><span class="parametername">blue</span></td>
-        <td><p>The new blue component value.</p>
+        <td><p>The new component value.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorPro_Components_WithBrightness_" data-uid="Zigurous.ColorPro.Components.WithBrightness*"></a>
   <h4 id="Zigurous_ColorPro_Components_WithBrightness_Color_System_Single_" data-uid="Zigurous.ColorPro.Components.WithBrightness(Color,System.Single)">WithBrightness(Color, Single)</h4>
-  <div class="markdown level1 summary"><p>Returns a new instance of the color with a new brightness component
-value using the HSB/HSV color model.</p>
+  <div class="markdown level1 summary"><p>Returns a copy of the color with a new brightness component value
+using the HSB color model.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
@@ -314,14 +752,14 @@ value using the HSB/HSV color model.</p>
       </tr>
       <tr>
         <td><span class="parametername">brightness</span></td>
-        <td><p>The new brightness component value.</p>
+        <td><p>The new component value.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorPro_Components_WithGreen_" data-uid="Zigurous.ColorPro.Components.WithGreen*"></a>
   <h4 id="Zigurous_ColorPro_Components_WithGreen_Color_System_Single_" data-uid="Zigurous.ColorPro.Components.WithGreen(Color,System.Single)">WithGreen(Color, Single)</h4>
-  <div class="markdown level1 summary"><p>Returns a new instance of the color with a new green component value.</p>
+  <div class="markdown level1 summary"><p>Returns a copy of the color with a new green component value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
@@ -342,14 +780,14 @@ value using the HSB/HSV color model.</p>
       </tr>
       <tr>
         <td><span class="parametername">green</span></td>
-        <td><p>The new green component value.</p>
+        <td><p>The new component value.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorPro_Components_WithHue_" data-uid="Zigurous.ColorPro.Components.WithHue*"></a>
   <h4 id="Zigurous_ColorPro_Components_WithHue_Color_System_Single_" data-uid="Zigurous.ColorPro.Components.WithHue(Color,System.Single)">WithHue(Color, Single)</h4>
-  <div class="markdown level1 summary"><p>Returns a new instance of the color with a new hue component value.</p>
+  <div class="markdown level1 summary"><p>Returns a copy of the color with a new hue component value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
@@ -370,15 +808,15 @@ value using the HSB/HSV color model.</p>
       </tr>
       <tr>
         <td><span class="parametername">hue</span></td>
-        <td><p>The new hue component value.</p>
+        <td><p>The new component value.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorPro_Components_WithLightness_" data-uid="Zigurous.ColorPro.Components.WithLightness*"></a>
   <h4 id="Zigurous_ColorPro_Components_WithLightness_Color_System_Single_" data-uid="Zigurous.ColorPro.Components.WithLightness(Color,System.Single)">WithLightness(Color, Single)</h4>
-  <div class="markdown level1 summary"><p>Returns a new instance of the color with a new value component
-value using the HSL color model.</p>
+  <div class="markdown level1 summary"><p>Returns a copy of the color with a new lightness component value
+using the HSL color model.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
@@ -399,14 +837,14 @@ value using the HSL color model.</p>
       </tr>
       <tr>
         <td><span class="parametername">lightness</span></td>
-        <td><p>The new lightness component value.</p>
+        <td><p>The new component value.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorPro_Components_WithRed_" data-uid="Zigurous.ColorPro.Components.WithRed*"></a>
   <h4 id="Zigurous_ColorPro_Components_WithRed_Color_System_Single_" data-uid="Zigurous.ColorPro.Components.WithRed(Color,System.Single)">WithRed(Color, Single)</h4>
-  <div class="markdown level1 summary"><p>Returns a new instance of the color with a new red component value.</p>
+  <div class="markdown level1 summary"><p>Returns a copy of the color with a new red component value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
@@ -427,15 +865,15 @@ value using the HSL color model.</p>
       </tr>
       <tr>
         <td><span class="parametername">red</span></td>
-        <td><p>The new red component value.</p>
+        <td><p>The new component value.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorPro_Components_WithSaturationL_" data-uid="Zigurous.ColorPro.Components.WithSaturationL*"></a>
   <h4 id="Zigurous_ColorPro_Components_WithSaturationL_Color_System_Single_" data-uid="Zigurous.ColorPro.Components.WithSaturationL(Color,System.Single)">WithSaturationL(Color, Single)</h4>
-  <div class="markdown level1 summary"><p>Returns a new instance of the color with a new saturation component
-value using the HSL color model.</p>
+  <div class="markdown level1 summary"><p>Returns a copy of the color with a new saturation component value
+using the HSL color model.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
@@ -456,15 +894,15 @@ value using the HSL color model.</p>
       </tr>
       <tr>
         <td><span class="parametername">saturation</span></td>
-        <td><p>The new saturation component value.</p>
+        <td><p>The new component value.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorPro_Components_WithSaturationV_" data-uid="Zigurous.ColorPro.Components.WithSaturationV*"></a>
   <h4 id="Zigurous_ColorPro_Components_WithSaturationV_Color_System_Single_" data-uid="Zigurous.ColorPro.Components.WithSaturationV(Color,System.Single)">WithSaturationV(Color, Single)</h4>
-  <div class="markdown level1 summary"><p>Returns a new instance of the color with a new saturation component
-value using the HSV color model.</p>
+  <div class="markdown level1 summary"><p>Returns a copy of the color with a new saturation component value
+using the HSV color model.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
@@ -485,15 +923,15 @@ value using the HSV color model.</p>
       </tr>
       <tr>
         <td><span class="parametername">saturation</span></td>
-        <td><p>The new saturation component value.</p>
+        <td><p>The new component value.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorPro_Components_WithValue_" data-uid="Zigurous.ColorPro.Components.WithValue*"></a>
   <h4 id="Zigurous_ColorPro_Components_WithValue_Color_System_Single_" data-uid="Zigurous.ColorPro.Components.WithValue(Color,System.Single)">WithValue(Color, Single)</h4>
-  <div class="markdown level1 summary"><p>Returns a new instance of the color with a new &quot;value&quot; component
-value using the HSV color model.</p>
+  <div class="markdown level1 summary"><p>Returns a copy of the color with a new &quot;value&quot; component value using
+the HSV color model.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
@@ -514,7 +952,7 @@ value using the HSV color model.</p>
       </tr>
       <tr>
         <td><span class="parametername">value</span></td>
-        <td><p>The new &quot;value&quot; component value.</p>
+        <td><p>The new component value.</p>
 </td>
       </tr>
     </tbody>

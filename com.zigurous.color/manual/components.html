@@ -4,9 +4,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Color Pro | Color Pro </title>
+    <title>Components | Color Pro </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Color Pro | Color Pro ">
+    <meta name="title" content="Components | Color Pro ">
     <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -78,26 +78,79 @@
               </ul>
             </div>
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="color-pro">Color Pro</h1>
+<h1 id="components">Components</h1>
 
-<p>The Color Pro package is a robust utility library for working with colors in Unity projects. Included in the package are dozens of functions for color mixing, conversion, generating color palettes, and much more.</p>
-<h3 id="reference">Reference</h3>
-<ul>
-<li><a href="accessibility.html">Accessibility</a></li>
-<li><a href="adjustment.html">Adjustment</a></li>
-<li><a href="arithmetic.html">Arithmetic</a></li>
-<li><a href="averaging.html">Averaging</a></li>
-<li><a href="components.html">Components</a></li>
-<li><a href="contrast.html">Contrast</a></li>
-<li><a href="conversion.html">Conversion</a></li>
-<li><a href="equality.html">Equality</a></li>
-<li><a href="gradients.html">Gradients</a></li>
-<li><a href="harmonies.html">Harmonies</a></li>
-<li><a href="luminance.html">Luminance</a></li>
-<li><a href="mixing.html">Mixing</a></li>
-<li><a href="mixing-models.html">Mixing Models</a></li>
-<li><a href="random.html">Random</a></li>
-</ul>
+<p>The Color Pro package includes numerous extension methods for getting and setting components values on colors. These functions are declared in the static class <a class="xref" href="../api/Zigurous.ColorPro.Components.html">Components</a>.</p>
+<h3 id="getting-components">Getting Components</h3>
+<h4 id="hsv">HSV</h4>
+<pre><code class="lang-csharp">float hue = color.GetHue();
+float saturation = color.GetSaturationV();
+float value = color.GetValue();
+</code></pre>
+<h4 id="hsb">HSB</h4>
+<pre><code class="lang-csharp">float hue = color.GetHue();
+float saturation = color.GetSaturationV();
+float brightness = color.GetBrightness();
+</code></pre>
+<h4 id="hsl">HSL</h4>
+<pre><code class="lang-csharp">float hue = color.GetHue();
+float saturation = color.GetSaturationL();
+float lightness = color.GetLightness();
+</code></pre>
+<h4 id="rgba">RGBA</h4>
+<pre><code class="lang-csharp">float red = color.GetRed();
+float green = color.GetGreen();
+float blue = color.GetBlue();
+float alpha = color.GetAlpha();
+</code></pre>
+<h3 id="setting-components">Setting Components</h3>
+<h4 id="hsv-1">HSV</h4>
+<pre><code class="lang-csharp">color.SetHue(hue);
+color.SetSaturationV(saturation);
+color.SetValue(value);
+</code></pre>
+<h4 id="hsb-1">HSB</h4>
+<pre><code class="lang-csharp">color.SetHue(hue);
+color.SetSaturationV(saturation);
+color.SetBrightness(brightness);
+</code></pre>
+<h4 id="hsl-1">HSL</h4>
+<pre><code class="lang-csharp">color.SetHue(hue);
+color.SetSaturationL(saturation);
+color.SetLightness(lightness);
+</code></pre>
+<h4 id="rgba-1">RGBA</h4>
+<pre><code class="lang-csharp">color.SetRed(red);
+color.SetGreen(green);
+color.SetBlue(blue);
+color.SetAlpha(alpha);
+</code></pre>
+<h3 id="copying-colors">Copying Colors</h3>
+<h4 id="hsv-2">HSV</h4>
+<pre><code class="lang-csharp">Color newColor;
+newColor = color.WithHue(hue);
+newColor = color.WithSaturationV(saturation);
+newColor = color.WithValue(value);
+</code></pre>
+<h4 id="hsb-2">HSB</h4>
+<pre><code class="lang-csharp">Color newColor;
+newColor = color.WithHue(hue);
+newColor = color.WithSaturationV(saturation);
+newColor = color.WithBrightness(brightness);
+</code></pre>
+<h4 id="hsl-2">HSL</h4>
+<pre><code class="lang-csharp">Color newColor;
+newColor = color.WithHue(hue);
+newColor = color.WithSaturationL(saturation);
+newColor = color.WithLightness(lightness);
+</code></pre>
+<h4 id="rgba-2">RGBA</h4>
+<pre><code class="lang-csharp">Color newColor;
+newColor = color.WithRed(red);
+newColor = color.WithGreen(green);
+newColor = color.WithBlue(blue);
+newColor = color.WithAlpha(alpha);
+</code></pre>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">

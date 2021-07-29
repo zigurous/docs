@@ -98,8 +98,8 @@
   </h3>
   <a id="Zigurous_ColorPro_Accessibility_IsCompliant_" data-uid="Zigurous.ColorPro.Accessibility.IsCompliant*"></a>
   <h4 id="Zigurous_ColorPro_Accessibility_IsCompliant_Color_Color_Zigurous_ColorPro_Accessibility_Requirement_" data-uid="Zigurous.ColorPro.Accessibility.IsCompliant(Color,Color,Zigurous.ColorPro.Accessibility.Requirement)">IsCompliant(Color, Color, Accessibility.Requirement)</h4>
-  <div class="markdown level1 summary"><p>Determines if the contrast between the color and a background color
-is compliant to a given accessibility requirement.</p>
+  <div class="markdown level1 summary"><p>Determines if the contrast between the foreground color and a
+background color is compliant to a given accessibility requirement.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
@@ -133,11 +133,11 @@ is compliant to a given accessibility requirement.</p>
   <a id="Zigurous_ColorPro_Accessibility_IsCompliant_" data-uid="Zigurous.ColorPro.Accessibility.IsCompliant*"></a>
   <h4 id="Zigurous_ColorPro_Accessibility_IsCompliant_Zigurous_ColorPro_Accessibility_Requirement_Color_Color_" data-uid="Zigurous.ColorPro.Accessibility.IsCompliant(Zigurous.ColorPro.Accessibility.Requirement,Color,Color)">IsCompliant(Accessibility.Requirement, Color, Color)</h4>
   <div class="markdown level1 summary"><p>Determines if the contrast between a foreground color and a
-background color is compliant to a given accessibility requirement.</p>
+background color is compliant to the accessibility requirement.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsCompliant(Accessibility.Requirement requirement, Color foreground, Color background)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsCompliant(this Accessibility.Requirement requirement, Color foreground, Color background)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>

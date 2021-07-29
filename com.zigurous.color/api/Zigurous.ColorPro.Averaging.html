@@ -98,70 +98,12 @@
   </h3>
   <a id="Zigurous_ColorPro_Averaging_Average_" data-uid="Zigurous.ColorPro.Averaging.Average*"></a>
   <h4 id="Zigurous_ColorPro_Averaging_Average_Color_Color_System_Boolean_" data-uid="Zigurous.ColorPro.Averaging.Average(Color,Color,System.Boolean)">Average(Color, Color, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Returns the result of averaging the RGBA component values of one
-color with another.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color Average(Color first, Color second, bool averageAlpha = true)</code></pre>
-  </div>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Parameter</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">first</span></td>
-        <td><p>The first color to average.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">second</span></td>
-        <td><p>The second color to average.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">averageAlpha</span></td>
-        <td><p>True to average the alpha components, otherwise the first color's alpha is used.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_ColorPro_Averaging_Average_" data-uid="Zigurous.ColorPro.Averaging.Average*"></a>
-  <h4 id="Zigurous_ColorPro_Averaging_Average_Color___" data-uid="Zigurous.ColorPro.Averaging.Average(Color[])">Average(Color[])</h4>
-  <div class="markdown level1 summary"><p>Returns the result of averaging the RGBA component values of
-multiple colors.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color Average(params Color[] colors)</code></pre>
-  </div>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Parameter</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">colors</span></td>
-        <td><p>The colors to average.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_ColorPro_Averaging_AveragedWith_" data-uid="Zigurous.ColorPro.Averaging.AveragedWith*"></a>
-  <h4 id="Zigurous_ColorPro_Averaging_AveragedWith_Color_Color_System_Boolean_" data-uid="Zigurous.ColorPro.Averaging.AveragedWith(Color,Color,System.Boolean)">AveragedWith(Color, Color, Boolean)</h4>
   <div class="markdown level1 summary"><p>Returns the result of averaging the RGBA component values of the
-color with another.</p>
+color with another color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color AveragedWith(this Color color, Color other, bool averageAlpha = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color Average(this Color color, Color other, bool averageAlpha = true)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -173,17 +115,65 @@ color with another.</p>
     <tbody>
       <tr>
         <td><span class="parametername">color</span></td>
-        <td><p>The first color to average.</p>
+        <td><p>The color to average.</p>
 </td>
       </tr>
       <tr>
         <td><span class="parametername">other</span></td>
-        <td><p>The second color to average.</p>
+        <td><p>The color to average with.</p>
 </td>
       </tr>
       <tr>
         <td><span class="parametername">averageAlpha</span></td>
-        <td><p>True to average the alpha components, otherwise the first color's alpha is used.</p>
+        <td><p>True to average the alpha components, otherwise the main color's alpha is used.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Averaging_Average_" data-uid="Zigurous.ColorPro.Averaging.Average*"></a>
+  <h4 id="Zigurous_ColorPro_Averaging_Average_Color___" data-uid="Zigurous.ColorPro.Averaging.Average(Color[])">Average(Color[])</h4>
+  <div class="markdown level1 summary"><p>Returns the result of averaging the RGBA component values of the
+color with other colors.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Average(this Color[] colors)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">colors</span></td>
+        <td><p>The colors to average with.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Averaging_AverageColor_" data-uid="Zigurous.ColorPro.Averaging.AverageColor*"></a>
+  <h4 id="Zigurous_ColorPro_Averaging_AverageColor_Texture2D_" data-uid="Zigurous.ColorPro.Averaging.AverageColor(Texture2D)">AverageColor(Texture2D)</h4>
+  <div class="markdown level1 summary"><p>Returns the result of averaging the RGBA component values of every
+pixel in the texture.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color AverageColor(this Texture2D texture)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">texture</span></td>
+        <td><p>The texture to get the average color of.</p>
 </td>
       </tr>
     </tbody>
