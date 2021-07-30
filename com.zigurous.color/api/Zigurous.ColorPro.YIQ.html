@@ -205,6 +205,87 @@ public struct YIQ : IEquatable&lt;YIQ&gt;</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
+  <a id="Zigurous_ColorPro_YIQ_Convert_" data-uid="Zigurous.ColorPro.YIQ.Convert*"></a>
+  <h4 id="Zigurous_ColorPro_YIQ_Convert_Color_System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorPro.YIQ.Convert(Color,System.Single@,System.Single@,System.Single@)">Convert(Color, out Single, out Single, out Single)</h4>
+  <div class="markdown level1 summary"><p>Converts a color to Y′IQ components.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Convert(Color color, out float Y, out float I, out float Q)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to extract the components from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">Y</span></td>
+        <td><p>The luma component output in the range [0..1].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">I</span></td>
+        <td><p>The orange-blue chroma component output in the range [-0.596..0.596].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">Q</span></td>
+        <td><p>The purple-green chroma component output in the range [-0.523..0.523].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_YIQ_Convert_" data-uid="Zigurous.ColorPro.YIQ.Convert*"></a>
+  <h4 id="Zigurous_ColorPro_YIQ_Convert_Color_Zigurous_ColorPro_SignalEncoding_System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorPro.YIQ.Convert(Color,Zigurous.ColorPro.SignalEncoding,System.Single@,System.Single@,System.Single@)">Convert(Color, SignalEncoding, out Single, out Single, out Single)</h4>
+  <div class="markdown level1 summary"><p>Converts a color to Y′IQ components using the given signal encoding.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Convert(Color color, SignalEncoding encoding, out float Y, out float I, out float Q)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to extract the components from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">encoding</span></td>
+        <td><p>The signal encoding to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">Y</span></td>
+        <td><p>The luma component output in the range [0..1].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">I</span></td>
+        <td><p>The orange-blue chroma component output in the range [-0.596..0.596].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">Q</span></td>
+        <td><p>The purple-green chroma component output in the range [-0.523..0.523].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Zigurous_ColorPro_YIQ_Equals_" data-uid="Zigurous.ColorPro.YIQ.Equals*"></a>
   <h4 id="Zigurous_ColorPro_YIQ_Equals_System_Object_" data-uid="Zigurous.ColorPro.YIQ.Equals(System.Object)">Equals(Object)</h4>
   <div class="markdown level1 summary"><p>Determines if the components are equal to <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
@@ -375,87 +456,6 @@ public struct YIQ : IEquatable&lt;YIQ&gt;</code></pre>
   </div>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">System.ValueType.ToString()</span></div>
-  <a id="Zigurous_ColorPro_YIQ_ToYIQ_" data-uid="Zigurous.ColorPro.YIQ.ToYIQ*"></a>
-  <h4 id="Zigurous_ColorPro_YIQ_ToYIQ_Color_System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorPro.YIQ.ToYIQ(Color,System.Single@,System.Single@,System.Single@)">ToYIQ(Color, out Single, out Single, out Single)</h4>
-  <div class="markdown level1 summary"><p>Converts a color to Y′IQ components.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ToYIQ(Color color, out float Y, out float I, out float Q)</code></pre>
-  </div>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Parameter</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">color</span></td>
-        <td><p>The color to extract the components from.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">Y</span></td>
-        <td><p>The luma component output in the range [0..1].</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">I</span></td>
-        <td><p>The orange-blue chroma component output in the range [-0.596..0.596].</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">Q</span></td>
-        <td><p>The purple-green chroma component output in the range [-0.523..0.523].</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_ColorPro_YIQ_ToYIQ_" data-uid="Zigurous.ColorPro.YIQ.ToYIQ*"></a>
-  <h4 id="Zigurous_ColorPro_YIQ_ToYIQ_Color_Zigurous_ColorPro_SignalEncoding_System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorPro.YIQ.ToYIQ(Color,Zigurous.ColorPro.SignalEncoding,System.Single@,System.Single@,System.Single@)">ToYIQ(Color, SignalEncoding, out Single, out Single, out Single)</h4>
-  <div class="markdown level1 summary"><p>Converts a color to Y′IQ components using the given signal encoding.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ToYIQ(Color color, SignalEncoding encoding, out float Y, out float I, out float Q)</code></pre>
-  </div>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Parameter</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">color</span></td>
-        <td><p>The color to extract the components from.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">encoding</span></td>
-        <td><p>The signal encoding to use.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">Y</span></td>
-        <td><p>The luma component output in the range [0..1].</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">I</span></td>
-        <td><p>The orange-blue chroma component output in the range [-0.596..0.596].</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">Q</span></td>
-        <td><p>The purple-green chroma component output in the range [-0.523..0.523].</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="operators">Operators
   </h3>
   <a id="Zigurous_ColorPro_YIQ_op_Equality_" data-uid="Zigurous.ColorPro.YIQ.op_Equality*"></a>

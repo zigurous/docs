@@ -82,7 +82,7 @@
             <article class="content wrap" id="_content" data-uid="Zigurous.ColorPro.Temperature">
   <h1 id="Zigurous_ColorPro_Temperature" data-uid="Zigurous.ColorPro.Temperature" class="text-break">Class Temperature
   </h1>
-  <div class="markdown level0 summary"><p>Functions for testing color temperature.</p>
+  <div class="markdown level0 summary"><p>Functions for calculating and testing color temperature.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -96,6 +96,108 @@
   </div>
   <h3 id="methods">Methods
   </h3>
+  <a id="Zigurous_ColorPro_Temperature_CCT_" data-uid="Zigurous.ColorPro.Temperature.CCT*"></a>
+  <h4 id="Zigurous_ColorPro_Temperature_CCT_Color_" data-uid="Zigurous.ColorPro.Temperature.CCT(Color)">CCT(Color)</h4>
+  <div class="markdown level1 summary"><p>Returns the CCT temperature of the color in Kelvin.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float CCT(this Color color)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to get the CCT temperature of.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Temperature_CCT_" data-uid="Zigurous.ColorPro.Temperature.CCT*"></a>
+  <h4 id="Zigurous_ColorPro_Temperature_CCT_Zigurous_ColorPro_Illuminant_Zigurous_ColorPro_StandardObserver_" data-uid="Zigurous.ColorPro.Temperature.CCT(Zigurous.ColorPro.Illuminant,Zigurous.ColorPro.StandardObserver)">CCT(Illuminant, StandardObserver)</h4>
+  <div class="markdown level1 summary"><p>Returns the CCT temperature of the illuminant in Kelvin.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float CCT(this Illuminant illuminant, StandardObserver observer = StandardObserver.Two)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">illuminant</span></td>
+        <td><p>The illuminant to get the CCT temperature of.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">observer</span></td>
+        <td><p>The standard observer to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Temperature_CCTString_" data-uid="Zigurous.ColorPro.Temperature.CCTString*"></a>
+  <h4 id="Zigurous_ColorPro_Temperature_CCTString_Color_" data-uid="Zigurous.ColorPro.Temperature.CCTString(Color)">CCTString(Color)</h4>
+  <div class="markdown level1 summary"><p>Returns the CCT temperature of the color in Kelvin as a string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string CCTString(this Color color)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to get the CCT temperature of.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Temperature_CCTString_" data-uid="Zigurous.ColorPro.Temperature.CCTString*"></a>
+  <h4 id="Zigurous_ColorPro_Temperature_CCTString_Zigurous_ColorPro_Illuminant_Zigurous_ColorPro_StandardObserver_" data-uid="Zigurous.ColorPro.Temperature.CCTString(Zigurous.ColorPro.Illuminant,Zigurous.ColorPro.StandardObserver)">CCTString(Illuminant, StandardObserver)</h4>
+  <div class="markdown level1 summary"><p>Returns the CCT temperature of the illuminant in Kelvin as a string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string CCTString(this Illuminant illuminant, StandardObserver observer = StandardObserver.Two)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">illuminant</span></td>
+        <td><p>The illuminant to get the CCT temperature of.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">observer</span></td>
+        <td><p>The standard observer to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Zigurous_ColorPro_Temperature_IsCool_" data-uid="Zigurous.ColorPro.Temperature.IsCool*"></a>
   <h4 id="Zigurous_ColorPro_Temperature_IsCool_Color_" data-uid="Zigurous.ColorPro.Temperature.IsCool(Color)">IsCool(Color)</h4>
   <div class="markdown level1 summary"><p>Determines if the color falls within a cool temperature range.</p>

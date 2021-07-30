@@ -4,10 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct UCS
+    <title>Struct CIEUCS
    | Color Pro </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct UCS
+    <meta name="title" content="Struct CIEUCS
    | Color Pro ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -79,30 +79,30 @@
                 <li></li>
               </ul>
             </div>
-            <article class="content wrap" id="_content" data-uid="Zigurous.ColorPro.UCS">
-  <h1 id="Zigurous_ColorPro_UCS" data-uid="Zigurous.ColorPro.UCS" class="text-break">Struct UCS
+            <article class="content wrap" id="_content" data-uid="Zigurous.ColorPro.CIEUCS">
+  <h1 id="Zigurous_ColorPro_CIEUCS" data-uid="Zigurous.ColorPro.CIEUCS" class="text-break">Struct CIEUCS
   </h1>
-  <div class="markdown level0 summary"><p>The UCS components of a color - (u,v) chromaticity coordinates.</p>
+  <div class="markdown level0 summary"><p>The CIE UCS components of a color - (u,v) chromaticity coordinates.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Zigurous.ColorPro.UCS.html">UCS</a>&gt;</div>
+    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Zigurous.ColorPro.CIEUCS.html">CIEUCS</a>&gt;</div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.ColorPro.html">Zigurous.ColorPro</a></h6>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
-public struct UCS : IEquatable&lt;UCS&gt;</code></pre>
+public struct CIEUCS : IEquatable&lt;CIEUCS&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  <a id="Zigurous_ColorPro_UCS__ctor_" data-uid="Zigurous.ColorPro.UCS.#ctor*"></a>
-  <h4 id="Zigurous_ColorPro_UCS__ctor_Color_" data-uid="Zigurous.ColorPro.UCS.#ctor(Color)">UCS(Color)</h4>
-  <div class="markdown level1 summary"><p>Creates new UCS components from the given color.</p>
+  <a id="Zigurous_ColorPro_CIEUCS__ctor_" data-uid="Zigurous.ColorPro.CIEUCS.#ctor*"></a>
+  <h4 id="Zigurous_ColorPro_CIEUCS__ctor_Color_" data-uid="Zigurous.ColorPro.CIEUCS.#ctor(Color)">CIEUCS(Color)</h4>
+  <div class="markdown level1 summary"><p>Creates new CIE UCS components from the given color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UCS(Color color)</code></pre>
+    <pre><code class="lang-csharp hljs">public CIEUCS(Color color)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -119,13 +119,13 @@ public struct UCS : IEquatable&lt;UCS&gt;</code></pre>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_ColorPro_UCS__ctor_" data-uid="Zigurous.ColorPro.UCS.#ctor*"></a>
-  <h4 id="Zigurous_ColorPro_UCS__ctor_System_Single_System_Single_" data-uid="Zigurous.ColorPro.UCS.#ctor(System.Single,System.Single)">UCS(Single, Single)</h4>
-  <div class="markdown level1 summary"><p>Creates new UCS components from the given values.</p>
+  <a id="Zigurous_ColorPro_CIEUCS__ctor_" data-uid="Zigurous.ColorPro.CIEUCS.#ctor*"></a>
+  <h4 id="Zigurous_ColorPro_CIEUCS__ctor_System_Single_System_Single_" data-uid="Zigurous.ColorPro.CIEUCS.#ctor(System.Single,System.Single)">CIEUCS(Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Creates new CIE UCS components from the given values.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UCS(float u, float v)</code></pre>
+    <pre><code class="lang-csharp hljs">public CIEUCS(float u, float v)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -149,14 +149,14 @@ public struct UCS : IEquatable&lt;UCS&gt;</code></pre>
   </table>
   <h3 id="fields">Fields
   </h3>
-  <h4 id="Zigurous_ColorPro_UCS_u" data-uid="Zigurous.ColorPro.UCS.u">u</h4>
+  <h4 id="Zigurous_ColorPro_CIEUCS_u" data-uid="Zigurous.ColorPro.CIEUCS.u">u</h4>
   <div class="markdown level1 summary"><p>The u-axis chromaticity coordinate of the color in the range [0..1].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float u</code></pre>
   </div>
-  <h4 id="Zigurous_ColorPro_UCS_v" data-uid="Zigurous.ColorPro.UCS.v">v</h4>
+  <h4 id="Zigurous_ColorPro_CIEUCS_v" data-uid="Zigurous.ColorPro.CIEUCS.v">v</h4>
   <div class="markdown level1 summary"><p>The v-axis chromaticity coordinate of the color in the range [0..1].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -165,8 +165,41 @@ public struct UCS : IEquatable&lt;UCS&gt;</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  <a id="Zigurous_ColorPro_UCS_Equals_" data-uid="Zigurous.ColorPro.UCS.Equals*"></a>
-  <h4 id="Zigurous_ColorPro_UCS_Equals_System_Object_" data-uid="Zigurous.ColorPro.UCS.Equals(System.Object)">Equals(Object)</h4>
+  <a id="Zigurous_ColorPro_CIEUCS_Convert_" data-uid="Zigurous.ColorPro.CIEUCS.Convert*"></a>
+  <h4 id="Zigurous_ColorPro_CIEUCS_Convert_Color_System_Single__System_Single__" data-uid="Zigurous.ColorPro.CIEUCS.Convert(Color,System.Single@,System.Single@)">Convert(Color, out Single, out Single)</h4>
+  <div class="markdown level1 summary"><p>Converts a color to CIE UCS components.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Convert(Color color, out float u, out float v)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to extract the components from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">u</span></td>
+        <td><p>The u-axis chromaticity coordinate output in the range [0..1].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">v</span></td>
+        <td><p>The v-axis chromaticity coordinate output in the range [0..1].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_CIEUCS_Equals_" data-uid="Zigurous.ColorPro.CIEUCS.Equals*"></a>
+  <h4 id="Zigurous_ColorPro_CIEUCS_Equals_System_Object_" data-uid="Zigurous.ColorPro.CIEUCS.Equals(System.Object)">Equals(Object)</h4>
   <div class="markdown level1 summary"><p>Determines if the components are equal to <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -190,13 +223,13 @@ public struct UCS : IEquatable&lt;UCS&gt;</code></pre>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
-  <a id="Zigurous_ColorPro_UCS_Equals_" data-uid="Zigurous.ColorPro.UCS.Equals*"></a>
-  <h4 id="Zigurous_ColorPro_UCS_Equals_Zigurous_ColorPro_UCS_" data-uid="Zigurous.ColorPro.UCS.Equals(Zigurous.ColorPro.UCS)">Equals(UCS)</h4>
+  <a id="Zigurous_ColorPro_CIEUCS_Equals_" data-uid="Zigurous.ColorPro.CIEUCS.Equals*"></a>
+  <h4 id="Zigurous_ColorPro_CIEUCS_Equals_Zigurous_ColorPro_CIEUCS_" data-uid="Zigurous.ColorPro.CIEUCS.Equals(Zigurous.ColorPro.CIEUCS)">Equals(CIEUCS)</h4>
   <div class="markdown level1 summary"><p>Determines if the components are equal to <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Equals(UCS other)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Equals(CIEUCS other)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -213,8 +246,8 @@ public struct UCS : IEquatable&lt;UCS&gt;</code></pre>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_ColorPro_UCS_GetHashCode_" data-uid="Zigurous.ColorPro.UCS.GetHashCode*"></a>
-  <h4 id="Zigurous_ColorPro_UCS_GetHashCode" data-uid="Zigurous.ColorPro.UCS.GetHashCode">GetHashCode()</h4>
+  <a id="Zigurous_ColorPro_CIEUCS_GetHashCode_" data-uid="Zigurous.ColorPro.CIEUCS.GetHashCode*"></a>
+  <h4 id="Zigurous_ColorPro_CIEUCS_GetHashCode" data-uid="Zigurous.ColorPro.CIEUCS.GetHashCode">GetHashCode()</h4>
   <div class="markdown level1 summary"><p>Returns the hash code of the components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -223,16 +256,16 @@ public struct UCS : IEquatable&lt;UCS&gt;</code></pre>
   </div>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">System.ValueType.GetHashCode()</span></div>
-  <a id="Zigurous_ColorPro_UCS_ToColor_" data-uid="Zigurous.ColorPro.UCS.ToColor*"></a>
-  <h4 id="Zigurous_ColorPro_UCS_ToColor" data-uid="Zigurous.ColorPro.UCS.ToColor">ToColor()</h4>
+  <a id="Zigurous_ColorPro_CIEUCS_ToColor_" data-uid="Zigurous.ColorPro.CIEUCS.ToColor*"></a>
+  <h4 id="Zigurous_ColorPro_CIEUCS_ToColor" data-uid="Zigurous.ColorPro.CIEUCS.ToColor">ToColor()</h4>
   <div class="markdown level1 summary"><p>Converts the components to a color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Color ToColor()</code></pre>
   </div>
-  <a id="Zigurous_ColorPro_UCS_ToColor_" data-uid="Zigurous.ColorPro.UCS.ToColor*"></a>
-  <h4 id="Zigurous_ColorPro_UCS_ToColor_System_Single_" data-uid="Zigurous.ColorPro.UCS.ToColor(System.Single)">ToColor(Single)</h4>
+  <a id="Zigurous_ColorPro_CIEUCS_ToColor_" data-uid="Zigurous.ColorPro.CIEUCS.ToColor*"></a>
+  <h4 id="Zigurous_ColorPro_CIEUCS_ToColor_System_Single_" data-uid="Zigurous.ColorPro.CIEUCS.ToColor(System.Single)">ToColor(Single)</h4>
   <div class="markdown level1 summary"><p>Converts the components to a color using the given luminance value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -254,9 +287,9 @@ public struct UCS : IEquatable&lt;UCS&gt;</code></pre>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_ColorPro_UCS_ToColor_" data-uid="Zigurous.ColorPro.UCS.ToColor*"></a>
-  <h4 id="Zigurous_ColorPro_UCS_ToColor_System_Single_System_Single_" data-uid="Zigurous.ColorPro.UCS.ToColor(System.Single,System.Single)">ToColor(Single, Single)</h4>
-  <div class="markdown level1 summary"><p>Converts UCS components to a color.</p>
+  <a id="Zigurous_ColorPro_CIEUCS_ToColor_" data-uid="Zigurous.ColorPro.CIEUCS.ToColor*"></a>
+  <h4 id="Zigurous_ColorPro_CIEUCS_ToColor_System_Single_System_Single_" data-uid="Zigurous.ColorPro.CIEUCS.ToColor(System.Single,System.Single)">ToColor(Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Converts CIE UCS components to a color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
@@ -282,9 +315,9 @@ public struct UCS : IEquatable&lt;UCS&gt;</code></pre>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_ColorPro_UCS_ToColor_" data-uid="Zigurous.ColorPro.UCS.ToColor*"></a>
-  <h4 id="Zigurous_ColorPro_UCS_ToColor_System_Single_System_Single_System_Single_" data-uid="Zigurous.ColorPro.UCS.ToColor(System.Single,System.Single,System.Single)">ToColor(Single, Single, Single)</h4>
-  <div class="markdown level1 summary"><p>Converts UCS components to a color using the given luminance value.</p>
+  <a id="Zigurous_ColorPro_CIEUCS_ToColor_" data-uid="Zigurous.ColorPro.CIEUCS.ToColor*"></a>
+  <h4 id="Zigurous_ColorPro_CIEUCS_ToColor_System_Single_System_Single_System_Single_" data-uid="Zigurous.ColorPro.CIEUCS.ToColor(System.Single,System.Single,System.Single)">ToColor(Single, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Converts CIE UCS components to a color using the given luminance value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
@@ -315,8 +348,8 @@ public struct UCS : IEquatable&lt;UCS&gt;</code></pre>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_ColorPro_UCS_ToString_" data-uid="Zigurous.ColorPro.UCS.ToString*"></a>
-  <h4 id="Zigurous_ColorPro_UCS_ToString" data-uid="Zigurous.ColorPro.UCS.ToString">ToString()</h4>
+  <a id="Zigurous_ColorPro_CIEUCS_ToString_" data-uid="Zigurous.ColorPro.CIEUCS.ToString*"></a>
+  <h4 id="Zigurous_ColorPro_CIEUCS_ToString" data-uid="Zigurous.ColorPro.CIEUCS.ToString">ToString()</h4>
   <div class="markdown level1 summary"><p>Converts the components to a string.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -325,47 +358,14 @@ public struct UCS : IEquatable&lt;UCS&gt;</code></pre>
   </div>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">System.ValueType.ToString()</span></div>
-  <a id="Zigurous_ColorPro_UCS_ToUCS_" data-uid="Zigurous.ColorPro.UCS.ToUCS*"></a>
-  <h4 id="Zigurous_ColorPro_UCS_ToUCS_Color_System_Single__System_Single__" data-uid="Zigurous.ColorPro.UCS.ToUCS(Color,System.Single@,System.Single@)">ToUCS(Color, out Single, out Single)</h4>
-  <div class="markdown level1 summary"><p>Converts a color to UCS components.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ToUCS(Color color, out float u, out float v)</code></pre>
-  </div>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Parameter</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">color</span></td>
-        <td><p>The color to extract the components from.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">u</span></td>
-        <td><p>The u-axis chromaticity coordinate output in the range [0..1].</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">v</span></td>
-        <td><p>The v-axis chromaticity coordinate output in the range [0..1].</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="operators">Operators
   </h3>
-  <a id="Zigurous_ColorPro_UCS_op_Equality_" data-uid="Zigurous.ColorPro.UCS.op_Equality*"></a>
-  <h4 id="Zigurous_ColorPro_UCS_op_Equality_Zigurous_ColorPro_UCS_Zigurous_ColorPro_UCS_" data-uid="Zigurous.ColorPro.UCS.op_Equality(Zigurous.ColorPro.UCS,Zigurous.ColorPro.UCS)">Equality(UCS, UCS)</h4>
+  <a id="Zigurous_ColorPro_CIEUCS_op_Equality_" data-uid="Zigurous.ColorPro.CIEUCS.op_Equality*"></a>
+  <h4 id="Zigurous_ColorPro_CIEUCS_op_Equality_Zigurous_ColorPro_CIEUCS_Zigurous_ColorPro_CIEUCS_" data-uid="Zigurous.ColorPro.CIEUCS.op_Equality(Zigurous.ColorPro.CIEUCS,Zigurous.ColorPro.CIEUCS)">Equality(CIEUCS, CIEUCS)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool operator ==(UCS lhs, UCS rhs)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool operator ==(CIEUCS lhs, CIEUCS rhs)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -385,12 +385,12 @@ public struct UCS : IEquatable&lt;UCS&gt;</code></pre>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_ColorPro_UCS_op_Explicit_" data-uid="Zigurous.ColorPro.UCS.op_Explicit*"></a>
-  <h4 id="Zigurous_ColorPro_UCS_op_Explicit_Color__Zigurous_ColorPro_UCS" data-uid="Zigurous.ColorPro.UCS.op_Explicit(Color)~Zigurous.ColorPro.UCS">Explicit(Color to UCS)</h4>
+  <a id="Zigurous_ColorPro_CIEUCS_op_Explicit_" data-uid="Zigurous.ColorPro.CIEUCS.op_Explicit*"></a>
+  <h4 id="Zigurous_ColorPro_CIEUCS_op_Explicit_Color__Zigurous_ColorPro_CIEUCS" data-uid="Zigurous.ColorPro.CIEUCS.op_Explicit(Color)~Zigurous.ColorPro.CIEUCS">Explicit(Color to CIEUCS)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static explicit operator UCS(Color color)</code></pre>
+    <pre><code class="lang-csharp hljs">public static explicit operator CIEUCS(Color color)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -406,12 +406,12 @@ public struct UCS : IEquatable&lt;UCS&gt;</code></pre>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_ColorPro_UCS_op_Explicit_" data-uid="Zigurous.ColorPro.UCS.op_Explicit*"></a>
-  <h4 id="Zigurous_ColorPro_UCS_op_Explicit_Zigurous_ColorPro_UCS__Color" data-uid="Zigurous.ColorPro.UCS.op_Explicit(Zigurous.ColorPro.UCS)~Color">Explicit(UCS to Color)</h4>
+  <a id="Zigurous_ColorPro_CIEUCS_op_Explicit_" data-uid="Zigurous.ColorPro.CIEUCS.op_Explicit*"></a>
+  <h4 id="Zigurous_ColorPro_CIEUCS_op_Explicit_Zigurous_ColorPro_CIEUCS__Color" data-uid="Zigurous.ColorPro.CIEUCS.op_Explicit(Zigurous.ColorPro.CIEUCS)~Color">Explicit(CIEUCS to Color)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static explicit operator Color(UCS components)</code></pre>
+    <pre><code class="lang-csharp hljs">public static explicit operator Color(CIEUCS components)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -427,12 +427,12 @@ public struct UCS : IEquatable&lt;UCS&gt;</code></pre>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_ColorPro_UCS_op_Inequality_" data-uid="Zigurous.ColorPro.UCS.op_Inequality*"></a>
-  <h4 id="Zigurous_ColorPro_UCS_op_Inequality_Zigurous_ColorPro_UCS_Zigurous_ColorPro_UCS_" data-uid="Zigurous.ColorPro.UCS.op_Inequality(Zigurous.ColorPro.UCS,Zigurous.ColorPro.UCS)">Inequality(UCS, UCS)</h4>
+  <a id="Zigurous_ColorPro_CIEUCS_op_Inequality_" data-uid="Zigurous.ColorPro.CIEUCS.op_Inequality*"></a>
+  <h4 id="Zigurous_ColorPro_CIEUCS_op_Inequality_Zigurous_ColorPro_CIEUCS_Zigurous_ColorPro_CIEUCS_" data-uid="Zigurous.ColorPro.CIEUCS.op_Inequality(Zigurous.ColorPro.CIEUCS,Zigurous.ColorPro.CIEUCS)">Inequality(CIEUCS, CIEUCS)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool operator !=(UCS lhs, UCS rhs)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool operator !=(CIEUCS lhs, CIEUCS rhs)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>

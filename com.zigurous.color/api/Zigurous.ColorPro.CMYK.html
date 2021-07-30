@@ -190,6 +190,49 @@ public struct CMYK : IEquatable&lt;CMYK&gt;</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
+  <a id="Zigurous_ColorPro_CMYK_Convert_" data-uid="Zigurous.ColorPro.CMYK.Convert*"></a>
+  <h4 id="Zigurous_ColorPro_CMYK_Convert_Color_System_Single__System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorPro.CMYK.Convert(Color,System.Single@,System.Single@,System.Single@,System.Single@)">Convert(Color, out Single, out Single, out Single, out Single)</h4>
+  <div class="markdown level1 summary"><p>Converts a color to CMYK (cyan, magenta, yellow, black) components.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Convert(Color color, out float c, out float m, out float y, out float k)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to extract the components from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">c</span></td>
+        <td><p>The cyan component output in the range [0..1].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">m</span></td>
+        <td><p>The magenta component output in the range [0..1].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">y</span></td>
+        <td><p>The yellow component output in the range [0..1].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">k</span></td>
+        <td><p>The black component output in the range [0..1].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Zigurous_ColorPro_CMYK_Equals_" data-uid="Zigurous.ColorPro.CMYK.Equals*"></a>
   <h4 id="Zigurous_ColorPro_CMYK_Equals_System_Object_" data-uid="Zigurous.ColorPro.CMYK.Equals(System.Object)">Equals(Object)</h4>
   <div class="markdown level1 summary"><p>Determines if the components are equal to <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
@@ -248,49 +291,6 @@ public struct CMYK : IEquatable&lt;CMYK&gt;</code></pre>
   </div>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">System.ValueType.GetHashCode()</span></div>
-  <a id="Zigurous_ColorPro_CMYK_ToCMYK_" data-uid="Zigurous.ColorPro.CMYK.ToCMYK*"></a>
-  <h4 id="Zigurous_ColorPro_CMYK_ToCMYK_Color_System_Single__System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorPro.CMYK.ToCMYK(Color,System.Single@,System.Single@,System.Single@,System.Single@)">ToCMYK(Color, out Single, out Single, out Single, out Single)</h4>
-  <div class="markdown level1 summary"><p>Converts a color to CMYK (cyan, magenta, yellow, black) components.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ToCMYK(Color color, out float c, out float m, out float y, out float k)</code></pre>
-  </div>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Parameter</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">color</span></td>
-        <td><p>The color to extract the components from.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">c</span></td>
-        <td><p>The cyan component output in the range [0..1].</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">m</span></td>
-        <td><p>The magenta component output in the range [0..1].</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">y</span></td>
-        <td><p>The yellow component output in the range [0..1].</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">k</span></td>
-        <td><p>The black component output in the range [0..1].</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <a id="Zigurous_ColorPro_CMYK_ToColor_" data-uid="Zigurous.ColorPro.CMYK.ToColor*"></a>
   <h4 id="Zigurous_ColorPro_CMYK_ToColor" data-uid="Zigurous.ColorPro.CMYK.ToColor">ToColor()</h4>
   <div class="markdown level1 summary"><p>Converts the components to a color.</p>

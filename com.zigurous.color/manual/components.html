@@ -82,6 +82,7 @@
 
 <p>The Color Pro package includes numerous extension methods for getting and setting components values on colors. These functions are declared in the static class <a class="xref" href="../api/Zigurous.ColorPro.Components.html">Components</a>.</p>
 <h3 id="getting-components">Getting Components</h3>
+<p>Returns the component values of a color.</p>
 <h4 id="hsv">HSV</h4>
 <pre><code class="lang-csharp">float hue = color.GetHue();
 float saturation = color.GetSaturationV();
@@ -104,6 +105,7 @@ float blue = color.GetBlue();
 float alpha = color.GetAlpha();
 </code></pre>
 <h3 id="setting-components">Setting Components</h3>
+<p>Sets the component values of a color.</p>
 <h4 id="hsv-1">HSV</h4>
 <pre><code class="lang-csharp">color.SetHue(hue);
 color.SetSaturationV(saturation);
@@ -126,6 +128,7 @@ color.SetBlue(blue);
 color.SetAlpha(alpha);
 </code></pre>
 <h3 id="copying-colors">Copying Colors</h3>
+<p>Returns a copy of the color with a new component value.</p>
 <h4 id="hsv-2">HSV</h4>
 <pre><code class="lang-csharp">Color newColor;
 newColor = color.WithHue(hue);

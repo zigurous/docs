@@ -177,6 +177,44 @@ public struct HSL : IEquatable&lt;HSL&gt;</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
+  <a id="Zigurous_ColorPro_HSL_Convert_" data-uid="Zigurous.ColorPro.HSL.Convert*"></a>
+  <h4 id="Zigurous_ColorPro_HSL_Convert_Color_System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorPro.HSL.Convert(Color,System.Single@,System.Single@,System.Single@)">Convert(Color, out Single, out Single, out Single)</h4>
+  <div class="markdown level1 summary"><p>Converts a color to HSL (hue, saturation, lightness) components.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Convert(Color color, out float h, out float s, out float l)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to extract the components from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">h</span></td>
+        <td><p>The hue component output in the range [0..1].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">s</span></td>
+        <td><p>The saturation component output in the range [0..1].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">l</span></td>
+        <td><p>The lightness component output in the range [0..1].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Zigurous_ColorPro_HSL_Equals_" data-uid="Zigurous.ColorPro.HSL.Equals*"></a>
   <h4 id="Zigurous_ColorPro_HSL_Equals_System_Object_" data-uid="Zigurous.ColorPro.HSL.Equals(System.Object)">Equals(Object)</h4>
   <div class="markdown level1 summary"><p>Determines if the components are equal to <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
@@ -276,14 +314,22 @@ public struct HSL : IEquatable&lt;HSL&gt;</code></pre>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_ColorPro_HSL_ToHSB_" data-uid="Zigurous.ColorPro.HSL.ToHSB*"></a>
-  <h4 id="Zigurous_ColorPro_HSL_ToHSB_System_Single__System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorPro.HSL.ToHSB(System.Single@,System.Single@,System.Single@,System.Single@)">ToHSB(in Single, ref Single, in Single, out Single)</h4>
-  <div class="markdown level1 summary"><p>Converts HSL (hue, saturation, lightness) components to HSB (hue,
-saturation, brightness) components.</p>
+  <a id="Zigurous_ColorPro_HSL_ToHSV_" data-uid="Zigurous.ColorPro.HSL.ToHSV*"></a>
+  <h4 id="Zigurous_ColorPro_HSL_ToHSV" data-uid="Zigurous.ColorPro.HSL.ToHSV">ToHSV()</h4>
+  <div class="markdown level1 summary"><p>Converts the components to HSV (hue, saturation, value) components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ToHSB(in float h, ref float s, in float l, out float b)</code></pre>
+    <pre><code class="lang-csharp hljs">public HSV ToHSV()</code></pre>
+  </div>
+  <a id="Zigurous_ColorPro_HSL_ToHSV_" data-uid="Zigurous.ColorPro.HSL.ToHSV*"></a>
+  <h4 id="Zigurous_ColorPro_HSL_ToHSV_System_Single_System_Single_System_Single_" data-uid="Zigurous.ColorPro.HSL.ToHSV(System.Single,System.Single,System.Single)">ToHSV(Single, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Converts HSL (hue, saturation, lightness) components to HSV (hue,
+saturation, value) components.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static HSV ToHSV(float h, float s, float l)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -306,49 +352,6 @@ saturation, brightness) components.</p>
       <tr>
         <td><span class="parametername">l</span></td>
         <td><p>The lightness component of the color in the range [0..1].</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">b</span></td>
-        <td><p>The brightness component of the color in the range [0..1].</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_ColorPro_HSL_ToHSL_" data-uid="Zigurous.ColorPro.HSL.ToHSL*"></a>
-  <h4 id="Zigurous_ColorPro_HSL_ToHSL_Color_System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorPro.HSL.ToHSL(Color,System.Single@,System.Single@,System.Single@)">ToHSL(Color, out Single, out Single, out Single)</h4>
-  <div class="markdown level1 summary"><p>Converts a color to HSL (hue, saturation, lightness) components.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ToHSL(Color color, out float h, out float s, out float l)</code></pre>
-  </div>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Parameter</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">color</span></td>
-        <td><p>The color to extract the components from.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">h</span></td>
-        <td><p>The hue component output in the range [0..1].</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">s</span></td>
-        <td><p>The saturation component output in the range [0..1].</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">l</span></td>
-        <td><p>The lightness component output in the range [0..1].</p>
 </td>
       </tr>
     </tbody>
@@ -456,6 +459,27 @@ saturation, value) components.</p>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static explicit operator Color(HSL hsl)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">hsl</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_HSL_op_Explicit_" data-uid="Zigurous.ColorPro.HSL.op_Explicit*"></a>
+  <h4 id="Zigurous_ColorPro_HSL_op_Explicit_Zigurous_ColorPro_HSL__Zigurous_ColorPro_HSV" data-uid="Zigurous.ColorPro.HSL.op_Explicit(Zigurous.ColorPro.HSL)~Zigurous.ColorPro.HSV">Explicit(HSL to HSV)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static explicit operator HSV(HSL hsl)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>

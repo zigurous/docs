@@ -189,6 +189,49 @@ public struct RGBA : IEquatable&lt;RGBA&gt;</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
+  <a id="Zigurous_ColorPro_RGBA_Convert_" data-uid="Zigurous.ColorPro.RGBA.Convert*"></a>
+  <h4 id="Zigurous_ColorPro_RGBA_Convert_Color_System_Single__System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorPro.RGBA.Convert(Color,System.Single@,System.Single@,System.Single@,System.Single@)">Convert(Color, out Single, out Single, out Single, out Single)</h4>
+  <div class="markdown level1 summary"><p>Converts a color to RGBA (red, green, blue, alpha) components.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Convert(Color color, out float r, out float g, out float b, out float a)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to extract the components from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">r</span></td>
+        <td><p>The red component output in the range [0..1].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">g</span></td>
+        <td><p>The green component output in the range [0..1].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">b</span></td>
+        <td><p>The blue component output in the range [0..1].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">a</span></td>
+        <td><p>The alpha component output in the range [0..1].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Zigurous_ColorPro_RGBA_Equals_" data-uid="Zigurous.ColorPro.RGBA.Equals*"></a>
   <h4 id="Zigurous_ColorPro_RGBA_Equals_System_Object_" data-uid="Zigurous.ColorPro.RGBA.Equals(System.Object)">Equals(Object)</h4>
   <div class="markdown level1 summary"><p>Determines if the components are equal to <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
@@ -289,49 +332,6 @@ public struct RGBA : IEquatable&lt;RGBA&gt;</code></pre>
       <tr>
         <td><span class="parametername">a</span></td>
         <td><p>The alpha component of the color in the range [0..1].</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_ColorPro_RGBA_ToRGBA_" data-uid="Zigurous.ColorPro.RGBA.ToRGBA*"></a>
-  <h4 id="Zigurous_ColorPro_RGBA_ToRGBA_Color_System_Single__System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorPro.RGBA.ToRGBA(Color,System.Single@,System.Single@,System.Single@,System.Single@)">ToRGBA(Color, out Single, out Single, out Single, out Single)</h4>
-  <div class="markdown level1 summary"><p>Converts a color to RGBA (red, green, blue, alpha) components.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ToRGBA(Color color, out float r, out float g, out float b, out float a)</code></pre>
-  </div>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Parameter</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">color</span></td>
-        <td><p>The color to extract the components from.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">r</span></td>
-        <td><p>The red component output in the range [0..1].</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">g</span></td>
-        <td><p>The green component output in the range [0..1].</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">b</span></td>
-        <td><p>The blue component output in the range [0..1].</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">a</span></td>
-        <td><p>The alpha component output in the range [0..1].</p>
 </td>
       </tr>
     </tbody>

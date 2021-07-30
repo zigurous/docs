@@ -86,10 +86,10 @@
 <pre><code class="lang-csharp">float luminance = color.RelativeLuminance();
 </code></pre>
 <p>As an example, here's how contrast is calculated between colors using relative luminance:</p>
-<pre><code class="lang-csharp">public static float ContrastRatio(Color colorA, Color colorB)
+<pre><code class="lang-csharp">public static float ContrastRatio(this Color color, Color other)
 {
-    float luminanceA = colorA.RelativeLuminance();
-    float luminanceB = colorB.RelativeLuminance();
+    float luminanceA = color.RelativeLuminance();
+    float luminanceB = other.RelativeLuminance();
 
     float darker = Mathf.Min(luminanceA, luminanceB);
     float lighter = Mathf.Max(luminanceA, luminanceB);

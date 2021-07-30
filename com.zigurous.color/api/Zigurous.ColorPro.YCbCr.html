@@ -180,29 +180,6 @@ public struct YCbCr : IEquatable&lt;YCbCr&gt;</code></pre>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_ColorPro_YCbCr__ctor_" data-uid="Zigurous.ColorPro.YCbCr.#ctor*"></a>
-  <h4 id="Zigurous_ColorPro_YCbCr__ctor_Zigurous_ColorPro_YPbPr_" data-uid="Zigurous.ColorPro.YCbCr.#ctor(Zigurous.ColorPro.YPbPr)">YCbCr(YPbPr)</h4>
-  <div class="markdown level1 summary"><p>Creates new Y′CbCr components from the given Y′PbPr components.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public YCbCr(YPbPr yPbPr)</code></pre>
-  </div>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Parameter</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">yPbPr</span></td>
-        <td><p>The Y′PbPr components to convert.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="fields">Fields
   </h3>
   <h4 id="Zigurous_ColorPro_YCbCr_Cb" data-uid="Zigurous.ColorPro.YCbCr.Cb">Cb</h4>
@@ -228,6 +205,87 @@ public struct YCbCr : IEquatable&lt;YCbCr&gt;</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
+  <a id="Zigurous_ColorPro_YCbCr_Convert_" data-uid="Zigurous.ColorPro.YCbCr.Convert*"></a>
+  <h4 id="Zigurous_ColorPro_YCbCr_Convert_Color_System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorPro.YCbCr.Convert(Color,System.Single@,System.Single@,System.Single@)">Convert(Color, out Single, out Single, out Single)</h4>
+  <div class="markdown level1 summary"><p>Converts a color to Y′CbCr components.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Convert(Color color, out float Y, out float Cb, out float Cr)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to extract the components from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">Y</span></td>
+        <td><p>The luma component output in the full range [0..255].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">Cb</span></td>
+        <td><p>The blue-difference chroma component output in the full range [0..255].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">Cr</span></td>
+        <td><p>The red-difference chroma component output in the full range [0..255].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_YCbCr_Convert_" data-uid="Zigurous.ColorPro.YCbCr.Convert*"></a>
+  <h4 id="Zigurous_ColorPro_YCbCr_Convert_Color_Zigurous_ColorPro_SignalEncoding_System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorPro.YCbCr.Convert(Color,Zigurous.ColorPro.SignalEncoding,System.Single@,System.Single@,System.Single@)">Convert(Color, SignalEncoding, out Single, out Single, out Single)</h4>
+  <div class="markdown level1 summary"><p>Converts a color to Y′CbCr components using the given signal encoding.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Convert(Color color, SignalEncoding encoding, out float Y, out float Cb, out float Cr)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to extract the components from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">encoding</span></td>
+        <td><p>The signal encoding to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">Y</span></td>
+        <td><p>The luma component output in the full range [0..255].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">Cb</span></td>
+        <td><p>The blue-difference chroma component output in the full range [0..255].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">Cr</span></td>
+        <td><p>The red-difference chroma component output in the full range [0..255].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Zigurous_ColorPro_YCbCr_Equals_" data-uid="Zigurous.ColorPro.YCbCr.Equals*"></a>
   <h4 id="Zigurous_ColorPro_YCbCr_Equals_System_Object_" data-uid="Zigurous.ColorPro.YCbCr.Equals(System.Object)">Equals(Object)</h4>
   <div class="markdown level1 summary"><p>Determines if the components are equal to <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
@@ -398,13 +456,21 @@ public struct YCbCr : IEquatable&lt;YCbCr&gt;</code></pre>
   </div>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">System.ValueType.ToString()</span></div>
-  <a id="Zigurous_ColorPro_YCbCr_ToYCbCr_" data-uid="Zigurous.ColorPro.YCbCr.ToYCbCr*"></a>
-  <h4 id="Zigurous_ColorPro_YCbCr_ToYCbCr_Color_System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorPro.YCbCr.ToYCbCr(Color,System.Single@,System.Single@,System.Single@)">ToYCbCr(Color, out Single, out Single, out Single)</h4>
-  <div class="markdown level1 summary"><p>Converts a color to Y′CbCr components.</p>
+  <a id="Zigurous_ColorPro_YCbCr_ToYPbPr_" data-uid="Zigurous.ColorPro.YCbCr.ToYPbPr*"></a>
+  <h4 id="Zigurous_ColorPro_YCbCr_ToYPbPr" data-uid="Zigurous.ColorPro.YCbCr.ToYPbPr">ToYPbPr()</h4>
+  <div class="markdown level1 summary"><p>Converts the components to Y′PbPr components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ToYCbCr(Color color, out float Y, out float Cb, out float Cr)</code></pre>
+    <pre><code class="lang-csharp hljs">public YPbPr ToYPbPr()</code></pre>
+  </div>
+  <a id="Zigurous_ColorPro_YCbCr_ToYPbPr_" data-uid="Zigurous.ColorPro.YCbCr.ToYPbPr*"></a>
+  <h4 id="Zigurous_ColorPro_YCbCr_ToYPbPr_System_Single_System_Single_System_Single_" data-uid="Zigurous.ColorPro.YCbCr.ToYPbPr(System.Single,System.Single,System.Single)">ToYPbPr(Single, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Converts Y′CbCr components to Y′PbPr components.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static YPbPr ToYPbPr(float Y, float Cb, float Cr)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -415,66 +481,18 @@ public struct YCbCr : IEquatable&lt;YCbCr&gt;</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">color</span></td>
-        <td><p>The color to extract the components from.</p>
-</td>
-      </tr>
-      <tr>
         <td><span class="parametername">Y</span></td>
-        <td><p>The luma component output in the full range [0..255].</p>
+        <td><p>The luma component of the color in the full range [0..255].</p>
 </td>
       </tr>
       <tr>
         <td><span class="parametername">Cb</span></td>
-        <td><p>The blue-difference chroma component output in the full range [0..255].</p>
+        <td><p>The blue-difference chroma component of the color in the full range [0..255].</p>
 </td>
       </tr>
       <tr>
         <td><span class="parametername">Cr</span></td>
-        <td><p>The red-difference chroma component output in the full range [0..255].</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_ColorPro_YCbCr_ToYCbCr_" data-uid="Zigurous.ColorPro.YCbCr.ToYCbCr*"></a>
-  <h4 id="Zigurous_ColorPro_YCbCr_ToYCbCr_Color_Zigurous_ColorPro_SignalEncoding_System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorPro.YCbCr.ToYCbCr(Color,Zigurous.ColorPro.SignalEncoding,System.Single@,System.Single@,System.Single@)">ToYCbCr(Color, SignalEncoding, out Single, out Single, out Single)</h4>
-  <div class="markdown level1 summary"><p>Converts a color to Y′CbCr components using the given signal encoding.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ToYCbCr(Color color, SignalEncoding encoding, out float Y, out float Cb, out float Cr)</code></pre>
-  </div>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Parameter</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">color</span></td>
-        <td><p>The color to extract the components from.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">encoding</span></td>
-        <td><p>The signal encoding to use.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">Y</span></td>
-        <td><p>The luma component output in the full range [0..255].</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">Cb</span></td>
-        <td><p>The blue-difference chroma component output in the full range [0..255].</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">Cr</span></td>
-        <td><p>The red-difference chroma component output in the full range [0..255].</p>
+        <td><p>The red-difference chroma component of the color in the full range [0..255].</p>
 </td>
       </tr>
     </tbody>
@@ -591,12 +609,12 @@ public struct YCbCr : IEquatable&lt;YCbCr&gt;</code></pre>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_ColorPro_YCbCr_op_Implicit_" data-uid="Zigurous.ColorPro.YCbCr.op_Implicit*"></a>
-  <h4 id="Zigurous_ColorPro_YCbCr_op_Implicit_Zigurous_ColorPro_YPbPr__Zigurous_ColorPro_YCbCr" data-uid="Zigurous.ColorPro.YCbCr.op_Implicit(Zigurous.ColorPro.YPbPr)~Zigurous.ColorPro.YCbCr">Implicit(YPbPr to YCbCr)</h4>
+  <a id="Zigurous_ColorPro_YCbCr_op_Explicit_" data-uid="Zigurous.ColorPro.YCbCr.op_Explicit*"></a>
+  <h4 id="Zigurous_ColorPro_YCbCr_op_Explicit_Zigurous_ColorPro_YCbCr__Zigurous_ColorPro_YPbPr" data-uid="Zigurous.ColorPro.YCbCr.op_Explicit(Zigurous.ColorPro.YCbCr)~Zigurous.ColorPro.YPbPr">Explicit(YCbCr to YPbPr)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static implicit operator YCbCr(YPbPr yPbPr)</code></pre>
+    <pre><code class="lang-csharp hljs">public static explicit operator YPbPr(YCbCr yCbCr)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -607,7 +625,7 @@ public struct YCbCr : IEquatable&lt;YCbCr&gt;</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">yPbPr</span></td>
+        <td><span class="parametername">yCbCr</span></td>
         <td></td>
       </tr>
     </tbody>

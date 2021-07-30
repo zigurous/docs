@@ -177,6 +177,44 @@ public struct HSV : IEquatable&lt;HSV&gt;</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
+  <a id="Zigurous_ColorPro_HSV_Convert_" data-uid="Zigurous.ColorPro.HSV.Convert*"></a>
+  <h4 id="Zigurous_ColorPro_HSV_Convert_Color_System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorPro.HSV.Convert(Color,System.Single@,System.Single@,System.Single@)">Convert(Color, out Single, out Single, out Single)</h4>
+  <div class="markdown level1 summary"><p>Converts a color to HSV (hue, saturation, value) components.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Convert(Color color, out float h, out float s, out float v)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">color</span></td>
+        <td><p>The color to extract the components from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">h</span></td>
+        <td><p>The hue component output in the range [0..1].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">s</span></td>
+        <td><p>The saturation component output in the range [0..1].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">v</span></td>
+        <td><p>The value component output in the range [0..1].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Zigurous_ColorPro_HSV_Equals_" data-uid="Zigurous.ColorPro.HSV.Equals*"></a>
   <h4 id="Zigurous_ColorPro_HSV_Equals_System_Object_" data-uid="Zigurous.ColorPro.HSV.Equals(System.Object)">Equals(Object)</h4>
   <div class="markdown level1 summary"><p>Determines if the components are equal to <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
@@ -272,44 +310,6 @@ public struct HSV : IEquatable&lt;HSV&gt;</code></pre>
       <tr>
         <td><span class="parametername">v</span></td>
         <td><p>The value component of the color in the range [0..1].</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Zigurous_ColorPro_HSV_ToHSV_" data-uid="Zigurous.ColorPro.HSV.ToHSV*"></a>
-  <h4 id="Zigurous_ColorPro_HSV_ToHSV_Color_System_Single__System_Single__System_Single__" data-uid="Zigurous.ColorPro.HSV.ToHSV(Color,System.Single@,System.Single@,System.Single@)">ToHSV(Color, out Single, out Single, out Single)</h4>
-  <div class="markdown level1 summary"><p>Converts a color to HSV (hue, saturation, value) components.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ToHSV(Color color, out float h, out float s, out float v)</code></pre>
-  </div>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Parameter</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">color</span></td>
-        <td><p>The color to extract the components from.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">h</span></td>
-        <td><p>The hue component output in the range [0..1].</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">s</span></td>
-        <td><p>The saturation component output in the range [0..1].</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">v</span></td>
-        <td><p>The value component output in the range [0..1].</p>
 </td>
       </tr>
     </tbody>
