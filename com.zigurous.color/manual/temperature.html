@@ -94,8 +94,8 @@ string temperature = illuminant.CCTString();
 </code></pre>
 <h3 id="warmcool">Warm/Cool</h3>
 <p>Determines if the color is considered &quot;warm&quot; or &quot;cool&quot; based on color hue.</p>
-<pre><code class="lang-csharp">bool warm = color.IsWarm();
-bool cool = color.IsCool();
+<pre><code class="lang-csharp">bool warm = color.IsWarm(); // 0° to 90°, 270° to 360°
+bool cool = color.IsCool(); // 90° to 270°
 </code></pre>
 </article>
           </div>

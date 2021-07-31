@@ -110,6 +110,12 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.Adjustment.Darken
   nameWithType: Adjustment.Darken
+- uid: Zigurous.ColorPro.Adjustment.Darker(Color,System.Int32)
+  name: Darker(Color, Int32)
+  href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_Darker_Color_System_Int32_
+  commentId: M:Zigurous.ColorPro.Adjustment.Darker(Color,System.Int32)
+  fullName: Zigurous.ColorPro.Adjustment.Darker(Color, System.Int32)
+  nameWithType: Adjustment.Darker(Color, Int32)
 - uid: Zigurous.ColorPro.Adjustment.Darker(Color,System.Single)
   name: Darker(Color, Single)
   href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_Darker_Color_System_Single_
@@ -123,6 +129,22 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.Adjustment.Darker
   nameWithType: Adjustment.Darker
+- uid: Zigurous.ColorPro.Adjustment.DarkerNonAlloc(Color,Color[])
+  name: DarkerNonAlloc(Color, Color[])
+  href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_DarkerNonAlloc_Color_Color___
+  commentId: M:Zigurous.ColorPro.Adjustment.DarkerNonAlloc(Color,Color[])
+  name.vb: DarkerNonAlloc(Color, Color())
+  fullName: Zigurous.ColorPro.Adjustment.DarkerNonAlloc(Color, Color[])
+  fullName.vb: Zigurous.ColorPro.Adjustment.DarkerNonAlloc(Color, Color())
+  nameWithType: Adjustment.DarkerNonAlloc(Color, Color[])
+  nameWithType.vb: Adjustment.DarkerNonAlloc(Color, Color())
+- uid: Zigurous.ColorPro.Adjustment.DarkerNonAlloc*
+  name: DarkerNonAlloc
+  href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_DarkerNonAlloc_
+  commentId: Overload:Zigurous.ColorPro.Adjustment.DarkerNonAlloc
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Adjustment.DarkerNonAlloc
+  nameWithType: Adjustment.DarkerNonAlloc
 - uid: Zigurous.ColorPro.Adjustment.Desaturate(Color@,System.Single)
   name: Desaturate(ref Color, Single)
   href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_Desaturate_Color__System_Single_
@@ -139,6 +161,12 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.Adjustment.Desaturate
   nameWithType: Adjustment.Desaturate
+- uid: Zigurous.ColorPro.Adjustment.Desaturated(Color,System.Int32)
+  name: Desaturated(Color, Int32)
+  href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_Desaturated_Color_System_Int32_
+  commentId: M:Zigurous.ColorPro.Adjustment.Desaturated(Color,System.Int32)
+  fullName: Zigurous.ColorPro.Adjustment.Desaturated(Color, System.Int32)
+  nameWithType: Adjustment.Desaturated(Color, Int32)
 - uid: Zigurous.ColorPro.Adjustment.Desaturated(Color,System.Single)
   name: Desaturated(Color, Single)
   href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_Desaturated_Color_System_Single_
@@ -152,6 +180,22 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.Adjustment.Desaturated
   nameWithType: Adjustment.Desaturated
+- uid: Zigurous.ColorPro.Adjustment.DesaturatedNonAlloc(Color,Color[])
+  name: DesaturatedNonAlloc(Color, Color[])
+  href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_DesaturatedNonAlloc_Color_Color___
+  commentId: M:Zigurous.ColorPro.Adjustment.DesaturatedNonAlloc(Color,Color[])
+  name.vb: DesaturatedNonAlloc(Color, Color())
+  fullName: Zigurous.ColorPro.Adjustment.DesaturatedNonAlloc(Color, Color[])
+  fullName.vb: Zigurous.ColorPro.Adjustment.DesaturatedNonAlloc(Color, Color())
+  nameWithType: Adjustment.DesaturatedNonAlloc(Color, Color[])
+  nameWithType.vb: Adjustment.DesaturatedNonAlloc(Color, Color())
+- uid: Zigurous.ColorPro.Adjustment.DesaturatedNonAlloc*
+  name: DesaturatedNonAlloc
+  href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_DesaturatedNonAlloc_
+  commentId: Overload:Zigurous.ColorPro.Adjustment.DesaturatedNonAlloc
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Adjustment.DesaturatedNonAlloc
+  nameWithType: Adjustment.DesaturatedNonAlloc
 - uid: Zigurous.ColorPro.Adjustment.Grayscale(Color@)
   name: Grayscale(ref Color)
   href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_Grayscale_Color__
@@ -181,6 +225,25 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.Adjustment.Grayscaled
   nameWithType: Adjustment.Grayscaled
+- uid: Zigurous.ColorPro.Adjustment.Hues(Color,System.Int32,System.Single)
+  name: Hues(Color, Int32, Single)
+  href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_Hues_Color_System_Int32_System_Single_
+  commentId: M:Zigurous.ColorPro.Adjustment.Hues(Color,System.Int32,System.Single)
+  fullName: Zigurous.ColorPro.Adjustment.Hues(Color, System.Int32, System.Single)
+  nameWithType: Adjustment.Hues(Color, Int32, Single)
+- uid: Zigurous.ColorPro.Adjustment.Hues(Color,System.Single,System.Single)
+  name: Hues(Color, Single, Single)
+  href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_Hues_Color_System_Single_System_Single_
+  commentId: M:Zigurous.ColorPro.Adjustment.Hues(Color,System.Single,System.Single)
+  fullName: Zigurous.ColorPro.Adjustment.Hues(Color, System.Single, System.Single)
+  nameWithType: Adjustment.Hues(Color, Single, Single)
+- uid: Zigurous.ColorPro.Adjustment.Hues*
+  name: Hues
+  href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_Hues_
+  commentId: Overload:Zigurous.ColorPro.Adjustment.Hues
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Adjustment.Hues
+  nameWithType: Adjustment.Hues
 - uid: Zigurous.ColorPro.Adjustment.HueShift(Color@,System.Single)
   name: HueShift(ref Color, Single)
   href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_HueShift_Color__System_Single_
@@ -210,6 +273,22 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.Adjustment.HueShifted
   nameWithType: Adjustment.HueShifted
+- uid: Zigurous.ColorPro.Adjustment.HuesNonAlloc(Color,Color[],System.Single)
+  name: HuesNonAlloc(Color, Color[], Single)
+  href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_HuesNonAlloc_Color_Color___System_Single_
+  commentId: M:Zigurous.ColorPro.Adjustment.HuesNonAlloc(Color,Color[],System.Single)
+  name.vb: HuesNonAlloc(Color, Color(), Single)
+  fullName: Zigurous.ColorPro.Adjustment.HuesNonAlloc(Color, Color[], System.Single)
+  fullName.vb: Zigurous.ColorPro.Adjustment.HuesNonAlloc(Color, Color(), System.Single)
+  nameWithType: Adjustment.HuesNonAlloc(Color, Color[], Single)
+  nameWithType.vb: Adjustment.HuesNonAlloc(Color, Color(), Single)
+- uid: Zigurous.ColorPro.Adjustment.HuesNonAlloc*
+  name: HuesNonAlloc
+  href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_HuesNonAlloc_
+  commentId: Overload:Zigurous.ColorPro.Adjustment.HuesNonAlloc
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Adjustment.HuesNonAlloc
+  nameWithType: Adjustment.HuesNonAlloc
 - uid: Zigurous.ColorPro.Adjustment.Invert(Color@)
   name: Invert(ref Color)
   href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_Invert_Color__
@@ -255,6 +334,12 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.Adjustment.Lighten
   nameWithType: Adjustment.Lighten
+- uid: Zigurous.ColorPro.Adjustment.Lighter(Color,System.Int32)
+  name: Lighter(Color, Int32)
+  href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_Lighter_Color_System_Int32_
+  commentId: M:Zigurous.ColorPro.Adjustment.Lighter(Color,System.Int32)
+  fullName: Zigurous.ColorPro.Adjustment.Lighter(Color, System.Int32)
+  nameWithType: Adjustment.Lighter(Color, Int32)
 - uid: Zigurous.ColorPro.Adjustment.Lighter(Color,System.Single)
   name: Lighter(Color, Single)
   href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_Lighter_Color_System_Single_
@@ -268,6 +353,22 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.Adjustment.Lighter
   nameWithType: Adjustment.Lighter
+- uid: Zigurous.ColorPro.Adjustment.LighterNonAlloc(Color,Color[])
+  name: LighterNonAlloc(Color, Color[])
+  href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_LighterNonAlloc_Color_Color___
+  commentId: M:Zigurous.ColorPro.Adjustment.LighterNonAlloc(Color,Color[])
+  name.vb: LighterNonAlloc(Color, Color())
+  fullName: Zigurous.ColorPro.Adjustment.LighterNonAlloc(Color, Color[])
+  fullName.vb: Zigurous.ColorPro.Adjustment.LighterNonAlloc(Color, Color())
+  nameWithType: Adjustment.LighterNonAlloc(Color, Color[])
+  nameWithType.vb: Adjustment.LighterNonAlloc(Color, Color())
+- uid: Zigurous.ColorPro.Adjustment.LighterNonAlloc*
+  name: LighterNonAlloc
+  href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_LighterNonAlloc_
+  commentId: Overload:Zigurous.ColorPro.Adjustment.LighterNonAlloc
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Adjustment.LighterNonAlloc
+  nameWithType: Adjustment.LighterNonAlloc
 - uid: Zigurous.ColorPro.Adjustment.Saturate(Color@,System.Single)
   name: Saturate(ref Color, Single)
   href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_Saturate_Color__System_Single_
@@ -284,6 +385,12 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.Adjustment.Saturate
   nameWithType: Adjustment.Saturate
+- uid: Zigurous.ColorPro.Adjustment.Saturated(Color,System.Int32)
+  name: Saturated(Color, Int32)
+  href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_Saturated_Color_System_Int32_
+  commentId: M:Zigurous.ColorPro.Adjustment.Saturated(Color,System.Int32)
+  fullName: Zigurous.ColorPro.Adjustment.Saturated(Color, System.Int32)
+  nameWithType: Adjustment.Saturated(Color, Int32)
 - uid: Zigurous.ColorPro.Adjustment.Saturated(Color,System.Single)
   name: Saturated(Color, Single)
   href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_Saturated_Color_System_Single_
@@ -297,6 +404,22 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.Adjustment.Saturated
   nameWithType: Adjustment.Saturated
+- uid: Zigurous.ColorPro.Adjustment.SaturatedNonAlloc(Color,Color[])
+  name: SaturatedNonAlloc(Color, Color[])
+  href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_SaturatedNonAlloc_Color_Color___
+  commentId: M:Zigurous.ColorPro.Adjustment.SaturatedNonAlloc(Color,Color[])
+  name.vb: SaturatedNonAlloc(Color, Color())
+  fullName: Zigurous.ColorPro.Adjustment.SaturatedNonAlloc(Color, Color[])
+  fullName.vb: Zigurous.ColorPro.Adjustment.SaturatedNonAlloc(Color, Color())
+  nameWithType: Adjustment.SaturatedNonAlloc(Color, Color[])
+  nameWithType.vb: Adjustment.SaturatedNonAlloc(Color, Color())
+- uid: Zigurous.ColorPro.Adjustment.SaturatedNonAlloc*
+  name: SaturatedNonAlloc
+  href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_SaturatedNonAlloc_
+  commentId: Overload:Zigurous.ColorPro.Adjustment.SaturatedNonAlloc
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Adjustment.SaturatedNonAlloc
+  nameWithType: Adjustment.SaturatedNonAlloc
 - uid: Zigurous.ColorPro.Adjustment.WebSafe(Color)
   name: WebSafe(Color)
   href: api/Zigurous.ColorPro.Adjustment.html#Zigurous_ColorPro_Adjustment_WebSafe_Color_
@@ -3017,25 +3140,54 @@ references:
   commentId: T:Zigurous.ColorPro.ColorPalette
   fullName: Zigurous.ColorPro.ColorPalette
   nameWithType: ColorPalette
+- uid: Zigurous.ColorPro.ColorPalette.Add(Color)
+  name: Add(Color)
+  href: api/Zigurous.ColorPro.ColorPalette.html#Zigurous_ColorPro_ColorPalette_Add_Color_
+  commentId: M:Zigurous.ColorPro.ColorPalette.Add(Color)
+  fullName: Zigurous.ColorPro.ColorPalette.Add(Color)
+  nameWithType: ColorPalette.Add(Color)
+- uid: Zigurous.ColorPro.ColorPalette.Add*
+  name: Add
+  href: api/Zigurous.ColorPro.ColorPalette.html#Zigurous_ColorPro_ColorPalette_Add_
+  commentId: Overload:Zigurous.ColorPro.ColorPalette.Add
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.ColorPalette.Add
+  nameWithType: ColorPalette.Add
 - uid: Zigurous.ColorPro.ColorPalette.colors
   name: colors
   href: api/Zigurous.ColorPro.ColorPalette.html#Zigurous_ColorPro_ColorPalette_colors
   commentId: F:Zigurous.ColorPro.ColorPalette.colors
   fullName: Zigurous.ColorPro.ColorPalette.colors
   nameWithType: ColorPalette.colors
-- uid: Zigurous.ColorPro.ColorPalette.CreateMaterialPalette(Material)
-  name: CreateMaterialPalette(Material)
-  href: api/Zigurous.ColorPro.ColorPalette.html#Zigurous_ColorPro_ColorPalette_CreateMaterialPalette_Material_
-  commentId: M:Zigurous.ColorPro.ColorPalette.CreateMaterialPalette(Material)
-  fullName: Zigurous.ColorPro.ColorPalette.CreateMaterialPalette(Material)
-  nameWithType: ColorPalette.CreateMaterialPalette(Material)
-- uid: Zigurous.ColorPro.ColorPalette.CreateMaterialPalette*
-  name: CreateMaterialPalette
-  href: api/Zigurous.ColorPro.ColorPalette.html#Zigurous_ColorPro_ColorPalette_CreateMaterialPalette_
-  commentId: Overload:Zigurous.ColorPro.ColorPalette.CreateMaterialPalette
+- uid: Zigurous.ColorPro.ColorPalette.Convert(Material)
+  name: Convert(Material)
+  href: api/Zigurous.ColorPro.ColorPalette.html#Zigurous_ColorPro_ColorPalette_Convert_Material_
+  commentId: M:Zigurous.ColorPro.ColorPalette.Convert(Material)
+  fullName: Zigurous.ColorPro.ColorPalette.Convert(Material)
+  nameWithType: ColorPalette.Convert(Material)
+- uid: Zigurous.ColorPro.ColorPalette.Convert*
+  name: Convert
+  href: api/Zigurous.ColorPro.ColorPalette.html#Zigurous_ColorPro_ColorPalette_Convert_
+  commentId: Overload:Zigurous.ColorPro.ColorPalette.Convert
   isSpec: "True"
-  fullName: Zigurous.ColorPro.ColorPalette.CreateMaterialPalette
-  nameWithType: ColorPalette.CreateMaterialPalette
+  fullName: Zigurous.ColorPro.ColorPalette.Convert
+  nameWithType: ColorPalette.Convert
+- uid: Zigurous.ColorPro.ColorPalette.Item(System.Int32)
+  name: Item[Int32]
+  href: api/Zigurous.ColorPro.ColorPalette.html#Zigurous_ColorPro_ColorPalette_Item_System_Int32_
+  commentId: P:Zigurous.ColorPro.ColorPalette.Item(System.Int32)
+  name.vb: Item(Int32)
+  fullName: Zigurous.ColorPro.ColorPalette.Item[System.Int32]
+  fullName.vb: Zigurous.ColorPro.ColorPalette.Item(System.Int32)
+  nameWithType: ColorPalette.Item[Int32]
+  nameWithType.vb: ColorPalette.Item(Int32)
+- uid: Zigurous.ColorPro.ColorPalette.Item*
+  name: Item
+  href: api/Zigurous.ColorPro.ColorPalette.html#Zigurous_ColorPro_ColorPalette_Item_
+  commentId: Overload:Zigurous.ColorPro.ColorPalette.Item
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.ColorPalette.Item
+  nameWithType: ColorPalette.Item
 - uid: Zigurous.ColorPro.ColorPalette.Random
   name: Random()
   href: api/Zigurous.ColorPro.ColorPalette.html#Zigurous_ColorPro_ColorPalette_Random
@@ -3157,6 +3309,15 @@ references:
   commentId: M:Zigurous.ColorPro.Components.Copy(Color,System.Boolean)
   fullName: Zigurous.ColorPro.Components.Copy(Color, System.Boolean)
   nameWithType: Components.Copy(Color, Boolean)
+- uid: Zigurous.ColorPro.Components.Copy(Color@,Color,System.Boolean)
+  name: Copy(ref Color, Color, Boolean)
+  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_Copy_Color__Color_System_Boolean_
+  commentId: M:Zigurous.ColorPro.Components.Copy(Color@,Color,System.Boolean)
+  name.vb: Copy(ByRef Color, Color, Boolean)
+  fullName: Zigurous.ColorPro.Components.Copy(ref Color, Color, System.Boolean)
+  fullName.vb: Zigurous.ColorPro.Components.Copy(ByRef Color, Color, System.Boolean)
+  nameWithType: Components.Copy(ref Color, Color, Boolean)
+  nameWithType.vb: Components.Copy(ByRef Color, Color, Boolean)
 - uid: Zigurous.ColorPro.Components.Copy*
   name: Copy
   href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_Copy_
@@ -3294,22 +3455,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.Components.GetValue
   nameWithType: Components.GetValue
-- uid: Zigurous.ColorPro.Components.Match(Color@,Color,System.Boolean)
-  name: Match(ref Color, Color, Boolean)
-  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_Match_Color__Color_System_Boolean_
-  commentId: M:Zigurous.ColorPro.Components.Match(Color@,Color,System.Boolean)
-  name.vb: Match(ByRef Color, Color, Boolean)
-  fullName: Zigurous.ColorPro.Components.Match(ref Color, Color, System.Boolean)
-  fullName.vb: Zigurous.ColorPro.Components.Match(ByRef Color, Color, System.Boolean)
-  nameWithType: Components.Match(ref Color, Color, Boolean)
-  nameWithType.vb: Components.Match(ByRef Color, Color, Boolean)
-- uid: Zigurous.ColorPro.Components.Match*
-  name: Match
-  href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_Match_
-  commentId: Overload:Zigurous.ColorPro.Components.Match
-  isSpec: "True"
-  fullName: Zigurous.ColorPro.Components.Match
-  nameWithType: Components.Match
 - uid: Zigurous.ColorPro.Components.SetAlpha(Color@,System.Single)
   name: SetAlpha(ref Color, Single)
   href: api/Zigurous.ColorPro.Components.html#Zigurous_ColorPro_Components_SetAlpha_Color__System_Single_
@@ -6076,6 +6221,130 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.IlluminantExtensions.GetWhitePoint
   nameWithType: IlluminantExtensions.GetWhitePoint
+- uid: Zigurous.ColorPro.LumaCoefficients
+  name: LumaCoefficients
+  href: api/Zigurous.ColorPro.LumaCoefficients.html
+  commentId: T:Zigurous.ColorPro.LumaCoefficients
+  fullName: Zigurous.ColorPro.LumaCoefficients
+  nameWithType: LumaCoefficients
+- uid: Zigurous.ColorPro.LumaCoefficients.#ctor(System.Single,System.Single,System.Single)
+  name: LumaCoefficients(Single, Single, Single)
+  href: api/Zigurous.ColorPro.LumaCoefficients.html#Zigurous_ColorPro_LumaCoefficients__ctor_System_Single_System_Single_System_Single_
+  commentId: M:Zigurous.ColorPro.LumaCoefficients.#ctor(System.Single,System.Single,System.Single)
+  fullName: Zigurous.ColorPro.LumaCoefficients.LumaCoefficients(System.Single, System.Single, System.Single)
+  nameWithType: LumaCoefficients.LumaCoefficients(Single, Single, Single)
+- uid: Zigurous.ColorPro.LumaCoefficients.#ctor*
+  name: LumaCoefficients
+  href: api/Zigurous.ColorPro.LumaCoefficients.html#Zigurous_ColorPro_LumaCoefficients__ctor_
+  commentId: Overload:Zigurous.ColorPro.LumaCoefficients.#ctor
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.LumaCoefficients.LumaCoefficients
+  nameWithType: LumaCoefficients.LumaCoefficients
+- uid: Zigurous.ColorPro.LumaCoefficients.b
+  name: b
+  href: api/Zigurous.ColorPro.LumaCoefficients.html#Zigurous_ColorPro_LumaCoefficients_b
+  commentId: F:Zigurous.ColorPro.LumaCoefficients.b
+  fullName: Zigurous.ColorPro.LumaCoefficients.b
+  nameWithType: LumaCoefficients.b
+- uid: Zigurous.ColorPro.LumaCoefficients.Equals(System.Object)
+  name: Equals(Object)
+  href: api/Zigurous.ColorPro.LumaCoefficients.html#Zigurous_ColorPro_LumaCoefficients_Equals_System_Object_
+  commentId: M:Zigurous.ColorPro.LumaCoefficients.Equals(System.Object)
+  fullName: Zigurous.ColorPro.LumaCoefficients.Equals(System.Object)
+  nameWithType: LumaCoefficients.Equals(Object)
+- uid: Zigurous.ColorPro.LumaCoefficients.Equals(Zigurous.ColorPro.LumaCoefficients)
+  name: Equals(LumaCoefficients)
+  href: api/Zigurous.ColorPro.LumaCoefficients.html#Zigurous_ColorPro_LumaCoefficients_Equals_Zigurous_ColorPro_LumaCoefficients_
+  commentId: M:Zigurous.ColorPro.LumaCoefficients.Equals(Zigurous.ColorPro.LumaCoefficients)
+  fullName: Zigurous.ColorPro.LumaCoefficients.Equals(Zigurous.ColorPro.LumaCoefficients)
+  nameWithType: LumaCoefficients.Equals(LumaCoefficients)
+- uid: Zigurous.ColorPro.LumaCoefficients.Equals*
+  name: Equals
+  href: api/Zigurous.ColorPro.LumaCoefficients.html#Zigurous_ColorPro_LumaCoefficients_Equals_
+  commentId: Overload:Zigurous.ColorPro.LumaCoefficients.Equals
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.LumaCoefficients.Equals
+  nameWithType: LumaCoefficients.Equals
+- uid: Zigurous.ColorPro.LumaCoefficients.g
+  name: g
+  href: api/Zigurous.ColorPro.LumaCoefficients.html#Zigurous_ColorPro_LumaCoefficients_g
+  commentId: F:Zigurous.ColorPro.LumaCoefficients.g
+  fullName: Zigurous.ColorPro.LumaCoefficients.g
+  nameWithType: LumaCoefficients.g
+- uid: Zigurous.ColorPro.LumaCoefficients.GetHashCode
+  name: GetHashCode()
+  href: api/Zigurous.ColorPro.LumaCoefficients.html#Zigurous_ColorPro_LumaCoefficients_GetHashCode
+  commentId: M:Zigurous.ColorPro.LumaCoefficients.GetHashCode
+  fullName: Zigurous.ColorPro.LumaCoefficients.GetHashCode()
+  nameWithType: LumaCoefficients.GetHashCode()
+- uid: Zigurous.ColorPro.LumaCoefficients.GetHashCode*
+  name: GetHashCode
+  href: api/Zigurous.ColorPro.LumaCoefficients.html#Zigurous_ColorPro_LumaCoefficients_GetHashCode_
+  commentId: Overload:Zigurous.ColorPro.LumaCoefficients.GetHashCode
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.LumaCoefficients.GetHashCode
+  nameWithType: LumaCoefficients.GetHashCode
+- uid: Zigurous.ColorPro.LumaCoefficients.Item(System.Int32)
+  name: Item[Int32]
+  href: api/Zigurous.ColorPro.LumaCoefficients.html#Zigurous_ColorPro_LumaCoefficients_Item_System_Int32_
+  commentId: P:Zigurous.ColorPro.LumaCoefficients.Item(System.Int32)
+  name.vb: Item(Int32)
+  fullName: Zigurous.ColorPro.LumaCoefficients.Item[System.Int32]
+  fullName.vb: Zigurous.ColorPro.LumaCoefficients.Item(System.Int32)
+  nameWithType: LumaCoefficients.Item[Int32]
+  nameWithType.vb: LumaCoefficients.Item(Int32)
+- uid: Zigurous.ColorPro.LumaCoefficients.Item*
+  name: Item
+  href: api/Zigurous.ColorPro.LumaCoefficients.html#Zigurous_ColorPro_LumaCoefficients_Item_
+  commentId: Overload:Zigurous.ColorPro.LumaCoefficients.Item
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.LumaCoefficients.Item
+  nameWithType: LumaCoefficients.Item
+- uid: Zigurous.ColorPro.LumaCoefficients.op_Equality(Zigurous.ColorPro.LumaCoefficients,Zigurous.ColorPro.LumaCoefficients)
+  name: Equality(LumaCoefficients, LumaCoefficients)
+  href: api/Zigurous.ColorPro.LumaCoefficients.html#Zigurous_ColorPro_LumaCoefficients_op_Equality_Zigurous_ColorPro_LumaCoefficients_Zigurous_ColorPro_LumaCoefficients_
+  commentId: M:Zigurous.ColorPro.LumaCoefficients.op_Equality(Zigurous.ColorPro.LumaCoefficients,Zigurous.ColorPro.LumaCoefficients)
+  fullName: Zigurous.ColorPro.LumaCoefficients.Equality(Zigurous.ColorPro.LumaCoefficients, Zigurous.ColorPro.LumaCoefficients)
+  nameWithType: LumaCoefficients.Equality(LumaCoefficients, LumaCoefficients)
+- uid: Zigurous.ColorPro.LumaCoefficients.op_Equality*
+  name: Equality
+  href: api/Zigurous.ColorPro.LumaCoefficients.html#Zigurous_ColorPro_LumaCoefficients_op_Equality_
+  commentId: Overload:Zigurous.ColorPro.LumaCoefficients.op_Equality
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.LumaCoefficients.Equality
+  nameWithType: LumaCoefficients.Equality
+- uid: Zigurous.ColorPro.LumaCoefficients.op_Inequality(Zigurous.ColorPro.LumaCoefficients,Zigurous.ColorPro.LumaCoefficients)
+  name: Inequality(LumaCoefficients, LumaCoefficients)
+  href: api/Zigurous.ColorPro.LumaCoefficients.html#Zigurous_ColorPro_LumaCoefficients_op_Inequality_Zigurous_ColorPro_LumaCoefficients_Zigurous_ColorPro_LumaCoefficients_
+  commentId: M:Zigurous.ColorPro.LumaCoefficients.op_Inequality(Zigurous.ColorPro.LumaCoefficients,Zigurous.ColorPro.LumaCoefficients)
+  fullName: Zigurous.ColorPro.LumaCoefficients.Inequality(Zigurous.ColorPro.LumaCoefficients, Zigurous.ColorPro.LumaCoefficients)
+  nameWithType: LumaCoefficients.Inequality(LumaCoefficients, LumaCoefficients)
+- uid: Zigurous.ColorPro.LumaCoefficients.op_Inequality*
+  name: Inequality
+  href: api/Zigurous.ColorPro.LumaCoefficients.html#Zigurous_ColorPro_LumaCoefficients_op_Inequality_
+  commentId: Overload:Zigurous.ColorPro.LumaCoefficients.op_Inequality
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.LumaCoefficients.Inequality
+  nameWithType: LumaCoefficients.Inequality
+- uid: Zigurous.ColorPro.LumaCoefficients.r
+  name: r
+  href: api/Zigurous.ColorPro.LumaCoefficients.html#Zigurous_ColorPro_LumaCoefficients_r
+  commentId: F:Zigurous.ColorPro.LumaCoefficients.r
+  fullName: Zigurous.ColorPro.LumaCoefficients.r
+  nameWithType: LumaCoefficients.r
+- uid: Zigurous.ColorPro.LumaCoefficients.ToString
+  name: ToString()
+  href: api/Zigurous.ColorPro.LumaCoefficients.html#Zigurous_ColorPro_LumaCoefficients_ToString
+  commentId: M:Zigurous.ColorPro.LumaCoefficients.ToString
+  fullName: Zigurous.ColorPro.LumaCoefficients.ToString()
+  nameWithType: LumaCoefficients.ToString()
+- uid: Zigurous.ColorPro.LumaCoefficients.ToString*
+  name: ToString
+  href: api/Zigurous.ColorPro.LumaCoefficients.html#Zigurous_ColorPro_LumaCoefficients_ToString_
+  commentId: Overload:Zigurous.ColorPro.LumaCoefficients.ToString
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.LumaCoefficients.ToString
+  nameWithType: LumaCoefficients.ToString
 - uid: Zigurous.ColorPro.Luminance
   name: Luminance
   href: api/Zigurous.ColorPro.Luminance.html
@@ -6108,12 +6377,12 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.Luminance.IsLight
   nameWithType: Luminance.IsLight
-- uid: Zigurous.ColorPro.Luminance.PerceivedBrightness(Color)
-  name: PerceivedBrightness(Color)
-  href: api/Zigurous.ColorPro.Luminance.html#Zigurous_ColorPro_Luminance_PerceivedBrightness_Color_
-  commentId: M:Zigurous.ColorPro.Luminance.PerceivedBrightness(Color)
-  fullName: Zigurous.ColorPro.Luminance.PerceivedBrightness(Color)
-  nameWithType: Luminance.PerceivedBrightness(Color)
+- uid: Zigurous.ColorPro.Luminance.PerceivedBrightness(Color,Zigurous.ColorPro.SignalEncoding)
+  name: PerceivedBrightness(Color, SignalEncoding)
+  href: api/Zigurous.ColorPro.Luminance.html#Zigurous_ColorPro_Luminance_PerceivedBrightness_Color_Zigurous_ColorPro_SignalEncoding_
+  commentId: M:Zigurous.ColorPro.Luminance.PerceivedBrightness(Color,Zigurous.ColorPro.SignalEncoding)
+  fullName: Zigurous.ColorPro.Luminance.PerceivedBrightness(Color, Zigurous.ColorPro.SignalEncoding)
+  nameWithType: Luminance.PerceivedBrightness(Color, SignalEncoding)
 - uid: Zigurous.ColorPro.Luminance.PerceivedBrightness*
   name: PerceivedBrightness
   href: api/Zigurous.ColorPro.Luminance.html#Zigurous_ColorPro_Luminance_PerceivedBrightness_
@@ -6121,12 +6390,12 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.Luminance.PerceivedBrightness
   nameWithType: Luminance.PerceivedBrightness
-- uid: Zigurous.ColorPro.Luminance.RelativeLuminance(Color)
-  name: RelativeLuminance(Color)
-  href: api/Zigurous.ColorPro.Luminance.html#Zigurous_ColorPro_Luminance_RelativeLuminance_Color_
-  commentId: M:Zigurous.ColorPro.Luminance.RelativeLuminance(Color)
-  fullName: Zigurous.ColorPro.Luminance.RelativeLuminance(Color)
-  nameWithType: Luminance.RelativeLuminance(Color)
+- uid: Zigurous.ColorPro.Luminance.RelativeLuminance(Color,Zigurous.ColorPro.SignalEncoding)
+  name: RelativeLuminance(Color, SignalEncoding)
+  href: api/Zigurous.ColorPro.Luminance.html#Zigurous_ColorPro_Luminance_RelativeLuminance_Color_Zigurous_ColorPro_SignalEncoding_
+  commentId: M:Zigurous.ColorPro.Luminance.RelativeLuminance(Color,Zigurous.ColorPro.SignalEncoding)
+  fullName: Zigurous.ColorPro.Luminance.RelativeLuminance(Color, Zigurous.ColorPro.SignalEncoding)
+  nameWithType: Luminance.RelativeLuminance(Color, SignalEncoding)
 - uid: Zigurous.ColorPro.Luminance.RelativeLuminance*
   name: RelativeLuminance
   href: api/Zigurous.ColorPro.Luminance.html#Zigurous_ColorPro_Luminance_RelativeLuminance_
@@ -6140,19 +6409,48 @@ references:
   commentId: T:Zigurous.ColorPro.MaterialPalette
   fullName: Zigurous.ColorPro.MaterialPalette
   nameWithType: MaterialPalette
-- uid: Zigurous.ColorPro.MaterialPalette.CreateColorPalette
-  name: CreateColorPalette()
-  href: api/Zigurous.ColorPro.MaterialPalette.html#Zigurous_ColorPro_MaterialPalette_CreateColorPalette
-  commentId: M:Zigurous.ColorPro.MaterialPalette.CreateColorPalette
-  fullName: Zigurous.ColorPro.MaterialPalette.CreateColorPalette()
-  nameWithType: MaterialPalette.CreateColorPalette()
-- uid: Zigurous.ColorPro.MaterialPalette.CreateColorPalette*
-  name: CreateColorPalette
-  href: api/Zigurous.ColorPro.MaterialPalette.html#Zigurous_ColorPro_MaterialPalette_CreateColorPalette_
-  commentId: Overload:Zigurous.ColorPro.MaterialPalette.CreateColorPalette
+- uid: Zigurous.ColorPro.MaterialPalette.Add(Material)
+  name: Add(Material)
+  href: api/Zigurous.ColorPro.MaterialPalette.html#Zigurous_ColorPro_MaterialPalette_Add_Material_
+  commentId: M:Zigurous.ColorPro.MaterialPalette.Add(Material)
+  fullName: Zigurous.ColorPro.MaterialPalette.Add(Material)
+  nameWithType: MaterialPalette.Add(Material)
+- uid: Zigurous.ColorPro.MaterialPalette.Add*
+  name: Add
+  href: api/Zigurous.ColorPro.MaterialPalette.html#Zigurous_ColorPro_MaterialPalette_Add_
+  commentId: Overload:Zigurous.ColorPro.MaterialPalette.Add
   isSpec: "True"
-  fullName: Zigurous.ColorPro.MaterialPalette.CreateColorPalette
-  nameWithType: MaterialPalette.CreateColorPalette
+  fullName: Zigurous.ColorPro.MaterialPalette.Add
+  nameWithType: MaterialPalette.Add
+- uid: Zigurous.ColorPro.MaterialPalette.Convert
+  name: Convert()
+  href: api/Zigurous.ColorPro.MaterialPalette.html#Zigurous_ColorPro_MaterialPalette_Convert
+  commentId: M:Zigurous.ColorPro.MaterialPalette.Convert
+  fullName: Zigurous.ColorPro.MaterialPalette.Convert()
+  nameWithType: MaterialPalette.Convert()
+- uid: Zigurous.ColorPro.MaterialPalette.Convert*
+  name: Convert
+  href: api/Zigurous.ColorPro.MaterialPalette.html#Zigurous_ColorPro_MaterialPalette_Convert_
+  commentId: Overload:Zigurous.ColorPro.MaterialPalette.Convert
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.MaterialPalette.Convert
+  nameWithType: MaterialPalette.Convert
+- uid: Zigurous.ColorPro.MaterialPalette.Item(System.Int32)
+  name: Item[Int32]
+  href: api/Zigurous.ColorPro.MaterialPalette.html#Zigurous_ColorPro_MaterialPalette_Item_System_Int32_
+  commentId: P:Zigurous.ColorPro.MaterialPalette.Item(System.Int32)
+  name.vb: Item(Int32)
+  fullName: Zigurous.ColorPro.MaterialPalette.Item[System.Int32]
+  fullName.vb: Zigurous.ColorPro.MaterialPalette.Item(System.Int32)
+  nameWithType: MaterialPalette.Item[Int32]
+  nameWithType.vb: MaterialPalette.Item(Int32)
+- uid: Zigurous.ColorPro.MaterialPalette.Item*
+  name: Item
+  href: api/Zigurous.ColorPro.MaterialPalette.html#Zigurous_ColorPro_MaterialPalette_Item_
+  commentId: Overload:Zigurous.ColorPro.MaterialPalette.Item
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.MaterialPalette.Item
+  nameWithType: MaterialPalette.Item
 - uid: Zigurous.ColorPro.MaterialPalette.materials
   name: materials
   href: api/Zigurous.ColorPro.MaterialPalette.html#Zigurous_ColorPro_MaterialPalette_materials
@@ -6204,6 +6502,35 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.Mixing.Shade
   nameWithType: Mixing.Shade
+- uid: Zigurous.ColorPro.Mixing.Shades(Color,System.Int32)
+  name: Shades(Color, Int32)
+  href: api/Zigurous.ColorPro.Mixing.html#Zigurous_ColorPro_Mixing_Shades_Color_System_Int32_
+  commentId: M:Zigurous.ColorPro.Mixing.Shades(Color,System.Int32)
+  fullName: Zigurous.ColorPro.Mixing.Shades(Color, System.Int32)
+  nameWithType: Mixing.Shades(Color, Int32)
+- uid: Zigurous.ColorPro.Mixing.Shades*
+  name: Shades
+  href: api/Zigurous.ColorPro.Mixing.html#Zigurous_ColorPro_Mixing_Shades_
+  commentId: Overload:Zigurous.ColorPro.Mixing.Shades
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Mixing.Shades
+  nameWithType: Mixing.Shades
+- uid: Zigurous.ColorPro.Mixing.ShadesNonAlloc(Color,Color[])
+  name: ShadesNonAlloc(Color, Color[])
+  href: api/Zigurous.ColorPro.Mixing.html#Zigurous_ColorPro_Mixing_ShadesNonAlloc_Color_Color___
+  commentId: M:Zigurous.ColorPro.Mixing.ShadesNonAlloc(Color,Color[])
+  name.vb: ShadesNonAlloc(Color, Color())
+  fullName: Zigurous.ColorPro.Mixing.ShadesNonAlloc(Color, Color[])
+  fullName.vb: Zigurous.ColorPro.Mixing.ShadesNonAlloc(Color, Color())
+  nameWithType: Mixing.ShadesNonAlloc(Color, Color[])
+  nameWithType.vb: Mixing.ShadesNonAlloc(Color, Color())
+- uid: Zigurous.ColorPro.Mixing.ShadesNonAlloc*
+  name: ShadesNonAlloc
+  href: api/Zigurous.ColorPro.Mixing.html#Zigurous_ColorPro_Mixing_ShadesNonAlloc_
+  commentId: Overload:Zigurous.ColorPro.Mixing.ShadesNonAlloc
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Mixing.ShadesNonAlloc
+  nameWithType: Mixing.ShadesNonAlloc
 - uid: Zigurous.ColorPro.Mixing.Tint(Color,System.Single)
   name: Tint(Color, Single)
   href: api/Zigurous.ColorPro.Mixing.html#Zigurous_ColorPro_Mixing_Tint_Color_System_Single_
@@ -6217,6 +6544,35 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.Mixing.Tint
   nameWithType: Mixing.Tint
+- uid: Zigurous.ColorPro.Mixing.Tints(Color,System.Int32)
+  name: Tints(Color, Int32)
+  href: api/Zigurous.ColorPro.Mixing.html#Zigurous_ColorPro_Mixing_Tints_Color_System_Int32_
+  commentId: M:Zigurous.ColorPro.Mixing.Tints(Color,System.Int32)
+  fullName: Zigurous.ColorPro.Mixing.Tints(Color, System.Int32)
+  nameWithType: Mixing.Tints(Color, Int32)
+- uid: Zigurous.ColorPro.Mixing.Tints*
+  name: Tints
+  href: api/Zigurous.ColorPro.Mixing.html#Zigurous_ColorPro_Mixing_Tints_
+  commentId: Overload:Zigurous.ColorPro.Mixing.Tints
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Mixing.Tints
+  nameWithType: Mixing.Tints
+- uid: Zigurous.ColorPro.Mixing.TintsNonAlloc(Color,Color[])
+  name: TintsNonAlloc(Color, Color[])
+  href: api/Zigurous.ColorPro.Mixing.html#Zigurous_ColorPro_Mixing_TintsNonAlloc_Color_Color___
+  commentId: M:Zigurous.ColorPro.Mixing.TintsNonAlloc(Color,Color[])
+  name.vb: TintsNonAlloc(Color, Color())
+  fullName: Zigurous.ColorPro.Mixing.TintsNonAlloc(Color, Color[])
+  fullName.vb: Zigurous.ColorPro.Mixing.TintsNonAlloc(Color, Color())
+  nameWithType: Mixing.TintsNonAlloc(Color, Color[])
+  nameWithType.vb: Mixing.TintsNonAlloc(Color, Color())
+- uid: Zigurous.ColorPro.Mixing.TintsNonAlloc*
+  name: TintsNonAlloc
+  href: api/Zigurous.ColorPro.Mixing.html#Zigurous_ColorPro_Mixing_TintsNonAlloc_
+  commentId: Overload:Zigurous.ColorPro.Mixing.TintsNonAlloc
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Mixing.TintsNonAlloc
+  nameWithType: Mixing.TintsNonAlloc
 - uid: Zigurous.ColorPro.Mixing.Tone(Color,System.Single)
   name: Tone(Color, Single)
   href: api/Zigurous.ColorPro.Mixing.html#Zigurous_ColorPro_Mixing_Tone_Color_System_Single_
@@ -6230,6 +6586,35 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.Mixing.Tone
   nameWithType: Mixing.Tone
+- uid: Zigurous.ColorPro.Mixing.Tones(Color,System.Int32)
+  name: Tones(Color, Int32)
+  href: api/Zigurous.ColorPro.Mixing.html#Zigurous_ColorPro_Mixing_Tones_Color_System_Int32_
+  commentId: M:Zigurous.ColorPro.Mixing.Tones(Color,System.Int32)
+  fullName: Zigurous.ColorPro.Mixing.Tones(Color, System.Int32)
+  nameWithType: Mixing.Tones(Color, Int32)
+- uid: Zigurous.ColorPro.Mixing.Tones*
+  name: Tones
+  href: api/Zigurous.ColorPro.Mixing.html#Zigurous_ColorPro_Mixing_Tones_
+  commentId: Overload:Zigurous.ColorPro.Mixing.Tones
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Mixing.Tones
+  nameWithType: Mixing.Tones
+- uid: Zigurous.ColorPro.Mixing.TonesNonAlloc(Color,Color[])
+  name: TonesNonAlloc(Color, Color[])
+  href: api/Zigurous.ColorPro.Mixing.html#Zigurous_ColorPro_Mixing_TonesNonAlloc_Color_Color___
+  commentId: M:Zigurous.ColorPro.Mixing.TonesNonAlloc(Color,Color[])
+  name.vb: TonesNonAlloc(Color, Color())
+  fullName: Zigurous.ColorPro.Mixing.TonesNonAlloc(Color, Color[])
+  fullName.vb: Zigurous.ColorPro.Mixing.TonesNonAlloc(Color, Color())
+  nameWithType: Mixing.TonesNonAlloc(Color, Color[])
+  nameWithType.vb: Mixing.TonesNonAlloc(Color, Color())
+- uid: Zigurous.ColorPro.Mixing.TonesNonAlloc*
+  name: TonesNonAlloc
+  href: api/Zigurous.ColorPro.Mixing.html#Zigurous_ColorPro_Mixing_TonesNonAlloc_
+  commentId: Overload:Zigurous.ColorPro.Mixing.TonesNonAlloc
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Mixing.TonesNonAlloc
+  nameWithType: Mixing.TonesNonAlloc
 - uid: Zigurous.ColorPro.MixingModel
   name: MixingModel
   href: api/Zigurous.ColorPro.MixingModel.html
@@ -6376,220 +6761,6 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.MixingModelExtensions.TertiaryColorsNonAlloc
   nameWithType: MixingModelExtensions.TertiaryColorsNonAlloc
-- uid: Zigurous.ColorPro.Palette
-  name: Palette
-  href: api/Zigurous.ColorPro.Palette.html
-  commentId: T:Zigurous.ColorPro.Palette
-  fullName: Zigurous.ColorPro.Palette
-  nameWithType: Palette
-- uid: Zigurous.ColorPro.Palette.Darker(Color,System.Int32)
-  name: Darker(Color, Int32)
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_Darker_Color_System_Int32_
-  commentId: M:Zigurous.ColorPro.Palette.Darker(Color,System.Int32)
-  fullName: Zigurous.ColorPro.Palette.Darker(Color, System.Int32)
-  nameWithType: Palette.Darker(Color, Int32)
-- uid: Zigurous.ColorPro.Palette.Darker*
-  name: Darker
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_Darker_
-  commentId: Overload:Zigurous.ColorPro.Palette.Darker
-  isSpec: "True"
-  fullName: Zigurous.ColorPro.Palette.Darker
-  nameWithType: Palette.Darker
-- uid: Zigurous.ColorPro.Palette.Desaturated(Color,System.Int32)
-  name: Desaturated(Color, Int32)
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_Desaturated_Color_System_Int32_
-  commentId: M:Zigurous.ColorPro.Palette.Desaturated(Color,System.Int32)
-  fullName: Zigurous.ColorPro.Palette.Desaturated(Color, System.Int32)
-  nameWithType: Palette.Desaturated(Color, Int32)
-- uid: Zigurous.ColorPro.Palette.Desaturated*
-  name: Desaturated
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_Desaturated_
-  commentId: Overload:Zigurous.ColorPro.Palette.Desaturated
-  isSpec: "True"
-  fullName: Zigurous.ColorPro.Palette.Desaturated
-  nameWithType: Palette.Desaturated
-- uid: Zigurous.ColorPro.Palette.Hues(Color,System.Single)
-  name: Hues(Color, Single)
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_Hues_Color_System_Single_
-  commentId: M:Zigurous.ColorPro.Palette.Hues(Color,System.Single)
-  fullName: Zigurous.ColorPro.Palette.Hues(Color, System.Single)
-  nameWithType: Palette.Hues(Color, Single)
-- uid: Zigurous.ColorPro.Palette.Hues*
-  name: Hues
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_Hues_
-  commentId: Overload:Zigurous.ColorPro.Palette.Hues
-  isSpec: "True"
-  fullName: Zigurous.ColorPro.Palette.Hues
-  nameWithType: Palette.Hues
-- uid: Zigurous.ColorPro.Palette.Lighter(Color,System.Int32)
-  name: Lighter(Color, Int32)
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_Lighter_Color_System_Int32_
-  commentId: M:Zigurous.ColorPro.Palette.Lighter(Color,System.Int32)
-  fullName: Zigurous.ColorPro.Palette.Lighter(Color, System.Int32)
-  nameWithType: Palette.Lighter(Color, Int32)
-- uid: Zigurous.ColorPro.Palette.Lighter*
-  name: Lighter
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_Lighter_
-  commentId: Overload:Zigurous.ColorPro.Palette.Lighter
-  isSpec: "True"
-  fullName: Zigurous.ColorPro.Palette.Lighter
-  nameWithType: Palette.Lighter
-- uid: Zigurous.ColorPro.Palette.RandomDarker(Color,System.Int32,System.Single,System.Single)
-  name: RandomDarker(Color, Int32, Single, Single)
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_RandomDarker_Color_System_Int32_System_Single_System_Single_
-  commentId: M:Zigurous.ColorPro.Palette.RandomDarker(Color,System.Int32,System.Single,System.Single)
-  fullName: Zigurous.ColorPro.Palette.RandomDarker(Color, System.Int32, System.Single, System.Single)
-  nameWithType: Palette.RandomDarker(Color, Int32, Single, Single)
-- uid: Zigurous.ColorPro.Palette.RandomDarker*
-  name: RandomDarker
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_RandomDarker_
-  commentId: Overload:Zigurous.ColorPro.Palette.RandomDarker
-  isSpec: "True"
-  fullName: Zigurous.ColorPro.Palette.RandomDarker
-  nameWithType: Palette.RandomDarker
-- uid: Zigurous.ColorPro.Palette.RandomDesaturated(Color,System.Int32,System.Single,System.Single)
-  name: RandomDesaturated(Color, Int32, Single, Single)
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_RandomDesaturated_Color_System_Int32_System_Single_System_Single_
-  commentId: M:Zigurous.ColorPro.Palette.RandomDesaturated(Color,System.Int32,System.Single,System.Single)
-  fullName: Zigurous.ColorPro.Palette.RandomDesaturated(Color, System.Int32, System.Single, System.Single)
-  nameWithType: Palette.RandomDesaturated(Color, Int32, Single, Single)
-- uid: Zigurous.ColorPro.Palette.RandomDesaturated*
-  name: RandomDesaturated
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_RandomDesaturated_
-  commentId: Overload:Zigurous.ColorPro.Palette.RandomDesaturated
-  isSpec: "True"
-  fullName: Zigurous.ColorPro.Palette.RandomDesaturated
-  nameWithType: Palette.RandomDesaturated
-- uid: Zigurous.ColorPro.Palette.RandomHues(Color,System.Int32)
-  name: RandomHues(Color, Int32)
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_RandomHues_Color_System_Int32_
-  commentId: M:Zigurous.ColorPro.Palette.RandomHues(Color,System.Int32)
-  fullName: Zigurous.ColorPro.Palette.RandomHues(Color, System.Int32)
-  nameWithType: Palette.RandomHues(Color, Int32)
-- uid: Zigurous.ColorPro.Palette.RandomHues*
-  name: RandomHues
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_RandomHues_
-  commentId: Overload:Zigurous.ColorPro.Palette.RandomHues
-  isSpec: "True"
-  fullName: Zigurous.ColorPro.Palette.RandomHues
-  nameWithType: Palette.RandomHues
-- uid: Zigurous.ColorPro.Palette.RandomLighter(Color,System.Int32,System.Single,System.Single)
-  name: RandomLighter(Color, Int32, Single, Single)
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_RandomLighter_Color_System_Int32_System_Single_System_Single_
-  commentId: M:Zigurous.ColorPro.Palette.RandomLighter(Color,System.Int32,System.Single,System.Single)
-  fullName: Zigurous.ColorPro.Palette.RandomLighter(Color, System.Int32, System.Single, System.Single)
-  nameWithType: Palette.RandomLighter(Color, Int32, Single, Single)
-- uid: Zigurous.ColorPro.Palette.RandomLighter*
-  name: RandomLighter
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_RandomLighter_
-  commentId: Overload:Zigurous.ColorPro.Palette.RandomLighter
-  isSpec: "True"
-  fullName: Zigurous.ColorPro.Palette.RandomLighter
-  nameWithType: Palette.RandomLighter
-- uid: Zigurous.ColorPro.Palette.RandomSaturated(Color,System.Int32,System.Single,System.Single)
-  name: RandomSaturated(Color, Int32, Single, Single)
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_RandomSaturated_Color_System_Int32_System_Single_System_Single_
-  commentId: M:Zigurous.ColorPro.Palette.RandomSaturated(Color,System.Int32,System.Single,System.Single)
-  fullName: Zigurous.ColorPro.Palette.RandomSaturated(Color, System.Int32, System.Single, System.Single)
-  nameWithType: Palette.RandomSaturated(Color, Int32, Single, Single)
-- uid: Zigurous.ColorPro.Palette.RandomSaturated*
-  name: RandomSaturated
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_RandomSaturated_
-  commentId: Overload:Zigurous.ColorPro.Palette.RandomSaturated
-  isSpec: "True"
-  fullName: Zigurous.ColorPro.Palette.RandomSaturated
-  nameWithType: Palette.RandomSaturated
-- uid: Zigurous.ColorPro.Palette.RandomShades(Color,System.Int32,System.Single,System.Single)
-  name: RandomShades(Color, Int32, Single, Single)
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_RandomShades_Color_System_Int32_System_Single_System_Single_
-  commentId: M:Zigurous.ColorPro.Palette.RandomShades(Color,System.Int32,System.Single,System.Single)
-  fullName: Zigurous.ColorPro.Palette.RandomShades(Color, System.Int32, System.Single, System.Single)
-  nameWithType: Palette.RandomShades(Color, Int32, Single, Single)
-- uid: Zigurous.ColorPro.Palette.RandomShades*
-  name: RandomShades
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_RandomShades_
-  commentId: Overload:Zigurous.ColorPro.Palette.RandomShades
-  isSpec: "True"
-  fullName: Zigurous.ColorPro.Palette.RandomShades
-  nameWithType: Palette.RandomShades
-- uid: Zigurous.ColorPro.Palette.RandomTints(Color,System.Int32,System.Single,System.Single)
-  name: RandomTints(Color, Int32, Single, Single)
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_RandomTints_Color_System_Int32_System_Single_System_Single_
-  commentId: M:Zigurous.ColorPro.Palette.RandomTints(Color,System.Int32,System.Single,System.Single)
-  fullName: Zigurous.ColorPro.Palette.RandomTints(Color, System.Int32, System.Single, System.Single)
-  nameWithType: Palette.RandomTints(Color, Int32, Single, Single)
-- uid: Zigurous.ColorPro.Palette.RandomTints*
-  name: RandomTints
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_RandomTints_
-  commentId: Overload:Zigurous.ColorPro.Palette.RandomTints
-  isSpec: "True"
-  fullName: Zigurous.ColorPro.Palette.RandomTints
-  nameWithType: Palette.RandomTints
-- uid: Zigurous.ColorPro.Palette.RandomTones(Color,System.Int32,System.Single,System.Single)
-  name: RandomTones(Color, Int32, Single, Single)
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_RandomTones_Color_System_Int32_System_Single_System_Single_
-  commentId: M:Zigurous.ColorPro.Palette.RandomTones(Color,System.Int32,System.Single,System.Single)
-  fullName: Zigurous.ColorPro.Palette.RandomTones(Color, System.Int32, System.Single, System.Single)
-  nameWithType: Palette.RandomTones(Color, Int32, Single, Single)
-- uid: Zigurous.ColorPro.Palette.RandomTones*
-  name: RandomTones
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_RandomTones_
-  commentId: Overload:Zigurous.ColorPro.Palette.RandomTones
-  isSpec: "True"
-  fullName: Zigurous.ColorPro.Palette.RandomTones
-  nameWithType: Palette.RandomTones
-- uid: Zigurous.ColorPro.Palette.Saturated(Color,System.Int32)
-  name: Saturated(Color, Int32)
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_Saturated_Color_System_Int32_
-  commentId: M:Zigurous.ColorPro.Palette.Saturated(Color,System.Int32)
-  fullName: Zigurous.ColorPro.Palette.Saturated(Color, System.Int32)
-  nameWithType: Palette.Saturated(Color, Int32)
-- uid: Zigurous.ColorPro.Palette.Saturated*
-  name: Saturated
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_Saturated_
-  commentId: Overload:Zigurous.ColorPro.Palette.Saturated
-  isSpec: "True"
-  fullName: Zigurous.ColorPro.Palette.Saturated
-  nameWithType: Palette.Saturated
-- uid: Zigurous.ColorPro.Palette.Shades(Color,System.Int32)
-  name: Shades(Color, Int32)
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_Shades_Color_System_Int32_
-  commentId: M:Zigurous.ColorPro.Palette.Shades(Color,System.Int32)
-  fullName: Zigurous.ColorPro.Palette.Shades(Color, System.Int32)
-  nameWithType: Palette.Shades(Color, Int32)
-- uid: Zigurous.ColorPro.Palette.Shades*
-  name: Shades
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_Shades_
-  commentId: Overload:Zigurous.ColorPro.Palette.Shades
-  isSpec: "True"
-  fullName: Zigurous.ColorPro.Palette.Shades
-  nameWithType: Palette.Shades
-- uid: Zigurous.ColorPro.Palette.Tints(Color,System.Int32)
-  name: Tints(Color, Int32)
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_Tints_Color_System_Int32_
-  commentId: M:Zigurous.ColorPro.Palette.Tints(Color,System.Int32)
-  fullName: Zigurous.ColorPro.Palette.Tints(Color, System.Int32)
-  nameWithType: Palette.Tints(Color, Int32)
-- uid: Zigurous.ColorPro.Palette.Tints*
-  name: Tints
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_Tints_
-  commentId: Overload:Zigurous.ColorPro.Palette.Tints
-  isSpec: "True"
-  fullName: Zigurous.ColorPro.Palette.Tints
-  nameWithType: Palette.Tints
-- uid: Zigurous.ColorPro.Palette.Tones(Color,System.Int32)
-  name: Tones(Color, Int32)
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_Tones_Color_System_Int32_
-  commentId: M:Zigurous.ColorPro.Palette.Tones(Color,System.Int32)
-  fullName: Zigurous.ColorPro.Palette.Tones(Color, System.Int32)
-  nameWithType: Palette.Tones(Color, Int32)
-- uid: Zigurous.ColorPro.Palette.Tones*
-  name: Tones
-  href: api/Zigurous.ColorPro.Palette.html#Zigurous_ColorPro_Palette_Tones_
-  commentId: Overload:Zigurous.ColorPro.Palette.Tones
-  isSpec: "True"
-  fullName: Zigurous.ColorPro.Palette.Tones
-  nameWithType: Palette.Tones
 - uid: Zigurous.ColorPro.Random
   name: Random
   href: api/Zigurous.ColorPro.Random.html
@@ -6638,6 +6809,238 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.Random.ColorsNonAlloc
   nameWithType: Random.ColorsNonAlloc
+- uid: Zigurous.ColorPro.Random.RandomDarker(Color,System.Int32,System.Single,System.Single)
+  name: RandomDarker(Color, Int32, Single, Single)
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomDarker_Color_System_Int32_System_Single_System_Single_
+  commentId: M:Zigurous.ColorPro.Random.RandomDarker(Color,System.Int32,System.Single,System.Single)
+  fullName: Zigurous.ColorPro.Random.RandomDarker(Color, System.Int32, System.Single, System.Single)
+  nameWithType: Random.RandomDarker(Color, Int32, Single, Single)
+- uid: Zigurous.ColorPro.Random.RandomDarker*
+  name: RandomDarker
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomDarker_
+  commentId: Overload:Zigurous.ColorPro.Random.RandomDarker
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Random.RandomDarker
+  nameWithType: Random.RandomDarker
+- uid: Zigurous.ColorPro.Random.RandomDarkerNonAlloc(Color,Color[],System.Single,System.Single)
+  name: RandomDarkerNonAlloc(Color, Color[], Single, Single)
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomDarkerNonAlloc_Color_Color___System_Single_System_Single_
+  commentId: M:Zigurous.ColorPro.Random.RandomDarkerNonAlloc(Color,Color[],System.Single,System.Single)
+  name.vb: RandomDarkerNonAlloc(Color, Color(), Single, Single)
+  fullName: Zigurous.ColorPro.Random.RandomDarkerNonAlloc(Color, Color[], System.Single, System.Single)
+  fullName.vb: Zigurous.ColorPro.Random.RandomDarkerNonAlloc(Color, Color(), System.Single, System.Single)
+  nameWithType: Random.RandomDarkerNonAlloc(Color, Color[], Single, Single)
+  nameWithType.vb: Random.RandomDarkerNonAlloc(Color, Color(), Single, Single)
+- uid: Zigurous.ColorPro.Random.RandomDarkerNonAlloc*
+  name: RandomDarkerNonAlloc
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomDarkerNonAlloc_
+  commentId: Overload:Zigurous.ColorPro.Random.RandomDarkerNonAlloc
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Random.RandomDarkerNonAlloc
+  nameWithType: Random.RandomDarkerNonAlloc
+- uid: Zigurous.ColorPro.Random.RandomDesaturated(Color,System.Int32,System.Single,System.Single)
+  name: RandomDesaturated(Color, Int32, Single, Single)
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomDesaturated_Color_System_Int32_System_Single_System_Single_
+  commentId: M:Zigurous.ColorPro.Random.RandomDesaturated(Color,System.Int32,System.Single,System.Single)
+  fullName: Zigurous.ColorPro.Random.RandomDesaturated(Color, System.Int32, System.Single, System.Single)
+  nameWithType: Random.RandomDesaturated(Color, Int32, Single, Single)
+- uid: Zigurous.ColorPro.Random.RandomDesaturated*
+  name: RandomDesaturated
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomDesaturated_
+  commentId: Overload:Zigurous.ColorPro.Random.RandomDesaturated
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Random.RandomDesaturated
+  nameWithType: Random.RandomDesaturated
+- uid: Zigurous.ColorPro.Random.RandomDesaturatedNonAlloc(Color,Color[],System.Single,System.Single)
+  name: RandomDesaturatedNonAlloc(Color, Color[], Single, Single)
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomDesaturatedNonAlloc_Color_Color___System_Single_System_Single_
+  commentId: M:Zigurous.ColorPro.Random.RandomDesaturatedNonAlloc(Color,Color[],System.Single,System.Single)
+  name.vb: RandomDesaturatedNonAlloc(Color, Color(), Single, Single)
+  fullName: Zigurous.ColorPro.Random.RandomDesaturatedNonAlloc(Color, Color[], System.Single, System.Single)
+  fullName.vb: Zigurous.ColorPro.Random.RandomDesaturatedNonAlloc(Color, Color(), System.Single, System.Single)
+  nameWithType: Random.RandomDesaturatedNonAlloc(Color, Color[], Single, Single)
+  nameWithType.vb: Random.RandomDesaturatedNonAlloc(Color, Color(), Single, Single)
+- uid: Zigurous.ColorPro.Random.RandomDesaturatedNonAlloc*
+  name: RandomDesaturatedNonAlloc
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomDesaturatedNonAlloc_
+  commentId: Overload:Zigurous.ColorPro.Random.RandomDesaturatedNonAlloc
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Random.RandomDesaturatedNonAlloc
+  nameWithType: Random.RandomDesaturatedNonAlloc
+- uid: Zigurous.ColorPro.Random.RandomHues(Color,System.Int32,System.Single,System.Single)
+  name: RandomHues(Color, Int32, Single, Single)
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomHues_Color_System_Int32_System_Single_System_Single_
+  commentId: M:Zigurous.ColorPro.Random.RandomHues(Color,System.Int32,System.Single,System.Single)
+  fullName: Zigurous.ColorPro.Random.RandomHues(Color, System.Int32, System.Single, System.Single)
+  nameWithType: Random.RandomHues(Color, Int32, Single, Single)
+- uid: Zigurous.ColorPro.Random.RandomHues*
+  name: RandomHues
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomHues_
+  commentId: Overload:Zigurous.ColorPro.Random.RandomHues
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Random.RandomHues
+  nameWithType: Random.RandomHues
+- uid: Zigurous.ColorPro.Random.RandomHuesNonAlloc(Color,Color[],System.Single,System.Single)
+  name: RandomHuesNonAlloc(Color, Color[], Single, Single)
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomHuesNonAlloc_Color_Color___System_Single_System_Single_
+  commentId: M:Zigurous.ColorPro.Random.RandomHuesNonAlloc(Color,Color[],System.Single,System.Single)
+  name.vb: RandomHuesNonAlloc(Color, Color(), Single, Single)
+  fullName: Zigurous.ColorPro.Random.RandomHuesNonAlloc(Color, Color[], System.Single, System.Single)
+  fullName.vb: Zigurous.ColorPro.Random.RandomHuesNonAlloc(Color, Color(), System.Single, System.Single)
+  nameWithType: Random.RandomHuesNonAlloc(Color, Color[], Single, Single)
+  nameWithType.vb: Random.RandomHuesNonAlloc(Color, Color(), Single, Single)
+- uid: Zigurous.ColorPro.Random.RandomHuesNonAlloc*
+  name: RandomHuesNonAlloc
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomHuesNonAlloc_
+  commentId: Overload:Zigurous.ColorPro.Random.RandomHuesNonAlloc
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Random.RandomHuesNonAlloc
+  nameWithType: Random.RandomHuesNonAlloc
+- uid: Zigurous.ColorPro.Random.RandomLighter(Color,System.Int32,System.Single,System.Single)
+  name: RandomLighter(Color, Int32, Single, Single)
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomLighter_Color_System_Int32_System_Single_System_Single_
+  commentId: M:Zigurous.ColorPro.Random.RandomLighter(Color,System.Int32,System.Single,System.Single)
+  fullName: Zigurous.ColorPro.Random.RandomLighter(Color, System.Int32, System.Single, System.Single)
+  nameWithType: Random.RandomLighter(Color, Int32, Single, Single)
+- uid: Zigurous.ColorPro.Random.RandomLighter*
+  name: RandomLighter
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomLighter_
+  commentId: Overload:Zigurous.ColorPro.Random.RandomLighter
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Random.RandomLighter
+  nameWithType: Random.RandomLighter
+- uid: Zigurous.ColorPro.Random.RandomLighterNonAlloc(Color,Color[],System.Single,System.Single)
+  name: RandomLighterNonAlloc(Color, Color[], Single, Single)
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomLighterNonAlloc_Color_Color___System_Single_System_Single_
+  commentId: M:Zigurous.ColorPro.Random.RandomLighterNonAlloc(Color,Color[],System.Single,System.Single)
+  name.vb: RandomLighterNonAlloc(Color, Color(), Single, Single)
+  fullName: Zigurous.ColorPro.Random.RandomLighterNonAlloc(Color, Color[], System.Single, System.Single)
+  fullName.vb: Zigurous.ColorPro.Random.RandomLighterNonAlloc(Color, Color(), System.Single, System.Single)
+  nameWithType: Random.RandomLighterNonAlloc(Color, Color[], Single, Single)
+  nameWithType.vb: Random.RandomLighterNonAlloc(Color, Color(), Single, Single)
+- uid: Zigurous.ColorPro.Random.RandomLighterNonAlloc*
+  name: RandomLighterNonAlloc
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomLighterNonAlloc_
+  commentId: Overload:Zigurous.ColorPro.Random.RandomLighterNonAlloc
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Random.RandomLighterNonAlloc
+  nameWithType: Random.RandomLighterNonAlloc
+- uid: Zigurous.ColorPro.Random.RandomSaturated(Color,System.Int32,System.Single,System.Single)
+  name: RandomSaturated(Color, Int32, Single, Single)
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomSaturated_Color_System_Int32_System_Single_System_Single_
+  commentId: M:Zigurous.ColorPro.Random.RandomSaturated(Color,System.Int32,System.Single,System.Single)
+  fullName: Zigurous.ColorPro.Random.RandomSaturated(Color, System.Int32, System.Single, System.Single)
+  nameWithType: Random.RandomSaturated(Color, Int32, Single, Single)
+- uid: Zigurous.ColorPro.Random.RandomSaturated*
+  name: RandomSaturated
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomSaturated_
+  commentId: Overload:Zigurous.ColorPro.Random.RandomSaturated
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Random.RandomSaturated
+  nameWithType: Random.RandomSaturated
+- uid: Zigurous.ColorPro.Random.RandomSaturatedNonAlloc(Color,Color[],System.Single,System.Single)
+  name: RandomSaturatedNonAlloc(Color, Color[], Single, Single)
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomSaturatedNonAlloc_Color_Color___System_Single_System_Single_
+  commentId: M:Zigurous.ColorPro.Random.RandomSaturatedNonAlloc(Color,Color[],System.Single,System.Single)
+  name.vb: RandomSaturatedNonAlloc(Color, Color(), Single, Single)
+  fullName: Zigurous.ColorPro.Random.RandomSaturatedNonAlloc(Color, Color[], System.Single, System.Single)
+  fullName.vb: Zigurous.ColorPro.Random.RandomSaturatedNonAlloc(Color, Color(), System.Single, System.Single)
+  nameWithType: Random.RandomSaturatedNonAlloc(Color, Color[], Single, Single)
+  nameWithType.vb: Random.RandomSaturatedNonAlloc(Color, Color(), Single, Single)
+- uid: Zigurous.ColorPro.Random.RandomSaturatedNonAlloc*
+  name: RandomSaturatedNonAlloc
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomSaturatedNonAlloc_
+  commentId: Overload:Zigurous.ColorPro.Random.RandomSaturatedNonAlloc
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Random.RandomSaturatedNonAlloc
+  nameWithType: Random.RandomSaturatedNonAlloc
+- uid: Zigurous.ColorPro.Random.RandomShades(Color,System.Int32,System.Single,System.Single)
+  name: RandomShades(Color, Int32, Single, Single)
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomShades_Color_System_Int32_System_Single_System_Single_
+  commentId: M:Zigurous.ColorPro.Random.RandomShades(Color,System.Int32,System.Single,System.Single)
+  fullName: Zigurous.ColorPro.Random.RandomShades(Color, System.Int32, System.Single, System.Single)
+  nameWithType: Random.RandomShades(Color, Int32, Single, Single)
+- uid: Zigurous.ColorPro.Random.RandomShades*
+  name: RandomShades
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomShades_
+  commentId: Overload:Zigurous.ColorPro.Random.RandomShades
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Random.RandomShades
+  nameWithType: Random.RandomShades
+- uid: Zigurous.ColorPro.Random.RandomShadesNonAlloc(Color,Color[],System.Single,System.Single)
+  name: RandomShadesNonAlloc(Color, Color[], Single, Single)
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomShadesNonAlloc_Color_Color___System_Single_System_Single_
+  commentId: M:Zigurous.ColorPro.Random.RandomShadesNonAlloc(Color,Color[],System.Single,System.Single)
+  name.vb: RandomShadesNonAlloc(Color, Color(), Single, Single)
+  fullName: Zigurous.ColorPro.Random.RandomShadesNonAlloc(Color, Color[], System.Single, System.Single)
+  fullName.vb: Zigurous.ColorPro.Random.RandomShadesNonAlloc(Color, Color(), System.Single, System.Single)
+  nameWithType: Random.RandomShadesNonAlloc(Color, Color[], Single, Single)
+  nameWithType.vb: Random.RandomShadesNonAlloc(Color, Color(), Single, Single)
+- uid: Zigurous.ColorPro.Random.RandomShadesNonAlloc*
+  name: RandomShadesNonAlloc
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomShadesNonAlloc_
+  commentId: Overload:Zigurous.ColorPro.Random.RandomShadesNonAlloc
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Random.RandomShadesNonAlloc
+  nameWithType: Random.RandomShadesNonAlloc
+- uid: Zigurous.ColorPro.Random.RandomTints(Color,System.Int32,System.Single,System.Single)
+  name: RandomTints(Color, Int32, Single, Single)
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomTints_Color_System_Int32_System_Single_System_Single_
+  commentId: M:Zigurous.ColorPro.Random.RandomTints(Color,System.Int32,System.Single,System.Single)
+  fullName: Zigurous.ColorPro.Random.RandomTints(Color, System.Int32, System.Single, System.Single)
+  nameWithType: Random.RandomTints(Color, Int32, Single, Single)
+- uid: Zigurous.ColorPro.Random.RandomTints*
+  name: RandomTints
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomTints_
+  commentId: Overload:Zigurous.ColorPro.Random.RandomTints
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Random.RandomTints
+  nameWithType: Random.RandomTints
+- uid: Zigurous.ColorPro.Random.RandomTintsNonAlloc(Color,Color[],System.Single,System.Single)
+  name: RandomTintsNonAlloc(Color, Color[], Single, Single)
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomTintsNonAlloc_Color_Color___System_Single_System_Single_
+  commentId: M:Zigurous.ColorPro.Random.RandomTintsNonAlloc(Color,Color[],System.Single,System.Single)
+  name.vb: RandomTintsNonAlloc(Color, Color(), Single, Single)
+  fullName: Zigurous.ColorPro.Random.RandomTintsNonAlloc(Color, Color[], System.Single, System.Single)
+  fullName.vb: Zigurous.ColorPro.Random.RandomTintsNonAlloc(Color, Color(), System.Single, System.Single)
+  nameWithType: Random.RandomTintsNonAlloc(Color, Color[], Single, Single)
+  nameWithType.vb: Random.RandomTintsNonAlloc(Color, Color(), Single, Single)
+- uid: Zigurous.ColorPro.Random.RandomTintsNonAlloc*
+  name: RandomTintsNonAlloc
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomTintsNonAlloc_
+  commentId: Overload:Zigurous.ColorPro.Random.RandomTintsNonAlloc
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Random.RandomTintsNonAlloc
+  nameWithType: Random.RandomTintsNonAlloc
+- uid: Zigurous.ColorPro.Random.RandomTones(Color,System.Int32,System.Single,System.Single)
+  name: RandomTones(Color, Int32, Single, Single)
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomTones_Color_System_Int32_System_Single_System_Single_
+  commentId: M:Zigurous.ColorPro.Random.RandomTones(Color,System.Int32,System.Single,System.Single)
+  fullName: Zigurous.ColorPro.Random.RandomTones(Color, System.Int32, System.Single, System.Single)
+  nameWithType: Random.RandomTones(Color, Int32, Single, Single)
+- uid: Zigurous.ColorPro.Random.RandomTones*
+  name: RandomTones
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomTones_
+  commentId: Overload:Zigurous.ColorPro.Random.RandomTones
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Random.RandomTones
+  nameWithType: Random.RandomTones
+- uid: Zigurous.ColorPro.Random.RandomTonesNonAlloc(Color,Color[],System.Single,System.Single)
+  name: RandomTonesNonAlloc(Color, Color[], Single, Single)
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomTonesNonAlloc_Color_Color___System_Single_System_Single_
+  commentId: M:Zigurous.ColorPro.Random.RandomTonesNonAlloc(Color,Color[],System.Single,System.Single)
+  name.vb: RandomTonesNonAlloc(Color, Color(), Single, Single)
+  fullName: Zigurous.ColorPro.Random.RandomTonesNonAlloc(Color, Color[], System.Single, System.Single)
+  fullName.vb: Zigurous.ColorPro.Random.RandomTonesNonAlloc(Color, Color(), System.Single, System.Single)
+  nameWithType: Random.RandomTonesNonAlloc(Color, Color[], Single, Single)
+  nameWithType.vb: Random.RandomTonesNonAlloc(Color, Color(), Single, Single)
+- uid: Zigurous.ColorPro.Random.RandomTonesNonAlloc*
+  name: RandomTonesNonAlloc
+  href: api/Zigurous.ColorPro.Random.html#Zigurous_ColorPro_Random_RandomTonesNonAlloc_
+  commentId: Overload:Zigurous.ColorPro.Random.RandomTonesNonAlloc
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Random.RandomTonesNonAlloc
+  nameWithType: Random.RandomTonesNonAlloc
 - uid: Zigurous.ColorPro.RGB
   name: RGB
   href: api/Zigurous.ColorPro.RGB.html
@@ -7476,6 +7879,18 @@ references:
   commentId: T:Zigurous.ColorPro.SignalEncoding
   fullName: Zigurous.ColorPro.SignalEncoding
   nameWithType: SignalEncoding
+- uid: Zigurous.ColorPro.SignalEncoding.Rec2020
+  name: Rec2020
+  href: api/Zigurous.ColorPro.SignalEncoding.html#Zigurous_ColorPro_SignalEncoding_Rec2020
+  commentId: F:Zigurous.ColorPro.SignalEncoding.Rec2020
+  fullName: Zigurous.ColorPro.SignalEncoding.Rec2020
+  nameWithType: SignalEncoding.Rec2020
+- uid: Zigurous.ColorPro.SignalEncoding.Rec2100
+  name: Rec2100
+  href: api/Zigurous.ColorPro.SignalEncoding.html#Zigurous_ColorPro_SignalEncoding_Rec2100
+  commentId: F:Zigurous.ColorPro.SignalEncoding.Rec2100
+  fullName: Zigurous.ColorPro.SignalEncoding.Rec2100
+  nameWithType: SignalEncoding.Rec2100
 - uid: Zigurous.ColorPro.SignalEncoding.Rec601
   name: Rec601
   href: api/Zigurous.ColorPro.SignalEncoding.html#Zigurous_ColorPro_SignalEncoding_Rec601

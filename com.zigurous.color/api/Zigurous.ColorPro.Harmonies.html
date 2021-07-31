@@ -133,13 +133,11 @@ next to each other on the color wheel.</p>
   <a id="Zigurous_ColorPro_Harmonies_AnalogousNonAlloc_" data-uid="Zigurous.ColorPro.Harmonies.AnalogousNonAlloc*"></a>
   <h4 id="Zigurous_ColorPro_Harmonies_AnalogousNonAlloc_Color_Color___System_Single_" data-uid="Zigurous.ColorPro.Harmonies.AnalogousNonAlloc(Color,Color[],System.Single)">AnalogousNonAlloc(Color, Color[], Single)</h4>
   <div class="markdown level1 summary"><p>Creates an analogous harmony of the color, a set of colors located
-next to each other on the color wheel.</p>
+next to each other on the color wheel. The colors are stored in an
+existing array to prevent heap allocations. The amount of colors
+generated is determined by the size of the array.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 id="Zigurous_ColorPro_Harmonies_AnalogousNonAlloc_Color_Color___System_Single__remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level1 remarks"><p>This function does not allocate any memory on the heap. The amount
-of colors generated is determined by the size of the output array.</p>
-</div>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void AnalogousNonAlloc(this Color baseColor, Color[] output, float hueShift = 30F)</code></pre>
   </div>
@@ -195,13 +193,11 @@ opposite to each other on the color wheel.</p>
   <a id="Zigurous_ColorPro_Harmonies_ComplementaryNonAlloc_" data-uid="Zigurous.ColorPro.Harmonies.ComplementaryNonAlloc*"></a>
   <h4 id="Zigurous_ColorPro_Harmonies_ComplementaryNonAlloc_Color_Color___" data-uid="Zigurous.ColorPro.Harmonies.ComplementaryNonAlloc(Color,Color[])">ComplementaryNonAlloc(Color, Color[])</h4>
   <div class="markdown level1 summary"><p>Creates a complementary harmony of the color, two colors located
-opposite to each other on the color wheel.</p>
+opposite to each other on the color wheel. The colors are stored in
+an existing array to prevent heap allocations. The array requires a
+size of at least 2.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 id="Zigurous_ColorPro_Harmonies_ComplementaryNonAlloc_Color_Color____remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level1 remarks"><p>This function does not allocate any memory on the heap. The output
-array is populated with the two complementary colors.</p>
-</div>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ComplementaryNonAlloc(this Color baseColor, Color[] output)</code></pre>
   </div>
@@ -252,13 +248,11 @@ of complementary colors on either side of the base color.</p>
   <a id="Zigurous_ColorPro_Harmonies_DoubleSplitComplementaryNonAlloc_" data-uid="Zigurous.ColorPro.Harmonies.DoubleSplitComplementaryNonAlloc*"></a>
   <h4 id="Zigurous_ColorPro_Harmonies_DoubleSplitComplementaryNonAlloc_Color_Color___" data-uid="Zigurous.ColorPro.Harmonies.DoubleSplitComplementaryNonAlloc(Color,Color[])">DoubleSplitComplementaryNonAlloc(Color, Color[])</h4>
   <div class="markdown level1 summary"><p>Creates a double split complementary harmony of the color, two pairs
-of complementary colors on either side of the base color.</p>
+of complementary colors on either side of the base color. The colors
+are stored in an existing array to prevent heap allocations. The
+array requires a size of at least 4.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 id="Zigurous_ColorPro_Harmonies_DoubleSplitComplementaryNonAlloc_Color_Color____remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level1 remarks"><p>This function does not allocate any memory on the heap. The output
-array is populated with four colors.</p>
-</div>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void DoubleSplitComplementaryNonAlloc(this Color baseColor, Color[] output)</code></pre>
   </div>
@@ -319,13 +313,11 @@ shades formed from the base color.</p>
   <a id="Zigurous_ColorPro_Harmonies_MonochromaticNonAlloc_" data-uid="Zigurous.ColorPro.Harmonies.MonochromaticNonAlloc*"></a>
   <h4 id="Zigurous_ColorPro_Harmonies_MonochromaticNonAlloc_Color_Color___System_Single_" data-uid="Zigurous.ColorPro.Harmonies.MonochromaticNonAlloc(Color,Color[],System.Single)">MonochromaticNonAlloc(Color, Color[], Single)</h4>
   <div class="markdown level1 summary"><p>Creates a monochromatic harmony of the color, a set of tints and
-shades formed from the base color.</p>
+shades formed from the base color. The colors are stored in an
+existing array to prevent heap allocations. The amount of colors
+generated is determined by the size of the array.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 id="Zigurous_ColorPro_Harmonies_MonochromaticNonAlloc_Color_Color___System_Single__remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level1 remarks"><p>This function does not allocate any memory on the heap. The amount
-of colors generated is determined by the size of the output array.</p>
-</div>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void MonochromaticNonAlloc(this Color baseColor, Color[] output, float difference = 0.25F)</code></pre>
   </div>
@@ -381,13 +373,11 @@ with two colors adjacent to the directly opposing color on the color wheel.</p>
   <a id="Zigurous_ColorPro_Harmonies_SplitComplementaryNonAlloc_" data-uid="Zigurous.ColorPro.Harmonies.SplitComplementaryNonAlloc*"></a>
   <h4 id="Zigurous_ColorPro_Harmonies_SplitComplementaryNonAlloc_Color_Color___" data-uid="Zigurous.ColorPro.Harmonies.SplitComplementaryNonAlloc(Color,Color[])">SplitComplementaryNonAlloc(Color, Color[])</h4>
   <div class="markdown level1 summary"><p>Creates a split complementary harmony of the color, the base color
-with two colors adjacent to the directly opposing color on the color wheel.</p>
+with two colors adjacent to the directly opposing color on the color
+wheel. The colors are stored in an existing array to prevent heap
+allocations. The array requires a size of at least 3.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 id="Zigurous_ColorPro_Harmonies_SplitComplementaryNonAlloc_Color_Color____remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level1 remarks"><p>This function does not allocate any memory on the heap. The output
-array is populated with three colors.</p>
-</div>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void SplitComplementaryNonAlloc(this Color baseColor, Color[] output)</code></pre>
   </div>
@@ -438,13 +428,11 @@ spaced around the color wheel to form a square (90° hue shifts).</p>
   <a id="Zigurous_ColorPro_Harmonies_SquareNonAlloc_" data-uid="Zigurous.ColorPro.Harmonies.SquareNonAlloc*"></a>
   <h4 id="Zigurous_ColorPro_Harmonies_SquareNonAlloc_Color_Color___" data-uid="Zigurous.ColorPro.Harmonies.SquareNonAlloc(Color,Color[])">SquareNonAlloc(Color, Color[])</h4>
   <div class="markdown level1 summary"><p>Creates a tetradic (square) harmony of the color, four colors evenly
-spaced around the color wheel to form a square (90° hue shifts).</p>
+spaced around the color wheel to form a square (90° hue shifts). The
+colors are stored in an existing array to prevent heap allocations.
+The array requires a size of at least 4.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 id="Zigurous_ColorPro_Harmonies_SquareNonAlloc_Color_Color____remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level1 remarks"><p>This function does not allocate any memory on the heap. The output
-array is populated with four colors.</p>
-</div>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void SquareNonAlloc(this Color baseColor, Color[] output)</code></pre>
   </div>
@@ -495,13 +483,11 @@ around the color wheel to form a triangle (120° hue shifts).</p>
   <a id="Zigurous_ColorPro_Harmonies_TriadicNonAlloc_" data-uid="Zigurous.ColorPro.Harmonies.TriadicNonAlloc*"></a>
   <h4 id="Zigurous_ColorPro_Harmonies_TriadicNonAlloc_Color_Color___" data-uid="Zigurous.ColorPro.Harmonies.TriadicNonAlloc(Color,Color[])">TriadicNonAlloc(Color, Color[])</h4>
   <div class="markdown level1 summary"><p>Creates a triadic harmony of the color, three colors evenly spaced
-around the color wheel to form a triangle (120° hue shifts).</p>
+around the color wheel to form a triangle (120° hue shifts). The
+colors are stored in an existing array to prevent heap allocations.
+The array requires a size of at least 3.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 id="Zigurous_ColorPro_Harmonies_TriadicNonAlloc_Color_Color____remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level1 remarks"><p>This function does not allocate any memory on the heap. The output
-array is populated with three colors.</p>
-</div>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void TriadicNonAlloc(this Color baseColor, Color[] output)</code></pre>
   </div>

@@ -121,14 +121,11 @@
   </table>
   <a id="Zigurous_ColorPro_MixingModelExtensions_ColorWheelNonAlloc_" data-uid="Zigurous.ColorPro.MixingModelExtensions.ColorWheelNonAlloc*"></a>
   <h4 id="Zigurous_ColorPro_MixingModelExtensions_ColorWheelNonAlloc_Zigurous_ColorPro_MixingModel_Color___" data-uid="Zigurous.ColorPro.MixingModelExtensions.ColorWheelNonAlloc(Zigurous.ColorPro.MixingModel,Color[])">ColorWheelNonAlloc(MixingModel, Color[])</h4>
-  <div class="markdown level1 summary"><p>Populates an array with the primary, secondary, and tertiary colors
-of the mixing model.</p>
+  <div class="markdown level1 summary"><p>Fills an existing array with the primary, secondary, and tertiary
+colors of the mixing model to prevent heap allocations. The output
+array requires a size of at least 12.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 id="Zigurous_ColorPro_MixingModelExtensions_ColorWheelNonAlloc_Zigurous_ColorPro_MixingModel_Color____remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level1 remarks"><p>This function does not allocate any memory on the heap. The output
-array is populated with twelve colors.</p>
-</div>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ColorWheelNonAlloc(this MixingModel model, Color[] output)</code></pre>
   </div>
@@ -177,13 +174,11 @@ array is populated with twelve colors.</p>
   </table>
   <a id="Zigurous_ColorPro_MixingModelExtensions_PrimaryColorsNonAlloc_" data-uid="Zigurous.ColorPro.MixingModelExtensions.PrimaryColorsNonAlloc*"></a>
   <h4 id="Zigurous_ColorPro_MixingModelExtensions_PrimaryColorsNonAlloc_Zigurous_ColorPro_MixingModel_Color___" data-uid="Zigurous.ColorPro.MixingModelExtensions.PrimaryColorsNonAlloc(Zigurous.ColorPro.MixingModel,Color[])">PrimaryColorsNonAlloc(MixingModel, Color[])</h4>
-  <div class="markdown level1 summary"><p>Populates an array with the primary colors of the mixing model.</p>
+  <div class="markdown level1 summary"><p>Fills an existing array with the primary colors of the mixing model
+to prevent heap allocations. The output array requires a size of at
+least 3.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 id="Zigurous_ColorPro_MixingModelExtensions_PrimaryColorsNonAlloc_Zigurous_ColorPro_MixingModel_Color____remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level1 remarks"><p>This function does not allocate any memory on the heap. The output
-array is populated with three colors.</p>
-</div>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void PrimaryColorsNonAlloc(this MixingModel model, Color[] output)</code></pre>
   </div>
@@ -232,13 +227,11 @@ array is populated with three colors.</p>
   </table>
   <a id="Zigurous_ColorPro_MixingModelExtensions_SecondaryColorsNonAlloc_" data-uid="Zigurous.ColorPro.MixingModelExtensions.SecondaryColorsNonAlloc*"></a>
   <h4 id="Zigurous_ColorPro_MixingModelExtensions_SecondaryColorsNonAlloc_Zigurous_ColorPro_MixingModel_Color___" data-uid="Zigurous.ColorPro.MixingModelExtensions.SecondaryColorsNonAlloc(Zigurous.ColorPro.MixingModel,Color[])">SecondaryColorsNonAlloc(MixingModel, Color[])</h4>
-  <div class="markdown level1 summary"><p>Populates an array with the secondary colors of the mixing model.</p>
+  <div class="markdown level1 summary"><p>Fills an existing array with the secondary colors of the mixing
+model to prevent heap allocations. The output array requires a size
+of at least 3.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 id="Zigurous_ColorPro_MixingModelExtensions_SecondaryColorsNonAlloc_Zigurous_ColorPro_MixingModel_Color____remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level1 remarks"><p>This function does not allocate any memory on the heap. The output
-array is populated with three colors.</p>
-</div>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void SecondaryColorsNonAlloc(this MixingModel model, Color[] output)</code></pre>
   </div>
@@ -287,13 +280,11 @@ array is populated with three colors.</p>
   </table>
   <a id="Zigurous_ColorPro_MixingModelExtensions_TertiaryColorsNonAlloc_" data-uid="Zigurous.ColorPro.MixingModelExtensions.TertiaryColorsNonAlloc*"></a>
   <h4 id="Zigurous_ColorPro_MixingModelExtensions_TertiaryColorsNonAlloc_Zigurous_ColorPro_MixingModel_Color___" data-uid="Zigurous.ColorPro.MixingModelExtensions.TertiaryColorsNonAlloc(Zigurous.ColorPro.MixingModel,Color[])">TertiaryColorsNonAlloc(MixingModel, Color[])</h4>
-  <div class="markdown level1 summary"><p>Populates an array with the tertiary colors of the mixing model.</p>
+  <div class="markdown level1 summary"><p>Fills an existing array with the tertiary colors of the mixing model
+to prevent heap allocations. The output array requires a size of at
+least 6.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 id="Zigurous_ColorPro_MixingModelExtensions_TertiaryColorsNonAlloc_Zigurous_ColorPro_MixingModel_Color____remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level1 remarks"><p>This function does not allocate any memory on the heap. The output
-array is populated with six colors.</p>
-</div>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void TertiaryColorsNonAlloc(this MixingModel model, Color[] output)</code></pre>
   </div>

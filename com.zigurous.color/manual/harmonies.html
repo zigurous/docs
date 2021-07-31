@@ -83,54 +83,38 @@
 <p>Color harmonies are combinations of colors that create aesthetically pleasing contrasts and consonances that are said to be harmonious. The Color Pro package includes several extension methods declared in the static class <a class="xref" href="../api/Zigurous.ColorPro.Harmonies.html">Harmonies</a> for generating common color harmonies.</p>
 <h4 id="monochromatic">Monochromatic</h4>
 <p><img src="https://www.color-meanings.com/wp-content/uploads/monochromatic-color-scheme.webp" width="100"> A set of tints and shades formed from a base color.</p>
-<pre><code class="lang-csharp">// Generate 5 colors with a 25% difference between each tint/shade
-Color[] harmony = baseColor.Monochromatic(5, 0.25f);
-
-// Prevent heap allocations by filling an existing array of `output` colors
-baseColor.MonochromaticNonAlloc(output, 0.25f);
+<pre><code class="lang-csharp">Color[] harmony = baseColor.Monochromatic(10, 0.1f); // 10 colors with 10% difference each
+baseColor.MonochromaticNonAlloc(array, 0.1f); // prevent heap allocations
 </code></pre>
 <h4 id="analogous">Analogous</h4>
 <p><img src="https://www.color-meanings.com/wp-content/uploads/analogous-color-scheme.webp" width="100"> A set of colors located next to each other on the color wheel.</p>
-<pre><code class="lang-csharp">// Generate 3 colors with a 30° hue shift between each color
-Color[] harmony = baseColor.Analogous(3, 30);
-
-// Prevent heap allocations by filling an existing array of `output` colors
-baseColor.AnalogousNonAlloc(output, 30);
+<pre><code class="lang-csharp">Color[] harmony = baseColor.Analogous(3, 30); // 3 colors with 30° hue shift each
+baseColor.AnalogousNonAlloc(array, 30); // prevent heap allocations
 </code></pre>
 <h4 id="complementary">Complementary</h4>
 <p><img src="https://www.color-meanings.com/wp-content/uploads/complementary-color-scheme.webp" width="100"> Two colors located opposite to each other on the color wheel.</p>
 <pre><code class="lang-csharp">Color[] harmony = baseColor.Complementary();
-
-// Prevent heap allocations by filling an existing array of `output` colors
-baseColor.ComplementaryNonAlloc(output);
+baseColor.ComplementaryNonAlloc(array); // prevent heap allocations
 </code></pre>
 <h4 id="split-complementary">Split Complementary</h4>
 <p><img src="https://www.color-meanings.com/wp-content/uploads/split-complementary-color-scheme-1.webp" width="100"> A base color with two colors adjacent to the directly opposing color on the color wheel.</p>
 <pre><code class="lang-csharp">Color[] harmony = baseColor.SplitComplementary();
-
-// Prevent heap allocations by filling an existing array of `output` colors
-baseColor.SplitComplementaryNonAlloc(output);
+baseColor.SplitComplementaryNonAlloc(array); // prevent heap allocations
 </code></pre>
 <h4 id="double-split-complementary">Double Split Complementary</h4>
 <p><img src="https://www.color-meanings.com/wp-content/uploads/tetrad-color-scheme-1.webp" width="100"> Two pairs of complementary colors on either side of a base color.</p>
 <pre><code class="lang-csharp">Color[] harmony = baseColor.DoubleSplitComplementary();
-
-// Prevent heap allocations by filling an existing array of `output` colors
-baseColor.DoubleSplitComplementaryNonAlloc(output);
+baseColor.DoubleSplitComplementaryNonAlloc(array); // prevent heap allocations
 </code></pre>
 <h4 id="triadic">Triadic</h4>
 <p><img src="https://www.color-meanings.com/wp-content/uploads/triad-color-scheme.webp" width="100"> Three colors evenly spaced around the color wheel to form a triangle (120° hue shifts).</p>
 <pre><code class="lang-csharp">Color[] harmony = baseColor.Triadic();
-
-// Prevent heap allocations by filling an existing array of `output` colors
-baseColor.TriadicNonAlloc(output);
+baseColor.TriadicNonAlloc(array); // prevent heap allocations
 </code></pre>
 <h4 id="square">Square</h4>
 <p><img src="https://www.color-meanings.com/wp-content/uploads/square-color-scheme-1.webp" width="100"> Four colors evenly spaced around the color wheel to form a square (90° hue shifts).</p>
 <pre><code class="lang-csharp">Color[] harmony = baseColor.Square();
-
-// Prevent heap allocations by filling an existing array of `output` colors
-baseColor.SquareNonAlloc(output);
+baseColor.SquareNonAlloc(array); // prevent heap allocations
 </code></pre>
 </article>
           </div>

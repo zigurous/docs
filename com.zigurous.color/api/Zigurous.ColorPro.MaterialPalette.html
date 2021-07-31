@@ -103,16 +103,64 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Material[] materials</code></pre>
   </div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="Zigurous_ColorPro_MaterialPalette_Item_" data-uid="Zigurous.ColorPro.MaterialPalette.Item*"></a>
+  <h4 id="Zigurous_ColorPro_MaterialPalette_Item_System_Int32_" data-uid="Zigurous.ColorPro.MaterialPalette.Item(System.Int32)">Item[Int32]</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the material at the specified index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Material this[int index] { get; set; }</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">index</span></td>
+        <td><p>The index of the material to get or set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
-  <a id="Zigurous_ColorPro_MaterialPalette_CreateColorPalette_" data-uid="Zigurous.ColorPro.MaterialPalette.CreateColorPalette*"></a>
-  <h4 id="Zigurous_ColorPro_MaterialPalette_CreateColorPalette" data-uid="Zigurous.ColorPro.MaterialPalette.CreateColorPalette">CreateColorPalette()</h4>
+  <a id="Zigurous_ColorPro_MaterialPalette_Add_" data-uid="Zigurous.ColorPro.MaterialPalette.Add*"></a>
+  <h4 id="Zigurous_ColorPro_MaterialPalette_Add_Material_" data-uid="Zigurous.ColorPro.MaterialPalette.Add(Material)">Add(Material)</h4>
+  <div class="markdown level1 summary"><p>Adds a new material to the palette.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(Material material)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">material</span></td>
+        <td><p>The material to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_MaterialPalette_Convert_" data-uid="Zigurous.ColorPro.MaterialPalette.Convert*"></a>
+  <h4 id="Zigurous_ColorPro_MaterialPalette_Convert" data-uid="Zigurous.ColorPro.MaterialPalette.Convert">Convert()</h4>
   <div class="markdown level1 summary"><p>Converts the material palette to a color palette using each
 material's main color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ColorPalette CreateColorPalette()</code></pre>
+    <pre><code class="lang-csharp hljs">public ColorPalette Convert()</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>

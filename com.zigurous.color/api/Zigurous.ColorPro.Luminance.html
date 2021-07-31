@@ -143,13 +143,13 @@
     </tbody>
   </table>
   <a id="Zigurous_ColorPro_Luminance_PerceivedBrightness_" data-uid="Zigurous.ColorPro.Luminance.PerceivedBrightness*"></a>
-  <h4 id="Zigurous_ColorPro_Luminance_PerceivedBrightness_Color_" data-uid="Zigurous.ColorPro.Luminance.PerceivedBrightness(Color)">PerceivedBrightness(Color)</h4>
+  <h4 id="Zigurous_ColorPro_Luminance_PerceivedBrightness_Color_Zigurous_ColorPro_SignalEncoding_" data-uid="Zigurous.ColorPro.Luminance.PerceivedBrightness(Color,Zigurous.ColorPro.SignalEncoding)">PerceivedBrightness(Color, SignalEncoding)</h4>
   <div class="markdown level1 summary"><p>Calculates the perceived brightness of the color, measured according
 to the HSP color model - <a href="http://alienryderflex.com/hsp.html">http://alienryderflex.com/hsp.html</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float PerceivedBrightness(this Color color)</code></pre>
+    <pre><code class="lang-csharp hljs">public static float PerceivedBrightness(this Color color, SignalEncoding encoding = SignalEncoding.Rec601)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -164,16 +164,21 @@ to the HSP color model - <a href="http://alienryderflex.com/hsp.html">http://ali
         <td><p>The color to calculate the brightness of.</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="parametername">encoding</span></td>
+        <td><p>The signal encoding to use when calculating the brightness (default=Rec601).</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <a id="Zigurous_ColorPro_Luminance_RelativeLuminance_" data-uid="Zigurous.ColorPro.Luminance.RelativeLuminance*"></a>
-  <h4 id="Zigurous_ColorPro_Luminance_RelativeLuminance_Color_" data-uid="Zigurous.ColorPro.Luminance.RelativeLuminance(Color)">RelativeLuminance(Color)</h4>
+  <h4 id="Zigurous_ColorPro_Luminance_RelativeLuminance_Color_Zigurous_ColorPro_SignalEncoding_" data-uid="Zigurous.ColorPro.Luminance.RelativeLuminance(Color,Zigurous.ColorPro.SignalEncoding)">RelativeLuminance(Color, SignalEncoding)</h4>
   <div class="markdown level1 summary"><p>Calculates the relative luminance of the color, measured according
 to the HSL color model.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float RelativeLuminance(this Color color)</code></pre>
+    <pre><code class="lang-csharp hljs">public static float RelativeLuminance(this Color color, SignalEncoding encoding = SignalEncoding.Rec709)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -186,6 +191,11 @@ to the HSL color model.</p>
       <tr>
         <td><span class="parametername">color</span></td>
         <td><p>The color to calculate the luminance of.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">encoding</span></td>
+        <td><p>The signal encoding to use when calculating the luminance (default=Rec709).</p>
 </td>
       </tr>
     </tbody>

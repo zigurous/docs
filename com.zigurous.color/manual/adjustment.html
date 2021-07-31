@@ -81,41 +81,56 @@
 <h1 id="adjustment">Adjustment</h1>
 
 <p>Adjusting color values is one of the most commonly used features included in the Color Pro package. Functions for adjusting colors are defined as extension methods in the static class <a class="xref" href="../api/Zigurous.ColorPro.Adjustment.html">Adjustment</a>. To change the values of individual components, see the <a href="components.html">Components</a> manual.</p>
-<h3 id="hue">Hue</h3>
-<pre><code class="lang-csharp">// Return new colors
-Color shifted = color.HueShifted(30.0f);
-Color complement = color.Complement();
+<h3 id="hue-shift">Hue Shift</h3>
+<pre><code class="lang-csharp">Color shift = color.HueShifted(30.0f); // 30° shift
+color.HueShift(30.0f); // change existing color
 
-// Change existing color
-color.HueShift(30.0f);
+Color[] hues = color.Hues(30.0f); // 30° shift = 12 colors (360/30=12)
+Color[] hues = color.Hues(12); // 12 colors = 30° shift (360/12=30)
+
+color.HuesNonAlloc(array); // prevent heap allocations
 </code></pre>
-<h3 id="saturation">Saturation</h3>
-<pre><code class="lang-csharp">// Return new colors
-Color saturated = color.Saturated(0.1f);
-Color desaturated = color.Desaturated(0.1f);
-Color grayscaled = color.Grayscaled();
+<h3 id="saturate">Saturate</h3>
+<pre><code class="lang-csharp">Color saturated = color.Saturated(0.1f); // 10% increase
+color.Saturate(0.1f); // change existing color
 
-// Change existing color
-color.Saturate(0.1f);
-color.Desaturate(0.1f);
-color.Grayscale();
+Color[] saturated = color.Saturated(10); // generate 10 saturated colors
+color.SaturatedNonAlloc(array); // prevent heap allocations
 </code></pre>
-<h3 id="lightness">Lightness</h3>
-<pre><code class="lang-csharp">// Return new colors
-Color lighter = color.Lighter(0.1f);
-Color darker = color.Darker(0.1f);
+<h3 id="desaturate">Desaturate</h3>
+<pre><code class="lang-csharp">Color desaturated = color.Desaturated(0.1f); // 10% decrease
+color.Desaturate(0.1f); // change existing color
 
-// Change existing color
-color.Lighten(0.1f);
-color.Darken(0.1f);
+Color[] desaturated = color.Desaturated(10); // generate 10 desaturated colors
+color.DesaturatedNonAlloc(array); // prevent heap allocations
 </code></pre>
-<h3 id="other">Other</h3>
-<pre><code class="lang-csharp">// Return new colors
-Color websafe = color.WebSafe();
-Color inverted = color.Inverted();
+<h3 id="grayscale">Grayscale</h3>
+<pre><code class="lang-csharp">Color grayscaled = color.Grayscaled();
+color.Grayscale(); // change existing color
+</code></pre>
+<h3 id="lighter">Lighter</h3>
+<pre><code class="lang-csharp">Color lighter = color.Lighter(0.1f); // 10% increase
+color.Lighten(0.1f); // change existing color
 
-// Change existing color
-color.Invert();
+Color[] lighter = color.Lighter(10); // generate 10 lighter colors
+color.LighterNonAlloc(array); // prevent heap allocations
+</code></pre>
+<h3 id="darker">Darker</h3>
+<pre><code class="lang-csharp">Color darker = color.Darker(0.1f); // 10% decrease
+color.Darken(0.1f); // change existing color
+
+Color[] darker = color.Darker(10); // generate 10 darker colors
+color.DarkerNonAlloc(array); // prevent heap allocations
+</code></pre>
+<h3 id="invert">Invert</h3>
+<pre><code class="lang-csharp">Color inverted = color.Inverted();
+color.Invert(); // change existing color
+</code></pre>
+<h3 id="complement">Complement</h3>
+<pre><code class="lang-csharp">Color complement = color.Complement();
+</code></pre>
+<h3 id="websafe">Websafe</h3>
+<pre><code class="lang-csharp">Color websafe = color.WebSafe();
 </code></pre>
 </article>
           </div>

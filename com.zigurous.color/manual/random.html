@@ -85,11 +85,29 @@
 <pre><code class="lang-csharp">Color color = Random.Color();
 </code></pre>
 <h3 id="multiple-colors">Multiple Colors</h3>
-<pre><code class="lang-csharp">// Generate 10 random colors
-Color[] colors = Random.Colors(10);
+<pre><code class="lang-csharp">Color[] colors = Random.Colors(10); // 10 random colors
+Random.ColorsNonAlloc(array); // prevent heap allocations
+</code></pre>
+<h3 id="palettes">Palettes</h3>
+<pre><code class="lang-csharp">// Generate a given amount of random colors
+Color[] tints = color.RandomTints(10);
+Color[] shades = color.RandomShades(10);
+Color[] tones = color.RandomTones(10);
+Color[] lighter = color.RandomLighter(10);
+Color[] darker = color.RandomDarker(10);
+Color[] saturated = color.RandomSaturated(10);
+Color[] desaturated = color.RandomDesaturated(10);
+Color[] hues = color.RandomHues(10);
 
-// Prevent heap allocations by filling an existing array of `output` colors
-Random.ColorsNonAlloc(output);
+// Fill an existing array of colors to prevent heap allocations
+color.RandomTintsNonAlloc(array);
+color.RandomShadesNonAlloc(array);
+color.RandomTonesNonAlloc(array);
+color.RandomLighterNonAlloc(array);
+color.RandomDarkerNonAlloc(array);
+color.RandomSaturatedNonAlloc(array);
+color.RandomDesaturatedNonAlloc(array);
+color.RandomHuesNonAlloc(array);
 </code></pre>
 </article>
           </div>

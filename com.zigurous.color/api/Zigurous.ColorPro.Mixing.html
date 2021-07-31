@@ -142,7 +142,7 @@ first color, and a weight of 1 results in the second color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color Shade(this Color color, float percentage = 0.1F)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color Shade(this Color baseColor, float percentage = 0.1F)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -153,7 +153,7 @@ first color, and a weight of 1 results in the second color.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">color</span></td>
+        <td><span class="parametername">baseColor</span></td>
         <td><p>The color to shade.</p>
 </td>
       </tr>
@@ -164,13 +164,13 @@ first color, and a weight of 1 results in the second color.</p>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_ColorPro_Mixing_Tint_" data-uid="Zigurous.ColorPro.Mixing.Tint*"></a>
-  <h4 id="Zigurous_ColorPro_Mixing_Tint_Color_System_Single_" data-uid="Zigurous.ColorPro.Mixing.Tint(Color,System.Single)">Tint(Color, Single)</h4>
-  <div class="markdown level1 summary"><p>Returns a tint of the color by mixing it with a percentage of white.</p>
+  <a id="Zigurous_ColorPro_Mixing_Shades_" data-uid="Zigurous.ColorPro.Mixing.Shades*"></a>
+  <h4 id="Zigurous_ColorPro_Mixing_Shades_Color_System_Int32_" data-uid="Zigurous.ColorPro.Mixing.Shades(Color,System.Int32)">Shades(Color, Int32)</h4>
+  <div class="markdown level1 summary"><p>Generates a given amount of shades from the base color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color Tint(this Color color, float percentage = 0.1F)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color[] Shades(this Color baseColor, int amount)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -181,7 +181,65 @@ first color, and a weight of 1 results in the second color.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">color</span></td>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to generate new colors from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">amount</span></td>
+        <td><p>The amount of shades to generate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Mixing_ShadesNonAlloc_" data-uid="Zigurous.ColorPro.Mixing.ShadesNonAlloc*"></a>
+  <h4 id="Zigurous_ColorPro_Mixing_ShadesNonAlloc_Color_Color___" data-uid="Zigurous.ColorPro.Mixing.ShadesNonAlloc(Color,Color[])">ShadesNonAlloc(Color, Color[])</h4>
+  <div class="markdown level1 summary"><p>Fills an existing array with shades of the base color to prevent
+heap allocations. The amount of colors generated is determined by
+the size of the array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ShadesNonAlloc(this Color baseColor, Color[] output)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to generate new colors from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">output</span></td>
+        <td><p>The array to store the generated colors in.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Mixing_Tint_" data-uid="Zigurous.ColorPro.Mixing.Tint*"></a>
+  <h4 id="Zigurous_ColorPro_Mixing_Tint_Color_System_Single_" data-uid="Zigurous.ColorPro.Mixing.Tint(Color,System.Single)">Tint(Color, Single)</h4>
+  <div class="markdown level1 summary"><p>Returns a tint of the color by mixing it with a percentage of white.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Tint(this Color baseColor, float percentage = 0.1F)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">baseColor</span></td>
         <td><p>The color to tint.</p>
 </td>
       </tr>
@@ -192,13 +250,13 @@ first color, and a weight of 1 results in the second color.</p>
       </tr>
     </tbody>
   </table>
-  <a id="Zigurous_ColorPro_Mixing_Tone_" data-uid="Zigurous.ColorPro.Mixing.Tone*"></a>
-  <h4 id="Zigurous_ColorPro_Mixing_Tone_Color_System_Single_" data-uid="Zigurous.ColorPro.Mixing.Tone(Color,System.Single)">Tone(Color, Single)</h4>
-  <div class="markdown level1 summary"><p>Returns a tone of the color by mixing it with a percentage of gray.</p>
+  <a id="Zigurous_ColorPro_Mixing_Tints_" data-uid="Zigurous.ColorPro.Mixing.Tints*"></a>
+  <h4 id="Zigurous_ColorPro_Mixing_Tints_Color_System_Int32_" data-uid="Zigurous.ColorPro.Mixing.Tints(Color,System.Int32)">Tints(Color, Int32)</h4>
+  <div class="markdown level1 summary"><p>Generates a given amount of tints from the base color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color Tone(this Color color, float percentage = 0.1F)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color[] Tints(this Color baseColor, int amount)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -209,13 +267,129 @@ first color, and a weight of 1 results in the second color.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">color</span></td>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to generate new colors from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">amount</span></td>
+        <td><p>The amount of tints to generate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Mixing_TintsNonAlloc_" data-uid="Zigurous.ColorPro.Mixing.TintsNonAlloc*"></a>
+  <h4 id="Zigurous_ColorPro_Mixing_TintsNonAlloc_Color_Color___" data-uid="Zigurous.ColorPro.Mixing.TintsNonAlloc(Color,Color[])">TintsNonAlloc(Color, Color[])</h4>
+  <div class="markdown level1 summary"><p>Fills an existing array with tints of the base color to prevent
+heap allocations. The amount of colors generated is determined by
+the size of the array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void TintsNonAlloc(this Color baseColor, Color[] output)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to generate new colors from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">output</span></td>
+        <td><p>The array to store the generated colors in.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Mixing_Tone_" data-uid="Zigurous.ColorPro.Mixing.Tone*"></a>
+  <h4 id="Zigurous_ColorPro_Mixing_Tone_Color_System_Single_" data-uid="Zigurous.ColorPro.Mixing.Tone(Color,System.Single)">Tone(Color, Single)</h4>
+  <div class="markdown level1 summary"><p>Returns a tone of the color by mixing it with a percentage of gray.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Tone(this Color baseColor, float percentage = 0.1F)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">baseColor</span></td>
         <td><p>The color to tone.</p>
 </td>
       </tr>
       <tr>
         <td><span class="parametername">percentage</span></td>
         <td><p>The percentage of gray to mix with.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Mixing_Tones_" data-uid="Zigurous.ColorPro.Mixing.Tones*"></a>
+  <h4 id="Zigurous_ColorPro_Mixing_Tones_Color_System_Int32_" data-uid="Zigurous.ColorPro.Mixing.Tones(Color,System.Int32)">Tones(Color, Int32)</h4>
+  <div class="markdown level1 summary"><p>Generates a given amount of tones from the base color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color[] Tones(this Color baseColor, int amount)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to generate new colors from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">amount</span></td>
+        <td><p>The amount of tones to generate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Mixing_TonesNonAlloc_" data-uid="Zigurous.ColorPro.Mixing.TonesNonAlloc*"></a>
+  <h4 id="Zigurous_ColorPro_Mixing_TonesNonAlloc_Color_Color___" data-uid="Zigurous.ColorPro.Mixing.TonesNonAlloc(Color,Color[])">TonesNonAlloc(Color, Color[])</h4>
+  <div class="markdown level1 summary"><p>Fills an existing array with tones of the base color to prevent
+heap allocations. The amount of colors generated is determined by
+the size of the array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void TonesNonAlloc(this Color baseColor, Color[] output)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to generate new colors from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">output</span></td>
+        <td><p>The array to store the generated colors in.</p>
 </td>
       </tr>
     </tbody>

@@ -82,8 +82,7 @@
             <article class="content wrap" id="_content" data-uid="Zigurous.ColorPro.Adjustment">
   <h1 id="Zigurous_ColorPro_Adjustment" data-uid="Zigurous.ColorPro.Adjustment" class="text-break">Class Adjustment
   </h1>
-  <div class="markdown level0 summary"><p>Functions for adjusting color values, e.g., hue, saturation, brightness,
-lightness, etc.</p>
+  <div class="markdown level0 summary"><p>Functions for adjusting color values, e.g., hue, saturation, lightness, etc.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -149,6 +148,34 @@ lightness, etc.</p>
     </tbody>
   </table>
   <a id="Zigurous_ColorPro_Adjustment_Darker_" data-uid="Zigurous.ColorPro.Adjustment.Darker*"></a>
+  <h4 id="Zigurous_ColorPro_Adjustment_Darker_Color_System_Int32_" data-uid="Zigurous.ColorPro.Adjustment.Darker(Color,System.Int32)">Darker(Color, Int32)</h4>
+  <div class="markdown level1 summary"><p>Generates a given amount of darker colors from the base color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color[] Darker(this Color baseColor, int amount)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to generate new colors from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">amount</span></td>
+        <td><p>The amount of darker colors to generate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Adjustment_Darker_" data-uid="Zigurous.ColorPro.Adjustment.Darker*"></a>
   <h4 id="Zigurous_ColorPro_Adjustment_Darker_Color_System_Single_" data-uid="Zigurous.ColorPro.Adjustment.Darker(Color,System.Single)">Darker(Color, Single)</h4>
   <div class="markdown level1 summary"><p>Returns a new instance of the color with decreased lightness.</p>
 </div>
@@ -176,13 +203,43 @@ lightness, etc.</p>
       </tr>
     </tbody>
   </table>
+  <a id="Zigurous_ColorPro_Adjustment_DarkerNonAlloc_" data-uid="Zigurous.ColorPro.Adjustment.DarkerNonAlloc*"></a>
+  <h4 id="Zigurous_ColorPro_Adjustment_DarkerNonAlloc_Color_Color___" data-uid="Zigurous.ColorPro.Adjustment.DarkerNonAlloc(Color,Color[])">DarkerNonAlloc(Color, Color[])</h4>
+  <div class="markdown level1 summary"><p>Fills an existing array with darker colors of the base color to
+prevent heap allocations. The amount of colors generated is
+determined by the size of the array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DarkerNonAlloc(this Color baseColor, Color[] output)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to generate new colors from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">output</span></td>
+        <td><p>The array to store the generated colors in.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Zigurous_ColorPro_Adjustment_Desaturate_" data-uid="Zigurous.ColorPro.Adjustment.Desaturate*"></a>
   <h4 id="Zigurous_ColorPro_Adjustment_Desaturate_Color__System_Single_" data-uid="Zigurous.ColorPro.Adjustment.Desaturate(Color@,System.Single)">Desaturate(ref Color, Single)</h4>
   <div class="markdown level1 summary"><p>Decreases the saturation of the color by the given amount.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Desaturate(this ref Color color, float amount = 0.1F)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Desaturate(this ref Color color, float decrease = 0.1F)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -198,8 +255,36 @@ lightness, etc.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="parametername">amount</span></td>
+        <td><span class="parametername">decrease</span></td>
         <td><p>The amount to decrease the saturation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Adjustment_Desaturated_" data-uid="Zigurous.ColorPro.Adjustment.Desaturated*"></a>
+  <h4 id="Zigurous_ColorPro_Adjustment_Desaturated_Color_System_Int32_" data-uid="Zigurous.ColorPro.Adjustment.Desaturated(Color,System.Int32)">Desaturated(Color, Int32)</h4>
+  <div class="markdown level1 summary"><p>Generates a given amount of desaturated colors from the base color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color[] Desaturated(this Color baseColor, int amount)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to generate new colors from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">amount</span></td>
+        <td><p>The amount of desaturated colors to generate.</p>
 </td>
       </tr>
     </tbody>
@@ -210,7 +295,7 @@ lightness, etc.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color Desaturated(this Color color, float amount = 0.1F)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color Desaturated(this Color color, float decrease = 0.1F)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -226,8 +311,38 @@ lightness, etc.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="parametername">amount</span></td>
+        <td><span class="parametername">decrease</span></td>
         <td><p>The amount to decrease the saturation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Adjustment_DesaturatedNonAlloc_" data-uid="Zigurous.ColorPro.Adjustment.DesaturatedNonAlloc*"></a>
+  <h4 id="Zigurous_ColorPro_Adjustment_DesaturatedNonAlloc_Color_Color___" data-uid="Zigurous.ColorPro.Adjustment.DesaturatedNonAlloc(Color,Color[])">DesaturatedNonAlloc(Color, Color[])</h4>
+  <div class="markdown level1 summary"><p>Fills an existing array with desaturated colors of the base color to
+prevent heap allocations. The amount of colors generated is
+determined by the size of the array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DesaturatedNonAlloc(this Color baseColor, Color[] output)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to generate new colors from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">output</span></td>
+        <td><p>The array to store the generated colors in.</p>
 </td>
       </tr>
     </tbody>
@@ -274,6 +389,73 @@ lightness, etc.</p>
       <tr>
         <td><span class="parametername">color</span></td>
         <td><p>The color to adjust.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Adjustment_Hues_" data-uid="Zigurous.ColorPro.Adjustment.Hues*"></a>
+  <h4 id="Zigurous_ColorPro_Adjustment_Hues_Color_System_Int32_System_Single_" data-uid="Zigurous.ColorPro.Adjustment.Hues(Color,System.Int32,System.Single)">Hues(Color, Int32, Single)</h4>
+  <div class="markdown level1 summary"><p>Generates a given amount of hues from the base color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color[] Hues(this Color baseColor, int amount, float offset = 0F)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to generate new colors from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">amount</span></td>
+        <td><p>The amount of hues to generate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The optional hue offset in degrees.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Adjustment_Hues_" data-uid="Zigurous.ColorPro.Adjustment.Hues*"></a>
+  <h4 id="Zigurous_ColorPro_Adjustment_Hues_Color_System_Single_System_Single_" data-uid="Zigurous.ColorPro.Adjustment.Hues(Color,System.Single,System.Single)">Hues(Color, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Generates hues of the base color with a given increment of degrees.
+For example, an increment of 30 will generate 12 different hues (360/30 = 12).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color[] Hues(this Color baseColor, float degrees = 30F, float offset = 0F)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to generate new colors from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">degrees</span></td>
+        <td><p>The hue increment in degrees (default=30).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The optional hue offset in degrees.</p>
 </td>
       </tr>
     </tbody>
@@ -331,6 +513,41 @@ amount of degrees.</p>
       <tr>
         <td><span class="parametername">degrees</span></td>
         <td><p>The amount of degrees to shift the hue.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Adjustment_HuesNonAlloc_" data-uid="Zigurous.ColorPro.Adjustment.HuesNonAlloc*"></a>
+  <h4 id="Zigurous_ColorPro_Adjustment_HuesNonAlloc_Color_Color___System_Single_" data-uid="Zigurous.ColorPro.Adjustment.HuesNonAlloc(Color,Color[],System.Single)">HuesNonAlloc(Color, Color[], Single)</h4>
+  <div class="markdown level1 summary"><p>Fills an existing array with the hues of the base color to prevent
+heap allocations. The amount of hues generated is determined by the
+size of the array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void HuesNonAlloc(this Color baseColor, Color[] output, float offset = 0F)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to generate new colors from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">output</span></td>
+        <td><p>The array to store the generated hues in.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The optional hue offset in degrees.</p>
 </td>
       </tr>
     </tbody>
@@ -411,6 +628,34 @@ from 1.</p>
     </tbody>
   </table>
   <a id="Zigurous_ColorPro_Adjustment_Lighter_" data-uid="Zigurous.ColorPro.Adjustment.Lighter*"></a>
+  <h4 id="Zigurous_ColorPro_Adjustment_Lighter_Color_System_Int32_" data-uid="Zigurous.ColorPro.Adjustment.Lighter(Color,System.Int32)">Lighter(Color, Int32)</h4>
+  <div class="markdown level1 summary"><p>Generates a given amount of lighter colors from the base color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color[] Lighter(this Color baseColor, int amount)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to generate new colors from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">amount</span></td>
+        <td><p>The amount of lighter colors to generate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Adjustment_Lighter_" data-uid="Zigurous.ColorPro.Adjustment.Lighter*"></a>
   <h4 id="Zigurous_ColorPro_Adjustment_Lighter_Color_System_Single_" data-uid="Zigurous.ColorPro.Adjustment.Lighter(Color,System.Single)">Lighter(Color, Single)</h4>
   <div class="markdown level1 summary"><p>Returns a new instance of the color with increased lightness.</p>
 </div>
@@ -438,13 +683,43 @@ from 1.</p>
       </tr>
     </tbody>
   </table>
+  <a id="Zigurous_ColorPro_Adjustment_LighterNonAlloc_" data-uid="Zigurous.ColorPro.Adjustment.LighterNonAlloc*"></a>
+  <h4 id="Zigurous_ColorPro_Adjustment_LighterNonAlloc_Color_Color___" data-uid="Zigurous.ColorPro.Adjustment.LighterNonAlloc(Color,Color[])">LighterNonAlloc(Color, Color[])</h4>
+  <div class="markdown level1 summary"><p>Fills an existing array with lighter colors of the base color to
+prevent heap allocations. The amount of colors generated is
+determined by the size of the array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LighterNonAlloc(this Color baseColor, Color[] output)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to generate new colors from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">output</span></td>
+        <td><p>The array to store the generated colors in.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Zigurous_ColorPro_Adjustment_Saturate_" data-uid="Zigurous.ColorPro.Adjustment.Saturate*"></a>
   <h4 id="Zigurous_ColorPro_Adjustment_Saturate_Color__System_Single_" data-uid="Zigurous.ColorPro.Adjustment.Saturate(Color@,System.Single)">Saturate(ref Color, Single)</h4>
   <div class="markdown level1 summary"><p>Increases the saturation of the color by the given amount.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Saturate(this ref Color color, float amount = 0.1F)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Saturate(this ref Color color, float increase = 0.1F)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -460,8 +735,36 @@ from 1.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="parametername">amount</span></td>
+        <td><span class="parametername">increase</span></td>
         <td><p>The amount to increase the saturation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Adjustment_Saturated_" data-uid="Zigurous.ColorPro.Adjustment.Saturated*"></a>
+  <h4 id="Zigurous_ColorPro_Adjustment_Saturated_Color_System_Int32_" data-uid="Zigurous.ColorPro.Adjustment.Saturated(Color,System.Int32)">Saturated(Color, Int32)</h4>
+  <div class="markdown level1 summary"><p>Generates a given amount of saturated colors from the base color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color[] Saturated(this Color baseColor, int amount)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to generate new colors from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">amount</span></td>
+        <td><p>The amount of saturated colors to generate.</p>
 </td>
       </tr>
     </tbody>
@@ -472,7 +775,7 @@ from 1.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color Saturated(this Color color, float amount = 0.1F)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color Saturated(this Color color, float increase = 0.1F)</code></pre>
   </div>
   <table class="table table-bordered table-condensed">
     <thead>
@@ -488,8 +791,38 @@ from 1.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="parametername">amount</span></td>
+        <td><span class="parametername">increase</span></td>
         <td><p>The amount to increase the saturation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Zigurous_ColorPro_Adjustment_SaturatedNonAlloc_" data-uid="Zigurous.ColorPro.Adjustment.SaturatedNonAlloc*"></a>
+  <h4 id="Zigurous_ColorPro_Adjustment_SaturatedNonAlloc_Color_Color___" data-uid="Zigurous.ColorPro.Adjustment.SaturatedNonAlloc(Color,Color[])">SaturatedNonAlloc(Color, Color[])</h4>
+  <div class="markdown level1 summary"><p>Fills an existing array with saturated colors of the base color to
+prevent heap allocations. The amount of colors generated is
+determined by the size of the array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SaturatedNonAlloc(this Color baseColor, Color[] output)</code></pre>
+  </div>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">baseColor</span></td>
+        <td><p>The base color to generate new colors from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">output</span></td>
+        <td><p>The array to store the generated colors in.</p>
 </td>
       </tr>
     </tbody>

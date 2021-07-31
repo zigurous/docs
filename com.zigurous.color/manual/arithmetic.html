@@ -82,36 +82,26 @@
 
 <p>The Color Pro package includes basic arithmetic functions for adding, subtracting, multiplying, and dividing colors with one another. These functions are available as extension methods in the static class <a class="xref" href="../api/Zigurous.ColorPro.Arithmetic.html">Arithmetic</a>.</p>
 <h3 id="addition">Addition</h3>
-<pre><code class="lang-csharp">// Change existing color
-color.Add(otherColor);
-
-// Return new color
-Color result = color.Adding(otherColor);
+<pre><code class="lang-csharp">Color result = color.Adding(otherColor);
+color.Add(otherColor); // change existing color
 </code></pre>
 <h3 id="subtraction">Subtraction</h3>
-<pre><code class="lang-csharp">// Change existing color
-color.Subtract(otherColor);
-
-// Return new color
-Color result = color.Subtracting(otherColor);
+<pre><code class="lang-csharp">Color result = color.Subtracting(otherColor);
+color.Subtract(otherColor); // change existing color
 </code></pre>
 <h3 id="multiplication">Multiplication</h3>
-<pre><code class="lang-csharp">// Change existing color
-color.Multiply(otherColor);
-color.Multiply(2.0f);
+<pre><code class="lang-csharp">Color result = color.MultipliedBy(otherColor);
+color.Multiply(otherColor); // change existing color
 
-// Return new color
-Color result = color.MultipliedBy(otherColor);
 Color result = color.MultipliedBy(2.0f);
+color.Multiply(2.0f); // change existing color
 </code></pre>
 <h3 id="division">Division</h3>
-<pre><code class="lang-csharp">// Change existing color
-color.Divide(otherColor);
-color.Divide(2.0f);
+<pre><code class="lang-csharp">Color result = color.DividedBy(otherColor);
+color.Divide(otherColor); // change existing color
 
-// Return new color
-Color result = color.DividedBy(otherColor);
 Color result = color.DividedBy(2.0f);
+color.Divide(2.0f); // change existing color
 </code></pre>
 </article>
           </div>
