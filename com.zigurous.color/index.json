@@ -347,7 +347,7 @@
   "manual/index.html": {
     "href": "manual/index.html",
     "title": "Color Pro | Color Pro",
-    "keywords": "Color Pro The Color Pro package is a robust utility library for working with colors in Unity projects. Included in the package are dozens of functions for color mixing, conversion, generating color palettes, and much more. Reference Accessibility Adjustment Arithmetic Averaging Components Contrast Conversion Custom Editors Equality Gradients Harmonies Illuminants Luminance Mixing Mixing Models Palettes Random Signal Encoding Temperature"
+    "keywords": "Color Pro The Color Pro package is a robust utility library for working with colors in Unity projects. The package includes hundreds of functions to support the use of color, including color mixing, conversion, accessibility, harmonies, colorimetry, and much more. Reference Accessibility Adjustment Arithmetic Averaging Components Contrast Conversion Custom Editors Equality Gradients Harmonies Illuminants Luminance Mixing Mixing Models Palettes Random Signal Encoding Temperature"
   },
   "manual/installation.html": {
     "href": "manual/installation.html",
