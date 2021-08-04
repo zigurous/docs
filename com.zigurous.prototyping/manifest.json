@@ -66,7 +66,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Prototyping.MaterialSelector.html",
-          "hash": "Qxlm4xQQEFC1j5vxaYGmydNl1yn/naWLvFVo/0lzB1E="
+          "hash": "R1HcHP+yfq+/ncW8laANhnPywlj4wgNrbpGLnk55ssw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.Prototyping.MaterialSelectorGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.Prototyping.MaterialSelectorGroup.html",
+          "hash": "4BkkIpmiWV3Yp18nWxh6lzc0vO25YIFwWSyRgiaoP14="
         }
       },
       "is_incremental": false,
@@ -150,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.Prototyping.html",
-          "hash": "ii22+OcFZIepo46BeEL84lEQLLSdVkOXl/A0FCyiUPM="
+          "hash": "e2mHpTNEV7tIdjeNdJxLnWUAKdaO110qQ+NrzB0pE2g="
         }
       },
       "is_incremental": false,
@@ -162,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "q10Dn3TD78QS6CDunxYbZygkzwHDLCVt8mbmudOYXy4="
+          "hash": "XUiqHEYsD45hl3TZPpysx9GBlFRBO9MeDrF+5EMN9aU="
         }
       },
       "is_incremental": false,
@@ -551,7 +563,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 11,
+          "total_file_count": 12,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

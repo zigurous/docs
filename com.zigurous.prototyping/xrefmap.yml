@@ -159,6 +159,19 @@ references:
   commentId: T:Zigurous.Prototyping.MaterialSelector
   fullName: Zigurous.Prototyping.MaterialSelector
   nameWithType: MaterialSelector
+- uid: Zigurous.Prototyping.MaterialSelector.Apply(Zigurous.Prototyping.MaterialStylePreset,Zigurous.Prototyping.MaterialPatternPreset)
+  name: Apply(MaterialStylePreset, MaterialPatternPreset)
+  href: api/Zigurous.Prototyping.MaterialSelector.html#Zigurous_Prototyping_MaterialSelector_Apply_Zigurous_Prototyping_MaterialStylePreset_Zigurous_Prototyping_MaterialPatternPreset_
+  commentId: M:Zigurous.Prototyping.MaterialSelector.Apply(Zigurous.Prototyping.MaterialStylePreset,Zigurous.Prototyping.MaterialPatternPreset)
+  fullName: Zigurous.Prototyping.MaterialSelector.Apply(Zigurous.Prototyping.MaterialStylePreset, Zigurous.Prototyping.MaterialPatternPreset)
+  nameWithType: MaterialSelector.Apply(MaterialStylePreset, MaterialPatternPreset)
+- uid: Zigurous.Prototyping.MaterialSelector.Apply*
+  name: Apply
+  href: api/Zigurous.Prototyping.MaterialSelector.html#Zigurous_Prototyping_MaterialSelector_Apply_
+  commentId: Overload:Zigurous.Prototyping.MaterialSelector.Apply
+  isSpec: "True"
+  fullName: Zigurous.Prototyping.MaterialSelector.Apply
+  nameWithType: MaterialSelector.Apply
 - uid: Zigurous.Prototyping.MaterialSelector.pattern
   name: pattern
   href: api/Zigurous.Prototyping.MaterialSelector.html#Zigurous_Prototyping_MaterialSelector_pattern
@@ -210,6 +223,50 @@ references:
   commentId: F:Zigurous.Prototyping.MaterialSelector.styles
   fullName: Zigurous.Prototyping.MaterialSelector.styles
   nameWithType: MaterialSelector.styles
+- uid: Zigurous.Prototyping.MaterialSelectorGroup
+  name: MaterialSelectorGroup
+  href: api/Zigurous.Prototyping.MaterialSelectorGroup.html
+  commentId: T:Zigurous.Prototyping.MaterialSelectorGroup
+  fullName: Zigurous.Prototyping.MaterialSelectorGroup
+  nameWithType: MaterialSelectorGroup
+- uid: Zigurous.Prototyping.MaterialSelectorGroup.pattern
+  name: pattern
+  href: api/Zigurous.Prototyping.MaterialSelectorGroup.html#Zigurous_Prototyping_MaterialSelectorGroup_pattern
+  commentId: P:Zigurous.Prototyping.MaterialSelectorGroup.pattern
+  fullName: Zigurous.Prototyping.MaterialSelectorGroup.pattern
+  nameWithType: MaterialSelectorGroup.pattern
+- uid: Zigurous.Prototyping.MaterialSelectorGroup.pattern*
+  name: pattern
+  href: api/Zigurous.Prototyping.MaterialSelectorGroup.html#Zigurous_Prototyping_MaterialSelectorGroup_pattern_
+  commentId: Overload:Zigurous.Prototyping.MaterialSelectorGroup.pattern
+  isSpec: "True"
+  fullName: Zigurous.Prototyping.MaterialSelectorGroup.pattern
+  nameWithType: MaterialSelectorGroup.pattern
+- uid: Zigurous.Prototyping.MaterialSelectorGroup.patterns
+  name: patterns
+  href: api/Zigurous.Prototyping.MaterialSelectorGroup.html#Zigurous_Prototyping_MaterialSelectorGroup_patterns
+  commentId: F:Zigurous.Prototyping.MaterialSelectorGroup.patterns
+  fullName: Zigurous.Prototyping.MaterialSelectorGroup.patterns
+  nameWithType: MaterialSelectorGroup.patterns
+- uid: Zigurous.Prototyping.MaterialSelectorGroup.style
+  name: style
+  href: api/Zigurous.Prototyping.MaterialSelectorGroup.html#Zigurous_Prototyping_MaterialSelectorGroup_style
+  commentId: P:Zigurous.Prototyping.MaterialSelectorGroup.style
+  fullName: Zigurous.Prototyping.MaterialSelectorGroup.style
+  nameWithType: MaterialSelectorGroup.style
+- uid: Zigurous.Prototyping.MaterialSelectorGroup.style*
+  name: style
+  href: api/Zigurous.Prototyping.MaterialSelectorGroup.html#Zigurous_Prototyping_MaterialSelectorGroup_style_
+  commentId: Overload:Zigurous.Prototyping.MaterialSelectorGroup.style
+  isSpec: "True"
+  fullName: Zigurous.Prototyping.MaterialSelectorGroup.style
+  nameWithType: MaterialSelectorGroup.style
+- uid: Zigurous.Prototyping.MaterialSelectorGroup.styles
+  name: styles
+  href: api/Zigurous.Prototyping.MaterialSelectorGroup.html#Zigurous_Prototyping_MaterialSelectorGroup_styles
+  commentId: F:Zigurous.Prototyping.MaterialSelectorGroup.styles
+  fullName: Zigurous.Prototyping.MaterialSelectorGroup.styles
+  nameWithType: MaterialSelectorGroup.styles
 - uid: Zigurous.Prototyping.MaterialStylePalette
   name: MaterialStylePalette
   href: api/Zigurous.Prototyping.MaterialStylePalette.html

@@ -4,10 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace Zigurous.Prototyping
+    <title>Class MaterialSelectorGroup
    | Prototyping Kit </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace Zigurous.Prototyping
+    <meta name="title" content="Class MaterialSelectorGroup
    | Prototyping Kit ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -79,52 +79,55 @@
                 <li></li>
               </ul>
             </div>
-            <article class="content wrap" id="_content" data-uid="Zigurous.Prototyping">
-  
-  <h1 id="Zigurous_Prototyping" data-uid="Zigurous.Prototyping" class="text-break">Namespace Zigurous.Prototyping
+            <article class="content wrap" id="_content" data-uid="Zigurous.Prototyping.MaterialSelectorGroup">
+  <h1 id="Zigurous_Prototyping_MaterialSelectorGroup" data-uid="Zigurous.Prototyping.MaterialSelectorGroup" class="text-break">Class MaterialSelectorGroup
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Assigns a group of renderers' materials from a preset list of options.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">MaterialSelectorGroup</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Zigurous.Prototyping.html">Zigurous.Prototyping</a></h6>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class MaterialSelectorGroup : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
   </h3>
-      <h4><a class="xref" href="Zigurous.Prototyping.MaterialPatternPalette.html">MaterialPatternPalette</a></h4>
-      <section><p>A collection of material pattern presets.</p>
-</section>
-      <h4><a class="xref" href="Zigurous.Prototyping.MaterialSelector.html">MaterialSelector</a></h4>
-      <section><p>Assigns a renderer's material from a preset list of options.</p>
-</section>
-      <h4><a class="xref" href="Zigurous.Prototyping.MaterialSelectorGroup.html">MaterialSelectorGroup</a></h4>
-      <section><p>Assigns a group of renderers' materials from a preset list of options.</p>
-</section>
-      <h4><a class="xref" href="Zigurous.Prototyping.MaterialStylePalette.html">MaterialStylePalette</a></h4>
-      <section><p>A collection of material style presets.</p>
-</section>
-      <h4><a class="xref" href="Zigurous.Prototyping.MaterialTiling.html">MaterialTiling</a></h4>
-      <section><p>Automatically tiles the materials of an object based on its scale.</p>
-</section>
-      <h4><a class="xref" href="Zigurous.Prototyping.MaterialTilingCube.html">MaterialTilingCube</a></h4>
-      <section><p>Automatically tiles the materials of a cube based on its scale.</p>
-</section>
-      <h4><a class="xref" href="Zigurous.Prototyping.MaterialTilingPlane.html">MaterialTilingPlane</a></h4>
-      <section><p>Automatically tiles the materials of a plane based on its scale.</p>
-</section>
-    <h3 id="structs">Structs
+  <h4 id="Zigurous_Prototyping_MaterialSelectorGroup_patterns" data-uid="Zigurous.Prototyping.MaterialSelectorGroup.patterns">patterns</h4>
+  <div class="markdown level1 summary"><p>The palette of available patterns.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MaterialPatternPalette patterns</code></pre>
+  </div>
+  <h4 id="Zigurous_Prototyping_MaterialSelectorGroup_styles" data-uid="Zigurous.Prototyping.MaterialSelectorGroup.styles">styles</h4>
+  <div class="markdown level1 summary"><p>The palette of available styles.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MaterialStylePalette styles</code></pre>
+  </div>
+  <h3 id="properties">Properties
   </h3>
-      <h4><a class="xref" href="Zigurous.Prototyping.MaterialPatternPalette.Pattern.html">MaterialPatternPalette.Pattern</a></h4>
-      <section><p>A material pattern, defined by a texture asset.</p>
-</section>
-      <h4><a class="xref" href="Zigurous.Prototyping.MaterialStylePalette.Style.html">MaterialStylePalette.Style</a></h4>
-      <section><p>A material style, defined by color, metallic, and smoothness values.</p>
-</section>
-    <h3 id="enums">Enums
-  </h3>
-      <h4><a class="xref" href="Zigurous.Prototyping.MaterialPatternPreset.html">MaterialPatternPreset</a></h4>
-      <section><p>An enumerated preset of material patterns.</p>
-</section>
-      <h4><a class="xref" href="Zigurous.Prototyping.MaterialStylePreset.html">MaterialStylePreset</a></h4>
-      <section><p>An enumerated preset of material styles.</p>
-</section>
+  <a id="Zigurous_Prototyping_MaterialSelectorGroup_pattern_" data-uid="Zigurous.Prototyping.MaterialSelectorGroup.pattern*"></a>
+  <h4 id="Zigurous_Prototyping_MaterialSelectorGroup_pattern" data-uid="Zigurous.Prototyping.MaterialSelectorGroup.pattern">pattern</h4>
+  <div class="markdown level1 summary"><p>The selected pattern preset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MaterialPatternPreset pattern { get; set; }</code></pre>
+  </div>
+  <a id="Zigurous_Prototyping_MaterialSelectorGroup_style_" data-uid="Zigurous.Prototyping.MaterialSelectorGroup.style*"></a>
+  <h4 id="Zigurous_Prototyping_MaterialSelectorGroup_style" data-uid="Zigurous.Prototyping.MaterialSelectorGroup.style">style</h4>
+  <div class="markdown level1 summary"><p>The selected style preset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MaterialStylePreset style { get; set; }</code></pre>
+  </div>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">
