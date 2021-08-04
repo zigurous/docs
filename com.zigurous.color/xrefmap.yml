@@ -1048,6 +1048,71 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.Averaging.AverageColor
   nameWithType: Averaging.AverageColor
+- uid: Zigurous.ColorPro.ChannelMixer
+  name: ChannelMixer
+  href: api/Zigurous.ColorPro.ChannelMixer.html
+  commentId: T:Zigurous.ColorPro.ChannelMixer
+  fullName: Zigurous.ColorPro.ChannelMixer
+  nameWithType: ChannelMixer
+- uid: Zigurous.ColorPro.ChannelMixer.ChannelMatrix(Zigurous.ColorPro.ColorVision)
+  name: ChannelMatrix(ColorVision)
+  href: api/Zigurous.ColorPro.ChannelMixer.html#Zigurous_ColorPro_ChannelMixer_ChannelMatrix_Zigurous_ColorPro_ColorVision_
+  commentId: M:Zigurous.ColorPro.ChannelMixer.ChannelMatrix(Zigurous.ColorPro.ColorVision)
+  fullName: Zigurous.ColorPro.ChannelMixer.ChannelMatrix(Zigurous.ColorPro.ColorVision)
+  nameWithType: ChannelMixer.ChannelMatrix(ColorVision)
+- uid: Zigurous.ColorPro.ChannelMixer.ChannelMatrix*
+  name: ChannelMatrix
+  href: api/Zigurous.ColorPro.ChannelMixer.html#Zigurous_ColorPro_ChannelMixer_ChannelMatrix_
+  commentId: Overload:Zigurous.ColorPro.ChannelMixer.ChannelMatrix
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.ChannelMixer.ChannelMatrix
+  nameWithType: ChannelMixer.ChannelMatrix
+- uid: Zigurous.ColorPro.ChannelMixer.ChannelMix(Color,System.Single[])
+  name: ChannelMix(Color, Single[])
+  href: api/Zigurous.ColorPro.ChannelMixer.html#Zigurous_ColorPro_ChannelMixer_ChannelMix_Color_System_Single___
+  commentId: M:Zigurous.ColorPro.ChannelMixer.ChannelMix(Color,System.Single[])
+  name.vb: ChannelMix(Color, Single())
+  fullName: Zigurous.ColorPro.ChannelMixer.ChannelMix(Color, System.Single[])
+  fullName.vb: Zigurous.ColorPro.ChannelMixer.ChannelMix(Color, System.Single())
+  nameWithType: ChannelMixer.ChannelMix(Color, Single[])
+  nameWithType.vb: ChannelMixer.ChannelMix(Color, Single())
+- uid: Zigurous.ColorPro.ChannelMixer.ChannelMix(Color,Zigurous.ColorPro.ColorVision)
+  name: ChannelMix(Color, ColorVision)
+  href: api/Zigurous.ColorPro.ChannelMixer.html#Zigurous_ColorPro_ChannelMixer_ChannelMix_Color_Zigurous_ColorPro_ColorVision_
+  commentId: M:Zigurous.ColorPro.ChannelMixer.ChannelMix(Color,Zigurous.ColorPro.ColorVision)
+  fullName: Zigurous.ColorPro.ChannelMixer.ChannelMix(Color, Zigurous.ColorPro.ColorVision)
+  nameWithType: ChannelMixer.ChannelMix(Color, ColorVision)
+- uid: Zigurous.ColorPro.ChannelMixer.ChannelMix(Color[],System.Single[])
+  name: ChannelMix(Color[], Single[])
+  href: api/Zigurous.ColorPro.ChannelMixer.html#Zigurous_ColorPro_ChannelMixer_ChannelMix_Color___System_Single___
+  commentId: M:Zigurous.ColorPro.ChannelMixer.ChannelMix(Color[],System.Single[])
+  name.vb: ChannelMix(Color(), Single())
+  fullName: Zigurous.ColorPro.ChannelMixer.ChannelMix(Color[], System.Single[])
+  fullName.vb: Zigurous.ColorPro.ChannelMixer.ChannelMix(Color(), System.Single())
+  nameWithType: ChannelMixer.ChannelMix(Color[], Single[])
+  nameWithType.vb: ChannelMixer.ChannelMix(Color(), Single())
+- uid: Zigurous.ColorPro.ChannelMixer.ChannelMix(Color[],Zigurous.ColorPro.ColorVision)
+  name: ChannelMix(Color[], ColorVision)
+  href: api/Zigurous.ColorPro.ChannelMixer.html#Zigurous_ColorPro_ChannelMixer_ChannelMix_Color___Zigurous_ColorPro_ColorVision_
+  commentId: M:Zigurous.ColorPro.ChannelMixer.ChannelMix(Color[],Zigurous.ColorPro.ColorVision)
+  name.vb: ChannelMix(Color(), ColorVision)
+  fullName: Zigurous.ColorPro.ChannelMixer.ChannelMix(Color[], Zigurous.ColorPro.ColorVision)
+  fullName.vb: Zigurous.ColorPro.ChannelMixer.ChannelMix(Color(), Zigurous.ColorPro.ColorVision)
+  nameWithType: ChannelMixer.ChannelMix(Color[], ColorVision)
+  nameWithType.vb: ChannelMixer.ChannelMix(Color(), ColorVision)
+- uid: Zigurous.ColorPro.ChannelMixer.ChannelMix*
+  name: ChannelMix
+  href: api/Zigurous.ColorPro.ChannelMixer.html#Zigurous_ColorPro_ChannelMixer_ChannelMix_
+  commentId: Overload:Zigurous.ColorPro.ChannelMixer.ChannelMix
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.ChannelMixer.ChannelMix
+  nameWithType: ChannelMixer.ChannelMix
+- uid: Zigurous.ColorPro.ChannelMixer.Identity
+  name: Identity
+  href: api/Zigurous.ColorPro.ChannelMixer.html#Zigurous_ColorPro_ChannelMixer_Identity
+  commentId: F:Zigurous.ColorPro.ChannelMixer.Identity
+  fullName: Zigurous.ColorPro.ChannelMixer.Identity
+  nameWithType: ChannelMixer.Identity
 - uid: Zigurous.ColorPro.CIELAB
   name: CIELAB
   href: api/Zigurous.ColorPro.CIELAB.html
@@ -3050,6 +3115,236 @@ references:
   commentId: F:Zigurous.ColorPro.CMYK.yellow
   fullName: Zigurous.ColorPro.CMYK.yellow
   nameWithType: CMYK.yellow
+- uid: Zigurous.ColorPro.ColorBlindness
+  name: ColorBlindness
+  href: api/Zigurous.ColorPro.ColorBlindness.html
+  commentId: T:Zigurous.ColorPro.ColorBlindness
+  fullName: Zigurous.ColorPro.ColorBlindness
+  nameWithType: ColorBlindness
+- uid: Zigurous.ColorPro.ColorBlindness.achromatomaly
+  name: achromatomaly
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_achromatomaly
+  commentId: F:Zigurous.ColorPro.ColorBlindness.achromatomaly
+  fullName: Zigurous.ColorPro.ColorBlindness.achromatomaly
+  nameWithType: ColorBlindness.achromatomaly
+- uid: Zigurous.ColorPro.ColorBlindness.Achromatomaly(Color)
+  name: Achromatomaly(Color)
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_Achromatomaly_Color_
+  commentId: M:Zigurous.ColorPro.ColorBlindness.Achromatomaly(Color)
+  fullName: Zigurous.ColorPro.ColorBlindness.Achromatomaly(Color)
+  nameWithType: ColorBlindness.Achromatomaly(Color)
+- uid: Zigurous.ColorPro.ColorBlindness.Achromatomaly(Color[])
+  name: Achromatomaly(Color[])
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_Achromatomaly_Color___
+  commentId: M:Zigurous.ColorPro.ColorBlindness.Achromatomaly(Color[])
+  name.vb: Achromatomaly(Color())
+  fullName: Zigurous.ColorPro.ColorBlindness.Achromatomaly(Color[])
+  fullName.vb: Zigurous.ColorPro.ColorBlindness.Achromatomaly(Color())
+  nameWithType: ColorBlindness.Achromatomaly(Color[])
+  nameWithType.vb: ColorBlindness.Achromatomaly(Color())
+- uid: Zigurous.ColorPro.ColorBlindness.Achromatomaly*
+  name: Achromatomaly
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_Achromatomaly_
+  commentId: Overload:Zigurous.ColorPro.ColorBlindness.Achromatomaly
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.ColorBlindness.Achromatomaly
+  nameWithType: ColorBlindness.Achromatomaly
+- uid: Zigurous.ColorPro.ColorBlindness.achromatopsia
+  name: achromatopsia
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_achromatopsia
+  commentId: F:Zigurous.ColorPro.ColorBlindness.achromatopsia
+  fullName: Zigurous.ColorPro.ColorBlindness.achromatopsia
+  nameWithType: ColorBlindness.achromatopsia
+- uid: Zigurous.ColorPro.ColorBlindness.Achromatopsia(Color)
+  name: Achromatopsia(Color)
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_Achromatopsia_Color_
+  commentId: M:Zigurous.ColorPro.ColorBlindness.Achromatopsia(Color)
+  fullName: Zigurous.ColorPro.ColorBlindness.Achromatopsia(Color)
+  nameWithType: ColorBlindness.Achromatopsia(Color)
+- uid: Zigurous.ColorPro.ColorBlindness.Achromatopsia(Color[])
+  name: Achromatopsia(Color[])
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_Achromatopsia_Color___
+  commentId: M:Zigurous.ColorPro.ColorBlindness.Achromatopsia(Color[])
+  name.vb: Achromatopsia(Color())
+  fullName: Zigurous.ColorPro.ColorBlindness.Achromatopsia(Color[])
+  fullName.vb: Zigurous.ColorPro.ColorBlindness.Achromatopsia(Color())
+  nameWithType: ColorBlindness.Achromatopsia(Color[])
+  nameWithType.vb: ColorBlindness.Achromatopsia(Color())
+- uid: Zigurous.ColorPro.ColorBlindness.Achromatopsia*
+  name: Achromatopsia
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_Achromatopsia_
+  commentId: Overload:Zigurous.ColorPro.ColorBlindness.Achromatopsia
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.ColorBlindness.Achromatopsia
+  nameWithType: ColorBlindness.Achromatopsia
+- uid: Zigurous.ColorPro.ColorBlindness.deuteranomaly
+  name: deuteranomaly
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_deuteranomaly
+  commentId: F:Zigurous.ColorPro.ColorBlindness.deuteranomaly
+  fullName: Zigurous.ColorPro.ColorBlindness.deuteranomaly
+  nameWithType: ColorBlindness.deuteranomaly
+- uid: Zigurous.ColorPro.ColorBlindness.Deuteranomaly(Color)
+  name: Deuteranomaly(Color)
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_Deuteranomaly_Color_
+  commentId: M:Zigurous.ColorPro.ColorBlindness.Deuteranomaly(Color)
+  fullName: Zigurous.ColorPro.ColorBlindness.Deuteranomaly(Color)
+  nameWithType: ColorBlindness.Deuteranomaly(Color)
+- uid: Zigurous.ColorPro.ColorBlindness.Deuteranomaly(Color[])
+  name: Deuteranomaly(Color[])
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_Deuteranomaly_Color___
+  commentId: M:Zigurous.ColorPro.ColorBlindness.Deuteranomaly(Color[])
+  name.vb: Deuteranomaly(Color())
+  fullName: Zigurous.ColorPro.ColorBlindness.Deuteranomaly(Color[])
+  fullName.vb: Zigurous.ColorPro.ColorBlindness.Deuteranomaly(Color())
+  nameWithType: ColorBlindness.Deuteranomaly(Color[])
+  nameWithType.vb: ColorBlindness.Deuteranomaly(Color())
+- uid: Zigurous.ColorPro.ColorBlindness.Deuteranomaly*
+  name: Deuteranomaly
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_Deuteranomaly_
+  commentId: Overload:Zigurous.ColorPro.ColorBlindness.Deuteranomaly
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.ColorBlindness.Deuteranomaly
+  nameWithType: ColorBlindness.Deuteranomaly
+- uid: Zigurous.ColorPro.ColorBlindness.deuteranopia
+  name: deuteranopia
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_deuteranopia
+  commentId: F:Zigurous.ColorPro.ColorBlindness.deuteranopia
+  fullName: Zigurous.ColorPro.ColorBlindness.deuteranopia
+  nameWithType: ColorBlindness.deuteranopia
+- uid: Zigurous.ColorPro.ColorBlindness.Deuteranopia(Color)
+  name: Deuteranopia(Color)
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_Deuteranopia_Color_
+  commentId: M:Zigurous.ColorPro.ColorBlindness.Deuteranopia(Color)
+  fullName: Zigurous.ColorPro.ColorBlindness.Deuteranopia(Color)
+  nameWithType: ColorBlindness.Deuteranopia(Color)
+- uid: Zigurous.ColorPro.ColorBlindness.Deuteranopia(Color[])
+  name: Deuteranopia(Color[])
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_Deuteranopia_Color___
+  commentId: M:Zigurous.ColorPro.ColorBlindness.Deuteranopia(Color[])
+  name.vb: Deuteranopia(Color())
+  fullName: Zigurous.ColorPro.ColorBlindness.Deuteranopia(Color[])
+  fullName.vb: Zigurous.ColorPro.ColorBlindness.Deuteranopia(Color())
+  nameWithType: ColorBlindness.Deuteranopia(Color[])
+  nameWithType.vb: ColorBlindness.Deuteranopia(Color())
+- uid: Zigurous.ColorPro.ColorBlindness.Deuteranopia*
+  name: Deuteranopia
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_Deuteranopia_
+  commentId: Overload:Zigurous.ColorPro.ColorBlindness.Deuteranopia
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.ColorBlindness.Deuteranopia
+  nameWithType: ColorBlindness.Deuteranopia
+- uid: Zigurous.ColorPro.ColorBlindness.protanomaly
+  name: protanomaly
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_protanomaly
+  commentId: F:Zigurous.ColorPro.ColorBlindness.protanomaly
+  fullName: Zigurous.ColorPro.ColorBlindness.protanomaly
+  nameWithType: ColorBlindness.protanomaly
+- uid: Zigurous.ColorPro.ColorBlindness.Protanomaly(Color)
+  name: Protanomaly(Color)
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_Protanomaly_Color_
+  commentId: M:Zigurous.ColorPro.ColorBlindness.Protanomaly(Color)
+  fullName: Zigurous.ColorPro.ColorBlindness.Protanomaly(Color)
+  nameWithType: ColorBlindness.Protanomaly(Color)
+- uid: Zigurous.ColorPro.ColorBlindness.Protanomaly(Color[])
+  name: Protanomaly(Color[])
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_Protanomaly_Color___
+  commentId: M:Zigurous.ColorPro.ColorBlindness.Protanomaly(Color[])
+  name.vb: Protanomaly(Color())
+  fullName: Zigurous.ColorPro.ColorBlindness.Protanomaly(Color[])
+  fullName.vb: Zigurous.ColorPro.ColorBlindness.Protanomaly(Color())
+  nameWithType: ColorBlindness.Protanomaly(Color[])
+  nameWithType.vb: ColorBlindness.Protanomaly(Color())
+- uid: Zigurous.ColorPro.ColorBlindness.Protanomaly*
+  name: Protanomaly
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_Protanomaly_
+  commentId: Overload:Zigurous.ColorPro.ColorBlindness.Protanomaly
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.ColorBlindness.Protanomaly
+  nameWithType: ColorBlindness.Protanomaly
+- uid: Zigurous.ColorPro.ColorBlindness.protanopia
+  name: protanopia
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_protanopia
+  commentId: F:Zigurous.ColorPro.ColorBlindness.protanopia
+  fullName: Zigurous.ColorPro.ColorBlindness.protanopia
+  nameWithType: ColorBlindness.protanopia
+- uid: Zigurous.ColorPro.ColorBlindness.Protanopia(Color)
+  name: Protanopia(Color)
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_Protanopia_Color_
+  commentId: M:Zigurous.ColorPro.ColorBlindness.Protanopia(Color)
+  fullName: Zigurous.ColorPro.ColorBlindness.Protanopia(Color)
+  nameWithType: ColorBlindness.Protanopia(Color)
+- uid: Zigurous.ColorPro.ColorBlindness.Protanopia(Color[])
+  name: Protanopia(Color[])
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_Protanopia_Color___
+  commentId: M:Zigurous.ColorPro.ColorBlindness.Protanopia(Color[])
+  name.vb: Protanopia(Color())
+  fullName: Zigurous.ColorPro.ColorBlindness.Protanopia(Color[])
+  fullName.vb: Zigurous.ColorPro.ColorBlindness.Protanopia(Color())
+  nameWithType: ColorBlindness.Protanopia(Color[])
+  nameWithType.vb: ColorBlindness.Protanopia(Color())
+- uid: Zigurous.ColorPro.ColorBlindness.Protanopia*
+  name: Protanopia
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_Protanopia_
+  commentId: Overload:Zigurous.ColorPro.ColorBlindness.Protanopia
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.ColorBlindness.Protanopia
+  nameWithType: ColorBlindness.Protanopia
+- uid: Zigurous.ColorPro.ColorBlindness.tritanomaly
+  name: tritanomaly
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_tritanomaly
+  commentId: F:Zigurous.ColorPro.ColorBlindness.tritanomaly
+  fullName: Zigurous.ColorPro.ColorBlindness.tritanomaly
+  nameWithType: ColorBlindness.tritanomaly
+- uid: Zigurous.ColorPro.ColorBlindness.Tritanomaly(Color)
+  name: Tritanomaly(Color)
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_Tritanomaly_Color_
+  commentId: M:Zigurous.ColorPro.ColorBlindness.Tritanomaly(Color)
+  fullName: Zigurous.ColorPro.ColorBlindness.Tritanomaly(Color)
+  nameWithType: ColorBlindness.Tritanomaly(Color)
+- uid: Zigurous.ColorPro.ColorBlindness.Tritanomaly(Color[])
+  name: Tritanomaly(Color[])
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_Tritanomaly_Color___
+  commentId: M:Zigurous.ColorPro.ColorBlindness.Tritanomaly(Color[])
+  name.vb: Tritanomaly(Color())
+  fullName: Zigurous.ColorPro.ColorBlindness.Tritanomaly(Color[])
+  fullName.vb: Zigurous.ColorPro.ColorBlindness.Tritanomaly(Color())
+  nameWithType: ColorBlindness.Tritanomaly(Color[])
+  nameWithType.vb: ColorBlindness.Tritanomaly(Color())
+- uid: Zigurous.ColorPro.ColorBlindness.Tritanomaly*
+  name: Tritanomaly
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_Tritanomaly_
+  commentId: Overload:Zigurous.ColorPro.ColorBlindness.Tritanomaly
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.ColorBlindness.Tritanomaly
+  nameWithType: ColorBlindness.Tritanomaly
+- uid: Zigurous.ColorPro.ColorBlindness.tritanopia
+  name: tritanopia
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_tritanopia
+  commentId: F:Zigurous.ColorPro.ColorBlindness.tritanopia
+  fullName: Zigurous.ColorPro.ColorBlindness.tritanopia
+  nameWithType: ColorBlindness.tritanopia
+- uid: Zigurous.ColorPro.ColorBlindness.Tritanopia(Color)
+  name: Tritanopia(Color)
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_Tritanopia_Color_
+  commentId: M:Zigurous.ColorPro.ColorBlindness.Tritanopia(Color)
+  fullName: Zigurous.ColorPro.ColorBlindness.Tritanopia(Color)
+  nameWithType: ColorBlindness.Tritanopia(Color)
+- uid: Zigurous.ColorPro.ColorBlindness.Tritanopia(Color[])
+  name: Tritanopia(Color[])
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_Tritanopia_Color___
+  commentId: M:Zigurous.ColorPro.ColorBlindness.Tritanopia(Color[])
+  name.vb: Tritanopia(Color())
+  fullName: Zigurous.ColorPro.ColorBlindness.Tritanopia(Color[])
+  fullName.vb: Zigurous.ColorPro.ColorBlindness.Tritanopia(Color())
+  nameWithType: ColorBlindness.Tritanopia(Color[])
+  nameWithType.vb: ColorBlindness.Tritanopia(Color())
+- uid: Zigurous.ColorPro.ColorBlindness.Tritanopia*
+  name: Tritanopia
+  href: api/Zigurous.ColorPro.ColorBlindness.html#Zigurous_ColorPro_ColorBlindness_Tritanopia_
+  commentId: Overload:Zigurous.ColorPro.ColorBlindness.Tritanopia
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.ColorBlindness.Tritanopia
+  nameWithType: ColorBlindness.Tritanopia
 - uid: Zigurous.ColorPro.ColorModel
   name: ColorModel
   href: api/Zigurous.ColorPro.ColorModel.html
@@ -3261,12 +3556,78 @@ references:
   commentId: F:Zigurous.ColorPro.ColorSpace.HunterLab
   fullName: Zigurous.ColorPro.ColorSpace.HunterLab
   nameWithType: ColorSpace.HunterLab
+- uid: Zigurous.ColorPro.ColorSpace.LMS
+  name: LMS
+  href: api/Zigurous.ColorPro.ColorSpace.html#Zigurous_ColorPro_ColorSpace_LMS
+  commentId: F:Zigurous.ColorPro.ColorSpace.LMS
+  fullName: Zigurous.ColorPro.ColorSpace.LMS
+  nameWithType: ColorSpace.LMS
 - uid: Zigurous.ColorPro.ColorSpace.sRGB
   name: sRGB
   href: api/Zigurous.ColorPro.ColorSpace.html#Zigurous_ColorPro_ColorSpace_sRGB
   commentId: F:Zigurous.ColorPro.ColorSpace.sRGB
   fullName: Zigurous.ColorPro.ColorSpace.sRGB
   nameWithType: ColorSpace.sRGB
+- uid: Zigurous.ColorPro.ColorVision
+  name: ColorVision
+  href: api/Zigurous.ColorPro.ColorVision.html
+  commentId: T:Zigurous.ColorPro.ColorVision
+  fullName: Zigurous.ColorPro.ColorVision
+  nameWithType: ColorVision
+- uid: Zigurous.ColorPro.ColorVision.Achromatomaly
+  name: Achromatomaly
+  href: api/Zigurous.ColorPro.ColorVision.html#Zigurous_ColorPro_ColorVision_Achromatomaly
+  commentId: F:Zigurous.ColorPro.ColorVision.Achromatomaly
+  fullName: Zigurous.ColorPro.ColorVision.Achromatomaly
+  nameWithType: ColorVision.Achromatomaly
+- uid: Zigurous.ColorPro.ColorVision.Achromatopsia
+  name: Achromatopsia
+  href: api/Zigurous.ColorPro.ColorVision.html#Zigurous_ColorPro_ColorVision_Achromatopsia
+  commentId: F:Zigurous.ColorPro.ColorVision.Achromatopsia
+  fullName: Zigurous.ColorPro.ColorVision.Achromatopsia
+  nameWithType: ColorVision.Achromatopsia
+- uid: Zigurous.ColorPro.ColorVision.Deuteranomaly
+  name: Deuteranomaly
+  href: api/Zigurous.ColorPro.ColorVision.html#Zigurous_ColorPro_ColorVision_Deuteranomaly
+  commentId: F:Zigurous.ColorPro.ColorVision.Deuteranomaly
+  fullName: Zigurous.ColorPro.ColorVision.Deuteranomaly
+  nameWithType: ColorVision.Deuteranomaly
+- uid: Zigurous.ColorPro.ColorVision.Deuteranopia
+  name: Deuteranopia
+  href: api/Zigurous.ColorPro.ColorVision.html#Zigurous_ColorPro_ColorVision_Deuteranopia
+  commentId: F:Zigurous.ColorPro.ColorVision.Deuteranopia
+  fullName: Zigurous.ColorPro.ColorVision.Deuteranopia
+  nameWithType: ColorVision.Deuteranopia
+- uid: Zigurous.ColorPro.ColorVision.Normal
+  name: Normal
+  href: api/Zigurous.ColorPro.ColorVision.html#Zigurous_ColorPro_ColorVision_Normal
+  commentId: F:Zigurous.ColorPro.ColorVision.Normal
+  fullName: Zigurous.ColorPro.ColorVision.Normal
+  nameWithType: ColorVision.Normal
+- uid: Zigurous.ColorPro.ColorVision.Protanomaly
+  name: Protanomaly
+  href: api/Zigurous.ColorPro.ColorVision.html#Zigurous_ColorPro_ColorVision_Protanomaly
+  commentId: F:Zigurous.ColorPro.ColorVision.Protanomaly
+  fullName: Zigurous.ColorPro.ColorVision.Protanomaly
+  nameWithType: ColorVision.Protanomaly
+- uid: Zigurous.ColorPro.ColorVision.Protanopia
+  name: Protanopia
+  href: api/Zigurous.ColorPro.ColorVision.html#Zigurous_ColorPro_ColorVision_Protanopia
+  commentId: F:Zigurous.ColorPro.ColorVision.Protanopia
+  fullName: Zigurous.ColorPro.ColorVision.Protanopia
+  nameWithType: ColorVision.Protanopia
+- uid: Zigurous.ColorPro.ColorVision.Tritanomaly
+  name: Tritanomaly
+  href: api/Zigurous.ColorPro.ColorVision.html#Zigurous_ColorPro_ColorVision_Tritanomaly
+  commentId: F:Zigurous.ColorPro.ColorVision.Tritanomaly
+  fullName: Zigurous.ColorPro.ColorVision.Tritanomaly
+  nameWithType: ColorVision.Tritanomaly
+- uid: Zigurous.ColorPro.ColorVision.Tritanopia
+  name: Tritanopia
+  href: api/Zigurous.ColorPro.ColorVision.html#Zigurous_ColorPro_ColorVision_Tritanopia
+  commentId: F:Zigurous.ColorPro.ColorVision.Tritanopia
+  fullName: Zigurous.ColorPro.ColorVision.Tritanopia
+  nameWithType: ColorVision.Tritanopia
 - uid: Zigurous.ColorPro.ColorWheelDivision
   name: ColorWheelDivision
   href: api/Zigurous.ColorPro.ColorWheelDivision.html
@@ -4360,6 +4721,28 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.Conversion.ToHunterLab
   nameWithType: Conversion.ToHunterLab
+- uid: Zigurous.ColorPro.Conversion.ToLMS(Color)
+  name: ToLMS(Color)
+  href: api/Zigurous.ColorPro.Conversion.html#Zigurous_ColorPro_Conversion_ToLMS_Color_
+  commentId: M:Zigurous.ColorPro.Conversion.ToLMS(Color)
+  fullName: Zigurous.ColorPro.Conversion.ToLMS(Color)
+  nameWithType: Conversion.ToLMS(Color)
+- uid: Zigurous.ColorPro.Conversion.ToLMS(Color,System.Single@,System.Single@,System.Single@)
+  name: ToLMS(Color, out Single, out Single, out Single)
+  href: api/Zigurous.ColorPro.Conversion.html#Zigurous_ColorPro_Conversion_ToLMS_Color_System_Single__System_Single__System_Single__
+  commentId: M:Zigurous.ColorPro.Conversion.ToLMS(Color,System.Single@,System.Single@,System.Single@)
+  name.vb: ToLMS(Color, ByRef Single, ByRef Single, ByRef Single)
+  fullName: Zigurous.ColorPro.Conversion.ToLMS(Color, out System.Single, out System.Single, out System.Single)
+  fullName.vb: Zigurous.ColorPro.Conversion.ToLMS(Color, ByRef System.Single, ByRef System.Single, ByRef System.Single)
+  nameWithType: Conversion.ToLMS(Color, out Single, out Single, out Single)
+  nameWithType.vb: Conversion.ToLMS(Color, ByRef Single, ByRef Single, ByRef Single)
+- uid: Zigurous.ColorPro.Conversion.ToLMS*
+  name: ToLMS
+  href: api/Zigurous.ColorPro.Conversion.html#Zigurous_ColorPro_Conversion_ToLMS_
+  commentId: Overload:Zigurous.ColorPro.Conversion.ToLMS
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.Conversion.ToLMS
+  nameWithType: Conversion.ToLMS
 - uid: Zigurous.ColorPro.Conversion.ToRGB(Color)
   name: ToRGB(Color)
   href: api/Zigurous.ColorPro.Conversion.html#Zigurous_ColorPro_Conversion_ToRGB_Color_
@@ -6221,6 +6604,183 @@ references:
   isSpec: "True"
   fullName: Zigurous.ColorPro.IlluminantExtensions.GetWhitePoint
   nameWithType: IlluminantExtensions.GetWhitePoint
+- uid: Zigurous.ColorPro.LMS
+  name: LMS
+  href: api/Zigurous.ColorPro.LMS.html
+  commentId: T:Zigurous.ColorPro.LMS
+  fullName: Zigurous.ColorPro.LMS
+  nameWithType: LMS
+- uid: Zigurous.ColorPro.LMS.#ctor(Color)
+  name: LMS(Color)
+  href: api/Zigurous.ColorPro.LMS.html#Zigurous_ColorPro_LMS__ctor_Color_
+  commentId: M:Zigurous.ColorPro.LMS.#ctor(Color)
+  fullName: Zigurous.ColorPro.LMS.LMS(Color)
+  nameWithType: LMS.LMS(Color)
+- uid: Zigurous.ColorPro.LMS.#ctor(System.Single,System.Single,System.Single)
+  name: LMS(Single, Single, Single)
+  href: api/Zigurous.ColorPro.LMS.html#Zigurous_ColorPro_LMS__ctor_System_Single_System_Single_System_Single_
+  commentId: M:Zigurous.ColorPro.LMS.#ctor(System.Single,System.Single,System.Single)
+  fullName: Zigurous.ColorPro.LMS.LMS(System.Single, System.Single, System.Single)
+  nameWithType: LMS.LMS(Single, Single, Single)
+- uid: Zigurous.ColorPro.LMS.#ctor*
+  name: LMS
+  href: api/Zigurous.ColorPro.LMS.html#Zigurous_ColorPro_LMS__ctor_
+  commentId: Overload:Zigurous.ColorPro.LMS.#ctor
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.LMS.LMS
+  nameWithType: LMS.LMS
+- uid: Zigurous.ColorPro.LMS.Convert(Color,System.Single@,System.Single@,System.Single@)
+  name: Convert(Color, out Single, out Single, out Single)
+  href: api/Zigurous.ColorPro.LMS.html#Zigurous_ColorPro_LMS_Convert_Color_System_Single__System_Single__System_Single__
+  commentId: M:Zigurous.ColorPro.LMS.Convert(Color,System.Single@,System.Single@,System.Single@)
+  name.vb: Convert(Color, ByRef Single, ByRef Single, ByRef Single)
+  fullName: Zigurous.ColorPro.LMS.Convert(Color, out System.Single, out System.Single, out System.Single)
+  fullName.vb: Zigurous.ColorPro.LMS.Convert(Color, ByRef System.Single, ByRef System.Single, ByRef System.Single)
+  nameWithType: LMS.Convert(Color, out Single, out Single, out Single)
+  nameWithType.vb: LMS.Convert(Color, ByRef Single, ByRef Single, ByRef Single)
+- uid: Zigurous.ColorPro.LMS.Convert*
+  name: Convert
+  href: api/Zigurous.ColorPro.LMS.html#Zigurous_ColorPro_LMS_Convert_
+  commentId: Overload:Zigurous.ColorPro.LMS.Convert
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.LMS.Convert
+  nameWithType: LMS.Convert
+- uid: Zigurous.ColorPro.LMS.Equals(System.Object)
+  name: Equals(Object)
+  href: api/Zigurous.ColorPro.LMS.html#Zigurous_ColorPro_LMS_Equals_System_Object_
+  commentId: M:Zigurous.ColorPro.LMS.Equals(System.Object)
+  fullName: Zigurous.ColorPro.LMS.Equals(System.Object)
+  nameWithType: LMS.Equals(Object)
+- uid: Zigurous.ColorPro.LMS.Equals(Zigurous.ColorPro.LMS)
+  name: Equals(LMS)
+  href: api/Zigurous.ColorPro.LMS.html#Zigurous_ColorPro_LMS_Equals_Zigurous_ColorPro_LMS_
+  commentId: M:Zigurous.ColorPro.LMS.Equals(Zigurous.ColorPro.LMS)
+  fullName: Zigurous.ColorPro.LMS.Equals(Zigurous.ColorPro.LMS)
+  nameWithType: LMS.Equals(LMS)
+- uid: Zigurous.ColorPro.LMS.Equals*
+  name: Equals
+  href: api/Zigurous.ColorPro.LMS.html#Zigurous_ColorPro_LMS_Equals_
+  commentId: Overload:Zigurous.ColorPro.LMS.Equals
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.LMS.Equals
+  nameWithType: LMS.Equals
+- uid: Zigurous.ColorPro.LMS.GetHashCode
+  name: GetHashCode()
+  href: api/Zigurous.ColorPro.LMS.html#Zigurous_ColorPro_LMS_GetHashCode
+  commentId: M:Zigurous.ColorPro.LMS.GetHashCode
+  fullName: Zigurous.ColorPro.LMS.GetHashCode()
+  nameWithType: LMS.GetHashCode()
+- uid: Zigurous.ColorPro.LMS.GetHashCode*
+  name: GetHashCode
+  href: api/Zigurous.ColorPro.LMS.html#Zigurous_ColorPro_LMS_GetHashCode_
+  commentId: Overload:Zigurous.ColorPro.LMS.GetHashCode
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.LMS.GetHashCode
+  nameWithType: LMS.GetHashCode
+- uid: Zigurous.ColorPro.LMS.L
+  name: L
+  href: api/Zigurous.ColorPro.LMS.html#Zigurous_ColorPro_LMS_L
+  commentId: F:Zigurous.ColorPro.LMS.L
+  fullName: Zigurous.ColorPro.LMS.L
+  nameWithType: LMS.L
+- uid: Zigurous.ColorPro.LMS.M
+  name: M
+  href: api/Zigurous.ColorPro.LMS.html#Zigurous_ColorPro_LMS_M
+  commentId: F:Zigurous.ColorPro.LMS.M
+  fullName: Zigurous.ColorPro.LMS.M
+  nameWithType: LMS.M
+- uid: Zigurous.ColorPro.LMS.op_Equality(Zigurous.ColorPro.LMS,Zigurous.ColorPro.LMS)
+  name: Equality(LMS, LMS)
+  href: api/Zigurous.ColorPro.LMS.html#Zigurous_ColorPro_LMS_op_Equality_Zigurous_ColorPro_LMS_Zigurous_ColorPro_LMS_
+  commentId: M:Zigurous.ColorPro.LMS.op_Equality(Zigurous.ColorPro.LMS,Zigurous.ColorPro.LMS)
+  fullName: Zigurous.ColorPro.LMS.Equality(Zigurous.ColorPro.LMS, Zigurous.ColorPro.LMS)
+  nameWithType: LMS.Equality(LMS, LMS)
+- uid: Zigurous.ColorPro.LMS.op_Equality*
+  name: Equality
+  href: api/Zigurous.ColorPro.LMS.html#Zigurous_ColorPro_LMS_op_Equality_
+  commentId: Overload:Zigurous.ColorPro.LMS.op_Equality
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.LMS.Equality
+  nameWithType: LMS.Equality
+- uid: Zigurous.ColorPro.LMS.op_Explicit(Color)~Zigurous.ColorPro.LMS
+  name: Explicit(Color to LMS)
+  href: api/Zigurous.ColorPro.LMS.html#Zigurous_ColorPro_LMS_op_Explicit_Color__Zigurous_ColorPro_LMS
+  commentId: M:Zigurous.ColorPro.LMS.op_Explicit(Color)~Zigurous.ColorPro.LMS
+  name.vb: Narrowing(Color to LMS)
+  fullName: Zigurous.ColorPro.LMS.Explicit(Color to Zigurous.ColorPro.LMS)
+  fullName.vb: Zigurous.ColorPro.LMS.Narrowing(Color to Zigurous.ColorPro.LMS)
+  nameWithType: LMS.Explicit(Color to LMS)
+  nameWithType.vb: LMS.Narrowing(Color to LMS)
+- uid: Zigurous.ColorPro.LMS.op_Explicit(Zigurous.ColorPro.LMS)~Color
+  name: Explicit(LMS to Color)
+  href: api/Zigurous.ColorPro.LMS.html#Zigurous_ColorPro_LMS_op_Explicit_Zigurous_ColorPro_LMS__Color
+  commentId: M:Zigurous.ColorPro.LMS.op_Explicit(Zigurous.ColorPro.LMS)~Color
+  name.vb: Narrowing(LMS to Color)
+  fullName: Zigurous.ColorPro.LMS.Explicit(Zigurous.ColorPro.LMS to Color)
+  fullName.vb: Zigurous.ColorPro.LMS.Narrowing(Zigurous.ColorPro.LMS to Color)
+  nameWithType: LMS.Explicit(LMS to Color)
+  nameWithType.vb: LMS.Narrowing(LMS to Color)
+- uid: Zigurous.ColorPro.LMS.op_Explicit*
+  name: Explicit
+  href: api/Zigurous.ColorPro.LMS.html#Zigurous_ColorPro_LMS_op_Explicit_
+  commentId: Overload:Zigurous.ColorPro.LMS.op_Explicit
+  isSpec: "True"
+  name.vb: Narrowing
+  fullName: Zigurous.ColorPro.LMS.Explicit
+  fullName.vb: Zigurous.ColorPro.LMS.Narrowing
+  nameWithType: LMS.Explicit
+  nameWithType.vb: LMS.Narrowing
+- uid: Zigurous.ColorPro.LMS.op_Inequality(Zigurous.ColorPro.LMS,Zigurous.ColorPro.LMS)
+  name: Inequality(LMS, LMS)
+  href: api/Zigurous.ColorPro.LMS.html#Zigurous_ColorPro_LMS_op_Inequality_Zigurous_ColorPro_LMS_Zigurous_ColorPro_LMS_
+  commentId: M:Zigurous.ColorPro.LMS.op_Inequality(Zigurous.ColorPro.LMS,Zigurous.ColorPro.LMS)
+  fullName: Zigurous.ColorPro.LMS.Inequality(Zigurous.ColorPro.LMS, Zigurous.ColorPro.LMS)
+  nameWithType: LMS.Inequality(LMS, LMS)
+- uid: Zigurous.ColorPro.LMS.op_Inequality*
+  name: Inequality
+  href: api/Zigurous.ColorPro.LMS.html#Zigurous_ColorPro_LMS_op_Inequality_
+  commentId: Overload:Zigurous.ColorPro.LMS.op_Inequality
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.LMS.Inequality
+  nameWithType: LMS.Inequality
+- uid: Zigurous.ColorPro.LMS.S
+  name: S
+  href: api/Zigurous.ColorPro.LMS.html#Zigurous_ColorPro_LMS_S
+  commentId: F:Zigurous.ColorPro.LMS.S
+  fullName: Zigurous.ColorPro.LMS.S
+  nameWithType: LMS.S
+- uid: Zigurous.ColorPro.LMS.ToColor
+  name: ToColor()
+  href: api/Zigurous.ColorPro.LMS.html#Zigurous_ColorPro_LMS_ToColor
+  commentId: M:Zigurous.ColorPro.LMS.ToColor
+  fullName: Zigurous.ColorPro.LMS.ToColor()
+  nameWithType: LMS.ToColor()
+- uid: Zigurous.ColorPro.LMS.ToColor(System.Single,System.Single,System.Single)
+  name: ToColor(Single, Single, Single)
+  href: api/Zigurous.ColorPro.LMS.html#Zigurous_ColorPro_LMS_ToColor_System_Single_System_Single_System_Single_
+  commentId: M:Zigurous.ColorPro.LMS.ToColor(System.Single,System.Single,System.Single)
+  fullName: Zigurous.ColorPro.LMS.ToColor(System.Single, System.Single, System.Single)
+  nameWithType: LMS.ToColor(Single, Single, Single)
+- uid: Zigurous.ColorPro.LMS.ToColor*
+  name: ToColor
+  href: api/Zigurous.ColorPro.LMS.html#Zigurous_ColorPro_LMS_ToColor_
+  commentId: Overload:Zigurous.ColorPro.LMS.ToColor
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.LMS.ToColor
+  nameWithType: LMS.ToColor
+- uid: Zigurous.ColorPro.LMS.ToString
+  name: ToString()
+  href: api/Zigurous.ColorPro.LMS.html#Zigurous_ColorPro_LMS_ToString
+  commentId: M:Zigurous.ColorPro.LMS.ToString
+  fullName: Zigurous.ColorPro.LMS.ToString()
+  nameWithType: LMS.ToString()
+- uid: Zigurous.ColorPro.LMS.ToString*
+  name: ToString
+  href: api/Zigurous.ColorPro.LMS.html#Zigurous_ColorPro_LMS_ToString_
+  commentId: Overload:Zigurous.ColorPro.LMS.ToString
+  isSpec: "True"
+  fullName: Zigurous.ColorPro.LMS.ToString
+  nameWithType: LMS.ToString
 - uid: Zigurous.ColorPro.LumaCoefficients
   name: LumaCoefficients
   href: api/Zigurous.ColorPro.LumaCoefficients.html

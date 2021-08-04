@@ -218,11 +218,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorPro.ChannelMixer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorPro.ChannelMixer.html",
+          "hash": "gKxmk7lnY0Ti/M192qLW7oWB1oVyx03bT5uap/feInI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorPro.ColorBlindness.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorPro.ColorBlindness.html",
+          "hash": "PihsF1AgUSqPwM/5W1WUoVU660ep0K2JG74Uy5Xyti0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Zigurous.ColorPro.ColorModel.yml",
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorPro.ColorModel.html",
-          "hash": "/szOOppwoE+ULWnq5rDGetf5HsnHhm3mLnFYXk018iU="
+          "hash": "cBnpF+LDurdkPh2pH36Vx2t9J/cSpiStWC7aT9Rbi/w="
         }
       },
       "is_incremental": false,
@@ -246,7 +270,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorPro.ColorSpace.html",
-          "hash": "nS40bOKsQuMo8yBYRNSsmvuOlcNbi2tLOcNhwAlAxew="
+          "hash": "slBLwgSit2kF65Xk6nGXmjDV48pr2JrAsbgzL2WUcJE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorPro.ColorVision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorPro.ColorVision.html",
+          "hash": "Z5REe5PnW3DG2RtCnL1byQQWYfHdQb6bFrn1OZDcEXo="
         }
       },
       "is_incremental": false,
@@ -294,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorPro.Conversion.html",
-          "hash": "EC7ugRcnm4E+LK1Tdt0F9VUpvjGD2Ws1en30cIxI5vc="
+          "hash": "oNiTvTPNIQHRr+Bvh/qrRNUbRx0E2FcvDOVcaa77A9Y="
         }
       },
       "is_incremental": false,
@@ -427,6 +463,18 @@
         ".html": {
           "relative_path": "api/Zigurous.ColorPro.IlluminantExtensions.html",
           "hash": "oAlZFRqoZJW1YtQw38ICKF5qSjEl7ouj+kpWit7jmtE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Zigurous.ColorPro.LMS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Zigurous.ColorPro.LMS.html",
+          "hash": "LwA/xEMLDhimpUbhZLEP1XVHGJ6v6qKMmzgFfiN+30I="
         }
       },
       "is_incremental": false,
@@ -678,7 +726,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Zigurous.ColorPro.html",
-          "hash": "VYAElOFPXsDAaghPSC7+XkR4Xp5U8+gppaMXbYQPCfI="
+          "hash": "1vSKu2BGzOaaLjVXouDUx0dxTuEFANFrJfPtou7lVT8="
         }
       },
       "is_incremental": false,
@@ -690,7 +738,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "k/kUxDuVIMPAZi5b39KvqWTLuLT6zn5wZM3SYw2lORI="
+          "hash": "jk117e3hEgPNCHWE3gLFbuEa+GFXpgpk4XDO2bUMMxU="
         }
       },
       "is_incremental": false,
@@ -815,6 +863,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/color-blindness.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/color-blindness.html",
+          "hash": "KvWmOTCT746jJDekCgAr0Tet+clqidDs/5J4Hiemmoc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/components.md",
       "output": {
         ".html": {
@@ -843,7 +903,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/conversion.html",
-          "hash": "iKyhO3tWRIph0CrsX0RJMlmMMuZQOBGXwRzfFlLxBkQ="
+          "hash": "GlND2N2TKaFaomdLMrw5zmg2Wis0ytC7qpVyoVhme/g="
         }
       },
       "is_incremental": false,
@@ -915,7 +975,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/index.html",
-          "hash": "kbW4iSkdW6AV4YeyqU/p8VGNzpBguyhdSpaIMDjXUc4="
+          "hash": "sBArXh+KaAk58s8t35hDROKZratAzDSHA6ln6rgd8vs="
         }
       },
       "is_incremental": false,
@@ -963,7 +1023,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/mixing.html",
-          "hash": "FcYaReyvg+N6og7aY1jqjuQkB99MfrETWrVRkLh0mwY="
+          "hash": "7pV5p+9WPDjvF9rF6WwXBTO+F3mnY0lT4DBF3ywVYnU="
         }
       },
       "is_incremental": false,
@@ -978,7 +1038,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/palettes.html",
-          "hash": "lCHPVhcUoup94brC6SZU+J7t4hIsiffrj75jnTF9Krg="
+          "hash": "VzgPQwi5FF8yFaH1VFTz49idrmtEhiICmzHUUlMD6V0="
         }
       },
       "is_incremental": false,
@@ -1026,7 +1086,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "eMbDezUj5ZrBW8qLDhIzHwFswhiTG4WFj9gY72wSB2I="
+          "hash": "n78FvI5qklzwoUhBAFps34gbV1xLYalN/QHx2fwcjrQ="
         }
       },
       "is_incremental": false,
@@ -1059,13 +1119,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 23,
+          "total_file_count": 24,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 55,
+          "total_file_count": 59,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

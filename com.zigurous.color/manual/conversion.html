@@ -319,6 +319,20 @@ Color color = HunterLab.ToColor(L, a, b);
 HunterLab components = new HunterLab(color);
 Color color = components.ToColor();
 </code></pre>
+<h4 id="lms"><a class="xref" href="../api/Zigurous.ColorPro.LMS.html">LMS</a></h4>
+<p>The LMS (long, medium, short) components of a color.</p>
+<pre><code class="lang-csharp">// Extension methods
+color.ToLMS(out L, out M, out S);
+LMS components = color.ToLMS();
+
+// Static methods
+LMS.Convert(color, out L, out M, out S);
+Color color = LMS.ToColor(L, M, S);
+
+// Instance methods
+LMS components = new LMS(color);
+Color color = components.ToColor();
+</code></pre>
 <h4 id="rgb"><a class="xref" href="../api/Zigurous.ColorPro.RGB.html">RGB</a></h4>
 <p>The RGB (red, green, blue) components of a color in the range [0..1].</p>
 <pre><code class="lang-csharp">// Extension methods

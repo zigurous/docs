@@ -83,11 +83,10 @@
 <p>Mixing colors together is very common when producing color palettes. The most notable examples of this are creating tints (mixing with white), shades (mixing with black), and tones (mixing with gray), although any two colors can be mixed together. These functions are declared as extension methods in the static class <a class="xref" href="../api/Zigurous.ColorPro.Mixing.html">Mixing</a>.</p>
 <pre><code class="lang-csharp">Color red = Color.red;
 Color yellow = Color.yellow;
-Color orange = red.Mix(yellow);
 
-Color result;
-result = red.Mix(yellow, 0.25f); // &quot;red-orange&quot;
-result = red.Mix(yellow, 0.75f); // &quot;amber&quot;
+Color orange = red.Mix(yellow); // 50% red, 50% yellow
+Color redOrange = red.Mix(yellow, 0.25f); // 75% red, 25% yellow
+Color amber = red.Mix(yellow, 0.75f); // 25% red, 75% yellow
 </code></pre>
 <blockquote>
 <p>Note: Colors are mixed using their RGB values (additive mixing model). See the <a href="mixing-models.html">Mixing Models</a> manual for more information on the differences.</p>
