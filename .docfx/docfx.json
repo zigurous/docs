@@ -21,7 +21,7 @@
         ]
       }
     ],
-    "dest": "dist",
+    "dest": "../overview",
     "globalMetadata": {
       "_appTitle": "Documentation",
       "_appFooter": "Copyright © 2021 Zigurous",
@@ -34,6 +34,10 @@
         "repo": "https://github.com/zigurous/docs",
         "branch": "main"
       }
+    },
+    "sitemap": {
+      "baseUrl": "https://docs.zigurous.com/overview/",
+      "changefreq": "monthly"
     },
     "template": [
       "default",
