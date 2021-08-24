@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_zigurous_docs=self.webpackChunk_zigurous_docs||[]).push([[883],{9616:function(u,c,e){e.r(c);var n=e(5444),s=e(7294);c.default=function(){return(0,s.useEffect)((function(){(0,n.c4)("/",{replace:!0})}),[]),null}}}]);

@@ -1,0 +1,108 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><link data-identity="gatsby-global-css" href="/styles.25baadcd82cbd940f7c9.css" rel="stylesheet" type="text/css"/><meta name="generator" content="Gatsby 3.12.0"/><link rel="sitemap" type="application/xml" href="/sitemap/sitemap-index.xml"/><title data-react-helmet="true"></title><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true"/><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&amp;38;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;38;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/><link as="script" rel="preload" href="/webpack-runtime-c4945bb0580d879aa434.js"/><link as="script" rel="preload" href="/framework-0dbfab7327d8218a5744.js"/><link as="script" rel="preload" href="/app-98d9cfd702e0c488b316.js"/><link as="script" rel="preload" href="/component---src-pages-markdown-remark-frontmatter-slug-js-658d4bcca5a1d9a17725.js"/><link as="fetch" rel="preload" href="/page-data/changelog/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2339737769.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/3218290725.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/4092961148.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><article><div class="content"><h1>Changelog</h1>
+<p>All notable changes to this project will be documented in this file.</p>
+<p>The format is based on <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>,
+and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semantic Versioning</a>.</p>
+<h2>[1.6.0] - 2021/07/18</h2>
+<h3>Added</h3>
+<ul>
+<li>New <code>Parameter</code> static class with predefined hash ids</li>
+<li>New <code>SmoothDamp&#x3C;T></code> abstract class</li>
+<li>New <code>SmoothDampFloat</code> data structure</li>
+<li>New <code>SmoothDampVector2</code> data structure</li>
+<li>New <code>SmoothDampVector3</code> data structure</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Hash ids on <code>AnimatorParameter</code> were not updating when the name was changed in the editor</li>
+</ul>
+<h2>[1.5.0] - 2021/07/07</h2>
+<h3>Added</h3>
+<ul>
+<li>New <code>Timing01</code> struct</li>
+<li>New <code>TimingRange01</code> struct</li>
+<li>New <code>IAnimationCurve&#x3C;T></code> interface</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>Removed root bone from avatar masks</li>
+<li>Updated documentation comments</li>
+<li>Updated package metadata</li>
+</ul>
+<h2>[1.4.2] - 2021/07/01</h2>
+<h3>Changed</h3>
+<ul>
+<li>Hash ids on <code>AnimatorParameter</code> are now generated automatically without ever having to call a function</li>
+</ul>
+<h2>[1.4.1] - 2021/06/28</h2>
+<h3>Changed</h3>
+<ul>
+<li>Attribute <code>[AddComponentMenu]</code> added to all behaviors</li>
+</ul>
+<h2>[1.4.0] - 2021/06/27</h2>
+<h3>Added</h3>
+<ul>
+<li>Support for different update modes on common animation scripts</li>
+<li>New <code>RotateAround</code> script</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>Increased default speed values</li>
+<li>Separated speed from rotation axis</li>
+</ul>
+<h2>[1.3.1] - 2021/06/22</h2>
+<h3>Added</h3>
+<ul>
+<li>Editor property drawer for <code>AnimatorParameter</code></li>
+</ul>
+<h2>[1.3.0] - 2021/06/22</h2>
+<h3>Added</h3>
+<ul>
+<li>New <code>AnimatorParameter</code> data structure</li>
+<li>Restart function added to <code>AnimatedSprite</code></li>
+</ul>
+<h2>[1.2.0] - 2021/06/10</h2>
+<h3>Added</h3>
+<ul>
+<li>New <code>FollowPath</code> script</li>
+<li>Support for reversed <code>AnimatedSprite</code></li>
+</ul>
+<h2>[1.1.0] - 2021/05/19</h2>
+<h3>Added</h3>
+<ul>
+<li>New <code>AnimatedSprite</code> behavior</li>
+</ul>
+<h2>[1.0.1] - 2021/04/13</h2>
+<h3>Changed</h3>
+<ul>
+<li>Package description</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Set Editor assembly to only compile for the Editor platform</li>
+<li>Moved non-compiled assets outside of the Runtime directory</li>
+</ul>
+<h2>[1.0.0] - 2021/03/24</h2>
+<h3>Added</h3>
+<ul>
+<li>16 Humanoid Animation Masks</li>
+<li>Animation Scripts
+<ul>
+<li>SmoothFollow</li>
+<li>SmoothLookAt</li>
+<li>Blink</li>
+<li>Move</li>
+<li>Orbit</li>
+<li>Rotate</li>
+<li>Scale</li>
+</ul>
+</li>
+<li>Data Structures
+<ul>
+<li>Timing</li>
+<li>TimingRange</li>
+<li>Vector2AnimationCurve</li>
+<li>Vector3AnimationCurve</li>
+<li>Vector4AnimationCurve</li>
+</ul>
+</li>
+</ul></div></article></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/changelog";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-01e30d9ae5045ea0dbb3.js"],"app":["/app-98d9cfd702e0c488b316.js"],"component---src-pages-404-js":["/component---src-pages-404-js-209761251d32cefca473.js"],"component---src-pages-api-index-js":["/component---src-pages-api-index-js-98cb8d4bc41e5aab3713.js"],"component---src-pages-index-js":["/component---src-pages-index-js-9452a096091111f7e485.js"],"component---src-pages-markdown-remark-frontmatter-slug-js":["/component---src-pages-markdown-remark-frontmatter-slug-js-658d4bcca5a1d9a17725.js"],"component---src-templates-api-js":["/component---src-templates-api-js-e45d94e4916ca79d8ac5.js"]};/*]]>*/</script><script src="/polyfill-01e30d9ae5045ea0dbb3.js" nomodule=""></script><script src="/component---src-pages-markdown-remark-frontmatter-slug-js-658d4bcca5a1d9a17725.js" async=""></script><script src="/app-98d9cfd702e0c488b316.js" async=""></script><script src="/framework-0dbfab7327d8218a5744.js" async=""></script><script src="/webpack-runtime-c4945bb0580d879aa434.js" async=""></script></body></html>

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_zigurous_docs=self.webpackChunk_zigurous_docs||[]).push([[647],{5631:function(e,t,n){n.r(t);var a=n(7294);t.default=function(e){var t=e.data.markdownRemark.html;return a.createElement("article",null,a.createElement("div",{className:"content",dangerouslySetInnerHTML:{__html:t}}))}}}]);
