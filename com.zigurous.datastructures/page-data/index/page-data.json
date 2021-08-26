@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-index-js",
+    "path": "/",
+    "result": {"data":{"sidenav":{"nodes":[{"categories":[{"items":[{"path":"/manual"},{"path":"/manual/installation"},{"path":"/changelog"},{"path":"/license"}]},{"items":[{"path":"/manual/structs"},{"path":"/manual/patterns"},{"path":"/manual/extensions"},{"path":"/manual/utilities"}]},{"items":[{"path":null},{"path":null}]},{"items":[{"path":null},{"path":null},{"path":null},{"path":null}]}]}]}},"pageContext":{}},
+    "staticQueryHashes": ["2339737769","3218290725","4092961148"]}
