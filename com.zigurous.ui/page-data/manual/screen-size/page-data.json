@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-markdown-remark-frontmatter-slug-js",
+    "path": "/manual/screen-size",
+    "result": {"data":{"markdownRemark":{"html":"<h1>Screen Size</h1>\n<p>WIP</p>","frontmatter":{"slug":"/manual/screen-size","class":null,"title":""}}},"pageContext":{"id":"c725a738-7167-5a7a-a2e1-96a4b259830d","frontmatter__slug":"/manual/screen-size","__params":{"frontmatter__slug":"manual"}}},
+    "staticQueryHashes": ["3218290725","3618555707","576882587"]}

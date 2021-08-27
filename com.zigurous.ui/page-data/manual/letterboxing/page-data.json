@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-markdown-remark-frontmatter-slug-js",
+    "path": "/manual/letterboxing",
+    "result": {"data":{"markdownRemark":{"html":"<h1>Letterboxing</h1>\n<p>WIP</p>","frontmatter":{"slug":"/manual/letterboxing","class":null,"title":""}}},"pageContext":{"id":"e0dbeb35-613d-5dd4-9d4f-fb89c63b6129","frontmatter__slug":"/manual/letterboxing","__params":{"frontmatter__slug":"manual"}}},
+    "staticQueryHashes": ["3218290725","3618555707","576882587"]}
