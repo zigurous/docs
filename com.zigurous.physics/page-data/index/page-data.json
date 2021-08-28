@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-index-js",
     "path": "/",
-    "result": {"data":{"sidenav":{"nodes":[{"categories":[{"items":[{"path":"/manual"},{"path":"/manual/installation"},{"path":"/changelog"},{"path":"/license"}]},{"items":[{"path":"/manual/events"},{"path":"/manual/materials"},{"path":"/manual/explosions"},{"path":"/manual/magnets"}]},{"items":[{"path":null},{"path":null}]},{"items":[{"path":null},{"path":null},{"path":null},{"path":null}]}]}]}},"pageContext":{}},
+    "result": {"data":{"sidenav":{"nodes":[{"categories":[{"items":[{"path":"/manual"},{"path":"/manual/installation"},{"path":"/changelog"},{"path":"/license"}]},{"items":[{"path":"/manual/events"},{"path":"/manual/behaviors"},{"path":"/manual/materials"}]},{"items":[{"path":null},{"path":null}]},{"items":[{"path":null},{"path":null},{"path":null},{"path":null}]}]}]}},"pageContext":{}},
     "staticQueryHashes": ["3218290725","3618555707","576882587"]}

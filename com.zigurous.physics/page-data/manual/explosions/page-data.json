@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-pages-markdown-remark-frontmatter-slug-js",
-    "path": "/manual/explosions",
-    "result": {"data":{"markdownRemark":{"html":"<h1>Explosions</h1>\n<p>It is very common for games to need to simulate explosion physics. The <strong>Physics Utils</strong> package includes the <a href=\"/com.zigurous.physics/api/Zigurous.Physics.Explosion\">Explosion</a> script to simulate this behavior on rigidbodies. The script works by utilizing the <code>AddExplosionForce</code> function provided by Unity. The script detects the objects within a set radius and applies the force to each. You can customize how the explosion is triggered, the strength of the explosion, fuse time, and more.</p>","frontmatter":{"slug":"/manual/explosions","class":null,"title":""}}},"pageContext":{"id":"142efc48-541b-58d8-8138-55e4be0a033f","frontmatter__slug":"/manual/explosions","__params":{"frontmatter__slug":"manual"}}},
-    "staticQueryHashes": ["3218290725","3618555707","576882587"]}
