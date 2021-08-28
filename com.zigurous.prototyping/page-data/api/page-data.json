@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-api-index-js",
     "path": "/api",
-    "result": {"data":{"api":{"nodes":[{"items":[{"uid":"Zigurous.Prototyping"}]}]}},"pageContext":{}},
-    "staticQueryHashes": ["3218290725","3618555707","576882587"]}
+    "result": {"data":{"api":{"nodes":[{"items":[{"id":"Zigurous.Prototyping","name":"Zigurous.Prototyping","namespace":null,"parent":null,"uid":"Zigurous.Prototyping"}]}]}},"pageContext":{}},
+    "staticQueryHashes": ["1119773448","2497133658","3218290725"]}
