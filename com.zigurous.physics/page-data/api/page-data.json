@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-api-index-js",
     "path": "/api",
-    "result": {"data":{"api":{"nodes":[{"items":[{"uid":"Zigurous.Physics.Events"}]}]}},"pageContext":{}},
-    "staticQueryHashes": ["3218290725","3618555707","576882587"]}
+    "result": {"data":{"api":{"nodes":[{"items":[{"id":"Zigurous.Physics","name":"Zigurous.Physics","namespace":null,"parent":null,"uid":"Zigurous.Physics"}]}]}},"pageContext":{}},
+    "staticQueryHashes": ["1119773448","2497133658","3218290725"]}
