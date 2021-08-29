@@ -1,0 +1,47 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><link data-identity="gatsby-global-css" href="/com.zigurous.tweening/styles.e95e7ae0af44e8df083b.css" rel="stylesheet" type="text/css"/><meta name="generator" content="Gatsby 3.12.1"/><link rel="sitemap" type="application/xml" href="/com.zigurous.tweening/sitemap/sitemap-index.xml"/><title data-react-helmet="true"></title><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true"/><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&amp;38;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;38;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/><link as="script" rel="preload" href="/com.zigurous.tweening/webpack-runtime-45dff28fe62646aade2e.js"/><link as="script" rel="preload" href="/com.zigurous.tweening/framework-0dbfab7327d8218a5744.js"/><link as="script" rel="preload" href="/com.zigurous.tweening/app-a567c7594ac28802dcd3.js"/><link as="script" rel="preload" href="/com.zigurous.tweening/9a62c4c85f8bef0e63ed808214afa91a5d6dc500-a3129f62392014497693.js"/><link as="script" rel="preload" href="/com.zigurous.tweening/component---src-pages-markdown-remark-frontmatter-slug-js-369746dd2a01bb700388.js"/><link as="fetch" rel="preload" href="/com.zigurous.tweening/page-data/manual/easing/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/com.zigurous.tweening/page-data/sq/d/1119773448.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/com.zigurous.tweening/page-data/sq/d/2497133658.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/com.zigurous.tweening/page-data/sq/d/3218290725.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/com.zigurous.tweening/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><article class="markdown"><div class="markdown__content"><h1>Easing</h1>
+<p>Easing functions specify the rate of change of a parameter over time. The website <a href="https://easings.net/" target="_blank" rel="nofollow noopener noreferrer">https://easings.net/</a> is a good resource to visualize common easing functions.</p>
+<p>Objects in real life don’t just start and stop instantly, and almost never move at a constant speed. When we open a drawer, we first move it quickly, and slow it down as it comes out. Drop something on the floor, and it will first accelerate downwards, and then bounce back up after hitting the floor.</p>
+<hr/>
+<h2>〽️ Using easing functions</h2>
+<p>To specify which easing function a tween uses, the property <a href="/com.zigurous.tweening/api/Zigurous.Tweening/Tween/ease">ease</a> can be set. This property is backed by a custom enum called <a href="/com.zigurous.tweening/api/Zigurous.Tweening/Ease">Ease</a> containing 30+ ease types.</p>
+<pre><code class="language-csharp">tween.ease = Ease.QuadOut;
+</code></pre>
+<p>You can also use the easing functions directly through the static class <a href="/com.zigurous.tweening/api/Zigurous.Tweening/EaseFunction">EaseFunction</a>.<br/>
+Every easing function takes the form f(x):</p>
+<pre><code class="language-csharp">public float EaseFunction(float x);
+</code></pre>
+<hr/>
+<h2>➰ Available Eases</h2>
+<ul>
+<li>Linear</li>
+<li>SineIn</li>
+<li>SineOut</li>
+<li>SineInOut</li>
+<li>CubicIn</li>
+<li>CubicOut</li>
+<li>CubicInOut</li>
+<li>QuadIn</li>
+<li>QuadOut</li>
+<li>QuadInOut</li>
+<li>QuartIn</li>
+<li>QuartOut</li>
+<li>QuartInOut</li>
+<li>QuintIn</li>
+<li>QuintOut</li>
+<li>QuintInOut</li>
+<li>ExpoIn</li>
+<li>ExpoOut</li>
+<li>ExpoInOut</li>
+<li>CircIn</li>
+<li>CircOut</li>
+<li>CircInOut</li>
+<li>BackIn</li>
+<li>BackOut</li>
+<li>BackInOut</li>
+<li>ElasticIn</li>
+<li>ElasticOut</li>
+<li>ElasticInOut</li>
+<li>BounceIn</li>
+<li>BounceOut</li>
+<li>BounceInOut</li>
+</ul></div></article></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/manual/easing";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-01e30d9ae5045ea0dbb3.js"],"app":["/app-a567c7594ac28802dcd3.js"],"component---src-pages-404-js":["/component---src-pages-404-js-59ef070172b73168cc1e.js"],"component---src-pages-api-index-js":["/component---src-pages-api-index-js-8144c55914649de94620.js"],"component---src-pages-index-js":["/component---src-pages-index-js-59cbb2594b4cb546d12b.js"],"component---src-pages-markdown-remark-frontmatter-slug-js":["/component---src-pages-markdown-remark-frontmatter-slug-js-369746dd2a01bb700388.js"],"component---src-templates-api-js":["/component---src-templates-api-js-3112913071df2c3d7b53.js"]};/*]]>*/</script><script src="/com.zigurous.tweening/polyfill-01e30d9ae5045ea0dbb3.js" nomodule=""></script><script src="/com.zigurous.tweening/component---src-pages-markdown-remark-frontmatter-slug-js-369746dd2a01bb700388.js" async=""></script><script src="/com.zigurous.tweening/9a62c4c85f8bef0e63ed808214afa91a5d6dc500-a3129f62392014497693.js" async=""></script><script src="/com.zigurous.tweening/app-a567c7594ac28802dcd3.js" async=""></script><script src="/com.zigurous.tweening/framework-0dbfab7327d8218a5744.js" async=""></script><script src="/com.zigurous.tweening/webpack-runtime-45dff28fe62646aade2e.js" async=""></script></body></html>
