@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-api-js",
-    "path": "/api/Zigurous.Tweening/Tweening/ActiveCount",
-    "result": {"pageContext":{"uid":"Zigurous.Tweening.Tweening.ActiveCount"}},
+    "path": "/api/Zigurous.Tweening/Tweening/count",
+    "result": {"pageContext":{"uid":"Zigurous.Tweening.Tweening.count"}},
     "staticQueryHashes": ["1119773448","2497133658","2614227032","3218290725"]}
