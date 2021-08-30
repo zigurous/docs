@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><link data-identity="gatsby-global-css" href="/com.zigurous.color/styles.e95e7ae0af44e8df083b.css" rel="stylesheet" type="text/css"/><meta name="generator" content="Gatsby 3.12.1"/><link rel="sitemap" type="application/xml" href="/com.zigurous.color/sitemap/sitemap-index.xml"/><title data-react-helmet="true"></title><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true"/><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&amp;38;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;38;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/><link as="script" rel="preload" href="/com.zigurous.color/webpack-runtime-a2874efe67bbfb801f6e.js"/><link as="script" rel="preload" href="/com.zigurous.color/framework-0dbfab7327d8218a5744.js"/><link as="script" rel="preload" href="/com.zigurous.color/app-79248f870713992bc47b.js"/><link as="script" rel="preload" href="/com.zigurous.color/9a62c4c85f8bef0e63ed808214afa91a5d6dc500-a3129f62392014497693.js"/><link as="script" rel="preload" href="/com.zigurous.color/component---src-pages-markdown-remark-frontmatter-slug-js-369746dd2a01bb700388.js"/><link as="fetch" rel="preload" href="/com.zigurous.color/page-data/manual/contrast/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/com.zigurous.color/page-data/sq/d/1119773448.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/com.zigurous.color/page-data/sq/d/2497133658.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/com.zigurous.color/page-data/sq/d/3218290725.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/com.zigurous.color/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><article class="markdown"><div class="markdown__content"><h1>Contrast</h1>
+<p>The <strong>Color Pro</strong> package includes several functions for getting the contrast ratio between colors. This is primarily used when determining <a href="/com.zigurous.color/manual/accessibility">accessibility requirements</a>, but it can also be used for other purposes.</p>
+<hr/>
+<h2>🔲 Calculating Contrast</h2>
+<p>Contrast functions are declared as extension methods in the static class <a href="/com.zigurous.color/api/Zigurous.ColorPro/Contrast">Contrast</a>.</p>
+<pre><code class="language-csharp">Color foreground = Color.white;
+Color background = Color.black;
+
+float contrast = foreground.ContrastRatio(background);
+</code></pre>
+<p>The calculation itself is as follows:</p>
+<pre><code class="language-csharp">public static float ContrastRatio(this Color color, Color other)
+{
+    float luminanceA = color.RelativeLuminance();
+    float luminanceB = other.RelativeLuminance();
+
+    float darker = Mathf.Min(luminanceA, luminanceB);
+    float lighter = Mathf.Max(luminanceA, luminanceB);
+
+    return (lighter + 0.05f) / (darker + 0.05f);
+}
+</code></pre>
+<hr/>
+<h2>🔳 Higher / Lower</h2>
+<p>Sometimes it is useful to find the color that has the highest or lowest contrast ratio to many other colors. For example, if your text color is white, maybe you want to test different background colors to see which one has the best contrast ratio.</p>
+<pre><code class="language-csharp">Color foreground = Color.white;
+Color highest = foreground.HigherContrastingColor(Color.red, Color.blue);
+Color lowest = foreground.LowerContrastingColor(Color.red, Color.blue);
+</code></pre></div></article></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/manual/contrast";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-01e30d9ae5045ea0dbb3.js"],"app":["/app-79248f870713992bc47b.js"],"component---src-pages-404-js":["/component---src-pages-404-js-59ef070172b73168cc1e.js"],"component---src-pages-api-index-js":["/component---src-pages-api-index-js-8144c55914649de94620.js"],"component---src-pages-index-js":["/component---src-pages-index-js-59cbb2594b4cb546d12b.js"],"component---src-pages-markdown-remark-frontmatter-slug-js":["/component---src-pages-markdown-remark-frontmatter-slug-js-369746dd2a01bb700388.js"],"component---src-templates-api-js":["/component---src-templates-api-js-3112913071df2c3d7b53.js"]};/*]]>*/</script><script src="/com.zigurous.color/polyfill-01e30d9ae5045ea0dbb3.js" nomodule=""></script><script src="/com.zigurous.color/component---src-pages-markdown-remark-frontmatter-slug-js-369746dd2a01bb700388.js" async=""></script><script src="/com.zigurous.color/9a62c4c85f8bef0e63ed808214afa91a5d6dc500-a3129f62392014497693.js" async=""></script><script src="/com.zigurous.color/app-79248f870713992bc47b.js" async=""></script><script src="/com.zigurous.color/framework-0dbfab7327d8218a5744.js" async=""></script><script src="/com.zigurous.color/webpack-runtime-a2874efe67bbfb801f6e.js" async=""></script></body></html>

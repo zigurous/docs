@@ -1,0 +1,392 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><link data-identity="gatsby-global-css" href="/com.zigurous.color/styles.e95e7ae0af44e8df083b.css" rel="stylesheet" type="text/css"/><meta name="generator" content="Gatsby 3.12.1"/><link rel="sitemap" type="application/xml" href="/com.zigurous.color/sitemap/sitemap-index.xml"/><title data-react-helmet="true"></title><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true"/><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&amp;38;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;38;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/><link as="script" rel="preload" href="/com.zigurous.color/webpack-runtime-a2874efe67bbfb801f6e.js"/><link as="script" rel="preload" href="/com.zigurous.color/framework-0dbfab7327d8218a5744.js"/><link as="script" rel="preload" href="/com.zigurous.color/app-79248f870713992bc47b.js"/><link as="script" rel="preload" href="/com.zigurous.color/9a62c4c85f8bef0e63ed808214afa91a5d6dc500-a3129f62392014497693.js"/><link as="script" rel="preload" href="/com.zigurous.color/component---src-pages-markdown-remark-frontmatter-slug-js-369746dd2a01bb700388.js"/><link as="fetch" rel="preload" href="/com.zigurous.color/page-data/manual/conversion/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/com.zigurous.color/page-data/sq/d/1119773448.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/com.zigurous.color/page-data/sq/d/2497133658.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/com.zigurous.color/page-data/sq/d/3218290725.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/com.zigurous.color/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><article class="markdown"><div class="markdown__content"><h1>Conversion</h1>
+<p>The <strong>Color Pro</strong> package supports converting colors to and from 20+ color models / spaces. Every supported type has its own data structure (except Hex) and several ways to convert between, whether through extension methods, static methods, or instance methods.</p>
+<hr/>
+<h3><a href="/com.zigurous.color/api/Zigurous.ColorPro/ARGB">ARGB</a></h3>
+<p>The ARGB (alpha, red, green, blue) components of a color in the range [0..1].</p>
+<pre><code class="language-csharp">// Extension methods
+color.ToARGB(out a, out r, out g, out b);
+ARGB components = color.ToARGB();
+
+// Static methods
+ARGB.Convert(color, out a, out r, out g, out b);
+Color color = ARGB.ToColor(a, r, g, b);
+
+// Instance methods
+ARGB components = new ARGB(color);
+Color color = components.ToColor();
+</code></pre>
+<hr/>
+<h3><a href="/com.zigurous.color/api/Zigurous.ColorPro/ARGB255">ARGB255</a></h3>
+<p>The ARGB (alpha, red, green, blue) components of a color in the range [0..255].</p>
+<pre><code class="language-csharp">// Extension methods
+color.ToARGB255(out a, out r, out g, out b);
+ARGB255 components = color.ToARGB255();
+
+// Static methods
+ARGB255.Convert(color, out a, out r, out g, out b);
+Color color = ARGB255.ToColor(a, r, g, b);
+
+// Instance methods
+ARGB255 components = new ARGB255(color);
+Color color = components.ToColor();
+</code></pre>
+<hr/>
+<h3><a href="/com.zigurous.color/api/Zigurous.ColorPro/CIELAB">CIE LAB</a></h3>
+<p>The CIE LAB components of a color - lightness (L) and chromaticity (a,b).</p>
+<pre><code class="language-csharp">// Extension methods
+color.ToCIELAB(out L, out a, out b);
+CIELAB components = color.ToCIELAB();
+
+// Static methods
+CIELAB.Convert(color, out L, out a, out b);
+Color color = CIELAB.ToColor(L, a, b);
+
+// Instance methods
+CIELAB components = new CIELAB(color);
+Color color = components.ToColor();
+</code></pre>
+<hr/>
+<h3><a href="/com.zigurous.color/api/Zigurous.ColorPro/CIELUV">CIE LUV</a></h3>
+<p>The CIE LUV components of a color - lightness (L) and chromaticity (u,v).</p>
+<pre><code class="language-csharp">// Extension methods
+color.ToCIELUV(out L, out u, out v);
+CIELUV components = color.ToCIELUV();
+
+// Static methods
+CIELUV.Convert(color, out L, out u, out v);
+Color color = CIELUV.ToColor(L, u, v);
+
+// Instance methods
+CIELUV components = new CIELUV(color);
+Color color = components.ToColor();
+</code></pre>
+<hr/>
+<h3><a href="/com.zigurous.color/api/Zigurous.ColorPro/CIELCh_ab">CIE LCh(ab)</a></h3>
+<p>The CIE LCh(ab) components of a color - lightness (L), chroma (C), and hue (h).</p>
+<pre><code class="language-csharp">// Extension methods
+color.ToCIELCh_ab(out L, out C, out h);
+CIELCh_ab components = color.ToCIELCh_ab();
+
+// Static methods
+CIELCh_ab.Convert(color, out L, out C, out h);
+Color color = CIELCh_ab.ToColor(L, C, h);
+
+// Instance methods
+CIELCh_ab components = new CIELCh_ab(color);
+Color color = components.ToColor();
+</code></pre>
+<hr/>
+<h3><a href="/com.zigurous.color/api/Zigurous.ColorPro/CIELCh_uv">CIE LCh(uv)</a></h3>
+<p>The CIE LCh(uv) components of a color - lightness (L), chroma (C), and hue (h).</p>
+<pre><code class="language-csharp">// Extension methods
+color.ToCIELCh_uv(out L, out C, out h);
+CIELCh_uv components = color.ToCIELCh_uv();
+
+// Static methods
+CIELCh_uv.Convert(color, out L, out C, out h);
+Color color = CIELCh_uv.ToColor(L, C, h);
+
+// Instance methods
+CIELCh_uv components = new CIELCh_uv(color);
+Color color = components.ToColor();
+</code></pre>
+<hr/>
+<h3><a href="/com.zigurous.color/api/Zigurous.ColorPro/CIEUCS">CIE UCS</a></h3>
+<p>The CIE UCS components of a color - (u,v) chromaticity coordinates.</p>
+<pre><code class="language-csharp">// Extension methods
+color.ToCIEUCS(out u, out v);
+CIEUCS components = color.ToCIEUCS();
+
+// Static methods
+CIEUCS.Convert(color, out u, out v);
+Color color = CIEUCS.ToColor(u, v);
+
+// Instance methods
+CIEUCS components = new CIEUCS(color);
+Color color = components.ToColor();
+</code></pre>
+<hr/>
+<h3><a href="/com.zigurous.color/api/Zigurous.ColorPro/CIEUVW">CIE UVW</a></h3>
+<p>The CIE UVW components of a color - chromaticity (U,V) and lightness (W).</p>
+<pre><code class="language-csharp">// Extension methods
+color.ToCIEUVW(out U, out V, out W);
+CIEUVW components = color.ToCIEUVW();
+
+// Static methods
+CIEUVW.Convert(color, out U, out V, out W);
+Color color = CIEUVW.ToColor(U, V, W);
+
+// Instance methods
+CIEUVW components = new CIEUVW(color);
+Color color = components.ToColor();
+</code></pre>
+<hr/>
+<h3><a href="/com.zigurous.color/api/Zigurous.ColorPro/CIExyY">CIE xyY</a></h3>
+<p>The CIE xyY components of a color - chromaticity (x,y) and luminance (Y).</p>
+<pre><code class="language-csharp">// Extension methods
+color.ToCIExyY(out x, out y, out Y);
+CIExyY components = color.ToCIExyY();
+
+// Static methods
+CIExyY.Convert(color, out x, out y, out Y);
+Color color = CIExyY.ToColor(x, y, Y);
+
+// Instance methods
+CIExyY components = new CIExyY(color);
+Color color = components.ToColor();
+</code></pre>
+<hr/>
+<h3><a href="/com.zigurous.color/api/Zigurous.ColorPro/CIEXYZ">CIE XYZ</a></h3>
+<p>The CIE XYZ components of a color - chromaticity (X,Z) and luminance (Y).</p>
+<pre><code class="language-csharp">// Extension methods
+color.ToCIEXYZ(out X, out Y, out Z);
+CIEXYZ components = color.ToCIEXYZ();
+
+// Static methods
+CIEXYZ.Convert(color, out X, out Y, out Z);
+Color color = CIEXYZ.ToColor(X, Y, Z);
+
+// Instance methods
+CIEXYZ components = new CIEXYZ(color);
+Color color = components.ToColor();
+</code></pre>
+<hr/>
+<h3><a href="/com.zigurous.color/api/Zigurous.ColorPro/CMYK">CMYK</a></h3>
+<p>The CMYK (cyan, magenta, yellow, black) components of a color in the range [0..1].</p>
+<pre><code class="language-csharp">// Extension methods
+color.ToCMYK(out c, out m, out y, out k);
+CMYK components = color.ToCMYK();
+
+// Static methods
+CMYK.Convert(color, out c, out m, out y, out k);
+Color color = CMYK.ToColor(c, m, y, k);
+
+// Instance methods
+CMYK components = new CMYK(color);
+Color color = components.ToColor();
+</code></pre>
+<hr/>
+<h3><a href="/com.zigurous.color/api/Zigurous.ColorPro/Hex">Hex</a></h3>
+<p>Hexadecimal colors are represented as strings "#ff0000" or integers 0xff0000. Colors can be converted to and from using RGB, RGBA, and ARGB formats which determine the order of the bits.</p>
+<pre><code class="language-csharp">int hex = color.ToHex();
+int hex_rgba = color.ToHexRGBA();
+int hex_argb = color.ToHexARGB();
+
+string hex = color.ToHexString();
+string hex_rgba = color.ToHexStringRGBA();
+string hex_argb = color.ToHexStringARGB();
+
+Color color = Hex.ToRGBColor(hex);
+Color color = Hex.ToRGBAColor(hex_rgba);
+Color color = Hex.ToARGBColor(hex_argb);
+</code></pre>
+<hr/>
+<h3><a href="/com.zigurous.color/api/Zigurous.ColorPro/HSB">HSB</a></h3>
+<p>The HSB (hue, saturation, brightness) components of a color in the range [0..1].</p>
+<pre><code class="language-csharp">// Extension methods
+color.ToHSB(out h, out s, out b);
+HSB components = color.ToHSB();
+
+// Static methods
+HSB.Convert(color, out h, out s, out b);
+Color color = HSB.ToColor(h, s, b);
+
+// Instance methods
+HSB components = new HSB(color);
+Color color = components.ToColor();
+</code></pre>
+<hr/>
+<h3><a href="/com.zigurous.color/api/Zigurous.ColorPro/HSI">HSI</a></h3>
+<p>The HSI (hue, saturation, intensity) components of a color in the range [0..1].</p>
+<pre><code class="language-csharp">// Extension methods
+color.ToHSI(out h, out s, out b);
+HSI components = color.ToHSI();
+
+// Static methods
+HSI.Convert(color, out h, out s, out b);
+Color color = HSI.ToColor(h, s, b);
+
+// Instance methods
+HSI components = new HSI(color);
+Color color = components.ToColor();
+</code></pre>
+<hr/>
+<h3><a href="/com.zigurous.color/api/Zigurous.ColorPro/HSL">HSL</a></h3>
+<p>The HSL (hue, saturation, lightness) components of a color in the range [0..1].</p>
+<pre><code class="language-csharp">// Extension methods
+color.ToHSL(out h, out s, out b);
+HSL components = color.ToHSL();
+
+// Static methods
+HSL.Convert(color, out h, out s, out b);
+Color color = HSL.ToColor(h, s, b);
+
+// Instance methods
+HSL components = new HSL(color);
+Color color = components.ToColor();
+</code></pre>
+<hr/>
+<h3><a href="/com.zigurous.color/api/Zigurous.ColorPro/HSV">HSV</a></h3>
+<p>The HSV (hue, saturation, value) components of a color in the range [0..1].</p>
+<pre><code class="language-csharp">// Extension methods
+color.ToHSV(out h, out s, out b);
+HSV components = color.ToHSV();
+
+// Static methods
+HSV.Convert(color, out h, out s, out b);
+Color color = HSV.ToColor(h, s, b);
+
+// Instance methods
+HSV components = new HSV(color);
+Color color = components.ToColor();
+</code></pre>
+<hr/>
+<h3><a href="/com.zigurous.color/api/Zigurous.ColorPro/HunterLab">Hunter Lab</a></h3>
+<p>The Hunter Lab components of a color - lightness (L) and chromaticity (a,b).</p>
+<pre><code class="language-csharp">// Extension methods
+color.ToHunterLab(out L, out a, out b);
+HunterLab components = color.ToHunterLab();
+
+// Static methods
+HunterLab.Convert(color, out L, out a, out b);
+Color color = HunterLab.ToColor(L, a, b);
+
+// Instance methods
+HunterLab components = new HunterLab(color);
+Color color = components.ToColor();
+</code></pre>
+<hr/>
+<h3><a href="/com.zigurous.color/api/Zigurous.ColorPro/LMS">LMS</a></h3>
+<p>The LMS (long, medium, short) components of a color.</p>
+<pre><code class="language-csharp">// Extension methods
+color.ToLMS(out L, out M, out S);
+LMS components = color.ToLMS();
+
+// Static methods
+LMS.Convert(color, out L, out M, out S);
+Color color = LMS.ToColor(L, M, S);
+
+// Instance methods
+LMS components = new LMS(color);
+Color color = components.ToColor();
+</code></pre>
+<hr/>
+<h3><a href="/com.zigurous.color/api/Zigurous.ColorPro/RGB">RGB</a></h3>
+<p>The RGB (red, green, blue) components of a color in the range [0..1].</p>
+<pre><code class="language-csharp">// Extension methods
+color.ToRGB(out r, out g, out b);
+RGB components = color.ToRGB();
+
+// Static methods
+RGB.Convert(color, out r, out g, out b);
+Color color = RGB.ToColor(r, g, b);
+
+// Instance methods
+RGB components = new RGB(color);
+Color color = components.ToColor();
+</code></pre>
+<hr/>
+<h3><a href="/com.zigurous.color/api/Zigurous.ColorPro/RGB255">RGB255</a></h3>
+<p>The RGB (red, green, blue) components of a color in the range [0..255].</p>
+<pre><code class="language-csharp">// Extension methods
+color.ToRGB255(out r, out g, out b);
+RGB255 components = color.ToRGB255();
+
+// Static methods
+RGB255.Convert(color, out r, out g, out b);
+Color color = RGB255.ToColor(r, g, b);
+
+// Instance methods
+RGB255 components = new RGB255(color);
+Color color = components.ToColor();
+</code></pre>
+<hr/>
+<h3><a href="/com.zigurous.color/api/Zigurous.ColorPro/RGBA">RGBA</a></h3>
+<p>The RGBA (red, green, blue, alpha) components of a color in the range [0..1].</p>
+<pre><code class="language-csharp">// Extension methods
+color.ToRGBA(out r, out g, out b, out a);
+RGBA components = color.ToRGBA();
+
+// Static methods
+RGBA.Convert(color, out r, out g, out b, out a);
+Color color = RGBA.ToColor(r, g, b, a);
+
+// Instance methods
+RGBA components = new RGBA(color);
+Color color = components.ToColor();
+</code></pre>
+<hr/>
+<h3><a href="/com.zigurous.color/api/Zigurous.ColorPro/RGBA255">RGBA255</a></h3>
+<p>The RGBA (red, green, blue, alpha) components of a color in the range [0..255].</p>
+<pre><code class="language-csharp">// Extension methods
+color.ToRGBA255(out r, out g, out b, out a);
+RGBA255 components = color.ToRGBA255();
+
+// Static methods
+RGBA255.Convert(color, out r, out g, out b, out a);
+Color color = RGBA255.ToColor(r, g, b, a);
+
+// Instance methods
+RGBA255 components = new RGBA255(color);
+Color color = components.ToColor();
+</code></pre>
+<hr/>
+<h3><a href="/com.zigurous.color/api/Zigurous.ColorPro/YCbCr">YCbCr</a></h3>
+<p>The Y′CbCr components of a color - luma (Y′) and chroma (Cb,Cr).</p>
+<pre><code class="language-csharp">// Extension methods
+color.ToYCbCr(out Y, out Cb, out Cr);
+YCbCr components = color.ToYCbCr();
+
+// Static methods
+YCbCr.Convert(color, out Y, out Cb, out Cr);
+Color color = YCbCr.ToColor(Y, Cb, Cr);
+
+// Instance methods
+YCbCr components = new YCbCr(color);
+Color color = components.ToColor();
+</code></pre>
+<hr/>
+<h3><a href="/com.zigurous.color/api/Zigurous.ColorPro/YPbPr">YPbPr</a></h3>
+<p>The Y′PbPr components of a color - luma (Y′) and chroma (Pb,Pr).</p>
+<pre><code class="language-csharp">// Extension methods
+color.ToYPbPr(out Y, out Pb, out Pr);
+YPbPr components = color.ToYPbPr();
+
+// Static methods
+YPbPr.Convert(color, out Y, out Pb, out Pr);
+Color color = YPbPr.ToColor(Y, Pb, Pr);
+
+// Instance methods
+YPbPr components = new YPbPr(color);
+Color color = components.ToColor();
+</code></pre>
+<hr/>
+<h3><a href="/com.zigurous.color/api/Zigurous.ColorPro/YIQ">YIQ</a></h3>
+<p>The Y′IQ components of a color - luma (Y′) and chroma (I,Q).</p>
+<pre><code class="language-csharp">// Extension methods
+color.ToYIQ(out Y, out I, out Q);
+YIQ components = color.ToYIQ();
+
+// Static methods
+YIQ.Convert(color, out Y, out I, out Q);
+Color color = YIQ.ToColor(Y, I, Q);
+
+// Instance methods
+YIQ components = new YIQ(color);
+Color color = components.ToColor();
+</code></pre>
+<hr/>
+<h3><a href="/com.zigurous.color/api/Zigurous.ColorPro/YUV">YUV</a></h3>
+<p>The Y′UV components of a color - luma (Y′) and chroma (U,V).</p>
+<pre><code class="language-csharp">// Extension methods
+color.ToYUV(out Y, out U, out V);
+YUV components = color.ToYUV();
+
+// Static methods
+YUV.Convert(color, out Y, out U, out V);
+Color color = YUV.ToColor(Y, U, V);
+
+// Instance methods
+YUV components = new YUV(color);
+Color color = components.ToColor();
+</code></pre></div></article></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/manual/conversion";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-01e30d9ae5045ea0dbb3.js"],"app":["/app-79248f870713992bc47b.js"],"component---src-pages-404-js":["/component---src-pages-404-js-59ef070172b73168cc1e.js"],"component---src-pages-api-index-js":["/component---src-pages-api-index-js-8144c55914649de94620.js"],"component---src-pages-index-js":["/component---src-pages-index-js-59cbb2594b4cb546d12b.js"],"component---src-pages-markdown-remark-frontmatter-slug-js":["/component---src-pages-markdown-remark-frontmatter-slug-js-369746dd2a01bb700388.js"],"component---src-templates-api-js":["/component---src-templates-api-js-3112913071df2c3d7b53.js"]};/*]]>*/</script><script src="/com.zigurous.color/polyfill-01e30d9ae5045ea0dbb3.js" nomodule=""></script><script src="/com.zigurous.color/component---src-pages-markdown-remark-frontmatter-slug-js-369746dd2a01bb700388.js" async=""></script><script src="/com.zigurous.color/9a62c4c85f8bef0e63ed808214afa91a5d6dc500-a3129f62392014497693.js" async=""></script><script src="/com.zigurous.color/app-79248f870713992bc47b.js" async=""></script><script src="/com.zigurous.color/framework-0dbfab7327d8218a5744.js" async=""></script><script src="/com.zigurous.color/webpack-runtime-a2874efe67bbfb801f6e.js" async=""></script></body></html>
