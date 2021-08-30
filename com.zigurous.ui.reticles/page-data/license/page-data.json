@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-markdown-remark-frontmatter-slug-js",
+    "path": "/license",
+    "result": {"data":{"markdownRemark":{"html":"<p>Copyright (c) 2021 Zigurous. All Rights Reserved.</p>","frontmatter":{"slug":"/license","class":"license","title":"License"}}},"pageContext":{"id":"acf57799-accb-53cc-9e66-577359adc765","frontmatter__slug":"/license","__params":{"frontmatter__slug":"license"}}},
+    "staticQueryHashes": ["1119773448","2497133658","3218290725"]}
