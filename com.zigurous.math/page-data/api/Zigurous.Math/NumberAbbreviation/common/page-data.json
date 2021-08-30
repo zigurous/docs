@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-api-js",
-    "path": "/api/Zigurous.Math/NumberAbbreviation/Common",
-    "result": {"pageContext":{"uid":"Zigurous.Math.NumberAbbreviation.Common"}},
+    "path": "/api/Zigurous.Math/NumberAbbreviation/common",
+    "result": {"pageContext":{"uid":"Zigurous.Math.NumberAbbreviation.common"}},
     "staticQueryHashes": ["1119773448","2497133658","2614227032","3218290725"]}
