@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-pages-index-js",
     "path": "/",
     "result": {"data":{"sidenav":{"nodes":[{"categories":[{"items":[{"path":"/welcome"},{"path":"/faq"}]},{"items":[{"path":null},{"path":null},{"path":null},{"path":null},{"path":null},{"path":null},{"path":null},{"path":null},{"path":null},{"path":null},{"path":null}]},{"items":[{"path":null},{"path":null}]},{"items":[{"path":null},{"path":null},{"path":null},{"path":null}]}]}]}},"pageContext":{}},
-    "staticQueryHashes": ["236102079","3218290725","761499004"]}
+    "staticQueryHashes": ["1876915910","236102079","3218290725"]}
