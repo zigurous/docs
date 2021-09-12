@@ -12,11 +12,11 @@ Sequence sequence = new Sequence(); // Not recommended
 <pre><code class="language-csharp">Sequence sequence = Tweening.Sequence();
 
 // Adds a tween to the end of the sequence
-sequence.Append(transform.TweenPosition(Vector3.zero, 1.0f));
-sequence.Append(transform.TweenRotation(Quaternion.identity, 1.0f));
+sequence.Append(transform.TweenPosition(Vector3.zero, 1f));
+sequence.Append(transform.TweenRotation(Quaternion.identity, 1f));
 
 // Adds a tween to the beginning of the sequence
-sequence.Prepend(transform.TweenScale(Vector3.one, 1.0f));
+sequence.Prepend(transform.TweenScale(Vector3.one, 1f));
 </code></pre>
 <hr/>
 <h2>🔆 State control</h2>
