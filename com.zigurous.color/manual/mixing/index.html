@@ -12,8 +12,8 @@ Color amber = red.Mix(yellow, 0.75f); // 25% red, 75% yellow
 <h2>⬜ Tints</h2>
 <p>Tints are produced by mixing a color with white (increases lightness).</p>
 <pre><code class="language-csharp">Color tint = color.Tint(0.1f); // 10% white
-Color same = color.Tint(0.0f); // no change
-Color white = color.Tint(1.0f); // pure white
+Color same = color.Tint(0f); // no change
+Color white = color.Tint(1f); // pure white
 
 Color[] tints = color.Tints(10); // 10 tints
 color.TintsNonAlloc(array); // prevent heap allocations
@@ -22,8 +22,8 @@ color.TintsNonAlloc(array); // prevent heap allocations
 <h2>⬛ Shades</h2>
 <p>Tints are produced by mixing a color with black (decreases lightness).</p>
 <pre><code class="language-csharp">Color shade = color.Shade(0.1f); // 10% black
-Color same = color.Shade(0.0f); // no change
-Color black = color.Shade(1.0f); // pure black
+Color same = color.Shade(0f); // no change
+Color black = color.Shade(1f); // pure black
 
 Color[] shades = color.Shades(10); // 10 shades
 color.ShadesNonAlloc(array); // prevent heap allocations
@@ -32,8 +32,8 @@ color.ShadesNonAlloc(array); // prevent heap allocations
 <h2>🔳 Tones</h2>
 <p>Tints are produced by mixing a color with gray (decreases saturation).</p>
 <pre><code class="language-csharp">Color tone = color.Tone(0.1f); // 10% gray
-Color same = color.Tone(0.0f); // no change
-Color gray = color.Tone(1.0f); // pure gray (50% black / 50% white)
+Color same = color.Tone(0f); // no change
+Color gray = color.Tone(1f); // pure gray (50% black / 50% white)
 
 Color[] tones = color.Tones(10); // 10 tones
 color.TonesNonAlloc(array); // prevent heap allocations

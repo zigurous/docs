@@ -9,7 +9,7 @@ Gradient gradient = Gradients.Create(Color.white, Color.black);
 Gradient gradient = Gradients.Create(Color.white, Color.black, 5);
 
 // Distribute a predefined array of stops between two colors
-int[] stops = new int[] { 0.0f, 0.1f, 0.3f, 0.6f, 1.0f };
+int[] stops = new int[] { 0f, 0.1f, 0.3f, 0.6f, 1f };
 Gradient gradient = Gradients.Create(Color.white, Color.black, stops);
 
 // This only exists because there's no constructor for it but still cumbersome to use
@@ -19,7 +19,7 @@ Gradient gradient = Gradients.Create(colors, alpha);
 
 // Variation of the above with a constant alpha
 GradientColorKey[] colors = new GradientColorKey[] { ... };
-Gradient gradient = Gradients.Create(Colors, 1.0f);
+Gradient gradient = Gradients.Create(Colors, 1f);
 </code></pre>
 <hr/>
 <h2>🌈 Extracting Colors</h2>

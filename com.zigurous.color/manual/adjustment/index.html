@@ -2,10 +2,10 @@
 <p>Adjusting color values is one of the most commonly used features included in the <strong>Color Pro</strong> package. Functions for adjusting colors are defined as extension methods in the static class <a href="/com.zigurous.color/api/Zigurous.ColorPro/Adjustment">Adjustment</a>. To change the values of individual components, see the <a href="/com.zigurous.color/manual/components">Components</a> manual.</p>
 <hr/>
 <h2>Hue Shift</h2>
-<pre><code class="language-csharp">Color shift = color.HueShifted(30.0f); // 30° shift
-color.HueShift(30.0f); // change existing color
+<pre><code class="language-csharp">Color shift = color.HueShifted(30f); // 30° shift
+color.HueShift(30f); // change existing color
 
-Color[] hues = color.Hues(30.0f); // 30° shift = 12 colors (360/30=12)
+Color[] hues = color.Hues(30f); // 30° shift = 12 colors (360/30=12)
 Color[] hues = color.Hues(12); // 12 colors = 30° shift (360/12=30)
 
 color.HuesNonAlloc(array); // prevent heap allocations
