@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-index-js",
     "path": "/",
-    "result": {"data":{"sidenav":{"nodes":[{"categories":[{"items":[{"path":"/manual"},{"path":"/manual/installation"},{"path":"/changelog"},{"path":"/license"}]},{"items":[{"path":null},{"path":null}]},{"items":[{"path":null},{"path":null},{"path":null},{"path":null}]}]}]}},"pageContext":{}},
+    "result": {"data":{"sidenav":{"nodes":[{"categories":[{"items":[{"path":"/manual"},{"path":"/manual/installation"},{"path":"/changelog"},{"path":"/license"}]},{"items":[{"path":"/manual/behaviors"},{"path":"/manual/data-structures"},{"path":"/manual/animator-parameters"},{"path":"/manual/avatar-masks"}]},{"items":[{"path":null},{"path":null}]},{"items":[{"path":null},{"path":null},{"path":null},{"path":null}]}]}]}},"pageContext":{}},
     "staticQueryHashes": ["1119773448","2497133658","3218290725"]}
