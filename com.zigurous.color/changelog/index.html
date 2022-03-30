@@ -2,6 +2,25 @@
 <p>All notable changes to this project will be documented in this file.</p>
 <p>The format is based on <a href="https://keepachangelog.com/en/1.0.0/" target="_blank" rel="nofollow noopener noreferrer">Keep a Changelog</a>,
 and this project adheres to <a href="https://semver.org/spec/v2.0.0.html" target="_blank" rel="nofollow noopener noreferrer">Semantic Versioning</a>.</p>
+<h2>[1.1.0]</h2>
+<h3>Added</h3>
+<ul>
+<li>New <code>IComponentModel</code> interface that all color model structs conform to</li>
+<li>Support for mixing colors using different component models</li>
+<li>Support for generating tints, shades, and tones using different component models</li>
+<li>Functions for <code>RandomTint</code>, <code>RandomShade</code>, and <code>RandomTone</code></li>
+<li>Dropdown to select component model in the Mixing editor tool</li>
+<li>Dropdown to select color vision in the Mixing editor tool</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>Removed rounding from RGB <code>ToString</code> methods</li>
+<li>Documentation comments</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Fixed editor gradient sliders displaying with transparency in Unity 2022.1 beta</li>
+</ul>
 <h2>[1.0.0]</h2>
 <ul>
 <li>Initial release</li>
