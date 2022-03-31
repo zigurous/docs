@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-api-js",
-    "path": "/api/Zigurous.Tweening/Tween/OnLoop",
-    "result": {"pageContext":{"uid":"Zigurous.Tweening.Tween.OnLoop"}},
+    "path": "/api/Zigurous.Tweening/Tween/onLoop",
+    "result": {"pageContext":{"uid":"Zigurous.Tweening.Tween.onLoop"}},
     "staticQueryHashes": ["1119773448","2497133658","2614227032","3218290725"]}
