@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-pages-markdown-remark-frontmatter-slug-js",
-    "path": "/manual/utilities",
-    "result": {"data":{"markdownRemark":{"html":"<h1>Utility Classes</h1>\n<p>The <strong>Data Structures</strong> package includes a couple utility classes that provide commonly needed functions when creating and using data structures.</p>\n<br/>\n<h3><a href=\"/com.zigurous.datastructures/api/Zigurous.DataStructures/HashCode\">HashCode</a></h3>\n<p>Combines multiple hash codes into a single value.</p>\n<pre><code class=\"language-csharp\">int hash = HashCode.Combine(a, b, c);\n</code></pre>\n<hr/>\n<h3><a href=\"/com.zigurous.datastructures/api/Zigurous.DataStructures/Identifier\">Identifier</a></h3>\n<p>Generates identifiers.</p>\n<pre><code class=\"language-csharp\">string guid = Identifier.Guid();\r\nlong id = Identifier.UnixTime();\n</code></pre>","frontmatter":{"slug":"/manual/utilities","class":null,"title":""}}},"pageContext":{"id":"4825d616-8a31-5aa8-bbdb-2fb9c686796e","frontmatter__slug":"/manual/utilities","__params":{"frontmatter__slug":"manual"}}},
-    "staticQueryHashes": ["1119773448","2497133658","3218290725"]}
