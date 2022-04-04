@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_zigurous_docs=self.webpackChunk_zigurous_docs||[]).push([[678],{7704:function(e,u,a){a.r(u);var n=a(5444),s=a(5697),t=a.n(s),c=a(7294),o=a(1012),r=function(e){var u=e.data,a=(0,o.U2)(u,"sidenav.nodes[0].items[0].path");return(0,c.useEffect)((function(){a&&(0,n.navigate)(a,{replace:!0})}),[a]),null};r.propTypes={data:t().object},u.default=r}}]);
