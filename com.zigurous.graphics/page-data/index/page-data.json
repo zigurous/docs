@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-index-js",
     "path": "/",
-    "result": {"data":{"sidenav":{"nodes":[{"categories":[{"items":[{"path":"/manual"},{"path":"/manual/installation"},{"path":"/changelog"},{"path":"/license"}]},{"items":[{"path":"/manual/material-tiling"},{"path":"/manual/custom-meshes"},{"path":"/manual/shader-properties"},{"path":"/manual/texture-drawers"}]},{"items":[{"path":null},{"path":null}]},{"items":[{"path":null},{"path":null},{"path":null},{"path":null}]}]}]}},"pageContext":{}},
-    "staticQueryHashes": ["1119773448","2497133658","3218290725"]}
+    "result": {"data":{"sidenav":{"nodes":[{"items":[{"path":"/manual"},{"path":"/installation"},{"path":"/changelog"},{"path":"/license"}]},{"items":[{"path":"/manual/material-tiling"},{"path":"/manual/custom-meshes"},{"path":"/manual/shader-properties"},{"path":"/manual/texture-drawers"}]},{"items":[{"path":null},{"path":null}]},{"items":[{"path":null},{"path":null},{"path":null},{"path":null}]}]}},"pageContext":{}},
+    "staticQueryHashes": ["1654257956","2011016986","3218290725"]}
