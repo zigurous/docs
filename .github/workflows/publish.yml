@@ -1,0 +1,57 @@
+name: Publish
+
+on:
+  workflow_dispatch:
+    inputs:
+      path:
+        type: string
+        required: true
+      repo:
+        type: string
+        required: true
+      workflow:
+        type: string
+        required: false
+        default: 'generate_docs.yml'
+      commit:
+        type: string
+        required: false
+        default: ''
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: Publish
+    runs-on: ubuntu-latest
+    steps:
+    - name: Download artifact
+      uses: dawidd6/action-download-artifact@v2
+      with:
+        github_token: ${{ secrets.DOCS_TOKEN }}
+        workflow: ${{ github.event.inputs.workflow }}
+        commit: ${{ github.event.inputs.commit }}
+        repo: ${{ github.event.inputs.repo }}
+        name: docs
+        path: docs
+
+    - name: Format commit
+      id: format_commit
+      shell: bash
+      env:
+        COMMIT_INPUT: ${{ github.event.inputs.commit }}
+      run: |
+        [ -z "$COMMIT_INPUT" ] && echo "::set-output name=commit::" || echo "::set-output name=commit::@$COMMIT_INPUT"
+
+    - name: Publish pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        personal_token: ${{ secrets.DOCS_TOKEN }}
+        publish_branch: main
+        publish_dir: docs
+        destination_dir: ${{ github.event.inputs.path }}
+        user_name: 'github-actions[bot]'
+        user_email: 'github-actions[bot]@users.noreply.github.com'
+        full_commit_message: 'deploy: ${{ github.event.inputs.repo }}${{ steps.format_commit.outputs.commit }}'
