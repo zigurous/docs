@@ -9,6 +9,10 @@ on:
       artifact_repo:
         type: string
         required: true
+      artifact_commit:
+        type: string
+        required: false
+        default: ""
       artifact_workflow:
         type: string
         required: false
@@ -17,10 +21,6 @@ on:
         type: string
         required: false
         default: "docs"
-      artifact_commit:
-        type: string
-        required: false
-        default: ""
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
