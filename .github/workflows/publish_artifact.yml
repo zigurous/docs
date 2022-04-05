@@ -22,10 +22,6 @@ on:
         required: false
         default: "docs"
 
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: false
-
 jobs:
   publish:
     name: Publish
@@ -48,6 +44,9 @@ jobs:
           COMMIT_INPUT: ${{ github.event.inputs.artifact_commit }}
         run: |
           [ -z "$COMMIT_INPUT" ] && echo "::set-output name=commit::" || echo "::set-output name=commit::@$COMMIT_INPUT"
+
+      - name: Wait for queue
+        uses: ahmadnassri/action-workflow-queue@v1
 
       - name: Publish pages
         uses: peaceiris/actions-gh-pages@v3
