@@ -49,7 +49,7 @@ jobs:
       - name: Wait for workflow queue
         uses: ahmadnassri/action-workflow-queue@v1
 
-      - name: Publish to ${{ github.event.inputs.destination_path }}
+      - name: Publish ${{ github.event.inputs.destination_path }}
         id: publish_pages
         uses: peaceiris/actions-gh-pages@v3
         with:
