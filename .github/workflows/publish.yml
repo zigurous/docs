@@ -3,17 +3,17 @@ name: Publish
 on:
   workflow_dispatch:
     inputs:
-      path:
+      destination_path:
         type: string
         required: true
-      repo:
+      artifact_repo:
         type: string
         required: true
-      workflow:
+      artifact_workflow:
         type: string
         required: false
         default: "generate_docs.yml"
-      commit:
+      artifact_commit:
         type: string
         required: false
         default: ""
@@ -31,9 +31,9 @@ jobs:
         uses: dawidd6/action-download-artifact@v2
         with:
           github_token: ${{ secrets.DOCS_TOKEN }}
-          workflow: ${{ github.event.inputs.workflow }}
-          commit: ${{ github.event.inputs.commit }}
-          repo: ${{ github.event.inputs.repo }}
+          workflow: ${{ github.event.inputs.artifact_workflow }}
+          commit: ${{ github.event.inputs.artifact_commit }}
+          repo: ${{ github.event.inputs.artifact_repo }}
           name: docs
           path: docs
 
@@ -41,7 +41,7 @@ jobs:
         id: format_commit
         shell: bash
         env:
-          COMMIT_INPUT: ${{ github.event.inputs.commit }}
+          COMMIT_INPUT: ${{ github.event.inputs.artifact_commit }}
         run: |
           [ -z "$COMMIT_INPUT" ] && echo "::set-output name=commit::" || echo "::set-output name=commit::@$COMMIT_INPUT"
 
@@ -51,7 +51,7 @@ jobs:
           personal_token: ${{ secrets.DOCS_TOKEN }}
           publish_branch: main
           publish_dir: docs
-          destination_dir: ${{ github.event.inputs.path }}
+          destination_dir: ${{ github.event.inputs.destination_path }}
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
-          full_commit_message: "deploy: ${{ github.event.inputs.repo }}${{ steps.format_commit.outputs.commit }}"
+          full_commit_message: "deploy: ${{ github.event.inputs.artifact_repo }}${{ steps.format_commit.outputs.commit }}"
