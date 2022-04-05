@@ -1,4 +1,4 @@
-name: Publish
+name: Publish Artifact
 
 on:
   workflow_dispatch:
@@ -53,9 +53,9 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.DOCS_TOKEN }}
+          destination_dir: ${{ github.event.inputs.destination_path }}
           publish_branch: main
           publish_dir: docs
-          destination_dir: ${{ github.event.inputs.destination_path }}
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
           full_commit_message: "deploy: ${{ github.event.inputs.artifact_repo }}${{ steps.format_commit.outputs.commit }}"
