@@ -13,6 +13,10 @@ on:
         type: string
         required: false
         default: "generate_docs.yml"
+      artifact_name:
+        type: string
+        required: false
+        default: "docs"
       artifact_commit:
         type: string
         required: false
@@ -34,7 +38,7 @@ jobs:
           workflow: ${{ github.event.inputs.artifact_workflow }}
           commit: ${{ github.event.inputs.artifact_commit }}
           repo: ${{ github.event.inputs.artifact_repo }}
-          name: docs
+          name: ${{ github.event.inputs.artifact_name }}
           path: docs
 
       - name: Format commit
