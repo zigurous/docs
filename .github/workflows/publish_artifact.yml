@@ -27,7 +27,8 @@ jobs:
     name: Publish
     runs-on: ubuntu-latest
     steps:
-      - name: Download artifact
+      - name: Download artifact ${{ github.event.inputs.artifact_repo }}
+        id: download_artifact
         uses: dawidd6/action-download-artifact@v2
         with:
           github_token: ${{ secrets.DOCS_TOKEN }}
@@ -37,7 +38,7 @@ jobs:
           name: ${{ github.event.inputs.artifact_name }}
           path: docs
 
-      - name: Format commit
+      - name: Format commit message
         id: format_commit
         shell: bash
         env:
@@ -45,10 +46,11 @@ jobs:
         run: |
           [ -z "$COMMIT_INPUT" ] && echo "::set-output name=commit::" || echo "::set-output name=commit::@$COMMIT_INPUT"
 
-      - name: Wait for queue
+      - name: Wait for workflow queue
         uses: ahmadnassri/action-workflow-queue@v1
 
-      - name: Publish pages
+      - name: Publish to ${{ github.event.inputs.destination_path }}
+        id: publish_pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.DOCS_TOKEN }}
