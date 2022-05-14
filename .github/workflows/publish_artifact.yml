@@ -27,6 +27,9 @@ jobs:
     name: Publish
     runs-on: ubuntu-latest
     steps:
+      - name: Wait for workflow queue
+        uses: ahmadnassri/action-workflow-queue@v1
+
       - name: Download artifact ${{ github.event.inputs.artifact_repo }}
         id: download_artifact
         uses: dawidd6/action-download-artifact@v2
@@ -45,9 +48,6 @@ jobs:
           COMMIT_INPUT: ${{ github.event.inputs.artifact_commit }}
         run: |
           [ -z "$COMMIT_INPUT" ] && echo "::set-output name=commit::" || echo "::set-output name=commit::@$COMMIT_INPUT"
-
-      - name: Wait for workflow queue
-        uses: ahmadnassri/action-workflow-queue@v1
 
       - name: Publish ${{ github.event.inputs.destination_path }}
         id: publish_pages
