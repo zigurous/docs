@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-index-js",
-    "path": "/",
-    "result": {"data":{"sidenav":{"nodes":[{"items":[{"path":"/manual"},{"path":"/installation"},{"path":"/changelog"},{"path":"/license"}]},{"items":[{"path":"/manual/behaviors"},{"path":"/manual/events"},{"path":"/manual/materials"}]},{"items":[{"path":null},{"path":null}]},{"items":[{"path":null},{"path":null},{"path":null},{"path":null}]}]}},"pageContext":{}},
-    "staticQueryHashes": ["1654257956","2011016986","3218290725"]}
+{"componentChunkName":"component---src-pages-index-js","path":"/","result":{"data":{"sidenav":{"nodes":[{"items":[{"path":"/manual"},{"path":"/installation"},{"path":"/changelog"},{"path":"/license"}]},{"items":[{"path":"/manual/behaviors"},{"path":"/manual/events"},{"path":"/manual/materials"}]},{"items":[{"path":null},{"path":null}]},{"items":[{"path":null},{"path":null},{"path":null},{"path":null}]}]}},"pageContext":{}},"staticQueryHashes":["1654257956","2011016986","3218290725"]}
