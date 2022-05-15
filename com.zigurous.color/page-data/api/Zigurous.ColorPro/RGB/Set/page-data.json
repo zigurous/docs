@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-api-js",
-    "path": "/api/Zigurous.ColorPro/RGB/Set",
-    "result": {"pageContext":{"uid":"Zigurous.ColorPro.RGB.Set"}},
-    "staticQueryHashes": ["1654257956","2011016986","2614227032","3218290725"]}
+{"componentChunkName":"component---src-templates-api-js","path":"/api/Zigurous.ColorPro/RGB/Set","result":{"pageContext":{"uid":"Zigurous.ColorPro.RGB.Set"}},"staticQueryHashes":["1654257956","2011016986","2614227032","3218290725"]}
