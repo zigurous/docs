@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-api-js",
-    "path": "/api/Zigurous.UI/NavigationStack/rootGameObject",
-    "result": {"pageContext":{"uid":"Zigurous.UI.NavigationStack.rootGameObject"}},
-    "staticQueryHashes": ["1654257956","2011016986","2614227032","3218290725"]}
+{"componentChunkName":"component---src-templates-api-js","path":"/api/Zigurous.UI/NavigationStack/rootGameObject","result":{"pageContext":{"uid":"Zigurous.UI.NavigationStack.rootGameObject"}},"staticQueryHashes":["1654257956","2011016986","2614227032","3218290725"]}
