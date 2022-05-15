@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-api-index-js",
-    "path": "/api",
-    "result": {"data":{"api":{"nodes":[{"items":[{"id":"Zigurous.Debug","name":"Zigurous.Debug","namespace":null,"parent":null,"uid":"Zigurous.Debug"}]}]}},"pageContext":{}},
-    "staticQueryHashes": ["1654257956","2011016986","3218290725"]}
+{"componentChunkName":"component---src-pages-api-index-js","path":"/api","result":{"data":{"api":{"nodes":[{"items":[{"id":"Zigurous.Debug","name":"Zigurous.Debug","namespace":null,"parent":null,"uid":"Zigurous.Debug"}]}]}},"pageContext":{}},"staticQueryHashes":["1654257956","2011016986","3218290725"]}
