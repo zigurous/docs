@@ -47,7 +47,7 @@ jobs:
         env:
           COMMIT_INPUT: ${{ github.event.inputs.artifact_commit }}
         run: |
-          [ -z "$COMMIT_INPUT" ] && echo "::set-output name=commit::" || echo "::set-output name=commit::@$COMMIT_INPUT"
+          [ -z "$COMMIT_INPUT" ] && echo "::set-output name=commit::" || echo "::set-output name=commit::$(git rev-parse --short @$COMMIT_INPUT)"
 
       - name: Publish ${{ github.event.inputs.destination_path }}
         id: publish_pages
