@@ -2,6 +2,24 @@
 <p>All notable changes to this project will be documented in this file.</p>
 <p>The format is based on <a href="https://keepachangelog.com/en/1.0.0/" target="_blank" rel="nofollow noopener noreferrer">Keep a Changelog</a>,
 and this project adheres to <a href="https://semver.org/spec/v2.0.0.html" target="_blank" rel="nofollow noopener noreferrer">Semantic Versioning</a>.</p>
+<h2>[1.6.0] - WIP</h2>
+<h3>Added</h3>
+<ul>
+<li>New update mode strategy pattern to allow behaviors to switch between update modes while maintaining performance and overhead
+<ul>
+<li>Behaviors with the same update mode are grouped to reduce the number of update calls</li>
+<li>Import <code>Zigurous.DataStructures.Execution</code> to use this new feature</li>
+</ul>
+</li>
+<li>Added lerp functions to <code>INumberRange</code> types</li>
+<li>Added overridable <code>defaultValue</code> property to <code>ValueAccumulator&#x3C;T></code></li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>Moved <code>INumberRange</code> into its own file</li>
+<li>Reorganized file directories</li>
+<li>Minor changes to documentation comments</li>
+</ul>
 <h2>[1.5.2] - 2021/10/28</h2>
 <h3>Changed</h3>
 <ul>
