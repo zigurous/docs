@@ -7,11 +7,13 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html" target
 <ul>
 <li>New <code>Draw</code> class with additional methods compared to Unity's debug draw functions</li>
 <li>Added additional compiler directives to compile-out code in release builds</li>
+<li>Added <code>Reset</code> function to <code>FPSDisplay</code> to automatically set text component reference</li>
 </ul>
 <h3>Changed</h3>
 <ul>
 <li>Changed <code>FPSDisplay.displayFormat</code> setter from protected to public so custom formats can be set without needing to extend the class</li>
 <li>Changed <code>FPSDisplay.nextUpdate</code> from public to private (only needed internally)</li>
+<li>Changed default <code>FPSDisplay.refreshRate</code> from 1s to 0.125s</li>
 </ul>
 <h2>[1.3.0] - 2021/11/06</h2>
 <h3>Added</h3>
