@@ -39,12 +39,48 @@ jobs:
           ref: unity-package
           path: docs~
 
-      - name: Build docs
-        uses: ./docs~/.github/actions/build-docs
+      - name: Setup dotnet
+        uses: actions/setup-dotnet@v1
         with:
-          npm_token: ${{ secrets.token }}
-          package_base_path: ${{ inputs.package_base_path }}
-          package_title: ${{ inputs.package_title }}
+          dotnet-version: 3.1.x
+
+      - name: Setup docfx
+        uses: crazy-max/ghaction-chocolatey@v1
+        with:
+          args: install docfx
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14
+          cache: yarn
+          cache-dependency-path: docs~/yarn.lock
+
+      - name: Increase network timeout
+        run: yarn config set network-timeout 300000
+        env:
+          NPM_TOKEN: ${{ secrets.token }}
+
+      - name: Install dependencies
+        working-directory: docs~
+        run: yarn install --prefer-offline
+        env:
+          NPM_TOKEN: ${{ secrets.token }}
+
+      - name: Generate documentation
+        working-directory: docs~
+        run: yarn generate $env:PACKAGE_BASE_PATH $env:PACKAGE_TITLE
+        env:
+          NPM_TOKEN: ${{ secrets.token }}
+          PACKAGE_BASE_PATH: ${{ inputs.package_base_path }}
+          PACKAGE_TITLE: ${{ inputs.package_title }}
+
+      - name: Build docs
+        working-directory: docs~
+        continue-on-error: false
+        run: yarn build
+        env:
+          NPM_TOKEN: ${{ secrets.token }}
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
