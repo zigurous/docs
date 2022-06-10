@@ -16,7 +16,7 @@ on:
       artifact_workflow:
         type: string
         required: false
-        default: "generate_docs.yml"
+        default: "generate-docs.yml"
       artifact_name:
         type: string
         required: false
@@ -34,7 +34,7 @@ jobs:
         id: download_artifact
         uses: dawidd6/action-download-artifact@v2
         with:
-          github_token: ${{ secrets.DOCS_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           workflow: ${{ github.event.inputs.artifact_workflow }}
           commit: ${{ github.event.inputs.artifact_commit }}
           repo: ${{ github.event.inputs.artifact_repo }}
@@ -53,7 +53,7 @@ jobs:
         id: publish_pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.DOCS_TOKEN }}
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
           destination_dir: ${{ github.event.inputs.destination_path }}
           publish_branch: main
           publish_dir: docs

@@ -1,0 +1,81 @@
+name: Unity Package
+
+on:
+  workflow_call:
+    inputs:
+      package_base_path:
+        type: string
+        required: true
+      package_title:
+        type: string
+        required: true
+      package_workflow:
+        type: string
+        required: false
+        default: "generate-docs.yml"
+      package_artifact:
+        type: string
+        required: false
+        default: "docs"
+    secrets:
+      token:
+        required: true
+
+jobs:
+  build:
+    name: Build
+    runs-on: windows-latest
+    steps:
+      - name: Checkout package
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.token }}
+
+      - name: Checkout docs template
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.token }}
+          repository: zigurous/docs-template
+          ref: unity-package
+          path: docs~
+
+      - name: Build docs
+        uses: ./docs~/.github/actions/build-docs
+        with:
+          npm_token: ${{ secrets.token }}
+          package_base_path: ${{ inputs.package_base_path }}
+          package_title: ${{ inputs.package_title }}
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: docs
+          path: docs~/public
+
+  publish:
+    name: Publish
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch workflow
+        uses: actions/github-script@v6
+        env:
+          PACKAGE_BASE_PATH: ${{ inputs.package_base_path }}
+          PACKAGE_WORKFLOW: ${{ inputs.package_workflow }}
+          PACKAGE_ARTIFACT: ${{ inputs.package_artifact }}
+        with:
+          github-token: ${{ secrets.token }}
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: 'zigurous',
+              repo: 'docs',
+              ref: 'main',
+              workflow_id: 'publish-artifact.yml',
+              inputs: {
+                destination_path: process.env.PACKAGE_BASE_PATH,
+                artifact_workflow: process.env.PACKAGE_WORKFLOW,
+                artifact_name: process.env.PACKAGE_ARTIFACT,
+                artifact_repo: process.env.GITHUB_REPOSITORY,
+                artifact_commit: process.env.GITHUB_SHA
+              }
+            })
