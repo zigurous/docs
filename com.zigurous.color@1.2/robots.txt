@@ -1,0 +1,4 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+Sitemap: https://docs.zigurous.com/com.zigurous.color@1.2/sitemap/sitemap-index.xml
