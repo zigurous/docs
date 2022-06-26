@@ -2,43 +2,50 @@
 <p>Color harmonies are combinations of colors that create aesthetically pleasing contrasts and consonances that are said to be harmonious. The <strong>Color Pro</strong> package includes several extension methods declared in the static class <a href="/com.zigurous.color/api/Zigurous.ColorPro/Harmonies">Harmonies</a> for generating common color harmonies.</p>
 <hr/>
 <h2>Monochromatic</h2>
-<p><img src="https://www.color-meanings.com/wp-content/uploads/monochromatic-color-scheme.webp" width="100"> A set of tints and shades formed from a base color.</p>
+<p>A set of tints and shades formed from a base color.</p>
+<img src="/com.zigurous.color/static/bd91ccae165967a5fe010e7662d7012e/monochromatic.webp" width="100">
 <pre><code class="language-csharp">Color[] harmony = baseColor.Monochromatic(10, 0.5f); // 10 colors with a 50% spread
 baseColor.MonochromaticNonAlloc(outputArray); // prevent heap allocations
 </code></pre>
 <hr/>
 <h2>Analogous</h2>
-<p><img src="https://www.color-meanings.com/wp-content/uploads/analogous-color-scheme.webp" width="100"> A set of colors located next to each other on the color wheel.</p>
+<p>A set of colors located next to each other on the color wheel.</p>
+<img src="/com.zigurous.color/static/8f0edc04d7286445d8689f619bc37bf4/analogous.webp" width="100">
 <pre><code class="language-csharp">Color[] harmony = baseColor.Analogous(3, 30); // 3 colors with 30° hue shift each
 baseColor.AnalogousNonAlloc(outputArray, 30); // prevent heap allocations
 </code></pre>
 <hr/>
 <h2>Complementary</h2>
-<p><img src="https://www.color-meanings.com/wp-content/uploads/complementary-color-scheme.webp" width="100"> Two colors located opposite to each other on the color wheel.</p>
+<p>Two colors located opposite to each other on the color wheel.</p>
+<img src="/com.zigurous.color/static/0c8f5f8db9038aba79d437ddaa5727b8/complementary.webp" width="100">
 <pre><code class="language-csharp">Color[] harmony = baseColor.Complementary();
 baseColor.ComplementaryNonAlloc(outputArray); // prevent heap allocations
 </code></pre>
 <hr/>
 <h2>Split Complementary</h2>
-<p><img src="https://www.color-meanings.com/wp-content/uploads/split-complementary-color-scheme-1.webp" width="100"> A base color with two colors adjacent to the directly opposing color on the color wheel.</p>
+<p>A base color with two colors adjacent to the directly opposing color on the color wheel.</p>
+<img src="/com.zigurous.color/static/d10b86d8092f17db6d9cd541297a9cae/split-complementary.webp" width="100">
 <pre><code class="language-csharp">Color[] harmony = baseColor.SplitComplementary();
 baseColor.SplitComplementaryNonAlloc(outputArray); // prevent heap allocations
 </code></pre>
 <hr/>
 <h2>Double Split Complementary</h2>
-<p><img src="https://www.color-meanings.com/wp-content/uploads/tetrad-color-scheme-1.webp" width="100"> Two pairs of complementary colors on either side of a base color.</p>
+<p>Two pairs of complementary colors on either side of a base color.</p>
+<img src="/com.zigurous.color/static/c6ddb63733d8f0a6ccb4d98c3da4c3c7/double-split-complementary.webp" width="100">
 <pre><code class="language-csharp">Color[] harmony = baseColor.DoubleSplitComplementary();
 baseColor.DoubleSplitComplementaryNonAlloc(outputArray); // prevent heap allocations
 </code></pre>
 <hr/>
 <h2>Triadic</h2>
-<p><img src="https://www.color-meanings.com/wp-content/uploads/triad-color-scheme.webp" width="100"> Three colors evenly spaced around the color wheel to form a triangle (120° shift).</p>
+<p>Three colors evenly spaced around the color wheel to form a triangle (120° shift).</p>
+<img src="/com.zigurous.color/static/621b1ec3e8e469850de62c905b12b5e6/triadic.webp" width="100">
 <pre><code class="language-csharp">Color[] harmony = baseColor.Triadic();
 baseColor.TriadicNonAlloc(outputArray); // prevent heap allocations
 </code></pre>
 <hr/>
 <h2>Square</h2>
-<p><img src="https://www.color-meanings.com/wp-content/uploads/square-color-scheme-1.webp" width="100"> Four colors evenly spaced around the color wheel to form a square (90° shift).</p>
+<p>Four colors evenly spaced around the color wheel to form a square (90° shift).</p>
+<img src="/com.zigurous.color/static/7b38858117ad744ddc9b01bf3efbf168/square.webp" width="100">
 <pre><code class="language-csharp">Color[] harmony = baseColor.Square();
 baseColor.SquareNonAlloc(outputArray); // prevent heap allocations
 </code></pre></div></article></main><aside class="table-of-contents"></aside></div></div></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/manual/harmonies";window.___webpackCompilationHash="e3e589374fd89856c15c";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-f0e6c2cea4575e56f896.js"],"app":["/app-11d485349b938f4b36e4.js"],"component---src-pages-404-js":["/component---src-pages-404-js-1cd9046ab846037335ac.js"],"component---src-pages-api-index-js":["/component---src-pages-api-index-js-1f43558aad59f0fa9c9f.js"],"component---src-pages-index-js":["/component---src-pages-index-js-17425d7a0872f4f33d48.js"],"component---src-pages-markdown-remark-frontmatter-slug-js":["/component---src-pages-markdown-remark-frontmatter-slug-js-e5e72242c37673b69dea.js"],"component---src-templates-api-js":["/component---src-templates-api-js-c6f9c3c69147945ede7d.js"]};/*]]>*/</script><script src="/com.zigurous.color/polyfill-f0e6c2cea4575e56f896.js" nomodule=""></script><script src="/com.zigurous.color/app-11d485349b938f4b36e4.js" async=""></script><script src="/com.zigurous.color/framework-1d8cf0e4770d973e3687.js" async=""></script><script src="/com.zigurous.color/webpack-runtime-de22585d76193ab6c338.js" async=""></script></body></html>
