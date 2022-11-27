@@ -45,7 +45,7 @@ jobs:
           dotnet-version: 3.1.x
 
       - name: Setup docfx
-        uses: crazy-max/ghaction-chocolatey@v1
+        uses: crazy-max/ghaction-chocolatey@v2
         with:
           args: install docfx
 
