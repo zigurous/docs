@@ -2,6 +2,49 @@
 <p>All notable changes to this project will be documented in this file.</p>
 <p>The format is based on <a href="https://keepachangelog.com/en/1.0.0/" target="_blank" rel="nofollow noopener noreferrer">Keep a Changelog</a>,
 and this project adheres to <a href="https://semver.org/spec/v2.0.0.html" target="_blank" rel="nofollow noopener noreferrer">Semantic Versioning</a>.</p>
+<h2>[1.8.0] - 2022/11/30</h2>
+<h2>Added</h2>
+<ul>
+<li>New <code>BillboardRotation</code> behavior</li>
+<li>New <code>AnimatedMaterialTiling</code> behavior</li>
+<li>New behaviors to rotate based on user input (Input System dependency added)
+<ul>
+<li><code>InputRotation</code></li>
+<li><code>LookAtMouse</code></li>
+</ul>
+</li>
+<li>New match transform behaviors
+<ul>
+<li><code>MatchPosition</code></li>
+<li><code>MatchRotation</code></li>
+<li><code>MatchScale</code></li>
+<li><code>MatchTransform</code></li>
+</ul>
+</li>
+<li>New lock transform behaviors
+<ul>
+<li><code>LockPosition</code></li>
+<li><code>LockRotation</code></li>
+<li><code>LockScale</code></li>
+<li><code>LockTransform</code></li>
+</ul>
+</li>
+<li>Optional axis constraints added to <code>SmoothFollow</code> and <code>SmoothLookAt</code></li>
+<li>Option to change coordinate space for most animation behaviors</li>
+<li>Help URLs added to every behavior script</li>
+</ul>
+<h2>Changed</h2>
+<ul>
+<li>Default execution order set to +100 for behaviors using LateUpdate</li>
+<li>Update strategies hidden from component menu</li>
+<li>Renamed <code>UpdateBehavior</code> to <code>UpdateBehaviour</code></li>
+<li>Documentation changes</li>
+</ul>
+<h2>Removed</h2>
+<ul>
+<li>Deleted <code>Parameter</code> static class</li>
+<li>Deleted internal <code>Processors</code> class</li>
+</ul>
 <h2>[1.7.0] - 2022/05/20</h2>
 <h3>Added</h3>
 <ul>
