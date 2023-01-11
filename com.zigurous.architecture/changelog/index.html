@@ -2,6 +2,34 @@
 <p>All notable changes to this project will be documented in this file.</p>
 <p>The format is based on <a href="https://keepachangelog.com/en/1.0.0/" target="_blank" rel="nofollow noopener noreferrer">Keep a Changelog</a>,
 and this project adheres to <a href="https://semver.org/spec/v2.0.0.html" target="_blank" rel="nofollow noopener noreferrer">Semantic Versioning</a>.</p>
+<h2>[1.1.0] - 2023/01/10</h2>
+<h3>Added</h3>
+<ul>
+<li>Classes <code>PercentageVariable</code> and <code>PercentageReference</code>
+<ul>
+<li>Uses floats in the range [0..1]</li>
+<li>Custom editor property drawer that uses a slider</li>
+</ul>
+</li>
+<li>Functions <code>SetFixedValue</code> and <code>SetVariable</code> on <code>ValueReference</code></li>
+<li>Virtual property <code>defaultValue</code> on <code>ScriptableVariable</code></li>
+<li>Function <code>ResetToDefault</code> on <code>ScriptableVariable</code></li>
+<li>Array and list extension method <code>IndexOf</code> to get the index of an element/item using a custom predicate</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>Renamed <code>TimerBehaviour</code> to <code>TimedBehaviour</code></li>
+<li>Renamed <code>constantValue</code> to <code>fixedValue</code> in <code>ValueReference</code></li>
+<li>Renamed <code>useConstant</code> to <code>useVariable</code> in <code>ValueReference</code>
+<ul>
+<li>Defaults to <code>false</code> instead of <code>true</code> to match the existing logic</li>
+</ul>
+</li>
+<li>Renamed array and list extension method <code>IsAny</code> to <code>Contains</code></li>
+<li>Renamed array and list extension method <code>IsEach</code> to <code>ContainsAll</code></li>
+<li>Capitalized various property names</li>
+<li>Fixed documentation typos and grammar</li>
+</ul>
 <h2>[1.0.0] - 2022/11/27</h2>
 <ul>
 <li>Initial release</li>
