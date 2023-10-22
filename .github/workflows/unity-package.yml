@@ -55,6 +55,8 @@ jobs:
           node-version: 14
           cache: yarn
           cache-dependency-path: docs~/yarn.lock
+        env:
+          NPM_TOKEN: ${{ secrets.token }}
 
       - name: Increase network timeout
         run: yarn config set network-timeout 300000
