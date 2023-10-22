@@ -1,0 +1,4 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+Sitemap: https://docs.zigurous.com/com.zigurous.physics@0.4.0/sitemap/sitemap-index.xml
