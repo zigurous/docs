@@ -2,7 +2,7 @@
 
 Thank you for checking out our documentation. Each of our Unity packages has their own respective documentation including a Scripting API and Manual. See the tables below.
 
-We want to ensure our assets are clear and easy to use. Connect with us and the community on [Discord](https://discord.gg/DdYyWVb) if you need further support. Let us know how we can improve our assets and documentation.
+We want to ensure our assets are clear and easy to use. Review the open [issues](https://github.com/zigurous/docs/issues) or submit a new issue if you need further support. Let us know how we can improve our assets and documentation.
 
 | Name                                                                        | Identifier                                                                          | Release                                                                                                                                                  | Source                                                                                                                   |
 | :-------------------------------------------------------------------------- | :---------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------- |
